@@ -1,0 +1,1875 @@
+{
+ "NVIDIA": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{ublist | Semiconductors | Artificial intelligence | Computer hardware }}",
+  "source": "https://en.wikipedia.org/wiki/Nvidia"
+ },
+ "Apple": {
+  "sector": "Chips & hardware",
+  "industry_text": "Technology",
+  "source": "https://en.wikipedia.org/wiki/Apple_Inc.",
+  "set_by_hand": "infobox says only 'Technology'; Apple's revenue is mostly iPhone and Mac hardware"
+ },
+ "Microsoft": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology",
+  "source": "https://en.wikipedia.org/wiki/Microsoft"
+ },
+ "Alphabet (Google)": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{Unbulleted list | Internet | Cloud computing | Computer software | Computer hardware | Artificial intelligence | Advertising }}",
+  "source": "https://en.wikipedia.org/wiki/Google"
+ },
+ "Amazon": {
+  "sector": "Software & internet",
+  "industry_text": "{{hlist| Conglomerate }}",
+  "source": "https://en.wikipedia.org/wiki/Amazon_(company)",
+  "set_by_hand": "infobox says 'Conglomerate'; Amazon began and is best known as an online store and cloud provider"
+ },
+ "TSMC": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/TSMC"
+ },
+ "SpaceX": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "{{ubil | Space | Telecommunications | Artificial intelligence }}",
+  "source": "https://en.wikipedia.org/wiki/SpaceX",
+  "set_by_hand": "rockets and satellites"
+ },
+ "Tesla": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "{{Unbulleted list | Automotive | Renewable energy }}",
+  "source": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+  "set_by_hand": "cars and batteries"
+ },
+ "Meta Platforms (Facebook)": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{ublist| * Social media * Advertising * Artificial intelligence * Consumer electronics }}",
+  "source": "https://en.wikipedia.org/wiki/Meta_Platforms"
+ },
+ "Micron Technology": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/Micron_Technology"
+ },
+ "AMD": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{ubl|Semiconductors|Computer hardware}}",
+  "source": "https://en.wikipedia.org/wiki/AMD"
+ },
+ "Walmart": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail",
+  "source": "https://en.wikipedia.org/wiki/Walmart"
+ },
+ "Intel": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/Intel"
+ },
+ "Palantir": {
+  "sector": "Software & internet",
+  "industry_text": "Software, AI",
+  "source": "https://en.wikipedia.org/wiki/Palantir"
+ },
+ "CXMT": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/ChangXin_Memory_Technologies"
+ },
+ "Tencent": {
+  "sector": "Software & internet",
+  "industry_text": "Conglomerate",
+  "source": "https://en.wikipedia.org/wiki/Tencent",
+  "set_by_hand": "infobox lists video games first; Tencent is WeChat, games and online services"
+ },
+ "Oracle": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology",
+  "source": "https://en.wikipedia.org/wiki/Oracle_Corporation"
+ },
+ "Costco": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail",
+  "source": "https://en.wikipedia.org/wiki/Costco"
+ },
+ "Cisco": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{ublist| * Computer networking * Telecommunications equipment * Networking hardware * Computer software * Cybersecurity * Cloud computing }}",
+  "source": "https://en.wikipedia.org/wiki/Cisco"
+ },
+ "UnitedHealth": {
+  "sector": "Health & biotech",
+  "industry_text": "{{ublist | Healthcare | Managed care | Insurance }}",
+  "source": "https://en.wikipedia.org/wiki/UnitedHealth_Group"
+ },
+ "Applied Materials": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{ubl|Semiconductor equipment|Display manufacturing equipment}}",
+  "source": "https://en.wikipedia.org/wiki/Applied_Materials"
+ },
+ "Palo Alto Networks": {
+  "sector": "Software & internet",
+  "industry_text": "Network security Cybersecurity Cloud computing",
+  "source": "https://en.wikipedia.org/wiki/Palo_Alto_Networks"
+ },
+ "Lam Research": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/Lam_Research"
+ },
+ "Home Depot": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail (home improvement)",
+  "source": "https://en.wikipedia.org/wiki/Home_Depot"
+ },
+ "Dell": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology",
+  "source": "https://en.wikipedia.org/wiki/Dell_Technologies"
+ },
+ "SAP": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology",
+  "source": "https://en.wikipedia.org/wiki/SAP"
+ },
+ "CrowdStrike": {
+  "sector": "Software & internet",
+  "industry_text": "Information security",
+  "source": "https://en.wikipedia.org/wiki/CrowdStrike"
+ },
+ "Netflix": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "{{ubl|Media|Entertainment}}",
+  "source": "https://en.wikipedia.org/wiki/Netflix,_Inc."
+ },
+ "Alibaba": {
+  "sector": "Software & internet",
+  "industry_text": "{{ublist| * E-commerce * Retail * Internet * Cloud computing * Artificial intelligence * Digital media * Logistics }}",
+  "source": "https://en.wikipedia.org/wiki/Alibaba_Group"
+ },
+ "Arista Networks": {
+  "sector": "Chips & hardware",
+  "industry_text": "Networking hardware",
+  "source": "https://en.wikipedia.org/wiki/Arista_Networks"
+ },
+ "Marvell Technology": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/Marvell_Technology"
+ },
+ "Shopify": {
+  "sector": "Software & internet",
+  "industry_text": "E-commerce",
+  "source": "https://en.wikipedia.org/wiki/Shopify"
+ },
+ "Analog Devices": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/Analog_Devices"
+ },
+ "Sandisk": {
+  "sector": "Chips & hardware",
+  "industry_text": "Computer hardware",
+  "source": "https://en.wikipedia.org/wiki/Sandisk"
+ },
+ "Salesforce": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology",
+  "source": "https://en.wikipedia.org/wiki/Salesforce"
+ },
+ "Gilead Sciences": {
+  "sector": "Health & biotech",
+  "industry_text": "{{ubl|Pharmaceutics|Biotechnology}}",
+  "source": "https://en.wikipedia.org/wiki/Gilead_Sciences"
+ },
+ "Inditex": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail",
+  "source": "https://en.wikipedia.org/wiki/Inditex"
+ },
+ "QUALCOMM": {
+  "sector": "Chips & hardware",
+  "industry_text": "Telecoms equipments Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/Qualcomm"
+ },
+ "BlackRock": {
+  "sector": "Money & finance",
+  "industry_text": "Investment management",
+  "source": "https://en.wikipedia.org/wiki/BlackRock"
+ },
+ "SoftBank Group Corp.": {
+  "sector": "Money & finance",
+  "industry_text": "{{ublist|Conglomerate|Holding company|Venture capital}}",
+  "source": "https://en.wikipedia.org/wiki/SoftBank_Group",
+  "set_by_hand": "holding company and venture capital investor"
+ },
+ "Recruit": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Professional services",
+  "source": "https://en.wikipedia.org/wiki/Recruit_(company)"
+ },
+ "Danaher": {
+  "sector": "Health & biotech",
+  "industry_text": "Healthcare industry",
+  "source": "https://en.wikipedia.org/wiki/Danaher_Corporation"
+ },
+ "T-Mobile US": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Telecommunications",
+  "source": "https://en.wikipedia.org/wiki/T-Mobile_US"
+ },
+ "CATL": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electric battery",
+  "source": "https://en.wikipedia.org/wiki/CATL"
+ },
+ "Seagate Technology": {
+  "sector": "Chips & hardware",
+  "industry_text": "Computer storage",
+  "source": "https://en.wikipedia.org/wiki/Seagate_Technology"
+ },
+ "Intuitive Surgical": {
+  "sector": "Health & biotech",
+  "industry_text": "Medical Appliances & Equipment",
+  "source": "https://en.wikipedia.org/wiki/Intuitive_Surgical"
+ },
+ "ServiceNow": {
+  "sector": "Software & internet",
+  "industry_text": "Enterprise software",
+  "source": "https://en.wikipedia.org/wiki/ServiceNow"
+ },
+ "Charles Schwab": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation"
+ },
+ "TJX Companies": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail",
+  "source": "https://en.wikipedia.org/wiki/TJX"
+ },
+ "Western Digital": {
+  "sector": "Chips & hardware",
+  "industry_text": "Computer data storage",
+  "source": "https://en.wikipedia.org/wiki/Western_Digital"
+ },
+ "Ping An Insurance": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Ping_An_Insurance"
+ },
+ "Tokyo Electron": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electronics Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/Tokyo_Electron"
+ },
+ "Interactive Brokers": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Interactive_Brokers"
+ },
+ "Blackstone Group": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Blackstone_Inc."
+ },
+ "Vertex Pharmaceuticals": {
+  "sector": "Health & biotech",
+  "industry_text": "{{ubl|Pharmaceuticals | Biotherapeutics}}",
+  "source": "https://en.wikipedia.org/wiki/Vertex_Pharmaceuticals"
+ },
+ "Uber": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "{{ubl|Transportation |Mobility as a service}}",
+  "source": "https://en.wikipedia.org/wiki/Uber"
+ },
+ "Bharti Airtel": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Telecommunications",
+  "source": "https://en.wikipedia.org/wiki/Bharti_Airtel"
+ },
+ "Fortinet": {
+  "sector": "Software & internet",
+  "industry_text": "{{ubl|Cloud Security|Cybersecurity|Network Security}}",
+  "source": "https://en.wikipedia.org/wiki/Fortinet"
+ },
+ "Capital One": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Capital_One"
+ },
+ "Prologis": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Real estate",
+  "source": "https://en.wikipedia.org/wiki/Prologis"
+ },
+ "Snowflake": {
+  "sector": "Software & internet",
+  "industry_text": "cloud computing",
+  "source": "https://www.wikidata.org/wiki/Q22078063"
+ },
+ "Delta Electronics": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electrical equipment",
+  "source": "https://en.wikipedia.org/wiki/Delta_Electronics"
+ },
+ "Starbucks": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Restaurant",
+  "source": "https://en.wikipedia.org/wiki/Starbucks"
+ },
+ "Keyence": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electronics",
+  "source": "https://en.wikipedia.org/wiki/Keyence"
+ },
+ "CVS Health": {
+  "sector": "Health & biotech",
+  "industry_text": "{{ublist | Healthcare | Managed care | Insurance | Retail }}",
+  "source": "https://en.wikipedia.org/wiki/CVS_Health"
+ },
+ "Booking Holdings (Booking.com)": {
+  "sector": "Software & internet",
+  "industry_text": "{{unbulleted list|Travel|Technology}}",
+  "source": "https://en.wikipedia.org/wiki/Booking_Holdings"
+ },
+ "Cloudflare": {
+  "sector": "Software & internet",
+  "industry_text": "Information and communications technology",
+  "source": "https://en.wikipedia.org/wiki/Cloudflare"
+ },
+ "BYD": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Conglomerate",
+  "source": "https://en.wikipedia.org/wiki/BYD_Company"
+ },
+ "Spotify": {
+  "sector": "Software & internet",
+  "industry_text": "{{Unbulleted list|Audio streaming|Podcasting}}",
+  "source": "https://en.wikipedia.org/wiki/Spotify"
+ },
+ "PDD Holdings (Pinduoduo)": {
+  "sector": "Software & internet",
+  "industry_text": "{{Unbulleted list| Internet | Agriculture }}",
+  "source": "https://en.wikipedia.org/wiki/Pinduoduo"
+ },
+ "Foxconn (Hon Hai Precision Industry)": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{ublist| * Electronics * Electronics manufacturing services }}",
+  "source": "https://en.wikipedia.org/wiki/Foxconn"
+ },
+ "HCA Healthcare": {
+  "sector": "Health & biotech",
+  "industry_text": "Healthcare",
+  "source": "https://en.wikipedia.org/wiki/HCA_Healthcare"
+ },
+ "Midea": {
+  "sector": "Chips & hardware",
+  "industry_text": "Home appliance Electrical devices",
+  "source": "https://en.wikipedia.org/wiki/Midea_Group"
+ },
+ "Datadog": {
+  "sector": "Software & internet",
+  "industry_text": "Software",
+  "source": "https://en.wikipedia.org/wiki/Datadog"
+ },
+ "Equinix": {
+  "sector": "Software & internet",
+  "industry_text": "Internet",
+  "source": "https://en.wikipedia.org/wiki/Equinix"
+ },
+ "Airbnb": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Lodging",
+  "source": "https://en.wikipedia.org/wiki/Airbnb"
+ },
+ "Adobe": {
+  "sector": "Software & internet",
+  "industry_text": "Software",
+  "source": "https://en.wikipedia.org/wiki/Adobe_Inc."
+ },
+ "ASE Group": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductor assembly, testing & packaging",
+  "source": "https://en.wikipedia.org/wiki/ASE_Group"
+ },
+ "Tata Consultancy Services": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology Consulting Outsourcing",
+  "source": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services"
+ },
+ "Cadence Design Systems": {
+  "sector": "Software & internet",
+  "industry_text": "Software",
+  "source": "https://en.wikipedia.org/wiki/Cadence_Design_Systems"
+ },
+ "Agnico Eagle Mines": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Mining & Gold Producers & Products Manufacturing",
+  "source": "https://en.wikipedia.org/wiki/Agnico_Eagle"
+ },
+ "Synopsys": {
+  "sector": "Software & internet",
+  "industry_text": "{{Plainlist | * Integrated circuit * Software as a service * Software testing * Internet of Things }}",
+  "source": "https://en.wikipedia.org/wiki/Synopsys"
+ },
+ "Waste Management": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Waste management",
+  "source": "https://en.wikipedia.org/wiki/Waste_Management,_Inc."
+ },
+ "Intuit": {
+  "sector": "Money & finance",
+  "industry_text": "Financial software",
+  "source": "https://en.wikipedia.org/wiki/Intuit"
+ },
+ "Intercontinental Exchange": {
+  "sector": "Money & finance",
+  "industry_text": "{{unbulleted list|class=nowrap|Financial services|Financial markets}}",
+  "source": "https://en.wikipedia.org/wiki/Intercontinental_Exchange"
+ },
+ "AppLovin": {
+  "sector": "Software & internet",
+  "industry_text": "Mobile technology",
+  "source": "https://en.wikipedia.org/wiki/AppLovin"
+ },
+ "Cambricon Technologies": {
+  "sector": "Chips & hardware",
+  "industry_text": "GPUs",
+  "source": "https://en.wikipedia.org/wiki/Cambricon_Technologies"
+ },
+ "KKR & Co.": {
+  "sector": "Money & finance",
+  "industry_text": "'''Financial services:''' Private equity Credit Infrastructure Real estate Capital markets",
+  "source": "https://en.wikipedia.org/wiki/KKR_&_Co."
+ },
+ "Moderna": {
+  "sector": "Health & biotech",
+  "industry_text": "Biotechnology",
+  "source": "https://en.wikipedia.org/wiki/Moderna"
+ },
+ "Glencore": {
+  "sector": "Money & finance",
+  "industry_text": "{{Plainlist| * Mining * Metals * Commodity trading * Natural resources }}",
+  "source": "https://en.wikipedia.org/wiki/Glencore"
+ },
+ "MercadoLibre": {
+  "sector": "Software & internet",
+  "industry_text": "E-commerce",
+  "source": "https://en.wikipedia.org/wiki/MercadoLibre"
+ },
+ "Regeneron Pharmaceuticals": {
+  "sector": "Health & biotech",
+  "industry_text": "{{ubl|Pharmaceuticals| Biotech}}",
+  "source": "https://en.wikipedia.org/wiki/Regeneron_Pharmaceuticals"
+ },
+ "Xiaomi": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{plainlist| * Consumer electronics * Computer hardware * Automotive * Artificial intelligence * Crowdfunding * E-commerce}}",
+  "source": "https://en.wikipedia.org/wiki/Xiaomi"
+ },
+ "Robinhood": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Robinhood_Markets"
+ },
+ "Enterprise Products": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Oil and gas",
+  "source": "https://en.wikipedia.org/wiki/Enterprise_Products"
+ },
+ "Simon Property Group": {
+  "sector": "Money & finance",
+  "industry_text": "Real estate investment trust (REIT)",
+  "source": "https://en.wikipedia.org/wiki/Simon_Property_Group"
+ },
+ "Royal Caribbean Group": {
+  "sector": "Health & biotech",
+  "industry_text": "{{Unbulleted list | Hospitality | Travel | Tourism }}",
+  "source": "https://en.wikipedia.org/wiki/Royal_Caribbean_Group"
+ },
+ "Comcast": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "{{ubl|Telecommunications|Media|Entertainment}}",
+  "source": "https://en.wikipedia.org/wiki/Comcast"
+ },
+ "Kinder Morgan": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Oil and gas",
+  "source": "https://en.wikipedia.org/wiki/Kinder_Morgan"
+ },
+ "WuXi AppTec": {
+  "sector": "Health & biotech",
+  "industry_text": "Contract Research Organizations Pharmaceutical Biopharmaceutical Medical Devices",
+  "source": "https://en.wikipedia.org/wiki/WuXi_AppTec"
+ },
+ "DoorDash": {
+  "sector": "Software & internet",
+  "industry_text": "Online food ordering",
+  "source": "https://en.wikipedia.org/wiki/DoorDash"
+ },
+ "United Rentals": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "equipment rental",
+  "source": "https://www.wikidata.org/wiki/Q7889101"
+ },
+ "FedEx": {
+  "sector": "Software & internet",
+  "industry_text": "{{Ubl|E-commerce|Services|Transportation}}",
+  "source": "https://en.wikipedia.org/wiki/FedEx"
+ },
+ "NetEase": {
+  "sector": "Software & internet",
+  "industry_text": "Internet",
+  "source": "https://en.wikipedia.org/wiki/NetEase"
+ },
+ "Energy Transfer LP": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Petroleum industry",
+  "source": "https://en.wikipedia.org/wiki/Energy_Transfer"
+ },
+ "SoftBank Corp.": {
+  "sector": "Money & finance",
+  "industry_text": "{{ublist|Conglomerate|Holding company|Venture capital}}",
+  "source": "https://en.wikipedia.org/wiki/SoftBank_Group"
+ },
+ "Vingroup Company": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Conglomerate",
+  "source": "https://en.wikipedia.org/wiki/Vingroup"
+ },
+ "Bloom Energy": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Renewable energy",
+  "source": "https://en.wikipedia.org/wiki/Bloom_Energy"
+ },
+ "Apollo Global Management": {
+  "sector": "Money & finance",
+  "industry_text": "Asset management",
+  "source": "https://en.wikipedia.org/wiki/Apollo_Global_Management"
+ },
+ "Aon": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Aon_plc"
+ },
+ "Carvana": {
+  "sector": "Software & internet",
+  "industry_text": "E-commerce",
+  "source": "https://en.wikipedia.org/wiki/Carvana"
+ },
+ "Barrick Gold": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Metals and mining",
+  "source": "https://en.wikipedia.org/wiki/Barrick_Mining"
+ },
+ "KDDI": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Telecommunications",
+  "source": "https://en.wikipedia.org/wiki/KDDI"
+ },
+ "TransDigm Group": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Aerospace components",
+  "source": "https://en.wikipedia.org/wiki/TransDigm_Group"
+ },
+ "Bajaj Finance": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Bajaj_Finance"
+ },
+ "Cheniere Energy": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Energy, natural gas",
+  "source": "https://en.wikipedia.org/wiki/Cheniere_Energy"
+ },
+ "Boston Scientific": {
+  "sector": "Health & biotech",
+  "industry_text": "Medical device",
+  "source": "https://en.wikipedia.org/wiki/Boston_Scientific"
+ },
+ "Natera": {
+  "sector": "Health & biotech",
+  "industry_text": "Genetic testing",
+  "source": "https://en.wikipedia.org/wiki/Natera"
+ },
+ "Monolithic Power Systems": {
+  "sector": "Chips & hardware",
+  "industry_text": "Power semiconductor",
+  "source": "https://en.wikipedia.org/wiki/Monolithic_Power_Systems"
+ },
+ "Fastenal": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "",
+  "source": "https://www.wikidata.org/wiki/Q3067119",
+  "set_by_hand": "no industry field; distributes industrial and construction supplies"
+ },
+ "Public Storage": {
+  "sector": "Money & finance",
+  "industry_text": "{{Unbulleted list|Real estate investment trust| self storage}}",
+  "source": "https://en.wikipedia.org/wiki/Public_Storage"
+ },
+ "Nu Holdings": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Nubank"
+ },
+ "Hyundai": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Automotive",
+  "source": "https://en.wikipedia.org/wiki/Hyundai_Motor_Company"
+ },
+ "Nongfu Spring": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Beverages",
+  "source": "https://en.wikipedia.org/wiki/Nongfu_Spring"
+ },
+ "Cardinal Health": {
+  "sector": "Health & biotech",
+  "industry_text": "{{Plainlist| * Health care * Pharmaceutical distribution * Medical devices }}",
+  "source": "https://en.wikipedia.org/wiki/Cardinal_Health"
+ },
+ "Devon Energy": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Petroleum industry",
+  "source": "https://en.wikipedia.org/wiki/Devon_Energy"
+ },
+ "Argenx": {
+  "sector": "Health & biotech",
+  "industry_text": "Biotechnology",
+  "source": "https://en.wikipedia.org/wiki/Argenx"
+ },
+ "Luxshare Precision": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electronic connector manufacturing",
+  "source": "https://en.wikipedia.org/wiki/Luxshare"
+ },
+ "Atlassian": {
+  "sector": "Software & internet",
+  "industry_text": "Software",
+  "source": "https://en.wikipedia.org/wiki/Atlassian"
+ },
+ "Nike": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "{{unbulleted list|class=nowrap|Apparel|Accessories|Sports equipment}}",
+  "source": "https://en.wikipedia.org/wiki/Nike,_Inc."
+ },
+ "Meituan": {
+  "sector": "Software & internet",
+  "industry_text": "Internet company",
+  "source": "https://en.wikipedia.org/wiki/Meituan"
+ },
+ "Realty Income": {
+  "sector": "Money & finance",
+  "industry_text": "Real estate investment trust",
+  "source": "https://en.wikipedia.org/wiki/Realty_Income"
+ },
+ "Lukoil": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Oil and gas",
+  "source": "https://en.wikipedia.org/wiki/Lukoil"
+ },
+ "Cathay Financial Holding": {
+  "sector": "Money & finance",
+  "industry_text": "Life insurance",
+  "source": "https://en.wikipedia.org/wiki/Cathay_Life_Insurance"
+ },
+ "Garmin": {
+  "sector": "Chips & hardware",
+  "industry_text": "Technology Consumer electronics Software services Online services",
+  "source": "https://en.wikipedia.org/wiki/Garmin"
+ },
+ "eBay": {
+  "sector": "Software & internet",
+  "industry_text": "E-commerce",
+  "source": "https://en.wikipedia.org/wiki/EBay"
+ },
+ "Alimentation Couche-Tard": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail",
+  "source": "https://en.wikipedia.org/wiki/Couche-Tard"
+ },
+ "BTG Pactual": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/BTG_Pactual"
+ },
+ "Astera Labs": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{Unbulleted list| Semiconductors| Artificial intelligence}}",
+  "source": "https://en.wikipedia.org/wiki/Astera_Labs"
+ },
+ "Ciena": {
+  "sector": "Chips & hardware",
+  "industry_text": "Networking systems & software",
+  "source": "https://en.wikipedia.org/wiki/Ciena"
+ },
+ "Veeva Systems": {
+  "sector": "Health & biotech",
+  "industry_text": "Software for life sciences",
+  "source": "https://en.wikipedia.org/wiki/Veeva_Systems"
+ },
+ "AutoZone": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail",
+  "source": "https://en.wikipedia.org/wiki/AutoZone"
+ },
+ "Autodesk": {
+  "sector": "Software & internet",
+  "industry_text": "Software",
+  "source": "https://en.wikipedia.org/wiki/Autodesk"
+ },
+ "Humana": {
+  "sector": "Health & biotech",
+  "industry_text": "{{ubl|Managed healthcare|Insurance}}",
+  "source": "https://en.wikipedia.org/wiki/Humana"
+ },
+ "Workday": {
+  "sector": "Software & internet",
+  "industry_text": "{{ubl|Cloud computing|Enterprise software}}",
+  "source": "https://en.wikipedia.org/wiki/Workday,_Inc."
+ },
+ "SMIC": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/Semiconductor_Manufacturing_International_Corporation"
+ },
+ "Teradyne": {
+  "sector": "Chips & hardware",
+  "industry_text": "Test & automation",
+  "source": "https://en.wikipedia.org/wiki/Teradyne"
+ },
+ "Infosys": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology Consulting Outsourcing",
+  "source": "https://en.wikipedia.org/wiki/Infosys"
+ },
+ "Kotak Mahindra Bank": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Kotak_Mahindra_Bank"
+ },
+ "Hikvision": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Video surveillance Manufacturing",
+  "source": "https://en.wikipedia.org/wiki/Hikvision"
+ },
+ "PayPal": {
+  "sector": "Money & finance",
+  "industry_text": "Financial technology",
+  "source": "https://en.wikipedia.org/wiki/PayPal"
+ },
+ "United Microelectronics": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductor Foundry",
+  "source": "https://en.wikipedia.org/wiki/United_Microelectronics_Corporation"
+ },
+ "Vivmark Residential": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Apartments",
+  "source": "https://en.wikipedia.org/wiki/Vivmark_Residential"
+ },
+ "Sea Limited": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Conglomerate",
+  "source": "https://en.wikipedia.org/wiki/Sea_Ltd"
+ },
+ "IQVIA": {
+  "sector": "Health & biotech",
+  "industry_text": "Contract Research Organization Pharmaceutical Service, AI, IT, Consulting",
+  "source": "https://en.wikipedia.org/wiki/IQVIA"
+ },
+ "Adani Ports & SEZ": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Infrastructure",
+  "source": "https://en.wikipedia.org/wiki/Adani_Ports_&_SEZ"
+ },
+ "ArcelorMittal": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Steel industry",
+  "source": "https://en.wikipedia.org/wiki/ArcelorMittal"
+ },
+ "Block": {
+  "sector": "Money & finance",
+  "industry_text": "{{collapsible list|title=List of industries|Financial services|Point of sale|E-commerce|Digital wallet|Buy now, pay later|Music streaming}}",
+  "source": "https://en.wikipedia.org/wiki/Block,_Inc."
+ },
+ "Sun Pharmaceutical": {
+  "sector": "Health & biotech",
+  "industry_text": "Pharmaceuticals",
+  "source": "https://en.wikipedia.org/wiki/Sun_Pharma"
+ },
+ "IDEXX Laboratories": {
+  "sector": "Health & biotech",
+  "industry_text": "Healthcare",
+  "source": "https://en.wikipedia.org/wiki/Idexx_Laboratories"
+ },
+ "NetApp": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{Unbulleted list| Cloud computing | Storage device }}",
+  "source": "https://en.wikipedia.org/wiki/NetApp"
+ },
+ "Illumina": {
+  "sector": "Health & biotech",
+  "industry_text": "Biotechnology",
+  "source": "https://en.wikipedia.org/wiki/Illumina,_Inc."
+ },
+ "Medline": {
+  "sector": "Health & biotech",
+  "industry_text": "Healthcare",
+  "source": "https://en.wikipedia.org/wiki/Medline_Inc."
+ },
+ "Novatek": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Oil and gas",
+  "source": "https://en.wikipedia.org/wiki/Novatek"
+ },
+ "ASM International": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductor industry",
+  "source": "https://en.wikipedia.org/wiki/ASM_International"
+ },
+ "Coinbase": {
+  "sector": "Money & finance",
+  "industry_text": "Cryptocurrency",
+  "source": "https://en.wikipedia.org/wiki/Coinbase"
+ },
+ "East Money Information": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services, technology",
+  "source": "https://en.wikipedia.org/wiki/East_Money"
+ },
+ "BeOne Medicines": {
+  "sector": "Health & biotech",
+  "industry_text": "",
+  "source": "https://www.wikidata.org/wiki/Q30260298",
+  "set_by_hand": "no industry field; cancer-drug maker, formerly BeiGene"
+ },
+ "Titan Company": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Lifestyle",
+  "source": "https://en.wikipedia.org/wiki/Titan_Company",
+  "set_by_hand": "infobox says 'Lifestyle'; Titan sells watches and jewellery"
+ },
+ "Zscaler": {
+  "sector": "Software & internet",
+  "industry_text": "Network security, computer security, Internet security",
+  "source": "https://en.wikipedia.org/wiki/Zscaler"
+ },
+ "Ares Management": {
+  "sector": "Money & finance",
+  "industry_text": "Asset Management",
+  "source": "https://en.wikipedia.org/wiki/Ares_Management"
+ },
+ "Sysco": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Wholesale",
+  "source": "https://en.wikipedia.org/wiki/Sysco"
+ },
+ "HCL Technologies": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology",
+  "source": "https://en.wikipedia.org/wiki/HCLTech"
+ },
+ "Quanta Computer": {
+  "sector": "Chips & hardware",
+  "industry_text": "Computer hardware Electronics",
+  "source": "https://en.wikipedia.org/wiki/Quanta_Computer"
+ },
+ "D. R. Horton": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Home construction",
+  "source": "https://en.wikipedia.org/wiki/D._R._Horton"
+ },
+ "Sun Hung Kai Properties": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Real estate",
+  "source": "https://en.wikipedia.org/wiki/Sun_Hung_Kai_Properties"
+ },
+ "WEG ON": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electrical equipment",
+  "source": "https://en.wikipedia.org/wiki/WEG_S.A."
+ },
+ "Goodman Group": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Commercial property",
+  "source": "https://en.wikipedia.org/wiki/Goodman_Group"
+ },
+ "Fairfax Financial": {
+  "sector": "Money & finance",
+  "industry_text": "Insurance",
+  "source": "https://en.wikipedia.org/wiki/Fairfax_Financial"
+ },
+ "Twilio": {
+  "sector": "Software & internet",
+  "industry_text": "Communications",
+  "source": "https://en.wikipedia.org/wiki/Twilio",
+  "set_by_hand": "infobox says 'Communications'; Twilio sells cloud software for texts and calls"
+ },
+ "Okta": {
+  "sector": "Software & internet",
+  "industry_text": "Software",
+  "source": "https://en.wikipedia.org/wiki/Okta,_Inc."
+ },
+ "Viking Holdings": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Travel and tourism",
+  "source": "https://en.wikipedia.org/wiki/Viking_(cruise_line)"
+ },
+ "Dollarama": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail",
+  "source": "https://en.wikipedia.org/wiki/Dollarama"
+ },
+ "Paychex": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "{{ubl|Business process outsourcing|Human capital management}}",
+  "source": "https://en.wikipedia.org/wiki/Paychex"
+ },
+ "EQT": {
+  "sector": "Money & finance",
+  "industry_text": "Investment management",
+  "source": "https://en.wikipedia.org/wiki/EQT_AB"
+ },
+ "Roblox": {
+  "sector": "Software & internet",
+  "industry_text": "Video games",
+  "source": "https://en.wikipedia.org/wiki/Roblox_Corporation"
+ },
+ "Carnival Corporation": {
+  "sector": "Health & biotech",
+  "industry_text": "Hospitality, tourism",
+  "source": "https://en.wikipedia.org/wiki/Carnival_Corporation"
+ },
+ "Adani Enterprises": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "",
+  "source": "https://www.wikidata.org/wiki/Q107646415",
+  "set_by_hand": "no industry field; flagship of an energy, mining and infrastructure group"
+ },
+ "Rocket Lab": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Launch service provider Aerospace manufacturer",
+  "source": "https://en.wikipedia.org/wiki/Rocket_Lab"
+ },
+ "Royalty Pharma": {
+  "sector": "Health & biotech",
+  "industry_text": "Biopharmaceuticals",
+  "source": "https://en.wikipedia.org/wiki/Royalty_Pharma"
+ },
+ "Take-Two Interactive": {
+  "sector": "Software & internet",
+  "industry_text": "Video games",
+  "source": "https://en.wikipedia.org/wiki/Take-Two_Interactive"
+ },
+ "Ubiquiti": {
+  "sector": "Chips & hardware",
+  "industry_text": "Computer networking",
+  "source": "https://en.wikipedia.org/wiki/Ubiquiti"
+ },
+ "Chipotle Mexican Grill": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Restaurants",
+  "source": "https://en.wikipedia.org/wiki/Chipotle_Mexican_Grill"
+ },
+ "Vodafone": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Telecommunications",
+  "source": "https://en.wikipedia.org/wiki/Vodafone"
+ },
+ "Biogen": {
+  "sector": "Health & biotech",
+  "industry_text": "Biotechnology",
+  "source": "https://en.wikipedia.org/wiki/Biogen"
+ },
+ "Dassault Systèmes": {
+  "sector": "Software & internet",
+  "industry_text": "CAD/CAM/CAE/ PLM Software",
+  "source": "https://en.wikipedia.org/wiki/Dassault_Systèmes"
+ },
+ "CoreWeave": {
+  "sector": "Software & internet",
+  "industry_text": "Cloud computing",
+  "source": "https://en.wikipedia.org/wiki/CoreWeave"
+ },
+ "Genmab": {
+  "sector": "Health & biotech",
+  "industry_text": "Biotechnology",
+  "source": "https://en.wikipedia.org/wiki/Genmab"
+ },
+ "ResMed": {
+  "sector": "Health & biotech",
+  "industry_text": "Medical",
+  "source": "https://en.wikipedia.org/wiki/ResMed"
+ },
+ "Lenovo": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{ublist|Information technology|Computer hardware|Consumer electronics}}",
+  "source": "https://en.wikipedia.org/wiki/Lenovo"
+ },
+ "Arch Capital": {
+  "sector": "Money & finance",
+  "industry_text": "{{ubl|Insurance|Finance}}",
+  "source": "https://en.wikipedia.org/wiki/Arch_Capital_Group"
+ },
+ "Yageo": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electronics",
+  "source": "https://en.wikipedia.org/wiki/Yageo"
+ },
+ "Axon Enterprise": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "weapons industry",
+  "source": "https://www.wikidata.org/wiki/Q690604"
+ },
+ "Flex": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{ubl|Electronics manufacturing services (EMS)|Original design manufacturer (ODM)}}",
+  "source": "https://en.wikipedia.org/wiki/Flex_Ltd."
+ },
+ "JD.com": {
+  "sector": "Software & internet",
+  "industry_text": "{{ublist|E-commerce|Retail|Logistics|Internet}}",
+  "source": "https://en.wikipedia.org/wiki/JD.com"
+ },
+ "Centene": {
+  "sector": "Health & biotech",
+  "industry_text": "{{Unbulleted list|Managed healthcare|Health insurance|Pharmacy}}",
+  "source": "https://en.wikipedia.org/wiki/Centene_Corporation"
+ },
+ "Expedia Group": {
+  "sector": "Software & internet",
+  "industry_text": "Travel technology",
+  "source": "https://en.wikipedia.org/wiki/Expedia_Group"
+ },
+ "Z.AI": {
+  "sector": "Software & internet",
+  "industry_text": "Artificial intelligence",
+  "source": "https://en.wikipedia.org/wiki/Z.ai"
+ },
+ "Eternal (Zomato)": {
+  "sector": "Software & internet",
+  "industry_text": "{{Unbulleted list|Technology|E-commerce|Holding company}}",
+  "source": "https://en.wikipedia.org/wiki/Eternal_Limited",
+  "set_by_hand": "no industry field; food-delivery app"
+ },
+ "TKO Group Holdings": {
+  "sector": "Health & biotech",
+  "industry_text": "{{ublist |Experiential hospitality |Mass media |Sports entertainment |Sport management |Sports marketing |Sports promotion }}",
+  "source": "https://en.wikipedia.org/wiki/TKO_Group_Holdings"
+ },
+ "Capitec Bank": {
+  "sector": "Money & finance",
+  "industry_text": "Banking Financial services",
+  "source": "https://en.wikipedia.org/wiki/Capitec_Bank"
+ },
+ "Credo Technology": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Wireless telecommunications",
+  "source": "https://en.wikipedia.org/wiki/CREDO_Mobile"
+ },
+ "AMEC": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment"
+ },
+ "Celltrion": {
+  "sector": "Health & biotech",
+  "industry_text": "Biopharmaceutical",
+  "source": "https://en.wikipedia.org/wiki/Celltrion"
+ },
+ "Mindray": {
+  "sector": "Health & biotech",
+  "industry_text": "Healthcare",
+  "source": "https://en.wikipedia.org/wiki/Mindray"
+ },
+ "JSW Steel": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Steel",
+  "source": "https://en.wikipedia.org/wiki/JSW_Steel"
+ },
+ "Wiwynn": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electronics",
+  "source": "https://en.wikipedia.org/wiki/Wiwynn"
+ },
+ "Extra Space Storage": {
+  "sector": "Money & finance",
+  "industry_text": "Real Estate Investment Trust",
+  "source": "https://en.wikipedia.org/wiki/Extra_Space_Storage"
+ },
+ "MongoDB": {
+  "sector": "Software & internet",
+  "industry_text": "Software",
+  "source": "https://en.wikipedia.org/wiki/MongoDB_Inc."
+ },
+ "Cognizant Technology Solutions": {
+  "sector": "Software & internet",
+  "industry_text": "{{UBL|Information technology|Consulting|Outsourcing }}",
+  "source": "https://en.wikipedia.org/wiki/Cognizant"
+ },
+ "Alnylam Pharmaceuticals": {
+  "sector": "Health & biotech",
+  "industry_text": "Pharmaceutical",
+  "source": "https://en.wikipedia.org/wiki/Alnylam_Pharmaceuticals"
+ },
+ "Teledyne Technologies": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Conglomerate",
+  "source": "https://en.wikipedia.org/wiki/Teledyne_Technologies"
+ },
+ "Techtronic Industries": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Manufacturing",
+  "source": "https://en.wikipedia.org/wiki/Techtronic_Industries"
+ },
+ "Raymond James Financial": {
+  "sector": "Money & finance",
+  "industry_text": "Investment services",
+  "source": "https://en.wikipedia.org/wiki/Raymond_James_Financial"
+ },
+ "Bending Spoons": {
+  "sector": "Software & internet",
+  "industry_text": "Software as a service",
+  "source": "https://en.wikipedia.org/wiki/Bending_Spoons"
+ },
+ "Jabil": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electronics Manufacturing Services",
+  "source": "https://en.wikipedia.org/wiki/Jabil"
+ },
+ "Shinhan Financial Group": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Shinhan_Financial_Group"
+ },
+ "Maybank": {
+  "sector": "Money & finance",
+  "industry_text": "Financial Services",
+  "source": "https://en.wikipedia.org/wiki/Maybank"
+ },
+ "DexCom": {
+  "sector": "Health & biotech",
+  "industry_text": "",
+  "source": "https://www.wikidata.org/wiki/Q15109865",
+  "set_by_hand": "no industry field; glucose-monitor maker"
+ },
+ "Advanced Info Service (AIS)": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Telecommunications",
+  "source": "https://en.wikipedia.org/wiki/Advanced_Info_Service"
+ },
+ "International Container Terminal Services": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Port operator",
+  "source": "https://en.wikipedia.org/wiki/International_Container_Terminal_Services"
+ },
+ "Adyen": {
+  "sector": "Money & finance",
+  "industry_text": "Payment processor, technology, e-commerce, point of sale",
+  "source": "https://en.wikipedia.org/wiki/Adyen"
+ },
+ "Zoom": {
+  "sector": "Software & internet",
+  "industry_text": "video conference",
+  "source": "https://www.wikidata.org/wiki/Q17460900"
+ },
+ "GigaDevice Semiconductor": {
+  "sector": "Chips & hardware",
+  "industry_text": "Semiconductors",
+  "source": "https://en.wikipedia.org/wiki/GigaDevice"
+ },
+ "Rubrik": {
+  "sector": "Software & internet",
+  "industry_text": "Cyber Security and Data Security",
+  "source": "https://en.wikipedia.org/wiki/Rubrik"
+ },
+ "SharkNinja": {
+  "sector": "Chips & hardware",
+  "industry_text": "Small home appliances",
+  "source": "https://en.wikipedia.org/wiki/SharkNinja"
+ },
+ "VeriSign": {
+  "sector": "Software & internet",
+  "industry_text": "Internet, telecommunications",
+  "source": "https://en.wikipedia.org/wiki/Verisign"
+ },
+ "EchoStar": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Telecommunications Satellite television",
+  "source": "https://en.wikipedia.org/wiki/EchoStar"
+ },
+ "Gulf Development Public Company": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Conglomerate",
+  "source": "https://en.wikipedia.org/wiki/Gulf_Development"
+ },
+ "Haier Smart Home": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{ubl|Home appliances|Consumer electronics}}",
+  "source": "https://en.wikipedia.org/wiki/Haier"
+ },
+ "Emaar Properties": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Real estate",
+  "source": "https://en.wikipedia.org/wiki/Emaar_Properties"
+ },
+ "Kinross Gold": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Metals and Mining",
+  "source": "https://en.wikipedia.org/wiki/Kinross_Gold"
+ },
+ "Quest Diagnostics": {
+  "sector": "Health & biotech",
+  "industry_text": "Health care",
+  "source": "https://en.wikipedia.org/wiki/Quest_Diagnostics"
+ },
+ "Ryanair": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "",
+  "source": "https://www.wikidata.org/wiki/Q170614",
+  "set_by_hand": "no industry field; airline"
+ },
+ "Baidu": {
+  "sector": "Software & internet",
+  "industry_text": "{{ubl|Internet|Artificial intelligence|Cloud computing}}",
+  "source": "https://en.wikipedia.org/wiki/Baidu"
+ },
+ "Copart": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Automotive",
+  "source": "https://en.wikipedia.org/wiki/Copart"
+ },
+ "Roivant Sciences": {
+  "sector": "Health & biotech",
+  "industry_text": "Pharmaceuticals",
+  "source": "https://en.wikipedia.org/wiki/Roivant_Sciences"
+ },
+ "E.SUN Bank": {
+  "sector": "Money & finance",
+  "industry_text": "Bank",
+  "source": "https://en.wikipedia.org/wiki/E.SUN_Commercial_Bank"
+ },
+ "Cerebras Systems": {
+  "sector": "Chips & hardware",
+  "industry_text": "{{ubl|Semiconductors|Artificial intelligence}}",
+  "source": "https://en.wikipedia.org/wiki/Cerebras_Systems"
+ },
+ "W. R. Berkley": {
+  "sector": "Money & finance",
+  "industry_text": "Insurance",
+  "source": "https://en.wikipedia.org/wiki/W._R._Berkley_Corporation"
+ },
+ "ULTA Beauty": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "cosmetics industry",
+  "source": "https://www.wikidata.org/wiki/Q7880076"
+ },
+ "Suzhou TFC Optical Communication": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electronics",
+  "source": "https://en.wikipedia.org/wiki/TFC_Communication"
+ },
+ "Tradeweb": {
+  "sector": "Money & finance",
+  "industry_text": "{{Unbulleted list|Technology|Financial markets}}",
+  "source": "https://en.wikipedia.org/wiki/Tradeweb"
+ },
+ "Reddit": {
+  "sector": "Software & internet",
+  "industry_text": "{{Plain list| * Social media }}",
+  "source": "https://en.wikipedia.org/wiki/Reddit"
+ },
+ "BOE Technology": {
+  "sector": "Health & biotech",
+  "industry_text": "{{plainlist| * Electronics * Health care * Internet of things * Photovoltaics}}",
+  "source": "https://en.wikipedia.org/wiki/BOE_Technology"
+ },
+ "Hansoh Pharma": {
+  "sector": "Health & biotech",
+  "industry_text": "Pharmaceutical",
+  "source": "https://en.wikipedia.org/wiki/Hansoh_Pharmaceutical"
+ },
+ "Coupang": {
+  "sector": "Software & internet",
+  "industry_text": "{{ubl|E-commerce|Digital distribution}}",
+  "source": "https://en.wikipedia.org/wiki/Coupang"
+ },
+ "Chaozhou Three-Circle": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electronic components Advanced materials",
+  "source": "https://en.wikipedia.org/wiki/Chaozhou_Three-Circle"
+ },
+ "Anta Sports": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Sports equipment, textile",
+  "source": "https://en.wikipedia.org/wiki/Anta_Sports"
+ },
+ "Sany Heavy Industry": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Heavy equipment",
+  "source": "https://en.wikipedia.org/wiki/Sany"
+ },
+ "Samsara": {
+  "sector": "Software & internet",
+  "industry_text": "Internet of things, Fleet management, Video telematics",
+  "source": "https://en.wikipedia.org/wiki/Samsara_(company)"
+ },
+ "United Therapeutics": {
+  "sector": "Health & biotech",
+  "industry_text": "Biotechnology",
+  "source": "https://en.wikipedia.org/wiki/United_Therapeutics"
+ },
+ "Casey's General Stores": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail",
+  "source": "https://en.wikipedia.org/wiki/Casey's"
+ },
+ "Affirm": {
+  "sector": "Money & finance",
+  "industry_text": "{{ubl|Financial services|Financial technology|Buy now, pay later}}",
+  "source": "https://en.wikipedia.org/wiki/Affirm_Holdings"
+ },
+ "S.F. Express": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Cargo airline and logistics",
+  "source": "https://en.wikipedia.org/wiki/SF_Holding"
+ },
+ "Kering": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Conglomerate",
+  "source": "https://en.wikipedia.org/wiki/Kering"
+ },
+ "Guardant Health": {
+  "sector": "Health & biotech",
+  "industry_text": "Biotechnology",
+  "source": "https://en.wikipedia.org/wiki/Guardant_Health"
+ },
+ "Darden Restaurants": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Restaurant",
+  "source": "https://en.wikipedia.org/wiki/Darden_Restaurants"
+ },
+ "Trip.com": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Travel agency",
+  "source": "https://en.wikipedia.org/wiki/Trip.com_Group"
+ },
+ "Fox Corporation": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Media",
+  "source": "https://en.wikipedia.org/wiki/Fox_Corporation"
+ },
+ "Hyundai Mobis": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Automotive",
+  "source": "https://en.wikipedia.org/wiki/Hyundai_Mobis"
+ },
+ "Las Vegas Sands": {
+  "sector": "Health & biotech",
+  "industry_text": "Hospitality, tourism, integrated resorts",
+  "source": "https://en.wikipedia.org/wiki/Las_Vegas_Sands"
+ },
+ "Largan Precision": {
+  "sector": "Chips & hardware",
+  "industry_text": "Electronic components",
+  "source": "https://en.wikipedia.org/wiki/Largan_Precision"
+ },
+ "China Minsheng Bank": {
+  "sector": "Money & finance",
+  "industry_text": "Bank",
+  "source": "https://en.wikipedia.org/wiki/China_Minsheng_Bank"
+ },
+ "Ralph Lauren": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Fashion",
+  "source": "https://en.wikipedia.org/wiki/Ralph_Lauren_Corporation"
+ },
+ "Supermicro": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology",
+  "source": "https://en.wikipedia.org/wiki/Supermicro"
+ },
+ "Capgemini": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology Consulting Outsourcing",
+  "source": "https://en.wikipedia.org/wiki/Capgemini"
+ },
+ "Adani Green Energy": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Renewable energy",
+  "source": "https://en.wikipedia.org/wiki/Adani_Green_Energy"
+ },
+ "Formula One Group": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Motorsport",
+  "source": "https://en.wikipedia.org/wiki/Formula_One_Group"
+ },
+ "Seven Group Holdings\n (SGH)": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Media, Mining, Construction, Equipment rental",
+  "source": "https://en.wikipedia.org/wiki/SGH_Limited"
+ },
+ "SoFi": {
+  "sector": "Money & finance",
+  "industry_text": "{{Ubl|Personal finance|Direct banking|Banking as a service}}",
+  "source": "https://en.wikipedia.org/wiki/SoFi"
+ },
+ "Omnicom Group": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "{{Unbulleted list|Advertising| public relations}}",
+  "source": "https://en.wikipedia.org/wiki/Omnicom_Group"
+ },
+ "BioNTech": {
+  "sector": "Health & biotech",
+  "industry_text": "Biotechnology",
+  "source": "https://en.wikipedia.org/wiki/BioNTech"
+ },
+ "DMart": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail",
+  "source": "https://en.wikipedia.org/wiki/DMart"
+ },
+ "Expand Energy": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Petroleum industry",
+  "source": "https://en.wikipedia.org/wiki/Expand_Energy"
+ },
+ "ASUS": {
+  "sector": "Chips & hardware",
+  "industry_text": "Computer hardware Electronics Networking hardware",
+  "source": "https://en.wikipedia.org/wiki/Asus"
+ },
+ "Pop Mart International Group": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Toy industry",
+  "source": "https://en.wikipedia.org/wiki/Pop_Mart"
+ },
+ "HD Hyundai Heavy Industries": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "{{ubl| Defense | Machine | Shipbuilding}}",
+  "source": "https://en.wikipedia.org/wiki/HD_Hyundai_Heavy_Industries"
+ },
+ "XPO Logistics": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "{{ubl|Supply chain management|Transportation|Logistics}}",
+  "source": "https://en.wikipedia.org/wiki/XPO,_Inc."
+ },
+ "Southwest Airlines": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "air transport",
+  "source": "https://www.wikidata.org/wiki/Q503308"
+ },
+ "Lens Technology": {
+  "sector": "Chips & hardware",
+  "industry_text": "Precision manufacturing Consumer electronics components",
+  "source": "https://en.wikipedia.org/wiki/Lens_Technology"
+ },
+ "J. B. Hunt": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "",
+  "source": "https://www.wikidata.org/wiki/Q4041705",
+  "set_by_hand": "no industry field; trucking and logistics"
+ },
+ "Fuyao Glass Industry Group": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Glass production",
+  "source": "https://en.wikipedia.org/wiki/Fuyao_Group"
+ },
+ "Sungrow Power Supply": {
+  "sector": "Chips & hardware",
+  "industry_text": "Photovoltaics",
+  "source": "https://en.wikipedia.org/wiki/Sungrow"
+ },
+ "Circle Internet Group": {
+  "sector": "Money & finance",
+  "industry_text": "",
+  "source": "https://www.wikidata.org/wiki/Q17007851",
+  "set_by_hand": "no industry field; issuer of the USDC stablecoin"
+ },
+ "Partners Group": {
+  "sector": "Money & finance",
+  "industry_text": "Private equity, private credit, royalties, real estate, infrastructure",
+  "source": "https://en.wikipedia.org/wiki/Partners_Group"
+ },
+ "CDW Corporation": {
+  "sector": "Software & internet",
+  "industry_text": "B2B IT products and services",
+  "source": "https://en.wikipedia.org/wiki/CDW"
+ },
+ "Best Buy": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail",
+  "source": "https://en.wikipedia.org/wiki/Best_Buy"
+ },
+ "Anthropic": {
+  "sector": "Software & internet",
+  "industry_text": "Artificial intelligence",
+  "source": "https://en.wikipedia.org/wiki/Anthropic"
+ },
+ "OpenAI": {
+  "sector": "Software & internet",
+  "industry_text": "Generative AI",
+  "source": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ "ByteDance": {
+  "sector": "Software & internet",
+  "industry_text": "Internet",
+  "source": "https://en.wikipedia.org/wiki/ByteDance"
+ },
+ "Databricks": {
+  "sector": "Software & internet",
+  "industry_text": "Computer software Artificial intelligence",
+  "source": "https://en.wikipedia.org/wiki/Databricks"
+ },
+ "Stripe": {
+  "sector": "Money & finance",
+  "industry_text": "{{ubl|Financial services|Payment processor}}",
+  "source": "https://en.wikipedia.org/wiki/Stripe,_Inc."
+ },
+ "Ant Group": {
+  "sector": "Money & finance",
+  "industry_text": "Technology Financial services Payment processor",
+  "source": "https://en.wikipedia.org/wiki/Ant_Group"
+ },
+ "Revolut": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Revolut"
+ },
+ "DeepSeek": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology Artificial intelligence",
+  "source": "https://en.wikipedia.org/wiki/DeepSeek"
+ },
+ "Ramp": {
+  "sector": "Money & finance",
+  "industry_text": "Fintech",
+  "source": "https://en.wikipedia.org/wiki/Ramp_(company)"
+ },
+ "Anduril Industries": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Defense",
+  "source": "https://en.wikipedia.org/wiki/Anduril_Industries"
+ },
+ "Moonshot AI": {
+  "sector": "Software & internet",
+  "industry_text": "Artificial Intelligence",
+  "source": "https://en.wikipedia.org/wiki/Moonshot_AI"
+ },
+ "Cognition": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology",
+  "source": "https://en.wikipedia.org/wiki/Cognition_AI"
+ },
+ "Checkout.com": {
+  "sector": "Money & finance",
+  "industry_text": "",
+  "source": "https://www.wikidata.org/wiki/Q110815500",
+  "set_by_hand": "no industry field; payments processor"
+ },
+ "Ripple": {
+  "sector": "Software & internet",
+  "industry_text": "Computer software",
+  "source": "https://en.wikipedia.org/wiki/Ripple_Labs"
+ },
+ "Figure": {
+  "sector": "Chips & hardware",
+  "industry_text": "Information technology Robotics Artificial intelligence",
+  "source": "https://en.wikipedia.org/wiki/Figure_AI"
+ },
+ "Fanatics": {
+  "sector": "Software & internet",
+  "industry_text": "{{plainlist| * Entertainment * E-commerce * Textile }}",
+  "source": "https://en.wikipedia.org/wiki/Fanatics,_Inc."
+ },
+ "Scale AI": {
+  "sector": "Software & internet",
+  "industry_text": "Information technology",
+  "source": "https://en.wikipedia.org/wiki/Scale_AI"
+ },
+ "OKX": {
+  "sector": "Money & finance",
+  "industry_text": "Cryptocurrency",
+  "source": "https://en.wikipedia.org/wiki/OKX"
+ },
+ "Epic Games": {
+  "sector": "Software & internet",
+  "industry_text": "Video games",
+  "source": "https://en.wikipedia.org/wiki/Epic_Games"
+ },
+ "Mistral AI": {
+  "sector": "Software & internet",
+  "industry_text": "Artificial intelligence",
+  "source": "https://en.wikipedia.org/wiki/Mistral_AI"
+ },
+ "FNZ": {
+  "sector": "Money & finance",
+  "industry_text": "Global wealth management, financial services",
+  "source": "https://en.wikipedia.org/wiki/FNZ_(company)"
+ },
+ "The Boring Company": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Construction",
+  "source": "https://en.wikipedia.org/wiki/The_Boring_Company"
+ },
+ "Kalshi": {
+  "sector": "Money & finance",
+  "industry_text": "Prediction market, Sports betting",
+  "source": "https://en.wikipedia.org/wiki/Kalshi"
+ },
+ "ElevenLabs": {
+  "sector": "Software & internet",
+  "industry_text": "{{plainlist| * Software development * Speech synthesis * Artificial intelligence| }}",
+  "source": "https://en.wikipedia.org/wiki/ElevenLabs"
+ },
+ "Kraken Exchange": {
+  "sector": "Money & finance",
+  "industry_text": "{{Unbulleted list|Financial services|Cryptocurrency}}",
+  "source": "https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange)"
+ },
+ "Envision Group": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Wind power",
+  "source": "https://en.wikipedia.org/wiki/Envision_Energy"
+ },
+ "JUUL": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Electronic cigarettes",
+  "source": "https://en.wikipedia.org/wiki/Juul",
+  "set_by_hand": "infobox says 'Electronic cigarettes'; a consumer product, not computer hardware"
+ },
+ "Crypto.com": {
+  "sector": "Money & finance",
+  "industry_text": "Cryptocurrency",
+  "source": "https://en.wikipedia.org/wiki/Crypto.com"
+ },
+ "Whatnot": {
+  "sector": "Software & internet",
+  "industry_text": "e-commerce",
+  "source": "https://en.wikipedia.org/wiki/Whatnot"
+ },
+ "Perplexity": {
+  "sector": "Software & internet",
+  "industry_text": "Artificial intelligence, search engine",
+  "source": "https://en.wikipedia.org/wiki/Perplexity_AI"
+ },
+ "Tether": {
+  "sector": "Money & finance",
+  "industry_text": "Cryptocurrency",
+  "source": "https://en.wikipedia.org/wiki/Tether_Limited"
+ },
+ "Blue Origin": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Space",
+  "source": "https://en.wikipedia.org/wiki/Blue_Origin"
+ },
+ "Theranos": {
+  "sector": "Health & biotech",
+  "industry_text": "Health care",
+  "source": "https://en.wikipedia.org/wiki/Theranos"
+ },
+ "FTX": {
+  "sector": "Money & finance",
+  "industry_text": "Cryptocurrency",
+  "source": "https://en.wikipedia.org/wiki/FTX"
+ },
+ "WeWork": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Commercial real estate",
+  "source": "https://en.wikipedia.org/wiki/WeWork"
+ },
+ "WorldCom": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Telecommunications",
+  "source": "https://en.wikipedia.org/wiki/WorldCom"
+ },
+ "Jawbone": {
+  "sector": "Chips & hardware",
+  "industry_text": "consumer electronics industry",
+  "source": "https://www.wikidata.org/wiki/Q6166067"
+ },
+ "Katerra": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Construction",
+  "source": "https://en.wikipedia.org/wiki/Katerra"
+ },
+ "Zume": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Manufacturing, Food technology, Food delivery, Automation, Food packaging",
+  "source": "https://en.wikipedia.org/wiki/Zume"
+ },
+ "Convoy": {
+  "sector": "Software & internet",
+  "industry_text": "Trucking software",
+  "source": "https://en.wikipedia.org/wiki/Convoy_(company)"
+ },
+ "Bird": {
+  "sector": "Software & internet",
+  "industry_text": "Dockless electric scooter sharing",
+  "source": "https://en.wikipedia.org/wiki/Bird_Global"
+ },
+ "Better Place": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Transport",
+  "source": "https://en.wikipedia.org/wiki/Better_Place_(company)"
+ },
+ "Nikola": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Automotive",
+  "source": "https://en.wikipedia.org/wiki/Nikola_Corporation"
+ },
+ "Lordstown Motors": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Automotive",
+  "source": "https://en.wikipedia.org/wiki/Nu_Ride_Inc."
+ },
+ "Webvan": {
+  "sector": "Software & internet",
+  "industry_text": "Online retailer",
+  "source": "https://en.wikipedia.org/wiki/Webvan"
+ },
+ "Blockbuster": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "",
+  "source": "https://www.wikidata.org/wiki/Q884711",
+  "set_by_hand": "no industry field; video-rental store chain"
+ },
+ "Essential Products": {
+  "sector": "Software & internet",
+  "industry_text": "Technology",
+  "source": "https://en.wikipedia.org/wiki/Essential_Products"
+ },
+ "Byju's": {
+  "sector": "Software & internet",
+  "industry_text": "",
+  "source": "https://en.wikipedia.org/wiki/Byju%27s",
+  "set_by_hand": "no industry field; online-learning app"
+ },
+ "Greensill Capital": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Greensill_Capital"
+ },
+ "Ofo": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Transportation",
+  "source": "https://en.wikipedia.org/wiki/Ofo_(company)"
+ },
+ "Celsius Network": {
+  "sector": "Money & finance",
+  "industry_text": "Finance, Cryptocurrency",
+  "source": "https://en.wikipedia.org/wiki/Celsius_Network"
+ },
+ "Excite@Home (At Home Corporation)": {
+  "sector": "Software & internet",
+  "industry_text": "",
+  "source": "https://en.wikipedia.org/wiki/Excite%40Home",
+  "set_by_hand": "no industry field; internet portal and cable internet provider"
+ },
+ "Global Crossing": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Telecommunications",
+  "source": "https://en.wikipedia.org/wiki/Global_Crossing"
+ },
+ "Exodus Communications": {
+  "sector": "Software & internet",
+  "industry_text": "Internet services",
+  "source": "https://en.wikipedia.org/wiki/Exodus_Communications"
+ },
+ "New Century Financial": {
+  "sector": "Money & finance",
+  "industry_text": "",
+  "source": "https://www.wikidata.org/wiki/Q4956490",
+  "set_by_hand": "no industry field; mortgage lender"
+ },
+ "Vice Media": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Mass media",
+  "source": "https://en.wikipedia.org/wiki/Vice_Media"
+ },
+ "Argo AI": {
+  "sector": "Software & internet",
+  "industry_text": "Self-driving car",
+  "source": "https://en.wikipedia.org/wiki/Argo_AI"
+ },
+ "Babylon Health": {
+  "sector": "Health & biotech",
+  "industry_text": "Health care",
+  "source": "https://en.wikipedia.org/wiki/Babylon_Health"
+ },
+ "Arrival": {
+  "sector": "Software & internet",
+  "industry_text": "{{Ubl | Automotive | Technology }}",
+  "source": "https://en.wikipedia.org/wiki/Arrival_(company)"
+ },
+ "Canoo": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Automotive",
+  "source": "https://en.wikipedia.org/wiki/Canoo"
+ },
+ "Lilium": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Aerospace",
+  "source": "https://en.wikipedia.org/wiki/Lilium_GmbH"
+ },
+ "Cazoo": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "{{ubl | Automotive }}",
+  "source": "https://en.wikipedia.org/wiki/Cazoo"
+ },
+ "Powa Technologies": {
+  "sector": "Money & finance",
+  "industry_text": "",
+  "source": "https://www.wikidata.org/wiki/Q17021605",
+  "set_by_hand": "no industry field; mobile-payments company"
+ },
+ "Outcome Health": {
+  "sector": "Health & biotech",
+  "industry_text": "Health Technology, Advertising",
+  "source": "https://en.wikipedia.org/wiki/Outcome_Health"
+ },
+ "BlockFi": {
+  "sector": "Money & finance",
+  "industry_text": "Cryptocurrency",
+  "source": "https://en.wikipedia.org/wiki/BlockFi"
+ },
+ "Virgin Orbit": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Aerospace",
+  "source": "https://en.wikipedia.org/wiki/Virgin_Orbit"
+ },
+ "Proterra": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Automotive",
+  "source": "https://en.wikipedia.org/wiki/Proterra_(bus_manufacturer)"
+ },
+ "Volocopter": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Aerospace, Advanced Air Mobility",
+  "source": "https://en.wikipedia.org/wiki/Volocopter_Technologies"
+ },
+ "Bowery Farming": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Farming, vertical farming, hydroponic farming",
+  "source": "https://en.wikipedia.org/wiki/Bowery_Farming"
+ },
+ "Refco": {
+  "sector": "Money & finance",
+  "industry_text": "Financial services",
+  "source": "https://en.wikipedia.org/wiki/Refco"
+ },
+ "Value America": {
+  "sector": "Shops & consumer brands",
+  "industry_text": "Retail",
+  "source": "https://en.wikipedia.org/wiki/Value_America"
+ },
+ "Winstar Communications": {
+  "sector": "Energy, cars & industry",
+  "industry_text": "Telecommunications",
+  "source": "https://en.wikipedia.org/wiki/Winstar_Communications"
+ }
+}

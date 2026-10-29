@@ -1,20 +1,20 @@
 {
- "n_dated": 336,
+ "n_dated": 338,
  "n_sim": 10000,
  "populations": {
-  "all": 336,
-  "thriving": 315,
-  "giants": 116,
+  "all": 338,
+  "thriving": 317,
+  "giants": 117,
   "fallen": 21
  },
  "baseline_use": [
   [
    "United States",
-   159
+   160
   ],
   [
    "uniform",
-   102
+   103
   ],
   [
    "Canada",
@@ -108,7 +108,7 @@
  "tests": {
   "signs": {
    "label": "Sun sign, Giants + Big",
-   "n": 315,
+   "n": 317,
    "bins": [
     "Aries",
     "Taurus",
@@ -132,24 +132,24 @@
     27,
     36,
     31,
-    22,
+    24,
     24,
     20,
     33
    ],
    "expected": [
-    25.74,
-    26.35,
-    26.53,
-    27.93,
-    27.31,
+    25.9,
+    26.52,
+    26.69,
+    28.1,
     27.49,
-    25.95,
-    25.4,
-    25.19,
-    24.76,
-    26.18,
-    26.18
+    27.67,
+    26.12,
+    25.56,
+    25.36,
+    24.92,
+    26.34,
+    26.34
    ],
    "band_lo": [
     17.0,
@@ -159,7 +159,7 @@
     18.0,
     18.0,
     17.0,
-    16.0,
+    17.0,
     16.0,
     16.0,
     17.0,
@@ -167,56 +167,56 @@
    ],
    "band_hi": [
     36.0,
-    36.0,
-    36.0,
-    38.0,
+    37.0,
     37.0,
     38.0,
+    38.0,
+    38.0,
     36.0,
     35.0,
     35.0,
-    34.0,
-    36.0,
+    35.0,
+    37.0,
     36.0
    ],
    "ratio": [
-    0.738,
-    1.025,
-    0.754,
-    0.931,
-    1.098,
-    0.982,
-    1.387,
-    1.221,
-    0.873,
-    0.969,
-    0.764,
-    1.261
+    0.734,
+    1.018,
+    0.749,
+    0.925,
+    1.091,
+    0.976,
+    1.378,
+    1.213,
+    0.947,
+    0.963,
+    0.759,
+    1.253
    ],
    "z": [
-    -1.33,
-    0.13,
-    -1.27,
-    -0.36,
-    0.51,
-    -0.09,
-    1.97,
-    1.11,
-    -0.64,
-    -0.15,
-    -1.21,
-    1.33
+    -1.36,
+    0.09,
+    -1.3,
+    -0.4,
+    0.48,
+    -0.13,
+    1.93,
+    1.08,
+    -0.27,
+    -0.18,
+    -1.24,
+    1.3
    ],
-   "chi2": 12.58,
-   "p_chi2_mc": 0.3236,
-   "max_dev_z": 1.97,
-   "p_max_dev": 0.3799,
+   "chi2": 12.14,
+   "p_chi2_mc": 0.349,
+   "max_dev_z": 1.93,
+   "p_max_dev": 0.4068,
    "tallest": "Libra",
-   "verdict": "The tallest bar, Libra, has 36 founders against 26.0 expected (1.39x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 38% of the time — well inside chance."
+   "verdict": "The tallest bar, Libra, has 36 founders against 26.1 expected (1.38x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 41% of the time — well inside chance."
   },
   "signs_giants": {
    "label": "Sun sign, Giants only",
-   "n": 116,
+   "n": 117,
    "bins": [
     "Aries",
     "Taurus",
@@ -240,24 +240,24 @@
     9,
     16,
     11,
-    10,
+    11,
     12,
     8,
     6
    ],
    "expected": [
-    9.47,
-    9.67,
+    9.55,
     9.76,
+    9.84,
+    10.37,
+    10.16,
     10.28,
-    10.07,
-    10.19,
-    9.59,
-    9.35,
-    9.26,
-    9.09,
-    9.62,
-    9.65
+    9.68,
+    9.43,
+    9.33,
+    9.17,
+    9.7,
+    9.73
    ],
    "band_lo": [
     4.0,
@@ -279,52 +279,52 @@
     16.0,
     17.0,
     16.0,
+    17.0,
     16.0,
     16.0,
-    15.0,
     15.0,
     15.0,
     16.0,
     16.0
    ],
    "ratio": [
-    1.056,
-    1.034,
-    0.82,
-    0.583,
-    0.993,
-    0.884,
-    1.668,
-    1.177,
-    1.08,
-    1.32,
-    0.832,
-    0.622
+    1.047,
+    1.025,
+    0.813,
+    0.578,
+    0.984,
+    0.876,
+    1.653,
+    1.167,
+    1.178,
+    1.309,
+    0.825,
+    0.617
    ],
    "z": [
-    0.17,
-    0.1,
-    -0.56,
-    -1.34,
-    -0.02,
-    -0.37,
-    2.07,
-    0.54,
-    0.24,
-    0.96,
-    -0.52,
-    -1.17
+    0.15,
+    0.08,
+    -0.59,
+    -1.36,
+    -0.05,
+    -0.4,
+    2.03,
+    0.51,
+    0.55,
+    0.94,
+    -0.55,
+    -1.2
    ],
-   "chi2": 9.49,
-   "p_chi2_mc": 0.5724,
-   "max_dev_z": 2.07,
-   "p_max_dev": 0.308,
+   "chi2": 9.67,
+   "p_chi2_mc": 0.5593,
+   "max_dev_z": 2.03,
+   "p_max_dev": 0.3328,
    "tallest": "Libra",
-   "verdict": "The tallest bar, Libra, has 16 founders against 9.6 expected (1.67x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 31% of the time — well inside chance."
+   "verdict": "The tallest bar, Libra, has 16 founders against 9.7 expected (1.65x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 33% of the time — well inside chance."
   },
   "elements": {
    "label": "Element, Giants + Big",
-   "n": 315,
+   "n": 317,
    "bins": [
     "Fire",
     "Earth",
@@ -332,22 +332,22 @@
     "Water"
    ],
    "observed": [
-    71,
+    73,
     78,
     76,
     90
    ],
    "expected": [
-    78.24,
-    78.6,
-    78.65,
-    79.5
+    78.74,
+    79.1,
+    79.15,
+    80.01
    ],
    "band_lo": [
-    63.0,
     64.0,
     64.0,
-    64.0
+    64.0,
+    65.0
    ],
    "band_hi": [
     94.0,
@@ -356,27 +356,27 @@
     95.0
    ],
    "ratio": [
-    0.907,
-    0.992,
-    0.966,
-    1.132
+    0.927,
+    0.986,
+    0.96,
+    1.125
    ],
    "z": [
-    -0.82,
-    -0.07,
-    -0.3,
-    1.18
+    -0.65,
+    -0.12,
+    -0.35,
+    1.12
    ],
-   "chi2": 2.15,
-   "p_chi2_mc": 0.5479,
-   "max_dev_z": 1.18,
-   "p_max_dev": 0.4881,
+   "chi2": 1.81,
+   "p_chi2_mc": 0.6122,
+   "max_dev_z": 1.12,
+   "p_max_dev": 0.5258,
    "tallest": "Water",
-   "verdict": "The tallest bar, Water, has 90 founders against 79.5 expected (1.13x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 49% of the time — well inside chance."
+   "verdict": "The tallest bar, Water, has 90 founders against 80.0 expected (1.12x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 53% of the time — well inside chance."
   },
   "modalities": {
    "label": "Modality, Giants + Big",
-   "n": 315,
+   "n": 317,
    "bins": [
     "Cardinal",
     "Fixed",
@@ -385,43 +385,43 @@
    "observed": [
     105,
     108,
-    102
+    104
    ],
    "expected": [
-    104.37,
-    105.24,
-    105.39
+    105.04,
+    105.9,
+    106.06
    ],
    "band_lo": [
     89.0,
-    89.0,
-    89.0
+    90.0,
+    90.0
    ],
    "band_hi": [
-    121.0,
     122.0,
-    122.0
+    122.0,
+    123.0
    ],
    "ratio": [
-    1.006,
-    1.026,
-    0.968
+    1.0,
+    1.02,
+    0.981
    ],
    "z": [
-    0.06,
-    0.27,
-    -0.33
+    -0.0,
+    0.2,
+    -0.2
    ],
-   "chi2": 0.19,
-   "p_chi2_mc": 0.9172,
-   "max_dev_z": 0.33,
-   "p_max_dev": 0.9283,
+   "chi2": 0.08,
+   "p_chi2_mc": 0.9553,
+   "max_dev_z": 0.2,
+   "p_max_dev": 0.9616,
    "tallest": "Fixed",
-   "verdict": "The tallest bar, Fixed, has 108 founders against 105.2 expected (1.03x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 93% of the time — well inside chance."
+   "verdict": "The tallest bar, Fixed, has 108 founders against 105.9 expected (1.02x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 96% of the time — well inside chance."
   },
   "months": {
    "label": "Birth month, Giants + Big (exploratory)",
-   "n": 315,
+   "n": 317,
    "bins": [
     "January",
     "February",
@@ -448,84 +448,84 @@
     28,
     35,
     31,
-    19
+    21
    ],
    "expected": [
-    26.71,
-    24.63,
-    26.94,
-    25.54,
-    26.33,
-    25.77,
-    27.24,
-    27.34,
-    26.67,
-    26.55,
-    25.27,
-    26.0
+    26.88,
+    24.79,
+    27.11,
+    25.7,
+    26.49,
+    25.94,
+    27.42,
+    27.51,
+    26.84,
+    26.72,
+    25.43,
+    26.17
    ],
    "band_lo": [
     18.0,
     16.0,
-    17.0,
+    18.0,
     17.0,
     17.0,
     17.0,
     18.0,
     18.0,
-    17.0,
+    18.0,
     17.0,
     16.0,
     17.0
    ],
    "band_hi": [
     37.0,
-    34.0,
-    37.0,
     35.0,
+    37.0,
     36.0,
+    37.0,
     36.0,
     37.0,
     38.0,
     37.0,
-    36.0,
+    37.0,
     35.0,
     36.0
    ],
    "ratio": [
-    0.936,
-    1.096,
-    1.076,
-    0.744,
-    0.684,
-    1.086,
-    0.844,
-    1.207,
-    1.05,
-    1.318,
-    1.227,
-    0.731
+    0.93,
+    1.089,
+    1.07,
+    0.739,
+    0.679,
+    1.079,
+    0.839,
+    1.199,
+    1.043,
+    1.31,
+    1.219,
+    0.803
    ],
    "z": [
-    -0.33,
-    0.48,
-    0.4,
-    -1.29,
-    -1.62,
+    -0.36,
     0.44,
-    -0.81,
-    1.08,
-    0.26,
-    1.64,
-    1.14,
-    -1.37
+    0.36,
+    -1.32,
+    -1.65,
+    0.4,
+    -0.84,
+    1.05,
+    0.22,
+    1.6,
+    1.1,
+    -1.01
    ],
-   "chi2": 12.77,
-   "p_chi2_mc": 0.3052,
-   "max_dev_z": 1.64,
-   "p_max_dev": 0.6595,
+   "chi2": 11.76,
+   "p_chi2_mc": 0.3827,
+   "max_dev_z": 1.65,
+   "p_max_dev": 0.6383,
    "tallest": "October",
-   "verdict": "The tallest bar, October, has 35 founders against 26.5 expected (1.32x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 66% of the time — well inside chance."
+   "verdict": "The tallest bar, October, has 35 founders against 26.7 expected (1.31x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 64% of the time — well inside chance."
   },
   "signs_fallen": {
    "label": "Sun sign, Fallen",
@@ -587,7 +587,7 @@
     0.0
    ],
    "band_hi": [
-    5.0,
+    4.0,
     5.0,
     5.0,
     5.0,
@@ -598,7 +598,7 @@
     4.0,
     4.0,
     4.0,
-    5.0
+    4.0
    ],
    "ratio": [
     1.742,
@@ -629,43 +629,43 @@
     0.2
    ],
    "chi2": 7.28,
-   "p_chi2_mc": 0.7848,
+   "p_chi2_mc": 0.7835,
    "max_dev_z": 1.3,
-   "p_max_dev": 0.9417,
+   "p_max_dev": 0.9487,
    "tallest": "Capricorn",
-   "verdict": "The tallest bar, Capricorn, has 3 founders against 1.6 expected (1.84x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 94% of the time — well inside chance."
+   "verdict": "The tallest bar, Capricorn, has 3 founders against 1.6 expected (1.84x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 95% of the time — well inside chance."
   },
   "pairs": {
    "label": "Cofounder pairings vs shuffled teams",
-   "n_pairs": 178,
-   "n_teams": 77,
+   "n_pairs": 184,
+   "n_teams": 78,
    "measures": [
     {
      "name": "same sign",
-     "observed": 0.0843,
-     "null_mean": 0.0815,
-     "band_lo": 0.0449,
-     "band_hi": 0.1236,
-     "p_two_sided": 0.9684
+     "observed": 0.0815,
+     "null_mean": 0.0814,
+     "band_lo": 0.0435,
+     "band_hi": 0.125,
+     "p_two_sided": 1.0
     },
     {
      "name": "same element",
-     "observed": 0.2303,
-     "null_mean": 0.2475,
-     "band_lo": 0.191,
-     "band_hi": 0.3146,
-     "p_two_sided": 0.6782
+     "observed": 0.2228,
+     "null_mean": 0.2466,
+     "band_lo": 0.1902,
+     "band_hi": 0.3098,
+     "p_two_sided": 0.5202
     },
     {
      "name": "traditionally compatible",
-     "observed": 0.5056,
-     "null_mean": 0.4985,
-     "band_lo": 0.4326,
-     "band_hi": 0.5787,
-     "p_two_sided": 0.8768
+     "observed": 0.5,
+     "null_mean": 0.4971,
+     "band_lo": 0.4293,
+     "band_hi": 0.5707,
+     "p_two_sided": 0.9742
     }
    ],
-   "verdict": "51% of the 178 cofounder pairs are 'compatible' by the classic element rule, against 50% when the same founders are shuffled into random teams (95% range 43 to 58%). Nothing to see."
+   "verdict": "50% of the 184 cofounder pairs are 'compatible' by the classic element rule, against 50% when the same founders are shuffled into random teams (95% range 43 to 57%). Nothing to see."
   },
   "pair_matrix": {
    "label": "Sun-sign pairs among cofounders (exploratory)",
@@ -683,8 +683,8 @@
     "Aquarius",
     "Pisces"
    ],
-   "n_pairs": 178,
-   "n_teams": 77,
+   "n_pairs": 184,
+   "n_teams": 78,
    "counts": [
     [
      0,
@@ -704,12 +704,12 @@
      0,
      1,
      3,
-     2,
+     3,
      2,
      2,
      3,
      4,
-     6,
+     7,
      3,
      4,
      4
@@ -718,12 +718,12 @@
      0,
      0,
      1,
-     2,
+     3,
      6,
      1,
      1,
      0,
-     4,
+     5,
      2,
      1,
      2
@@ -737,7 +737,7 @@
      2,
      4,
      4,
-     5,
+     6,
      1,
      0,
      1
@@ -793,7 +793,7 @@
      0,
      0,
      2,
-     6,
+     7,
      3,
      2,
      1
@@ -857,144 +857,144 @@
    ],
    "expected": [
     [
-     0.67,
-     2.33,
-     1.47,
-     1.58,
-     2.08,
-     1.91,
-     2.43,
-     1.72,
-     2.2,
+     0.66,
+     2.3,
+     1.45,
+     1.57,
+     2.06,
      1.94,
-     1.44,
-     2.32
+     2.47,
+     1.8,
+     2.4,
+     1.95,
+     1.45,
+     2.27
     ],
     [
      0.0,
-     1.73,
-     2.34,
+     1.74,
+     2.27,
      2.52,
      3.26,
+     3.07,
+     3.84,
+     2.86,
+     3.82,
      3.11,
-     3.91,
-     2.65,
-     3.46,
-     3.03,
-     2.34,
-     3.64
+     2.3,
+     3.66
     ],
     [
      0.0,
      0.0,
-     0.67,
-     1.56,
-     2.12,
-     1.95,
-     2.47,
-     1.72,
-     2.17,
+     0.69,
+     1.59,
+     2.04,
      1.94,
-     1.43,
-     2.28
+     2.46,
+     1.85,
+     2.42,
+     1.97,
+     1.47,
+     2.27
     ],
     [
      0.0,
      0.0,
      0.0,
      0.79,
-     2.22,
-     2.07,
-     2.61,
-     1.86,
-     2.41,
+     2.24,
      2.12,
-     1.58,
-     2.49
+     2.65,
+     1.96,
+     2.63,
+     2.11,
+     1.6,
+     2.54
     ],
     [
      0.0,
      0.0,
      0.0,
      0.0,
-     1.36,
-     2.76,
+     1.4,
+     2.77,
+     3.45,
+     2.59,
      3.42,
-     2.41,
-     3.11,
-     2.75,
-     2.03,
-     3.27
+     2.72,
+     2.08,
+     3.28
     ],
     [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.19,
+     3.22,
+     2.45,
+     3.24,
+     2.59,
+     1.96,
+     3.07
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.94,
+     3.08,
+     4.1,
+     3.28,
+     2.44,
+     3.86
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.08,
+     3.09,
+     2.46,
+     1.83,
+     2.87
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.93,
+     3.25,
+     2.45,
+     3.82
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
      0.0,
      0.0,
      0.0,
      0.0,
      0.0,
      1.22,
-     3.23,
-     2.23,
-     2.91,
-     2.61,
-     1.94,
-     3.06
-    ],
-    [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     1.9,
-     2.83,
-     3.7,
-     3.27,
-     2.43,
-     3.83
-    ],
-    [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.93,
-     2.55,
-     2.26,
-     1.69,
-     2.68
-    ],
-    [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     1.54,
-     2.91,
-     2.17,
-     3.44
-    ],
-    [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     1.21,
-     1.96,
-     3.12
+     1.95,
+     3.09
     ],
     [
      0.0,
@@ -1007,8 +1007,8 @@
      0.0,
      0.0,
      0.0,
-     0.67,
-     2.33
+     0.68,
+     2.34
     ],
     [
      0.0,
@@ -1022,78 +1022,78 @@
      0.0,
      0.0,
      0.0,
-     1.74
+     1.7
     ]
    ],
    "ratio": [
     [
      0.0,
      0.0,
-     1.36,
-     0.63,
-     0.96,
-     1.05,
-     1.24,
-     0.0,
-     0.91,
-     1.03,
-     0.7,
-     1.29
-    ],
-    [
-     0.0,
-     0.58,
-     1.28,
-     0.79,
-     0.61,
+     1.38,
      0.64,
-     0.77,
-     1.51,
-     1.73,
-     0.99,
-     1.71,
-     1.1
+     0.97,
+     1.03,
+     1.21,
+     0.0,
+     0.83,
+     1.02,
+     0.69,
+     1.32
+    ],
+    [
+     0.0,
+     0.57,
+     1.32,
+     1.19,
+     0.61,
+     0.65,
+     0.78,
+     1.4,
+     1.83,
+     0.96,
+     1.74,
+     1.09
     ],
     [
      0.0,
      0.0,
-     1.5,
-     1.28,
-     2.83,
-     0.51,
-     0.4,
+     1.46,
+     1.89,
+     2.94,
+     0.52,
+     0.41,
      0.0,
-     1.84,
-     1.03,
-     0.7,
+     2.07,
+     1.02,
+     0.68,
      0.88
     ],
     [
      0.0,
      0.0,
      0.0,
-     2.55,
+     2.52,
      0.0,
-     0.97,
-     1.53,
-     2.16,
-     2.08,
+     0.94,
+     1.51,
+     2.05,
+     2.28,
      0.47,
      0.0,
-     0.4
+     0.39
     ],
     [
      0.0,
      0.0,
      0.0,
      0.0,
-     0.74,
-     1.09,
-     1.46,
+     0.71,
+     1.08,
+     1.45,
      0.0,
-     1.29,
-     1.09,
-     0.49,
+     1.17,
+     1.1,
+     0.48,
      1.22
     ],
     [
@@ -1104,10 +1104,10 @@
      0.0,
      0.0,
      1.55,
-     0.45,
-     1.03,
-     1.53,
-     1.03,
+     0.41,
+     0.93,
+     1.55,
+     1.02,
      0.98
     ],
     [
@@ -1117,10 +1117,10 @@
      0.0,
      0.0,
      0.0,
-     1.58,
-     1.41,
-     0.27,
-     0.92,
+     1.55,
+     1.3,
+     0.24,
+     0.91,
      0.41,
      0.26
     ],
@@ -1132,11 +1132,11 @@
      0.0,
      0.0,
      0.0,
-     2.15,
-     2.35,
-     1.33,
-     1.19,
-     0.37
+     1.85,
+     2.27,
+     1.22,
+     1.09,
+     0.35
     ],
     [
      0.0,
@@ -1147,10 +1147,10 @@
      0.0,
      0.0,
      0.0,
-     1.94,
-     0.69,
-     1.84,
-     1.16
+     1.55,
+     0.61,
+     1.64,
+     1.05
     ],
     [
      0.0,
@@ -1164,7 +1164,7 @@
      0.0,
      0.0,
      1.02,
-     0.64
+     0.65
     ],
     [
      0.0,
@@ -1178,7 +1178,7 @@
      0.0,
      0.0,
      0.0,
-     0.86
+     0.85
     ],
     [
      0.0,
@@ -1192,7 +1192,7 @@
      0.0,
      0.0,
      0.0,
-     1.15
+     1.18
     ]
    ],
    "fallen": [
@@ -1384,11 +1384,11 @@
      0,
      0,
      0,
+     3,
+     0,
+     0,
+     0,
      1,
-     0,
-     0,
-     0,
-     0,
      2,
      0,
      0,
@@ -1412,10 +1412,24 @@
      0,
      0,
      0,
+     1,
+     0,
+     0,
+     1,
      0,
      0,
      0,
      0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
      0,
      0,
      0,
@@ -1458,21 +1472,7 @@
      0,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
+     1,
      0,
      0,
      1,
@@ -1554,12 +1554,12 @@
      0,
      0,
      2,
-     1,
+     2,
      1,
      2,
      3,
      2,
-     6,
+     7,
      1,
      3,
      3
@@ -1568,12 +1568,12 @@
      0,
      0,
      0,
-     1,
+     2,
      2,
      1,
      0,
      0,
-     2,
+     3,
      0,
      1,
      1
@@ -1587,7 +1587,7 @@
      0,
      0,
      2,
-     3,
+     4,
      0,
      0,
      0
@@ -1738,12 +1738,14 @@
     ],
     "1,3": [
      "OpenAI",
+     "Tesla",
      "WeWork"
     ],
     "3,8": [
      "Glencore",
      "OpenAI",
-     "Teradyne"
+     "Teradyne",
+     "Tesla"
     ],
     "3,7": [
      "OpenAI",
@@ -1753,7 +1755,8 @@
      "Meta Platforms (Facebook)",
      "OpenAI",
      "Ping An Insurance",
-     "SAP"
+     "SAP",
+     "Tesla"
     ],
     "1,7": [
      "OpenAI",
@@ -1763,6 +1766,7 @@
      "OpenAI"
     ],
     "7,8": [
+     "Cathay Financial Holding",
      "OpenAI"
     ],
     "7,7": [
@@ -1784,9 +1788,20 @@
      "PayPal",
      "Simon Property Group"
     ],
+    "2,3": [
+     "Sandisk",
+     "Synopsys",
+     "Tesla"
+    ],
     "1,2": [
      "Meta Platforms (Facebook)",
      "MongoDB",
+     "Tesla"
+    ],
+    "2,8": [
+     "Alnylam Pharmaceuticals",
+     "HCA Healthcare",
+     "Meta Platforms (Facebook)",
      "Tesla"
     ],
     "1,5": [
@@ -1809,11 +1824,6 @@
      "Take-Two Interactive"
     ],
     "2,5": [
-     "Meta Platforms (Facebook)"
-    ],
-    "2,8": [
-     "Alnylam Pharmaceuticals",
-     "HCA Healthcare",
      "Meta Platforms (Facebook)"
     ],
     "5,8": [
@@ -1897,10 +1907,6 @@
      "Analog Devices",
      "BlackRock",
      "Starbucks"
-    ],
-    "2,3": [
-     "Sandisk",
-     "Synopsys"
     ],
     "0,10": [
      "Inditex"
@@ -1997,22 +2003,2234 @@
      "Vice Media"
     ]
    },
+   "pairs": [
+    {
+     "a": "Jensen Huang",
+     "b": "Chris Malachowsky",
+     "sa": "Aquarius",
+     "sb": "Taurus",
+     "company": "NVIDIA",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Steve Jobs",
+     "b": "Steve Wozniak",
+     "sa": "Pisces",
+     "sb": "Leo",
+     "company": "Apple",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Steve Jobs",
+     "b": "Ronald Wayne",
+     "sa": "Pisces",
+     "sb": "Taurus",
+     "company": "Apple",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Steve Wozniak",
+     "b": "Ronald Wayne",
+     "sa": "Leo",
+     "sb": "Taurus",
+     "company": "Apple",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Bill Gates",
+     "b": "Paul Allen",
+     "sa": "Scorpio",
+     "sb": "Aquarius",
+     "company": "Microsoft",
+     "ring": "giants",
+     "split": "broke up",
+     "split_year": "1983",
+     "what": "Allen resigned from Microsoft on 18 February 1983 after, by his own account, overhearing Gates and Steve Ballmer in December 1982 discussing how to dilute his equity; Gates then offered to buy his shares for $5 each and ",
+     "src": "https://www.vanityfair.com/news/2011/05/paul-allen-201105"
+    },
+    {
+     "a": "Larry Page",
+     "b": "Sergey Brin",
+     "sa": "Aries",
+     "sb": "Leo",
+     "company": "Alphabet (Google)",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Elon Musk",
+     "b": "Sam Altman",
+     "sa": "Cancer",
+     "sb": "Taurus",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "broke up",
+     "split_year": "2018-2026",
+     "what": "Musk left OpenAI's board in February 2018 citing a conflict with Tesla's AI work, sued Altman and OpenAI in 2024 claiming they broke the promise to stay a nonprofit, had a $97.4bn bid for the nonprofit rejected in Februa",
+     "src": "https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html"
+    },
+    {
+     "a": "Elon Musk",
+     "b": "Ilya Sutskever",
+     "sa": "Cancer",
+     "sb": "Sagittarius",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Elon Musk",
+     "b": "Greg Brockman",
+     "sa": "Cancer",
+     "sb": "Sagittarius",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Elon Musk",
+     "b": "Trevor Blackwell",
+     "sa": "Cancer",
+     "sb": "Scorpio",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Elon Musk",
+     "b": "Andrej Karpathy",
+     "sa": "Cancer",
+     "sb": "Scorpio",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Elon Musk",
+     "b": "Wojciech Zaremba",
+     "sa": "Cancer",
+     "sb": "Sagittarius",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Sam Altman",
+     "b": "Ilya Sutskever",
+     "sa": "Taurus",
+     "sb": "Sagittarius",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "broke up",
+     "split_year": "2023",
+     "what": "On 17 November 2023 OpenAI's board, with cofounder and chief scientist Ilya Sutskever reportedly leading the push, fired CEO Sam Altman; cofounder Greg Brockman quit in protest, Sutskever posted that he 'deeply regretted",
+     "src": "https://www.theverge.com/2023/11/20/23968988/openai-employees-resignation-letter-microsoft-sam-altman"
+    },
+    {
+     "a": "Sam Altman",
+     "b": "Greg Brockman",
+     "sa": "Taurus",
+     "sb": "Sagittarius",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Sam Altman",
+     "b": "Trevor Blackwell",
+     "sa": "Taurus",
+     "sb": "Scorpio",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Sam Altman",
+     "b": "Andrej Karpathy",
+     "sa": "Taurus",
+     "sb": "Scorpio",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Sam Altman",
+     "b": "Wojciech Zaremba",
+     "sa": "Taurus",
+     "sb": "Sagittarius",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Ilya Sutskever",
+     "b": "Greg Brockman",
+     "sa": "Sagittarius",
+     "sb": "Sagittarius",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Ilya Sutskever",
+     "b": "Trevor Blackwell",
+     "sa": "Sagittarius",
+     "sb": "Scorpio",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Ilya Sutskever",
+     "b": "Andrej Karpathy",
+     "sa": "Sagittarius",
+     "sb": "Scorpio",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Ilya Sutskever",
+     "b": "Wojciech Zaremba",
+     "sa": "Sagittarius",
+     "sb": "Sagittarius",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Greg Brockman",
+     "b": "Trevor Blackwell",
+     "sa": "Sagittarius",
+     "sb": "Scorpio",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Greg Brockman",
+     "b": "Andrej Karpathy",
+     "sa": "Sagittarius",
+     "sb": "Scorpio",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Greg Brockman",
+     "b": "Wojciech Zaremba",
+     "sa": "Sagittarius",
+     "sb": "Sagittarius",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Trevor Blackwell",
+     "b": "Andrej Karpathy",
+     "sa": "Scorpio",
+     "sb": "Scorpio",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Trevor Blackwell",
+     "b": "Wojciech Zaremba",
+     "sa": "Scorpio",
+     "sb": "Sagittarius",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Andrej Karpathy",
+     "b": "Wojciech Zaremba",
+     "sa": "Scorpio",
+     "sb": "Sagittarius",
+     "company": "OpenAI",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Elon Musk",
+     "b": "Peter Thiel",
+     "sa": "Cancer",
+     "sb": "Libra",
+     "company": "PayPal",
+     "ring": "big",
+     "split": "broke up",
+     "split_year": "2000",
+     "what": "While Musk was away on his honeymoon in September 2000, X.com's executives moved against his leadership and the board replaced him as CEO with Peter Thiel in October 2000.",
+     "src": "https://www.cnbc.com/2019/11/02/why-elon-musk-says-taking-vacations-will-kill-you.html"
+    },
+    {
+     "a": "Elon Musk",
+     "b": "Max Levchin",
+     "sa": "Cancer",
+     "sb": "Cancer",
+     "company": "PayPal",
+     "ring": "big",
+     "split": "broke up",
+     "split_year": "2000",
+     "what": "While Musk was away on his honeymoon in September 2000, X.com's executives moved against his leadership and the board replaced him as CEO with Peter Thiel in October 2000.",
+     "src": "https://www.cnbc.com/2019/11/02/why-elon-musk-says-taking-vacations-will-kill-you.html"
+    },
+    {
+     "a": "Elon Musk",
+     "b": "Ken Howery",
+     "sa": "Cancer",
+     "sb": "Scorpio",
+     "company": "PayPal",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Peter Thiel",
+     "b": "Max Levchin",
+     "sa": "Libra",
+     "sb": "Cancer",
+     "company": "PayPal",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Peter Thiel",
+     "b": "Ken Howery",
+     "sa": "Libra",
+     "sb": "Scorpio",
+     "company": "PayPal",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Max Levchin",
+     "b": "Ken Howery",
+     "sa": "Cancer",
+     "sb": "Scorpio",
+     "company": "PayPal",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Elon Musk",
+     "b": "Martin Eberhard",
+     "sa": "Cancer",
+     "sb": "Taurus",
+     "company": "Tesla",
+     "ring": "giants",
+     "split": "broke up",
+     "split_year": "2007-2009",
+     "what": "In August 2007 Tesla's board, led by chairman Elon Musk, asked cofounder and CEO Martin Eberhard to step down; Eberhard sued Musk for libel and breach of contract in June 2009, dropped the suit in August, and a September",
+     "src": "https://www.wired.com/2009/06/eberhard/"
+    },
+    {
+     "a": "Elon Musk",
+     "b": "Marc Tarpenning",
+     "sa": "Cancer",
+     "sb": "Gemini",
+     "company": "Tesla",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Elon Musk",
+     "b": "J. B. Straubel",
+     "sa": "Cancer",
+     "sb": "Sagittarius",
+     "company": "Tesla",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Martin Eberhard",
+     "b": "Marc Tarpenning",
+     "sa": "Taurus",
+     "sb": "Gemini",
+     "company": "Tesla",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Martin Eberhard",
+     "b": "J. B. Straubel",
+     "sa": "Taurus",
+     "sb": "Sagittarius",
+     "company": "Tesla",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Marc Tarpenning",
+     "b": "J. B. Straubel",
+     "sa": "Gemini",
+     "sb": "Sagittarius",
+     "company": "Tesla",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Mark Zuckerberg",
+     "b": "Eduardo Saverin",
+     "sa": "Taurus",
+     "sb": "Pisces",
+     "company": "Meta Platforms (Facebook)",
+     "ring": "giants",
+     "split": "broke up",
+     "split_year": "2005-2009",
+     "what": "In 2005 Zuckerberg restructured Facebook so that Saverin's stake was diluted and pushed him out of the company; Facebook sued Saverin over the 2005 stock agreement, Saverin countersued, and the parties settled in 2009 wi",
+     "src": "https://www.businessinsider.com/how-mark-zuckerberg-booted-his-co-founder-out-of-the-company-2012-5"
+    },
+    {
+     "a": "Mark Zuckerberg",
+     "b": "Dustin Moskovitz",
+     "sa": "Taurus",
+     "sb": "Gemini",
+     "company": "Meta Platforms (Facebook)",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Mark Zuckerberg",
+     "b": "Andrew McCollum",
+     "sa": "Taurus",
+     "sb": "Virgo",
+     "company": "Meta Platforms (Facebook)",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Mark Zuckerberg",
+     "b": "Chris Hughes",
+     "sa": "Taurus",
+     "sb": "Sagittarius",
+     "company": "Meta Platforms (Facebook)",
+     "ring": "giants",
+     "split": "broke up",
+     "split_year": "2019",
+     "what": "Hughes, who had left Facebook in 2007 to join the Obama campaign, published a New York Times op-ed on 9 May 2019 calling for the government to break up Facebook and curb Zuckerberg's power, and said a month later that he",
+     "src": "https://www.cnbc.com/2019/06/17/facebook-co-founder-chris-hughes-zuckerberg-a-friend-but-too-powerful.html"
+    },
+    {
+     "a": "Eduardo Saverin",
+     "b": "Dustin Moskovitz",
+     "sa": "Pisces",
+     "sb": "Gemini",
+     "company": "Meta Platforms (Facebook)",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Eduardo Saverin",
+     "b": "Andrew McCollum",
+     "sa": "Pisces",
+     "sb": "Virgo",
+     "company": "Meta Platforms (Facebook)",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Eduardo Saverin",
+     "b": "Chris Hughes",
+     "sa": "Pisces",
+     "sb": "Sagittarius",
+     "company": "Meta Platforms (Facebook)",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Dustin Moskovitz",
+     "b": "Andrew McCollum",
+     "sa": "Gemini",
+     "sb": "Virgo",
+     "company": "Meta Platforms (Facebook)",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Dustin Moskovitz",
+     "b": "Chris Hughes",
+     "sa": "Gemini",
+     "sb": "Sagittarius",
+     "company": "Meta Platforms (Facebook)",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Andrew McCollum",
+     "b": "Chris Hughes",
+     "sa": "Virgo",
+     "sb": "Sagittarius",
+     "company": "Meta Platforms (Facebook)",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Jerry Sanders",
+     "b": "Edwin Turney",
+     "sa": "Virgo",
+     "sb": "Aries",
+     "company": "AMD",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Jerry Sanders",
+     "b": "Jack Gifford",
+     "sa": "Virgo",
+     "sb": "Capricorn",
+     "company": "AMD",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Edwin Turney",
+     "b": "Jack Gifford",
+     "sa": "Aries",
+     "sb": "Capricorn",
+     "company": "AMD",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Sam Walton",
+     "b": "Bud Walton",
+     "sa": "Aries",
+     "sb": "Sagittarius",
+     "company": "Walmart",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Robert Noyce",
+     "b": "Gordon Moore",
+     "sa": "Sagittarius",
+     "sb": "Capricorn",
+     "company": "Intel",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Robert Noyce",
+     "b": "Andrew Grove",
+     "sa": "Sagittarius",
+     "sb": "Virgo",
+     "company": "Intel",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Gordon Moore",
+     "b": "Andrew Grove",
+     "sa": "Capricorn",
+     "sb": "Virgo",
+     "company": "Intel",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Peter Thiel",
+     "b": "Stephen Cohen",
+     "sa": "Libra",
+     "sb": "Libra",
+     "company": "Palantir",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Peter Thiel",
+     "b": "Alexander C. Karp",
+     "sa": "Libra",
+     "sb": "Libra",
+     "company": "Palantir",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Peter Thiel",
+     "b": "Joe Lonsdale",
+     "sa": "Libra",
+     "sb": "Virgo",
+     "company": "Palantir",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Stephen Cohen",
+     "b": "Alexander C. Karp",
+     "sa": "Libra",
+     "sb": "Libra",
+     "company": "Palantir",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Stephen Cohen",
+     "b": "Joe Lonsdale",
+     "sa": "Libra",
+     "sb": "Virgo",
+     "company": "Palantir",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Alexander C. Karp",
+     "b": "Joe Lonsdale",
+     "sa": "Libra",
+     "sb": "Virgo",
+     "company": "Palantir",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Larry Ellison",
+     "b": "Bob Miner",
+     "sa": "Leo",
+     "sb": "Capricorn",
+     "company": "Oracle",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "James Sinegal",
+     "b": "Jeffrey Brotman",
+     "sa": "Capricorn",
+     "sb": "Libra",
+     "company": "Costco",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Bernard Marcus",
+     "b": "Arthur Blank",
+     "sa": "Taurus",
+     "sb": "Libra",
+     "company": "Home Depot",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Bernard Marcus",
+     "b": "Kenneth Langone",
+     "sa": "Taurus",
+     "sb": "Virgo",
+     "company": "Home Depot",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Arthur Blank",
+     "b": "Kenneth Langone",
+     "sa": "Libra",
+     "sb": "Virgo",
+     "company": "Home Depot",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Dietmar Hopp",
+     "b": "Hans-Werner Hector",
+     "sa": "Taurus",
+     "sb": "Capricorn",
+     "company": "SAP",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Dietmar Hopp",
+     "b": "Hasso Plattner",
+     "sa": "Taurus",
+     "sb": "Aquarius",
+     "company": "SAP",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Dietmar Hopp",
+     "b": "Klaus Tschira",
+     "sa": "Taurus",
+     "sb": "Sagittarius",
+     "company": "SAP",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Dietmar Hopp",
+     "b": "Claus Wellenreuther",
+     "sa": "Taurus",
+     "sb": "Pisces",
+     "company": "SAP",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Hans-Werner Hector",
+     "b": "Hasso Plattner",
+     "sa": "Capricorn",
+     "sb": "Aquarius",
+     "company": "SAP",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Hans-Werner Hector",
+     "b": "Klaus Tschira",
+     "sa": "Capricorn",
+     "sb": "Sagittarius",
+     "company": "SAP",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Hans-Werner Hector",
+     "b": "Claus Wellenreuther",
+     "sa": "Capricorn",
+     "sb": "Pisces",
+     "company": "SAP",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Hasso Plattner",
+     "b": "Klaus Tschira",
+     "sa": "Aquarius",
+     "sb": "Sagittarius",
+     "company": "SAP",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Hasso Plattner",
+     "b": "Claus Wellenreuther",
+     "sa": "Aquarius",
+     "sb": "Pisces",
+     "company": "SAP",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Klaus Tschira",
+     "b": "Claus Wellenreuther",
+     "sa": "Sagittarius",
+     "sb": "Pisces",
+     "company": "SAP",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Reed Hastings",
+     "b": "Marc Randolph",
+     "sa": "Libra",
+     "sb": "Taurus",
+     "company": "Netflix",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Jack Ma",
+     "b": "Joseph Tsai",
+     "sa": "Virgo",
+     "sb": "Capricorn",
+     "company": "Alibaba",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Andy Bechtolsheim",
+     "b": "David Cheriton",
+     "sa": "Libra",
+     "sb": "Aries",
+     "company": "Arista Networks",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Ray Stata",
+     "b": "Matthew Lorber",
+     "sa": "Scorpio",
+     "sb": "Capricorn",
+     "company": "Analog Devices",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Eli Harari",
+     "b": "Sanjay Mehrotra",
+     "sa": "Gemini",
+     "sb": "Cancer",
+     "company": "Sandisk",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Amancio Ortega",
+     "b": "Rosalía Mera",
+     "sa": "Aries",
+     "sb": "Aquarius",
+     "company": "Inditex",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Irwin M. Jacobs",
+     "b": "Andrew Viterbi",
+     "sa": "Libra",
+     "sb": "Pisces",
+     "company": "QUALCOMM",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Rob Kapito",
+     "b": "Larry Fink",
+     "sa": "Aquarius",
+     "sb": "Scorpio",
+     "company": "BlackRock",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Rob Kapito",
+     "b": "Susan Wagner",
+     "sa": "Aquarius",
+     "sb": "Capricorn",
+     "company": "BlackRock",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Larry Fink",
+     "b": "Susan Wagner",
+     "sa": "Scorpio",
+     "sb": "Capricorn",
+     "company": "BlackRock",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Alan Shugart",
+     "b": "Finis Conner",
+     "sa": "Libra",
+     "sb": "Leo",
+     "company": "Seagate Technology",
+     "ring": "giants",
+     "split": "board ouster",
+     "split_year": "1998",
+     "what": "Seagate's board asked cofounder and CEO Al Shugart to resign on 20 July 1998, saying 'the time has come to make a change in the leadership of the company' after a $530 million annual loss, and Stephen Luczo became CEO.",
+     "src": "https://techmonitor.ai/?p=84092"
+    },
+    {
+     "a": "Ma Mingzhe",
+     "b": "Yuan Geng",
+     "sa": "Sagittarius",
+     "sb": "Taurus",
+     "company": "Ping An Insurance",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Peter George Peterson",
+     "b": "Stephen A. Schwarzman",
+     "sa": "Gemini",
+     "sb": "Aquarius",
+     "company": "Blackstone Group",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Garrett Camp",
+     "b": "Travis Kalanick",
+     "sa": "Libra",
+     "sb": "Leo",
+     "company": "Uber",
+     "ring": "giants",
+     "split": "board ouster",
+     "split_year": "2017",
+     "what": "Five major investors led by Benchmark demanded Kalanick's resignation in a letter and he stepped down as Uber CEO on 20 June 2017; cofounder Garrett Camp took no public position against him.",
+     "src": "https://www.theguardian.com/technology/2017/jun/20/uber-ceo-travis-kalanick-resigns"
+    },
+    {
+     "a": "Zev Siegl",
+     "b": "Gordon Bowker",
+     "sa": "Capricorn",
+     "sb": "Scorpio",
+     "company": "Starbucks",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Stanley P. Goldstein",
+     "b": "Ralph P. Hoagland III",
+     "sa": "Gemini",
+     "sb": "Leo",
+     "company": "CVS Health",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Daniel Ek",
+     "b": "Martin Lorentzon",
+     "sa": "Pisces",
+     "sb": "Aries",
+     "company": "Spotify",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Thomas F. Frist, Sr.",
+     "b": "Thomas F. Frist, Jr.",
+     "sa": "Sagittarius",
+     "sb": "Leo",
+     "company": "HCA Healthcare",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Thomas F. Frist, Sr.",
+     "b": "Jack C. Massey",
+     "sa": "Sagittarius",
+     "sb": "Gemini",
+     "company": "HCA Healthcare",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Thomas F. Frist, Jr.",
+     "b": "Jack C. Massey",
+     "sa": "Leo",
+     "sb": "Gemini",
+     "company": "HCA Healthcare",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Brian Chesky",
+     "b": "Joe Gebbia",
+     "sa": "Virgo",
+     "sb": "Leo",
+     "company": "Airbnb",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "John Warnock",
+     "b": "Charles Geschke",
+     "sa": "Libra",
+     "sb": "Virgo",
+     "company": "Adobe",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "JRD Tata",
+     "b": "F. C. Kohli",
+     "sa": "Leo",
+     "sb": "Pisces",
+     "company": "Tata Consultancy Services",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "A. Richard Newton",
+     "b": "Alberto Sangiovanni-Vincentelli",
+     "sa": "Cancer",
+     "sb": "Cancer",
+     "company": "Cadence Design Systems",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Alberto Sangiovanni-Vincentelli",
+     "b": "Aart de Geus",
+     "sa": "Cancer",
+     "sb": "Gemini",
+     "company": "Synopsys",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Wayne Huizenga",
+     "b": "Dean Buntrock",
+     "sa": "Capricorn",
+     "sb": "Gemini",
+     "company": "Waste Management",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Henry Kravis",
+     "b": "George R. Roberts",
+     "sa": "Capricorn",
+     "sb": "Virgo",
+     "company": "KKR & Co.",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Henry Kravis",
+     "b": "Jerome Kohlberg, Jr.",
+     "sa": "Capricorn",
+     "sb": "Cancer",
+     "company": "KKR & Co.",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "George R. Roberts",
+     "b": "Jerome Kohlberg, Jr.",
+     "sa": "Virgo",
+     "sb": "Cancer",
+     "company": "KKR & Co.",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Derrick Rossi",
+     "b": "Timothy A. Springer",
+     "sa": "Aquarius",
+     "sb": "Pisces",
+     "company": "Moderna",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Derrick Rossi",
+     "b": "Robert S. Langer, Jr.",
+     "sa": "Aquarius",
+     "sb": "Virgo",
+     "company": "Moderna",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Derrick Rossi",
+     "b": "Kenneth R. Chien",
+     "sa": "Aquarius",
+     "sb": "Sagittarius",
+     "company": "Moderna",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Derrick Rossi",
+     "b": "Noubar Afeyan",
+     "sa": "Aquarius",
+     "sb": "Leo",
+     "company": "Moderna",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Timothy A. Springer",
+     "b": "Robert S. Langer, Jr.",
+     "sa": "Pisces",
+     "sb": "Virgo",
+     "company": "Moderna",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Timothy A. Springer",
+     "b": "Kenneth R. Chien",
+     "sa": "Pisces",
+     "sb": "Sagittarius",
+     "company": "Moderna",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Timothy A. Springer",
+     "b": "Noubar Afeyan",
+     "sa": "Pisces",
+     "sb": "Leo",
+     "company": "Moderna",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Robert S. Langer, Jr.",
+     "b": "Kenneth R. Chien",
+     "sa": "Virgo",
+     "sb": "Sagittarius",
+     "company": "Moderna",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Robert S. Langer, Jr.",
+     "b": "Noubar Afeyan",
+     "sa": "Virgo",
+     "sb": "Leo",
+     "company": "Moderna",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Kenneth R. Chien",
+     "b": "Noubar Afeyan",
+     "sa": "Sagittarius",
+     "sb": "Leo",
+     "company": "Moderna",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Marc Rich",
+     "b": "Pincus Green",
+     "sa": "Sagittarius",
+     "sb": "Cancer",
+     "company": "Glencore",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Lei Jun",
+     "b": "Lin Bin",
+     "sa": "Sagittarius",
+     "sb": "Aries",
+     "company": "Xiaomi",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Melvin Simon",
+     "b": "Herb Simon",
+     "sa": "Libra",
+     "sb": "Scorpio",
+     "company": "Simon Property Group",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Ralph J. Roberts",
+     "b": "Julian A. Brodsky",
+     "sa": "Pisces",
+     "sb": "Cancer",
+     "company": "Comcast",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Kelcy Warren",
+     "b": "Ray Davis (businessman)",
+     "sa": "Scorpio",
+     "sb": "Libra",
+     "company": "Energy Transfer LP",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Leon Black",
+     "b": "Josh Harris",
+     "sa": "Leo",
+     "sb": "Capricorn",
+     "company": "Apollo Global Management",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Leon Black",
+     "b": "Marc Rowan",
+     "sa": "Leo",
+     "sb": "Leo",
+     "company": "Apollo Global Management",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Leon Black",
+     "b": "Antony Ressler",
+     "sa": "Leo",
+     "sb": "Libra",
+     "company": "Apollo Global Management",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Josh Harris",
+     "b": "Marc Rowan",
+     "sa": "Capricorn",
+     "sb": "Leo",
+     "company": "Apollo Global Management",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Josh Harris",
+     "b": "Antony Ressler",
+     "sa": "Capricorn",
+     "sb": "Libra",
+     "company": "Apollo Global Management",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Marc Rowan",
+     "b": "Antony Ressler",
+     "sa": "Leo",
+     "sb": "Libra",
+     "company": "Apollo Global Management",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Bill Bowerman",
+     "b": "Phil Knight",
+     "sa": "Pisces",
+     "sb": "Pisces",
+     "company": "Nike",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Tsai Wan-lin",
+     "b": "Tsai Wan-chun",
+     "sa": "Scorpio",
+     "sb": "Sagittarius",
+     "company": "Cathay Financial Holding",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "David Duffield",
+     "b": "Aneel Bhusri",
+     "sa": "Virgo",
+     "sb": "Aquarius",
+     "company": "Workday",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Alex d'Arbeloff",
+     "b": "Nick DeWolf",
+     "sa": "Sagittarius",
+     "sb": "Cancer",
+     "company": "Teradyne",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "N. R. Narayana Murthy",
+     "b": "Nandan Nilekani",
+     "sa": "Leo",
+     "sb": "Gemini",
+     "company": "Infosys",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "N. R. Narayana Murthy",
+     "b": "Kris Gopalakrishnan",
+     "sa": "Leo",
+     "sb": "Aries",
+     "company": "Infosys",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "N. R. Narayana Murthy",
+     "b": "S. D. Shibulal",
+     "sa": "Leo",
+     "sb": "Pisces",
+     "company": "Infosys",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Nandan Nilekani",
+     "b": "Kris Gopalakrishnan",
+     "sa": "Gemini",
+     "sb": "Aries",
+     "company": "Infosys",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Nandan Nilekani",
+     "b": "S. D. Shibulal",
+     "sa": "Gemini",
+     "sb": "Pisces",
+     "company": "Infosys",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Kris Gopalakrishnan",
+     "b": "S. D. Shibulal",
+     "sa": "Aries",
+     "sb": "Pisces",
+     "company": "Infosys",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Jack Dorsey",
+     "b": "Jim McKelvey",
+     "sa": "Scorpio",
+     "sb": "Libra",
+     "company": "Block",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Larry Bock",
+     "b": "Anthony W. Czarnik",
+     "sa": "Virgo",
+     "sb": "Scorpio",
+     "company": "Illumina",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Brian Armstrong",
+     "b": "Fred Ehrsam",
+     "sa": "Aquarius",
+     "sb": "Taurus",
+     "company": "Coinbase",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Herbert Irving",
+     "b": "John F. Baugh",
+     "sa": "Scorpio",
+     "sb": "Pisces",
+     "company": "Sysco",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Kwok Tak-Seng",
+     "b": "Lee Shau-kee",
+     "sa": "Pisces",
+     "sb": "Pisces",
+     "company": "Sun Hung Kai Properties",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "David Baszucki",
+     "b": "Erik Cassel",
+     "sa": "Aquarius",
+     "sb": "Sagittarius",
+     "company": "Roblox",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Mark E. Seremet",
+     "b": "Ryan Ashley Brant",
+     "sa": "Pisces",
+     "sb": "Sagittarius",
+     "company": "Take-Two Interactive",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Ernest Harrison",
+     "b": "Gerry Whent",
+     "sa": "Taurus",
+     "sb": "Pisces",
+     "company": "Vodafone",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Kenneth Murray",
+     "b": "Phillip Sharp",
+     "sa": "Capricorn",
+     "sb": "Gemini",
+     "company": "Biogen",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Kenneth Murray",
+     "b": "Walter Gilbert",
+     "sa": "Capricorn",
+     "sb": "Aries",
+     "company": "Biogen",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Kenneth Murray",
+     "b": "Charles Weissmann",
+     "sa": "Capricorn",
+     "sb": "Libra",
+     "company": "Biogen",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Phillip Sharp",
+     "b": "Walter Gilbert",
+     "sa": "Gemini",
+     "sb": "Aries",
+     "company": "Biogen",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Phillip Sharp",
+     "b": "Charles Weissmann",
+     "sa": "Gemini",
+     "sb": "Libra",
+     "company": "Biogen",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Walter Gilbert",
+     "b": "Charles Weissmann",
+     "sa": "Aries",
+     "sb": "Libra",
+     "company": "Biogen",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Phillip Sharp",
+     "b": "Paul Schimmel",
+     "sa": "Gemini",
+     "sb": "Leo",
+     "company": "Alnylam Pharmaceuticals",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Phillip Sharp",
+     "b": "Thomas Tuschl",
+     "sa": "Gemini",
+     "sb": "Gemini",
+     "company": "Alnylam Pharmaceuticals",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Phillip Sharp",
+     "b": "Phillip D. Zamore",
+     "sa": "Gemini",
+     "sb": "Sagittarius",
+     "company": "Alnylam Pharmaceuticals",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Paul Schimmel",
+     "b": "Thomas Tuschl",
+     "sa": "Leo",
+     "sb": "Gemini",
+     "company": "Alnylam Pharmaceuticals",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Paul Schimmel",
+     "b": "Phillip D. Zamore",
+     "sa": "Leo",
+     "sb": "Sagittarius",
+     "company": "Alnylam Pharmaceuticals",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Thomas Tuschl",
+     "b": "Phillip D. Zamore",
+     "sa": "Gemini",
+     "sb": "Sagittarius",
+     "company": "Alnylam Pharmaceuticals",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Liu Chuanzhi",
+     "b": "Danny Lui",
+     "sa": "Taurus",
+     "sb": "Capricorn",
+     "company": "Lenovo",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Ari Emanuel",
+     "b": "Vince McMahon",
+     "sa": "Aries",
+     "sb": "Virgo",
+     "company": "TKO Group Holdings",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Kevin P. Ryan",
+     "b": "Eliot Horowitz",
+     "sa": "Gemini",
+     "sb": "Taurus",
+     "company": "MongoDB",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Kevin P. Ryan",
+     "b": "Dwight Merriman",
+     "sa": "Gemini",
+     "sb": "Leo",
+     "company": "MongoDB",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Eliot Horowitz",
+     "b": "Dwight Merriman",
+     "sa": "Taurus",
+     "sb": "Leo",
+     "company": "MongoDB",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Henry Earl Singleton",
+     "b": "George Kozmetsky",
+     "sa": "Sagittarius",
+     "sb": "Libra",
+     "company": "Teledyne Technologies",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Henry Earl Singleton",
+     "b": "Arthur Rock",
+     "sa": "Sagittarius",
+     "sb": "Leo",
+     "company": "Teledyne Technologies",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "George Kozmetsky",
+     "b": "Arthur Rock",
+     "sa": "Libra",
+     "sb": "Leo",
+     "company": "Teledyne Technologies",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Christopher Ryan",
+     "b": "rachdi mohamee",
+     "sa": "Sagittarius",
+     "sb": "Aquarius",
+     "company": "Ryanair",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Steve Huffman",
+     "b": "Alexis Ohanian",
+     "sa": "Scorpio",
+     "sb": "Taurus",
+     "company": "Reddit",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Steve Huffman",
+     "b": "Aaron Swartz",
+     "sa": "Scorpio",
+     "sb": "Scorpio",
+     "company": "Reddit",
+     "ring": "big",
+     "split": "board ouster",
+     "split_year": "2007",
+     "what": "Swartz, who became a Reddit co-owner when his Infogami merged into it in late 2005, was fired by acquirer Conde Nast/Wired in January 2007 after he stopped coming into the office following the sale.",
+     "src": "https://www.newyorker.com/magazine/2013/03/11/requiem-for-a-dream"
+    },
+    {
+     "a": "Alexis Ohanian",
+     "b": "Aaron Swartz",
+     "sa": "Taurus",
+     "sb": "Scorpio",
+     "company": "Reddit",
+     "ring": "big",
+     "split": "board ouster",
+     "split_year": "2007",
+     "what": "Swartz, who became a Reddit co-owner when his Infogami merged into it in late 2005, was fired by acquirer Conde Nast/Wired in January 2007 after he stopped coming into the office following the sale.",
+     "src": "https://www.newyorker.com/magazine/2013/03/11/requiem-for-a-dream"
+    },
+    {
+     "a": "Uğur Şahin",
+     "b": "Özlem Türeci",
+     "sa": "Virgo",
+     "sb": "Pisces",
+     "company": "BioNTech",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Herb Kelleher",
+     "b": "Rollin King",
+     "sa": "Pisces",
+     "sb": "Aries",
+     "company": "Southwest Airlines",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Johnelle Hunt",
+     "b": "Johnnie Bryan Hunt",
+     "sa": "Capricorn",
+     "sb": "Pisces",
+     "company": "J. B. Hunt",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Urs Wietlisbach",
+     "b": "Marcel Erni",
+     "sa": "Virgo",
+     "sb": "Cancer",
+     "company": "Partners Group",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Andrew Konwinski",
+     "b": "Ion Stoica",
+     "sa": "Libra",
+     "sb": "Aquarius",
+     "company": "Databricks",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Andrew Konwinski",
+     "b": "Matei Zaharia",
+     "sa": "Libra",
+     "sb": "Taurus",
+     "company": "Databricks",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Ion Stoica",
+     "b": "Matei Zaharia",
+     "sa": "Aquarius",
+     "sb": "Taurus",
+     "company": "Databricks",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Patrick Collison",
+     "b": "John Collison",
+     "sa": "Virgo",
+     "sb": "Leo",
+     "company": "Stripe",
+     "ring": "giants",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Arthur Mensch",
+     "b": "Guillaume Lample",
+     "sa": "Cancer",
+     "sb": "Libra",
+     "company": "Mistral AI",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Tarek Mansour",
+     "b": "Luana Lara Lopes",
+     "sa": "Taurus",
+     "sb": "Taurus",
+     "company": "Kalshi",
+     "ring": "big",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Adam Neumann",
+     "b": "Miguel McKelvey",
+     "sa": "Taurus",
+     "sb": "Cancer",
+     "company": "WeWork",
+     "ring": "fallen",
+     "split": "board ouster",
+     "split_year": "2019",
+     "what": "After its IPO filing drew scorn, WeWork's board, with largest investor SoftBank, pressed Neumann to step aside and he resigned as CEO on 24 September 2019, later leaving the board with a SoftBank exit package; cofounder ",
+     "src": "https://fortune.com/2019/09/24/wework-ceo-adam-neumann-stepping-down-ipo/"
+    },
+    {
+     "a": "Byju Raveendran",
+     "b": "Divya Gokulnath",
+     "sa": "Capricorn",
+     "sb": "Taurus",
+     "company": "Byju's",
+     "ring": "fallen",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Suroosh Alvi",
+     "b": "Shane Smith",
+     "sa": "Aries",
+     "sb": "Libra",
+     "company": "Vice Media",
+     "ring": "fallen",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Suroosh Alvi",
+     "b": "Gavin McInnes",
+     "sa": "Aries",
+     "sb": "Cancer",
+     "company": "Vice Media",
+     "ring": "fallen",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    },
+    {
+     "a": "Shane Smith",
+     "b": "Gavin McInnes",
+     "sa": "Libra",
+     "sb": "Cancer",
+     "company": "Vice Media",
+     "ring": "fallen",
+     "split": "",
+     "split_year": "",
+     "what": "",
+     "src": ""
+    }
+   ],
+   "n_split": 13,
+   "n_fallen_pairs": 5,
    "note": "78 cells share a few hundred pairs, so most cells hold a handful of companies; read the ratio with its count, and treat any single bright cell as a story, not a result."
   },
   "relative_age": {
    "label": "Relative age in the school cohort, Giants + Big",
-   "n": 272,
-   "mean_months": 5.548,
-   "null_mean": 5.508,
-   "band_lo": 5.103,
-   "band_hi": 5.919,
-   "p_two_sided": 0.8504,
-   "share_oldest_third": 0.3199,
-   "share_youngest_third": 0.3309,
-   "null_oldest_third": 0.3326,
-   "null_youngest_third": 0.3323,
+   "n": 274,
+   "mean_months": 5.536,
+   "null_mean": 5.507,
+   "band_lo": 5.095,
+   "band_hi": 5.912,
+   "p_two_sided": 0.8898,
+   "share_oldest_third": 0.3212,
+   "share_youngest_third": 0.3321,
+   "null_oldest_third": 0.3324,
+   "null_youngest_third": 0.3325,
    "hist": [
-    15,
+    16,
     24,
     23,
     28,
@@ -2020,33 +4238,1470 @@
     21,
     21,
     27,
-    17,
+    18,
     28,
     19,
     23
    ],
    "expected_hist": [
-    22.14,
-    22.13,
+    22.31,
+    22.26,
+    23.37,
     23.17,
-    22.95,
-    22.97,
-    23.42,
-    22.17,
-    22.58,
-    21.93,
-    22.94,
-    22.58,
-    23.01
+    23.15,
+    23.56,
+    22.34,
+    22.75,
+    22.02,
+    23.19,
+    22.77,
+    23.1
    ],
+   "per_founder": {
+    "Q305177": {
+     "cut": 243,
+     "country": "Taiwan",
+     "rule": "A child who has turned 6 on or before 1 September starts elementary school that September; children born on 2 September or later wait a year."
+    },
+    "Q5107317": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q19837": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q483382": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q332591": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5284": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q162005": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q4934": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q92764": {
+     "cut": 59,
+     "country": "Russia",
+     "rule": "A child must be at least 6 years 6 months on 1 September (born on or before 1 March) and not older than 8; the school founder may admit younger or older children on request, and most children start at about 7 (Federal Law 273-FZ art. 67; the 1992 Law on Education set the same minimum)."
+    },
+    "Q312556": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q4745214": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q317521": {
+     "cut": 364,
+     "country": "South Africa",
+     "rule": "Government Notice 2433 of 1998 (Admission Policy for Ordinary Public Schools) set the Grade 1 admission age at 7 turning in the calendar year (statistical age norm = grade + 6)."
+    },
+    "Q1903673": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1892831": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6107808": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q36215": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q312663": {
+     "cut": 89,
+     "country": "Brazil",
+     "rule": "CNE/CEB resolutions 1/2010 and 6/2010 (reaffirmed by resolution 2/2018) require a child to have turned 6 by 31 March of the enrolment year to enter the first year of ensino fundamental."
+    },
+    "Q370217": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q4757939": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q370321": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1687865": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q930948": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q16018448": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q497827": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1045098": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q241735": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q243969": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q432929": {
+     "cut": 150,
+     "country": "Hungary",
+     "rule": "A child who turned 6 by 31 May started school in September of that calendar year; deferral to 7 or 8 was common."
+    },
+    "Q705525": {
+     "cut": 180,
+     "country": "Germany",
+     "rule": "Nationwide 'for a long time' a child who had turned 6 by 30 June started school on 1 August of that year (the KMK Hamburg Agreement of 1964 set this date; not verified here)."
+    },
+    "Q16204157": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q19560940": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6210988": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1739008": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q92759": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q2744012": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6143243": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6175871": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5235798": {
+     "cut": 243,
+     "country": "Taiwan",
+     "rule": "A child who has turned 6 on or before 1 September starts elementary school that September; children born on 2 September or later wait a year."
+    },
+    "Q2898293": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q2865008": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6390362": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q218630": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q62543": {
+     "cut": 180,
+     "country": "Germany",
+     "rule": "Nationwide 'for a long time' a child who had turned 6 by 30 June started school on 1 August of that year (the KMK Hamburg Agreement of 1964 set this date; not verified here)."
+    },
+    "Q1578305": {
+     "cut": 180,
+     "country": "Germany",
+     "rule": "Nationwide 'for a long time' a child who had turned 6 by 30 June started school on 1 August of that year (the KMK Hamburg Agreement of 1964 set this date; not verified here)."
+    },
+    "Q71074": {
+     "cut": 180,
+     "country": "Germany",
+     "rule": "Nationwide 'for a long time' a child who had turned 6 by 30 June started school on 1 August of that year (the KMK Hamburg Agreement of 1964 set this date; not verified here)."
+    },
+    "Q95452": {
+     "cut": 180,
+     "country": "Germany",
+     "rule": "Nationwide 'for a long time' a child who had turned 6 by 30 June started school on 1 August of that year (the KMK Hamburg Agreement of 1964 set this date; not verified here)."
+    },
+    "Q108783": {
+     "cut": 180,
+     "country": "Germany",
+     "rule": "Nationwide 'for a long time' a child who had turned 6 by 30 June started school on 1 August of that year (the KMK Hamburg Agreement of 1964 set this date; not verified here)."
+    },
+    "Q50082669": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7306657": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q18341330": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1137062": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q18165291": {
+     "cut": 243,
+     "country": "Taiwan",
+     "rule": "A child who has turned 6 on or before 1 September starts elementary school that September; children born on 2 September or later wait a year."
+    },
+    "Q65344": {
+     "cut": 180,
+     "country": "Germany",
+     "rule": "Nationwide 'for a long time' a child who had turned 6 by 30 June started school on 1 August of that year (the KMK Hamburg Agreement of 1964 set this date; not verified here)."
+    },
+    "Q5232332": {
+     "cut": 364,
+     "country": "Canada",
+     "rule": "In every province and territory except Quebec a child who turns 5 by 31 December enters kindergarten in September and grade 1 the next year, so cohorts are calendar years; Quebec uses 30 September."
+    },
+    "Q7446496": {
+     "cut": 181,
+     "country": "Indonesia",
+     "rule": "A child must be at least 6 on 1 July of the enrolment year to enter grade 1 of primary school (SD); 7-year-olds have priority and children of 5 years 6 months may be admitted with a psychologist's or teachers' recommendation."
+    },
+    "Q7298142": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q20714493": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q1521908": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q29279": {
+     "cut": 364,
+     "country": "Spain",
+     "rule": "Children are enrolled in primary education in the calendar year in which they turn 6 (LOE 2006 as amended by LOMLOE 2020), so the cohort is the calendar year."
+    },
+    "Q1086680": {
+     "cut": 364,
+     "country": "Spain",
+     "rule": "Children are enrolled in primary education in the calendar year in which they turn 6 (LOE 2006 as amended by LOMLOE 2020), so the cohort is the calendar year."
+    },
+    "Q6075105": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q505358": {
+     "cut": 364,
+     "country": "Italy",
+     "rule": "Children who turn 6 by 31 December of the year the school year starts must enrol in the first year of primary school; children turning 6 by 30 April of the following year may enrol early (anticipatari)."
+    },
+    "Q7349476": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q3218882": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q17388808": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q717038": {
+     "cut": 90,
+     "country": "Japan",
+     "rule": "A child enters elementary school in the first school year (starting 1 April) that begins after the day following their 6th birthday, so a cohort runs from 2 April to 1 April and children born on 1 April are the youngest."
+    },
+    "Q11550665": {
+     "cut": 90,
+     "country": "Japan",
+     "rule": "A child enters elementary school in the first school year (starting 1 April) that begins after the day following their 6th birthday, so a cohort runs from 2 April to 1 April and children born on 1 April are the youngest."
+    },
+    "Q7615005": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1373431": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q15809687": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1066027": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6720788": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q8290978": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q7793127": {
+     "cut": 150,
+     "country": "Hungary",
+     "rule": "A child who turned 6 by 31 May started school in September of that calendar year; deferral to 7 or 8 was common."
+    },
+    "Q456216": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q552465": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q47501260": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5523871": {
+     "cut": 364,
+     "country": "Canada",
+     "rule": "In every province and territory except Quebec a child who turns 5 by 31 December enters kindergarten in September and grade 1 the next year, so cohorts are calendar years; Quebec uses 30 September."
+    },
+    "Q7836291": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1301476": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q7325595": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q101855939": {
+     "cut": 364,
+     "country": "France",
+     "rule": "Children enter CP (first year of elementary school) in September of the calendar year in which they turn 6, with no maturity test; since 2019 instruction is compulsory from age 3 on the same calendar-year basis."
+    },
+    "Q766557": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q766781": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q11565122": {
+     "cut": 90,
+     "country": "Japan",
+     "rule": "A child enters elementary school in the first school year (starting 1 April) that begins after the day following their 6th birthday, so a cohort runs from 2 April to 1 April and children born on 1 April are the youngest."
+    },
+    "Q6167147": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q51665553": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q716030": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q901670": {
+     "cut": 364,
+     "country": "Sweden",
+     "rule": "Children start grade 1 in the autumn of the calendar year they turn 7 (preschool class in the year they turn 6, compulsory since 2018); on request a child may start at 6 or 8."
+    },
+    "Q62098183": {
+     "cut": 364,
+     "country": "Sweden",
+     "rule": "Children start grade 1 in the autumn of the calendar year they turn 7 (preschool class in the year they turn 6, compulsory since 2018); on request a child may start at 6 or 8."
+    },
+    "Q55846513": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q716830": {
+     "cut": 243,
+     "country": "Taiwan",
+     "rule": "A child who has turned 6 on or before 1 September starts elementary school that September; children born on 2 September or later wait a year."
+    },
+    "Q7789441": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7789440": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6111520": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1515641": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q6166316": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q4963341": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q19560551": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1344392": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q2959209": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q19879088": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q468334": {
+     "cut": 364,
+     "country": "France",
+     "rule": "Children enter CP (first year of elementary school) in September of the calendar year in which they turn 6, with no maturity test; since 2019 instruction is compulsory from age 3 on the same calendar-year basis."
+    },
+    "Q5423843": {
+     "cut": 89,
+     "country": "Pakistan",
+     "rule": "TIMSS 2019 national coordinator: a child must be 6 by 31 March to begin school the following April; in practice provinces and private schools admit at 5 with their own reference dates, so there is no uniform national rule."
+    },
+    "Q4648338": {
+     "cut": 180,
+     "country": "Australia",
+     "rule": "Rules differ by state; the first (pre-Year 1) year starts in late January and a child must have turned 5 by a state date between 1 January (Tasmania) and 31 July (NSW); 30 June (Queensland, Western Australia, Northern Territory) is the most common date by count, 31 July (NSW) covers the largest population."
+    },
+    "Q4712193": {
+     "cut": 364,
+     "country": "Italy",
+     "rule": "Children who turn 6 by 31 December of the year the school year starts must enrol in the first year of primary school; children turning 6 by 30 April of the following year may enrol early (anticipatari)."
+    },
+    "Q4662637": {
+     "cut": 273,
+     "country": "Netherlands",
+     "rule": "Under the pre-1985 kleuterschool/lagere school system a child had to be 6 by 1 October to enter the first class of primary school (lagere school) in August."
+    },
+    "Q5689956": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5246035": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7793309": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6175884": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q933721": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1508188": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1687749": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q50173077": {
+     "cut": 364,
+     "country": "Canada",
+     "rule": "In every province and territory except Quebec a child who turns 5 by 31 December enters kindergarten in September and grade 1 the next year, so cohorts are calendar years; Quebec uses 30 September."
+    },
+    "Q1649143": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q669597": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q706542": {
+     "cut": 364,
+     "country": "Belgium",
+     "rule": "A child is admitted to primary school on 1 September of the calendar year in which they turn 6 (compulsory from that date under the law of 29 June 1983; since 1 September 2020 compulsory from 5, also by calendar year)."
+    },
+    "Q7194971": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5996574": {
+     "cut": 180,
+     "country": "Argentina",
+     "rule": "A child who turns 6 by 30 June of the school year enters first grade in March (Buenos Aires Province Decree 538/82; the national Ley 26.206 and Federal Council resolutions use the same 30 June reference)."
+    },
+    "Q9000717": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q18745545": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q4385978": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6814070": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5735576": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q11959103": {
+     "cut": 364,
+     "country": "Norway",
+     "rule": "Children started grade 1 in the calendar year they turned 7."
+    },
+    "Q7287704": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7327075": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q4955022": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q324086": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5278137": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q6385527": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q16728421": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q10806972": {
+     "cut": 364,
+     "country": "Vietnam",
+     "rule": "Grade 1 entry is at age 6 counted by calendar year: children born in a given year start in September of the year they turn 6 (Education Law 2019 art. 28; the 1998 and 2005 laws set the same age)."
+    },
+    "Q5578461": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6289885": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q16194777": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q16193321": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7143985": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q2158383": {
+     "cut": 150,
+     "country": "Hungary",
+     "rule": "A child who turned 6 by 31 May started school in September of that calendar year; deferral to 7 or 8 was common."
+    },
+    "Q982623": {
+     "cut": 90,
+     "country": "Japan",
+     "rule": "A child enters elementary school in the first school year (starting 1 April) that begins after the day following their 6th birthday, so a cohort runs from 2 April to 1 April and children born on 1 April are the youngest."
+    },
+    "Q7176091": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q16105134": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q4834257": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q25344397": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q23939846": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q861967": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q557305": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q18235069": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q563379": {
+     "cut": 243,
+     "country": "Taiwan",
+     "rule": "A child who has turned 6 on or before 1 September starts elementary school that September; children born on 2 September or later wait a year."
+    },
+    "Q15935260": {
+     "cut": 243,
+     "country": "Taiwan",
+     "rule": "A child who has turned 6 on or before 1 September starts elementary school that September; children born on 2 September or later wait a year."
+    },
+    "Q5524792": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q348483": {
+     "cut": 364,
+     "country": "France",
+     "rule": "Children enter CP (first year of elementary school) in September of the calendar year in which they turn 6, with no maturity test; since 2019 instruction is compulsory from age 3 on the same calendar-year basis."
+    },
+    "Q2829601": {
+     "cut": 364,
+     "country": "Canada",
+     "rule": "In every province and territory except Quebec a child who turns 5 by 31 December enters kindergarten in September and grade 1 the next year, so cohorts are calendar years; Quebec uses 30 September."
+    },
+    "Q56347746": {
+     "cut": 89,
+     "country": "Brazil",
+     "rule": "CNE/CEB resolutions 1/2010 and 6/2010 (reaffirmed by resolution 2/2018) require a child to have turned 6 by 31 March of the enrolment year to enter the first year of ensino fundamental."
+    },
+    "Q93033": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q2559017": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5233095": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q18352311": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q4718049": {
+     "cut": 364,
+     "country": "France",
+     "rule": "Children enter CP (first year of elementary school) in September of the calendar year in which they turn 6, with no maturity test; since 2019 instruction is compulsory from age 3 on the same calendar-year basis."
+    },
+    "Q7027005": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1398708": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q1391255": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q6437174": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q7387428": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q7876966": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q93014": {
+     "cut": 243,
+     "country": "Ukraine",
+     "rule": "Primary education normally begins at 6: a child who has turned 6 by the start of the school year (1 September) enters grade 1, parents may delay a year, and children who are 7 at the start of the school year must begin that year (Law on Education 2145-VIII art. 12)."
+    },
+    "Q6387836": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q8926583": {
+     "cut": 243,
+     "country": "Taiwan",
+     "rule": "A child who has turned 6 on or before 1 September starts elementary school that September; children born on 2 September or later wait a year."
+    },
+    "Q363124": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5527865": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q191311": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q335552": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6196866": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1225503": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q5233470": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q18684861": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1819424": {
+     "cut": 59,
+     "country": "Russia",
+     "rule": "A child must be at least 6 years 6 months on 1 September (born on or before 1 March) and not older than 8; the school founder may admit younger or older children on request, and most children start at about 7 (Federal Law 273-FZ art. 67; the 1992 Law on Education set the same minimum)."
+    },
+    "Q64705310": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q69873545": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q3522726": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q8998330": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q21551626": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6450499": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q716047": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q7240183": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q3297814": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q20117554": {
+     "cut": 364,
+     "country": "Canada",
+     "rule": "In every province and territory except Quebec a child who turns 5 by 31 December enters kindergarten in September and grade 1 the next year, so cohorts are calendar years; Quebec uses 30 September."
+    },
+    "Q23945383": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7345956": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7612483": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q312977": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q217486": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q120251": {
+     "cut": 150,
+     "country": "Hungary",
+     "rule": "A child who turned 6 by 31 May started school in September of that calendar year; deferral to 7 or 8 was common."
+    },
+    "Q160802": {
+     "cut": 364,
+     "country": "France",
+     "rule": "Children enter CP (first year of elementary school) in September of the calendar year in which they turn 6, with no maturity test; since 2019 instruction is compulsory from age 3 on the same calendar-year basis."
+    },
+    "Q1045031": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q8991047": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q7323183": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q2861138": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q44430": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q131466356": {
+     "cut": 364,
+     "country": "South Africa",
+     "rule": "Government Notice 2433 of 1998 (Admission Policy for Ordinary Public Schools) set the Grade 1 admission age at 7 turning in the calendar year (statistical age norm = grade + 6)."
+    },
+    "Q7172679": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q109375925": {
+     "cut": 58,
+     "country": "South Korea",
+     "rule": "A child who had turned 6 by the end of February entered elementary school on 1 March; a cohort ran from 1 March to the end of February (the 2007 intake was children born 1 March 2000 to end of February 2001)."
+    },
+    "Q7402688": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q6397188": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5361236": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5318215": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7153466": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q90093": {
+     "cut": 180,
+     "country": "Germany",
+     "rule": "Nationwide 'for a long time' a child who had turned 6 by 30 June started school on 1 August of that year (the KMK Hamburg Agreement of 1964 set this date; not verified here)."
+    },
+    "Q52600489": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5720674": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q5541424": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q4800159": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q1387731": {
+     "cut": 0,
+     "country": "Singapore",
+     "rule": "A child who has turned 6 by 1 January (the day before the school year starts) enters Primary 1 that January; eligible birthdays run from 2 January of one year to 1 January of the next (born 2 Jan 2020 to 1 Jan 2021 for the 2027 intake)."
+    },
+    "Q164373": {
+     "cut": 364,
+     "country": "Thailand",
+     "rule": "Compulsory Education Act B.E. 2545 (2002): a child must enter grade 1 in the school year (starting in May) of the calendar year in which they are 'entering the seventh year of age', i.e. the year they turn 6; age is counted by calendar year of birth under a ministerial regulation."
+    },
+    "Q56248504": {
+     "cut": 273,
+     "country": "Netherlands",
+     "rule": "Under the pre-1985 kleuterschool/lagere school system a child had to be 6 by 1 October to enter the first class of primary school (lagere school) in August."
+    },
+    "Q44870909": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q5084818": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q106977260": {
+     "cut": 364,
+     "country": "Thailand",
+     "rule": "Compulsory Education Act B.E. 2545 (2002): a child must enter grade 1 in the school year (starting in May) of the calendar year in which they are 'entering the seventh year of age', i.e. the year they turn 6; age is counted by calendar year of birth under a ministerial regulation."
+    },
+    "Q701830": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q4120392": {
+     "cut": 364,
+     "country": "United Arab Emirates",
+     "rule": "From 2013 a child had to be 6 by 31 December of the year of enrolment to enter grade 1."
+    },
+    "Q7148948": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q92985": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q27881473": {
+     "cut": 243,
+     "country": "United States",
+     "rule": "In most states a child who turns 5 on or before 1 September (or 31 August) enters kindergarten that fall; 34 states used 1 September or earlier in the 2018 ECS/NCES table (35 after Connecticut moved from 1 January to 1 September for 2024-25), six states leave the date to districts."
+    },
+    "Q7612894": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q4721504": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q302817": {
+     "cut": 243,
+     "country": "United States",
+     "rule": "In most states a child who turns 5 on or before 1 September (or 31 August) enters kindergarten that fall; 34 states used 1 September or earlier in the 2018 ECS/NCES table (35 after Connecticut moved from 1 January to 1 September for 2024-25), six states leave the date to districts."
+    },
+    "Q63117886": {
+     "cut": 58,
+     "country": "South Korea",
+     "rule": "A child who had turned 6 by the end of February entered elementary school on 1 March; a cohort ran from 1 March to the end of February (the 2007 intake was children born 1 March 2000 to end of February 2001)."
+    },
+    "Q542277": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q6777103": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q19662125": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q1451167": {
+     "cut": 364,
+     "country": "France",
+     "rule": "Children enter CP (first year of elementary school) in September of the calendar year in which they turn 6, with no maturity test; since 2019 instruction is compulsory from age 3 on the same calendar-year basis."
+    },
+    "Q116973050": {
+     "cut": 263,
+     "country": "Iran",
+     "rule": "A child must have turned 6 by 21/22 September (31 Shahrivar, the day before the school year opens on 1 Mehr) to enter grade 1; children born in Mehr have at times been admitted by exception."
+    },
+    "Q120601216": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q23418611": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q53944": {
+     "cut": 180,
+     "country": "Australia",
+     "rule": "Rules differ by state; the first (pre-Year 1) year starts in late January and a child must have turned 5 by a state date between 1 January (Tasmania) and 31 July (NSW); 30 June (Queensland, Western Australia, Northern Territory) is the most common date by count, 31 July (NSW) covers the largest population."
+    },
+    "Q488446": {
+     "cut": 58,
+     "country": "South Korea",
+     "rule": "A child who had turned 6 by the end of February entered elementary school on 1 March; a cohort ran from 1 March to the end of February (the 2007 intake was children born 1 March 2000 to end of February 2001)."
+    },
+    "Q319137": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6202240": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q296647": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q2397569": {
+     "cut": 364,
+     "country": "France",
+     "rule": "Children enter CP (first year of elementary school) in September of the calendar year in which they turn 6, with no maturity test; since 2019 instruction is compulsory from age 3 on the same calendar-year basis."
+    },
+    "Q6394668": {
+     "cut": 180,
+     "country": "Australia",
+     "rule": "Rules differ by state; the first (pre-Year 1) year starts in late January and a child must have turned 5 by a state date between 1 January (Tasmania) and 31 July (NSW); 30 June (Queensland, Western Australia, Northern Territory) is the most common date by count, 31 July (NSW) covers the largest population."
+    },
+    "Q2505089": {
+     "cut": 364,
+     "country": "Turkey",
+     "rule": "A child who completed 72 months (age 6) by 31 December of the enrolment year started grade 1 in September, so the cohort was the calendar year and children were 5 years 8 months to 6 years 8 months at entry."
+    },
+    "Q92379963": {
+     "cut": 180,
+     "country": "Germany",
+     "rule": "Nationwide 'for a long time' a child who had turned 6 by 30 June started school on 1 August of that year (the KMK Hamburg Agreement of 1964 set this date; not verified here)."
+    },
+    "Q29467749": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q4819158": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q9052570": {
+     "cut": 243,
+     "country": "Taiwan",
+     "rule": "A child who has turned 6 on or before 1 September starts elementary school that September; children born on 2 September or later wait a year."
+    },
+    "Q134993976": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q764247": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7361158": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q21066741": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6266046": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q6181059": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7327564": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q103335665": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7407093": {
+     "cut": 243,
+     "country": "United States",
+     "rule": "In most states a child who turns 5 on or before 1 September (or 31 August) enters kindergarten that fall; 34 states used 1 September or earlier in the 2018 ECS/NCES table (35 after Connecticut moved from 1 January to 1 September for 2024-25), six states leave the date to districts."
+    },
+    "Q21712134": {
+     "cut": 59,
+     "country": "Russia",
+     "rule": "A child must be at least 6 years 6 months on 1 September (born on or before 1 March) and not older than 8; the school founder may admit younger or older children on request, and most children start at about 7 (Federal Law 273-FZ art. 67; the 1992 Law on Education set the same minimum)."
+    },
+    "Q100604534": {
+     "cut": 243,
+     "country": "United States",
+     "rule": "In most states a child who turns 5 on or before 1 September (or 31 August) enters kindergarten that fall; 34 states used 1 September or earlier in the 2018 ECS/NCES table (35 after Connecticut moved from 1 January to 1 September for 2024-25), six states leave the date to districts."
+    },
+    "Q4088422": {
+     "cut": 364,
+     "country": "Canada",
+     "rule": "In every province and territory except Quebec a child who turns 5 by 31 December enters kindergarten in September and grade 1 the next year, so cohorts are calendar years; Quebec uses 30 September."
+    },
+    "Q27733815": {
+     "cut": 364,
+     "country": "Poland",
+     "rule": "Children started grade 1 in September of the calendar year they turned 7."
+    },
+    "Q63306804": {
+     "cut": 242,
+     "country": "China",
+     "rule": "A child who has turned 6 by 31 August starts primary school on 1 September; the 1986 Compulsory Education Law sets age 6 (7 where local conditions do not permit) and since 2017 provinces may set the exact date, but 31 August remains the common rule nationwide."
+    },
+    "Q50505362": {
+     "cut": 59,
+     "country": "Russia",
+     "rule": "A child must be at least 6 years 6 months on 1 September (born on or before 1 March) and not older than 8; the school founder may admit younger or older children on request, and most children start at about 7 (Federal Law 273-FZ art. 67; the 1992 Law on Education set the same minimum)."
+    },
+    "Q16269109": {
+     "cut": 243,
+     "country": "United States",
+     "rule": "In most states a child who turns 5 on or before 1 September (or 31 August) enters kindergarten that fall; 34 states used 1 September or earlier in the 2018 ECS/NCES table (35 after Connecticut moved from 1 January to 1 September for 2024-25), six states leave the date to districts."
+    },
+    "Q108070054": {
+     "cut": 211,
+     "country": "Switzerland",
+     "rule": "HarmoS art. 5: a child who has turned 4 by 31 July enters kindergarten in August and grade 1 two years later (turned 6 by 31 July); adopted by 15 cantons and phased in between 2009 and about 2019 (Basel-Landschaft 2012/13 to 2017/18, Zürich complete by 2019); non-member cantons keep their own dates."
+    },
+    "Q28449997": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q117788077": {
+     "cut": 243,
+     "country": "United States",
+     "rule": "In most states a child who turns 5 on or before 1 September (or 31 August) enters kindergarten that fall; 34 states used 1 September or earlier in the 2018 ECS/NCES table (35 after Connecticut moved from 1 January to 1 September for 2024-25), six states leave the date to districts."
+    },
+    "Q6830474": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q85467479": {
+     "cut": 243,
+     "country": "United States",
+     "rule": "In most states a child who turns 5 on or before 1 September (or 31 August) enters kindergarten that fall; 34 states used 1 September or earlier in the 2018 ECS/NCES table (35 after Connecticut moved from 1 January to 1 September for 2024-25), six states leave the date to districts."
+    },
+    "Q16735112": {
+     "cut": 364,
+     "country": "Canada",
+     "rule": "In every province and territory except Quebec a child who turns 5 by 31 December enters kindergarten in September and grade 1 the next year, so cohorts are calendar years; Quebec uses 30 September."
+    },
+    "Q123758735": {
+     "cut": 364,
+     "country": "France",
+     "rule": "Children enter CP (first year of elementary school) in September of the calendar year in which they turn 6, with no maturity test; since 2019 instruction is compulsory from age 3 on the same calendar-year basis."
+    },
+    "Q56101409": {
+     "cut": 364,
+     "country": "France",
+     "rule": "Children enter CP (first year of elementary school) in September of the calendar year in which they turn 6, with no maturity test; since 2019 instruction is compulsory from age 3 on the same calendar-year basis."
+    },
+    "Q139394083": {
+     "cut": 243,
+     "country": "United States",
+     "rule": "In most states a child who turns 5 on or before 1 September (or 31 August) enters kindergarten that fall; 34 states used 1 September or earlier in the 2018 ECS/NCES table (35 after Connecticut moved from 1 January to 1 September for 2024-25), six states leave the date to districts."
+    },
+    "Q137206729": {
+     "cut": 89,
+     "country": "Brazil",
+     "rule": "CNE/CEB resolutions 1/2010 and 6/2010 (reaffirmed by resolution 2/2018) require a child to have turned 6 by 31 March of the enrolment year to enter the first year of ensino fundamental."
+    },
+    "Q2925904": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q17503525": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q106543540": {
+     "cut": 243,
+     "country": "United States",
+     "rule": "In most states a child who turns 5 on or before 1 September (or 31 August) enters kindergarten that fall; 34 states used 1 September or earlier in the 2018 ECS/NCES table (35 after Connecticut moved from 1 January to 1 September for 2024-25), six states leave the date to districts."
+    },
+    "Q42666281": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q706548": {
+     "cut": 364,
+     "country": "Canada",
+     "rule": "In every province and territory except Quebec a child who turns 5 by 31 December enters kindergarten in September and grade 1 the next year, so cohorts are calendar years; Quebec uses 30 September."
+    },
+    "Q67146947": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q49826": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q59387146": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q106122307": {
+     "cut": 89,
+     "country": "India",
+     "rule": "No single national rule; most states and the Kendriya Vidyalaya system admitted a child to Class 1 if aged 5 by 31 March (the academic year starts in April), while Karnataka used 1 June and some states 30 September."
+    },
+    "Q8017364": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q3098642": {
+     "cut": 364,
+     "country": "United States",
+     "rule": "For births up to the early 1970s most states let a child start kindergarten (or first grade where kindergarten was not universal) in September if they turned 5 (or 6) by 31 December or a date between 1 September and 1 February; in 1975 only 9 of the 30 states with a statutory cutoff used September or earlier and 20 states left the date to districts."
+    },
+    "Q7646502": {
+     "cut": 364,
+     "country": "Canada",
+     "rule": "In every province and territory except Quebec a child who turns 5 by 31 December enters kindergarten in September and grade 1 the next year, so cohorts are calendar years; Quebec uses 30 September."
+    },
+    "Q7488279": {
+     "cut": 364,
+     "country": "Canada",
+     "rule": "In every province and territory except Quebec a child who turns 5 by 31 December enters kindergarten in September and grade 1 the next year, so cohorts are calendar years; Quebec uses 30 September."
+    },
+    "Q16734205": {
+     "cut": 263,
+     "country": "Iran",
+     "rule": "A child must have turned 6 by 21/22 September (31 Shahrivar, the day before the school year opens on 1 Mehr) to enter grade 1; children born in Mehr have at times been admitted by exception."
+    }
+   },
    "certainty": [
     [
      "medium",
-     134
+     135
     ],
     [
      "high",
-     56
+     57
     ],
     [
      "high (nearest era)",
@@ -2099,13 +5754,13 @@
     "United States",
     "Vietnam"
    ],
-   "verdict": "Founders average 5.55 months older than their youngest classmate; chance says 5.51 (95% range 5.10 to 5.92). 32% were among the oldest third of their class vs 33% expected. No relative-age effect shows.",
-   "sign_check": "Sign test tallest bar is Libra; see 'signs' max-deviation p = 0.38 before any cohort adjustment."
+   "verdict": "Founders average 5.54 months older than their youngest classmate; chance says 5.51 (95% range 5.09 to 5.91). 32% were among the oldest third of their class vs 33% expected. No relative-age effect shows.",
+   "sign_check": "Sign test tallest bar is Libra; see 'signs' max-deviation p = 0.41 before any cohort adjustment."
   },
   "fallen_vs_thriving": {
    "label": "Fallen founders vs thriving founders",
    "n_fallen": 21,
-   "n_thriving": 315,
+   "n_thriving": 317,
    "signs_fallen": [
     3,
     2,
@@ -2129,13 +5784,13 @@
     27,
     36,
     31,
-    22,
+    24,
     24,
     20,
     33
    ],
-   "chi2": 8.32,
-   "p_perm": 0.7077,
+   "chi2": 8.5,
+   "p_perm": 0.6771,
    "elements_fallen": [
     4,
     6,
@@ -2143,31 +5798,390 @@
     4
    ],
    "elements_thriving": [
-    71,
+    73,
     78,
     76,
     90
    ],
-   "chi2_elements": 1.54,
-   "p_perm_elements": 0.6918,
-   "verdict": "The sign mix of the 21 fallen founders differs most at Scorpio (0% vs 10% among thriving founders). Shuffling the 'fallen' label 10,000 times produced a gap this large 71% of the time — no signature of failure in the stars."
+   "chi2_elements": 1.58,
+   "p_perm_elements": 0.6691,
+   "verdict": "The sign mix of the 21 fallen founders differs most at Scorpio (0% vs 10% among thriving founders). Shuffling the 'fallen' label 10,000 times produced a gap this large 68% of the time — no signature of failure in the stars."
   },
   "breakups": {
-   "label": "Pairs that broke up vs pairs that stayed",
-   "n_broke": 6,
-   "n_intact": 173,
+   "n_broke": 8,
+   "n_intact": 176,
    "compatible_broke": 0.5,
-   "compatible_intact": 0.5087,
-   "diff": -0.0087,
-   "band_lo": -0.3536,
-   "band_hi": 0.3362,
+   "compatible_intact": 0.5,
+   "diff": 0.0,
+   "band_lo": -0.392,
+   "band_hi": 0.392,
    "p_two_sided": 1.0,
-   "verdict": "50% of the 6 pairs that broke up were 'compatible' by element, against 51% of the 173 pairs that stayed together. Astrology did not see the breakup coming."
+   "split_pairs": [
+    [
+     "Bill Gates",
+     "Paul Allen"
+    ],
+    [
+     "Elon Musk",
+     "Sam Altman"
+    ],
+    [
+     "Sam Altman",
+     "Ilya Sutskever"
+    ],
+    [
+     "Elon Musk",
+     "Peter Thiel"
+    ],
+    [
+     "Elon Musk",
+     "Max Levchin"
+    ],
+    [
+     "Elon Musk",
+     "Martin Eberhard"
+    ],
+    [
+     "Mark Zuckerberg",
+     "Eduardo Saverin"
+    ],
+    [
+     "Mark Zuckerberg",
+     "Chris Hughes"
+    ]
+   ],
+   "label": "Pairs that broke up vs pairs that stayed",
+   "verdict": "50% of the 8 cofounder pairs that fell out were a 'compatible' match, against 50% of the 176 pairs that did not. The stars did not see the split coming.",
+   "with_ousters": {
+    "n_broke": 13,
+    "n_intact": 171,
+    "compatible_broke": 0.6923,
+    "compatible_intact": 0.4854,
+    "diff": 0.2069,
+    "band_lo": -0.2897,
+    "band_hi": 0.2897,
+    "p_two_sided": 0.2472,
+    "split_pairs": [
+     [
+      "Bill Gates",
+      "Paul Allen"
+     ],
+     [
+      "Elon Musk",
+      "Sam Altman"
+     ],
+     [
+      "Sam Altman",
+      "Ilya Sutskever"
+     ],
+     [
+      "Elon Musk",
+      "Peter Thiel"
+     ],
+     [
+      "Elon Musk",
+      "Max Levchin"
+     ],
+     [
+      "Elon Musk",
+      "Martin Eberhard"
+     ],
+     [
+      "Mark Zuckerberg",
+      "Eduardo Saverin"
+     ],
+     [
+      "Mark Zuckerberg",
+      "Chris Hughes"
+     ],
+     [
+      "Alan Shugart",
+      "Finis Conner"
+     ],
+     [
+      "Garrett Camp",
+      "Travis Kalanick"
+     ],
+     [
+      "Steve Huffman",
+      "Aaron Swartz"
+     ],
+     [
+      "Alexis Ohanian",
+      "Aaron Swartz"
+     ],
+     [
+      "Adam Neumann",
+      "Miguel McKelvey"
+     ]
+    ]
+   }
+  },
+  "sectors": {
+   "label": "Company type by Sun sign (exploratory)",
+   "sectors": [
+    "Software & internet",
+    "Chips & hardware",
+    "Money & finance",
+    "Health & biotech",
+    "Shops & consumer brands",
+    "Energy, cars & industry"
+   ],
+   "n": 338,
+   "counts": [
+    [
+     3,
+     5,
+     0,
+     5,
+     3,
+     6
+    ],
+    [
+     8,
+     6,
+     7,
+     3,
+     1,
+     4
+    ],
+    [
+     7,
+     3,
+     2,
+     5,
+     0,
+     5
+    ],
+    [
+     7,
+     5,
+     7,
+     0,
+     1,
+     8
+    ],
+    [
+     5,
+     3,
+     8,
+     7,
+     1,
+     7
+    ],
+    [
+     7,
+     4,
+     5,
+     4,
+     3,
+     5
+    ],
+    [
+     12,
+     5,
+     7,
+     4,
+     3,
+     8
+    ],
+    [
+     11,
+     2,
+     7,
+     2,
+     3,
+     6
+    ],
+    [
+     7,
+     4,
+     3,
+     3,
+     2,
+     5
+    ],
+    [
+     7,
+     5,
+     5,
+     1,
+     3,
+     6
+    ],
+    [
+     7,
+     2,
+     5,
+     4,
+     2,
+     2
+    ],
+    [
+     9,
+     5,
+     3,
+     4,
+     3,
+     11
+    ]
+   ],
+   "expected": [
+    [
+     5.86,
+     3.19,
+     3.84,
+     2.73,
+     1.63,
+     4.75
+    ],
+    [
+     7.72,
+     4.2,
+     5.06,
+     3.6,
+     2.14,
+     6.26
+    ],
+    [
+     5.86,
+     3.19,
+     3.84,
+     2.73,
+     1.63,
+     4.75
+    ],
+    [
+     7.46,
+     4.06,
+     4.89,
+     3.48,
+     2.07,
+     6.05
+    ],
+    [
+     8.25,
+     4.49,
+     5.41,
+     3.85,
+     2.29,
+     6.7
+    ],
+    [
+     7.46,
+     4.06,
+     4.89,
+     3.48,
+     2.07,
+     6.05
+    ],
+    [
+     10.38,
+     5.65,
+     6.81,
+     4.85,
+     2.88,
+     8.42
+    ],
+    [
+     8.25,
+     4.49,
+     5.41,
+     3.85,
+     2.29,
+     6.7
+    ],
+    [
+     6.39,
+     3.48,
+     4.19,
+     2.98,
+     1.78,
+     5.18
+    ],
+    [
+     7.19,
+     3.91,
+     4.71,
+     3.36,
+     2.0,
+     5.83
+    ],
+    [
+     5.86,
+     3.19,
+     3.84,
+     2.73,
+     1.63,
+     4.75
+    ],
+    [
+     9.32,
+     5.07,
+     6.11,
+     4.35,
+     2.59,
+     7.56
+    ]
+   ],
+   "p_chi2": 0.8549,
+   "p_max_cell": 0.9643,
+   "tops": [
+    {
+     "sector": "Software & internet",
+     "n": 90,
+     "n_companies": 57,
+     "top_sign": "Scorpio",
+     "top_obs": 11,
+     "top_exp": 8.3
+    },
+    {
+     "sector": "Chips & hardware",
+     "n": 49,
+     "n_companies": 29,
+     "top_sign": "Aries",
+     "top_obs": 5,
+     "top_exp": 3.2
+    },
+    {
+     "sector": "Money & finance",
+     "n": 59,
+     "n_companies": 41,
+     "top_sign": "Leo",
+     "top_obs": 8,
+     "top_exp": 5.4
+    },
+    {
+     "sector": "Health & biotech",
+     "n": 42,
+     "n_companies": 27,
+     "top_sign": "Leo",
+     "top_obs": 7,
+     "top_exp": 3.9
+    },
+    {
+     "sector": "Shops & consumer brands",
+     "n": 25,
+     "n_companies": 16,
+     "top_sign": "Aries",
+     "top_obs": 3,
+     "top_exp": 1.6
+    },
+    {
+     "sector": "Energy, cars & industry",
+     "n": 73,
+     "n_companies": 56,
+     "top_sign": "Pisces",
+     "top_obs": 11,
+     "top_exp": 7.6
+    }
+   ],
+   "verdict": "The strongest lean is Leo founders in Health & biotech: 7 against 3.9 if signs and company types were unrelated. Shuffling company types between companies 10,000 times gave a lean at least this strong 96% of the time, so it is luck."
   },
   "moon": {
    "label": "Moon sign (exploratory, no birth times)",
-   "n": 315,
-   "ambiguous": 144,
+   "n": 317,
+   "ambiguous": 146,
    "bins": [
     "Aries",
     "Taurus",
@@ -2189,31 +6203,31 @@
     19.0,
     25.0,
     24.0,
-    17.5,
-    31.0,
-    27.0,
+    18.0,
+    32.0,
+    27.5,
     25.0,
     24.5,
     33.0
    ],
    "expected": [
-    26.2,
-    26.2,
-    26.2,
-    26.2,
-    26.2,
-    26.2,
-    26.2,
-    26.2,
-    26.2,
-    26.2,
-    26.2,
-    26.2
+    26.4,
+    26.4,
+    26.4,
+    26.4,
+    26.4,
+    26.4,
+    26.4,
+    26.4,
+    26.4,
+    26.4,
+    26.4,
+    26.4
    ],
-   "chi2": 10.39,
-   "p_mc": 0.4908,
+   "chi2": 10.43,
+   "p_mc": 0.4991,
    "tallest": "Taurus",
-   "verdict": "Moon in Taurus leads with 34 founders against 26 expected; 144 of 315 founders could be one of two Moon signs and count half each. Chance produces a spread like this 49% of the time."
+   "verdict": "Moon in Taurus leads with 34 founders against 26 expected; 146 of 317 founders could be one of two Moon signs and count half each. Chance produces a spread like this 50% of the time."
   }
  },
  "signs_order": [

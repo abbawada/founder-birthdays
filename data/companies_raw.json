@@ -250,7 +250,10 @@
   "founded_raw": "{{Start date and age|2003|07|01}} in San Carlos, California, US",
   "founders_wp": [
    "Martin Eberhard",
-   "Marc Tarpenning"
+   "Marc Tarpenning",
+   "Elon Musk",
+   "JB Straubel",
+   "Ian Wright"
   ],
   "flags": [],
   "founders_wd": {
@@ -387,10 +390,13 @@
   "infobox": "company",
   "founded_year": 1978,
   "founded_raw": "{{Start date and age|1978|10|5|br=yes}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Ward Parkinson",
+   "Joe Parkinson",
+   "Dennis Wilson",
+   "Doug Pitman"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1978
  },
@@ -782,20 +788,29 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/tencent/marketcap/",
   "listing": "public",
-  "article": "Tencent Games",
-  "article_url": "https://en.wikipedia.org/wiki/Tencent_Games",
-  "qid": "Q39057776",
-  "match": "name",
+  "article": "Tencent",
+  "article_url": "https://en.wikipedia.org/wiki/Tencent",
+  "qid": "Q860580",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 2003,
-  "founded_raw": "{{Start date and age|2003}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox",
-   "matched by name only"
+  "founded_year": 1998,
+  "founded_raw": "{{Start date and age|df=yes|1998|11|7}}",
+  "founders_wp": [
+   "Pony Ma",
+   "Tony Zhang",
+   "Xu Chenye",
+   "Chen Yidan",
+   "Zeng Liqing"
   ],
-  "founders_wd": {},
-  "inception_wd": 2003
+  "flags": [],
+  "founders_wd": {
+   "Q1739008": "Ma Huateng",
+   "Q15934341": "Zhang Zhidong",
+   "Q18653685": "Zeng Liqing",
+   "Q18659347": "Daniel Xu",
+   "Q20689208": "Chen Yidan"
+  },
+  "inception_wd": 1998
  },
  {
   "name": "Oracle",
@@ -1168,7 +1183,8 @@
   "founded_year": 2005,
   "founded_raw": "{{Start date and age|2005|03|1}}",
   "founders_wp": [
-   "Nir Zuk|Rajiv Batra"
+   "Nir Zuk",
+   "Rajiv Batra"
   ],
   "flags": [],
   "founders_wd": {
@@ -1268,13 +1284,13 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/dell/marketcap/",
   "listing": "public",
-  "article": "Dell",
-  "article_url": "https://en.wikipedia.org/wiki/Dell",
-  "qid": "Q30873",
-  "match": "ticker",
+  "article": "Dell Technologies",
+  "article_url": "https://en.wikipedia.org/wiki/Dell_Technologies",
+  "qid": "Q27500963",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 1984,
-  "founded_raw": "{{start date and age|1984|05|03}} in Austin, Texas, U.S.",
+  "founded_year": 2016,
+  "founded_raw": "{{start date and age|2016|09|07}}",
   "founders_wp": [
    "Michael Dell"
   ],
@@ -1282,7 +1298,7 @@
   "founders_wd": {
    "Q218630": "Michael Dell"
   },
-  "inception_wd": 1989
+  "inception_wd": 2016
  },
  {
   "name": "General Electric",
@@ -1483,6 +1499,7 @@
   "founded_raw": "{{start date and age|1972}} in Weinheim, West Germany",
   "founders_wp": [
    "Dietmar Hopp",
+   "Hans-Werner Hector",
    "Hasso Plattner",
    "Klaus Tschira",
    "Claus Wellenreuther"
@@ -1515,7 +1532,8 @@
   "founded_raw": "{{Start date and age|2011}}",
   "founders_wp": [
    "George Kurtz",
-   "Dmitri Alperovitch"
+   "Dmitri Alperovitch",
+   "Gregg Marston"
   ],
   "flags": [],
   "founders_wd": {
@@ -1913,10 +1931,11 @@
   "qid": "Q2861324",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 2008,
+  "founded_year": 2004,
   "founded_raw": "{{Start date and age|2008|10}}",
   "founders_wp": [
    "Andy Bechtolsheim",
+   "Kenneth Duda",
    "David Cheriton"
   ],
   "flags": [],
@@ -2456,7 +2475,7 @@
   "qid": "Q44504",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 1985,
+  "founded_year": 1975,
   "founded_raw": "A Coruña, Galicia, Spain ({{Start date and age|df=yes|1985|06|12}})",
   "founders_wp": [
    "Amancio Ortega",
@@ -2915,20 +2934,24 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/novo-nordisk/marketcap/",
   "listing": "public",
-  "article": "Novo Nordisk Foundation",
-  "article_url": "https://en.wikipedia.org/wiki/Novo_Nordisk_Foundation",
-  "qid": "Q22723716",
-  "match": "name",
-  "infobox": "organization",
-  "founded_year": 1989,
-  "founded_raw": "{{Start date and age|1989}} in Denmark",
+  "article": "Novo (company)",
+  "article_url": "https://en.wikipedia.org/wiki/Novo_(company)",
+  "qid": "Q818846",
+  "match": "override",
+  "infobox": "company",
+  "founded_year": 1923,
+  "founded_raw": "{{start date and age|df=yes|1923|12|21}}",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "founders from Wikidata only"
   ],
-  "founders_wd": {},
-  "inception_wd": 1989
+  "founders_wd": {
+   "Q152187": "August Krogh",
+   "Q901736": "Hans Christian Hagedorn",
+   "Q12302462": "August Kongsted",
+   "Q12326078": "Marie Krogh"
+  },
+  "inception_wd": 1923
  },
  {
   "name": "Prosus",
@@ -3091,10 +3114,10 @@
   "infobox": "company",
   "founded_year": 1960,
   "founded_raw": "{{start date and age|1960|df=yes}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Hiromasa Ezoe"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1963
  },
@@ -3112,7 +3135,7 @@
   "qid": "Q1159256",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 1969,
+  "founded_year": 1984,
   "founded_raw": "{{Ubl|{{Start date and age|1969}} (as DMG)|{{start date and age|1984}} (as Danaher)}}",
   "founders_wp": [
    "Steven Rales",
@@ -3311,10 +3334,12 @@
   "qid": "Q705392",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 1979,
+  "founded_year": 1978,
   "founded_raw": "{{start date and age|1979|11|1}} (as Shugart Technology)",
   "founders_wp": [
    "Alan Shugart",
+   "Tom Mitchell",
+   "Doug Mahon",
    "Finis Conner",
    "Syed Iftikar"
   ],
@@ -3340,10 +3365,12 @@
   "infobox": "company",
   "founded_year": 1995,
   "founded_raw": "{{Start date and age|1995}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Frederic Moll",
+   "John Freund (business executive)",
+   "Robert Younge"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1995
  },
@@ -3409,7 +3436,7 @@
   "qid": "Q1285819",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 1987,
+  "founded_year": 1976,
   "founded_raw": "{{Start date and age|1987}}",
   "founders_wp": [
    "Bernard Cammarata"
@@ -3454,20 +3481,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/sumitomo-mitsui-financial-group/marketcap/",
   "listing": "public",
-  "article": "Sumitomo Mitsui Banking Corporation",
-  "article_url": "https://en.wikipedia.org/wiki/Sumitomo_Mitsui_Banking_Corporation",
-  "qid": "Q2660418",
-  "match": "name",
+  "article": "SMBC Group",
+  "article_url": "https://en.wikipedia.org/wiki/SMBC_Group",
+  "qid": "Q2094989",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 2001,
-  "founded_raw": "{{start date and age|2001|4|1}}",
+  "founded_year": 2002,
+  "founded_raw": "{{Start date and age|2002|12|02}}",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
-  "inception_wd": 1996
+  "inception_wd": 2002
  },
  {
   "name": "Hermès",
@@ -3677,7 +3703,7 @@
   "founded_year": 1988,
   "founded_raw": "{{start date and age|1988}}",
   "founders_wp": [
-   "Ma&nbsp;Mingzhe"
+   "Ma Mingzhe"
   ],
   "flags": [],
   "founders_wd": {
@@ -3702,7 +3728,8 @@
   "founded_year": 1963,
   "founded_raw": "{{start date and age|1963|11|11}} (as Tokyo Electron Laboratories, Inc.)",
   "founders_wp": [
-   "Tokyo Broadcasting System"
+   "Tokuo Kubo",
+   "Toshio Kodaka"
   ],
   "flags": [],
   "founders_wd": {},
@@ -4072,10 +4099,11 @@
   "infobox": "company",
   "founded_year": 1989,
   "founded_raw": "{{Start date and age|1989}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Joshua Boger",
+   "Kevin J. Kinsella"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1989
  },
@@ -4368,7 +4396,8 @@
   "founded_year": 2000,
   "founded_raw": "{{Start date and age|2000}}",
   "founders_wp": [
-   "Ken Xie"
+   "Ken Xie",
+   "Michael Xie"
   ],
   "flags": [],
   "founders_wd": {
@@ -4413,7 +4442,7 @@
   "qid": "Q1034654",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 1994,
+  "founded_year": 1988,
   "founded_raw": "{{start date and age|1994|07|21}} in Richmond, Virginia, U.S.",
   "founders_wp": [
    "Richard Fairbank",
@@ -4513,7 +4542,9 @@
   "founded_year": 1983,
   "founded_raw": "{{start date and age|1983}}",
   "founders_wp": [
-   "Hamid Moghadam"
+   "Hamid Moghadam",
+   "Doug Abbey",
+   "T. Robert Burke"
   ],
   "flags": [],
   "founders_wd": {
@@ -4593,10 +4624,12 @@
   "infobox": "company",
   "founded_year": 2012,
   "founded_raw": "{{Start date and age|2012|07|23}} in San Mateo, California, U.S.",
-  "founders_wp": [],
-  "flags": [
-   "founders from Wikidata only"
+  "founders_wp": [
+   "Benoît Dageville",
+   "Thierry Cruanes",
+   "Marcin Żukowski"
   ],
+  "flags": [],
   "founders_wd": {
    "Q101855939": "Benoît Dageville"
   },
@@ -4743,10 +4776,10 @@
   "infobox": "company",
   "founded_year": 1974,
   "founded_raw": "{{start date and age|1974|05|27|df=y}} }}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Takemitsu Takizaki"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1974
  },
@@ -4793,6 +4826,7 @@
   "founded_raw": "{{start date and age|1963}} in Lowell, Massachusetts, U.S.",
   "founders_wp": [
    "Stanley P. Goldstein",
+   "Sidney Goldstein",
    "Ralph P. Hoagland III"
   ],
   "flags": [],
@@ -4856,20 +4890,21 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/booking-holdings/marketcap/",
   "listing": "public",
-  "article": "Booking.com",
-  "article_url": "https://en.wikipedia.org/wiki/Booking.com",
-  "qid": "Q4035313",
-  "match": "name",
-  "infobox": "website",
+  "article": "Booking Holdings",
+  "article_url": "https://en.wikipedia.org/wiki/Booking_Holdings",
+  "qid": "Q18674747",
+  "match": "override",
+  "infobox": "company",
   "founded_year": 1996,
-  "founded_raw": "{{start date and age|1996}} Enschede, Netherlands",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox",
-   "matched by name only"
+  "founded_raw": "{{Start date and age|1996}} in Stamford, Connecticut, U.S.",
+  "founders_wp": [
+   "Jay S. Walker"
   ],
-  "founders_wd": {},
-  "inception_wd": 1996
+  "flags": [],
+  "founders_wd": {
+   "Q6167147": "Jay S. Walker"
+  },
+  "inception_wd": 1997
  },
  {
   "name": "Mitsubishi Corporation",
@@ -4912,6 +4947,7 @@
   "founded_raw": "{{start date and age|2009|07|26}}",
   "founders_wp": [
    "Matthew Prince",
+   "Lee Holloway",
    "Michelle Zatlyn"
   ],
   "flags": [],
@@ -5225,7 +5261,6 @@
   "founded_year": 1995,
   "founded_raw": "{{start date and age|1995|1|16|df=yes}}",
   "founders_wp": [
-   "Housing Development Finance Corporation",
    "Deepak Parekh"
   ],
   "flags": [],
@@ -5796,7 +5831,8 @@
   "founded_year": 2010,
   "founded_raw": "{{Start date and age|2010}} in New York City",
   "founders_wp": [
-   "Olivier Pomel|Alexis Lê-Quôc"
+   "Olivier Pomel",
+   "Alexis Lê-Quôc"
   ],
   "flags": [],
   "founders_wd": {},
@@ -5819,6 +5855,7 @@
   "founded_year": 1998,
   "founded_raw": "{{Start date and age|1998}}",
   "founders_wp": [
+   "Al Avery",
    "Jay Adelson"
   ],
   "flags": [],
@@ -6163,7 +6200,7 @@
   "founded_year": 1968,
   "founded_raw": "{{start date and age|df=yes|1968}}",
   "founders_wp": [
-   "J. R. D. Tata"
+   "JRD Tata"
   ],
   "flags": [],
   "founders_wd": {
@@ -7383,7 +7420,7 @@
   "founded_year": 2013,
   "founded_raw": "{{Start date and age|2013|04|18}}",
   "founders_wp": [
-   "Vladimir Tenev",
+   "Vlad Tenev",
    "Baiju Bhatt"
   ],
   "flags": [],
@@ -7409,10 +7446,10 @@
   "infobox": "company",
   "founded_year": 1968,
   "founded_raw": "1968",
-  "founders_wp": [],
-  "flags": [
-   "founders from Wikidata only"
+  "founders_wp": [
+   "Dan Duncan"
   ],
+  "flags": [],
   "founders_wd": {
    "Q4385978": "Dan Duncan"
   },
@@ -8260,10 +8297,10 @@
   "infobox": "company",
   "founded_year": 2000,
   "founded_raw": "{{start date and age|2000}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Ge Li"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 2000
  },
@@ -8276,20 +8313,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/deutsche-post/marketcap/",
   "listing": "public",
-  "article": "Deutsche Post",
-  "article_url": "https://en.wikipedia.org/wiki/Deutsche_Post",
-  "qid": "Q5266289",
-  "match": "name",
+  "article": "DHL Group",
+  "article_url": "https://en.wikipedia.org/wiki/DHL_Group",
+  "qid": "Q157645",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1995,
-  "founded_raw": "{{start date and age|1995}}",
+  "founded_raw": "{{start date and age|1995|1|2|df=y}}",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
-  "inception_wd": 1995
+  "inception_wd": 1989
  },
  {
   "name": "DoorDash",
@@ -9041,12 +9077,12 @@
   "article": "Bloom Energy",
   "article_url": "https://en.wikipedia.org/wiki/Bloom_Energy",
   "qid": "Q29526078",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2001,
   "founded_raw": "{{Start date and age|2001}}",
   "founders_wp": [
-   "K.R. Sridhar",
+   "K. R. Sridhar",
    "John Finn",
    "Matthias Gottmann",
    "James McElroy",
@@ -9070,7 +9106,7 @@
   "article": "RELX",
   "article_url": "https://en.wikipedia.org/wiki/RELX",
   "qid": "Q141817573",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1993,
   "founded_raw": "{{start date and age|1993|8}} (by merger)",
@@ -9169,20 +9205,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/boc-hong-kong/marketcap/",
   "listing": "public",
-  "article": "Hong Kong Disneyland Resort",
-  "article_url": "https://en.wikipedia.org/wiki/Hong_Kong_Disneyland_Resort",
-  "qid": "Q1190803",
-  "match": "name",
+  "article": "Bank of China (Hong Kong)",
+  "article_url": "https://en.wikipedia.org/wiki/Bank_of_China_(Hong_Kong)",
+  "qid": "Q787060",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 2005,
-  "founded_raw": "{{Start date and age|df=yes|2005|9|12}}",
+  "founded_year": 1964,
+  "founded_raw": "{{ubl|{{start date and age|1964|10|16|df=yes}} (incorporation of the legal entity Po Sang Bank)|{{start date and age|2001|10|1|df=yes}} (current name)}}",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
-  "inception_wd": null
+  "inception_wd": 2001
  },
  {
   "name": "CSL",
@@ -9262,7 +9297,7 @@
   "article": "Targa Resources",
   "article_url": "https://en.wikipedia.org/wiki/Targa_Resources",
   "qid": "Q7685824",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2005,
   "founded_raw": "{{Start date and age|2005}}",
@@ -9285,12 +9320,14 @@
   "article": "Carvana",
   "article_url": "https://en.wikipedia.org/wiki/Carvana",
   "qid": "Q16247191",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2012,
   "founded_raw": "{{Start date and age|2012}}",
   "founders_wp": [
-   "Ernest Garcia III"
+   "Ernest Garcia III",
+   "Ryan Keeton",
+   "Ben Huston"
   ],
   "flags": [],
   "founders_wd": {
@@ -9408,7 +9445,7 @@
   "article": "TE Connectivity",
   "article_url": "https://en.wikipedia.org/wiki/TE_Connectivity",
   "qid": "Q663452",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2007,
   "founded_raw": "{{Start date and age|2007}}",
@@ -9457,12 +9494,13 @@
   "article": "TransDigm Group",
   "article_url": "https://en.wikipedia.org/wiki/TransDigm_Group",
   "qid": "Q7833612",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1993,
   "founded_raw": "{{start date and age|1993}}",
   "founders_wp": [
-   "W. Nicholas Howley|Douglas W. Peacock"
+   "W. Nicholas Howley",
+   "Douglas W. Peacock"
   ],
   "flags": [],
   "founders_wd": {
@@ -9482,7 +9520,7 @@
   "article": "NXP Semiconductors",
   "article_url": "https://en.wikipedia.org/wiki/NXP_Semiconductors",
   "qid": "Q1155668",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2006,
   "founded_raw": "{{start date and age|2006}}, as a spin-off of Philips",
@@ -9576,7 +9614,7 @@
   "article": "Deutsche Börse",
   "article_url": "https://en.wikipedia.org/wiki/Deutsche_Börse",
   "qid": "Q157852",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1992,
   "founded_raw": "{{Start date and age|1992}}",
@@ -9625,7 +9663,7 @@
   "article": "LG Energy Solution",
   "article_url": "https://en.wikipedia.org/wiki/LG_Energy_Solution",
   "qid": "Q109464416",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2020,
   "founded_raw": "{{Start date and age|2020|12|01}}",
@@ -9719,7 +9757,7 @@
   "article": "Cencora",
   "article_url": "https://en.wikipedia.org/wiki/Cencora",
   "qid": "Q470156",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2001,
   "founded_raw": "{{Start date and age|2001|08|28}} (merger of AmeriSource Health and Bergen Brunswig)",
@@ -9765,7 +9803,7 @@
   "article": "Industrial Bank (China)",
   "article_url": "https://en.wikipedia.org/wiki/Industrial_Bank_(China)",
   "qid": "Q1410821",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1988,
   "founded_raw": "26 August 1988",
@@ -9788,14 +9826,14 @@
   "article": "Cheniere Energy",
   "article_url": "https://en.wikipedia.org/wiki/Cheniere_Energy",
   "qid": "Q27926500",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1996,
   "founded_raw": "{{start date and age|1996}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Charif Souki"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1996
  },
@@ -9862,12 +9900,13 @@
   "article": "Natera",
   "article_url": "https://en.wikipedia.org/wiki/Natera",
   "qid": "Q6968762",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2004,
   "founded_raw": "{{start date and age|2004}}",
   "founders_wp": [
-   "Matthew Rabinowitz"
+   "Matthew Rabinowitz",
+   "Jonathan Sheena"
   ],
   "flags": [],
   "founders_wd": {},
@@ -9882,19 +9921,20 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/nordea-bank/marketcap/",
   "listing": "public",
-  "article": "Nordea Bank Polska",
-  "article_url": "https://en.wikipedia.org/wiki/Nordea_Bank_Polska",
-  "qid": "Q4978360",
-  "match": "name",
+  "article": "Nordea",
+  "article_url": "https://en.wikipedia.org/wiki/Nordea",
+  "qid": "Q1123823",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 2001,
-  "founded_raw": "2001",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox",
-   "matched by name only"
+  "founded_year": 1820,
+  "founded_raw": "1820 as Sparekassen for Kjøbenhavn og Omegn",
+  "founders_wp": [
+   "Hans Dalborg"
   ],
-  "founders_wd": {},
+  "flags": [],
+  "founders_wd": {
+   "Q3436863": "Hans Dalborg"
+  },
   "inception_wd": 2001
  },
  {
@@ -10026,7 +10066,7 @@
   "article": "London Stock Exchange Group",
   "article_url": "https://en.wikipedia.org/wiki/London_Stock_Exchange_Group",
   "qid": "Q5573225",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2005,
   "founded_raw": "{{start date and age|df=yes|2005|02|18}}",
@@ -10049,7 +10089,7 @@
   "article": "Cenovus Energy",
   "article_url": "https://en.wikipedia.org/wiki/Cenovus_Energy",
   "qid": "Q1053422",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2009,
   "founded_raw": "{{Start date and age|2009|11|30|df=y}}",
@@ -10095,7 +10135,7 @@
   "article": "Truist",
   "article_url": "https://en.wikipedia.org/wiki/Truist",
   "qid": "Q795486",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2019,
   "founded_raw": "{{start date and age|2019|12|6}} (as Truist)",
@@ -10118,7 +10158,7 @@
   "article": "Great-West Lifeco",
   "article_url": "https://en.wikipedia.org/wiki/Great-West_Lifeco",
   "qid": "Q5598598",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1986,
   "founded_raw": "{{start date|1986|5|15|df=y}}",
@@ -10165,17 +10205,16 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/nasdaq/marketcap/",
   "listing": "public",
-  "article": "Nasdaq",
-  "article_url": "https://en.wikipedia.org/wiki/Nasdaq",
-  "qid": "Q82059",
-  "match": "name",
-  "infobox": "exchange",
+  "article": "Nasdaq, Inc.",
+  "article_url": "https://en.wikipedia.org/wiki/Nasdaq,_Inc.",
+  "qid": "Q1472929",
+  "match": "override",
+  "infobox": "company",
   "founded_year": 1971,
-  "founded_raw": "{{sda|1971|02|08}}",
+  "founded_raw": "{{Start date and age|1971|2|8}}",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
   "inception_wd": 1971
@@ -10192,7 +10231,7 @@
   "article": "Maaden (company)",
   "article_url": "https://en.wikipedia.org/wiki/Maaden_(company)",
   "qid": "Q6721006",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1997,
   "founded_raw": "{{start date and age|March 23, 1997}}",
@@ -10238,14 +10277,13 @@
   "article": "Hong Kong Exchanges and Clearing",
   "article_url": "https://en.wikipedia.org/wiki/Hong_Kong_Exchanges_and_Clearing",
   "qid": "Q751361",
-  "match": "name",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2000,
   "founded_raw": "{{start date and age|2000|3|6}}",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
   "inception_wd": 1999
@@ -10287,7 +10325,7 @@
   "article": "Diamondback Energy",
   "article_url": "https://en.wikipedia.org/wiki/Diamondback_Energy",
   "qid": "Q65091423",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2007,
   "founded_raw": "{{Start date and age |2007 }}",
@@ -10310,12 +10348,13 @@
   "article": "Public Storage",
   "article_url": "https://en.wikipedia.org/wiki/Public_Storage",
   "qid": "Q1156045",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1972,
   "founded_raw": "{{Start date and age|1972|8|14}} in El Cajon, California, U.S.",
   "founders_wp": [
-   "B. Wayne Hughes"
+   "B. Wayne Hughes",
+   "Kenneth Volk Jr."
   ],
   "flags": [],
   "founders_wd": {
@@ -10335,12 +10374,13 @@
   "article": "Nubank",
   "article_url": "https://en.wikipedia.org/wiki/Nubank",
   "qid": "Q25422888",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2013,
   "founded_raw": "{{Start date and age |6 May 2013}}",
   "founders_wp": [
    "David Vélez",
+   "Edward Wible",
    "Cristina Junqueira"
   ],
   "flags": [],
@@ -10407,7 +10447,7 @@
   "article": "CRH plc",
   "article_url": "https://en.wikipedia.org/wiki/CRH_plc",
   "qid": "Q1053299",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1970,
   "founded_raw": "{{Start date and age|1970|10|20}}",
@@ -10650,6 +10690,7 @@
   "founded_year": 1971,
   "founded_raw": "{{Start date and age|1971}}",
   "founders_wp": [
+   "John Nichols",
    "J. Larry Nichols"
   ],
   "flags": [],
@@ -10697,10 +10738,12 @@
   "infobox": "company",
   "founded_year": 2008,
   "founded_raw": "2008",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Tim Van Hauwermeiren",
+   "Hans de Haard",
+   "Torsten Dreier"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 2008
  },
@@ -11258,8 +11301,7 @@
   "founded_year": 1969,
   "founded_raw": "{{Start date and age|1969}}",
   "founders_wp": [
-   "William E. Clark",
-   "Jr.",
+   "William E. Clark, Jr.",
    "Evelyn J. Clark"
   ],
   "flags": [],
@@ -11396,19 +11438,22 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/cathay-financial-holding/marketcap/",
   "listing": "public",
-  "article": "Cathay United Bank",
-  "article_url": "https://en.wikipedia.org/wiki/Cathay_United_Bank",
-  "qid": "Q702656",
-  "match": "ticker",
+  "article": "Cathay Life Insurance",
+  "article_url": "https://en.wikipedia.org/wiki/Cathay_Life_Insurance",
+  "qid": "Q9686837",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 1975,
-  "founded_raw": "{{start date|df=yes|1975|1|4}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founded_year": 1962,
+  "founded_raw": "1962",
+  "founders_wp": [
+   "Tsai Wan-lin"
   ],
-  "founders_wd": {},
-  "inception_wd": 1975
+  "flags": [],
+  "founders_wd": {
+   "Q563379": "Tsai Wan-lin",
+   "Q15935260": "Tsai Wan-chun"
+  },
+  "inception_wd": 1962
  },
  {
   "name": "Garmin",
@@ -11554,7 +11599,8 @@
   "founders_wp": [
    "Alain Bouchard",
    "Jacques D'Amours",
-   "Richard Fortin (businessman)"
+   "Richard Fortin (businessman)",
+   "Réal Plourde"
   ],
   "flags": [],
   "founders_wd": {
@@ -11606,10 +11652,12 @@
   "infobox": "company",
   "founded_year": 1983,
   "founded_raw": "1983 in Rio de Janeiro by André Jacurski, Luiz Cezar Fernandes and Paulo Guedes",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "André Jacurski",
+   "Luiz Cezar Fernandes",
+   "Paulo Guedes"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1983
  },
@@ -11705,10 +11753,12 @@
   "infobox": "company",
   "founded_year": 2017,
   "founded_raw": "{{Start date and age|2017|11}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Jitendra Mohan",
+   "Sanjay Gajendra",
+   "Casey Morrison"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 2017
  },
@@ -11752,8 +11802,7 @@
   "founded_year": 1992,
   "founded_raw": "{{Start date and age|1992}}",
   "founders_wp": [
-   "David Huber",
-   "Optelecom",
+   "David R. Huber",
    "Kevin Kimberlin"
   ],
   "flags": [],
@@ -11801,7 +11850,8 @@
   "founded_year": 2007,
   "founded_raw": "{{Start date and age|2007}}",
   "founders_wp": [
-   "Peter Gassner"
+   "Peter Gassner",
+   "Matt Wallach"
   ],
   "flags": [],
   "founders_wd": {
@@ -11942,7 +11992,7 @@
   "article": "Diageo",
   "article_url": "https://en.wikipedia.org/wiki/Diageo",
   "qid": "Q161140",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1997,
   "founded_raw": "{{start date and age|df=yes|1997|12|17}}",
@@ -12109,14 +12159,14 @@
   "article": "Constellation Software",
   "article_url": "https://en.wikipedia.org/wiki/Constellation_Software",
   "qid": "Q48801091",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1995,
   "founded_raw": "{{Start date and age|1995}}",
-  "founders_wp": [
-   "Mark Leonard"
+  "founders_wp": [],
+  "flags": [
+   "no founders in infobox"
   ],
-  "flags": [],
   "founders_wd": {},
   "inception_wd": null
  },
@@ -12132,7 +12182,7 @@
   "article": "Thomson Reuters",
   "article_url": "https://en.wikipedia.org/wiki/Thomson_Reuters",
   "qid": "Q1141267",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2008,
   "founded_raw": "{{Start date and age|2008|04|17|df=yes}}",
@@ -12178,7 +12228,7 @@
   "article": "Shanghai Pudong Development Bank",
   "article_url": "https://en.wikipedia.org/wiki/Shanghai_Pudong_Development_Bank",
   "qid": "Q1479076",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1993,
   "founded_raw": "{{start date and age|1993|1|9|df=y}}",
@@ -12198,21 +12248,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/endesa/marketcap/",
   "listing": "public",
-  "article": "Endesa X",
-  "article_url": "https://en.wikipedia.org/wiki/Endesa_X",
-  "qid": "Q104874542",
-  "match": "name",
+  "article": "Endesa",
+  "article_url": "https://en.wikipedia.org/wiki/Endesa",
+  "qid": "Q1275336",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 2020,
-  "founded_raw": "1 September 2020",
-  "founders_wp": [
-   "Enel Group"
-  ],
+  "founded_year": 1944,
+  "founded_raw": "18 November 1944, Ponferrada",
+  "founders_wp": [],
   "flags": [
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
-  "inception_wd": null
+  "inception_wd": 1944
  },
  {
   "name": "Rosneft",
@@ -12226,7 +12274,7 @@
   "article": "Rosneft",
   "article_url": "https://en.wikipedia.org/wiki/Rosneft",
   "qid": "Q1141123",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1993,
   "founded_raw": "{{start date and age|1993}}",
@@ -12246,21 +12294,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/endesa/marketcap/",
   "listing": "public",
-  "article": "Endesa X",
-  "article_url": "https://en.wikipedia.org/wiki/Endesa_X",
-  "qid": "Q104874542",
-  "match": "name",
+  "article": "Endesa",
+  "article_url": "https://en.wikipedia.org/wiki/Endesa",
+  "qid": "Q1275336",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 2020,
-  "founded_raw": "1 September 2020",
-  "founders_wp": [
-   "Enel Group"
-  ],
+  "founded_year": 1944,
+  "founded_raw": "18 November 1944, Ponferrada",
+  "founders_wp": [],
   "flags": [
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
-  "inception_wd": null
+  "inception_wd": 1944
  },
  {
   "name": "DSV",
@@ -12274,7 +12320,7 @@
   "article": "DSV (company)",
   "article_url": "https://en.wikipedia.org/wiki/DSV_(company)",
   "qid": "Q1155771",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1976,
   "founded_raw": "{{start date and age|1976}}",
@@ -12345,12 +12391,12 @@
   "article": "Workday, Inc.",
   "article_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
   "qid": "Q8034666",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2005,
   "founded_raw": "{{Start date and age|2005|03}}",
   "founders_wp": [
-   "Dave Duffield",
+   "David Duffield",
    "Aneel Bhusri"
   ],
   "flags": [],
@@ -12529,7 +12575,7 @@
   "article": "Coca-Cola Europacific Partners",
   "article_url": "https://en.wikipedia.org/wiki/Coca-Cola_Europacific_Partners",
   "qid": "Q20811256",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2016,
   "founded_raw": "{{unbulleted list|{{start date and age|2016|5|28|df=yes}} (as Coca-Cola European Partners)|{{start date and age|2021|5|10|df=yes}} (as Coca-Cola Europacific Partners)}}",
@@ -12572,7 +12618,7 @@
   "article": "L3Harris",
   "article_url": "https://en.wikipedia.org/wiki/L3Harris",
   "qid": "Q30291091",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2019,
   "founded_raw": "{{Start date and age|2019|06|29|br=y}}",
@@ -12618,7 +12664,7 @@
   "article": "Jiangsu Hengrui",
   "article_url": "https://en.wikipedia.org/wiki/Jiangsu_Hengrui",
   "qid": "Q24838676",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1997,
   "founded_raw": "1997",
@@ -12707,7 +12753,7 @@
   "article": "Samsung Biologics",
   "article_url": "https://en.wikipedia.org/wiki/Samsung_Biologics",
   "qid": "Q16767532",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2011,
   "founded_raw": "{{Start date and age|2011}}",
@@ -12727,20 +12773,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/vistra/marketcap/",
   "listing": "public",
-  "article": "Vistra (services company)",
-  "article_url": "https://en.wikipedia.org/wiki/Vistra_(services_company)",
-  "qid": "Q18657386",
-  "match": "name",
+  "article": "Vistra Corp.",
+  "article_url": "https://en.wikipedia.org/wiki/Vistra_Corp.",
+  "qid": "Q104158381",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 1986,
-  "founded_raw": "1986",
+  "founded_year": 2016,
+  "founded_raw": "{{Start date and age|2016}}",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
-  "inception_wd": 1986
+  "inception_wd": 2016
  },
  {
   "name": "Hikvision",
@@ -12779,14 +12824,14 @@
   "article": "Eoptolink",
   "article_url": "https://en.wikipedia.org/wiki/Eoptolink",
   "qid": "Q130559547",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2008,
   "founded_raw": "{{start date and age|2008|04|15|df=y}}",
-  "founders_wp": [
-   "Gao Guangrong"
+  "founders_wp": [],
+  "flags": [
+   "no founders in infobox"
   ],
-  "flags": [],
   "founders_wd": {},
   "inception_wd": null
  },
@@ -12802,7 +12847,7 @@
   "article": "Wabtec",
   "article_url": "https://en.wikipedia.org/wiki/Wabtec",
   "qid": "Q741707",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1999,
   "founded_raw": "{{start date and age|1999}} via merger",
@@ -12850,7 +12895,7 @@
   "article": "Keurig Dr Pepper",
   "article_url": "https://en.wikipedia.org/wiki/Keurig_Dr_Pepper",
   "qid": "Q3116111",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2018,
   "founded_raw": "{{Start date and age|2018}}",
@@ -12875,7 +12920,7 @@
   "article": "Comfort Systems USA",
   "article_url": "https://en.wikipedia.org/wiki/Comfort_Systems_USA",
   "qid": "Q5151691",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1997,
   "founded_raw": "{{Start date and age|1997}}",
@@ -13002,14 +13047,14 @@
   "article": "Coherent Corp.",
   "article_url": "https://en.wikipedia.org/wiki/Coherent_Corp.",
   "qid": "Q15109887",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1971,
   "founded_raw": "{{Start date and age|1971}}",
-  "founders_wp": [
-   "Carl Johnson | James Hawkey"
+  "founders_wp": [],
+  "flags": [
+   "no founders in infobox"
   ],
-  "flags": [],
   "founders_wd": {},
   "inception_wd": 1971
  },
@@ -13047,20 +13092,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/erste-group-bank/marketcap/",
   "listing": "public",
-  "article": "Erste Bank Croatia",
-  "article_url": "https://en.wikipedia.org/wiki/Erste_Bank_Croatia",
-  "qid": "Q129262179",
-  "match": "name",
+  "article": "Erste Group",
+  "article_url": "https://en.wikipedia.org/wiki/Erste_Group",
+  "qid": "Q1310001",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 2000,
-  "founded_raw": "{{Start date and age|2000}}",
+  "founded_year": 1819,
+  "founded_raw": "9 August 2008 (October 1819 as the first Austrian savings banks)",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
-  "inception_wd": 2003
+  "inception_wd": 2008
  },
  {
   "name": "Waters Corporation",
@@ -13153,7 +13197,7 @@
   "article": "MS&AD Insurance Group",
   "article_url": "https://en.wikipedia.org/wiki/MS&AD_Insurance_Group",
   "qid": "Q5215769",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2008,
   "founded_raw": "{{start date and age|2008}}",
@@ -13226,7 +13270,7 @@
   "article": "Holcim Group",
   "article_url": "https://en.wikipedia.org/wiki/Holcim_Group",
   "qid": "Q16466481",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2015,
   "founded_raw": "",
@@ -13320,14 +13364,14 @@
   "article": "Everpure",
   "article_url": "https://en.wikipedia.org/wiki/Everpure",
   "qid": "Q7261135",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2009,
   "founded_raw": "{{Start date and age|2009}}",
-  "founders_wp": [
-   "John Colgrove|John Hayes"
+  "founders_wp": [],
+  "flags": [
+   "no founders in infobox"
   ],
-  "flags": [],
   "founders_wd": {},
   "inception_wd": 2009
  },
@@ -13463,7 +13507,7 @@
   "article": "ENAIRE",
   "article_url": "https://en.wikipedia.org/wiki/ENAIRE",
   "qid": "Q291464",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1991,
   "founded_raw": "14 June 1991 (as AENA)",
@@ -13587,7 +13631,8 @@
   "founded_raw": "{{Start date and age|2009|2|14}}",
   "founders_wp": [
    "Jack Dorsey",
-   "Jim McKelvey"
+   "Jim McKelvey",
+   "Tristan O'Tierney"
   ],
   "flags": [],
   "founders_wd": {
@@ -14067,7 +14112,9 @@
   "founded_year": 1992,
   "founded_raw": "{{Start date and age|1992}}",
   "founders_wp": [
-   "David Hitz"
+   "David Hitz",
+   "James Lau",
+   "Michael Malcolm"
   ],
   "flags": [],
   "founders_wd": {
@@ -14144,7 +14191,9 @@
   "founders_wp": [
    "David R. Walt",
    "Larry Bock",
-   "Anthony Czarnik"
+   "John Stuelpnagel",
+   "Anthony Czarnik",
+   "Mark Chee"
   ],
   "flags": [],
   "founders_wd": {},
@@ -14210,7 +14259,8 @@
   "founded_year": 1966,
   "founded_raw": "{{Start date and age|1966}}",
   "founders_wp": [
-   "Jon Mills | Jim Mills"
+   "Jim Mills",
+   "Jon Mills"
   ],
   "flags": [],
   "founders_wd": {},
@@ -14491,14 +14541,12 @@
   "qid": "Q2478569",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 1968,
+  "founded_year": 1964,
   "founded_raw": "",
   "founders_wp": [
    "Arthur del Prado"
   ],
-  "flags": [
-   "founded year from Wikidata"
-  ],
+  "flags": [],
   "founders_wd": {
    "Q26912932": "Arthur del Prado"
   },
@@ -14933,7 +14981,8 @@
   "founded_year": 2007,
   "founded_raw": "{{Start date and age|2007}}",
   "founders_wp": [
-   "Jay Chaudhry"
+   "Jay Chaudhry",
+   "Kailash Kailash"
   ],
   "flags": [],
   "founders_wd": {},
@@ -15068,7 +15117,11 @@
   "founded_year": 1997,
   "founded_raw": "{{Start date and age|1997}}",
   "founders_wp": [
-   "Antony Ressler"
+   "Tony Ressler",
+   "John Kissick",
+   "Michael Arougheti",
+   "David Kaplan",
+   "Bennett Rosenthal"
   ],
   "flags": [],
   "founders_wd": {
@@ -15087,20 +15140,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/qnb-qatar-national-bank/marketcap/",
   "listing": "public",
-  "article": "Qatar Development Bank",
-  "article_url": "https://en.wikipedia.org/wiki/Qatar_Development_Bank",
-  "qid": "Q7267099",
-  "match": "name",
+  "article": "QNB Group",
+  "article_url": "https://en.wikipedia.org/wiki/QNB_Group",
+  "qid": "Q1136759",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 1997,
-  "founded_raw": "1997",
+  "founded_year": 1964,
+  "founded_raw": "{{start date and age|1964|6|6}} as Qatar National Bank",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
-  "inception_wd": 1997
+  "inception_wd": 1964
  },
  {
   "name": "Yum! Brands",
@@ -15212,7 +15264,9 @@
   "founded_year": 1969,
   "founded_raw": "{{Start date and age|1969|3|19}}",
   "founders_wp": [
-   "Herbert Irving"
+   "Herbert Irving",
+   "John F. Baugh",
+   "Harry Rosenthal"
   ],
   "flags": [],
   "founders_wd": {
@@ -15310,10 +15364,10 @@
   "infobox": "company",
   "founded_year": 1988,
   "founded_raw": "{{start date and age|1988}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Barry Lam"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1988
  },
@@ -15357,7 +15411,7 @@
   "founded_year": 1978,
   "founded_raw": "{{Start date and age|1978}}",
   "founders_wp": [
-   "Donald Ray Horton"
+   "Donald R. Horton"
   ],
   "flags": [],
   "founders_wd": {
@@ -15481,9 +15535,9 @@
   "founded_year": 1963,
   "founded_raw": "{{ubl|{{Start date and age|1963}} in Hong Kong (as SHK Enterprises)|{{Start date and age|1972}} in Hong Kong (as SHK Properties)}}",
   "founders_wp": [
-   "Kwok Tak Seng",
-   "Fung King Hey",
-   "Lee Shau Kee"
+   "Kwok Tak-seng",
+   "Fung King-hey",
+   "Lee Shau-kee"
   ],
   "flags": [
    "matched by name only"
@@ -15534,10 +15588,12 @@
   "infobox": "company",
   "founded_year": 1961,
   "founded_raw": "{{start date and age|16 September 1961}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Werner Ricardo Voigt",
+   "Eggon João da Silva",
+   "Geraldo Werninghaus"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1961
  },
@@ -15580,10 +15636,10 @@
   "infobox": "company",
   "founded_year": 1985,
   "founded_raw": "{{Start date and age|1985}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Prem Watsa"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1985
  },
@@ -15721,7 +15777,9 @@
   "founded_year": 2008,
   "founded_raw": "{{start date and age|2008}} in Seattle, Washington, U.S.",
   "founders_wp": [
-   "Jeff Lawson|Evan Cooke|John Wolthuis"
+   "Jeff Lawson",
+   "Evan Cooke",
+   "John Wolthuis"
   ],
   "flags": [],
   "founders_wd": {
@@ -15746,7 +15804,8 @@
   "founded_year": 2009,
   "founded_raw": "{{Start date and age|2009|01}}",
   "founders_wp": [
-   "Todd McKinnon|Frederic Kerrest"
+   "Todd McKinnon",
+   "Frederic Kerrest"
   ],
   "flags": [],
   "founders_wd": {},
@@ -15800,10 +15859,10 @@
   "infobox": "company",
   "founded_year": 1997,
   "founded_raw": "{{Start date and age|1997|08|5|br=y}}",
-  "founders_wp": [],
-  "flags": [
-   "founders from Wikidata only"
+  "founders_wp": [
+   "Torstein Hagen"
   ],
+  "flags": [],
   "founders_wd": {
    "Q7827229": "Torstein Hagen"
   },
@@ -15851,7 +15910,7 @@
   "founded_year": 1971,
   "founded_raw": "{{Start date and age|1971}}",
   "founders_wp": [
-   "B. Thomas Golisano"
+   "Tom Golisano"
   ],
   "flags": [],
   "founders_wd": {
@@ -16388,20 +16447,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/china-general-nuclear-power-group-cgn/marketcap/",
   "listing": "public",
-  "article": "China Resources Power",
-  "article_url": "https://en.wikipedia.org/wiki/China_Resources_Power",
-  "qid": "Q748693",
-  "match": "name",
+  "article": "China General Nuclear Power Group",
+  "article_url": "https://en.wikipedia.org/wiki/China_General_Nuclear_Power_Group",
+  "qid": "Q1769991",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 2001,
-  "founded_raw": "{{start date and age|2001}}",
+  "founded_year": 1994,
+  "founded_raw": "September 1994",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
-  "inception_wd": 2001
+  "inception_wd": 1994
  },
  {
   "name": "Banca Monte dei Paschi di Siena",
@@ -16663,6 +16721,7 @@
   "founded_year": 1993,
   "founded_raw": "{{Start date and age|1993|09|30}}",
   "founders_wp": [
+   "Ryan Brant",
    "Mark E. Seremet"
   ],
   "flags": [],
@@ -16860,6 +16919,7 @@
    "Kenneth Murray (biologist)",
    "Phillip Allen Sharp",
    "Walter Gilbert",
+   "Heinz Schaller",
    "Charles Weissmann"
   ],
   "flags": [],
@@ -17239,10 +17299,13 @@
   "infobox": "company",
   "founded_year": 2017,
   "founded_raw": "{{start date and age|2017|09|21}} (as Atlantic Crypto) in New Jersey",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Michael Intrator",
+   "Brian Venturo",
+   "Brannin McBee",
+   "Peter Salanki"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 2017
  },
@@ -17387,7 +17450,8 @@
   "founded_year": 2000,
   "founded_raw": "{{Start date and age|2000}}",
   "founders_wp": [
-   "Robert Clements|Peter A. Appel"
+   "Robert Clements",
+   "Peter A. Appel"
   ],
   "flags": [],
   "founders_wd": {
@@ -17644,10 +17708,10 @@
   "infobox": "company",
   "founded_year": 1977,
   "founded_raw": "{{Start date and age|1977}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Pierre Chen"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1977
  },
@@ -17668,7 +17732,8 @@
   "founded_year": 1993,
   "founded_raw": "{{Start date and age|1993}}",
   "founders_wp": [
-   "Patrick W. Smith|Thomas P. Smith"
+   "Patrick W. Smith",
+   "Thomas P. Smith"
   ],
   "flags": [],
   "founders_wd": {},
@@ -17690,10 +17755,11 @@
   "infobox": "company",
   "founded_year": 1969,
   "founded_raw": "{{Start date and age|df=yes|1969|09|25}} (as Flextronics, Inc.)",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Joe McKenzie",
+   "Barbara Ann McKenzie"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1969
  },
@@ -18144,10 +18210,10 @@
   "infobox": "company",
   "founded_year": 1973,
   "founded_raw": "As Chicago Board Options Exchange {{start date and age|1973}}",
-  "founders_wp": [
-   "Chicago Board of Trade"
+  "founders_wp": [],
+  "flags": [
+   "no founders in infobox"
   ],
-  "flags": [],
   "founders_wd": {},
   "inception_wd": 1973
  },
@@ -18214,7 +18280,7 @@
   "founded_year": 1984,
   "founded_raw": "{{Start date and age|1984}}",
   "founders_wp": [
-   "Elizabeth \"Betty\" Brinn"
+   "Elizabeth Brinn"
   ],
   "flags": [],
   "founders_wd": {},
@@ -18236,11 +18302,10 @@
   "infobox": "company",
   "founded_year": 1998,
   "founded_raw": "{{start date|1998|12|16|df=yes}} in Yantai",
-  "founders_wp": [
-   "Wanhua Group Corporation",
-   "other investors"
+  "founders_wp": [],
+  "flags": [
+   "no founders in infobox"
   ],
-  "flags": [],
   "founders_wd": {},
   "inception_wd": 1998
  },
@@ -18286,7 +18351,7 @@
   "founded_year": 2019,
   "founded_raw": "{{start date and age|2019|df=y}}",
   "founders_wp": [
-   "Tang Jie",
+   "Jie Tang",
    "Li Juanzi"
   ],
   "flags": [],
@@ -18348,21 +18413,20 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/eternal-zomato/marketcap/",
   "listing": "public",
-  "article": "Zomato",
-  "article_url": "https://en.wikipedia.org/wiki/Zomato",
-  "qid": "Q8073715",
-  "match": "name",
-  "infobox": "website",
+  "article": "Eternal Limited",
+  "article_url": "https://en.wikipedia.org/wiki/Eternal_Limited",
+  "qid": "Q134038549",
+  "match": "override",
+  "infobox": "company",
   "founded_year": 2008,
-  "founded_raw": "{{Start date and age|2008|07|10|df=yes}}",
+  "founded_raw": "{{Start date and age|2008|7|10|df=y}}",
   "founders_wp": [
-   "Deepinder Goyal|Pankaj Chaddah"
+   "Deepinder Goyal",
+   "Pankaj Chaddah"
   ],
-  "flags": [
-   "matched by name only"
-  ],
+  "flags": [],
   "founders_wd": {},
-  "inception_wd": 2008
+  "inception_wd": null
  },
  {
   "name": "Leonardo",
@@ -18528,7 +18592,8 @@
   "founded_raw": "{{Start date and age|2001|03|01|df=y}}",
   "founders_wp": [
    "Jannie Mouton",
-   "Michiel Le Roux"
+   "Michiel le Roux",
+   "Riaan Stassen"
   ],
   "flags": [],
   "founders_wd": {},
@@ -18641,20 +18706,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/amec/marketcap/",
   "listing": "public",
-  "article": "Amec Foster Wheeler",
-  "article_url": "https://en.wikipedia.org/wiki/Amec_Foster_Wheeler",
-  "qid": "Q295118",
-  "match": "name",
+  "article": "Advanced Micro-Fabrication Equipment",
+  "article_url": "https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment",
+  "qid": "Q104839222",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 1982,
-  "founded_raw": "1982",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox",
-   "matched by name only"
+  "founded_year": 2004,
+  "founded_raw": "{{start date and age|2004|05|31|df=y}}",
+  "founders_wp": [
+   "Gerald Yin"
   ],
+  "flags": [],
   "founders_wd": {},
-  "inception_wd": 1982
+  "inception_wd": 2004
  },
  {
   "name": "Celltrion",
@@ -18720,10 +18784,12 @@
   "infobox": "company",
   "founded_year": 1991,
   "founded_raw": "{{start date and age|1991||}} Shenzhen",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Li Xiting",
+   "Xu Hang",
+   "Cheng Minghe"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1991
  },
@@ -18984,7 +19050,9 @@
    "Kenneth Woolley"
   ],
   "flags": [],
-  "founders_wd": {},
+  "founders_wd": {
+   "Q141878279": "Kenneth M. Woolley"
+  },
   "inception_wd": 1977
  },
  {
@@ -19346,7 +19414,7 @@
   "article": "Naturgy",
   "article_url": "https://en.wikipedia.org/wiki/Naturgy",
   "qid": "Q474690",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1991,
   "founded_raw": "1991",
@@ -19462,14 +19530,19 @@
   "article": "Alnylam Pharmaceuticals",
   "article_url": "https://en.wikipedia.org/wiki/Alnylam_Pharmaceuticals",
   "qid": "Q16974682",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2002,
   "founded_raw": "{{Start date and age|2002}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Phillip Allen Sharp",
+   "Paul Schimmel",
+   "David Bartel",
+   "Thomas Tuschl",
+   "Phillip D. Zamore",
+   "Christoph Westphal"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 2002
  },
@@ -19656,20 +19729,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/china-national-nuclear-power/marketcap/",
   "listing": "public",
-  "article": "China General Nuclear Power Group",
-  "article_url": "https://en.wikipedia.org/wiki/China_General_Nuclear_Power_Group",
-  "qid": "Q1769991",
-  "match": "name",
+  "article": "China National Nuclear Corporation",
+  "article_url": "https://en.wikipedia.org/wiki/China_National_Nuclear_Corporation",
+  "qid": "Q1073337",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 1994,
-  "founded_raw": "September 1994",
+  "founded_year": 1955,
+  "founded_raw": "1955{{r|cnnc-20140127}}",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
-  "inception_wd": 1994
+  "inception_wd": 1955
  },
  {
   "name": "Banco Bradesco",
@@ -19708,7 +19780,7 @@
   "article": "Tenaris",
   "article_url": "https://en.wikipedia.org/wiki/Tenaris",
   "qid": "Q642106",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2001,
   "founded_raw": "{{start date and age|df=yes|2001|12|17}}",
@@ -19731,16 +19803,15 @@
   "article": "Techtronic Industries",
   "article_url": "https://en.wikipedia.org/wiki/Techtronic_Industries",
   "qid": "Q2399612",
-  "match": "name",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1985,
   "founded_raw": "{{Start date and age|1985|05|24|df=y}}",
   "founders_wp": [
-   "Horst Julius Pudwill|Roy Chung Chi Ping"
+   "Horst Julius Pudwill",
+   "Roy Chung Chi Ping"
   ],
-  "flags": [
-   "matched by name only"
-  ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1985
  },
@@ -19877,14 +19948,18 @@
   "article": "Bending Spoons",
   "article_url": "https://en.wikipedia.org/wiki/Bending_Spoons",
   "qid": "Q96314827",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2013,
   "founded_raw": "{{Start date and age|2013}} in Copenhagen, Denmark",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Luca Ferrari",
+   "Francesco Patarnello",
+   "Matteo Danieli",
+   "Luca Querella",
+   "Tomasz Greber"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 2013
  },
@@ -19900,7 +19975,7 @@
   "article": "Daiichi Sankyo",
   "article_url": "https://en.wikipedia.org/wiki/Daiichi_Sankyo",
   "qid": "Q669441",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2005,
   "founded_raw": "{{Start date and age|2005}}, in Tokyo, Japan (by merger)",
@@ -19970,7 +20045,7 @@
   "article": "Transurban",
   "article_url": "https://en.wikipedia.org/wiki/Transurban",
   "qid": "Q3538015",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1996,
   "founded_raw": "{{Start date and age|df=yes|1996|03|14}} in Melbourne, Australia",
@@ -19993,7 +20068,7 @@
   "article": "Itaúsa",
   "article_url": "https://en.wikipedia.org/wiki/Itaúsa",
   "qid": "Q1579151",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1966,
   "founded_raw": "1966",
@@ -20016,12 +20091,13 @@
   "article": "Jabil",
   "article_url": "https://en.wikipedia.org/wiki/Jabil",
   "qid": "Q2171646",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1966,
   "founded_raw": "{{Start date and age|1966}} in Detroit, Michigan, U.S.",
   "founders_wp": [
-   "William E. Morean | James Golden"
+   "William E. Morean",
+   "James Golden"
   ],
   "flags": [],
   "founders_wd": {},
@@ -20039,14 +20115,14 @@
   "article": "Shinhan Financial Group",
   "article_url": "https://en.wikipedia.org/wiki/Shinhan_Financial_Group",
   "qid": "Q491325",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 2001,
+  "founded_year": 1982,
   "founded_raw": "{{Start date and age|2001|9}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Lee Hee-gun"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 2001
  },
@@ -20062,7 +20138,7 @@
   "article": "Emcor",
   "article_url": "https://en.wikipedia.org/wiki/Emcor",
   "qid": "Q5370289",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1994,
   "founded_raw": "{{Start date and age|1994|12}}",
@@ -20110,7 +20186,7 @@
   "article": "Ameren",
   "article_url": "https://en.wikipedia.org/wiki/Ameren",
   "qid": "Q462984",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1997,
   "founded_raw": "{{Start date and age|1997}}",
@@ -20133,7 +20209,7 @@
   "article": "Willis Towers Watson",
   "article_url": "https://en.wikipedia.org/wiki/Willis_Towers_Watson",
   "qid": "Q21189883",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2016,
   "founded_raw": "{{Start date and age|2016|01|05|df=y}} in Ireland",
@@ -20210,14 +20286,18 @@
   "article": "Dexcom",
   "article_url": "https://en.wikipedia.org/wiki/Dexcom",
   "qid": "Q15109865",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1999,
   "founded_raw": "{{start date and age|1999}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Scott Glenn",
+   "John Burd",
+   "Lauren Otsuki",
+   "Ellen Preston",
+   "Bret Megargel"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1999
  },
@@ -20380,7 +20460,7 @@
   "article": "Hanwha Aerospace",
   "article_url": "https://en.wikipedia.org/wiki/Hanwha_Aerospace",
   "qid": "Q563107",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1977,
   "founded_raw": "{{start date and age|df=yes|1977|08|01}}",
@@ -20478,7 +20558,7 @@
   "article": "Onsemi",
   "article_url": "https://en.wikipedia.org/wiki/Onsemi",
   "qid": "Q1671509",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1999,
   "founded_raw": "{{Start date and age|1999}}",
@@ -20523,22 +20603,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/fortis/marketcap/",
   "listing": "public",
-  "article": "Fortis Healthcare",
-  "article_url": "https://en.wikipedia.org/wiki/Fortis_Healthcare",
-  "qid": "Q7810035",
-  "match": "name",
+  "article": "Fortis Inc.",
+  "article_url": "https://en.wikipedia.org/wiki/Fortis_Inc.",
+  "qid": "Q1438987",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 1996,
-  "founded_raw": "{{start date and age|df=yes|1996}}",
-  "founders_wp": [],
-  "flags": [
-   "matched by name only",
-   "founders from Wikidata only"
+  "founded_year": 1987,
+  "founded_raw": "{{Start date and age|1987}}",
+  "founders_wp": [
+   "Angus Bruneau"
   ],
-  "founders_wd": {
-   "Q6745127": "Malvinder Mohan Singh"
-  },
-  "inception_wd": 2001
+  "flags": [],
+  "founders_wd": {},
+  "inception_wd": 1987
  },
  {
   "name": "Ingersoll Rand",
@@ -20627,7 +20704,7 @@
   "article": "Aviva",
   "article_url": "https://en.wikipedia.org/wiki/Aviva",
   "qid": "Q791179",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2000,
   "founded_raw": "{{start date|2000|5|30|df=y}}",
@@ -20650,7 +20727,7 @@
   "article": "Labcorp",
   "article_url": "https://en.wikipedia.org/wiki/Labcorp",
   "qid": "Q6466630",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1978,
   "founded_raw": "{{start date and age|1978|9|5}} (as Roche BioMedical)",
@@ -20673,7 +20750,7 @@
   "article": "DSM-Firmenich",
   "article_url": "https://en.wikipedia.org/wiki/DSM-Firmenich",
   "qid": "Q120091633",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2023,
   "founded_raw": "{{start date and age|2023|05|09|df=y}}",
@@ -20696,7 +20773,7 @@
   "article": "Brookfield Infrastructure Partners",
   "article_url": "https://en.wikipedia.org/wiki/Brookfield_Infrastructure_Partners",
   "qid": "Q13529408",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2008,
   "founded_raw": "{{Start date and age|2008|01|14}}",
@@ -20788,7 +20865,7 @@
   "article": "Sumitomo Mitsui Trust Holdings",
   "article_url": "https://en.wikipedia.org/wiki/Sumitomo_Mitsui_Trust_Holdings",
   "qid": "Q5215535",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 2002,
   "founded_raw": "{{Start date and age|2002}} (as Chuo Mitsui Trust Holdings, Inc.)",
@@ -20831,7 +20908,7 @@
   "article": "Formosa Petrochemical",
   "article_url": "https://en.wikipedia.org/wiki/Formosa_Petrochemical",
   "qid": "Q1437742",
-  "match": "ticker",
+  "match": "override",
   "infobox": "company",
   "founded_year": 1992,
   "founded_raw": "{{start date and age|1992|04|06|df=yes}}",
@@ -21137,20 +21214,19 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/china-coal-energy-company-limited/marketcap/",
   "listing": "public",
-  "article": "China Shenhua Energy",
-  "article_url": "https://en.wikipedia.org/wiki/China_Shenhua_Energy",
-  "qid": "Q1073509",
-  "match": "name",
+  "article": "China Coal Energy",
+  "article_url": "https://en.wikipedia.org/wiki/China_Coal_Energy",
+  "qid": "Q1073240",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 1995,
-  "founded_raw": "1995",
+  "founded_year": 2006,
+  "founded_raw": "2006",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "no founders in infobox"
   ],
   "founders_wd": {},
-  "inception_wd": 1995
+  "inception_wd": 1999
  },
  {
   "name": "TechnipFMC",
@@ -21572,12 +21648,12 @@
   "qid": "Q1280748",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 2008,
+  "founded_year": 1980,
   "founded_raw": "{{Start date and age|2008|1|1}}",
-  "founders_wp": [],
-  "flags": [
-   "founders from Wikidata only"
+  "founders_wp": [
+   "Charlie Ergen"
   ],
+  "flags": [],
   "founders_wd": {
    "Q5084818": "Charlie Ergen"
   },
@@ -21790,7 +21866,7 @@
   "founded_year": 1967,
   "founded_raw": "{{Start date and age|1967}}, in New York City, U.S.",
   "founders_wp": [
-   "Paul Brown"
+   "Paul A. Brown"
   ],
   "flags": [],
   "founders_wd": {
@@ -21814,10 +21890,13 @@
   "infobox": "airline",
   "founded_year": 1984,
   "founded_raw": "{{start date and age|1984|11|28|df=yes}}",
-  "founders_wp": [],
-  "flags": [
-   "founders from Wikidata only"
+  "founders_wp": [
+   "Christopher Ryan (aviation executive)",
+   "Tony Ryan",
+   "Declan Ryan",
+   "Liam Lonergan"
   ],
+  "flags": [],
   "founders_wd": {
    "Q639725": "rachdi mohamee"
   },
@@ -21962,7 +22041,7 @@
   "founded_year": 1982,
   "founded_raw": "{{Start date and age|1982}}, in Vallejo, California, United States",
   "founders_wp": [
-   "Willis J. Johnson"
+   "Willis Johnson"
   ],
   "flags": [],
   "founders_wd": {
@@ -22083,7 +22162,11 @@
   "founded_year": 2015,
   "founded_raw": "{{start date and age|2015}}",
   "founders_wp": [
-   "Andrew Feldman (businessman)"
+   "Andrew Feldman (businessman)",
+   "Gary Lauterbach",
+   "Michael James",
+   "Sean Lie",
+   "Jean-Philippe Fricker"
   ],
   "flags": [],
   "founders_wd": {},
@@ -22175,7 +22258,7 @@
   "founded_year": 1967,
   "founded_raw": "{{start date and age|1967}}",
   "founders_wp": [
-   "William R. Berkley"
+   "W. R. Berkley"
   ],
   "flags": [],
   "founders_wd": {
@@ -22272,7 +22355,8 @@
   "founded_year": 1990,
   "founded_raw": "{{start date and age|1990}} (as Ulta Salon, Cosmetics & Fragrance, Inc.)",
   "founders_wp": [
-   "Terry Hanson | Dick George"
+   "Terry Hanson",
+   "Dick George"
   ],
   "flags": [],
   "founders_wd": {},
@@ -22584,12 +22668,13 @@
   "qid": "Q18754966",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 1998,
+  "founded_year": 1996,
   "founded_raw": "{{Start date and age|1998}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Lee Olesky",
+   "Jim Toffey"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1998
  },
@@ -23196,10 +23281,13 @@
   "qid": "Q1853060",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 1989,
+  "founded_year": 1986,
   "founded_raw": "{{start date and age|df=y|1989}} (Maotang, Lianyuan, Hunan Province)",
   "founders_wp": [
-   "Liang Wengen"
+   "Liang Wengen",
+   "Tang Xiuguo",
+   "Mao Zhongwu",
+   "Yuan Jinhua"
   ],
   "flags": [],
   "founders_wd": {
@@ -23224,7 +23312,8 @@
   "founded_year": 2015,
   "founded_raw": "{{Start date and age|2015}}",
   "founders_wp": [
-   "Sanjit Biswas"
+   "Sanjit Biswas",
+   "John Bicket"
   ],
   "flags": [],
   "founders_wd": {
@@ -23548,7 +23637,9 @@
   "founded_raw": "{{Start date and age|2012}}",
   "founders_wp": [
    "Max Levchin",
-   "Nathan Gettings"
+   "Nathan Gettings",
+   "Jeffrey Kaditz",
+   "Alex Rampell"
   ],
   "flags": [],
   "founders_wd": {
@@ -23737,7 +23828,7 @@
   "qid": "Q742196",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 1995,
+  "founded_year": 1968,
   "founded_raw": "{{start date and age|1995}}",
   "founders_wp": [
    "William Darden"
@@ -23828,18 +23919,18 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/trip-dot-com/marketcap/",
   "listing": "public",
-  "article": "Trip.com",
-  "article_url": "https://en.wikipedia.org/wiki/Trip.com",
-  "qid": "Q18345164",
-  "match": "name",
-  "infobox": "website",
+  "article": "Trip.com Group",
+  "article_url": "https://en.wikipedia.org/wiki/Trip.com_Group",
+  "qid": "Q5191790",
+  "match": "override",
+  "infobox": "company",
   "founded_year": 1999,
   "founded_raw": "{{start date and age|1999|06}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox",
-   "matched by name only"
+  "founders_wp": [
+   "James Liang",
+   "Neil Shen"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1999
  },
@@ -24037,20 +24128,21 @@
   "value_date": "2026-10-29",
   "value_source": "https://companiesmarketcap.com/bandai-namco/marketcap/",
   "listing": "public",
-  "article": "Bandai Namco Studios",
-  "article_url": "https://en.wikipedia.org/wiki/Bandai_Namco_Studios",
-  "qid": "Q11328408",
-  "match": "name",
+  "article": "Bandai Namco Holdings",
+  "article_url": "https://en.wikipedia.org/wiki/Bandai_Namco_Holdings",
+  "qid": "Q806259",
+  "match": "override",
   "infobox": "company",
-  "founded_year": 2012,
-  "founded_raw": "{{Start date and age|2012|04|02}}",
+  "founded_year": 2005,
+  "founded_raw": "{{Start date and age|2005|9|29}}",
   "founders_wp": [],
   "flags": [
-   "no founders in infobox",
-   "matched by name only"
+   "founders from Wikidata only"
   ],
-  "founders_wd": {},
-  "inception_wd": 2012
+  "founders_wd": {
+   "Q6782765": "Masaya Nakamura"
+  },
+  "inception_wd": 2005
  },
  {
   "name": "Dollar Tree",
@@ -24189,12 +24281,12 @@
   "qid": "Q6015591",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 2002,
+  "founded_year": 1991,
   "founded_raw": "{{Start date and age|2002}}",
-  "founders_wp": [
-   "Roy A. Whitfield"
+  "founders_wp": [],
+  "flags": [
+   "no founders in infobox"
   ],
-  "flags": [],
   "founders_wd": {},
   "inception_wd": 2001
  },
@@ -24238,10 +24330,10 @@
   "infobox": "company",
   "founded_year": 2003,
   "founded_raw": "{{start date and age|2003}}",
-  "founders_wp": [
-   "Chen Tao"
+  "founders_wp": [],
+  "flags": [
+   "no founders in infobox"
   ],
-  "flags": [],
   "founders_wd": {},
   "inception_wd": null
  },
@@ -24309,10 +24401,10 @@
   "infobox": "company",
   "founded_year": 1977,
   "founded_raw": "{{start date and age|1977|6|25}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Chung Mong-koo"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1977
  },
@@ -24380,7 +24472,7 @@
   "founded_year": 1988,
   "founded_raw": "{{Start date and age|1988|11|17}}",
   "founders_wp": [
-   "Sheldon G. Adelson"
+   "Sheldon Adelson"
   ],
   "flags": [],
   "founders_wd": {
@@ -24404,9 +24496,10 @@
   "infobox": "company",
   "founded_year": 1987,
   "founded_raw": "1987",
-  "founders_wp": [],
+  "founders_wp": [
+   "Scott Lin"
+  ],
   "flags": [
-   "no founders in infobox",
    "matched by name only"
   ],
   "founders_wd": {},
@@ -24568,10 +24661,10 @@
   "infobox": "company",
   "founded_year": 1996,
   "founded_raw": "{{start date and age|1996|1|12|df=y}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Jing Shuping"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 1996
  },
@@ -24782,10 +24875,10 @@
   "infobox": "company",
   "founded_year": 2003,
   "founded_raw": "{{start date and age|2003|04}}",
-  "founders_wp": [
-   "Zhu Xingming"
+  "founders_wp": [],
+  "flags": [
+   "no founders in infobox"
   ],
-  "flags": [],
   "founders_wd": {},
   "inception_wd": 2003
  },
@@ -26457,10 +26550,10 @@
   "qid": "Q8042415",
   "match": "ticker",
   "infobox": "company",
-  "founded_year": 2000,
+  "founded_year": 2011,
   "founded_raw": "{{Start date and age|2000}}",
   "founders_wp": [
-   "Brad Jacobs (entrepreneur)"
+   "Brad Jacobs (businessman)"
   ],
   "flags": [],
   "founders_wd": {
@@ -27923,7 +28016,7 @@
   "qid": "Q21979415",
   "match": "name",
   "infobox": "company",
-  "founded_year": 2014,
+  "founded_year": 2004,
   "founded_raw": "{{Start date and age|2014|10|16|df=yes}} in Hangzhou, Zhejiang, China",
   "founders_wp": [
    "Jack Ma"
@@ -28030,8 +28123,9 @@
   "founded_year": 2019,
   "founded_raw": "{{start date and age|March 2019}}",
   "founders_wp": [
-   "Chief executive officer",
-   "Chief technology officer"
+   "Eric Glyman",
+   "Karim Atiyeh",
+   "Gene Lee"
   ],
   "flags": [],
   "founders_wd": {},
@@ -28055,7 +28149,10 @@
   "founded_raw": "{{start date and age|2017|04|20}}",
   "founders_wp": [
    "Palmer Luckey",
-   "Trae Stephens"
+   "Trae Stephens",
+   "Matt Grimm",
+   "Joe Chen",
+   "Brian Schimpf"
   ],
   "flags": [],
   "founders_wd": {
@@ -28102,7 +28199,9 @@
   "founded_year": 2023,
   "founded_raw": "{{start date and age|2023|03|df=y}}",
   "founders_wp": [
-   "Yang Zhilin"
+   "Yang Zhilin",
+   "Zhou Xinyu",
+   "Wu Yuxin"
   ],
   "flags": [],
   "founders_wd": {
@@ -28127,7 +28226,9 @@
   "founded_year": 2023,
   "founded_raw": "{{start date and age|2023|11}}",
   "founders_wp": [
-   "Scott Wu"
+   "Scott Wu",
+   "Steven Hao",
+   "Walden Yan"
   ],
   "flags": [],
   "founders_wd": {
@@ -28507,7 +28608,7 @@
   "founded_year": 1991,
   "founded_raw": "{{Start date and age|1991}} in Potomac, Maryland, US",
   "founders_wp": [
-   "Tim Sweeney (game developer)"
+   "Tim Sweeney"
   ],
   "flags": [],
   "founders_wd": {
@@ -28533,7 +28634,9 @@
   "founded_year": 2023,
   "founded_raw": "{{Start date and age|28 April 2023}}",
   "founders_wp": [
-   "Arthur Mensch"
+   "Arthur Mensch",
+   "Guillaume Lample",
+   "Timothée Lacroix"
   ],
   "flags": [],
   "founders_wd": {
@@ -28709,7 +28812,7 @@
   "founded_year": 2011,
   "founded_raw": "{{Start date and age|2011|07|28}}",
   "founders_wp": [
-   "Jesse Powell"
+   "Jesse Powell (entrepreneur)"
   ],
   "flags": [],
   "founders_wd": {
@@ -28803,10 +28906,13 @@
   "infobox": "company",
   "founded_year": 2016,
   "founded_raw": "{{start date and age|June 30, 2016}}",
-  "founders_wp": [],
-  "flags": [
-   "no founders in infobox"
+  "founders_wp": [
+   "Bobby Bao",
+   "Gary Or",
+   "Kris Marszalek",
+   "Rafael Melo"
   ],
+  "flags": [],
   "founders_wd": {},
   "inception_wd": 2016
  },
@@ -28853,6 +28959,7 @@
   "founders_wp": [
    "Aravind Srinivas",
    "Denis Yarats",
+   "Johnny Ho",
    "Andy Konwinski"
   ],
   "flags": [],
@@ -28880,9 +28987,7 @@
   "founded_year": 2014,
   "founded_raw": "{{Start date and age|2014}}",
   "founders_wp": [
-   "Brock Pierce",
-   "Reeve Collins",
-   "Craig Sellars"
+   "Brock Pierce"
   ],
   "flags": [],
   "founders_wd": {},

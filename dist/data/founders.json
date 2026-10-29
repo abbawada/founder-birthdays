@@ -310,6 +310,7 @@
    "OpenAI",
    "PayPal",
    "SpaceX",
+   "Tesla",
    "The Boring Company"
   ],
   "roster_sources": [
@@ -382,6 +383,54 @@
   "gender": "male",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Marc_Tarpenning",
   "wikidata_url": "https://www.wikidata.org/wiki/Q1892831"
+ },
+ {
+  "qid": "Q6107808",
+  "name": "J. B. Straubel",
+  "companies": [
+   "Tesla"
+  ],
+  "roster_sources": [
+   "wikipedia infobox"
+  ],
+  "birthday": "1965-12-20",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6107808",
+  "birth_raw": null,
+  "citizenship": [
+   "United States"
+  ],
+  "birthplace": "Wisconsin",
+  "birthplace_country": "United States",
+  "lat": 44.5,
+  "lon": -89.5,
+  "gender": "male",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/J._B._Straubel",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6107808"
+ },
+ {
+  "qid": null,
+  "name": "Ian Wright",
+  "companies": [
+   "Tesla"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": "Q36215",
@@ -1053,19 +1102,19 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q20689208"
  },
  {
-  "qid": null,
+  "qid": "Q18653685",
   "name": "Zeng Liqing",
   "companies": [
    "Tencent"
   ],
   "roster_sources": [
-   "wikipedia infobox (no article)"
+   "wikidata P112"
   ],
   "birthday": null,
-  "birth_precision": null,
+  "birth_precision": "year",
   "birth_source": null,
   "birth_source_url": null,
-  "birth_raw": null,
+  "birth_raw": "1970-01-01",
   "citizenship": [],
   "birthplace": null,
   "birthplace_country": null,
@@ -1073,7 +1122,32 @@
   "lon": null,
   "gender": null,
   "wikipedia_url": null,
-  "wikidata_url": null
+  "wikidata_url": "https://www.wikidata.org/wiki/Q18653685"
+ },
+ {
+  "qid": "Q18659347",
+  "name": "Daniel Xu",
+  "companies": [
+   "Tencent"
+  ],
+  "roster_sources": [
+   "wikidata P112"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [
+   "People's Republic of China"
+  ],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": "male",
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q18659347"
  },
  {
   "qid": "Q92759",
@@ -3770,6 +3844,29 @@
   "wikidata_url": null
  },
  {
+  "qid": null,
+  "name": "Al Avery",
+  "companies": [
+   "Equinix"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
   "qid": "Q6166316",
   "name": "Jay Adelson",
   "companies": [
@@ -3793,29 +3890,6 @@
   "gender": "male",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jay_Adelson",
   "wikidata_url": "https://www.wikidata.org/wiki/Q6166316"
- },
- {
-  "qid": null,
-  "name": "Al Avery",
-  "companies": [
-   "Equinix"
-  ],
-  "roster_sources": [
-   "wikipedia infobox (no article)"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": null,
-  "wikipedia_url": null,
-  "wikidata_url": null
  },
  {
   "qid": "Q4963341",
@@ -6354,6 +6428,31 @@
   "gender": "male",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Tsai_Wan-lin",
   "wikidata_url": "https://www.wikidata.org/wiki/Q563379"
+ },
+ {
+  "qid": "Q15935260",
+  "name": "Tsai Wan-chun",
+  "companies": [
+   "Cathay Financial Holding"
+  ],
+  "roster_sources": [
+   "wikidata P112"
+  ],
+  "birthday": "1916-12-20",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q15935260",
+  "birth_raw": null,
+  "citizenship": [
+   "Taiwan"
+  ],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": "male",
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q15935260"
  },
  {
   "qid": "Q5524792",
@@ -10006,6 +10105,29 @@
   "gender": null,
   "wikipedia_url": null,
   "wikidata_url": null
+ },
+ {
+  "qid": "Q141878279",
+  "name": "Kenneth M. Woolley",
+  "companies": [
+   "Extra Space Storage"
+  ],
+  "roster_sources": [
+   "wikidata P112"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": "male",
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q141878279"
  },
  {
   "qid": "Q6397188",

@@ -195,6 +195,28 @@ if pairs:
                              f"against {100*c['null_mean']:.0f}% when the same founders are shuffled into random teams (95% range {100*c['band_lo']:.0f} to {100*c['band_hi']:.0f}%)"
                              + (". Nothing to see." if c["p_two_sided"] > 0.1 else ". A nudge worth a second look." if c["p_two_sided"] > 0.01 else ". That is unusual under chance."))
 
+
+# ---- breakup table parser ----------------------------------------------------
+# A row's founder_a / founder_b can hold several names ("Peter Thiel; Max Levchin")
+# and notes ("Evan Williams (with Jack Dorsey)"). Names inside "(with ...)" count;
+# any other parenthetical is a note. Each row yields every a x b pair of dated
+# founders who are cofounders of that row's company.
+import re as _re
+def _names(field):
+    field = field or ""
+    withs = [w for grp in _re.findall(r"\(with ([^)]*)\)", field) for w in _re.split(r";|,| and ", grp)]
+    field = _re.sub(r"\([^)]*\)", "", field)
+    return [n.strip().lower() for n in _re.split(r";|,| and ", field) + withs if n.strip()]
+def breakup_rows(statuses):
+    rows = []
+    bp = os.path.join(ROOT, "research", "breakups_verified.csv")
+    if not os.path.exists(bp):
+        return rows
+    for r in csv.DictReader(open(bp)):
+        if (r.get("status") or "").strip().lower() in statuses:
+            rows.append(r)
+    return rows
+
 # ---- sign-pair matrix (exploratory, requested after pre-registration) -------
 # every cofounder pair in every ring, by unordered Sun-sign pair: observed count,
 # expected count under the same team-shuffle null, and how those companies fared
@@ -205,18 +227,20 @@ for i, f in enumerate(F):
             all_teams[c].append(i)
 all_teams = {c: ids for c, ids in all_teams.items() if len(ids) >= 2}
 all_pairs = [(a, b, c) for c, ids in all_teams.items() for ai, a in enumerate(ids) for b in ids[ai + 1:]]
-br_names = set()
-_bp = os.path.join(ROOT, "research", "breakups_verified.csv")
-if os.path.exists(_bp):
-    for r in csv.DictReader(open(_bp)):
-        if (r.get("status") or "").strip().lower() == "broke up":
-            br_names.add(frozenset([(r.get("founder_a") or "").strip().lower(), (r.get("founder_b") or "").strip().lower()]))
+SPLIT_ROWS = breakup_rows({"broke up", "board ouster"})
+br_names = {}   # frozenset(names) -> row, restricted to the row's company
+for r in SPLIT_ROWS:
+    for x in _names(r.get("founder_a")):
+        for y in _names(r.get("founder_b")):
+            if x != y:
+                br_names[(r["company"].strip(), frozenset([x, y]))] = r
 if all_pairs:
     S_OBS = DOY_SIGN[OBS_DOY]
     def cell(a, b):
         return (min(a, b), max(a, b))
     counts = np.zeros((12, 12)); fallen_c = np.zeros((12, 12)); broke_c = np.zeros((12, 12)); giants_c = np.zeros((12, 12))
     members_cells = defaultdict(list)
+    named_pairs = []
     for a, b, c in all_pairs:
         i, j = cell(S_OBS[a], S_OBS[b])
         counts[i, j] += 1
@@ -224,9 +248,14 @@ if all_pairs:
             fallen_c[i, j] += 1
         if company_by_name[c]["ring"] == "giants":
             giants_c[i, j] += 1
-        if frozenset([F[a]["name"].lower(), F[b]["name"].lower()]) in br_names:
+        split_row = br_names.get((c, frozenset([F[a]["name"].lower(), F[b]["name"].lower()])))
+        if split_row:
             broke_c[i, j] += 1
         members_cells[(i, j)].append(c)
+        named_pairs.append({"a": F[a]["name"], "b": F[b]["name"], "sa": SIGNS[S_OBS[a]], "sb": SIGNS[S_OBS[b]], "company": c,
+                            "ring": company_by_name[c]["ring"], "split": (split_row or {}).get("status", ""),
+                            "split_year": (split_row or {}).get("year", ""), "what": (split_row or {}).get("what_happened", "")[:220],
+                            "src": (split_row or {}).get("source_url", "")})
     team_members_all = np.array(sorted({i for ids in all_teams.values() for i in ids}))
     exp = np.zeros((12, 12))
     N_PAIR_SIM = 4000
@@ -244,6 +273,7 @@ if all_pairs:
                         "counts": counts.astype(int).tolist(), "expected": exp.round(2).tolist(), "ratio": ratio.round(2).tolist(),
                         "fallen": fallen_c.astype(int).tolist(), "broke_up": broke_c.astype(int).tolist(), "giants": giants_c.astype(int).tolist(),
                         "companies": {f"{i},{j}": sorted(set(v))[:12] for (i, j), v in members_cells.items()},
+                        "pairs": named_pairs, "n_split": int(broke_c.sum()), "n_fallen_pairs": int(fallen_c.sum()),
                         "note": "78 cells share a few hundred pairs, so most cells hold a handful of companies; read the ratio with its count, and treat any single bright cell as a story, not a result."}
 
 # ---- relative age ----------------------------------------------------------
@@ -285,6 +315,7 @@ def rel_age_months(d, cutoff_doy):
 
 
 rel_idx, rel_obs, rel_cut, rel_cert = [], [], [], []
+REL_PER = {}
 for i in IDX_THRIVING:
     f = F[i]
     co = cutoff_for(f["country"], f["year"]) if f["country"] else None
@@ -295,6 +326,7 @@ for i in IDX_THRIVING:
     rel_cut.append(cd)
     rel_cert.append(co[2])
     rel_obs.append(rel_age_months(f["doy"], cd))
+    REL_PER[f["key"]] = {"cut": int(cd), "country": COUNTRY_ALIAS.get(f["country"], f["country"]), "rule": co[3]}
 if rel_idx:
     rel_idx = np.array(rel_idx)
     rel_obs = np.array(rel_obs)
@@ -315,7 +347,7 @@ if rel_idx:
                          "null_mean": round(float(sim_means.mean()), 3), "band_lo": round(float(lo), 3), "band_hi": round(float(hi), 3), "p_two_sided": p_two,
                          "share_oldest_third": round(old, 4), "share_youngest_third": round(young, 4),
                          "null_oldest_third": round(float(sim_old.mean()), 4), "null_youngest_third": round(float(sim_young.mean()), 4),
-                         "hist": hist.tolist(), "expected_hist": exp_hist.round(2).tolist(),
+                         "hist": hist.tolist(), "expected_hist": exp_hist.round(2).tolist(), "per_founder": REL_PER,
                          "certainty": Counter(rel_cert).most_common(), "countries_covered": sorted({COUNTRY_ALIAS.get(F[i]['country'], F[i]['country']) for i in rel_idx}),
                          "verdict": (f"Founders average {obs_mean:.2f} months older than their youngest classmate; chance says {sim_means.mean():.2f} "
                                      f"(95% range {lo:.2f} to {hi:.2f}). {100*old:.0f}% were among the oldest third of their class vs {100*sim_old.mean():.0f}% expected"
@@ -323,6 +355,12 @@ if rel_idx:
     # does relative age explain the sign result? refit sign deviations after reweighting by cohort position
     # (simple check: sign counts expected under the baseline restricted to the observed relative-age mix)
     top = T["signs"]["tallest"]
+    for f in F:
+        if f["key"] in REL_PER or not f["country"]:
+            continue
+        co = cutoff_for(f["country"], f["year"])
+        if co:
+            REL_PER[f["key"]] = {"cut": int(doy(co[0], co[1])), "country": COUNTRY_ALIAS.get(f["country"], f["country"]), "rule": co[3]}
     T["relative_age"]["sign_check"] = f"Sign test tallest bar is {top}; see 'signs' max-deviation p = {T['signs']['p_max_dev']:.2f} before any cohort adjustment."
 
 # ---- fallen vs thriving ----------------------------------------------------
@@ -358,41 +396,88 @@ if len(IDX_FALLEN) >= 10:
                                            + (" — no signature of failure in the stars." if p > 0.1 else " — borderline." if p > 0.01 else " — unusual."))}
 
 # ---- breakups --------------------------------------------------------------
-br_path = os.path.join(ROOT, "research", "breakups_verified.csv")
-name_to_idx = {}
-for i, f in enumerate(F):
-    name_to_idx[f["name"].lower()] = i
-if os.path.exists(br_path):
-    broke, intact = [], []
-    for r in csv.DictReader(open(br_path)):
-        a = name_to_idx.get((r.get("founder_a") or "").strip().lower())
-        b = name_to_idx.get((r.get("founder_b") or "").strip().lower())
-        st = (r.get("status") or "").strip().lower()
-        if a is None or b is None or a == b:
-            continue
-        if st == "broke up":
-            broke.append((a, b))
-    broke_set = {tuple(sorted(p)) for p in broke}
-    intact = [p for p in pairs if tuple(sorted(p)) not in broke_set]
-    if len(broke) >= 5 and intact:
-        def compat_rate(ps):
-            e = SIGN_ELEMENT[DOY_SIGN[OBS_DOY]]
-            return float(np.mean([(ELEMENTS[e[a]], ELEMENTS[e[b]]) in COMPATIBLE for a, b in ps]))
-        obs_b, obs_i = compat_rate(broke), compat_rate(intact)
-        allp = broke + intact
-        nb = len(broke)
-        sims = []
-        for _ in range(N_SIM):
-            perm = RNG.permutation(len(allp))
-            sims.append(compat_rate([allp[i] for i in perm[:nb]]) - compat_rate([allp[i] for i in perm[nb:]]))
-        sims = np.array(sims)
-        diff = obs_b - obs_i
-        p_two = float(min(1.0, 2 * min((sims >= diff).mean(), (sims <= diff).mean())))
-        T["breakups"] = {"label": "Pairs that broke up vs pairs that stayed", "n_broke": nb, "n_intact": len(intact), "compatible_broke": round(obs_b, 4),
-                         "compatible_intact": round(obs_i, 4), "diff": round(diff, 4), "band_lo": round(float(np.percentile(sims, 2.5)), 4),
-                         "band_hi": round(float(np.percentile(sims, 97.5)), 4), "p_two_sided": p_two,
-                         "verdict": (f"{100*obs_b:.0f}% of the {nb} pairs that broke up were 'compatible' by element, against {100*obs_i:.0f}% of the {len(intact)} pairs that stayed together"
-                                     + (". Astrology did not see the breakup coming." if p_two > 0.1 else ". A difference, but a small sample." if p_two > 0.01 else ". A real gap, worth a closer look."))}
+def split_test(statuses):
+    rows = breakup_rows(statuses)
+    keyset = set()
+    for r in rows:
+        for x in _names(r.get("founder_a")):
+            for y in _names(r.get("founder_b")):
+                keyset.add((r["company"].strip(), frozenset([x, y])))
+    broke = [(a, b) for a, b, c in all_pairs if (c, frozenset([F[a]["name"].lower(), F[b]["name"].lower()])) in keyset]
+    intact = [(a, b) for a, b, c in all_pairs if (c, frozenset([F[a]["name"].lower(), F[b]["name"].lower()])) not in keyset]
+    if len(broke) < 5 or not intact:
+        return None
+    e = SIGN_ELEMENT[DOY_SIGN[OBS_DOY]]
+    def compat_rate(ps):
+        return float(np.mean([(ELEMENTS[e[a]], ELEMENTS[e[b]]) in COMPATIBLE for a, b in ps]))
+    obs_b, obs_i = compat_rate(broke), compat_rate(intact)
+    allp = broke + intact
+    nb = len(broke)
+    sims = []
+    for _ in range(N_SIM):
+        perm = RNG.permutation(len(allp))
+        sims.append(compat_rate([allp[i] for i in perm[:nb]]) - compat_rate([allp[i] for i in perm[nb:]]))
+    sims = np.array(sims)
+    diff = obs_b - obs_i
+    p_two = float(min(1.0, 2 * min((sims >= diff).mean(), (sims <= diff).mean())))
+    return {"n_broke": nb, "n_intact": len(intact), "compatible_broke": round(obs_b, 4), "compatible_intact": round(obs_i, 4), "diff": round(diff, 4),
+            "band_lo": round(float(np.percentile(sims, 2.5)), 4), "band_hi": round(float(np.percentile(sims, 97.5)), 4), "p_two_sided": p_two,
+            "split_pairs": [[F[a]["name"], F[b]["name"]] for a, b in broke]}
+if all_pairs:
+    pre = split_test({"broke up"})
+    wide = split_test({"broke up", "board ouster"})
+    if pre:
+        T["breakups"] = dict(pre, label="Pairs that broke up vs pairs that stayed",
+            verdict=(f"{100*pre['compatible_broke']:.0f}% of the {pre['n_broke']} cofounder pairs that fell out were a 'compatible' match, against {100*pre['compatible_intact']:.0f}% of the {pre['n_intact']} pairs that did not"
+                     + (". The stars did not see the split coming." if pre["p_two_sided"] > 0.1 else ". A difference, but a small sample." if pre["p_two_sided"] > 0.01 else ". A real gap, worth a closer look.")))
+        if wide:
+            T["breakups"]["with_ousters"] = wide
+
+# ---- company type by sign (exploratory, asked after pre-registration) -------
+SECT = load_json(os.path.join(DATA, "sectors.json"), {})
+if SECT:
+    SECTORS = ["Software & internet", "Chips & hardware", "Money & finance", "Health & biotech", "Shops & consumer brands", "Energy, cars & industry"]
+    def main_company(f):
+        cs = [c for c in f["companies"] if c in company_by_name and c in SECT]
+        return max(cs, key=lambda c: company_by_name[c]["value_usd"] or 0) if cs else None
+    sidx, scomp = [], []
+    for i, f in enumerate(F):
+        c = main_company(f)
+        if c:
+            sidx.append(i); scomp.append(c)
+    sidx = np.array(sidx)
+    comp_names = sorted(set(scomp))
+    comp_sector = np.array([SECTORS.index(SECT[c]["sector"]) for c in comp_names])
+    comp_of = np.array([comp_names.index(c) for c in scomp])
+    sign_of = DOY_SIGN[OBS_DOY[sidx]]
+    def table(cs):
+        t = np.zeros((12, 6))
+        np.add.at(t, (sign_of, cs[comp_of]), 1)
+        return t
+    obs = table(comp_sector)
+    def stat(t):
+        e = t.sum(1, keepdims=True) * t.sum(0, keepdims=True) / t.sum()
+        with np.errstate(divide="ignore", invalid="ignore"):
+            z = np.where(e > 0, (t - e) / np.sqrt(np.where(e > 0, e, 1)), 0)
+            chi = np.nansum(np.where(e > 0, (t - e) ** 2 / np.where(e > 0, e, 1), 0))
+        return chi, z.max(), e, z
+    chi, zmax, exp, z = stat(obs)
+    sims = []
+    for _ in range(N_SIM):   # shuffle company types across companies; each company keeps its founders
+        c2, zm2, _, _ = stat(table(RNG.permutation(comp_sector)))
+        sims.append((c2, zm2))
+    sims = np.array(sims)
+    p_chi = float((sims[:, 0] >= chi).mean()); p_max = float((sims[:, 1] >= zmax).mean())
+    tops = []
+    for k, sec in enumerate(SECTORS):
+        i = int(np.argmax(z[:, k]))
+        tops.append({"sector": sec, "n": int(obs[:, k].sum()), "n_companies": int((comp_sector == k).sum()), "top_sign": SIGNS[i], "top_obs": int(obs[i, k]), "top_exp": round(float(exp[i, k]), 1)})
+    bi, bk = np.unravel_index(np.argmax(z), z.shape)
+    T["sectors"] = {"label": "Company type by Sun sign (exploratory)", "sectors": SECTORS, "n": int(len(sidx)), "counts": obs.astype(int).tolist(),
+                    "expected": exp.round(2).tolist(), "p_chi2": p_chi, "p_max_cell": p_max, "tops": tops,
+                    "verdict": (f"The strongest lean is {SIGNS[bi]} founders in {SECTORS[bk]}: {int(obs[bi, bk])} against {exp[bi, bk]:.1f} if signs and company types were unrelated. "
+                                f"Shuffling company types between companies 10,000 times gave a lean at least this strong {100*p_max:.0f}% of the time"
+                                + (", so it is luck." if p_max > 0.1 else ", borderline." if p_max > 0.01 else ", which is rare."))}
 
 # ---- Moon (exploratory) ----------------------------------------------------
 if moon:

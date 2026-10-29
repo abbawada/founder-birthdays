@@ -1,445 +1,766 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Founders by Birthday</title>
-<meta name="description" content="Every founder of the world's biggest companies on one 365-day ring. Do they cluster by sign, and does any pattern survive chance?">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="338 founders of the world's most valuable companies, placed on the day they were born. Does any sign, cofounder match or school birthday beat luck?">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..800;1,6..96,400..800&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Archivo+Narrow:wght@400;500;600&display=swap">
 <style>
-/* ---------- tokens ---------- */
+/* Layout: a night-sky almanac. The birthday circle stays pinned on the left like a star chart;
+   the story scrolls beside it as short chapters. One look, deliberately dark. */
 :root{
-  --bg:#05060a; --bg2:#0a0c13; --panel:rgba(14,16,25,.82); --line:#1c2030; --line2:#2a3044;
-  --text:#ece9df; --muted:#8e93a1; --dim:#5b6070;
-  --amber:#f2a93b; --amber2:#ffd27a; --blue:#8fcbff; --blue2:#4e86b8; --red:#ff5c7a; --green:#6fe3b4;
-  --display:"Avenir Next Condensed","Roboto Condensed","Arial Narrow","Helvetica Neue",Arial,sans-serif;
-  --mono:"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
-  --body:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+  color-scheme:dark;
+  --ink:#0c0b09; --ink2:#15130f; --ink3:#1d1a15;
+  --paper:#efe5cf; --paper2:#bdb19a; --faint:#7a7062;
+  --rule:rgba(239,229,207,.13); --rule2:rgba(239,229,207,.24);
+  --gold:#e3b664; --gold2:#f3d394; --sky:#8fb2d6; --rose:#e07462; --sage:#a9c79b;
+  --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --body:"Newsreader",Georgia,"Times New Roman",serif;
+  --ui:"Archivo Narrow","Arial Narrow","Helvetica Neue",Arial,sans-serif;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
-a{color:var(--amber2);text-decoration:none;border-bottom:1px solid rgba(255,210,122,.3)}
-a:hover{border-bottom-color:var(--amber2)}
-h1,h2,h3{font-family:var(--display);text-transform:uppercase;letter-spacing:.01em;line-height:.92;margin:0;font-weight:700}
-h1{font-size:clamp(40px,5.6vw,78px)}
-h2{font-size:clamp(30px,3.6vw,50px);margin:8px 0 14px}
-p{max-width:58ch;color:#cfd1d8}
-.mono{font-family:var(--mono);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
-.chapter{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);display:flex;align-items:center;gap:10px}
-.chapter::after{content:"";height:1px;width:36px;background:var(--amber);opacity:.7}
-.wrap{max-width:1400px;margin:0 auto;padding:0 20px}
-/* ---------- hero text ---------- */
-header.top{padding:22px 0 6px;position:relative;z-index:2}
-.sub{font-size:16px;color:var(--muted);max-width:70ch;margin-top:10px}
-.hero-actions{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap;align-items:center}
+html{scroll-behavior:smooth;background:var(--ink)}
+body{margin:0;background:var(--ink);color:var(--paper);font-family:var(--body);font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--ink)}
+a{color:var(--gold2);text-decoration-thickness:1px;text-underline-offset:3px}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1440px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.ui{font-family:var(--ui);font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+p{margin:0 0 14px;max-width:60ch;color:#e4dac4}
+p.small{font-size:15.5px;color:var(--paper2)}
+em{font-style:italic;color:var(--gold2)}
+h1,h2,h3{font-family:var(--display);font-weight:500;margin:0;text-wrap:balance;letter-spacing:-.01em}
+/* ---------- hero ---------- */
+.hero{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:28px;align-items:end;padding-block:34px 18px;border-bottom:1px solid var(--rule)}
+.hero .kicker{color:var(--gold);margin-bottom:12px}
+.hero h1{font-size:clamp(46px,7.4vw,112px);line-height:.9;font-weight:400}
+.hero h1 i{font-weight:400;color:var(--gold2)}
+.hero .lede{font-size:clamp(18px,1.6vw,21px);color:#e9dfc9;margin:0 0 16px;max-width:46ch}
+.actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;border:1px solid var(--gold);background:var(--gold);color:#1a140a;padding:10px 18px;font-family:var(--ui);font-size:14px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;line-height:1;white-space:nowrap}
+.btn:hover{background:var(--gold2)}
+.btn.line{background:transparent;color:var(--gold2)}
+.btn.line:hover{background:rgba(227,182,100,.12)}
+.btn.small{padding:7px 12px;font-size:12px}
+.btn[disabled]{opacity:.4;cursor:default}
 /* ---------- scrolly ---------- */
-.scrolly{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:28px;align-items:start}
+.scrolly{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:36px}
 .scrolly>*{min-width:0}
-.sticky{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;justify-content:flex-start;padding-top:1.5vh}
-.ringbox{position:relative;width:min(100%,94vh);aspect-ratio:1/1;margin:0 auto}
-canvas#ring{width:100%;height:100%;display:block;cursor:crosshair}
-.ov{position:absolute;pointer-events:none}
-.ov.tl{left:6px;top:6px;max-width:200px}
-.ov.tr{right:6px;top:6px;text-align:right}
-.ov .n{font-family:var(--display);font-size:30px;line-height:1;color:var(--text)}
-.ov .lens{font-family:var(--display);font-size:16px;color:var(--amber2);text-transform:uppercase;line-height:1.05;margin-top:2px}
-.toolbar{position:absolute;left:50%;bottom:4px;transform:translateX(-50%);display:flex;gap:8px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:6px 8px;backdrop-filter:blur(10px);z-index:3;white-space:nowrap}
-.seg{display:inline-flex;border:1px solid var(--line2);border-radius:999px;overflow:hidden}
-.seg button{background:transparent;color:var(--muted);border:0;padding:7px 11px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
-.seg button.on{background:var(--amber);color:#111}
-.btn{background:var(--amber);color:#111;border:0;border-radius:999px;padding:8px 14px;font-family:var(--display);font-size:16px;text-transform:uppercase;letter-spacing:.03em;cursor:pointer;line-height:1}
-.btn.ghost{background:transparent;color:var(--amber2);border:1px solid var(--amber)}
-.btn.quiet{background:transparent;color:var(--muted);border:1px solid var(--line2);font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;padding:8px 11px}
-.btn:disabled{opacity:.45;cursor:default}
-.drawer{position:absolute;left:50%;bottom:54px;transform:translateX(-50%);background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;backdrop-filter:blur(12px);display:none;z-index:4;min-width:320px;max-width:min(92%,560px)}
-.drawer.open{display:block}
-.drawer .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:4px 0 8px}
-.chip{border:1px solid var(--line2);background:transparent;color:var(--muted);border-radius:999px;padding:4px 10px;font-family:var(--mono);font-size:10px;letter-spacing:.07em;text-transform:uppercase;cursor:pointer}
-.chip.on{border-color:var(--amber);color:var(--amber2)}
-.chip.giants.on{border-color:var(--amber2)} .chip.big.on{border-color:var(--blue);color:var(--blue)} .chip.fallen.on{border-color:var(--red);color:var(--red)}
-.card{position:absolute;pointer-events:none;background:rgba(8,10,16,.95);border:1px solid var(--line2);border-left:3px solid var(--amber);padding:10px 12px;min-width:220px;max-width:300px;border-radius:6px;box-shadow:0 14px 40px rgba(0,0,0,.6);font-size:13px;display:none;z-index:6}
-.card b{font-family:var(--display);font-size:19px;text-transform:uppercase;display:block;color:#fff;letter-spacing:.02em}
-.card .co{color:var(--amber2)}
-.card .m{color:var(--muted);font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;margin-top:6px}
-.card a{pointer-events:auto}
-.pill{display:inline-block;font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;border:1px solid var(--line2);color:var(--muted);margin-left:6px;vertical-align:middle}
-.pill.x{border-color:var(--red);color:var(--red)}
-.pill.g{border-color:var(--amber2);color:var(--amber2)}
-/* ---------- steps ---------- */
-.steps{padding-top:2vh}
-.step{min-height:92vh;padding:12vh 0 8vh;display:flex;flex-direction:column;justify-content:center;opacity:.35;transition:opacity .5s}
-.step.on{opacity:1}
-.step .text{max-width:58ch}
-.verdict{border-left:3px solid var(--amber);padding:10px 14px;background:var(--panel);margin:14px 0;font-size:15px;color:#f3efe3;border-radius:0 6px 6px 0}
-.verdict small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:4px}
-.chart{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;margin-top:14px}
-.chart svg{width:100%;height:auto;display:block}
-.chart .cap{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:8px;line-height:1.6}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-table.t{border-collapse:collapse;font-size:13px;width:100%}
-table.t td,table.t th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
-table.t th{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:normal}
-.num{font-family:var(--mono)}
-.matrix{display:grid;grid-template-columns:28px repeat(12,1fr);gap:2px;font-family:var(--mono);font-size:9.5px}
-.matrix .hd{color:var(--muted);text-align:center;font-size:12px}
-.matrix .rh{color:var(--muted);font-size:12px;display:flex;align-items:center;justify-content:center}
-.matrix .c{aspect-ratio:1/1;border-radius:3px;display:flex;align-items:center;justify-content:center;color:#111;cursor:pointer;position:relative;background:var(--line)}
-.matrix .c.empty{background:transparent;cursor:default}
-.matrix .c.on{outline:2px solid #fff}
-.mtoggle{display:flex;gap:6px;margin-bottom:10px;align-items:center;flex-wrap:wrap}
-.mout{font-size:13px;color:#cfd1d8;min-height:44px;margin-top:10px}
-.you{font-size:13px;color:#cfd1d8}
-.you ul{margin:6px 0 0;padding-left:18px}
-input[type=date],select{background:var(--bg2);color:var(--text);border:1px solid var(--line2);border-radius:6px;padding:8px;font-family:var(--mono);font-size:12px}
-.legend{display:flex;gap:14px;flex-wrap:wrap;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:10px}
-.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}
-footer{margin:60px 0 40px;color:var(--muted);font-size:13px}
-.kbd{font-family:var(--mono);font-size:10px;border:1px solid var(--line2);border-radius:4px;padding:1px 5px;color:var(--muted)}
-@media (max-width:900px){
-  html,body{overflow-x:hidden}
-  .wrap{padding:0 14px}
+.sticky{position:sticky;top:env(safe-area-inset-top,0px);height:100vh;display:flex;flex-direction:column;justify-content:center;gap:10px;padding-block:10px}
+.ringbox{position:relative;width:min(100%,86vh);aspect-ratio:1/1;max-width:100%;margin:0 auto}
+canvas#ring{width:100%;height:100%;display:block;cursor:default;touch-action:pan-y}
+.controls{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--rule2);border-radius:999px;padding:2px;gap:2px;background:var(--ink2)}
+.seg button{border:0;background:transparent;color:var(--paper2);padding:7px 12px;border-radius:999px;cursor:pointer;font-family:var(--ui);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase}
+.seg button:hover{color:var(--paper)}
+.seg button.on{background:var(--paper);color:var(--ink)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;color:var(--paper2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.legend i.tick{width:14px;height:2px;border-radius:0;background:var(--gold)}
+/* founder card on the circle */
+.card{position:absolute;z-index:8;width:min(300px,86%);background:rgba(18,16,13,.97);border:1px solid var(--rule2);border-radius:10px;padding:14px 16px 12px;box-shadow:0 18px 50px rgba(0,0,0,.6);font-size:15px;line-height:1.4}
+.card h3{font-size:24px;line-height:1.05;margin-bottom:4px}
+.card .meta{color:var(--paper2);font-size:14.5px;margin-bottom:8px}
+.card .co{display:flex;justify-content:space-between;gap:8px;border-top:1px solid var(--rule);padding-top:7px;margin-top:7px}
+.card .co b{font-weight:500}
+.card .tag{font-family:var(--ui);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);white-space:nowrap}
+.card .tag.red{color:var(--rose)}
+.card ul{list-style:none;margin:6px 0 0;padding:0}
+.card li{display:flex;justify-content:space-between;gap:10px;padding:3px 0;color:#e4dac4}
+.card li .r{color:var(--paper2);font-size:13.5px;text-align:right}
+.card li .r.red{color:var(--rose)}
+.card .x{position:absolute;top:6px;right:8px;border:0;background:transparent;color:var(--paper2);font-size:20px;cursor:pointer;line-height:1;padding:4px}
+.card .foot{margin-top:8px;font-size:13px;color:var(--faint)}
+.card[hidden]{display:none}
+/* ---------- chapters ---------- */
+.steps{padding-block:12vh 20vh}
+.step{min-height:88vh;display:flex;flex-direction:column;justify-content:center;padding-block:7vh;border-left:1px solid var(--rule);padding-left:26px;position:relative}
+.step::before{content:"";position:absolute;left:-1px;top:7vh;width:1px;height:0;background:var(--gold);transition:height .6s ease}
+.step.on::before{height:64px}
+.eyebrow{color:var(--gold);margin-bottom:10px;display:flex;gap:12px;align-items:baseline}
+.eyebrow b{font-family:var(--display);font-style:italic;font-weight:500;font-size:18px;letter-spacing:0;text-transform:none;color:var(--gold2)}
+.step h2{font-size:clamp(32px,3.5vw,52px);line-height:1.02;margin-bottom:18px}
+.step h2 i{color:var(--gold2)}
+.big{display:flex;flex-wrap:wrap;gap:12px 34px;align-items:flex-end;margin:6px 0 20px;padding-block:14px;border-block:1px solid var(--rule)}
+.big .fig{display:flex;flex-direction:column;gap:4px}
+.big .n{font-family:var(--display);font-size:clamp(46px,5vw,74px);line-height:.9;font-variant-numeric:lining-nums tabular-nums}
+.big .n.gold{color:var(--gold2)} .big .n.dim{color:var(--paper2)} .big .n.red{color:var(--rose)}
+.big .l{font-family:var(--ui);font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--paper2)}
+.verdict{font-family:var(--display);font-style:italic;font-size:clamp(21px,1.9vw,27px);line-height:1.25;color:var(--gold2);margin:8px 0 6px;max-width:30ch}
+.hint{font-family:var(--ui);font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);margin-top:6px}
+.panel{background:var(--ink2);border:1px solid var(--rule);border-radius:12px;padding:16px;margin-top:14px}
+.panel svg{display:block;width:100%;height:auto}
+.inline-actions{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 14px}
+/* famous pairs */
+.duos{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px;margin-top:6px}
+.duo{text-align:left;background:var(--ink2);border:1px solid var(--rule);border-radius:10px;padding:10px 12px;cursor:pointer;display:flex;flex-direction:column;gap:3px;min-width:0}
+.duo:hover,.duo.on{border-color:var(--gold)}
+.duo .who{font-family:var(--display);font-size:17px;line-height:1.2}
+.duo .what{font-size:14px;color:var(--paper2)}
+.duo .verdict-tag{font-family:var(--ui);font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--paper2)}
+.duo .verdict-tag.m{color:var(--gold)} .duo .verdict-tag.red{color:var(--rose)}
+/* match chart */
+.mx-wrap{overflow-x:auto;margin-top:10px}
+.mx{display:grid;grid-template-columns:80px repeat(12,minmax(0,1fr));gap:3px;min-width:360px;font-family:var(--ui)}
+.mx .hd{font-size:15px;text-align:center;color:var(--paper2);padding-bottom:2px;cursor:default}
+.mx .hd.on,.mx .rh.on{color:var(--gold2)}
+.mx .rh{font-size:12px;letter-spacing:.04em;color:var(--paper2);display:flex;align-items:center;gap:6px;white-space:nowrap}
+.mx .rh .g{font-size:15px;width:16px;text-align:center}
+.mx .c{aspect-ratio:1/1;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:11.5px;font-variant-numeric:tabular-nums;cursor:pointer;background:var(--ink3);min-width:0;padding:0;color:var(--paper);border:1px solid transparent;transition:transform .12s}
+.mx .c.compat{box-shadow:inset 0 0 0 1px rgba(227,182,100,.45)}
+.mx .c.cross{outline:1px solid rgba(239,229,207,.35)}
+.mx .c.sel{outline:2px solid var(--paper);transform:scale(1.08);z-index:2}
+.mx .c.zero{color:transparent}
+.mxkey{display:flex;gap:14px;flex-wrap:wrap;align-items:center;color:var(--paper2);margin-top:10px}
+.mxkey .sw{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:6px;background:var(--ink3);box-shadow:inset 0 0 0 1px rgba(227,182,100,.6)}
+.detail{margin-top:14px;padding-top:14px;border-top:1px solid var(--rule);min-height:120px}
+.detail h3{font-size:26px;margin-bottom:4px}
+.detail .sub{color:var(--paper2);font-size:16px;margin-bottom:10px}
+.plist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.plist li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;padding:7px 0;border-bottom:1px solid var(--rule);font-size:16px;align-items:baseline}
+.plist li .co{color:var(--paper2);font-size:14.5px}
+.plist li .st{font-family:var(--ui);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--paper2);text-align:right}
+.plist li .st.red{color:var(--rose)}
+.plist li button{all:unset;cursor:pointer}
+.plist li button:hover{color:var(--gold2)}
+.plist li button:focus-visible{outline:2px solid var(--gold)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.chip{border:1px solid var(--rule2);background:transparent;color:var(--paper2);border-radius:999px;padding:5px 11px;cursor:pointer;font-family:var(--ui);font-size:12.5px;letter-spacing:.05em}
+.chip:hover{border-color:var(--gold);color:var(--paper)}
+/* your sign */
+select,input[type=date]{background:var(--ink3);color:var(--paper);border:1px solid var(--rule2);border-radius:8px;padding:9px 12px;font-family:var(--ui);font-size:15px;letter-spacing:.04em}
+.rank{list-style:none;margin:10px 0 0;padding:0}
+.rank li{display:grid;grid-template-columns:118px minmax(0,1fr);gap:12px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.rank .s{font-family:var(--display);font-size:21px;line-height:1.1}
+.rank .s small{display:block;font-family:var(--ui);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--paper2);margin-top:4px}
+.rank .ex{font-size:15.5px;color:#e4dac4}
+.rank .ex .split{color:var(--rose)}
+.bar{height:6px;border-radius:3px;background:var(--gold);margin-top:6px}
+/* tables */
+table.t{border-collapse:collapse;width:100%;font-size:15.5px}
+table.t th,table.t td{text-align:left;vertical-align:top;padding:8px 10px 8px 0;border-bottom:1px solid var(--rule)}
+table.t th{font-family:var(--ui);font-weight:500;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--paper2)}
+table.methods th{width:30%}
+.num{font-variant-numeric:tabular-nums}
+.splits td:first-child{white-space:nowrap}
+/* find yourself */
+.you-out{margin-top:12px}
+.you-out .line{font-size:18px;margin-bottom:8px}
+.cardimg{margin-top:14px;display:flex;flex-direction:column;gap:10px}
+.cardimg img{width:100%;max-width:100%;border-radius:10px;border:1px solid var(--rule)}
+details{margin-top:10px}
+summary{cursor:pointer;font-family:var(--ui);font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--paper2)}
+footer{padding-block:40px 60px;border-top:1px solid var(--rule);color:var(--paper2);font-size:15px}
+/* ---------- story player ---------- */
+.player{position:fixed;left:0;right:0;top:0;z-index:40;padding-top:env(safe-area-inset-top,0px);background:linear-gradient(var(--ink) 70%,rgba(12,11,9,0));pointer-events:none}
+.player[hidden]{display:none}
+.player .in{display:flex;align-items:center;gap:12px;padding-block:10px 14px;pointer-events:auto}
+.player .segs{display:flex;gap:4px;flex:1;min-width:0}
+.player .segs span{flex:1;height:3px;border-radius:2px;background:var(--rule2);overflow:hidden;position:relative}
+.player .segs span i{position:absolute;inset:0;width:0;background:var(--gold)}
+.player .segs span.done i{width:100%}
+.player .ttl{font-family:var(--display);font-style:italic;font-size:17px;color:var(--gold2);white-space:nowrap;max-width:34vw;overflow:hidden;text-overflow:ellipsis}
+.player button{border:1px solid var(--rule2);background:var(--ink2);color:var(--paper);border-radius:999px;width:34px;height:34px;cursor:pointer;font-size:14px;display:inline-flex;align-items:center;justify-content:center}
+.caption{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:41;max-width:min(760px,92vw);background:rgba(12,11,9,.92);border:1px solid var(--rule2);border-radius:12px;padding:12px 18px;font-family:var(--display);font-size:clamp(18px,1.8vw,24px);line-height:1.25;text-align:center;color:var(--paper);pointer-events:none;transition:opacity .4s}
+.caption[hidden]{display:none}
+@media (max-width:920px){
+  body{font-size:17px}
+  .hero{grid-template-columns:1fr;gap:12px;padding-block:22px 14px}
   .scrolly{grid-template-columns:1fr;gap:0}
-  .sticky{height:auto;position:sticky;top:0;background:linear-gradient(var(--bg) 88%,transparent);z-index:5;padding:4px 0 8px}
-  .ringbox{max-height:none;width:min(100%,76vw);aspect-ratio:1/1}
-  .toolbar{position:static;transform:none;left:auto;bottom:auto;margin:6px auto 10px;width:auto;max-width:100%;flex-wrap:wrap;justify-content:center;white-space:normal;border-radius:14px}
-  .steps{padding-top:14px}
-  .sticky{align-items:center}
-  h2{overflow-wrap:anywhere}
-  .toolbar .seg button{padding:6px 8px;font-size:10px}
-  .toolbar .btn{font-size:14px;padding:7px 11px}
-  .drawer{bottom:auto;top:0;left:50%;transform:translateX(-50%);width:92vw;min-width:0}
-  .ov.tl .lens{display:none}
-  .ov .n{font-size:22px}
-  header .chapter{white-space:nowrap;overflow:hidden}
-  h1{font-size:clamp(36px,11vw,56px)}
-  .sub{font-size:15px}
-  .step{min-height:auto;padding:40px 0 20px;opacity:1}
-  .step .text,.chart{max-width:100%}
-  .grid2{grid-template-columns:1fr}
-  .chart{padding:10px;overflow-x:auto}
-  table.t{font-size:12px}
-  header.top{padding-top:18px}
+  .sticky{height:auto;z-index:6;background:var(--ink);padding-block:6px 10px;justify-content:flex-start}
+  .sticky::after{content:"";position:absolute;left:0;right:0;bottom:-22px;height:22px;background:linear-gradient(var(--ink),rgba(12,11,9,0));pointer-events:none}
+  .step{scroll-margin-top:calc(40vh + 70px)}
+  .ringbox{width:min(100%,40vh)}
+  #showrow{display:none}
+  .controls{gap:6px}
+  .seg button{padding:6px 9px;font-size:11.5px}
+  .legend{display:none}
+  .steps{padding-block:10px 30vh}
+  .step{min-height:auto;padding-block:36px 26px;padding-left:16px}
+  .card{font-size:14px}
+  .player .ttl{display:none}
+  .rank li{grid-template-columns:96px minmax(0,1fr)}
+  .mx{grid-template-columns:70px repeat(12,minmax(22px,1fr))}
+  .mx .rh .nm{display:none}
 }
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.step::before{transition:none}}
 </style>
-</head>
-<body>
+
 <div class="wrap">
-<header class="top">
-  <div class="chapter">A data story · data pulled <span id="pulldate"></span></div>
-  <h1>Founders<br>by birthday</h1>
-  <div class="sub" id="subtitle"></div>
-  <div class="hero-actions"><button class="btn" id="play">▶ Play the story</button><button class="btn ghost" id="jump">Skip to the ring</button><span class="mono">or scroll · <span class="kbd">↑</span> <span class="kbd">↓</span> chapters · <span class="kbd">space</span> shuffle</span></div>
-</header>
-
-<main class="scrolly">
-  <div class="sticky">
-    <div class="ringbox" id="ringbox">
-      <canvas id="ring"></canvas>
-      <div class="ov tl"><div class="mono" id="lensname">Zodiac</div><div class="lens" id="lenshint"></div></div>
-      <div class="ov tr"><div class="n" id="count">0</div><div class="mono" id="countlabel">founders</div></div>
-      <div class="card" id="card"></div>
-      <div class="drawer" id="drawer">
-        <div class="mono">Rings</div><div class="row" id="ringchips"></div>
-        <div class="mono">Founding era</div><div class="row" id="erachips"></div>
-        <div class="mono">Where they were born</div><div class="row" id="regionchips"></div>
-        <div class="mono">Team</div><div class="row" id="teamchips"></div>
-        <div class="row"><label class="mono"><input type="checkbox" id="links"> lines between cofounders</label><label class="mono"><input type="checkbox" id="tint"> tint wedges by element</label></div>
-        <div class="row" id="schoolrow" style="display:none"><span class="mono">School cutoff</span><select id="cutoff"></select></div>
-      </div>
-      <div class="toolbar">
-        <div class="seg" id="lens"><button data-lens="zodiac" class="on">Zodiac</button><button data-lens="month">Month</button><button data-lens="school">School year</button></div>
-        <button class="btn" id="shuffle">Shuffle</button>
-        <button class="btn ghost" id="restore" disabled>Restore</button>
-        <button class="btn quiet" id="filters">Filters</button>
-      </div>
+  <header class="hero">
+    <div>
+      <div class="kicker ui">A birthday experiment · data pulled 29 October 2026</div>
+      <h1>Do the <i>stars</i> pick founders?</h1>
     </div>
-  </div>
-  <div class="steps" id="steps"></div>
-</main>
+    <div>
+      <p class="lede" id="lede"></p>
+      <div class="actions"><button class="btn" id="play" type="button">▶ Play the story</button><button class="btn line" id="gotoYou" type="button">Find your sign</button></div>
+    </div>
+  </header>
 
-<footer>
-  <div class="chapter">Files</div>
-  <p>Data: <a href="data/founders.json">founders.json</a> · <a href="data/companies.csv">companies.csv</a> · <a href="data/stats.json">stats.json</a> · pre-registration: <a href="HYPOTHESES.md">HYPOTHESES.md</a>. Built from Wikipedia, Wikidata, companiesmarketcap.com, the Crunchbase Unicorn Board, Our World in Data's mirror of the Human Fertility Database, and Astro-Databank. Not investment advice. Not astrology advice either.</p>
-</footer>
+  <main class="scrolly">
+    <div class="sticky">
+      <div class="ringbox" id="ringbox">
+        <canvas id="ring" aria-label="Founders placed around a circle by birthday"></canvas>
+        <div class="card" id="card" hidden></div>
+      </div>
+      <div class="controls">
+        <div class="seg" id="lens" role="group" aria-label="Arrange the circle by"><button type="button" data-lens="zodiac" class="on">Signs</button><button type="button" data-lens="month">Months</button><button type="button" data-lens="school">School year</button></div>
+        <button class="btn small" id="shuffle" type="button">🎲 Random birthdays</button>
+        <button class="btn small line" id="restore" type="button" disabled>Real birthdays</button>
+      </div>
+      <div class="controls" id="showrow">
+        <div class="seg" id="show" role="group" aria-label="Show founders of"><button type="button" data-show="thriving" class="on">Worth $20B+</button><button type="button" data-show="giants">$100B+</button><button type="button" data-show="fallen">Collapsed</button><button type="button" data-show="all">Everyone</button></div>
+      </div>
+      <div class="legend ui" id="legend"><span><i style="background:var(--gold)"></i>$100B+ company</span><span><i style="background:var(--sky)"></i>$20–100B</span><span><i style="background:var(--rose)"></i>Collapsed</span><span><i class="tick"></i>What luck alone gives</span></div>
+    </div>
+    <div class="steps" id="steps"></div>
+  </main>
+
+  <footer>
+    <p>Data: <a href="data/founders.json">founders.json</a> · <a href="data/companies.csv">companies.csv</a> · <a href="data/stats.json">stats.json</a> · <a href="data/sectors.json">sectors.json</a> · tests written down first in <a href="HYPOTHESES.md">HYPOTHESES.md</a>. Sources: Wikipedia, Wikidata, companiesmarketcap.com, the Crunchbase Unicorn Board, the Human Fertility Database via Our World in Data, and Astro-Databank. Not investment advice, and not astrology advice either.</p>
+  </footer>
 </div>
+
+<div class="player" id="player" hidden>
+  <div class="wrap in"><button type="button" id="pPrev" aria-label="Previous chapter">◀</button><button type="button" id="pPause" aria-label="Pause">❚❚</button><button type="button" id="pNext" aria-label="Next chapter">▶</button><div class="segs" id="pSegs"></div><div class="ttl" id="pTitle"></div><button type="button" id="pStop" aria-label="Stop the story">✕</button></div>
+</div>
+<div class="caption" id="caption" hidden></div>
 
 <script>
 const DATA = /*DATA*/null/*DATA*/;
 </script>
 <script>
 (() => {
-/* =========================================================================
-   DATA + CONSTANTS
-   ========================================================================= */
-const S = DATA.stats, F = DATA.founders, META = DATA.meta, T = S.tests;
+/* ======================================================================
+   DATA
+   ====================================================================== */
+const S = DATA.stats, T = S.tests, F = DATA.founders, META = DATA.meta;
 const SIGNS = S.signs_order, STARTS = S.sign_starts;
-const GLYPH = {Aries:"♈",Taurus:"♉",Gemini:"♊",Cancer:"♋",Leo:"♌",Virgo:"♍",Libra:"♎",Scorpio:"♏",Sagittarius:"♐",Capricorn:"♑",Aquarius:"♒",Pisces:"♓"};
+const GLYPH = Object.fromEntries(Object.entries({Aries:"♈",Taurus:"♉",Gemini:"♊",Cancer:"♋",Leo:"♌",Virgo:"♍",Libra:"♎",Scorpio:"♏",Sagittarius:"♐",Capricorn:"♑",Aquarius:"♒",Pisces:"♓"}).map(([k,v])=>[k,v+"\uFE0E"]));
 const ELEMENT = {Aries:"Fire",Leo:"Fire",Sagittarius:"Fire",Taurus:"Earth",Virgo:"Earth",Capricorn:"Earth",Gemini:"Air",Libra:"Air",Aquarius:"Air",Cancer:"Water",Scorpio:"Water",Pisces:"Water"};
-const ELCOL = {Fire:"rgba(255,122,72,", Earth:"rgba(120,200,120,", Air:"rgba(150,190,255,", Water:"rgba(130,140,255,"};
+const ELCOL = {Fire:"#e58a5a",Earth:"#a9c79b",Air:"#c9d6e8",Water:"#7f9fd6"};
+const SECTORS = ["Software & internet","Chips & hardware","Money & finance","Health & biotech","Shops & consumer brands","Energy, cars & industry"];
+const SECOL = {"Software & internet":"#8fb2d6","Chips & hardware":"#c9a0dc","Money & finance":"#e3b664","Health & biotech":"#a9c79b","Shops & consumer brands":"#e58a8a","Energy, cars & industry":"#b9a98c"};
+const compatible = (a,b) => { const x=ELEMENT[a], y=ELEMENT[b]; return x===y || (x==="Fire"&&y==="Air") || (x==="Air"&&y==="Fire") || (x==="Earth"&&y==="Water") || (x==="Water"&&y==="Earth"); };
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const MDAYS = [31,28,31,30,31,30,31,31,30,31,30,31], CUM=[0]; MDAYS.forEach(d=>CUM.push(CUM[CUM.length-1]+d));
 const doy = (m,d) => CUM[m-1] + Math.min(d, MDAYS[m-1]) - 1;
-const DOY_SIGN = new Array(365);
+const DOY_SIGN = new Array(365), DOY_MONTH = new Array(365);
 STARTS.forEach(([m,d],i) => { const s=doy(m,d), n=doy(...STARTS[(i+1)%12]); for(let k=0;k<365;k++){ if(n>s ? (k>=s&&k<n) : (k>=s||k<n)) DOY_SIGN[k]=i; } });
-const DOY_MONTH = new Array(365); for(let m=0;m<12;m++) for(let k=CUM[m];k<CUM[m+1];k++) DOY_MONTH[k]=m;
-const fmtDate = k => { const m = DOY_MONTH[k]; return MONTHS[m].slice(0,3)+" "+(k-CUM[m]+1); };
-const COL = {giants:"#ffd27a", big:"#8fcbff", fallen:"#ff5c7a"};
-const TAU = Math.PI*2;
-const ease = t => t<0.5 ? 2*t*t : -1+(4-2*t)*t;
-const dispFont = () => getComputedStyle(document.body).getPropertyValue("--display");
-const monoFont = () => getComputedStyle(document.body).getPropertyValue("--mono");
-document.getElementById("pulldate").textContent = META.pulled;
-document.getElementById("subtitle").textContent = META.subtitle;
-F.forEach((f,i)=>{ f.i=i; f.cur=f.doy; f.alpha=1; f.era=f.companies[0].era; f.ring = f.companies.some(c=>c.ring==="giants")?"giants":(f.companies.some(c=>c.ring==="big")?"big":"fallen"); f.teamSize=Math.max(...f.companies.map(c=>c.team)); f.p=new Float32Array(365); for(let m=0;m<12;m++){ for(let k=CUM[m];k<CUM[m+1];k++) f.p[k]=f.base[m]/MDAYS[m]; } });
-const BROKE = new Set((META.broke_pairs||[]).map(p=>p.join("|")));
-const isBroke = (i,j) => BROKE.has(i+"|"+j) || BROKE.has(j+"|"+i);
+for(let m=0;m<12;m++) for(let k=CUM[m];k<CUM[m+1];k++) DOY_MONTH[k]=m;
+const dayName = k => { const m=DOY_MONTH[k]; return MONTHS[m].slice(0,3)+" "+(k-CUM[m]+1); };
+const money = v => v>=1e12 ? "$"+(v/1e12).toFixed(1)+"T" : "$"+Math.round(v/1e9)+"B";
+const pct = x => Math.round(x*100)+"%";
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const COL = {giants:"#e3b664", big:"#8fb2d6", fallen:"#e07462"};
+const TAU = Math.PI*2, ease = t => t<.5 ? 4*t*t*t : 1-Math.pow(-2*t+2,3)/2;
+const REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const signOf = f => f.sign;
+const short = n => { const parts=n.split(" "); return parts.length>1 ? parts[parts.length-1] : n; };
 
-/* =========================================================================
+F.forEach((f,i)=>{ f.i=i; f.cur=f.doy; f.alpha=1; f.ring = f.companies.some(c=>c.ring==="giants")?"giants":(f.companies.some(c=>c.ring==="big")?"big":"fallen"); f.sector=f.companies[0].sector; f.p=new Float32Array(365); for(let m=0;m<12;m++){ for(let k=CUM[m];k<CUM[m+1];k++) f.p[k]=f.base[m]/MDAYS[m]; } });
+const BYNAME = new Map(F.map(f=>[f.name,f]));
+const M = T.pair_matrix;
+const PAIRS = (M.pairs||[]).map(p=>({...p, fa:BYNAME.get(p.a), fb:BYNAME.get(p.b), ia:SIGNS.indexOf(p.sa), ib:SIGNS.indexOf(p.sb)})).filter(p=>p.fa&&p.fb);
+const cellKey = (i,j) => i<=j ? i+","+j : j+","+i;
+const CELL = {}; PAIRS.forEach(p=>{ (CELL[cellKey(p.ia,p.ib)] ||= []).push(p); });
+const cnt = (i,j) => { const a=Math.min(i,j), b=Math.max(i,j); return M.counts[a][b]; };
+const expd = (i,j) => { const a=Math.min(i,j), b=Math.max(i,j); return M.expected[a][b]; };
+const splitOf = (fa,fb) => PAIRS.find(p=>((p.fa===fa&&p.fb===fb)||(p.fa===fb&&p.fb===fa)));
+const isSplit = p => p.split==="broke up" || p.split==="board ouster";
+const splitWord = p => p.split==="board ouster" ? "pushed out" : "fell out";
+const outcome = p => isSplit(p) ? `${splitWord(p)}${p.split_year?" in "+p.split_year:""}` : (p.ring==="fallen" ? "company collapsed" : "");
+
+/* ======================================================================
    STATE
-   ========================================================================= */
-const state = { lens:"zodiac", cutoff: META.cutoffs[0], rings:new Set(["giants","big","fallen"]), eras:new Set(META.eras), regions:new Set(META.regions), team:"all",
-  links:false, tint:false, shuffled:false, shuffleN:0, you:doy(2,25), hover:null, highlight:null, pairCell:null, autoTimer:null };
-const visibleSet = () => F.filter(f => state.rings.has(f.ring) && state.eras.has(f.era) && state.regions.has(f.region) && (state.team==="all" || (state.team==="solo" ? f.teamSize===1 : f.teamSize>1)));
+   ====================================================================== */
+const state = { lens:"zodiac", show:"thriving", shuffled:false, you:doy(2,25), mode:null, pair:null, focus:null, pinned:false, colorBy:null, tint:false, links:false };
 
-/* =========================================================================
-   LENSES: bin(k) -> 0..11, labels, rotation (bin 0 starts at 12 o'clock)
-   ========================================================================= */
+/* lenses: where a founder sits (0..364 around the circle) and which slice that is */
 function lensDef(){
-  if(state.lens==="zodiac") return { bins: SIGNS.map((s,i)=>({label:s, name:s, glyph:GLYPH[s], start:doy(...STARTS[i]), el:ELEMENT[s]})), of:k=>DOY_SIGN[k] };
-  if(state.lens==="month") return { bins: MONTHS.map((m,i)=>({label:m, name:m, glyph:"", start:CUM[i]})), of:k=>DOY_MONTH[k] };
-  const c = state.cutoff, cd = doy(c.m,c.d);
-  // cutoff = last qualifying birthday; born the day after it = oldest in class = bin 0
-  const of = k => Math.min(11, Math.floor(((k - cd - 1 + 730) % 365) / 30.44));
-  const bins = []; for(let i=0;i<12;i++) bins.push({label: i===0?"Oldest in class":(i===11?"Youngest in class":""), name: i===0?"Oldest in class":(i===11?"Youngest in class":`${i} month${i===1?"":"s"} after the cutoff`), glyph:"", start:(cd + 1 + Math.round(i*30.44))%365, sub:`+${i}`});
-  return { bins, of };
+  if(state.lens==="month") return { start:0, bins:MONTHS.map((m,i)=>({name:m, label:m.slice(0,3), a:CUM[i], b:CUM[i+1]})), pos:(f,k)=>k, bin:p=>DOY_MONTH[Math.round(p)%365], ok:()=>true };
+  if(state.lens==="school") return { start:0, bins:Array.from({length:12},(_,i)=>({name: i===0?"Oldest in class":(i===11?"Youngest in class":`Month ${i+1} of the school year`), label: i===0?"Oldest":(i===11?"Youngest":String(i+1)), a:i*365/12, b:(i+1)*365/12})),
+    pos:(f,k)=>((k - f.cut - 1) % 365 + 365) % 365, bin:p=>Math.min(11,Math.floor(p/(365/12))), ok:f=>f.cut!=null };
+  return { start:doy(3,21), bins:SIGNS.map((s,i)=>({name:s, label:s, glyph:GLYPH[s], a:doy(...STARTS[i]), b:doy(...STARTS[(i+1)%12])})), pos:(f,k)=>k, bin:p=>DOY_SIGN[Math.round(p)%365], ok:()=>true };
 }
-function angleOf(k, L){ return ((k - L.bins[0].start + 365) % 365) / 365 * TAU - Math.PI/2; }
+const angleAt = (p,L) => ((p - L.start + 365) % 365) / 365 * TAU - Math.PI/2;
+const visible = f => state.show==="all" || (state.show==="thriving" ? f.ring!=="fallen" : f.ring===state.show);
 
-/* =========================================================================
-   CHANCE: expected counts + client-side Monte Carlo for the current selection
-   ========================================================================= */
-function sampleDay(f){ const u=Math.random(); let acc=0, m=11; for(let i=0;i<12;i++){ acc+=f.base[i]; if(u<acc){ m=i; break; } } return CUM[m] + Math.floor(Math.random()*MDAYS[m]); }
-function expectedCounts(list, L){ const exp=new Array(12).fill(0); const binOf=new Array(365); for(let k=0;k<365;k++) binOf[k]=L.of(k); list.forEach(f=>{ for(let k=0;k<365;k++) exp[binOf[k]]+=f.p[k]; }); return exp; }
-function monteCarlo(list, L, runs){
-  const exp=expectedCounts(list,L); const counts=[]; const binOf=new Array(365); for(let k=0;k<365;k++) binOf[k]=L.of(k);
-  for(let r=0;r<runs;r++){ const c=new Array(12).fill(0); for(const f of list) c[binOf[sampleDay(f)]]++; counts.push(c); }
-  const lo=[],hi=[]; for(let b=0;b<12;b++){ const col=counts.map(c=>c[b]).sort((a,b)=>a-b); lo.push(col[Math.floor(runs*0.025)]); hi.push(col[Math.floor(runs*0.975)]); }
-  const maxz = counts.map(c=>{ let m=0; for(let b=0;b<12;b++) m=Math.max(m, Math.abs(c[b]-exp[b])/Math.sqrt(exp[b]||1)); return m; }).sort((a,b)=>a-b);
-  return {lo,hi,exp,maxz};
-}
-let MC=null, LAST={list:[],L:null,obs:[]};
-const selKey = (list) => [list.length, state.lens, state.cutoff.country, list.length?list[0].i:0, list.length?list[list.length-1].i:0].join("|");
+/* ======================================================================
+   CIRCLE
+   ====================================================================== */
+const cv=document.getElementById("ring"), ctx=cv.getContext("2d"), box=document.getElementById("ringbox");
+let W=0,H=0,CX=0,CY=0,R=0,SC=1,DPR=1, LAST={L:null,list:[],obs:[],exp:[]}, LABELS=[];
+const STARS = Array.from({length:180},(_,i)=>{ const a=Math.sin(i*12.9898)*43758.5453; const b=Math.sin(i*78.233)*12345.678; return [a-Math.floor(a), b-Math.floor(b), (i%7===0)?1.1:0.6]; });
+function resize(){ const r=box.getBoundingClientRect(); DPR=Math.min(2,window.devicePixelRatio||1); W=r.width; H=r.height; cv.width=Math.round(W*DPR); cv.height=Math.round(H*DPR); ctx.setTransform(DPR,0,0,DPR,0,0); CX=W/2; CY=H/2; R=Math.min(W,H)/2; SC=R/350; layout(); draw(); }
+new ResizeObserver(resize).observe(box);
 
-/* =========================================================================
-   CANVAS RING
-   ========================================================================= */
-const cv = document.getElementById("ring"), ctx = cv.getContext("2d");
-let W=0,H=0,DPR=1,R0=0,CX=0,CY=0,SC=1;
-function resize(){ const r=cv.parentElement.getBoundingClientRect(); DPR=Math.min(2,window.devicePixelRatio||1); W=r.width; H=r.height; cv.width=W*DPR; cv.height=H*DPR; ctx.setTransform(DPR,0,0,DPR,0,0); CX=W/2; CY=H/2; SC=Math.min(W,H)/700; R0=Math.min(W,H)*0.235; layout(); draw(); }
-window.addEventListener("resize", resize);
-
+function expected(list,L){ const e=new Array(12).fill(0); list.forEach(f=>{ for(let k=0;k<365;k++) e[L.bin(L.pos(f,k))]+=f.p[k]; }); return e; }
 function layout(){
-  const list = visibleSet(); const perDay = Array.from({length:365},()=>[]);
-  list.forEach(f => perDay[Math.round(f.cur)%365].push(f));
-  perDay.forEach(ds => { ds.sort((a,b)=>({giants:0,big:1,fallen:2}[a.ring]-{giants:0,big:1,fallen:2}[b.ring]) || b.value-a.value); let off=0; ds.forEach(f=>{ f.r = f.ring==="giants" ? (3+2.3*Math.log10(Math.max(1,f.value/1e11)))*SC : (f.ring==="big"?2.1*SC:2.3*SC); f.off = off+f.r; off += f.r*2+1.1*SC; }); });
-  const L = lensDef(); const obs=new Array(12).fill(0); list.forEach(f=>obs[L.of(Math.round(f.cur)%365)]++);
-  LAST={list,L,obs};
-  const key=selKey(list); if(!MC || MC.key!==key){ MC=monteCarlo(list,L,1500); MC.key=key; }
-  document.getElementById("count").textContent=list.length;
-  document.getElementById("countlabel").textContent = state.shuffled ? `founders · shuffle #${state.shuffleN}` : "founders";
+  const L=lensDef(); const list=F.filter(f=>visible(f)&&L.ok(f));
+  const per=new Map(); list.forEach(f=>{ const p=Math.round(L.pos(f,f.cur))%365; (per.get(p)||per.set(p,[]).get(p)).push(f); });
+  per.forEach(ds=>{ ds.sort((a,b)=>b.value-a.value); let off=0; ds.forEach(f=>{ f.r=(f.ring==="giants" ? 2.6+1.9*Math.log10(Math.max(1,f.value/1e11)) : 2.1)*SC; f.off=off+f.r; off+=f.r*2+1.4*SC; }); });
+  const obs=new Array(12).fill(0); list.forEach(f=>obs[L.bin(L.pos(f,f.cur))]++);
+  const key=state.lens+"|"+state.show; if(LAST.key!==key) LAST.exp=expected(list,L);
+  LAST={L,list,obs,exp:LAST.exp,key};
 }
-function recount(){ const {list,L}=LAST; const obs=new Array(12).fill(0); list.forEach(f=>obs[L.of(Math.round(f.cur)%365)]++); LAST.obs=obs; }
+function recount(){ const {L,list}=LAST; const obs=new Array(12).fill(0); list.forEach(f=>obs[L.bin(L.pos(f,f.cur))]++); LAST.obs=obs; }
 
-const FAMOUS=["Steve Jobs","Bill Gates","Elon Musk","Jeff Bezos","Mark Zuckerberg","Larry Page","Jensen Huang","Larry Ellison","Phil Knight","Sam Altman","Reed Hastings","Michael Dell","Jack Ma","Masayoshi Son"];
+let lensTween=null;  // {t0,dur} while dots fly between arrangements
+function dotAngle(f,L){ const target=angleAt(L.pos(f,f.cur),L); if(!lensTween||f.a0==null) return target; const t=Math.min(1,(performance.now()-lensTween.t0)/lensTween.dur); let d=target-f.a0; d=((d+Math.PI)%TAU+TAU)%TAU-Math.PI; return f.a0+d*ease(t); }
+
+function focusSet(){ // founders that stay bright under the current highlight
+  if(state.pair){ const s=new Set(); (CELL[cellKey(...state.pair)]||[]).forEach(p=>{ s.add(p.fa.i); s.add(p.fb.i); }); return s; }
+  if(state.mode==="fallen") return new Set(F.filter(f=>f.ring==="fallen").map(f=>f.i));
+  if(state.mode==="splits") return new Set(PAIRS.filter(isSplit).flatMap(p=>[p.fa.i,p.fb.i]));
+  if(state.mode==="rising") return new Set(F.filter(f=>f.rising).map(f=>f.i));
+  if(state.mode==="duo" && state.duo) return new Set(state.duo.flatMap(p=>[p.fa.i,p.fb.i]));
+  return null;
+}
+function line(fa,fb,color,w){ if(fa.x==null||fb.x==null) return; ctx.beginPath(); ctx.moveTo(fa.x,fa.y); const mx=(fa.x+fb.x)/2, my=(fa.y+fb.y)/2; ctx.quadraticCurveTo(CX+(mx-CX)*0.35,CY+(my-CY)*0.35,fb.x,fb.y); ctx.strokeStyle=color; ctx.lineWidth=w; ctx.stroke(); }
+
 function draw(){
+  const {L,list,obs,exp}=LAST; if(!L) return;
   ctx.clearRect(0,0,W,H);
-  const {list,L,obs}=LAST; if(!L) return;
-  const Rb=R0*1.42, Rb2=R0*1.8, Rl=R0*1.84;
-  const maxC=Math.max(1,...obs,...MC.hi);
-  const tallest = obs.indexOf(Math.max(...obs));
-  // --- wedges
-  for(let b=0;b<12;b++){
-    const a0=angleOf(L.bins[b].start,L); const span=((angleOf(L.bins[(b+1)%12].start,L)-a0)+TAU*2)%TAU || TAU/12; const gap=0.012;
-    const rLo=Rb+(Rb2-Rb)*MC.lo[b]/maxC, rHi=Rb+(Rb2-Rb)*MC.hi[b]/maxC;
-    const tint = state.tint && L.bins[b].el ? ELCOL[L.bins[b].el] : null;
-    ctx.beginPath(); ctx.arc(CX,CY,rHi,a0+gap,a0+span-gap); ctx.arc(CX,CY,rLo,a0+span-gap,a0+gap,true); ctx.closePath();
-    ctx.fillStyle = tint ? tint+".2)" : "rgba(143,203,255,.22)"; ctx.fill(); ctx.strokeStyle = tint ? tint+".5)" : "rgba(143,203,255,.5)"; ctx.lineWidth=1; ctx.stroke();
-    const rObs=Rb+(Rb2-Rb)*obs[b]/maxC, bw=span*0.15, bm=a0+span/2;
-    const outside = obs[b]>MC.hi[b] || obs[b]<MC.lo[b];
-    const hot = state.highlight==="tallest" && b===tallest;
-    ctx.beginPath(); ctx.arc(CX,CY,rObs,bm-bw,bm+bw); ctx.arc(CX,CY,Rb,bm+bw,bm-bw,true); ctx.closePath();
-    ctx.fillStyle = state.shuffled ? "rgba(242,169,59,.5)" : (hot ? "#fff" : (outside ? "rgba(255,210,122,.95)" : "rgba(242,169,59,.8)")); ctx.fill();
-    if(hot){ ctx.shadowColor="#ffd27a"; ctx.shadowBlur=18; ctx.fill(); ctx.shadowBlur=0; }
-    const rE=Rb+(Rb2-Rb)*MC.exp[b]/maxC; ctx.beginPath(); ctx.arc(CX,CY,rE,a0+gap,a0+span-gap); ctx.strokeStyle="rgba(236,233,223,.55)"; ctx.setLineDash([3,3]); ctx.stroke(); ctx.setLineDash([]);
-    ctx.beginPath(); ctx.moveTo(CX+Math.cos(a0)*R0*0.93,CY+Math.sin(a0)*R0*0.93); ctx.lineTo(CX+Math.cos(a0)*Rl,CY+Math.sin(a0)*Rl); ctx.strokeStyle="rgba(255,255,255,.07)"; ctx.stroke();
-    const am=a0+span/2, lx=CX+Math.cos(am)*(Rl+12*SC), ly=CY+Math.sin(am)*(Rl+12*SC);
+  // sky
+  ctx.fillStyle="rgba(239,229,207,.22)"; STARS.forEach(([x,y,s])=>{ ctx.fillRect(x*W,y*H,s,s); });
+  const small=W<520; const R0=R*(small?0.42:0.44), Rb=R*(small?0.60:0.64), Rb2=R*(small?0.78:0.85), Rl=R*(small?0.875:0.93);
+  const maxC=Math.max(4,...obs,...exp)*1.05;
+  const lead=obs.indexOf(Math.max(...obs));
+  // rings and spokes
+  [R0*0.96,Rb-4*SC].forEach(r=>{ ctx.beginPath(); ctx.arc(CX,CY,r,0,TAU); ctx.strokeStyle="rgba(239,229,207,.10)"; ctx.lineWidth=1; ctx.stroke(); });
+  L.bins.forEach((b,i)=>{
+    const a0=angleAt(b.a,L), a1=angleAt(b.b===365?0:b.b,L); let span=(a1-a0+TAU)%TAU||TAU/12; const am=a0+span/2;
+    ctx.beginPath(); ctx.moveTo(CX+Math.cos(a0)*R0*0.96,CY+Math.sin(a0)*R0*0.96); ctx.lineTo(CX+Math.cos(a0)*Rl,CY+Math.sin(a0)*Rl); ctx.strokeStyle="rgba(239,229,207,.08)"; ctx.lineWidth=1; ctx.stroke();
+    // bar
+    const rO=Rb+(Rb2-Rb)*obs[i]/maxC, bw=span*0.17;
+    const youBin = state.mode==="you" && state.lens==="zodiac" && i===DOY_SIGN[state.you];
+    const pairBin = state.pair && state.lens==="zodiac" && (i===state.pair[0]||i===state.pair[1]);
+    let fill = "rgba(239,229,207,.5)";
+    if(state.tint && state.lens==="zodiac") fill = ELCOL[ELEMENT[SIGNS[i]]];
+    if(i===lead && !state.tint) fill = state.shuffled ? "#f3d394" : "#e3b664";
+    if(youBin||pairBin) fill="#f3d394";
+    ctx.beginPath(); ctx.arc(CX,CY,rO,am-bw,am+bw); ctx.arc(CX,CY,Rb,am+bw,am-bw,true); ctx.closePath(); ctx.fillStyle=fill; ctx.globalAlpha=(state.tint&&i!==lead)?0.75:1; ctx.fill(); ctx.globalAlpha=1;
+    // luck tick
+    const rE=Rb+(Rb2-Rb)*exp[i]/maxC, tw=bw*1.25;
+    ctx.beginPath(); ctx.arc(CX,CY,rE,am-tw,am+tw); ctx.strokeStyle="#e3b664"; ctx.lineWidth=Math.max(2,3*SC); ctx.stroke();
+    // labels
+    const lx=CX+Math.cos(am)*Rl, ly=CY+Math.sin(am)*Rl;
     ctx.save(); ctx.translate(lx,ly); ctx.textAlign="center"; ctx.textBaseline="middle";
-    ctx.fillStyle = hot ? "#fff" : "#ece9df"; ctx.font=`700 ${Math.max(10,12*SC)}px ${dispFont()}`;
-    if(L.bins[b].label) ctx.fillText((L.bins[b].glyph?L.bins[b].glyph+" ":"")+L.bins[b].label.toUpperCase(),0,-7*SC);
-    ctx.fillStyle="#8e93a1"; ctx.font=`${Math.max(9,10*SC)}px ${monoFont()}`; ctx.fillText(`${obs[b]} / ${MC.exp[b].toFixed(0)}`+(L.bins[b].sub?"  "+L.bins[b].sub:""),0,8*SC);
+    const hot = i===lead || youBin || pairBin;
+    ctx.fillStyle = hot ? "#f3d394" : "#efe5cf";
+    ctx.font=`italic 500 ${Math.max(11,15*SC)}px ${css("--display")}`;
+    const txt=(b.glyph?b.glyph+" ":"")+b.label; ctx.fillText(txt,0,-8*SC);
+    ctx.font=`500 ${Math.max(10,12*SC)}px ${css("--ui")}`; ctx.fillStyle = hot ? "#f3d394" : "#bdb19a";
+    ctx.fillText(`${obs[i]}  ·  luck ${Math.round(exp[i])}`,0,9*SC);
     ctx.restore();
-  }
-  ctx.beginPath(); ctx.arc(CX,CY,R0-2,0,TAU); ctx.strokeStyle="rgba(255,255,255,.12)"; ctx.lineWidth=1; ctx.stroke();
-  // --- links
-  const vis=new Set(list.map(f=>f.i));
-  const drawLink=(i,j,color,alpha,width)=>{ const a=F[i],b=F[j]; const A=angleOf(a.cur,L),B=angleOf(b.cur,L); const ax=CX+Math.cos(A)*(R0+a.off),ay=CY+Math.sin(A)*(R0+a.off),bx=CX+Math.cos(B)*(R0+b.off),by=CY+Math.sin(B)*(R0+b.off); ctx.beginPath(); ctx.moveTo(ax,ay); ctx.quadraticCurveTo(CX+(ax+bx-2*CX)*0.12,CY+(ay+by-2*CY)*0.12,bx,by); ctx.strokeStyle=color+alpha+")"; ctx.lineWidth=width||1; ctx.stroke(); };
-  const pairsOf = f => f.companies.flatMap(c => c.members.filter(j=>j!==f.i).map(j=>[f.i,j,c.ring]));
-  if(state.links){ list.forEach(f=>pairsOf(f).forEach(([i,j,r])=>{ if(i<j&&vis.has(j)) drawLink(i,j,r==="fallen"?"rgba(255,92,122,":"rgba(242,169,59,",0.2); })); }
-  if(state.highlight==="broke"){ list.forEach(f=>pairsOf(f).forEach(([i,j])=>{ if(i<j&&vis.has(j)){ const bk=isBroke(i,j); drawLink(i,j, bk?"rgba(255,92,122,":"rgba(160,170,190,", bk?0.9:0.08, bk?1.4:1); } })); }
-  if(state.pairCell){ const [s1,s2]=state.pairCell; list.forEach(f=>pairsOf(f).forEach(([i,j])=>{ if(i<j&&vis.has(j)){ const a=SIGNS.indexOf(F[i].sign), b=SIGNS.indexOf(F[j].sign); if((a===s1&&b===s2)||(a===s2&&b===s1)) drawLink(i,j,"rgba(255,210,122,",0.85,1.3); } })); }
-  if(state.hover && vis.has(state.hover.i)) pairsOf(state.hover).forEach(([i,j,r])=>{ if(vis.has(j)) drawLink(i,j,r==="fallen"?"rgba(255,92,122,":"rgba(255,210,122,",0.95,1.5); });
-  // --- dots
-  const dimOthers = state.highlight==="fallen" || state.highlight==="rising";
+  });
+  // dots
+  const keep=focusSet(); const vis=new Set(list.map(f=>f.i));
+  list.forEach(f=>{ const a=dotAngle(f,L); f.x=CX+Math.cos(a)*(R0+f.off); f.y=CY+Math.sin(a)*(R0+f.off); });
+  // lines under dots
+  if(state.links) PAIRS.forEach(p=>{ if(vis.has(p.fa.i)&&vis.has(p.fb.i)) line(p.fa,p.fb,"rgba(227,182,100,.10)",1); });
+  if(state.pair) (CELL[cellKey(...state.pair)]||[]).forEach(p=>{ if(vis.has(p.fa.i)&&vis.has(p.fb.i)) line(p.fa,p.fb,isSplit(p)?"rgba(224,116,98,.95)":"rgba(243,211,148,.95)",1.6); });
+  if(state.mode==="splits") PAIRS.filter(isSplit).forEach(p=>{ if(vis.has(p.fa.i)&&vis.has(p.fb.i)) line(p.fa,p.fb,"rgba(224,116,98,.9)",1.5); });
+  if(state.mode==="duo" && state.duo) state.duo.forEach(p=>{ if(vis.has(p.fa.i)&&vis.has(p.fb.i)) line(p.fa,p.fb,isSplit(p)?"rgba(224,116,98,.95)":"rgba(243,211,148,.95)",2); });
+  const foc = state.focus!=null ? F[state.focus] : null;
+  if(foc && vis.has(foc.i)) foc.companies.forEach(c=>c.members.forEach(j=>{ if(j!==foc.i && vis.has(j)){ const p=splitOf(foc,F[j]); line(foc,F[j],p&&isSplit(p)?"rgba(224,116,98,.95)":"rgba(243,211,148,.9)",1.5); } }));
   list.forEach(f=>{
-    const a=angleOf(f.cur,L); const x=CX+Math.cos(a)*(R0+f.off), y=CY+Math.sin(a)*(R0+f.off); f.x=x; f.y=y;
-    let al = f.alpha * (f.ring==="giants"?0.95:0.8);
-    if(dimOthers){ const keep = state.highlight==="fallen" ? f.ring==="fallen" : !!f.rising; al *= keep?1:0.18; }
-    if(state.pairCell){ const inCell = pairsOf(f).some(([i,j])=>{ const a=SIGNS.indexOf(F[i].sign),b=SIGNS.indexOf(F[j].sign); return (a===state.pairCell[0]&&b===state.pairCell[1])||(a===state.pairCell[1]&&b===state.pairCell[0]); }); al *= inCell?1:0.2; }
+    let al=f.alpha; if(keep && !keep.has(f.i)) al*=0.16; if(foc && keep==null && f.i!==foc.i && !foc.companies.some(c=>c.members.includes(f.i))) al*=0.35;
     ctx.globalAlpha=al;
-    if(f.ring==="giants"){ const g=ctx.createRadialGradient(x,y,0,x,y,f.r*3); g.addColorStop(0,"rgba(255,210,122,.35)"); g.addColorStop(1,"rgba(255,210,122,0)"); ctx.fillStyle=g; ctx.beginPath(); ctx.arc(x,y,f.r*3,0,TAU); ctx.fill(); }
-    ctx.beginPath(); ctx.arc(x,y,f.r,0,TAU); ctx.fillStyle=COL[f.ring]; ctx.fill();
-    if(f.ring==="fallen"){ ctx.beginPath(); ctx.arc(x,y,f.r+1.6,0,TAU); ctx.strokeStyle="rgba(255,92,122,.5)"; ctx.lineWidth=.8; ctx.stroke(); }
+    const col = state.colorBy==="sector" ? (SECOL[f.sector]||"#bdb19a") : COL[f.ring];
+    if(f.ring==="giants" && state.colorBy!=="sector"){ const g=ctx.createRadialGradient(f.x,f.y,0,f.x,f.y,f.r*3.2); g.addColorStop(0,"rgba(243,211,148,.38)"); g.addColorStop(1,"rgba(243,211,148,0)"); ctx.fillStyle=g; ctx.beginPath(); ctx.arc(f.x,f.y,f.r*3.2,0,TAU); ctx.fill(); }
+    ctx.beginPath(); ctx.arc(f.x,f.y,f.r,0,TAU); ctx.fillStyle=col; ctx.fill();
     ctx.globalAlpha=1;
   });
-  if(state.highlight==="rising"){ list.filter(f=>f.rising).forEach(f=>{ ctx.beginPath(); ctx.arc(f.x,f.y,f.r+4,0,TAU); ctx.strokeStyle="rgba(111,227,180,.9)"; ctx.lineWidth=1; ctx.stroke(); }); }
-  if(state.hover && vis.has(state.hover.i)){ const f=state.hover; ctx.beginPath(); ctx.arc(f.x,f.y,f.r+4,0,TAU); ctx.strokeStyle="#fff"; ctx.lineWidth=1.5; ctx.stroke(); f.companies.forEach(c=>c.members.forEach(j=>{ const g=F[j]; if(j!==f.i&&vis.has(j)){ ctx.beginPath(); ctx.arc(g.x,g.y,g.r+3,0,TAU); ctx.strokeStyle="rgba(255,255,255,.75)"; ctx.lineWidth=1; ctx.stroke(); } })); }
-  // --- famous names (Jobs first so he always wins a collision)
-  { const placed=[]; ctx.font=`600 ${Math.max(9,10.5*SC)}px ${monoFont()}`; ctx.lineJoin="round";
-    FAMOUS.forEach(n=>{ const f=list.find(g=>g.name===n); if(!f||!vis.has(f.i)) return;
-      const a=Math.atan2(f.y-CY,f.x-CX), out=Math.cos(a)>=0, lab=n.split(" ").slice(-1)[0].toUpperCase();
-      const lx=f.x+Math.cos(a)*(f.r+5), ly=f.y+Math.sin(a)*(f.r+5)+3, w=ctx.measureText(lab).width;
-      const x0=out?lx:lx-w; if(placed.some(b=>x0<b[0]+b[2]+4&&x0+w+4>b[0]&&Math.abs(ly-b[1])<12)) return; placed.push([x0,ly,w]);
-      ctx.textAlign=out?"left":"right"; ctx.strokeStyle="rgba(11,13,18,.9)"; ctx.lineWidth=3; ctx.strokeText(lab,lx,ly);
-      ctx.fillStyle=n==="Steve Jobs"?"#ffd27a":"#ece9df"; ctx.fillText(lab,lx,ly);
-      ctx.beginPath(); ctx.arc(f.x,f.y,f.r+2.5,0,TAU); ctx.strokeStyle=n==="Steve Jobs"?"#ffd27a":"rgba(236,233,223,.7)"; ctx.lineWidth=1; ctx.stroke(); }); }
-  // --- you
-  if(state.highlight==="you"){ const a=angleOf(state.you,L); const x1=CX+Math.cos(a)*(R0-14*SC),y1=CY+Math.sin(a)*(R0-14*SC),x2=CX+Math.cos(a)*(Rb-6),y2=CY+Math.sin(a)*(Rb-6); ctx.beginPath(); ctx.moveTo(x1,y1); ctx.lineTo(x2,y2); ctx.strokeStyle="#6fe3b4"; ctx.lineWidth=1.5; ctx.stroke(); ctx.beginPath(); ctx.arc(x1,y1,4,0,TAU); ctx.fillStyle="#6fe3b4"; ctx.fill(); ctx.font=`${10*SC}px ${monoFont()}`; ctx.fillStyle="#6fe3b4"; ctx.textAlign="center"; ctx.fillText("YOU",CX+Math.cos(a)*(R0-28*SC),CY+Math.sin(a)*(R0-28*SC)+4); }
-  // --- centre
-  const maxz=(()=>{ let m=0; for(let b=0;b<12;b++) m=Math.max(m,Math.abs(obs[b]-MC.exp[b])/Math.sqrt(MC.exp[b]||1)); return m; })();
-  const pct=MC.maxz.filter(z=>z>=maxz).length/MC.maxz.length;
-  ctx.textAlign="center"; ctx.fillStyle="#ece9df"; ctx.font=`700 ${Math.max(13,22*SC)}px ${dispFont()}`; ctx.fillText(state.shuffled?"THIS SHUFFLE":"TALLEST BAR",CX,CY-12*SC);
-  ctx.fillStyle="#f2a93b"; ctx.font=`700 ${Math.max(20,38*SC)}px ${dispFont()}`; ctx.fillText((L.bins[tallest].name||"").toUpperCase(),CX,CY+22*SC);
-  if(SC>=0.6){ ctx.fillStyle="#8e93a1"; ctx.font=`${Math.max(9,10.5*SC)}px ${monoFont()}`;
-    ctx.fillText(`${obs[tallest]} founders vs ${MC.exp[tallest].toFixed(0)} expected`,CX,CY+40*SC);
-    ctx.fillText(`${(pct*100).toFixed(0)}% of shuffles beat it`,CX,CY+54*SC); }
-  else { ctx.fillStyle="#8e93a1"; ctx.font=`9px ${monoFont()}`; ctx.fillText(`${obs[tallest]} vs ${MC.exp[tallest].toFixed(0)} · ${(pct*100).toFixed(0)}%`,CX,CY+40*SC); }
+  if(state.mode==="rising") F.filter(f=>f.rising&&vis.has(f.i)).forEach(f=>{ ctx.beginPath(); ctx.arc(f.x,f.y,f.r+4,0,TAU); ctx.strokeStyle="#a9c79b"; ctx.lineWidth=1.2; ctx.stroke(); });
+  if(foc && vis.has(foc.i)){ ctx.beginPath(); ctx.arc(foc.x,foc.y,foc.r+4.5,0,TAU); ctx.strokeStyle="#fff"; ctx.lineWidth=1.6; ctx.stroke(); }
+  // names: famous founders, plus whoever the current highlight is about
+  LABELS=[];
+  const named = new Set(W<520 ? ["Steve Jobs"] : FAMOUS);
+  if(state.pair) (CELL[cellKey(...state.pair)]||[]).forEach(p=>{ named.add(p.a); named.add(p.b); });
+  if(state.mode==="duo"&&state.duo) state.duo.forEach(p=>{ named.add(p.a); named.add(p.b); });
+  if(foc) foc.companies.forEach(c=>c.members.forEach(j=>named.add(F[j].name)));
+  const order=[...named].sort((a,b)=>(a==="Steve Jobs"?-1:0)-(b==="Steve Jobs"?-1:0));
+  ctx.font=`500 ${Math.max(10,12*SC)}px ${css("--ui")}`; ctx.lineJoin="round";
+  order.forEach(n=>{ const f=BYNAME.get(n); if(!f||!vis.has(f.i)||f.x==null) return; if(keep&&!keep.has(f.i)&&!(foc&&f===foc)) return;
+    const a=Math.atan2(f.y-CY,f.x-CX), right=Math.cos(a)>=0, lab=short(n).toUpperCase();
+    const inward = true; const rr=Math.hypot(f.x-CX,f.y-CY);
+    const lx=CX+Math.cos(a)*(R0*0.9)+(right?-2:2), ly=CY+Math.sin(a)*(R0*0.9)+4; // names sit just inside the dots, toward the centre
+    const w=ctx.measureText(lab).width, x0=right?lx-w:lx;
+    if(LABELS.some(b=>x0<b.x+b.w+3&&x0+w+3>b.x&&Math.abs(ly-b.y)<12*Math.max(1,SC))) return;
+    LABELS.push({x:x0,y:ly,w,f});
+    ctx.textAlign=right?"right":"left"; ctx.strokeStyle="rgba(12,11,9,.95)"; ctx.lineWidth=3.5; ctx.strokeText(lab,lx,ly);
+    ctx.fillStyle = n==="Steve Jobs" ? "#f3d394" : "#efe5cf"; ctx.fillText(lab,lx,ly);
+    ctx.beginPath(); ctx.moveTo(right?lx+3:lx-3,ly-4); ctx.lineTo(f.x-Math.cos(a)*(f.r+2),f.y-Math.sin(a)*(f.r+2)); ctx.strokeStyle="rgba(239,229,207,.28)"; ctx.lineWidth=0.8; ctx.stroke();
+  });
+  // you
+  if(state.mode==="you"){ const a=angleAt(state.lens==="zodiac"||state.lens==="month"?state.you:0,L); if(state.lens!=="school"){ ctx.beginPath(); ctx.moveTo(CX+Math.cos(a)*R0*0.55,CY+Math.sin(a)*R0*0.55); ctx.lineTo(CX+Math.cos(a)*Rb2,CY+Math.sin(a)*Rb2); ctx.strokeStyle="#ffffff"; ctx.lineWidth=1.6; ctx.setLineDash([3,4]); ctx.stroke(); ctx.setLineDash([]);
+    ctx.beginPath(); ctx.arc(CX+Math.cos(a)*R0*0.55,CY+Math.sin(a)*R0*0.55,4,0,TAU); ctx.fillStyle="#fff"; ctx.fill(); } }
+  centre(L,obs,exp,lead,R0);
 }
-
-/* =========================================================================
-   ANIMATION (birthday moves, filter fades)
-   ========================================================================= */
-let anim=null;
-function animateTo(getTarget, done, dur){
-  const list=visibleSet(); const t0=performance.now(); const D=dur||1300;
-  list.forEach(f=>{ f.from=f.cur; f.to=getTarget(f); let d=((f.to-f.from)%365+365)%365; if(d>182) d-=365; f.delta=d; });
-  cancelAnimationFrame(anim);
-  const step=now=>{ const t=Math.min(1,(now-t0)/D); const e=ease(t); list.forEach(f=>{ f.cur=((f.from+f.delta*e)%365+365)%365; }); recount(); draw(); if(t<1) anim=requestAnimationFrame(step); else { layout(); draw(); done&&done(); } };
-  anim=requestAnimationFrame(step);
+function centre(L,obs,exp,lead,R0){
+  const fs=k=>Math.max(10,k*SC);
+  const plate=ctx.createRadialGradient(CX,CY,0,CX,CY,R0*0.78); plate.addColorStop(0,"rgba(12,11,9,.92)"); plate.addColorStop(0.75,"rgba(12,11,9,.80)"); plate.addColorStop(1,"rgba(12,11,9,0)");
+  ctx.fillStyle=plate; ctx.beginPath(); ctx.arc(CX,CY,R0*0.78,0,TAU); ctx.fill();
+  let a="",b="",c="",d="";
+  const share=(t,n)=>t;
+  if(state.mode==="you" && state.lens==="zodiac"){ const s=DOY_SIGN[state.you]; a="You're a"; b=SIGNS[s]; c=`${obs[s]} founders share it`; d=`luck alone: ${Math.round(exp[s])}`; }
+  else if(state.mode==="duo" && state.duo){ const p=state.duo[0]; a=`${short(p.a)} + ${short(p.b)}`; b=`${GLYPH[p.sa]} + ${GLYPH[p.sb]}`; c=compatible(p.sa,p.sb)?"a match":"not a match"; d=outcome(p)||p.company.replace(/ \(.*\)/,""); }
+  else if(state.pair){ const [i,j]=state.pair; a="Cofounders"; b=`${GLYPH[SIGNS[i]]} + ${GLYPH[SIGNS[j]]}`; c=`${cnt(i,j)} pair${cnt(i,j)===1?"":"s"}`; d=`luck alone: ${expd(i,j).toFixed(1)}`; }
+  else if(state.lens==="school"){ const n=LAST.list.length; const old=obs.slice(0,4).reduce((x,y)=>x+y,0), eo=exp.slice(0,4).reduce((x,y)=>x+y,0); a="Oldest third of class"; b=pct(old/n); c=`luck alone: ${pct(eo/n)}`; d="clockwise: oldest to youngest"; }
+  else { a=state.shuffled?"Random birthdays":"Most founders"; b=L.bins[lead].name; c=`${obs[lead]} founders`; d=`luck alone: ${Math.round(exp[lead])}`; }
+  ctx.textAlign="center"; ctx.textBaseline="alphabetic";
+  ctx.fillStyle="#bdb19a"; ctx.font=`500 ${fs(12.5)}px ${css("--ui")}`; ctx.fillText(a.toUpperCase(),CX,CY-R0*0.30);
+  const big = b.length>9 ? 38 : 50; ctx.fillStyle="#f3d394"; ctx.font=`italic 500 ${fs(big)}px ${css("--display")}`; ctx.fillText(b,CX,CY+R0*0.05);
+  ctx.fillStyle="#efe5cf"; ctx.font=`500 ${fs(14)}px ${css("--ui")}`; ctx.fillText(c.toUpperCase(),CX,CY+R0*0.30);
+  ctx.fillStyle="#bdb19a"; ctx.font=`${fs(13)}px ${css("--ui")}`; ctx.fillText(d.toUpperCase(),CX,CY+R0*0.46);
 }
-function fadeIn(){ const t0=performance.now(); const D=1100; cancelAnimationFrame(anim); const step=now=>{ const t=Math.min(1,(now-t0)/D); F.forEach((f,i)=>{ f.alpha=Math.min(1,Math.max(0,(t*1.5-(i/F.length)*0.5))); }); draw(); if(t<1) anim=requestAnimationFrame(step); else { F.forEach(f=>f.alpha=1); draw(); } }; anim=requestAnimationFrame(step); }
-function doShuffle(){ state.shuffled=true; state.shuffleN++; document.getElementById("restore").disabled=false; animateTo(f=>sampleDay(f)); }
-function doRestore(){ if(!state.shuffled) return; state.shuffled=false; document.getElementById("restore").disabled=true; animateTo(f=>f.doy); }
-document.getElementById("shuffle").onclick=doShuffle;
-document.getElementById("restore").onclick=doRestore;
+const FAMOUS=["Steve Jobs","Bill Gates","Elon Musk","Jeff Bezos","Mark Zuckerberg","Larry Page","Jensen Huang","Larry Ellison","Phil Knight","Sam Altman","Reed Hastings","Michael Dell","Jack Ma","Masayoshi Son","Sam Bankman-Fried","Elizabeth Holmes"];
 
-/* =========================================================================
-   CONTROLS
-   ========================================================================= */
-function chips(el, items, set, cls, onchange){ const box=document.getElementById(el); box.innerHTML=""; items.forEach(it=>{ const b=document.createElement("button"); b.className="chip "+(cls?cls(it):"")+(set.has(it)?" on":""); b.textContent=it; b.onclick=()=>{ if(set.has(it)) set.delete(it); else set.add(it); b.classList.toggle("on"); onchange(); }; box.appendChild(b); }); }
-function syncChips(){ chips("ringchips",["giants","big","fallen"],state.rings,it=>it,update); chips("erachips",META.eras,state.eras,null,update); chips("regionchips",META.regions,state.regions,null,update); const box=document.getElementById("teamchips"); box.innerHTML=""; [["all","everyone"],["solo","solo founders"],["team","cofounder teams"]].forEach(([v,l])=>{ const b=document.createElement("button"); b.className="chip"+(state.team===v?" on":""); b.textContent=l; b.onclick=()=>{ state.team=v; syncChips(); update(); }; box.appendChild(b); }); document.getElementById("links").checked=state.links; document.getElementById("tint").checked=state.tint; }
-syncChips();
-document.getElementById("links").onchange=e=>{ state.links=e.target.checked; draw(); };
-document.getElementById("tint").onchange=e=>{ state.tint=e.target.checked; draw(); };
-document.getElementById("filters").onclick=()=>document.getElementById("drawer").classList.toggle("open");
-function setLens(l){ state.lens=l; document.querySelectorAll("#lens button").forEach(x=>x.classList.toggle("on",x.dataset.lens===l)); document.getElementById("schoolrow").style.display=l==="school"?"flex":"none"; update(); }
+/* ======================================================================
+   MOTION
+   ====================================================================== */
+let raf=null;
+function loop(until, each){ cancelAnimationFrame(raf); const tick=now=>{ each&&each(now); draw(); if(now<until) raf=requestAnimationFrame(tick); else { lensTween=null; layout(); draw(); } }; raf=requestAnimationFrame(tick); }
+function sampleDay(f){ const u=Math.random(); let acc=0,m=11; for(let i=0;i<12;i++){ acc+=f.base[i]; if(u<acc){ m=i; break; } } return CUM[m]+Math.floor(Math.random()*MDAYS[m]); }
+function moveTo(target, dur){ const D=REDUCED?1:(dur||1400); const t0=performance.now(); F.forEach(f=>{ f.from=f.cur; let d=((target(f)-f.cur)%365+365)%365; if(d>182) d-=365; f.delta=d; });
+  loop(t0+D, now=>{ const e=ease(Math.min(1,(now-t0)/D)); F.forEach(f=>{ f.cur=((f.from+f.delta*e)%365+365)%365; }); recount(); }); }
+function shuffle(){ state.shuffled=true; document.getElementById("restore").disabled=false; moveTo(sampleDay); }
+function restore(){ if(!state.shuffled) return; state.shuffled=false; document.getElementById("restore").disabled=true; moveTo(f=>f.doy); }
+function setLens(l){ if(l===state.lens) return; const old=lensDef(); F.forEach(f=>{ f.a0 = (old.ok(f)&&f.x!=null) ? Math.atan2(f.y-CY,f.x-CX) : null; }); state.lens=l; document.querySelectorAll("#lens button").forEach(b=>b.classList.toggle("on",b.dataset.lens===l)); layout(); lensTween={t0:performance.now(),dur:REDUCED?1:1500}; loop(performance.now()+lensTween.dur); }
+function setShow(v){ state.show=v; document.querySelectorAll("#show button").forEach(b=>b.classList.toggle("on",b.dataset.show===v)); layout(); draw(); }
 document.querySelectorAll("#lens button").forEach(b=>b.onclick=()=>setLens(b.dataset.lens));
-{ const sel=document.getElementById("cutoff"); META.cutoffs.forEach((c,i)=>{ const o=document.createElement("option"); o.value=i; o.textContent=`${c.country}: ${MONTHS[c.m-1].slice(0,3)} ${c.d}`; sel.appendChild(o); }); sel.onchange=()=>{ state.cutoff=META.cutoffs[+sel.value]; update(); }; }
-document.getElementById("jump").onclick=()=>goStep(0);
+document.querySelectorAll("#show button").forEach(b=>b.onclick=()=>setShow(b.dataset.show));
+document.getElementById("shuffle").onclick=shuffle;
+document.getElementById("restore").onclick=restore;
+function intro(){ if(REDUCED){ draw(); return; } const t0=performance.now(), D=2200; F.forEach(f=>f.alpha=0); loop(t0+D, now=>{ const t=(now-t0)/D; LAST.list.forEach(f=>{ const a=((dotAngle(f,LAST.L)+Math.PI/2)%TAU+TAU)%TAU/TAU; f.alpha=Math.max(0,Math.min(1,(t*1.25-a)*5)); }); }); setTimeout(()=>F.forEach(f=>f.alpha=1), D+50); }
 
-/* =========================================================================
-   HOVER
-   ========================================================================= */
+/* ======================================================================
+   FOUNDER CARD (hover shows, click keeps it open)
+   ====================================================================== */
 const card=document.getElementById("card");
-cv.addEventListener("mousemove",e=>{ const r=cv.getBoundingClientRect(); const mx=e.clientX-r.left,my=e.clientY-r.top; let best=null,bd=9; LAST.list.forEach(f=>{ const d=Math.hypot(f.x-mx,f.y-my); if(d<bd+f.r){ bd=d; best=f; } }); if(best!==state.hover){ state.hover=best; draw(); showCard(best,mx,my); } else if(best) positionCard(mx,my); });
-cv.addEventListener("mouseleave",()=>{ state.hover=null; card.style.display="none"; draw(); });
-cv.addEventListener("click",()=>{ if(state.hover&&state.hover.url) window.open(state.hover.url,"_blank"); });
-function positionCard(mx,my){ const r=cv.getBoundingClientRect(); card.style.left=Math.max(4,Math.min(r.width-310,mx+14))+"px"; card.style.top=Math.max(8,Math.min(r.height-150,my-20))+"px"; }
-function showCard(f,mx,my){ if(!f){ card.style.display="none"; return; } const cos=f.companies.map(c=>`<span class="co">${c.name}</span><span class="pill ${c.ring==="fallen"?"x":(c.ring==="giants"?"g":"")}">${c.ring==="fallen"?("fallen "+(c.outcome_year||"")):("$"+(c.value/1e9).toFixed(0)+"B")}</span>`).join("<br>"); const extra=[f.moon?`Moon ${f.moon.join(" or ")}${f.moon.length>1?" (no birth time)":""}`:null, f.rising?`Rising ${f.rising} · time ${f.rising_rating}-rated`:null].filter(Boolean).join(" · "); card.innerHTML=`<b>${f.name}</b>${cos}<div class="m">${f.bday_h} · ${f.sign} ${GLYPH[f.sign]}${f.place?" · born "+f.place:""}</div>${extra?`<div class="m">${extra}</div>`:""}<div class="m">${f.src==="wikidata"?"Birthday from Wikidata":"Birthday from Wikipedia"} · <a href="${f.url}" target="_blank">source</a></div>`; card.style.display="block"; positionCard(mx,my); }
+function cardHTML(f){
+  const cos=f.companies.slice(0,3).map(c=>`<div class="co"><b>${esc(c.name)}</b><span class="tag ${c.ring==="fallen"?"red":""}">${c.ring==="fallen"?"collapsed"+(c.outcome_year?" "+c.outcome_year:""):money(c.value)}</span></div>`).join("");
+  const mates=[]; f.companies.forEach(c=>c.members.forEach(j=>{ if(j!==f.i && !mates.some(m=>m.f===F[j])) mates.push({f:F[j],c:c.name}); }));
+  const ml=mates.slice(0,6).map(m=>{ const p=splitOf(f,m.f); const sp=p&&isSplit(p); const match=compatible(f.sign,m.f.sign); return `<li><span>${GLYPH[m.f.sign]} ${esc(m.f.name)}</span><span class="r ${sp?"red":""}">${sp?splitWord(p)+(p.split_year?" "+p.split_year:""):(match?"a match":"not a match")}</span></li>`; }).join("");
+  const extra=[f.moon?`Moon in ${f.moon.join(" or ")}`:null, f.rising?`Rising ${f.rising}`:null].filter(Boolean).join(" · ");
+  return `<button class="x" type="button" aria-label="Close">×</button><h3>${esc(f.name)}</h3><div class="meta">${GLYPH[f.sign]} ${f.sign} · ${esc(f.bday_h)}${f.place?"<br>Born in "+esc(f.place):""}</div>${cos}${ml?`<div class="foot" style="margin-top:10px">Cofounders, by astrology's rule</div><ul>${ml}</ul>`:""}${extra?`<div class="foot">${esc(extra)}</div>`:""}<div class="foot"><a href="${esc(f.url)}" target="_blank" rel="noopener">Birthday source</a></div>`;
+}
+function placeCard(f){ const bw=box.clientWidth; const cw=Math.min(300,bw*0.86); let x=f.x+14, y=f.y-30; if(x+cw>bw-4) x=f.x-cw-14; if(x<4) x=4; card.style.left=x+"px"; card.style.top=Math.max(4,Math.min(box.clientHeight-card.offsetHeight-4,y))+"px"; }
+function openCard(f,pin){ if(!f){ if(!state.pinned){ card.hidden=true; state.focus=null; draw(); } return; } state.focus=f.i; state.pinned=!!pin; card.innerHTML=cardHTML(f); card.hidden=false; placeCard(f); card.querySelector(".x").onclick=e=>{ e.stopPropagation(); closeCard(); }; draw(); }
+function closeCard(){ state.pinned=false; state.focus=null; card.hidden=true; draw(); }
+function hit(mx,my){ const lab=LABELS.find(b=>mx>=b.x-3&&mx<=b.x+b.w+3&&Math.abs(my-(b.y-4))<9); if(lab) return lab.f; let best=null,bd=10; LAST.list.forEach(f=>{ if(f.x==null) return; const d=Math.hypot(f.x-mx,f.y-my)-f.r; if(d<bd){ bd=d; best=f; } }); return best; }
+cv.addEventListener("mousemove",e=>{ if(state.pinned) return; const r=cv.getBoundingClientRect(); const f=hit(e.clientX-r.left,e.clientY-r.top); cv.style.cursor=f?"pointer":"default"; if((f?f.i:null)!==state.focus) openCard(f,false); });
+cv.addEventListener("mouseleave",()=>{ if(!state.pinned) openCard(null); });
+cv.addEventListener("click",e=>{ const r=cv.getBoundingClientRect(); const f=hit(e.clientX-r.left,e.clientY-r.top); if(f) openCard(f,true); else if(state.pinned) closeCard(); });
+document.addEventListener("keydown",e=>{ if(e.key==="Escape"){ if(PLAY.on) stopPlay(); else closeCard(); } });
 
-/* =========================================================================
-   CHARTS
-   ========================================================================= */
-const pct = p => (p*100).toFixed(0)+"%";
-function bars(test, opts={}){
-  const bins=test.bins, obs=test.observed, exp=test.expected, lo=test.band_lo||[], hi=test.band_hi||[];
-  const W=640,H=230,pad={l:34,r:8,t:14,b:52}; const n=bins.length; const bw=(W-pad.l-pad.r)/n; const maxv=Math.max(...obs,...exp,...(hi.length?hi:[0]))*1.1; const y=v=>pad.t+(H-pad.t-pad.b)*(1-v/maxv);
-  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${test.label}">`;
-  [0,0.5,1].forEach(t=>{ const v=Math.round(maxv*t); s+=`<line x1="${pad.l}" x2="${W-pad.r}" y1="${y(v)}" y2="${y(v)}" stroke="#1c2030"/><text x="${pad.l-6}" y="${y(v)+4}" fill="#5b6070" font-size="10" text-anchor="end" font-family="var(--mono)">${v}</text>`; });
-  bins.forEach((b,i)=>{ const x=pad.l+i*bw; if(hi.length) s+=`<rect x="${x+bw*0.14}" y="${y(hi[i])}" width="${bw*0.72}" height="${Math.max(1,y(lo[i])-y(hi[i]))}" rx="2" fill="rgba(143,203,255,.15)" stroke="rgba(143,203,255,.35)"/>`; const out=hi.length&&(obs[i]>hi[i]||obs[i]<lo[i]); s+=`<rect x="${x+bw*0.36}" y="${y(obs[i])}" width="${bw*0.28}" height="${Math.max(1,y(0)-y(obs[i]))}" rx="2" fill="${opts.color||(out?"#ffd27a":"rgba(242,169,59,.85)")}"/>`; s+=`<line x1="${x+bw*0.14}" x2="${x+bw*0.86}" y1="${y(exp[i])}" y2="${y(exp[i])}" stroke="#ece9df" stroke-dasharray="3 3"/>`; s+=`<text x="${x+bw/2}" y="${H-pad.b+16}" fill="#ece9df" font-size="${n>8?10:11}" text-anchor="middle" font-family="var(--display)" font-weight="700">${(GLYPH[b]?GLYPH[b]+" ":"")+String(b).toUpperCase().slice(0,n>8?4:10)}</text>`; s+=`<text x="${x+bw/2}" y="${H-pad.b+30}" fill="#8e93a1" font-size="9.5" text-anchor="middle" font-family="var(--mono)">${Number.isInteger(obs[i])?obs[i]:obs[i].toFixed(0)}/${exp[i].toFixed(0)}</text>`; });
+/* ======================================================================
+   SMALL CHARTS (SVG, drawn to scale)
+   ====================================================================== */
+function barsSVG(labels,obs,exp,colors,opt={}){
+  const n=labels.length, Wd=640, Hd=opt.h||220, pl=8, pr=8, pt=18, pb=40, bw=(Wd-pl-pr)/n, mx=Math.max(...obs,...exp)*1.12, y=v=>pt+(Hd-pt-pb)*(1-v/mx);
+  let s=`<svg viewBox="0 0 ${Wd} ${Hd}" role="img" aria-label="${esc(opt.aria||"")}">`;
+  s+=`<line x1="${pl}" x2="${Wd-pr}" y1="${y(0)}" y2="${y(0)}" stroke="rgba(239,229,207,.25)"/>`;
+  labels.forEach((l,i)=>{ const x=pl+i*bw, c=colors?colors[i]:"rgba(239,229,207,.55)";
+    s+=`<rect x="${x+bw*0.24}" y="${y(obs[i])}" width="${bw*0.52}" height="${Math.max(1,y(0)-y(obs[i]))}" rx="3" fill="${c}"/>`;
+    s+=`<line x1="${x+bw*0.14}" x2="${x+bw*0.86}" y1="${y(exp[i])}" y2="${y(exp[i])}" stroke="#e3b664" stroke-width="2.5"/>`;
+    s+=`<text x="${x+bw/2}" y="${y(obs[i])-6}" fill="#efe5cf" font-size="${n>8?12:15}" text-anchor="middle" font-family="Archivo Narrow, Arial Narrow, sans-serif">${opt.fmt?opt.fmt(obs[i]):Math.round(obs[i])}</text>`;
+    s+=`<text x="${x+bw/2}" y="${Hd-pb+18}" fill="#bdb19a" font-size="${n>8?12:14}" text-anchor="middle" font-family="Archivo Narrow, Arial Narrow, sans-serif">${esc(l)}</text>`; });
   return s+"</svg>";
 }
-function twoGroups(labels,a,b,na,nb,nameA,nameB){ const W=640,H=220,pad={l:34,r:8,t:14,b:44}; const n=labels.length; const bw=(W-pad.l-pad.r)/n; const pa=a.map(v=>v/na*100),pb=b.map(v=>v/nb*100); const maxv=Math.max(...pa,...pb)*1.15; const y=v=>pad.t+(H-pad.t-pad.b)*(1-v/maxv); let s=`<svg viewBox="0 0 ${W} ${H}">`; [0,0.5,1].forEach(t=>{ const v=(maxv*t).toFixed(0); s+=`<line x1="${pad.l}" x2="${W-pad.r}" y1="${y(v)}" y2="${y(v)}" stroke="#1c2030"/><text x="${pad.l-6}" y="${y(v)+4}" fill="#5b6070" font-size="10" text-anchor="end" font-family="var(--mono)">${v}%</text>`; }); labels.forEach((l,i)=>{ const x=pad.l+i*bw; s+=`<rect x="${x+bw*0.16}" y="${y(pb[i])}" width="${bw*0.32}" height="${Math.max(1,y(0)-y(pb[i]))}" rx="2" fill="rgba(143,203,255,.7)"/><rect x="${x+bw*0.52}" y="${y(pa[i])}" width="${bw*0.32}" height="${Math.max(1,y(0)-y(pa[i]))}" rx="2" fill="#ff5c7a"/><text x="${x+bw/2}" y="${H-pad.b+16}" fill="#ece9df" font-size="10" text-anchor="middle" font-family="var(--display)" font-weight="700">${(GLYPH[l]?GLYPH[l]+" ":"")+l.toUpperCase().slice(0,4)}</text>`; }); s+=`<rect x="${pad.l}" y="${H-14}" width="10" height="10" fill="rgba(143,203,255,.7)"/><text x="${pad.l+14}" y="${H-5}" fill="#8e93a1" font-size="10" font-family="var(--mono)">${nameB} (n=${nb})</text><rect x="${pad.l+190}" y="${H-14}" width="10" height="10" fill="#ff5c7a"/><text x="${pad.l+204}" y="${H-5}" fill="#8e93a1" font-size="10" font-family="var(--mono)">${nameA} (n=${na})</text></svg>`; return s; }
-function measureRows(ms){ return `<table class="t"><tr><th>Measure</th><th>Observed</th><th>Chance (95% range)</th><th>p</th></tr>${ms.map(m=>`<tr><td>${m.name}</td><td class="num">${(m.observed*100).toFixed(1)}%</td><td class="num">${(m.null_mean*100).toFixed(1)}% (${(m.band_lo*100).toFixed(1)} to ${(m.band_hi*100).toFixed(1)})</td><td class="num">${m.p_two_sided.toFixed(2)}</td></tr>`).join("")}</table>`; }
+function dumbbell(){ const fv=T.fallen_vs_thriving; const nf=fv.n_fallen, nt=fv.n_thriving; const Wd=640, row=24, Hd=SIGNS.length*row+36, x0=120, x1=Wd-20; const mx=Math.max(...fv.signs_fallen.map(v=>v/nf),...fv.signs_thriving.map(v=>v/nt))*1.08; const X=v=>x0+(x1-x0)*v/mx;
+  let s=`<svg viewBox="0 0 ${Wd} ${Hd}" role="img" aria-label="Share of collapsed and successful founders by sign">`;
+  [0,0.1,0.2].filter(v=>v<=mx).forEach(v=>{ s+=`<line x1="${X(v)}" x2="${X(v)}" y1="6" y2="${Hd-26}" stroke="rgba(239,229,207,.1)"/><text x="${X(v)}" y="${Hd-8}" fill="#7a7062" font-size="12" text-anchor="middle" font-family="Archivo Narrow, sans-serif">${Math.round(v*100)}%</text>`; });
+  SIGNS.forEach((sg,i)=>{ const y=14+i*row, a=fv.signs_thriving[i]/nt, b=fv.signs_fallen[i]/nf; s+=`<text x="0" y="${y+5}" fill="#efe5cf" font-size="14" font-family="Archivo Narrow, sans-serif">${GLYPH[sg]} ${sg}</text><line x1="${X(Math.min(a,b))}" x2="${X(Math.max(a,b))}" y1="${y}" y2="${y}" stroke="rgba(239,229,207,.25)" stroke-width="2"/><circle cx="${X(a)}" cy="${y}" r="5" fill="#efe5cf"/><circle cx="${X(b)}" cy="${y}" r="5" fill="#e07462"/>`; });
+  return s+"</svg>"; }
 
-/* --- the sign-pair matrix --- */
-let MMODE="ratio";
-function matrixHTML(){
-  const M=T.pair_matrix; if(!M) return "";
-  let h=`<div class="mtoggle"><span class="mono">Show</span><div class="seg"><button data-m="ratio" class="on">vs chance</button><button data-m="count">how many</button><button data-m="fared">how they fared</button></div></div>`;
-  h+=`<div class="matrix" id="matrix"><div></div>${SIGNS.map(s=>`<div class="hd" title="${s}">${GLYPH[s]}</div>`).join("")}`;
-  for(let i=0;i<12;i++){ h+=`<div class="rh" title="${SIGNS[i]}">${GLYPH[SIGNS[i]]}</div>`; for(let j=0;j<12;j++){ if(j<i){ h+=`<div class="c empty"></div>`; continue; } const n=M.counts[i][j], e=M.expected[i][j], r=M.ratio[i][j], bad=M.fallen[i][j]+M.broke_up[i][j]; h+=`<div class="c" data-i="${i}" data-j="${j}" data-n="${n}" data-e="${e}" data-r="${r}" data-bad="${bad}" data-f="${M.fallen[i][j]}" data-b="${M.broke_up[i][j]}" title="${SIGNS[i]} + ${SIGNS[j]}: ${n} pairs, ${e.toFixed(1)} expected"></div>`; } }
-  h+=`</div><div class="mout" id="mout">Hover a cell. ${M.n_pairs} cofounder pairs across ${M.n_teams} teams; rows and columns are Sun signs, the diagonal is two founders of the same sign.</div>`;
-  return h;
-}
-function paintMatrix(){ const M=T.pair_matrix; if(!M) return; const maxN=Math.max(1,...M.counts.flat()); document.querySelectorAll("#matrix .c:not(.empty)").forEach(c=>{ const n=+c.dataset.n,r=+c.dataset.r,bad=+c.dataset.bad; let col,txt,light=false; if(MMODE==="count"){ const t=n/maxN; col=`rgba(242,169,59,${0.12+0.88*t})`; txt=n; light=t<0.35; } else if(MMODE==="fared"){ const s=n?bad/n:0; if(n<3){ col="rgba(60,65,80,.6)"; txt="·"; light=true; } else { col=`rgba(255,92,122,${0.15+0.85*s})`; txt=Math.round(s*100)+"%"; light=s<0.3; } } else { if(n<3){ col="rgba(60,65,80,.6)"; txt="·"; light=true; } else { const l=Math.max(-1,Math.min(1,Math.log2(Math.max(0.25,r)))); col=l>=0?`rgba(242,169,59,${0.15+0.85*l})`:`rgba(143,203,255,${0.15+0.85*(-l)})`; txt=r.toFixed(1)+"×"; light=Math.abs(l)<0.35; } } c.style.background=col; c.textContent=txt; c.style.color=light?"#dfe3ee":"#111"; }); }
-function wireMatrix(){ const M=T.pair_matrix; if(!M) return; paintMatrix(); document.querySelectorAll(".mtoggle button").forEach(b=>b.onclick=()=>{ MMODE=b.dataset.m; document.querySelectorAll(".mtoggle button").forEach(x=>x.classList.toggle("on",x===b)); paintMatrix(); }); const out=document.getElementById("mout"); document.querySelectorAll("#matrix .c:not(.empty)").forEach(c=>{ const i=+c.dataset.i,j=+c.dataset.j; const enter=()=>{ document.querySelectorAll("#matrix .c.on").forEach(x=>x.classList.remove("on")); c.classList.add("on"); state.pairCell=[i,j]; draw(); const cos=(M.companies[`${i},${j}`]||[]); out.innerHTML=`<b>${SIGNS[i]} ${GLYPH[SIGNS[i]]} + ${SIGNS[j]} ${GLYPH[SIGNS[j]]}</b> · ${c.dataset.n} pairs, ${(+c.dataset.e).toFixed(1)} expected by chance (${(+c.dataset.r).toFixed(2)}×) · ${c.dataset.f} in a fallen company, ${c.dataset.b} broke up<br><span class="mono" style="text-transform:none;letter-spacing:0">${cos.join(" · ")}${cos.length>=12?" · …":""}</span>`; }; c.onmouseenter=enter; c.onclick=enter; }); document.getElementById("matrix").onmouseleave=()=>{ state.pairCell=null; draw(); }; }
+/* ======================================================================
+   CHAPTERS
+   ====================================================================== */
+const sg=T.signs, iLead=sg.bins.indexOf(sg.tallest), leadN=sg.observed[iLead], leadE=sg.expected[iLead];
+const el=T.elements, iEl=el.bins.indexOf(el.tallest);
+const comp=T.pairs.measures.find(m=>m.name==="traditionally compatible")||T.pairs.measures[2];
+const bk=T.breakups, bw=bk.with_ousters||bk;
+const fv=T.fallen_vs_thriving, ra=T.relative_age, se=T.sectors, mo=T.moon;
+const fallenF=F.filter(f=>f.ring==="fallen").sort((a,b)=>b.value-a.value);
+const splitsAll=PAIRS.filter(isSplit);
+const nRising=F.filter(f=>f.rising).length;
+const N=F.length;
+const ELW = {Fire:"fire signs",Earth:"earth signs",Air:"air signs",Water:"water signs"};
+const gapSign=(()=>{ const a=fv.signs_fallen.map(v=>v/fv.n_fallen), b=fv.signs_thriving.map(v=>v/fv.n_thriving); let k=0; a.forEach((v,i)=>{ if(Math.abs(v-b[i])>Math.abs(a[k]-b[k])) k=i; }); return {k, f:a[k], t:b[k]}; })();
+const DUO_NAMES=[["Steve Jobs","Steve Wozniak"],["Bill Gates","Paul Allen"],["Larry Page","Sergey Brin"],["Mark Zuckerberg","Eduardo Saverin"],["Elon Musk","Martin Eberhard"],["Elon Musk","J. B. Straubel"],["Sam Altman","Ilya Sutskever"],["Jensen Huang","Chris Malachowsky"]];
+const DUOS=DUO_NAMES.map(([a,b])=>splitOf(BYNAME.get(a),BYNAME.get(b))).filter(Boolean);
+const musk=BYNAME.get("Elon Musk");
+const muskSplits=splitsAll.filter(p=>p.fa===musk||p.fb===musk).map(p=>{ const o=p.fa===musk?p.fb:p.fa; return `${o.name} (${o.sign}, ${p.company.replace(/ \(.*\)/,"")})`; });
 
-/* =========================================================================
-   STORY STEPS (each sets a ring state when it scrolls into view)
-   ========================================================================= */
+document.getElementById("lede").innerHTML = `We placed ${N} founders of the world's most valuable companies on the day they were born. Then we checked what astrology says about them, from signs to cofounder matches, against plain luck.`;
+
 const steps=[];
-const push=(o)=>steps.push(o);
-push({ch:"01 — The ring", h:"Every founder, one circle", text:META.story.ring, chart:`<div class="chart">${bars(T.signs)}<div class="cap">Sun sign · bars = observed · dashed = expected from each founder's birth country and year · shaded = 95% of ${S.n_sim.toLocaleString()} simulated universes</div></div><div class="legend"><span><i style="background:#ffd27a"></i>Giants $100B+</span><span><i style="background:#8fcbff"></i>Big $20B+</span><span><i style="background:#ff5c7a"></i>Fallen</span><span><i style="background:rgba(143,203,255,.3);border:1px solid #4e86b8"></i>95% chance band</span></div>`, verdict:T.signs.verdict, vtag:"Pre-registered test 1", st:{lens:"zodiac", highlight:null}});
-push({ch:"02 — The tallest bar", h:"Your eye finds the peak. So does chance.", text:META.story.tallest, chart:`<div class="chart"><table class="t"><tr><th>Population</th><th>Tallest</th><th>Observed / expected</th><th>Max deviation (z)</th><th>Chance beats it</th></tr>${["signs","signs_giants","signs_fallen"].filter(k=>T[k]).map(k=>`<tr><td>${T[k].label}</td><td>${T[k].tallest}</td><td class="num">${T[k].observed[T[k].bins.indexOf(T[k].tallest)]} / ${T[k].expected[T[k].bins.indexOf(T[k].tallest)].toFixed(1)}</td><td class="num">${T[k].max_dev_z}</td><td class="num">${pct(T[k].p_max_dev)}</td></tr>`).join("")}</table><div class="cap">Look-elsewhere corrected: the statistic is the biggest gap among all 12 signs, compared with the biggest gap in each simulated universe · chi-square p (Monte Carlo) for all 12 bins = ${T.signs.p_chi2_mc.toFixed(2)}</div></div>`, verdict:T.signs_giants.verdict, vtag:"Pre-registered test 2 · Giants only", st:{lens:"zodiac", highlight:"tallest", auto:"shuffle"}});
-push({ch:"03 — Elements and modalities", h:"Fewer bins, more power", text:META.story.elements, chart:`<div class="grid2"><div class="chart">${bars(T.elements)}<div class="cap">Fire · Earth · Air · Water</div></div><div class="chart">${bars(T.modalities)}<div class="cap">Cardinal · Fixed · Mutable</div></div></div>`, verdict:T.elements.verdict+" "+T.modalities.verdict, vtag:"Pre-registered test 3", st:{lens:"zodiac", highlight:null, tint:true}});
-if(T.pairs) push({ch:"04 — Cofounders", h:"Do compatible signs build companies together?", text:META.story.pairs, chart:`<div class="chart">${measureRows(T.pairs.measures)}<div class="cap">${T.pairs.n_pairs} cofounder pairs in ${T.pairs.n_teams} teams · null = the same founders dealt into teams of the same sizes, ${S.n_sim.toLocaleString()} times · compatible = Fire with Air, Earth with Water, or the same element</div></div>`, verdict:T.pairs.verdict, vtag:"Pre-registered test 4", st:{lens:"zodiac", links:true, highlight:null}});
-if(T.pair_matrix) push({ch:"05 — Sign by sign", h:"Pisces with Leo. Pisces with Cancer.", text:META.story.matrix, chart:`<div class="chart">${matrixHTML()}<div class="cap">${T.pair_matrix.note}</div></div>`, verdict:META.matrix_verdict, vtag:"Exploratory · added after pre-registration", st:{lens:"zodiac", links:true, highlight:null}, wire:wireMatrix});
-if(T.relative_age){ const ra=T.relative_age; push({ch:"06 — The school year", h:"The one birthday effect science takes seriously", text:META.story.school, chart:`<div class="chart">${bars({bins:["0","1","2","3","4","5","6","7","8","9","10","11"],observed:ra.hist,expected:ra.expected_hist,label:"Months older than the youngest classmate"})}<div class="cap">Months older than the youngest child in the school cohort (0 = born just before the cutoff, 11 = just after) · ${ra.n} founders with a sourced national cutoff · ${ra.countries_covered.join(", ")}</div></div>`, verdict:ra.verdict, vtag:"Pre-registered test 5", st:{lens:"school", highlight:null}}); }
-if(T.fallen_vs_thriving){ const fv=T.fallen_vs_thriving; push({ch:"07 — The fallen", h:"Does failure have a sign?", text:META.story.fallen, chart:`<div class="chart">${twoGroups(SIGNS,fv.signs_fallen,fv.signs_thriving,fv.n_fallen,fv.n_thriving,"fallen","thriving")}<div class="cap">Share of founders by sign · permutation p = ${fv.p_perm.toFixed(2)} (signs), ${fv.p_perm_elements.toFixed(2)} (elements)</div></div>`, verdict:fv.verdict, vtag:"Pre-registered test 6", st:{lens:"zodiac", highlight:"fallen"}}); }
-if(T.breakups){ const b=T.breakups; push({ch:"08 — Breakups", h:"Pairs that split vs pairs that stayed", text:META.story.breakups, chart:`<div class="chart"><table class="t"><tr><th>Pairs</th><th>n</th><th>Compatible by element</th></tr><tr><td>Broke up (ouster, lawsuit, public feud)</td><td class="num">${b.n_broke}</td><td class="num">${pct(b.compatible_broke)}</td></tr><tr><td>Stayed together</td><td class="num">${b.n_intact}</td><td class="num">${pct(b.compatible_intact)}</td></tr></table><div class="cap">Difference ${(b.diff*100).toFixed(1)} points · 95% chance range ${(b.band_lo*100).toFixed(1)} to ${(b.band_hi*100).toFixed(1)} · p = ${b.p_two_sided.toFixed(2)}</div>${META.breakup_rows}</div>`, verdict:b.verdict, vtag:"Pre-registered test 7", st:{lens:"zodiac", highlight:"broke"}}); }
-if(T.moon) push({ch:"09 — Moon and rising", h:"The rest of the chart", text:META.story.moon, chart:`<div class="chart">${bars(T.moon,{color:"rgba(143,203,255,.8)"})}<div class="cap">Moon sign from the Swiss Ephemeris · ${T.moon.ambiguous} of ${T.moon.n} founders have no birth time and were born on a day the Moon changed sign, so they count half in each · expected = even (the Moon's 27-day cycle ignores the calendar)</div>${META.rising_rows}</div>`, verdict:T.moon.verdict, vtag:"Exploratory", st:{lens:"zodiac", highlight:"rising"}});
-push({ch:"10 — Find yourself", h:"Where do you land?", text:META.story.you, chart:`<div class="chart"><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><input type="date" id="you" value="2000-02-25"><span class="mono">year is ignored</span></div><div class="you" id="youout" style="margin-top:10px"></div></div>`, verdict:null, st:{lens:"zodiac", highlight:"you"}, wire:()=>{ const inp=document.getElementById("you"); inp.onchange=e=>{ const [y,m,d]=e.target.value.split("-").map(Number); if(m&&d){ state.you=doy(m,d); state.highlight="you"; draw(); youList(); } }; }});
-push({ch:"11 — How we counted", h:"Methods and coverage", text:META.story.methods, chart:META.methods_table, verdict:null, st:{lens:"zodiac", highlight:null}});
+steps.push({ id:"ring", eb:"I", title:"Every founder, on their birthday",
+  html:`<h2>Every founder, <i>on their birthday</i></h2>
+  <p>Each dot is a founder of one of the world's most valuable companies, placed on the day they were born. Gold dots built companies worth $100 billion or more. Blue dots, $20 to $100 billion. Red dots built a billion-dollar company that later collapsed.</p>
+  <p>The bars around the edge count founders per sign. The gold tick across each bar shows what luck alone would give: how many founders that sign would get if birthdays were random.</p>
+  <p class="small">Luck isn't one in twelve. Some signs are a few days longer, and more babies are born in some months, so each founder's odds follow the births in their own country and year.</p>
+  <div class="hint">Hover a dot to meet the founder · click to keep the card open</div>`,
+  st:{show:"all"}, play:{dur:9000, caption:"Every dot is a founder, placed on the day they were born.", run:async()=>{ await wait(2600); openCard(BYNAME.get("Steve Jobs"),true); await wait(3600); closeCard(); }} });
+
+steps.push({ id:"libra", eb:"II", title:`${sg.tallest} leads. That's luck.`,
+  html:`<h2>${sg.tallest} has the most founders. <i>That's luck.</i></h2>
+  <div class="big"><div class="fig"><span class="n gold">${leadN}</span><span class="l">${sg.tallest} founders</span></div><div class="fig"><span class="n dim">${Math.round(leadE)}</span><span class="l">luck alone</span></div></div>
+  <p>${leadN-Math.round(leadE)} more than luck sounds like a lot. But with twelve signs, one always comes out on top. So we gave the same founders random birthdays, 10,000 times. In ${pct(sg.p_max_dev)} of those runs, some sign stood out at least as much as ${sg.tallest} does.</p>
+  <p class="small">From here on, the circle shows the ${F.filter(f=>f.ring!=="fallen").length} founders of companies still worth $20 billion or more.</p>
+  <p>Try it. Each press gives everyone a random birthday, and a different sign wins.</p>
+  <div class="inline-actions"><button class="btn small" type="button" data-act="shuffle">🎲 Random birthdays</button><button class="btn small line" type="button" data-act="restore">Real birthdays</button></div>
+  <div class="verdict">${sg.tallest}'s lead is what luck looks like.</div>`,
+  st:{}, play:{dur:12500, caption:`${sg.tallest} has the most founders. Now watch what random birthdays do.`, run:async()=>{ await wait(2600); for(let k=0;k<3;k++){ shuffle(); caption(k===0?"Random birthdays: a new sign wins.":(k===1?"And another.":"Every run crowns a winner.")); await wait(2500); } restore(); caption(`Back to real birthdays. ${sg.tallest}'s lead is luck.`); }} });
+
+steps.push({ id:"elements", eb:"III", title:"Fire, earth, air, water",
+  html:`<h2>Fire, earth, air, water: <i>no winner</i></h2>
+  <p>Astrology groups the signs into four elements. Fire signs are Aries, Leo and Sagittarius. Earth signs are Taurus, Virgo and Capricorn. Air signs are Gemini, Libra and Aquarius. Water signs are Cancer, Scorpio and Pisces.</p>
+  <p>Bigger groups make a real pattern easier to spot. ${ELW[el.tallest][0].toUpperCase()+ELW[el.tallest].slice(1)} lead with ${el.observed[iEl]} founders against ${Math.round(el.expected[iEl])} by luck. Random birthdays do at least that well ${pct(el.p_max_dev)} of the time.</p>
+  <div class="panel">${barsSVG(el.bins.map(b=>ELW[b]),el.observed,el.expected,el.bins.map(b=>ELCOL[b]),{aria:"Founders by element against luck"})}<div class="hint">Bars: founders · gold line: luck alone</div></div>`,
+  st:{tint:true}, play:{dur:8000, caption:"Grouped by element, the signs come out even."} });
+
+steps.push({ id:"compat", eb:"IV", title:"Who should you start a company with?",
+  html:`<h2>Who should you <i>start a company with?</i></h2>
+  <p>This is the question astrology fans ask most. The classic rule: fire signs get on with air signs, earth signs with water signs, and every sign gets on with its own element. Astrologers call those pairs a match.</p>
+  <div class="big"><div class="fig"><span class="n gold">${pct(comp.observed)}</span><span class="l">of real cofounder pairs are a match</span></div><div class="fig"><span class="n dim">${pct(comp.null_mean)}</span><span class="l">random teams</span></div></div>
+  <p>For the random teams, we kept all ${T.pairs.n_teams} founding teams at their real sizes and reshuffled who was in which team, 10,000 times. Real cofounders were no better matched than strangers thrown together.</p>
+  <p class="small">Some famous pairs. Click one to see it on the circle.</p>
+  <div class="duos" id="duos">${DUOS.map((p,k)=>{ const m=compatible(p.sa,p.sb); const o=outcome(p); return `<button type="button" class="duo" data-k="${k}"><span class="who">${GLYPH[p.sa]} ${esc(short(p.a))} + ${GLYPH[p.sb]} ${esc(short(p.b))}</span><span class="what">${esc(p.company.replace(/ \(.*\)/,""))} · ${p.sa} and ${p.sb}</span><span class="verdict-tag ${o?"red":(m?"m":"")}">${m?"A match":"Not a match"}${o?" · "+o:""}</span></button>`; }).join("")}</div>`,
+  st:{links:true,show:"all"}, wire:()=>{ document.querySelectorAll("#duos .duo").forEach(b=>b.onclick=()=>pickDuo(+b.dataset.k)); },
+  play:{dur:14000, caption:"Astrology says some signs make better partners. Do they?", run:async()=>{ await wait(2400); for(const k of [0,1,4]){ pickDuo(k); const p=DUOS[k]; caption(`${short(p.a)} (${p.sa}) and ${short(p.b)} (${p.sb}): ${compatible(p.sa,p.sb)?"a match":"not a match"}${outcome(p)?", and they "+outcome(p):""}.`); await wait(3400); } }} });
+
+steps.push({ id:"chart", eb:"V", title:"The match chart",
+  html:`<h2>The match chart. <i>Find your sign, read across.</i></h2>
+  <p>Each square is a pair of signs. The number is how many cofounder pairs in our list have that combination. Squares with a gold edge are the pairs astrology calls a match. Click any square to see who they are.</p>
+  <div class="seg" id="mxmode" role="group" aria-label="Show in each square"><button type="button" data-m="count" class="on">How many pairs</button><button type="button" data-m="ratio">Compared with luck</button><button type="button" data-m="ended">How it ended</button></div>
+  <div class="hint" id="mxcap"></div>
+  <div class="mx-wrap"><div class="mx" id="mx"></div></div>
+  <div class="mxkey ui"><span><span class="sw"></span>astrology calls it a match</span></div>
+  <div class="chips" id="mxtop"></div>
+  <div class="detail" id="mxdetail"></div>
+  <p class="small">Most squares hold one to four pairs, so read them as stories, not rules.</p>`,
+  st:{show:"all"}, wire:wireMatrix, enter:()=>{ if(MX.sel) selectCell(...MX.sel,true); },
+  play:{dur:15000, caption:"Every square is a pair of signs. Click one to meet the cofounders.", run:async()=>{ await wait(2200); selectCell(SIGNS.indexOf("Pisces"),SIGNS.indexOf("Leo"),true); caption("Pisces and Leo: Steve Jobs and Steve Wozniak."); await wait(3800); setMode("ratio"); caption("Compared with luck: gold means more pairs than random teams make."); await wait(3600); const t=topCells("ratio")[0]; if(t){ selectCell(t.i,t.j,true); caption(`${SIGNS[t.i]} and ${SIGNS[t.j]}: ${t.n} pairs, ${(t.n/t.e).toFixed(1)} times luck.`); } await wait(3600); setMode("count"); }} });
+
+steps.push({ id:"yoursign", eb:"VI", title:"Your sign's cofounders",
+  html:`<h2>If you're a <i id="ysName">Pisces</i>, who did founders like you team up with?</h2>
+  <p>Pick a sign. These are the signs its founders most often started a company with, and who they were.</p>
+  <label class="ui" for="ysSel" style="display:block;margin-bottom:6px;color:var(--paper2)">Your sign</label>
+  <select id="ysSel">${SIGNS.map(s=>`<option value="${s}" ${s==="Pisces"?"selected":""}>${GLYPH[s]} ${s}</option>`).join("")}</select>
+  <ul class="rank" id="ysOut"></ul>
+  <p class="small">Counts are cofounder pairs in this list. With so few per sign, treat them as company, not advice.</p>`,
+  st:{show:"all"}, wire:()=>{ const s=document.getElementById("ysSel"); s.onchange=()=>yourSign(s.value); yourSign("Pisces"); }, enter:()=>{ const s=document.getElementById("ysSel"); yourSign(s.value); },
+  play:{dur:10000, caption:"Pick your sign and see who founders like you built with.", run:async()=>{ await wait(4000); const s=document.getElementById("ysSel"); s.value="Sagittarius"; yourSign("Sagittarius"); caption("A Sagittarius? Here are your people."); await wait(4000); s.value="Pisces"; yourSign("Pisces"); }} });
+
+steps.push({ id:"splits", eb:"VII", title:"Do mismatched signs split up?",
+  html:`<h2>Do mismatched signs <i>split up?</i></h2>
+  <p>Some of the most famous partnerships ended badly. In our list, ${bw.n_broke} cofounder pairs split: they fell out, sued each other, or one was pushed out.</p>
+  <div class="big"><div class="fig"><span class="n red">${pct(bw.compatible_broke)}</span><span class="l">of pairs that split were a match</span></div><div class="fig"><span class="n dim">${pct(bw.compatible_intact)}</span><span class="l">of pairs that stayed</span></div></div>
+  <p>If anything, the pairs that split were more often a match. With only ${bw.n_broke} splits, luck makes a gap that size ${pct(bw.p_two_sided)} of the time. Counting only open fallings-out, as we planned before looking, it's ${pct(bk.compatible_broke)} against ${pct(bk.compatible_intact)}.</p>
+  ${muskSplits.length?`<p>Elon Musk, a Cancer, appears in ${muskSplits.length} of the splits: ${muskSplits.join(", ").replace(/, ([^,]*)$/," and $1")}.</p>`:""}
+  <div class="panel" style="overflow-x:auto"><table class="t splits"><tr><th>Company</th><th>Pair</th><th>Match?</th><th>What happened</th></tr>${splitsAll.map(p=>`<tr><td>${esc(p.company.replace(/ \(.*\)/,""))}</td><td>${GLYPH[p.sa]} ${esc(p.a)} + ${GLYPH[p.sb]} ${esc(p.b)}</td><td>${compatible(p.sa,p.sb)?"Yes":"No"}</td><td>${esc(p.what||outcome(p))}${p.src?` <a href="${esc(p.src)}" target="_blank" rel="noopener">source</a>`:""}</td></tr>`).join("")}</table></div>
+  <p class="small">Why so few? Many famous splits, at Twitter, Snap, Tinder and Yahoo, happened at companies that were sold or are worth under $20 billion today, so they aren't in this list. Others are missing a cofounder's birthday.</p>`,
+  st:{mode:"splits",show:"all"}, play:{dur:10000, caption:"Red lines: cofounders who split. Astrology didn't see it coming."} });
+
+steps.push({ id:"fallen", eb:"VIII", title:"Does failure have a sign?",
+  html:`<h2>Does failure <i>have a sign?</i></h2>
+  <p>${fv.n_fallen} founders built billion-dollar companies that later collapsed. If the stars shaped founders, their signs should look different from the founders who made it.</p>
+  <div class="panel">${dumbbell()}<div class="legend ui" style="justify-content:flex-start;margin-top:8px"><span><i style="background:var(--paper)"></i>successful founders</span><span><i style="background:var(--rose)"></i>founders of collapsed companies</span></div></div>
+  <p style="margin-top:14px">They don't. The biggest difference: ${pct(gapSign.f)} of the ${fv.n_fallen} are ${SIGNS[gapSign.k]}s, against ${pct(gapSign.t)} of successful founders. With only ${fv.n_fallen} people, a gap like that turns up by luck ${pct(fv.p_perm)} of the time.</p>
+  <details><summary>The ${fallenF.length} founders of collapsed companies</summary><ul class="plist" style="margin-top:8px">${fallenF.map(f=>`<li><span>${GLYPH[f.sign]} ${esc(f.name)} <span class="co">${esc(f.companies[0].name)}</span></span><span class="st red">${esc(f.sign)}</span></li>`).join("")}</ul></details>`,
+  st:{mode:"fallen",show:"all"}, play:{dur:8500, caption:"Red: founders whose companies collapsed. Their signs look like everyone else's."} });
+
+steps.push({ id:"school", eb:"IX", title:"The school year",
+  html:`<h2>The one birthday effect <i>science takes seriously</i></h2>
+  <p>In youth sports, kids born just after the school cutoff are the oldest in their class. They're bigger, get picked first, and the edge snowballs. One study found S&amp;P 500 CEOs lean the same way (Du, Gao and Levi, 2012). A larger one found nothing (Covington, Swidler and Yost, 2022).</p>
+  <p>So we put ${ra.n} founders in their own school year, using their country's cutoff date. On the circle, the oldest kids in class sit at the top, running clockwise to the youngest.</p>
+  <div class="big"><div class="fig"><span class="n gold">${pct(ra.share_oldest_third)}</span><span class="l">in the oldest third of their class</span></div><div class="fig"><span class="n dim">${pct(ra.null_oldest_third)}</span><span class="l">luck alone</span></div></div>
+  <div class="panel">${barsSVG(["Oldest","2","3","4","5","6","7","8","9","10","11","Youngest"],[...ra.hist].reverse(),[...ra.expected_hist].reverse(),null,{aria:"Founders by month of the school year"})}<div class="hint">Founders by month of the school year · gold line: luck alone</div></div>
+  <div class="verdict">Birth month doesn't make founders. Have your kid whenever you like.</div>`,
+  st:{lens:"school"}, play:{dur:11000, caption:"Kids born just after the school cutoff are the oldest in class. Does that make founders?", run:async()=>{ await wait(5000); caption("Oldest third of the class: "+pct(ra.share_oldest_third)+". Luck alone: "+pct(ra.null_oldest_third)+"."); }} });
+
+steps.push({ id:"types", eb:"X", title:"Do signs pick industries?",
+  html:`<h2>Do signs <i>pick industries?</i></h2>
+  <p>We sorted every company into six types using its Wikipedia page. The dots are now colored by type. For each type, here's the sign with the most founders above luck.</p>
+  <div class="panel" style="overflow-x:auto"><table class="t"><tr><th>Type</th><th>Founders</th><th>Most over luck</th></tr>${se.tops.map(t=>`<tr><td><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${SECOL[t.sector]};margin-right:8px"></span>${esc(t.sector)}</td><td class="num">${t.n}</td><td>${GLYPH[t.top_sign]} ${t.top_sign}: ${t.top_obs} <span style="color:var(--paper2)">(luck ${t.top_exp})</span></td></tr>`).join("")}</table></div>
+  <p style="margin-top:14px">${(()=>{ const z=t=>(t.top_obs-t.top_exp)/Math.sqrt(t.top_exp); const best=se.tops.reduce((a,b)=>(z(b)>z(a)?b:a)); return `The strongest lean: ${best.top_sign} founders in ${best.sector.toLowerCase()}, ${best.top_obs} against ${best.top_exp} by luck. Shuffling company types at random gave a lean at least that strong ${pct(se.p_max_cell)} of the time.`; })()}</p>
+  <div class="verdict">Signs don't pick industries.</div>`,
+  st:{colorBy:"sector"}, play:{dur:8000, caption:"Colored by industry. No sign owns one."} });
+
+steps.push({ id:"moon", eb:"XI", title:"The Moon and rising signs",
+  html:`<h2>What about the <i>Moon and rising signs?</i></h2>
+  <p>Your Moon sign comes from your birth date and, on some days, the hour. Your rising sign needs the exact minute, which almost no founder has published.</p>
+  <p>We worked out Moon signs for ${mo.n} founders. Moon in ${mo.tallest} leads with ${Math.round(mo.observed[mo.bins.indexOf(mo.tallest)])} against ${Math.round(mo.expected[0])} by luck, a spread luck matches ${pct(mo.p_mc)} of the time. Only ${nRising} founders, circled in green, have a recorded birth time. That's too few to say anything about rising signs.</p>`,
+  st:{mode:"rising"}, play:{dur:7000, caption:"Moon signs: no pattern. Rising signs: almost no founder has a birth time on record."} });
+
+steps.push({ id:"you", eb:"XII", title:"Where do you land?",
+  html:`<h2>Where do <i>you</i> land?</h2>
+  <p>Enter your birthday. The year doesn't matter.</p>
+  <label class="ui" for="youDate" style="display:block;margin-bottom:6px;color:var(--paper2)">Your birthday</label>
+  <input type="date" id="youDate" value="2000-02-25">
+  <div class="you-out" id="youOut"></div>
+  <div class="inline-actions"><button class="btn" type="button" id="mkCard">Make my card</button></div>
+  <div class="cardimg" id="cardOut" hidden></div>`,
+  st:{mode:"you",show:"all"}, wire:()=>{ const i=document.getElementById("youDate"); i.onchange=()=>{ const [,m,d]=i.value.split("-").map(Number); if(m&&d){ state.you=doy(m,d); draw(); youOut(); } }; document.getElementById("mkCard").onclick=makeCard; youOut(); },
+  play:{dur:11000, caption:"Now find yourself.", run:async()=>{ await wait(3500); makeCard(); caption("Make a card and post your sign."); }} });
+
+steps.push({ id:"how", eb:"XIII", title:"How we did it",
+  html:`<h2>How we <i>did it</i></h2>${META.methods_table}`, st:{} });
 
 const stepsEl=document.getElementById("steps");
-stepsEl.innerHTML=steps.map((b,i)=>`<section class="step" data-i="${i}" id="step${i}"><div class="text"><div class="chapter">${b.ch}</div><h2>${b.h}</h2>${b.text}${b.verdict?`<div class="verdict"><small>${b.vtag}</small>${b.verdict}</div>`:""}</div>${b.chart}</section>`).join("");
-steps.forEach(b=>b.wire&&b.wire());
+stepsEl.innerHTML=steps.map((b,i)=>`<section class="step" data-i="${i}" id="${b.id}"><div class="eyebrow ui"><b>${b.eb}</b>${esc(b.title)}</div>${b.html}</section>`).join("");
+stepsEl.addEventListener("click",e=>{ const a=e.target.closest("[data-act]"); if(!a) return; if(a.dataset.act==="shuffle") shuffle(); if(a.dataset.act==="restore") restore(); });
 
-function youList(){ const L=lensDef(); const k=state.you; const sign=SIGNS[DOY_SIGN[k]]; const near=visibleSet().filter(f=>{ let d=Math.abs(f.doy-k); d=Math.min(d,365-d); return d<=3; }).sort((a,b)=>b.value-a.value); const obs=LAST.obs[L.of(k)], exp=MC?MC.exp[L.of(k)]:0; const el=document.getElementById("youout"); if(!el) return; el.innerHTML=`<div>${fmtDate(k)} · <b>${sign} ${GLYPH[sign]}</b> · your wedge holds <span class="num">${obs}</span> founders; chance expects <span class="num">${exp.toFixed(1)}</span>.</div>`+(near.length?`<div class="mono" style="margin-top:6px">Born within 3 days of you</div><ul>${near.slice(0,12).map(f=>`<li>${f.name} <span class="mono" style="text-transform:none;letter-spacing:0">${f.companies[0].name}, ${f.bday_h}</span></li>`).join("")}${near.length>12?`<li class="mono">and ${near.length-12} more</li>`:""}</ul>`:`<div class="mono" style="margin-top:6px">No founder on the ring was born within 3 days of you.</div>`); }
+/* ---------- famous pairs ---------- */
+function pickDuo(k){ const p=DUOS[k]; state.mode="duo"; state.duo=[p]; state.pair=null; document.querySelectorAll("#duos .duo").forEach(b=>b.classList.toggle("on",+b.dataset.k===k)); if(state.lens!=="zodiac") setLens("zodiac"); draw(); }
 
-let activeStep=-1;
-function applyStep(i){
-  if(i===activeStep) return; activeStep=i; const b=steps[i]; const st=b.st||{};
-  document.querySelectorAll(".step").forEach(s=>s.classList.toggle("on",+s.dataset.i===i));
-  clearInterval(state.autoTimer); state.autoTimer=null; clearTimeout(state.autoKick);
-  if(state.shuffled) doRestore();
-  state.highlight=st.highlight||null; state.pairCell=null;
-  state.tint = !!st.tint; state.links = !!st.links; syncChips();
-  if(st.lens && st.lens!==state.lens) setLens(st.lens); else update();
-  if(st.auto==="shuffle"){ let n=0; state.autoKick=setTimeout(doShuffle, 900); state.autoTimer=setInterval(()=>{ if(n++>=2){ clearInterval(state.autoTimer); state.autoTimer=null; doRestore(); return; } doShuffle(); }, 2600); }
+/* ---------- match chart ---------- */
+const MX={mode:"count", sel:null};
+const MXCAP={count:"Number of cofounder pairs with each combination of signs.", ratio:"1.5× means 1.5 times as many pairs as random teams would make. Blank: fewer than 3 pairs.", ended:"Pairs that split up or whose company collapsed, out of all pairs in the square."};
+function wireMatrix(){
+  const mx=document.getElementById("mx"); let h=`<div></div>`+SIGNS.map((s,j)=>`<div class="hd" data-j="${j}" title="${s}">${GLYPH[s]}</div>`).join("");
+  SIGNS.forEach((s,i)=>{ h+=`<div class="rh" data-i="${i}"><span class="g">${GLYPH[s]}</span><span class="nm">${s}</span></div>`; SIGNS.forEach((t,j)=>{ h+=`<button type="button" class="c ${compatible(s,t)?"compat":""}" data-i="${i}" data-j="${j}" aria-label="${s} and ${t}"></button>`; }); });
+  mx.innerHTML=h; paint();
+  mx.querySelectorAll(".c").forEach(c=>{ const i=+c.dataset.i,j=+c.dataset.j; c.onmouseenter=()=>{ detail(i,j); cross(i,j); state.pair=[i,j]; state.mode=null; draw(); }; c.onclick=()=>{ if(MX.sel&&MX.sel[0]===i&&MX.sel[1]===j){ MX.sel=null; paintSel(); } else selectCell(i,j,true); }; });
+  mx.onmouseleave=()=>{ if(MX.sel) selectCell(...MX.sel,true); else { state.pair=null; cross(-1,-1); draw(); defaultDetail(); } };
+  document.querySelectorAll("#mxmode button").forEach(b=>b.onclick=()=>setMode(b.dataset.m));
+  const tops=topCells("count").slice(0,4); document.getElementById("mxtop").innerHTML=`<span class="ui" style="color:var(--paper2);align-self:center">Most common:</span>`+tops.map(t=>`<button class="chip" type="button" data-i="${t.i}" data-j="${t.j}">${GLYPH[SIGNS[t.i]]} ${SIGNS[t.i]} + ${GLYPH[SIGNS[t.j]]} ${SIGNS[t.j]} · ${t.n}</button>`).join("");
+  document.querySelectorAll("#mxtop .chip").forEach(b=>b.onclick=()=>selectCell(+b.dataset.i,+b.dataset.j,true));
+  document.getElementById("mxcap").textContent=MXCAP.count; defaultDetail();
 }
-// a step becomes active when it crosses the middle band of the viewport (works for steps taller than the screen)
-const io=new IntersectionObserver(entries=>{ entries.forEach(e=>{ if(e.isIntersecting) applyStep(+e.target.dataset.i); }); },{threshold:0, rootMargin:"-42% 0px -42% 0px"});
-document.querySelectorAll(".step").forEach(s=>io.observe(s));
-document.addEventListener("keydown",e=>{ if(e.target.tagName==="INPUT"||e.target.tagName==="SELECT") return; if(e.key==="ArrowDown"||e.key==="ArrowRight"){ e.preventDefault(); goStep(Math.min(steps.length-1,Math.max(0,activeStep+1))); } if(e.key==="ArrowUp"||e.key==="ArrowLeft"){ e.preventDefault(); goStep(Math.max(0,activeStep-1)); } if(e.key===" "){ e.preventDefault(); doShuffle(); } });
-function goStep(i){ document.getElementById("step"+i).scrollIntoView({behavior:"smooth",block:"center"}); }
-/* --- autoplay for the demo video: 9 seconds per chapter --- */
-let playTimer=null;
-document.getElementById("play").onclick=()=>{ const btn=document.getElementById("play"); if(playTimer){ clearInterval(playTimer); playTimer=null; btn.textContent="▶ Play the story"; return; } btn.textContent="■ Stop"; let i=0; goStep(0); playTimer=setInterval(()=>{ i++; if(i>=steps.length){ clearInterval(playTimer); playTimer=null; btn.textContent="▶ Play the story"; return; } goStep(i); }, 9000); };
+function topCells(kind){ const out=[]; for(let i=0;i<12;i++) for(let j=i;j<12;j++){ const n=cnt(i,j), e=expd(i,j); if(n>0) out.push({i,j,n,e}); } return kind==="ratio" ? out.filter(t=>t.n>=3).sort((a,b)=>b.n/b.e-a.n/a.e) : out.sort((a,b)=>b.n-a.n||b.n/b.e-a.n/a.e); }
+function setMode(m){ MX.mode=m; document.querySelectorAll("#mxmode button").forEach(b=>b.classList.toggle("on",b.dataset.m===m)); document.getElementById("mxcap").textContent=MXCAP[m]; paint(); }
+function paint(){ const maxN=Math.max(...M.counts.flat());
+  document.querySelectorAll("#mx .c").forEach(c=>{ const i=+c.dataset.i,j=+c.dataset.j, n=cnt(i,j), e=expd(i,j), ps=CELL[cellKey(i,j)]||[]; let bg="var(--ink3)", txt="", dark=false;
+    if(MX.mode==="count"){ if(n){ const t=n/maxN; bg=`rgba(227,182,100,${0.14+0.86*t})`; txt=n; dark=t>0.45; } }
+    else if(MX.mode==="ratio"){ if(n>=3){ const r=n/e; txt=r.toFixed(1)+"×"; if(r>=1){ const t=Math.min(1,(r-1)/1.5); bg=`rgba(227,182,100,${0.18+0.8*t})`; dark=t>0.5; } else { const t=Math.min(1,(1-r)/0.7); bg=`rgba(143,178,214,${0.18+0.7*t})`; dark=t>0.55; } } }
+    else { if(n){ const bad=ps.filter(p=>isSplit(p)||p.ring==="fallen").length; txt=bad+"/"+n; const t=bad/n; bg=bad?`rgba(224,116,98,${0.2+0.75*t})`:"rgba(239,229,207,.08)"; dark=t>0.5; } }
+    c.style.background=bg; c.style.color=dark?"#16120b":"var(--paper)"; c.textContent=txt; c.classList.toggle("zero",!txt); });
+  paintSel(); }
+function paintSel(){ document.querySelectorAll("#mx .c").forEach(c=>{ const i=+c.dataset.i,j=+c.dataset.j; c.classList.toggle("sel",!!MX.sel&&((MX.sel[0]===i&&MX.sel[1]===j)||(MX.sel[0]===j&&MX.sel[1]===i))); }); }
+function cross(i,j){ document.querySelectorAll("#mx .rh").forEach(r=>r.classList.toggle("on",+r.dataset.i===i||+r.dataset.i===j)); document.querySelectorAll("#mx .hd").forEach(r=>r.classList.toggle("on",+r.dataset.j===j||+r.dataset.j===i)); document.querySelectorAll("#mx .c").forEach(c=>c.classList.toggle("cross",(+c.dataset.i===i&&+c.dataset.j<=j)||(+c.dataset.j===j&&+c.dataset.i<=i))); }
+function selectCell(i,j,lock){ if(lock) MX.sel=[i,j]; paintSel(); cross(i,j); detail(i,j); state.pair=[i,j]; state.mode=null; if(state.lens!=="zodiac") setLens("zodiac"); draw(); }
+function pairRow(p){ const o=outcome(p); return `<li><span><button type="button" data-f="${p.fa.i}">${GLYPH[p.sa]} ${esc(p.a)}</button> + <button type="button" data-f="${p.fb.i}">${GLYPH[p.sb]} ${esc(p.b)}</button><br><span class="co">${esc(p.company.replace(/ \(.*\)/,""))}</span></span><span class="st ${o?"red":""}">${o||"together"}</span></li>`; }
+function detail(i,j){ const n=cnt(i,j), e=expd(i,j), ps=CELL[cellKey(i,j)]||[]; const m=compatible(SIGNS[i],SIGNS[j]);
+  const same=i===j; const name=same?`${GLYPH[SIGNS[i]]} Two ${SIGNS[i]}s`:`${GLYPH[SIGNS[i]]} ${SIGNS[i]} + ${GLYPH[SIGNS[j]]} ${SIGNS[j]}`;
+  const vs = n===0 ? `No cofounder pairs in our list. Random teams would make ${e.toFixed(1)}.` : `${n} cofounder pair${n===1?"":"s"}. Random teams would make ${e.toFixed(1)}, so this combo shows up ${(n/e).toFixed(1)} times as often as luck.`;
+  document.getElementById("mxdetail").innerHTML=`<h3>${name}</h3><div class="sub">${m?"Astrology calls this a match.":"Astrology says this pair clashes."} ${vs}</div><ul class="plist">${ps.slice().sort((a,b)=>Math.max(b.fa.value,b.fb.value)-Math.max(a.fa.value,a.fb.value)).map(pairRow).join("")}</ul>`;
+  document.querySelectorAll("#mxdetail [data-f]").forEach(b=>b.onclick=()=>openCard(F[+b.dataset.f],true)); }
+function defaultDetail(){ const t=topCells("count")[0]; if(t) detail(t.i,t.j); }
 
-function update(){ layout(); draw(); youList(); document.getElementById("lensname").textContent = state.lens==="zodiac"?"Zodiac":(state.lens==="month"?"Month":"School year · cutoff "+state.cutoff.country); document.getElementById("lenshint").textContent = ""; }
-resize(); update(); fadeIn();
+/* ---------- your sign ---------- */
+function partners(s){ const i=SIGNS.indexOf(s); return SIGNS.map((t,j)=>({t,j,n:cnt(i,j),e:expd(i,j),ps:CELL[cellKey(i,j)]||[]})).filter(x=>x.n>0).sort((a,b)=>b.n-a.n||b.n/b.e-a.n/a.e); }
+function yourSign(s){ document.getElementById("ysName").textContent=s; const list=partners(s); const mx=list.length?list[0].n:1;
+  document.getElementById("ysOut").innerHTML=list.slice(0,6).map(x=>{ const ex=x.ps.slice().sort((a,b)=>Math.max(b.fa.value,b.fb.value)-Math.max(a.fa.value,a.fb.value)).slice(0,3).map(p=>`${esc(short(p.a))} + ${esc(short(p.b))} <span style="color:var(--paper2)">(${esc(p.company.replace(/ \(.*\)/,""))})</span>${isSplit(p)?' <span class="split">split</span>':""}`).join("; ");
+    return `<li><div class="s">${GLYPH[x.t]} ${x.t}<small>${x.n} pair${x.n===1?"":"s"} · ${(x.n/x.e).toFixed(1)}× luck${compatible(s,x.t)?" · a match":""}</small><div class="bar" style="width:${Math.round(100*x.n/mx)}%"></div></div><div class="ex">${ex}</div></li>`; }).join("") || `<li><div class="ex">No cofounder pairs with a ${s} in this list.</div></li>`;
+  const top=list[0]; if(top){ state.pair=[SIGNS.indexOf(s),top.j]; state.mode=null; draw(); } }
+
+/* ---------- find yourself ---------- */
+function bestMatch(s){ const p=partners(s)[0]; return p||null; }
+function youOut(){ const k=state.you, s=SIGNS[DOY_SIGN[k]]; const all=F.filter(f=>f.sign===s); const near=F.filter(f=>{ let d=Math.abs(f.doy-k); d=Math.min(d,365-d); return d<=3; }).sort((a,b)=>Math.abs(a.doy-k)-Math.abs(b.doy-k)||b.value-a.value);
+  const exp=EXPSIGN[DOY_SIGN[k]]; const bm=bestMatch(s); const famous=all.slice().sort((a,b)=>b.value-a.value).slice(0,5);
+  document.getElementById("youOut").innerHTML=`<div class="line">You're a <em>${s}</em> ${GLYPH[s]}. ${all.length} founders in this list share your sign; luck alone would give ${Math.round(exp)}.</div>`+
+   (famous.length?`<div class="line">Biggest ${s} founders: ${famous.map(f=>`${esc(f.name)} <span style="color:var(--paper2)">(${esc(f.companies[0].name.replace(/ \(.*\)/,""))})</span>`).join(", ")}.</div>`:"")+
+   (near.length?`<div class="line">Born within three days of you: ${near.slice(0,5).map(f=>`${esc(f.name)} <span style="color:var(--paper2)">(${dayName(f.doy)})</span>`).join(", ")}.</div>`:"")+
+   (bm?`<div class="line">The sign ${s} founders most often teamed up with: <em>${bm.t}</em> ${GLYPH[bm.t]}, ${bm.n} pair${bm.n===1?"":"s"}${bm.ps[0]?`, like ${esc(bm.ps[0].a)} and ${esc(bm.ps[0].b)}`:""}.</div>`:""); }
+const EXPSIGN=(()=>{ const e=new Array(12).fill(0); F.forEach(f=>{ for(let k=0;k<365;k++) e[DOY_SIGN[k]]+=f.p[k]; }); return e; })();
+let CARDBLOB=null;
+async function makeCard(){
+  const k=state.you, s=SIGNS[DOY_SIGN[k]], all=F.filter(f=>f.sign===s), bm=bestMatch(s);
+  const near=F.filter(f=>{ let d=Math.abs(f.doy-k); d=Math.min(d,365-d); return d<=3; }).sort((a,b)=>Math.abs(a.doy-k)-Math.abs(b.doy-k)||b.value-a.value)[0];
+  const famous=all.slice().sort((a,b)=>b.value-a.value).slice(0,3).map(f=>f.name);
+  const c=document.createElement("canvas"); c.width=1200; c.height=675; const g=c.getContext("2d");
+  await document.fonts.ready;
+  g.fillStyle="#0c0b09"; g.fillRect(0,0,1200,675);
+  g.fillStyle="rgba(239,229,207,.25)"; STARS.forEach(([x,y,z])=>g.fillRect(x*1200,y*675,z*1.5,z*1.5));
+  // zodiac wheel with your sign lit
+  const cx=930, cy=338, r1=150, r2=230; const st=doy(3,21);
+  SIGNS.forEach((sg,i)=>{ const a0=((doy(...STARTS[i])-st+365)%365)/365*TAU-Math.PI/2, a1=((doy(...STARTS[(i+1)%12])-st+365)%365)/365*TAU-Math.PI/2; const span=((a1-a0)+TAU)%TAU;
+    g.beginPath(); g.arc(cx,cy,r2,a0+0.01,a0+span-0.01); g.arc(cx,cy,r1,a0+span-0.01,a0+0.01,true); g.closePath(); g.fillStyle= sg===s ? "#e3b664" : (bm&&sg===bm.t ? "rgba(227,182,100,.38)" : "rgba(239,229,207,.08)"); g.fill();
+    const am=a0+span/2; g.fillStyle= sg===s ? "#16120b" : "#efe5cf"; g.font="30px 'Bodoni Moda', Georgia, serif"; g.textAlign="center"; g.textBaseline="middle"; g.fillText(GLYPH[sg],cx+Math.cos(am)*(r1+r2)/2,cy+Math.sin(am)*(r1+r2)/2); });
+  F.forEach(f=>{ const a=((f.doy-st+365)%365)/365*TAU-Math.PI/2; g.beginPath(); g.arc(cx+Math.cos(a)*(r1-16-Math.random()*40),cy+Math.sin(a)*(r1-16-Math.random()*40),f.ring==="giants"?2.6:1.6,0,TAU); g.fillStyle=f.sign===s?"#f3d394":"rgba(239,229,207,.28)"; g.fill(); });
+  g.textAlign="left"; g.textBaseline="alphabetic";
+  g.fillStyle="#e3b664"; g.font="600 20px 'Archivo Narrow', 'Arial Narrow', sans-serif"; g.fillText("FOUNDERS BY BIRTHDAY", 70, 92);
+  g.fillStyle="#efe5cf"; g.font="italic 500 92px 'Bodoni Moda', Georgia, serif"; g.fillText(`I'm a ${s}.`, 64, 205);
+  g.font="31px 'Newsreader', Georgia, serif"; g.fillStyle="#e4dac4";
+  const lines=[];
+  if(near){ const raw=((k-near.doy)%365+365)%365, after=raw<=182, dd=after?raw:365-raw; lines.push(dd===0 ? `Born the same day as ${near.name}.` : `Born ${dd===1?"a day":dd+" days"} ${after?"after":"before"} ${near.name}.`); }
+  lines.push(`${all.length} founders of the world's biggest companies share my sign.`);
+  if(famous.length) lines.push(`Among them: ${famous.join(", ")}.`);
+  if(bm) lines.push(`${s} founders team up most with: ${bm.t} ${GLYPH[bm.t]}`);
+  let y=282; lines.forEach(t=>{ y=wrapText(g,t,64,y,650,40)+54; });
+  g.fillStyle="#bdb19a"; g.font="22px 'Archivo Narrow', 'Arial Narrow', sans-serif"; g.fillText("THE STARS DON'T PICK FOUNDERS. LUCK DOES. FIND YOUR SIGN.", 64, 618);
+  const url=c.toDataURL("image/png"); CARDBLOB=await new Promise(r=>c.toBlob(r,"image/png"));
+  const tweet=`I'm a ${s}${near?(near.doy===k?`, born the same day as ${near.name}`:`, born within days of ${near.name}`):""}. ${all.length} founders of the world's biggest companies share my sign${bm?`, and ${s} founders team up most with ${bm.t}s`:""}. Turns out luck explains all of it.`;
+  const out=document.getElementById("cardOut"); out.hidden=false;
+  out.innerHTML=`<img src="${url}" alt="Your founder birthday card: ${esc(s)}"><div class="inline-actions"><button class="btn small" type="button" id="saveCard">Save image</button><button class="btn small line" type="button" id="copyTweet">Copy post text</button></div><p class="small" id="cardMsg">Or press and hold the image to save it.</p>`;
+  document.getElementById("copyTweet").onclick=async()=>{ const m=document.getElementById("cardMsg"); try{ await navigator.clipboard.writeText(tweet); m.textContent="Copied: "+tweet; }catch(e){ m.textContent=tweet; } };
+  document.getElementById("saveCard").onclick=saveCard;
+}
+function wrapText(g,t,x,y,maxW,lh){ const words=t.split(" "); let lineTxt=""; words.forEach(w=>{ const test=lineTxt?lineTxt+" "+w:w; if(g.measureText(test).width>maxW&&lineTxt){ g.fillText(lineTxt,x,y); lineTxt=w; y+=lh; } else lineTxt=test; }); g.fillText(lineTxt,x,y); return y; }
+async function saveCard(){ const m=document.getElementById("cardMsg"); if(!CARDBLOB) return;
+  const dl = window.claude&&window.claude.use ? await window.claude.use("downloads").catch(()=>null) : null;
+  if(dl){ try{ await dl.save({filename:"my-founder-sign.png", data:CARDBLOB}); m.textContent="Saved."; }catch(e){ m.textContent = e&&e.code==="declined" ? "Not saved." : "Saving isn't available here. Press and hold the image to save it."; } return; }
+  if(!window.claude){ const a=document.createElement("a"); a.href=URL.createObjectURL(CARDBLOB); a.download="my-founder-sign.png"; document.body.appendChild(a); a.click(); a.remove(); m.textContent="Saved to your downloads."; return; }
+  m.textContent="Saving isn't available here. Press and hold the image to save it."; }
+
+/* ======================================================================
+   SCROLL: each chapter sets the circle when it reaches the middle of the screen
+   ====================================================================== */
+let active=-1, hoverStep=null;
+function applyStep(i,force){ if(i===active&&!force) return; active=i; const b=steps[i], st=b.st||{};
+  document.querySelectorAll(".step").forEach(s=>s.classList.toggle("on",+s.dataset.i===i));
+  if(state.shuffled) restore();
+  state.mode=st.mode||null; state.pair=null; state.duo=null; state.colorBy=st.colorBy||null; state.tint=!!st.tint; state.links=!!st.links;
+  if(!state.pinned){ state.focus=null; card.hidden=true; }
+  state.show=st.show||"thriving"; document.querySelectorAll("#show button").forEach(x=>x.classList.toggle("on",x.dataset.show===state.show));
+  setLens(st.lens||"zodiac"); layout(); draw();
+  b.enter&&b.enter();
+}
+const io=new IntersectionObserver(es=>{ if(PLAY.on||hoverStep!=null) return; es.forEach(e=>{ if(e.isIntersecting) applyStep(+e.target.dataset.i); }); },{rootMargin:"-45% 0px -45% 0px"});
+document.querySelectorAll(".step").forEach(s=>{ io.observe(s); s.addEventListener("mouseenter",()=>{ if(PLAY.on) return; hoverStep=+s.dataset.i; applyStep(hoverStep); }); s.addEventListener("mouseleave",()=>{ hoverStep=null; }); });
+const goStep=i=>document.getElementById(steps[i].id).scrollIntoView({behavior:REDUCED?"auto":"smooth",block:window.innerWidth<=920?"start":"center"});
+document.getElementById("gotoYou").onclick=()=>goStep(steps.findIndex(s=>s.id==="you"));
+
+/* ======================================================================
+   PLAY THE STORY: each chapter in turn, with its own moves and a caption
+   ====================================================================== */
+const PLAY={on:false, i:0, paused:false, token:0, t0:0, left:0};
+const player=document.getElementById("player"), cap=document.getElementById("caption"), segs=document.getElementById("pSegs");
+const playable=steps.map((s,i)=>s.play?i:-1).filter(i=>i>=0);
+segs.innerHTML=playable.map(()=>"<span><i></i></span>").join("");
+const wait=ms=>new Promise((res,rej)=>{ const tok=PLAY.token; let left=ms, last=performance.now(); const iv=setInterval(()=>{ if(tok!==PLAY.token){ clearInterval(iv); return rej("stop"); } const now=performance.now(); if(!PLAY.paused) left-=now-last; last=now; if(left<=0){ clearInterval(iv); res(); } },50); });
+function caption(t){ cap.textContent=t; cap.hidden=!t; }
+async function runChapter(n){ const tok=++PLAY.token; PLAY.i=n; const i=playable[n], b=steps[i];
+  segs.querySelectorAll("span").forEach((s,k)=>{ s.classList.toggle("done",k<n); s.querySelector("i").style.width=k<n?"100%":"0"; });
+  document.getElementById("pTitle").textContent=b.title; goStep(i); await new Promise(r=>setTimeout(r,REDUCED?50:900)); if(tok!==PLAY.token) return;
+  applyStep(i,true); caption(b.play.caption);
+  const bar=segs.children[n].querySelector("i"); const D=b.play.dur; let el=0, last=performance.now();
+  const iv=setInterval(()=>{ if(tok!==PLAY.token){ clearInterval(iv); return; } const now=performance.now(); if(!PLAY.paused) el+=now-last; last=now; bar.style.width=Math.min(100,el/D*100)+"%"; if(el>=D){ clearInterval(iv); if(n+1<playable.length) runChapter(n+1); else stopPlay(true); } },60);
+  if(b.play.run) b.play.run().catch(()=>{});
+}
+function startPlay(){ PLAY.on=true; PLAY.paused=false; player.hidden=false; document.getElementById("play").textContent="■ Stop the story"; document.getElementById("pPause").textContent="❚❚"; runChapter(0); }
+function stopPlay(done){ PLAY.on=false; PLAY.token++; player.hidden=true; caption(""); document.getElementById("play").textContent="▶ Play the story"; if(done) goStep(steps.findIndex(s=>s.id==="you")); }
+document.getElementById("play").onclick=()=>PLAY.on?stopPlay():startPlay();
+document.getElementById("pStop").onclick=()=>stopPlay();
+document.getElementById("pPause").onclick=()=>{ PLAY.paused=!PLAY.paused; document.getElementById("pPause").textContent=PLAY.paused?"▶":"❚❚"; };
+document.getElementById("pNext").onclick=()=>{ if(PLAY.i+1<playable.length) runChapter(PLAY.i+1); };
+document.getElementById("pPrev").onclick=()=>runChapter(Math.max(0,PLAY.i-1));
+document.addEventListener("keydown",e=>{ if(["INPUT","SELECT","TEXTAREA"].includes(e.target.tagName)) return; if(PLAY.on){ if(e.key==="ArrowRight") document.getElementById("pNext").click(); if(e.key==="ArrowLeft") document.getElementById("pPrev").click(); if(e.key===" "){ e.preventDefault(); document.getElementById("pPause").click(); } } });
+
+/* ---------- start ---------- */
+steps.forEach(b=>b.wire&&b.wire());
+const startAt=steps.findIndex(s=>"#"+s.id===location.hash);
+resize(); applyStep(Math.max(0,startAt),true);
+if(startAt>=0) requestAnimationFrame(()=>document.getElementById(steps[startAt].id).scrollIntoView({block:window.innerWidth<=920?"start":"center",behavior:"instant"}));
+if(startAt<0 && !/[?&]still/.test(location.search)) intro();
+document.fonts && document.fonts.ready.then(()=>{ draw(); });
 })();
 </script>
-</body>
-</html>

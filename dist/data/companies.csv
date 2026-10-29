@@ -1,6 +1,6 @@
 name,ring,founded_year,value_usd_bn,value_kind,value_date,value_source,country,wikipedia,founders
 Datadog,big,2010,100.0,market cap,2026-10-29,https://companiesmarketcap.com/datadog/marketcap/,USA,https://en.wikipedia.org/wiki/Datadog,Olivier Pomel; Alexis Lê-Quôc
-Equinix,big,1998,99.4,market cap,2026-10-29,https://companiesmarketcap.com/equinix/marketcap/,USA,https://en.wikipedia.org/wiki/Equinix,Jay Adelson; Al Avery
+Equinix,big,1998,99.4,market cap,2026-10-29,https://companiesmarketcap.com/equinix/marketcap/,USA,https://en.wikipedia.org/wiki/Equinix,Al Avery; Jay Adelson
 Airbnb,big,2008,99.4,market cap,2026-10-29,https://companiesmarketcap.com/airbnb/marketcap/,USA,https://en.wikipedia.org/wiki/Airbnb,Brian Chesky; Joe Gebbia; Nathan Blecharczyk
 Adobe,big,1982,97.2,market cap,2026-10-29,https://companiesmarketcap.com/adobe/marketcap/,USA,https://en.wikipedia.org/wiki/Adobe_Inc.,John Warnock; Charles Geschke
 ASE Group,big,1984,97.0,market cap,2026-10-29,https://companiesmarketcap.com/ase-group/marketcap/,Taiwan,https://en.wikipedia.org/wiki/ASE_Group,Jason Chang
@@ -62,7 +62,7 @@ Nike,big,1964,55.2,market cap,2026-10-29,https://companiesmarketcap.com/nike/mar
 Meituan,big,2010,54.4,market cap,2026-10-29,https://companiesmarketcap.com/meituan-dianping/marketcap/,China,https://en.wikipedia.org/wiki/Meituan,Wang Xing
 Realty Income,big,1969,53.2,market cap,2026-10-29,https://companiesmarketcap.com/realty-income/marketcap/,USA,https://en.wikipedia.org/wiki/Realty_Income,"William E. Clark, Jr.; Evelyn J. Clark"
 Lukoil,big,1991,53.0,market cap,2026-10-29,https://companiesmarketcap.com/lukoil/marketcap/,Russia,https://en.wikipedia.org/wiki/Lukoil,Vagit Alekperov
-Cathay Financial Holding,big,1962,52.6,market cap,2026-10-29,https://companiesmarketcap.com/cathay-financial-holding/marketcap/,Taiwan,https://en.wikipedia.org/wiki/Cathay_United_Bank,Tsai Wan-lin
+Cathay Financial Holding,big,1962,52.6,market cap,2026-10-29,https://companiesmarketcap.com/cathay-financial-holding/marketcap/,Taiwan,https://en.wikipedia.org/wiki/Cathay_Life_Insurance,Tsai Wan-lin
 Garmin,big,1989,52.6,market cap,2026-10-29,https://companiesmarketcap.com/garmin/marketcap/,Switzerland,https://en.wikipedia.org/wiki/Garmin,Gary Burrell; Min Kao
 eBay,big,1995,52.5,market cap,2026-10-29,https://companiesmarketcap.com/ebay/marketcap/,USA,https://en.wikipedia.org/wiki/EBay,Pierre Omidyar
 Alimentation Couche-Tard,big,1980,52.4,market cap,2026-10-29,https://companiesmarketcap.com/alimentation-couche-tard/marketcap/,Canada,https://en.wikipedia.org/wiki/Couche-Tard,Alain Bouchard; Jacques D'Amours; Richard Fortin (businessman); Réal Plourde
@@ -142,11 +142,11 @@ JD.com,big,1998,34.4,market cap,2026-10-29,https://companiesmarketcap.com/jingdo
 Centene,big,1984,33.2,market cap,2026-10-29,https://companiesmarketcap.com/centene/marketcap/,USA,https://en.wikipedia.org/wiki/Centene_Corporation,Elizabeth Brinn
 Expedia Group,big,1996,33.1,market cap,2026-10-29,https://companiesmarketcap.com/expedia/marketcap/,USA,https://en.wikipedia.org/wiki/Expedia_Group,Rich Barton
 Z.AI,big,2019,33.1,market cap,2026-10-29,https://companiesmarketcap.com/z-ai/marketcap/,China,https://en.wikipedia.org/wiki/Z.ai,Jie Tang; Li Juanzi
-Eternal (Zomato),big,2008,32.9,market cap,2026-10-29,https://companiesmarketcap.com/eternal-zomato/marketcap/,India,https://en.wikipedia.org/wiki/Zomato,Deepinder Goyal; Pankaj Chaddah
+Eternal (Zomato),big,2008,32.9,market cap,2026-10-29,https://companiesmarketcap.com/eternal-zomato/marketcap/,India,https://en.wikipedia.org/wiki/Eternal_Limited,Deepinder Goyal; Pankaj Chaddah
 TKO Group Holdings,big,2023,32.9,market cap,2026-10-29,https://companiesmarketcap.com/tko-group/marketcap/,USA,https://en.wikipedia.org/wiki/TKO_Group_Holdings,Ari Emanuel; Vince McMahon
 Capitec Bank,big,2001,32.9,market cap,2026-10-29,https://companiesmarketcap.com/capitec-bank/marketcap/,South Africa,https://en.wikipedia.org/wiki/Capitec_Bank,Jannie Mouton; Michiel le Roux; Riaan Stassen
 Credo Technology,big,1985,32.6,market cap,2026-10-29,https://companiesmarketcap.com/credo-technology/marketcap/,USA,https://en.wikipedia.org/wiki/CREDO_Mobile,Peter Barnes (entrepreneur)
-AMEC,big,2004,32.6,market cap,2026-10-29,https://companiesmarketcap.com/amec/marketcap/,China,https://en.wikipedia.org/wiki/Amec_Foster_Wheeler,Gerald Yin
+AMEC,big,2004,32.6,market cap,2026-10-29,https://companiesmarketcap.com/amec/marketcap/,China,https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment,Gerald Yin
 Celltrion,big,2002,32.6,market cap,2026-10-29,https://companiesmarketcap.com/celltrion/marketcap/,S. Korea,https://en.wikipedia.org/wiki/Celltrion,Seo Jung-jin (businessman)
 Mindray,big,1991,32.5,market cap,2026-10-29,https://companiesmarketcap.com/mindray/marketcap/,China,https://en.wikipedia.org/wiki/Mindray,Li Xiting; Xu Hang; Cheng Minghe
 JSW Steel,big,1982,32.3,market cap,2026-10-29,https://companiesmarketcap.com/jsw-steel/marketcap/,India,https://en.wikipedia.org/wiki/JSW_Steel,Sajjan Jindal
@@ -206,7 +206,7 @@ S.F. Express,big,1993,24.6,market cap,2026-10-29,https://companiesmarketcap.com/
 Kering,big,1962,24.6,market cap,2026-10-29,https://companiesmarketcap.com/kering/marketcap/,France,https://en.wikipedia.org/wiki/Kering,François Pinault
 Guardant Health,big,2012,24.5,market cap,2026-10-29,https://companiesmarketcap.com/guardant-health/marketcap/,USA,https://en.wikipedia.org/wiki/Guardant_Health,Helmy Eltoukhy; AmirAli Talasaz
 Darden Restaurants,big,1968,24.5,market cap,2026-10-29,https://companiesmarketcap.com/darden-restaurants/marketcap/,USA,https://en.wikipedia.org/wiki/Darden_Restaurants,William Darden
-Trip.com,big,1999,24.3,market cap,2026-10-29,https://companiesmarketcap.com/trip-dot-com/marketcap/,China,https://en.wikipedia.org/wiki/Trip.com,James Liang; Neil Shen
+Trip.com,big,1999,24.3,market cap,2026-10-29,https://companiesmarketcap.com/trip-dot-com/marketcap/,China,https://en.wikipedia.org/wiki/Trip.com_Group,James Liang; Neil Shen
 Mistral AI,big,2023,24.0,last private valuation,2026-10-28,https://news.crunchbase.com/unicorn-company-list/,France,https://en.wikipedia.org/wiki/Mistral_AI,Arthur Mensch; Guillaume Lample; Timothée Lacroix
 FNZ,big,2003,24.0,last private valuation,2026-10-28,https://news.crunchbase.com/unicorn-company-list/,United Kingdom,https://en.wikipedia.org/wiki/FNZ_(company),Adrian Durham
 Fox Corporation,big,2019,23.8,market cap,2026-10-29,https://companiesmarketcap.com/fox-corporation/marketcap/,USA,https://en.wikipedia.org/wiki/Fox_Corporation,Rupert Murdoch
@@ -295,7 +295,7 @@ Alphabet (Google),giants,1998,3936.7,market cap,2026-10-29,https://companiesmark
 Amazon,giants,1994,2746.2,market cap,2026-10-29,https://companiesmarketcap.com/amazon/marketcap/,USA,https://en.wikipedia.org/wiki/Amazon_(company),Jeff Bezos
 TSMC,giants,1987,2279.5,market cap,2026-10-29,https://companiesmarketcap.com/tsmc/marketcap/,Taiwan,https://en.wikipedia.org/wiki/TSMC,Morris Chang
 SpaceX,giants,2002,1972.4,market cap,2026-10-29,https://companiesmarketcap.com/spacex/marketcap/,USA,https://en.wikipedia.org/wiki/SpaceX,Elon Musk
-Tesla,giants,2003,1597.8,market cap,2026-10-29,https://companiesmarketcap.com/tesla/marketcap/,USA,"https://en.wikipedia.org/wiki/Tesla,_Inc.",Martin Eberhard; Marc Tarpenning
+Tesla,giants,2003,1597.8,market cap,2026-10-29,https://companiesmarketcap.com/tesla/marketcap/,USA,"https://en.wikipedia.org/wiki/Tesla,_Inc.",Martin Eberhard; Marc Tarpenning; Elon Musk; JB Straubel; Ian Wright
 Meta Platforms (Facebook),giants,2004,1594.2,market cap,2026-10-29,https://companiesmarketcap.com/meta-platforms/marketcap/,USA,https://en.wikipedia.org/wiki/Meta_Platforms,Mark Zuckerberg; Eduardo Saverin; Dustin Moskovitz; Andrew McCollum; Chris Hughes
 Micron Technology,giants,1978,1112.4,market cap,2026-10-29,https://companiesmarketcap.com/micron-technology/marketcap/,USA,https://en.wikipedia.org/wiki/Micron_Technology,Ward Parkinson; Joe Parkinson; Dennis Wilson; Doug Pitman
 Anthropic,giants,2021,965.0,last private valuation,2026-10-28,https://news.crunchbase.com/unicorn-company-list/,United States,https://en.wikipedia.org/wiki/Anthropic,Dario Amodei; Daniela Amodei; Jared Kaplan; Chris Olah
@@ -307,7 +307,7 @@ Tether,giants,2014,500.0,last private valuation,2026-10-23,https://multiples.vc/
 ByteDance,giants,2012,480.0,last private valuation,2026-10-28,https://news.crunchbase.com/unicorn-company-list/,China,https://en.wikipedia.org/wiki/ByteDance,Zhang Yiming
 Palantir,giants,2003,472.9,market cap,2026-10-29,https://companiesmarketcap.com/palantir/marketcap/,USA,https://en.wikipedia.org/wiki/Palantir,Peter Thiel; Stephen Cohen (entrepreneur); Alex Karp; Joe Lonsdale; Nathan Gettings
 CXMT,giants,2016,454.8,market cap,2026-10-29,https://companiesmarketcap.com/cxmt/marketcap/,China,https://en.wikipedia.org/wiki/ChangXin_Memory_Technologies,Zhu Yiming
-Tencent,giants,1998,443.8,market cap,2026-10-29,https://companiesmarketcap.com/tencent/marketcap/,China,https://en.wikipedia.org/wiki/Tencent_Games,Pony Ma; Tony Zhang; Xu Chenye; Chen Yidan; Zeng Liqing
+Tencent,giants,1998,443.8,market cap,2026-10-29,https://companiesmarketcap.com/tencent/marketcap/,China,https://en.wikipedia.org/wiki/Tencent,Pony Ma; Tony Zhang; Xu Chenye; Chen Yidan; Zeng Liqing
 Oracle,giants,1977,438.2,market cap,2026-10-29,https://companiesmarketcap.com/oracle/marketcap/,USA,https://en.wikipedia.org/wiki/Oracle_Corporation,Larry Ellison; Bob Miner; Ed Oates
 Costco,giants,1983,435.5,market cap,2026-10-29,https://companiesmarketcap.com/costco/marketcap/,USA,https://en.wikipedia.org/wiki/Costco,James Sinegal; Jeffrey Brotman
 Cisco,giants,1984,434.8,market cap,2026-10-29,https://companiesmarketcap.com/cisco/marketcap/,USA,https://en.wikipedia.org/wiki/Cisco,Leonard Bosack; Sandy Lerner
@@ -316,7 +316,7 @@ Applied Materials,giants,1967,330.1,market cap,2026-10-29,https://companiesmarke
 Palo Alto Networks,giants,2005,322.7,market cap,2026-10-29,https://companiesmarketcap.com/palo-alto-networks/marketcap/,USA,https://en.wikipedia.org/wiki/Palo_Alto_Networks,Nir Zuk; Rajiv Batra
 Lam Research,giants,1980,317.6,market cap,2026-10-29,https://companiesmarketcap.com/lam-research/marketcap/,USA,https://en.wikipedia.org/wiki/Lam_Research,David K. Lam
 Home Depot,giants,1978,316.8,market cap,2026-10-29,https://companiesmarketcap.com/home-depot/marketcap/,USA,https://en.wikipedia.org/wiki/Home_Depot,Bernard Marcus; Arthur Blank; Ron Brill; Pat Farrah; Ken Langone
-Dell,giants,1984,314.0,market cap,2026-10-29,https://companiesmarketcap.com/dell/marketcap/,USA,https://en.wikipedia.org/wiki/Dell,Michael Dell
+Dell,giants,2016,314.0,market cap,2026-10-29,https://companiesmarketcap.com/dell/marketcap/,USA,https://en.wikipedia.org/wiki/Dell_Technologies,Michael Dell
 SAP,giants,1972,273.5,market cap,2026-10-29,https://companiesmarketcap.com/sap/marketcap/,Germany,https://en.wikipedia.org/wiki/SAP,Dietmar Hopp; Hans-Werner Hector; Hasso Plattner; Klaus Tschira; Claus Wellenreuther
 CrowdStrike,giants,2011,273.0,market cap,2026-10-29,https://companiesmarketcap.com/crowdstrike/marketcap/,USA,https://en.wikipedia.org/wiki/CrowdStrike,George Kurtz; Dmitri Alperovitch; Gregg Marston
 Netflix,giants,1997,258.1,market cap,2026-10-29,https://companiesmarketcap.com/netflix/marketcap/,USA,"https://en.wikipedia.org/wiki/Netflix,_Inc.",Reed Hastings; Marc Randolph
@@ -362,7 +362,7 @@ Starbucks,giants,1971,117.6,market cap,2026-10-29,https://companiesmarketcap.com
 Keyence,giants,1974,117.2,market cap,2026-10-29,https://companiesmarketcap.com/keyence/marketcap/,Japan,https://en.wikipedia.org/wiki/Keyence,Takemitsu Takizaki
 CVS Health,giants,1963,115.0,market cap,2026-10-29,https://companiesmarketcap.com/cvs-health/marketcap/,USA,https://en.wikipedia.org/wiki/CVS_Health,Stanley P. Goldstein; Sidney Goldstein; Ralph P. Hoagland III
 Revolut,giants,2015,115.0,last private valuation,2026-10-28,https://news.crunchbase.com/unicorn-company-list/,United Kingdom,https://en.wikipedia.org/wiki/Revolut,Nik Storonsky; Vlad Yatsenko
-Booking Holdings (Booking.com),giants,1996,114.6,market cap,2026-10-29,https://companiesmarketcap.com/booking-holdings/marketcap/,USA,https://en.wikipedia.org/wiki/Booking.com,Jay S. Walker
+Booking Holdings (Booking.com),giants,1996,114.6,market cap,2026-10-29,https://companiesmarketcap.com/booking-holdings/marketcap/,USA,https://en.wikipedia.org/wiki/Booking_Holdings,Jay S. Walker
 Cloudflare,giants,2009,113.5,market cap,2026-10-29,https://companiesmarketcap.com/cloudflare/marketcap/,USA,https://en.wikipedia.org/wiki/Cloudflare,Matthew Prince; Lee Holloway; Michelle Zatlyn
 BYD,giants,1995,112.7,market cap,2026-10-29,https://companiesmarketcap.com/byd/marketcap/,China,https://en.wikipedia.org/wiki/BYD_Company,Wang Chuanfu; Lu Xiangyang
 Spotify,giants,2006,110.7,market cap,2026-10-29,https://companiesmarketcap.com/spotify/marketcap/,Sweden,https://en.wikipedia.org/wiki/Spotify,Daniel Ek; Martin Lorentzon

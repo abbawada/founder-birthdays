@@ -1,39 +1,63 @@
-# Founders by birthday: demo narration
+# Founders by Birthday: video script
 
-Read over the page with Play the story (9 s per chapter) or step through with the arrow keys. Each block is one chapter; the bold line is the beat to land on while the ring changes.
+## Post
 
-## 00 Open (hero)
-My birthday is the day after Steve Jobs'. I've always liked that. So I asked a dumb question properly: do the people who built the world's biggest companies cluster by birthday? **336 founders of 370 companies, each one a dot on the day they were born.**
+**Title:** Helping you decide when to have your kid
 
-## 01 The ring
-Giants are the bright gold dots, companies worth a hundred billion or more. Blue is the next ring, twenty to a hundred billion. Red is the fallen: companies that hit a billion and then collapsed. **Around the rim, every sign shows its count against the shaded band of what chance would produce.** And chance here isn't flat: each founder's expected birthday follows the birth statistics of their own country in their own year.
+**Post text:** I put 338 founders of the world's biggest companies on the day they were born and tested every astrology claim against luck. Signs, cofounder matches, breakups, even school birthdays. Find your sign:
 
-## 02 The tallest bar
-Your eye goes straight to the peak. Right now that's Libra: 36 founders against 26 expected. Looks like something. **Now watch: shuffle the universe.** Same founders, random birthdays. The tallest bar moves, and it's about as tall. Chance produced a peak at least this big in 38% of ten thousand shuffles.
+Record the page with Play the story running (about 2 minutes 15 seconds). Read each block while its chapter is on screen; bold is the beat to land as the circle moves.
 
-## 03 Elements and modalities
-Twelve bins spread people thin, so astrology's own groupings get a turn: four elements, three modalities. **Water leads the elements at 1.13 times expected; chance beats it 49% of the time.** Same story for the modalities.
+## Open
 
-## 04 Cofounders
-Fire with Air, Earth with Water. If compatible signs built companies together, cofounder pairs should match more often than random pairs of the same people. **51% of 178 pairs are compatible. Deal the same founders into random teams ten thousand times: 50%.**
+My birthday is the day after Steve Jobs. So I asked a silly question and did it properly: **do the stars pick founders?**
 
-## 05 Sign by sign
-This is the question people actually ask me. Pisces with Leo. Pisces with Cancer. **Every cofounder pair sits in one cell; hover one and the ring lights up those pairs.** 178 pairs across 78 cells means most cells hold a handful of companies. It's a map for curiosity, not a verdict, and the page says so.
+## I. Every founder, on their birthday · 10 s
 
-## 06 The school year
-There is one documented way a birth window changes a life: school cutoffs. Kids born just after the cutoff are the oldest in class for a decade. A 2012 study found it in S&P 500 CEOs; a bigger 2022 study didn't. **Flip the ring to the school year. Founders average 5.5 months older than their youngest classmate; chance says 5.5.** Nothing.
+Every dot is a founder of one of the world's most valuable companies, on the day they were born. 338 of them. The bars count founders per sign, and **the gold tick is what luck alone would give.**
 
-## 07 The fallen
-If the stars make founders, maybe they unmake them. The red dots: 21 founders of companies that reached a billion and then went bankrupt, shut down, or ended in a fraud conviction. **Their sign mix against the thriving founders: shuffling the 'fallen' label ten thousand times produced a gap this big 71% of the time.**
+## II. Libra leads. That's luck. · 13 s
 
-## 08 Breakups
-The documented splits: ousters, lawsuits, public feuds between cofounders. **50% of the pairs that broke up were 'compatible' by element. 51% of the pairs that stayed.** Astrology did not see the breakup coming.
+Libra has the most: 36 founders, where luck gives 26. Looks like a signal. **Now watch random birthdays.** Every shuffle crowns a new winner. A lead like Libra's shows up 41% of the time by luck.
 
-## 09 Moon and rising
-Sun signs are what birthdays give you for free. The Moon needs the clock and the Rising sign needs it to the hour. **The Moon is computed for everyone; a Rising sign exists only for the founders whose birth time is on record.** Hover Jobs: Pisces Sun, Aries Moon, Virgo rising, from his birth certificate.
+## III. Fire, earth, air, water · 9 s
 
-## 10 Find yourself
-Type a birthday. **It defaults to February 25th, mine.** You get your wedge, how many founders share it against how many chance expects, and everyone born within three days of you.
+Grouped into elements, water signs lead with 90 against 80. **Random birthdays do that well half the time.**
 
-## 11 How we counted
-Every birthday has a source link. Nothing was filled from memory. The hypotheses were written and committed before the first date was pulled; anything added later says 'exploratory'. **The answer is the honest one: founders are born on every day of the year, in exactly the proportions you'd expect.** The code and the data are open.
+## IV. Who should you start a company with? · 15 s
+
+This is the one people actually ask. Astrology says fire gets on with air, earth with water. **50% of real cofounder pairs are a match. Random teams: 50%.** Jobs and Wozniak? Not a match. Gates and Allen? Not a match, and they fell out.
+
+## V. The match chart · 16 s
+
+Find your sign, read across. Every square is a pair of signs. **Click one and you meet the cofounders.** Pisces and Leo: Jobs and Wozniak. Switch to compared with luck and the gold squares are combos that show up more than random teams would make. Small numbers, great stories.
+
+## VI. Your sign's cofounders · 11 s
+
+Pick your sign. **If you're a Sagittarius, here are the founders like you, and who they built with.**
+
+## VII. Do mismatched signs split up? · 11 s
+
+13 cofounder pairs in the list split. **69% of them were a match, against 49% of pairs that stayed.** If anything, matches split more. Elon Musk, a Cancer, is in 4 of those splits.
+
+## VIII. Does failure have a sign? · 9 s
+
+Red: 21 founders whose billion-dollar companies collapsed. **Their signs look like everyone else's.**
+
+## IX. The one birthday effect science takes seriously · 12 s
+
+In sports, the oldest kids in class get picked first. Does that make founders? **Oldest third of the class: 32%. Luck: 33%.** So, when should you have your kid? Whenever you like.
+
+## X. Do signs pick industries? · 9 s
+
+Colored by industry. **No sign owns one.** The strongest lean is luck 96% of the time.
+
+## XI. The Moon and rising signs · 8 s
+
+Moon signs: no pattern. Rising signs need a birth time, and only a handful of founders have one on record.
+
+## XII. Where do you land? · 12 s
+
+Now you. **Type your birthday, make your card, and post your sign.** Mine says Pisces, a day after Steve Jobs. The stars don't pick founders. Luck does.
+
+Total about 2 min 15 s.

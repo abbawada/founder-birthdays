@@ -120,6 +120,30 @@
   "source": "wikipedia infobox"
  },
  {
+  "company": "Tesla",
+  "company_qid": "Q478214",
+  "founder_qid": "Q317521",
+  "founder_name": "Elon Musk",
+  "wp_title": "Elon Musk",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Tesla",
+  "company_qid": "Q478214",
+  "founder_qid": "Q6107808",
+  "founder_name": "JB Straubel",
+  "wp_title": "J. B. Straubel",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Tesla",
+  "company_qid": "Q478214",
+  "founder_qid": null,
+  "founder_name": "Ian Wright",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
   "company": "Meta Platforms (Facebook)",
   "company_qid": "Q380",
   "founder_qid": "Q36215",
@@ -305,7 +329,7 @@
  },
  {
   "company": "Tencent",
-  "company_qid": "Q39057776",
+  "company_qid": "Q860580",
   "founder_qid": "Q1739008",
   "founder_name": "Pony Ma",
   "wp_title": "Pony Ma",
@@ -313,7 +337,7 @@
  },
  {
   "company": "Tencent",
-  "company_qid": "Q39057776",
+  "company_qid": "Q860580",
   "founder_qid": "Q15934341",
   "founder_name": "Tony Zhang",
   "wp_title": "Tony Zhang",
@@ -321,7 +345,7 @@
  },
  {
   "company": "Tencent",
-  "company_qid": "Q39057776",
+  "company_qid": "Q860580",
   "founder_qid": null,
   "founder_name": "Xu Chenye",
   "wp_title": null,
@@ -329,7 +353,7 @@
  },
  {
   "company": "Tencent",
-  "company_qid": "Q39057776",
+  "company_qid": "Q860580",
   "founder_qid": "Q20689208",
   "founder_name": "Chen Yidan",
   "wp_title": "Chen Yidan",
@@ -337,11 +361,19 @@
  },
  {
   "company": "Tencent",
-  "company_qid": "Q39057776",
-  "founder_qid": null,
+  "company_qid": "Q860580",
+  "founder_qid": "Q18653685",
   "founder_name": "Zeng Liqing",
   "wp_title": null,
-  "source": "wikipedia infobox (no article)"
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Tencent",
+  "company_qid": "Q860580",
+  "founder_qid": "Q18659347",
+  "founder_name": "Daniel Xu",
+  "wp_title": null,
+  "source": "wikidata P112"
  },
  {
   "company": "Oracle",
@@ -473,7 +505,7 @@
  },
  {
   "company": "Dell",
-  "company_qid": "Q30873",
+  "company_qid": "Q27500963",
   "founder_qid": "Q218630",
   "founder_name": "Michael Dell",
   "wp_title": "Michael Dell",
@@ -1097,7 +1129,7 @@
  },
  {
   "company": "Booking Holdings (Booking.com)",
-  "company_qid": "Q4035313",
+  "company_qid": "Q18674747",
   "founder_qid": "Q6167147",
   "founder_name": "Jay S. Walker",
   "wp_title": "Jay S. Walker",
@@ -1226,18 +1258,18 @@
  {
   "company": "Equinix",
   "company_qid": "Q851641",
-  "founder_qid": "Q6166316",
-  "founder_name": "Jay Adelson",
-  "wp_title": "Jay Adelson",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Equinix",
-  "company_qid": "Q851641",
   "founder_qid": null,
   "founder_name": "Al Avery",
   "wp_title": null,
   "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Equinix",
+  "company_qid": "Q851641",
+  "founder_qid": "Q6166316",
+  "founder_name": "Jay Adelson",
+  "wp_title": "Jay Adelson",
+  "source": "wikipedia infobox"
  },
  {
   "company": "Airbnb",
@@ -2073,11 +2105,19 @@
  },
  {
   "company": "Cathay Financial Holding",
-  "company_qid": "Q702656",
+  "company_qid": "Q9686837",
   "founder_qid": "Q563379",
   "founder_name": "Tsai Wan-lin",
   "wp_title": "Tsai Wan-lin",
   "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cathay Financial Holding",
+  "company_qid": "Q9686837",
+  "founder_qid": "Q15935260",
+  "founder_name": "Tsai Wan-chun",
+  "wp_title": null,
+  "source": "wikidata P112"
  },
  {
   "company": "Garmin",
@@ -3201,7 +3241,7 @@
  },
  {
   "company": "Eternal (Zomato)",
-  "company_qid": "Q8073715",
+  "company_qid": "Q134038549",
   "founder_qid": null,
   "founder_name": "Pankaj Chaddah",
   "wp_title": null,
@@ -3257,7 +3297,7 @@
  },
  {
   "company": "AMEC",
-  "company_qid": "Q295118",
+  "company_qid": "Q104839222",
   "founder_qid": null,
   "founder_name": "Gerald Yin",
   "wp_title": null,
@@ -3318,6 +3358,14 @@
   "founder_name": "Kenneth Woolley",
   "wp_title": null,
   "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Extra Space Storage",
+  "company_qid": "Q5422162",
+  "founder_qid": "Q141878279",
+  "founder_name": "Kenneth M. Woolley",
+  "wp_title": null,
+  "source": "wikidata P112"
  },
  {
   "company": "MongoDB",
@@ -4097,7 +4145,7 @@
  },
  {
   "company": "Trip.com",
-  "company_qid": "Q18345164",
+  "company_qid": "Q5191790",
   "founder_qid": "Q27947568",
   "founder_name": "James Liang",
   "wp_title": "James Liang",
@@ -4105,7 +4153,7 @@
  },
  {
   "company": "Trip.com",
-  "company_qid": "Q18345164",
+  "company_qid": "Q5191790",
   "founder_qid": "Q23418611",
   "founder_name": "Neil Shen",
   "wp_title": "Neil Shen",

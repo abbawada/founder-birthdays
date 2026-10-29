@@ -134,6 +134,16 @@
   "sun_longitude": 71.32,
   "tz_assumed": -8
  },
+ "Q6107808": {
+  "moon": [
+   "Scorpio",
+   "Sagittarius"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Sagittarius",
+  "sun_longitude": 268.66,
+  "tz_assumed": -6
+ },
  "Q36215": {
   "moon": [
    "Scorpio"
@@ -1559,6 +1569,16 @@
   "sun_tropical": "Scorpio",
   "sun_longitude": 227.49,
   "tz_assumed": 8
+ },
+ "Q15935260": {
+  "moon": [
+   "Libra",
+   "Scorpio"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Sagittarius",
+  "sun_longitude": 268.3,
+  "tz_assumed": 0
  },
  "Q5524792": {
   "moon": [

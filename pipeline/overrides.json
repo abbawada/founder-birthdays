@@ -2872,5 +2872,15 @@
    "Brock Pierce"
   ],
   "refuted_note": "In the 'Tether Limited' infobox all three founders are wikilinked, but 'Reeve Collins' and 'Craig Sellars' are red links: the MediaWiki API returns missing: true for both titles, so neither is an exac"
+ },
+ "Tesla": {
+  "founders": [
+   "Martin Eberhard",
+   "Marc Tarpenning",
+   "Elon Musk",
+   "JB Straubel",
+   "Ian Wright"
+  ],
+  "note": "Wikipedia, Tesla, Inc. (Founding section): 'A lawsuit settlement agreed to by Eberhard and Tesla in September 2009 allows all five – Eberhard, Tarpenning, Wright, Musk, and Straubel – to call themselves co-founders.' The infobox lists only the two who incorporated it."
  }
 }
