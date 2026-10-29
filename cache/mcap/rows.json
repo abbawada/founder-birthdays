@@ -1,0 +1,10406 @@
+{
+"fetched": "2026-10-29",
+"source": "https://companiesmarketcap.com/ pages 1-13",
+"rows": [
+{
+"rank": 1,
+"name": "NVIDIA",
+"ticker": "NVDA",
+"slug": "nvidia",
+"cap": 5200780722176,
+"country": "USA"
+},
+{
+"rank": 2,
+"name": "Apple",
+"ticker": "AAPL",
+"slug": "apple",
+"cap": 5017916932096,
+"country": "USA"
+},
+{
+"rank": 3,
+"name": "Microsoft",
+"ticker": "MSFT",
+"slug": "microsoft",
+"cap": 3943039238144,
+"country": "USA"
+},
+{
+"rank": 4,
+"name": "Alphabet (Google)",
+"ticker": "GOOG",
+"slug": "alphabet-google",
+"cap": 3936694042624,
+"country": "USA"
+},
+{
+"rank": 5,
+"name": "Amazon",
+"ticker": "AMZN",
+"slug": "amazon",
+"cap": 2746195378176,
+"country": "USA"
+},
+{
+"rank": 6,
+"name": "TSMC",
+"ticker": "TSM",
+"slug": "tsmc",
+"cap": 2279507230720,
+"country": "Taiwan"
+},
+{
+"rank": 7,
+"name": "SpaceX",
+"ticker": "SPCX",
+"slug": "spacex",
+"cap": 1972377878528,
+"country": "USA"
+},
+{
+"rank": 8,
+"name": "Broadcom",
+"ticker": "AVGO",
+"slug": "broadcom",
+"cap": 1679410724864,
+"country": "USA"
+},
+{
+"rank": 9,
+"name": "Saudi Aramco",
+"ticker": "2222.SR",
+"slug": "saudi-aramco",
+"cap": 1674242407523,
+"country": "S. Arabia"
+},
+{
+"rank": 10,
+"name": "Tesla",
+"ticker": "TSLA",
+"slug": "tesla",
+"cap": 1597772529664,
+"country": "USA"
+},
+{
+"rank": 11,
+"name": "Meta Platforms (Facebook)",
+"ticker": "META",
+"slug": "meta-platforms",
+"cap": 1594209206272,
+"country": "USA"
+},
+{
+"rank": 12,
+"name": "Berkshire Hathaway",
+"ticker": "BRK-B",
+"slug": "berkshire-hathaway",
+"cap": 1156711186432,
+"country": "USA"
+},
+{
+"rank": 13,
+"name": "Eli Lilly",
+"ticker": "LLY",
+"slug": "eli-lilly",
+"cap": 1148335292416,
+"country": "USA"
+},
+{
+"rank": 14,
+"name": "Samsung",
+"ticker": "005930.KS",
+"slug": "samsung",
+"cap": 1140045849941,
+"country": "S. Korea"
+},
+{
+"rank": 15,
+"name": "Micron Technology",
+"ticker": "MU",
+"slug": "micron-technology",
+"cap": 1112449220608,
+"country": "USA"
+},
+{
+"rank": 16,
+"name": "AMD",
+"ticker": "AMD",
+"slug": "amd",
+"cap": 944288825344,
+"country": "USA"
+},
+{
+"rank": 17,
+"name": "Walmart",
+"ticker": "WMT",
+"slug": "walmart",
+"cap": 942291025920,
+"country": "USA"
+},
+{
+"rank": 18,
+"name": "JPMorgan Chase",
+"ticker": "JPM",
+"slug": "jp-morgan-chase",
+"cap": 901045092352,
+"country": "USA"
+},
+{
+"rank": 19,
+"name": "SK Hynix",
+"ticker": "000660.KS",
+"slug": "sk-hynix",
+"cap": 812036414547,
+"country": "S. Korea"
+},
+{
+"rank": 20,
+"name": "Visa",
+"ticker": "V",
+"slug": "visa",
+"cap": 752068526080,
+"country": "USA"
+},
+{
+"rank": 21,
+"name": "Exxon Mobil",
+"ticker": "XOM",
+"slug": "exxon-mobil",
+"cap": 748450217984,
+"country": "USA"
+},
+{
+"rank": 22,
+"name": "Johnson & Johnson",
+"ticker": "JNJ",
+"slug": "johnson-and-johnson",
+"cap": 652477399040,
+"country": "USA"
+},
+{
+"rank": 23,
+"name": "ASML",
+"ticker": "ASML",
+"slug": "asml",
+"cap": 640891879424,
+"country": "Netherlands"
+},
+{
+"rank": 24,
+"name": "Mastercard",
+"ticker": "MA",
+"slug": "mastercard",
+"cap": 534637608960,
+"country": "USA"
+},
+{
+"rank": 25,
+"name": "AbbVie",
+"ticker": "ABBV",
+"slug": "abbvie",
+"cap": 505377849344,
+"country": "USA"
+},
+{
+"rank": 26,
+"name": "Intel",
+"ticker": "INTC",
+"slug": "intel",
+"cap": 504981618688,
+"country": "USA"
+},
+{
+"rank": 27,
+"name": "Palantir",
+"ticker": "PLTR",
+"slug": "palantir",
+"cap": 472945917952,
+"country": "USA"
+},
+{
+"rank": 28,
+"name": "China Construction Bank",
+"ticker": "601939.SS",
+"slug": "china-construction-bank",
+"cap": 471874601002,
+"country": "China"
+},
+{
+"rank": 29,
+"name": "CXMT",
+"ticker": "688825.SS",
+"slug": "cxmt",
+"cap": 454821350518,
+"country": "China"
+},
+{
+"rank": 30,
+"name": "Chevron",
+"ticker": "CVX",
+"slug": "chevron",
+"cap": 449599471616,
+"country": "USA"
+},
+{
+"rank": 31,
+"name": "Tencent",
+"ticker": "TCEHY",
+"slug": "tencent",
+"cap": 443791290000,
+"country": "China"
+},
+{
+"rank": 32,
+"name": "Oracle",
+"ticker": "ORCL",
+"slug": "oracle",
+"cap": 438173138944,
+"country": "USA"
+},
+{
+"rank": 33,
+"name": "Costco",
+"ticker": "COST",
+"slug": "costco",
+"cap": 435476496384,
+"country": "USA"
+},
+{
+"rank": 34,
+"name": "Cisco",
+"ticker": "CSCO",
+"slug": "cisco",
+"cap": 434827919360,
+"country": "USA"
+},
+{
+"rank": 35,
+"name": "Agricultural Bank of China",
+"ticker": "601288.SS",
+"slug": "agricultural-bank-of-china",
+"cap": 396397173377,
+"country": "China"
+},
+{
+"rank": 36,
+"name": "Coca-Cola",
+"ticker": "KO",
+"slug": "coca-cola",
+"cap": 394581114880,
+"country": "USA"
+},
+{
+"rank": 37,
+"name": "Roche",
+"ticker": "RO.SW",
+"slug": "roche",
+"cap": 394144765734,
+"country": "Switzerland"
+},
+{
+"rank": 38,
+"name": "Procter & Gamble",
+"ticker": "PG",
+"slug": "procter-and-gamble",
+"cap": 366812332032,
+"country": "USA"
+},
+{
+"rank": 39,
+"name": "UnitedHealth",
+"ticker": "UNH",
+"slug": "united-health",
+"cap": 365410844672,
+"country": "USA"
+},
+{
+"rank": 40,
+"name": "ICBC",
+"ticker": "1398.HK",
+"slug": "icbc",
+"cap": 353417664116,
+"country": "China"
+},
+{
+"rank": 41,
+"name": "Bank of America",
+"ticker": "BAC",
+"slug": "bank-of-america",
+"cap": 352019054592,
+"country": "USA"
+},
+{
+"rank": 42,
+"name": "Merck",
+"ticker": "MRK",
+"slug": "merck",
+"cap": 347698462720,
+"country": "USA"
+},
+{
+"rank": 43,
+"name": "Bank of China",
+"ticker": "601988.SS",
+"slug": "bank-of-china",
+"cap": 345634441074,
+"country": "China"
+},
+{
+"rank": 44,
+"name": "Applied Materials",
+"ticker": "AMAT",
+"slug": "applied-materials",
+"cap": 330136551424,
+"country": "USA"
+},
+{
+"rank": 45,
+"name": "Caterpillar",
+"ticker": "CAT",
+"slug": "caterpillar",
+"cap": 327922876416,
+"country": "USA"
+},
+{
+"rank": 46,
+"name": "Palo Alto Networks",
+"ticker": "PANW",
+"slug": "palo-alto-networks",
+"cap": 322692808704,
+"country": "USA"
+},
+{
+"rank": 47,
+"name": "Lam Research",
+"ticker": "LRCX",
+"slug": "lam-research",
+"cap": 317636542464,
+"country": "USA"
+},
+{
+"rank": 48,
+"name": "Home Depot",
+"ticker": "HD",
+"slug": "home-depot",
+"cap": 316826320896,
+"country": "USA"
+},
+{
+"rank": 49,
+"name": "Philip Morris International",
+"ticker": "PM",
+"slug": "philip-morris",
+"cap": 315837415424,
+"country": "USA"
+},
+{
+"rank": 50,
+"name": "Dell",
+"ticker": "DELL",
+"slug": "dell",
+"cap": 313957974016,
+"country": "USA"
+},
+{
+"rank": 51,
+"name": "General Electric",
+"ticker": "GE",
+"slug": "general-electric",
+"cap": 312441208832,
+"country": "USA"
+},
+{
+"rank": 52,
+"name": "Shell",
+"ticker": "SHEL",
+"slug": "shell",
+"cap": 298724163584,
+"country": "UK"
+},
+{
+"rank": 53,
+"name": "Morgan Stanley",
+"ticker": "MS",
+"slug": "morgan-stanley",
+"cap": 297553461248,
+"country": "USA"
+},
+{
+"rank": 54,
+"name": "HSBC",
+"ticker": "HSBC",
+"slug": "hsbc",
+"cap": 295384449024,
+"country": "UK"
+},
+{
+"rank": 55,
+"name": "Novartis",
+"ticker": "NVS",
+"slug": "novartis",
+"cap": 294776373248,
+"country": "Switzerland"
+},
+{
+"rank": 56,
+"name": "Royal Bank Of Canada",
+"ticker": "RY",
+"slug": "royal-bank-of-canada",
+"cap": 283489697792,
+"country": "Canada"
+},
+{
+"rank": 57,
+"name": "Texas Instruments",
+"ticker": "TXN",
+"slug": "texas-instruments",
+"cap": 283261337600,
+"country": "USA"
+},
+{
+"rank": 58,
+"name": "SAP",
+"ticker": "SAP",
+"slug": "sap",
+"cap": 273465606144,
+"country": "Germany"
+},
+{
+"rank": 59,
+"name": "CrowdStrike",
+"ticker": "CRWD",
+"slug": "crowdstrike",
+"cap": 273042472960,
+"country": "USA"
+},
+{
+"rank": 60,
+"name": "Goldman Sachs",
+"ticker": "GS",
+"slug": "goldman-sachs",
+"cap": 269383024640,
+"country": "USA"
+},
+{
+"rank": 61,
+"name": "RTX",
+"ticker": "RTX",
+"slug": "raytheon-technologies",
+"cap": 264274427904,
+"country": "USA"
+},
+{
+"rank": 62,
+"name": "AstraZeneca",
+"ticker": "AZN",
+"slug": "astrazeneca",
+"cap": 262894026752,
+"country": "UK"
+},
+{
+"rank": 63,
+"name": "Nestl\u00e9",
+"ticker": "NESN.SW",
+"slug": "nestle",
+"cap": 260882015958,
+"country": "Switzerland"
+},
+{
+"rank": 64,
+"name": "Thermo Fisher Scientific",
+"ticker": "TMO",
+"slug": "thermo-fisher-scientific",
+"cap": 260357570560,
+"country": "USA"
+},
+{
+"rank": 65,
+"name": "Netflix",
+"ticker": "NFLX",
+"slug": "netflix",
+"cap": 258122629120,
+"country": "USA"
+},
+{
+"rank": 66,
+"name": "L'Or\u00e9al",
+"ticker": "OR.PA",
+"slug": "l-oreal",
+"cap": 256952132802,
+"country": "France"
+},
+{
+"rank": 67,
+"name": "Kweichow Moutai",
+"ticker": "600519.SS",
+"slug": "kweichow-moutai",
+"cap": 253582221681,
+"country": "China"
+},
+{
+"rank": 68,
+"name": "Arm Holdings",
+"ticker": "ARM",
+"slug": "arm-holdings",
+"cap": 251940864000,
+"country": "UK"
+},
+{
+"rank": 69,
+"name": "Alibaba",
+"ticker": "BABA",
+"slug": "alibaba",
+"cap": 251162738688,
+"country": "China"
+},
+{
+"rank": 70,
+"name": "Wells Fargo",
+"ticker": "WFC",
+"slug": "wells-fargo",
+"cap": 251147124736,
+"country": "USA"
+},
+{
+"rank": 71,
+"name": "Amgen",
+"ticker": "AMGN",
+"slug": "amgen",
+"cap": 244273741824,
+"country": "USA"
+},
+{
+"rank": 72,
+"name": "Mitsubishi UFJ Financial",
+"ticker": "MUFG",
+"slug": "mitsubishi-ufj-financial",
+"cap": 241548705792,
+"country": "Japan"
+},
+{
+"rank": 73,
+"name": "IBM",
+"ticker": "IBM",
+"slug": "ibm",
+"cap": 239323496448,
+"country": "USA"
+},
+{
+"rank": 74,
+"name": "PetroChina",
+"ticker": "0857.HK",
+"slug": "petro-china",
+"cap": 238871400924,
+"country": "China"
+},
+{
+"rank": 75,
+"name": "Arista Networks",
+"ticker": "ANET",
+"slug": "arista-networks",
+"cap": 235495882752,
+"country": "USA"
+},
+{
+"rank": 76,
+"name": "Linde",
+"ticker": "LIN",
+"slug": "linde",
+"cap": 234251681792,
+"country": "UK"
+},
+{
+"rank": 77,
+"name": "GE Vernova",
+"ticker": "GEV",
+"slug": "ge-vernova",
+"cap": 233848881152,
+"country": "USA"
+},
+{
+"rank": 78,
+"name": "Siemens",
+"ticker": "SIE.DE",
+"slug": "siemens",
+"cap": 232775592241,
+"country": "Germany"
+},
+{
+"rank": 79,
+"name": "Toyota",
+"ticker": "TM",
+"slug": "toyota",
+"cap": 229495619584,
+"country": "Japan"
+},
+{
+"rank": 80,
+"name": "Marvell Technology",
+"ticker": "MRVL",
+"slug": "marvell",
+"cap": 226159017984,
+"country": "USA"
+},
+{
+"rank": 81,
+"name": "China Mobile",
+"ticker": "0941.HK",
+"slug": "china-mobile",
+"cap": 216953307010,
+"country": "China"
+},
+{
+"rank": 82,
+"name": "Shopify",
+"ticker": "SHOP",
+"slug": "shopify",
+"cap": 216439242752,
+"country": "Canada"
+},
+{
+"rank": 83,
+"name": "LVMH",
+"ticker": "MC.PA",
+"slug": "lvmh",
+"cap": 214917768813,
+"country": "France"
+},
+{
+"rank": 84,
+"name": "American Express",
+"ticker": "AXP",
+"slug": "american-express",
+"cap": 213195309056,
+"country": "USA"
+},
+{
+"rank": 85,
+"name": "BHP Group",
+"ticker": "BHP",
+"slug": "bhp-group",
+"cap": 208960225280,
+"country": "Australia"
+},
+{
+"rank": 86,
+"name": "Analog Devices",
+"ticker": "ADI",
+"slug": "analog-devices",
+"cap": 207524855808,
+"country": "USA"
+},
+{
+"rank": 87,
+"name": "KLA",
+"ticker": "KLAC",
+"slug": "kla",
+"cap": 207195881472,
+"country": "USA"
+},
+{
+"rank": 88,
+"name": "Toronto Dominion Bank",
+"ticker": "TD",
+"slug": "toronto-dominion-bank",
+"cap": 206511292416,
+"country": "Canada"
+},
+{
+"rank": 89,
+"name": "Citigroup",
+"ticker": "C",
+"slug": "citigroup",
+"cap": 205426868224,
+"country": "USA"
+},
+{
+"rank": 90,
+"name": "TotalEnergies",
+"ticker": "TTE",
+"slug": "totalenergies",
+"cap": 204553551872,
+"country": "France"
+},
+{
+"rank": 91,
+"name": "International Holding Company",
+"ticker": "IHC.AE",
+"slug": "international-holding-company",
+"cap": 203072361440,
+"country": "UAE"
+},
+{
+"rank": 92,
+"name": "Sandisk",
+"ticker": "SNDK",
+"slug": "sandisk",
+"cap": 203027988480,
+"country": "USA"
+},
+{
+"rank": 93,
+"name": "Amphenol",
+"ticker": "APH",
+"slug": "amphenol",
+"cap": 199644676096,
+"country": "USA"
+},
+{
+"rank": 94,
+"name": "Salesforce",
+"ticker": "CRM",
+"slug": "salesforce",
+"cap": 199256522752,
+"country": "USA"
+},
+{
+"rank": 95,
+"name": "MediaTek",
+"ticker": "2454.TW",
+"slug": "mediatek",
+"cap": 198845984623,
+"country": "Taiwan"
+},
+{
+"rank": 96,
+"name": "Gilead Sciences",
+"ticker": "GILD",
+"slug": "gilead-sciences",
+"cap": 197400870912,
+"country": "USA"
+},
+{
+"rank": 97,
+"name": "Inditex",
+"ticker": "ITX.MC",
+"slug": "inditex",
+"cap": 195956537672,
+"country": "Spain"
+},
+{
+"rank": 98,
+"name": "QUALCOMM",
+"ticker": "QCOM",
+"slug": "qualcomm",
+"cap": 195382591488,
+"country": "USA"
+},
+{
+"rank": 99,
+"name": "Commonwealth Bank",
+"ticker": "CBA.AX",
+"slug": "commonwealth-bank",
+"cap": 195259074951,
+"country": "Australia"
+},
+{
+"rank": 100,
+"name": "Walt Disney",
+"ticker": "DIS",
+"slug": "walt-disney",
+"cap": 188277932032,
+"country": "USA"
+},
+{
+"rank": 101,
+"name": "BlackRock",
+"ticker": "BLK",
+"slug": "blackrock",
+"cap": 188127936512,
+"country": "USA"
+},
+{
+"rank": 102,
+"name": "Allianz SE",
+"ticker": "ALV.DE",
+"slug": "allianz",
+"cap": 186916295006,
+"country": "Germany"
+},
+{
+"rank": 103,
+"name": "Pepsico",
+"ticker": "PEP",
+"slug": "pepsico",
+"cap": 180740358144,
+"country": "USA"
+},
+{
+"rank": 104,
+"name": "ConocoPhillips",
+"ticker": "COP",
+"slug": "conocophillips",
+"cap": 179071352832,
+"country": "USA"
+},
+{
+"rank": 105,
+"name": "Verizon",
+"ticker": "VZ",
+"slug": "verizon",
+"cap": 178981093376,
+"country": "USA"
+},
+{
+"rank": 106,
+"name": "Abbott Laboratories",
+"ticker": "ABT",
+"slug": "abbott-laboratories",
+"cap": 178779701248,
+"country": "USA"
+},
+{
+"rank": 107,
+"name": "McDonald",
+"ticker": "MCD",
+"slug": "mcdonald",
+"cap": 177264197632,
+"country": "USA"
+},
+{
+"rank": 108,
+"name": "Union Pacific Corporation",
+"ticker": "UNP",
+"slug": "union-pacific-corporation",
+"cap": 176915677184,
+"country": "USA"
+},
+{
+"rank": 109,
+"name": "Airbus",
+"ticker": "AIR.PA",
+"slug": "airbus",
+"cap": 174868993927,
+"country": "Netherlands"
+},
+{
+"rank": 110,
+"name": "Deere & Company (John Deere)",
+"ticker": "DE",
+"slug": "deere-company",
+"cap": 172740902912,
+"country": "USA"
+},
+{
+"rank": 111,
+"name": "SoftBank Group Corp.",
+"ticker": "9984.T",
+"slug": "softbank",
+"cap": 171791690278,
+"country": "Japan"
+},
+{
+"rank": 112,
+"name": "Nextera Energy",
+"ticker": "NEE",
+"slug": "nextera-energy",
+"cap": 169923739648,
+"country": "USA"
+},
+{
+"rank": 113,
+"name": "CM Bank",
+"ticker": "3968.HK",
+"slug": "cm-bank",
+"cap": 169561875569,
+"country": "China"
+},
+{
+"rank": 114,
+"name": "Advantest",
+"ticker": "6857.T",
+"slug": "advantest",
+"cap": 169121716895,
+"country": "Japan"
+},
+{
+"rank": 115,
+"name": "Santander",
+"ticker": "SAN",
+"slug": "santander",
+"cap": 168915877888,
+"country": "Spain"
+},
+{
+"rank": 116,
+"name": "Novo Nordisk",
+"ticker": "NVO",
+"slug": "novo-nordisk",
+"cap": 168885125120,
+"country": "Denmark"
+},
+{
+"rank": 117,
+"name": "Prosus",
+"ticker": "PRX.AS",
+"slug": "prosus",
+"cap": 168530272482,
+"country": "Netherlands"
+},
+{
+"rank": 118,
+"name": "Pfizer",
+"ticker": "PFE",
+"slug": "pfizer",
+"cap": 167855390720,
+"country": "USA"
+},
+{
+"rank": 119,
+"name": "China Shenhua Energy",
+"ticker": "601088.SS",
+"slug": "china-shenhua-energy",
+"cap": 167736638983,
+"country": "China"
+},
+{
+"rank": 120,
+"name": "Reliance Industries",
+"ticker": "RELIANCE.NS",
+"slug": "reliance-industries",
+"cap": 167404358920,
+"country": "India"
+},
+{
+"rank": 121,
+"name": "Welltower",
+"ticker": "WELL",
+"slug": "welltower",
+"cap": 166309265408,
+"country": "USA"
+},
+{
+"rank": 122,
+"name": "Iberdrola",
+"ticker": "IBE.MC",
+"slug": "iberdrola",
+"cap": 166014916344,
+"country": "Spain"
+},
+{
+"rank": 123,
+"name": "Recruit",
+"ticker": "6098.T",
+"slug": "recruit",
+"cap": 165970250936,
+"country": "Japan"
+},
+{
+"rank": 124,
+"name": "Danaher",
+"ticker": "DHR",
+"slug": "danaher",
+"cap": 164547952640,
+"country": "USA"
+},
+{
+"rank": 125,
+"name": "DBS Group",
+"ticker": "D05.SI",
+"slug": "dbs",
+"cap": 164261867367,
+"country": "Singapore"
+},
+{
+"rank": 126,
+"name": "Southern Copper",
+"ticker": "SCCO",
+"slug": "southern-copper",
+"cap": 163726688256,
+"country": "USA"
+},
+{
+"rank": 127,
+"name": "Schneider Electric",
+"ticker": "SU.PA",
+"slug": "schneider-electric",
+"cap": 162010811859,
+"country": "France"
+},
+{
+"rank": 128,
+"name": "ABB",
+"ticker": "ABBN.SW",
+"slug": "abb",
+"cap": 160167740560,
+"country": "Switzerland"
+},
+{
+"rank": 129,
+"name": "Anheuser-Busch Inbev",
+"ticker": "BUD",
+"slug": "anheuser-busch-inbev",
+"cap": 159460065280,
+"country": "Belgium"
+},
+{
+"rank": 130,
+"name": "T-Mobile US",
+"ticker": "TMUS",
+"slug": "t-mobile-us",
+"cap": 158841208832,
+"country": "USA"
+},
+{
+"rank": 131,
+"name": "CATL",
+"ticker": "300750.SZ",
+"slug": "catl",
+"cap": 158800883626,
+"country": "China"
+},
+{
+"rank": 132,
+"name": "Seagate Technology",
+"ticker": "STX",
+"slug": "seagate",
+"cap": 158713495552,
+"country": "Ireland"
+},
+{
+"rank": 133,
+"name": "Intuitive Surgical",
+"ticker": "ISRG",
+"slug": "intuitive-surgical",
+"cap": 156919037952,
+"country": "USA"
+},
+{
+"rank": 134,
+"name": "ServiceNow",
+"ticker": "NOW",
+"slug": "servicenow",
+"cap": 155213709312,
+"country": "USA"
+},
+{
+"rank": 135,
+"name": "Charles Schwab",
+"ticker": "SCHW",
+"slug": "charles-schwab",
+"cap": 153495830528,
+"country": "USA"
+},
+{
+"rank": 136,
+"name": "TJX Companies",
+"ticker": "TJX",
+"slug": "tjx-companies",
+"cap": 152880037888,
+"country": "USA"
+},
+{
+"rank": 137,
+"name": "Eaton",
+"ticker": "ETN",
+"slug": "eaton",
+"cap": 152555307008,
+"country": "Ireland"
+},
+{
+"rank": 138,
+"name": "Sumitomo Mitsui Financial Group",
+"ticker": "SMFG",
+"slug": "sumitomo-mitsui-financial-group",
+"cap": 151411621888,
+"country": "Japan"
+},
+{
+"rank": 139,
+"name": "Herm\u00e8s",
+"ticker": "RMS.PA",
+"slug": "hermes-international",
+"cap": 150244101958,
+"country": "France"
+},
+{
+"rank": 140,
+"name": "Accenture",
+"ticker": "ACN",
+"slug": "accenture",
+"cap": 148946698240,
+"country": "Ireland"
+},
+{
+"rank": 141,
+"name": "China Life Insurance",
+"ticker": "601628.SS",
+"slug": "china-life-insurance",
+"cap": 148505296508,
+"country": "China"
+},
+{
+"rank": 142,
+"name": "Western Digital",
+"ticker": "WDC",
+"slug": "western-digital",
+"cap": 148389232640,
+"country": "USA"
+},
+{
+"rank": 143,
+"name": "Sony",
+"ticker": "SONY",
+"slug": "sony",
+"cap": 147280904192,
+"country": "Japan"
+},
+{
+"rank": 144,
+"name": "KIOXIA Holdings Corporation",
+"ticker": "285A.T",
+"slug": "kioxia-holdings-corporation",
+"cap": 146624194173,
+"country": "Japan"
+},
+{
+"rank": 145,
+"name": "Lockheed Martin",
+"ticker": "LMT",
+"slug": "lockheed-martin",
+"cap": 145475174400,
+"country": "USA"
+},
+{
+"rank": 146,
+"name": "CNOOC",
+"ticker": "0883.HK",
+"slug": "cnooc",
+"cap": 145392493786,
+"country": "China"
+},
+{
+"rank": 147,
+"name": "Ping An Insurance",
+"ticker": "601318.SS",
+"slug": "ping-an-insurance",
+"cap": 144322913984,
+"country": "China"
+},
+{
+"rank": 148,
+"name": "Tokyo Electron",
+"ticker": "8035.T",
+"slug": "tokyo-electron",
+"cap": 144199550764,
+"country": "Japan"
+},
+{
+"rank": 149,
+"name": "Fast Retailing",
+"ticker": "9983.T",
+"slug": "fast-retailing",
+"cap": 143262595105,
+"country": "Japan"
+},
+{
+"rank": 150,
+"name": "Hitachi",
+"ticker": "6501.T",
+"slug": "hitachi",
+"cap": 142982055000,
+"country": "Japan"
+},
+{
+"rank": 151,
+"name": "UBS",
+"ticker": "UBS",
+"slug": "ubs",
+"cap": 142952726528,
+"country": "Switzerland"
+},
+{
+"rank": 152,
+"name": "Interactive Brokers",
+"ticker": "IBKR",
+"slug": "interactive-brokers",
+"cap": 142336753664,
+"country": "USA"
+},
+{
+"rank": 153,
+"name": "Petrobras",
+"ticker": "PBR",
+"slug": "petrobras",
+"cap": 141969391616,
+"country": "Brazil"
+},
+{
+"rank": 154,
+"name": "Blackstone Group",
+"ticker": "BX",
+"slug": "blackstone-group",
+"cap": 139921555456,
+"country": "USA"
+},
+{
+"rank": 155,
+"name": "Rolls-Royce Holdings",
+"ticker": "RR.L",
+"slug": "rolls-royce-holdings",
+"cap": 139802887291,
+"country": "UK"
+},
+{
+"rank": 156,
+"name": "Rio Tinto",
+"ticker": "RIO",
+"slug": "rio-tinto",
+"cap": 139755667456,
+"country": "UK"
+},
+{
+"rank": 157,
+"name": "AT&T",
+"ticker": "T",
+"slug": "att",
+"cap": 139445010432,
+"country": "USA"
+},
+{
+"rank": 158,
+"name": "Deutsche Telekom",
+"ticker": "DTE.DE",
+"slug": "deutsche-telekom",
+"cap": 138503370506,
+"country": "Germany"
+},
+{
+"rank": 159,
+"name": "Unilever",
+"ticker": "UL",
+"slug": "unilever",
+"cap": 137697280000,
+"country": "UK"
+},
+{
+"rank": 160,
+"name": "Banco Bilbao Vizcaya Argentaria",
+"ticker": "BBVA",
+"slug": "bbva",
+"cap": 137554575360,
+"country": "Spain"
+},
+{
+"rank": 161,
+"name": "Chubb",
+"ticker": "CB",
+"slug": "chubb",
+"cap": 137151856640,
+"country": "Switzerland"
+},
+{
+"rank": 162,
+"name": "Foxconn Industrial Internet",
+"ticker": "601138.SS",
+"slug": "foxconn-industrial-internet",
+"cap": 134438463454,
+"country": "China"
+},
+{
+"rank": 163,
+"name": "Vertex Pharmaceuticals",
+"ticker": "VRTX",
+"slug": "vertex-pharmaceuticals",
+"cap": 134170476544,
+"country": "USA"
+},
+{
+"rank": 164,
+"name": "Uber",
+"ticker": "UBER",
+"slug": "uber",
+"cap": 133317894144,
+"country": "USA"
+},
+{
+"rank": 165,
+"name": "Investor AB",
+"ticker": "INVE-B.ST",
+"slug": "investor-ab",
+"cap": 132575989781,
+"country": "Sweden"
+},
+{
+"rank": 166,
+"name": "Boeing",
+"ticker": "BA",
+"slug": "boeing",
+"cap": 132450082816,
+"country": "USA"
+},
+{
+"rank": 167,
+"name": "Progressive",
+"ticker": "PGR",
+"slug": "progressive",
+"cap": 130769977344,
+"country": "USA"
+},
+{
+"rank": 168,
+"name": "Bharti Airtel",
+"ticker": "BHARTIARTL.NS",
+"slug": "bharti-airtel",
+"cap": 130275341793,
+"country": "India"
+},
+{
+"rank": 169,
+"name": "S&P Global",
+"ticker": "SPGI",
+"slug": "sp-global",
+"cap": 130260762624,
+"country": "USA"
+},
+{
+"rank": 170,
+"name": "Siemens Energy",
+"ticker": "ENR.F",
+"slug": "siemens-energy",
+"cap": 128936712250,
+"country": "Germany"
+},
+{
+"rank": 171,
+"name": "Marathon Petroleum",
+"ticker": "MPC",
+"slug": "marathon-petroleum",
+"cap": 128676913152,
+"country": "USA"
+},
+{
+"rank": 172,
+"name": "British American Tobacco",
+"ticker": "BTI",
+"slug": "british-american-tobacco",
+"cap": 128519561216,
+"country": "UK"
+},
+{
+"rank": 173,
+"name": "Air Liquide",
+"ticker": "AI.PA",
+"slug": "air-liquide",
+"cap": 128364118886,
+"country": "France"
+},
+{
+"rank": 174,
+"name": "BP",
+"ticker": "BP",
+"slug": "bp",
+"cap": 128238698496,
+"country": "UK"
+},
+{
+"rank": 175,
+"name": "Fortinet",
+"ticker": "FTNT",
+"slug": "fortinet",
+"cap": 127724879872,
+"country": "USA"
+},
+{
+"rank": 176,
+"name": "Safran",
+"ticker": "SAF.PA",
+"slug": "safran",
+"cap": 127304744781,
+"country": "France"
+},
+{
+"rank": 177,
+"name": "Capital One",
+"ticker": "COF",
+"slug": "capital-one",
+"cap": 125693886464,
+"country": "USA"
+},
+{
+"rank": 178,
+"name": "UniCredit",
+"ticker": "UCG.MI",
+"slug": "unicredit",
+"cap": 124817181733,
+"country": "Italy"
+},
+{
+"rank": 179,
+"name": "Bristol-Myers Squibb",
+"ticker": "BMY",
+"slug": "bristol-myers-squibb",
+"cap": 123727224832,
+"country": "USA"
+},
+{
+"rank": 180,
+"name": "Altria Group",
+"ticker": "MO",
+"slug": "altria-group",
+"cap": 121874604032,
+"country": "USA"
+},
+{
+"rank": 181,
+"name": "Prologis",
+"ticker": "PLD",
+"slug": "prologis",
+"cap": 121725288448,
+"country": "USA"
+},
+{
+"rank": 182,
+"name": "Medtronic",
+"ticker": "MDT",
+"slug": "medtronic",
+"cap": 121236692992,
+"country": "Ireland"
+},
+{
+"rank": 183,
+"name": "Bank of Montreal",
+"ticker": "BMO",
+"slug": "bank-of-montreal",
+"cap": 120827879424,
+"country": "Canada"
+},
+{
+"rank": 184,
+"name": "Snowflake",
+"ticker": "SNOW",
+"slug": "snowflake",
+"cap": 119920246784,
+"country": "USA"
+},
+{
+"rank": 185,
+"name": "Newmont",
+"ticker": "NEM",
+"slug": "newmont",
+"cap": 118384885760,
+"country": "USA"
+},
+{
+"rank": 186,
+"name": "Delta Electronics",
+"ticker": "2308.TW",
+"slug": "delta-electronics",
+"cap": 118324533881,
+"country": "Taiwan"
+},
+{
+"rank": 187,
+"name": "Starbucks",
+"ticker": "SBUX",
+"slug": "starbucks",
+"cap": 117647998976,
+"country": "USA"
+},
+{
+"rank": 188,
+"name": "Compagnie Financi\u00e8re Richemont",
+"ticker": "CFR.SW",
+"slug": "compagnie-financiere-richemont",
+"cap": 117642251795,
+"country": "Switzerland"
+},
+{
+"rank": 189,
+"name": "Mizuho Financial Group",
+"ticker": "MFG",
+"slug": "mizuho-financial-group",
+"cap": 117464432640,
+"country": "Japan"
+},
+{
+"rank": 190,
+"name": "Keyence",
+"ticker": "6861.T",
+"slug": "keyence",
+"cap": 117154640902,
+"country": "Japan"
+},
+{
+"rank": 191,
+"name": "Stryker Corporation",
+"ticker": "SYK",
+"slug": "stryker-corporation",
+"cap": 116606205952,
+"country": "USA"
+},
+{
+"rank": 192,
+"name": "CVS Health",
+"ticker": "CVS",
+"slug": "cvs-health",
+"cap": 115043377152,
+"country": "USA"
+},
+{
+"rank": 193,
+"name": "Scotiabank",
+"ticker": "BNS",
+"slug": "scotiabank",
+"cap": 115036889088,
+"country": "Canada"
+},
+{
+"rank": 194,
+"name": "Parker-Hannifin",
+"ticker": "PH",
+"slug": "parker-hannifin",
+"cap": 115004432384,
+"country": "USA"
+},
+{
+"rank": 195,
+"name": "Booking Holdings (Booking.com)",
+"ticker": "BKNG",
+"slug": "booking-holdings",
+"cap": 114635522048,
+"country": "USA"
+},
+{
+"rank": 196,
+"name": "Mitsubishi Corporation",
+"ticker": "8058.T",
+"slug": "mitsubishi-corporation",
+"cap": 113721361224,
+"country": "Japan"
+},
+{
+"rank": 197,
+"name": "Cloudflare",
+"ticker": "NET",
+"slug": "cloudflare",
+"cap": 113489723392,
+"country": "USA"
+},
+{
+"rank": 198,
+"name": "Bank of Communications",
+"ticker": "601328.SS",
+"slug": "bank-of-communications",
+"cap": 113320854904,
+"country": "China"
+},
+{
+"rank": 199,
+"name": "Automatic Data Processing",
+"ticker": "ADP",
+"slug": "automatic-data-processing",
+"cap": 113078304768,
+"country": "USA"
+},
+{
+"rank": 200,
+"name": "Zurich Insurance Group",
+"ticker": "ZURN.SW",
+"slug": "zurich-insurance-group",
+"cap": 113027575330,
+"country": "Switzerland"
+},
+{
+"rank": 201,
+"name": "Canadian Natural Resources",
+"ticker": "CNQ",
+"slug": "canadian-natural-resources",
+"cap": 112990822400,
+"country": "Canada"
+},
+{
+"rank": 202,
+"name": "Intesa Sanpaolo",
+"ticker": "ISP.MI",
+"slug": "intesa-sanpaolo",
+"cap": 112969932198,
+"country": "Italy"
+},
+{
+"rank": 203,
+"name": "Equinor",
+"ticker": "EQNR",
+"slug": "equinor",
+"cap": 112818520064,
+"country": "Norway"
+},
+{
+"rank": 204,
+"name": "Corning",
+"ticker": "GLW",
+"slug": "corning",
+"cap": 112784482304,
+"country": "USA"
+},
+{
+"rank": 205,
+"name": "BYD",
+"ticker": "002594.SZ",
+"slug": "byd",
+"cap": 112687841624,
+"country": "China"
+},
+{
+"rank": 206,
+"name": "McKesson",
+"ticker": "MCK",
+"slug": "mckesson",
+"cap": 111992037376,
+"country": "USA"
+},
+{
+"rank": 207,
+"name": "Valero Energy",
+"ticker": "VLO",
+"slug": "valero",
+"cap": 111854059520,
+"country": "USA"
+},
+{
+"rank": 208,
+"name": "Zijin Mining",
+"ticker": "601899.SS",
+"slug": "zijin-mining",
+"cap": 111704624881,
+"country": "China"
+},
+{
+"rank": 209,
+"name": "Lowe's Companies",
+"ticker": "LOW",
+"slug": "lowes-companies",
+"cap": 111313117184,
+"country": "USA"
+},
+{
+"rank": 210,
+"name": "HDFC Bank",
+"ticker": "HDB",
+"slug": "hdfc-bank",
+"cap": 110821720064,
+"country": "India"
+},
+{
+"rank": 211,
+"name": "Spotify",
+"ticker": "SPOT",
+"slug": "spotify",
+"cap": 110705844224,
+"country": "Sweden"
+},
+{
+"rank": 212,
+"name": "PDD Holdings (Pinduoduo)",
+"ticker": "PDD",
+"slug": "pinduoduo",
+"cap": 110263402496,
+"country": "China"
+},
+{
+"rank": 213,
+"name": "China Yangtze Power",
+"ticker": "600900.SS",
+"slug": "china-yangtze-power",
+"cap": 109936160229,
+"country": "China"
+},
+{
+"rank": 214,
+"name": "Phillips 66",
+"ticker": "PSX",
+"slug": "phillips-66",
+"cap": 109235970048,
+"country": "USA"
+},
+{
+"rank": 215,
+"name": "Enbridge",
+"ticker": "ENB",
+"slug": "enbridge",
+"cap": 108210348032,
+"country": "Canada"
+},
+{
+"rank": 216,
+"name": "BNP Paribas",
+"ticker": "BNP.PA",
+"slug": "bnp-paribas",
+"cap": 107593166210,
+"country": "France"
+},
+{
+"rank": 217,
+"name": "Foxconn (Hon Hai Precision Industry)",
+"ticker": "2317.TW",
+"slug": "foxconn",
+"cap": 107430510781,
+"country": "Taiwan"
+},
+{
+"rank": 218,
+"name": "CIBC (Canadian Imperial Bank of Commerce)",
+"ticker": "CM",
+"slug": "cibc",
+"cap": 106854924288,
+"country": "Canada"
+},
+{
+"rank": 219,
+"name": "Southern Company",
+"ticker": "SO",
+"slug": "southern-company",
+"cap": 105281216512,
+"country": "USA"
+},
+{
+"rank": 220,
+"name": "CME Group",
+"ticker": "CME",
+"slug": "cme-group",
+"cap": 105246883840,
+"country": "USA"
+},
+{
+"rank": 221,
+"name": "Enel",
+"ticker": "ENEL.MI",
+"slug": "enel",
+"cap": 104365479629,
+"country": "Italy"
+},
+{
+"rank": 222,
+"name": "Postal Savings Bank of China",
+"ticker": "601658.SS",
+"slug": "postal-savings-bank-of-china",
+"cap": 103275843725,
+"country": "China"
+},
+{
+"rank": 223,
+"name": "OCBC Bank",
+"ticker": "O39.SI",
+"slug": "ocbc-bank",
+"cap": 103228147733,
+"country": "Singapore"
+},
+{
+"rank": 224,
+"name": "ICICI Bank",
+"ticker": "IBN",
+"slug": "icici-bank",
+"cap": 103042236416,
+"country": "India"
+},
+{
+"rank": 225,
+"name": "Marriott International",
+"ticker": "MAR",
+"slug": "marriott-international",
+"cap": 102846226432,
+"country": "USA"
+},
+{
+"rank": 226,
+"name": "HCA Healthcare",
+"ticker": "HCA",
+"slug": "hca-healthcare",
+"cap": 102760636416,
+"country": "USA"
+},
+{
+"rank": 227,
+"name": "Zhongji Innolight",
+"ticker": "300308.SZ",
+"slug": "zhongji-innolight",
+"cap": 102715035118,
+"country": "China"
+},
+{
+"rank": 228,
+"name": "Sinopec",
+"ticker": "600028.SS",
+"slug": "sinopec",
+"cap": 101637217882,
+"country": "China"
+},
+{
+"rank": 229,
+"name": "It\u014dch\u016b Sh\u014dji",
+"ticker": "8001.T",
+"slug": "itochu-shoji",
+"cap": 101417828240,
+"country": "Japan"
+},
+{
+"rank": 230,
+"name": "Sanofi",
+"ticker": "SNY",
+"slug": "sanofi",
+"cap": 101212848128,
+"country": "France"
+},
+{
+"rank": 231,
+"name": "Tokio Marine",
+"ticker": "8766.T",
+"slug": "tokio-marine",
+"cap": 101209446351,
+"country": "Japan"
+},
+{
+"rank": 232,
+"name": "Midea",
+"ticker": "000333.SZ",
+"slug": "midea",
+"cap": 100002872870,
+"country": "China"
+},
+{
+"rank": 233,
+"name": "BNY Mellon (Bank of New York Mellon)",
+"ticker": "BNY",
+"slug": "bny-mellon",
+"cap": 99985907712,
+"country": "USA"
+},
+{
+"rank": 234,
+"name": "Datadog",
+"ticker": "DDOG",
+"slug": "datadog",
+"cap": 99970072576,
+"country": "USA"
+},
+{
+"rank": 235,
+"name": "Equinix",
+"ticker": "EQIX",
+"slug": "equinix",
+"cap": 99427508224,
+"country": "USA"
+},
+{
+"rank": 236,
+"name": "Airbnb",
+"ticker": "ABNB",
+"slug": "airbnb",
+"cap": 99425361920,
+"country": "USA"
+},
+{
+"rank": 237,
+"name": "Trane Technologies",
+"ticker": "TT",
+"slug": "trane-technologies",
+"cap": 98673795072,
+"country": "Ireland"
+},
+{
+"rank": 238,
+"name": "AXA",
+"ticker": "CS.PA",
+"slug": "axa",
+"cap": 97663196167,
+"country": "France"
+},
+{
+"rank": 239,
+"name": "GSK plc",
+"ticker": "GSK",
+"slug": "glaxo-smith-kline",
+"cap": 97651335168,
+"country": "UK"
+},
+{
+"rank": 240,
+"name": "Grupo M\u00e9xico",
+"ticker": "GMBXF",
+"slug": "grupo-mexico",
+"cap": 97422852096,
+"country": "Mexico"
+},
+{
+"rank": 241,
+"name": "Adobe",
+"ticker": "ADBE",
+"slug": "adobe",
+"cap": 97206591488,
+"country": "USA"
+},
+{
+"rank": 242,
+"name": "ASE Group",
+"ticker": "ASX",
+"slug": "ase-group",
+"cap": 96956637184,
+"country": "Taiwan"
+},
+{
+"rank": 243,
+"name": "Duke Energy",
+"ticker": "DUK",
+"slug": "duke-energy",
+"cap": 96347799552,
+"country": "USA"
+},
+{
+"rank": 244,
+"name": "CSX Corporation",
+"ticker": "CSX",
+"slug": "csx-corporation",
+"cap": 96291643392,
+"country": "USA"
+},
+{
+"rank": 245,
+"name": "Al Rajhi Bank",
+"ticker": "1120.SR",
+"slug": "al-rajhi-bank",
+"cap": 95976963665,
+"country": "S. Arabia"
+},
+{
+"rank": 246,
+"name": "General Dynamics",
+"ticker": "GD",
+"slug": "general-dynamics",
+"cap": 95871942656,
+"country": "USA"
+},
+{
+"rank": 247,
+"name": "Freeport-McMoRan",
+"ticker": "FCX",
+"slug": "freeport-mcmoran",
+"cap": 95638765568,
+"country": "USA"
+},
+{
+"rank": 248,
+"name": "Johnson Controls",
+"ticker": "JCI",
+"slug": "johnson-controls",
+"cap": 95313420288,
+"country": "Ireland"
+},
+{
+"rank": 249,
+"name": "Tata Consultancy Services",
+"ticker": "TCS.NS",
+"slug": "tata-consultancy-services",
+"cap": 94981982188,
+"country": "India"
+},
+{
+"rank": 250,
+"name": "State Bank of India",
+"ticker": "SBIN.NS",
+"slug": "state-bank-of-india",
+"cap": 94887793527,
+"country": "India"
+},
+{
+"rank": 251,
+"name": "SK Square",
+"ticker": "402340.KS",
+"slug": "sk-square",
+"cap": 94765021695,
+"country": "S. Korea"
+},
+{
+"rank": 252,
+"name": "Cadence Design Systems",
+"ticker": "CDNS",
+"slug": "cadence-design-systems",
+"cap": 94455947264,
+"country": "USA"
+},
+{
+"rank": 253,
+"name": "AIA",
+"ticker": "1299.HK",
+"slug": "aia",
+"cap": 94091224896,
+"country": "Hong Kong"
+},
+{
+"rank": 254,
+"name": "Emerson",
+"ticker": "EMR",
+"slug": "emerson",
+"cap": 93934370816,
+"country": "USA"
+},
+{
+"rank": 255,
+"name": "Vertiv Holdings",
+"ticker": "VRT",
+"slug": "vertiv-holdings",
+"cap": 93529022464,
+"country": "USA"
+},
+{
+"rank": 256,
+"name": "ING",
+"ticker": "ING",
+"slug": "ing",
+"cap": 93440958464,
+"country": "Netherlands"
+},
+{
+"rank": 257,
+"name": "U.S. Bancorp",
+"ticker": "USB",
+"slug": "us-bancorp",
+"cap": 92859867136,
+"country": "USA"
+},
+{
+"rank": 258,
+"name": "Agnico Eagle Mines",
+"ticker": "AEM",
+"slug": "agnico-eagle-mines",
+"cap": 92720472064,
+"country": "Canada"
+},
+{
+"rank": 259,
+"name": "EssilorLuxottica",
+"ticker": "EL.PA",
+"slug": "essilor-luxottica",
+"cap": 92349006677,
+"country": "France"
+},
+{
+"rank": 260,
+"name": "Synopsys",
+"ticker": "SNPS",
+"slug": "synopsys",
+"cap": 92347785216,
+"country": "USA"
+},
+{
+"rank": 261,
+"name": "Mitsui Bussan",
+"ticker": "8031.T",
+"slug": "mitsui-bussan",
+"cap": 91466700848,
+"country": "Japan"
+},
+{
+"rank": 262,
+"name": "Marsh & McLennan Companies",
+"ticker": "MRSH",
+"slug": "marsh-and-mclennan-companies",
+"cap": 91441405952,
+"country": "USA"
+},
+{
+"rank": 263,
+"name": "Constellation Energy",
+"ticker": "CEG",
+"slug": "constellation-energy",
+"cap": 91439644672,
+"country": "USA"
+},
+{
+"rank": 264,
+"name": "Quanta Services",
+"ticker": "PWR",
+"slug": "quanta-services",
+"cap": 91241906176,
+"country": "USA"
+},
+{
+"rank": 265,
+"name": "Williams Companies",
+"ticker": "WMB",
+"slug": "williams-companies",
+"cap": 90844643328,
+"country": "USA"
+},
+{
+"rank": 266,
+"name": "Suncor Energy",
+"ticker": "SU",
+"slug": "suncor-energy",
+"cap": 90693074944,
+"country": "Canada"
+},
+{
+"rank": 267,
+"name": "PNC Financial Services",
+"ticker": "PNC",
+"slug": "pnc-financial-services",
+"cap": 90670612480,
+"country": "USA"
+},
+{
+"rank": 268,
+"name": "Waste Management",
+"ticker": "WM",
+"slug": "waste-management",
+"cap": 89995878400,
+"country": "USA"
+},
+{
+"rank": 269,
+"name": "Elevance Health",
+"ticker": "ELV",
+"slug": "elevance-health",
+"cap": 89872801792,
+"country": "USA"
+},
+{
+"rank": 270,
+"name": "United Parcel Service",
+"ticker": "UPS",
+"slug": "ups",
+"cap": 89859555328,
+"country": "USA"
+},
+{
+"rank": 271,
+"name": "Monster Beverage",
+"ticker": "MNST",
+"slug": "monster-beverage",
+"cap": 89450307584,
+"country": "USA"
+},
+{
+"rank": 272,
+"name": "Westpac Banking",
+"ticker": "WBC.AX",
+"slug": "westpac-banking",
+"cap": 89177272632,
+"country": "Australia"
+},
+{
+"rank": 273,
+"name": "3M",
+"ticker": "MMM",
+"slug": "3m",
+"cap": 89116835840,
+"country": "USA"
+},
+{
+"rank": 274,
+"name": "National Australia Bank",
+"ticker": "NAB.AX",
+"slug": "national-australia-bank",
+"cap": 88860142381,
+"country": "Australia"
+},
+{
+"rank": 275,
+"name": "NTT (Nippon Telegraph & Telephone)",
+"ticker": "9432.T",
+"slug": "nippon-telegraph-and-telephone",
+"cap": 87806492271,
+"country": "Japan"
+},
+{
+"rank": 276,
+"name": "Intuit",
+"ticker": "INTU",
+"slug": "intuit",
+"cap": 87704182784,
+"country": "USA"
+},
+{
+"rank": 277,
+"name": "Intercontinental Exchange",
+"ticker": "ICE",
+"slug": "intercontinental-exchange",
+"cap": 87555088384,
+"country": "USA"
+},
+{
+"rank": 278,
+"name": "CaixaBank",
+"ticker": "CABK.MC",
+"slug": "caixabank",
+"cap": 87503101051,
+"country": "Spain"
+},
+{
+"rank": 279,
+"name": "AppLovin",
+"ticker": "APP",
+"slug": "applovin",
+"cap": 86999097344,
+"country": "USA"
+},
+{
+"rank": 280,
+"name": "ANZ Bank",
+"ticker": "ANZ.AX",
+"slug": "anz-bank",
+"cap": 86047548157,
+"country": "Australia"
+},
+{
+"rank": 281,
+"name": "Cambricon Technologies",
+"ticker": "688256.SS",
+"slug": "cambricon-technologies",
+"cap": 86016619603,
+"country": "China"
+},
+{
+"rank": 282,
+"name": "KKR & Co.",
+"ticker": "KKR",
+"slug": "kohlberg-kravis-roberts",
+"cap": 85930860544,
+"country": "USA"
+},
+{
+"rank": 283,
+"name": "Brookfield Corporation",
+"ticker": "BN",
+"slug": "brookfield-corporation",
+"cap": 85923209216,
+"country": "Canada"
+},
+{
+"rank": 284,
+"name": "Dior",
+"ticker": "CDI.PA",
+"slug": "dior",
+"cap": 85726434632,
+"country": "France"
+},
+{
+"rank": 285,
+"name": "EOG Resources",
+"ticker": "EOG",
+"slug": "eog-resources",
+"cap": 85710585856,
+"country": "USA"
+},
+{
+"rank": 286,
+"name": "American Tower",
+"ticker": "AMT",
+"slug": "american-tower",
+"cap": 85620162560,
+"country": "USA"
+},
+{
+"rank": 287,
+"name": "Moderna",
+"ticker": "MRNA",
+"slug": "moderna",
+"cap": 85502353408,
+"country": "USA"
+},
+{
+"rank": 288,
+"name": "ENI",
+"ticker": "E",
+"slug": "eni",
+"cap": 85293465600,
+"country": "Italy"
+},
+{
+"rank": 289,
+"name": "Glencore",
+"ticker": "GLCNF",
+"slug": "glencore",
+"cap": 85073338368,
+"country": "Switzerland"
+},
+{
+"rank": 290,
+"name": "MercadoLibre",
+"ticker": "MELI",
+"slug": "mercadolibre",
+"cap": 84820303872,
+"country": "Argentina"
+},
+{
+"rank": 291,
+"name": "Cintas",
+"ticker": "CTAS",
+"slug": "cintas",
+"cap": 84501553152,
+"country": "USA"
+},
+{
+"rank": 292,
+"name": "Regeneron Pharmaceuticals",
+"ticker": "REGN",
+"slug": "regeneron-pharmaceuticals",
+"cap": 83730210816,
+"country": "USA"
+},
+{
+"rank": 293,
+"name": "Delta Electronics (Thailand)",
+"ticker": "DELTA.BK",
+"slug": "delta-electronics-thailand",
+"cap": 83233086846,
+"country": "Thailand"
+},
+{
+"rank": 294,
+"name": "Japan Tobacco",
+"ticker": "2914.T",
+"slug": "japan-tobacco",
+"cap": 83121442009,
+"country": "Japan"
+},
+{
+"rank": 295,
+"name": "Xiaomi",
+"ticker": "XIACF",
+"slug": "xiaomi",
+"cap": 82869534720,
+"country": "China"
+},
+{
+"rank": 296,
+"name": "Lumentum",
+"ticker": "LITE",
+"slug": "lumentum",
+"cap": 82788204544,
+"country": "USA"
+},
+{
+"rank": 297,
+"name": "National Grid",
+"ticker": "NGG",
+"slug": "national-grid",
+"cap": 82662498304,
+"country": "UK"
+},
+{
+"rank": 298,
+"name": "Moody's",
+"ticker": "MCO",
+"slug": "moodys",
+"cap": 82292842496,
+"country": "USA"
+},
+{
+"rank": 299,
+"name": "Robinhood",
+"ticker": "HOOD",
+"slug": "robinhood",
+"cap": 82203099136,
+"country": "USA"
+},
+{
+"rank": 300,
+"name": "Enterprise Products",
+"ticker": "EPD",
+"slug": "enterprise-products",
+"cap": 82189705216,
+"country": "USA"
+},
+{
+"rank": 301,
+"name": "Ecolab",
+"ticker": "ECL",
+"slug": "ecolab",
+"cap": 81970888704,
+"country": "USA"
+},
+{
+"rank": 302,
+"name": "Ita\u00fa Unibanco",
+"ticker": "ITUB",
+"slug": "itau-unibanco",
+"cap": 81562992640,
+"country": "Brazil"
+},
+{
+"rank": 303,
+"name": "TAQA",
+"ticker": "TAQA.AE",
+"slug": "taqa",
+"cap": 81434161761,
+"country": "UAE"
+},
+{
+"rank": 304,
+"name": "BAE Systems",
+"ticker": "BA.L",
+"slug": "bae-systems",
+"cap": 81125458044,
+"country": "UK"
+},
+{
+"rank": 305,
+"name": "The Travelers Companies",
+"ticker": "TRV",
+"slug": "the-travelers-companies",
+"cap": 80732651520,
+"country": "USA"
+},
+{
+"rank": 306,
+"name": "Atlas Copco",
+"ticker": "ATCO-B.ST",
+"slug": "atlas-copco",
+"cap": 80540123056,
+"country": "Sweden"
+},
+{
+"rank": 307,
+"name": "Simon Property Group",
+"ticker": "SPG",
+"slug": "simon-property",
+"cap": 80191668224,
+"country": "USA"
+},
+{
+"rank": 308,
+"name": "Hewlett Packard Enterprise",
+"ticker": "HPE",
+"slug": "hewlett-packard-enterprise",
+"cap": 80085958656,
+"country": "USA"
+},
+{
+"rank": 309,
+"name": "Motorola Solutions",
+"ticker": "MSI",
+"slug": "motorola-solutions",
+"cap": 79998050304,
+"country": "USA"
+},
+{
+"rank": 310,
+"name": "Royal Caribbean Group",
+"ticker": "RCL",
+"slug": "royal-caribbean",
+"cap": 79786467328,
+"country": "USA"
+},
+{
+"rank": 311,
+"name": "Mondelez International",
+"ticker": "MDLZ",
+"slug": "mondelez",
+"cap": 79419408384,
+"country": "USA"
+},
+{
+"rank": 312,
+"name": "SLB (Schlumberger)",
+"ticker": "SLB",
+"slug": "schlumberger",
+"cap": 79334998016,
+"country": "USA"
+},
+{
+"rank": 313,
+"name": "Munich RE (M\u00fcnchener R\u00fcck)",
+"ticker": "MUV2.DE",
+"slug": "munich-re",
+"cap": 79287699455,
+"country": "Germany"
+},
+{
+"rank": 314,
+"name": "Murata Manufacturing (Murata Seisakusho)",
+"ticker": "6981.T",
+"slug": "murata-seisakusho",
+"cap": 78888352390,
+"country": "Japan"
+},
+{
+"rank": 315,
+"name": "Lloyds Banking Group",
+"ticker": "LYG",
+"slug": "lloyds-banking-group",
+"cap": 78836129792,
+"country": "UK"
+},
+{
+"rank": 316,
+"name": "Illinois Tool Works",
+"ticker": "ITW",
+"slug": "illinois-tool-works",
+"cap": 78624735232,
+"country": "USA"
+},
+{
+"rank": 317,
+"name": "CPKC (Canadian Pacific Kansas City)",
+"ticker": "CP",
+"slug": "canadian-pacific-railway",
+"cap": 78616059904,
+"country": "Canada"
+},
+{
+"rank": 318,
+"name": "Northrop Grumman",
+"ticker": "NOC",
+"slug": "northrop-grumman",
+"cap": 78528995328,
+"country": "USA"
+},
+{
+"rank": 319,
+"name": "Sberbank",
+"ticker": "SBER.ME",
+"slug": "sberbank",
+"cap": 78237300879,
+"country": "Russia"
+},
+{
+"rank": 320,
+"name": "Infineon",
+"ticker": "IFX.DE",
+"slug": "infineon",
+"cap": 78229816143,
+"country": "Germany"
+},
+{
+"rank": 321,
+"name": "The Cigna Group",
+"ticker": "CI",
+"slug": "cigna",
+"cap": 77950943232,
+"country": "USA"
+},
+{
+"rank": 322,
+"name": "Howmet Aerospace",
+"ticker": "HWM",
+"slug": "howmet-aerospace",
+"cap": 77842046976,
+"country": "USA"
+},
+{
+"rank": 323,
+"name": "Hilton Worldwide",
+"ticker": "HLT",
+"slug": "hilton-hotels",
+"cap": 77794197504,
+"country": "USA"
+},
+{
+"rank": 324,
+"name": "Warner Bros. Discovery",
+"ticker": "WBD",
+"slug": "warner-bros-discovery",
+"cap": 77595885568,
+"country": "USA"
+},
+{
+"rank": 325,
+"name": "Sherwin-Williams",
+"ticker": "SHW",
+"slug": "sherwin-williams",
+"cap": 77501448192,
+"country": "USA"
+},
+{
+"rank": 326,
+"name": "CITIC Bank",
+"ticker": "601998.SS",
+"slug": "citic-bank",
+"cap": 77447052099,
+"country": "China"
+},
+{
+"rank": 327,
+"name": "Comcast",
+"ticker": "CMCSA",
+"slug": "comcast",
+"cap": 76595200000,
+"country": "USA"
+},
+{
+"rank": 328,
+"name": "Nan Ya Plastics",
+"ticker": "1303.TW",
+"slug": "nan-ya-plastics",
+"cap": 76159323169,
+"country": "Taiwan"
+},
+{
+"rank": 329,
+"name": "Barclays",
+"ticker": "BCS",
+"slug": "barclays",
+"cap": 76104327168,
+"country": "UK"
+},
+{
+"rank": 330,
+"name": "Norfolk Southern",
+"ticker": "NSC",
+"slug": "norfolk-southern",
+"cap": 75940659200,
+"country": "USA"
+},
+{
+"rank": 331,
+"name": "Brookfield Asset Management",
+"ticker": "BAM",
+"slug": "brookfield-asset-management",
+"cap": 75661803520,
+"country": "Canada"
+},
+{
+"rank": 332,
+"name": "Canadian National Railway",
+"ticker": "CNI",
+"slug": "canadian-national-railway",
+"cap": 75095662592,
+"country": "Canada"
+},
+{
+"rank": 333,
+"name": "Kinder Morgan",
+"ticker": "KMI",
+"slug": "kinder-morgan",
+"cap": 74762133504,
+"country": "USA"
+},
+{
+"rank": 334,
+"name": "Mitsubishi Heavy Industries",
+"ticker": "7011.T",
+"slug": "mitsubishi-heavy-industries",
+"cap": 74378444008,
+"country": "Japan"
+},
+{
+"rank": 335,
+"name": "Manulife Financial",
+"ticker": "MFC",
+"slug": "manulife-financial",
+"cap": 74046308352,
+"country": "Canada"
+},
+{
+"rank": 336,
+"name": "WuXi AppTec",
+"ticker": "2359.HK",
+"slug": "wuxi-apptec",
+"cap": 73921199822,
+"country": "China"
+},
+{
+"rank": 337,
+"name": "DHL Group (Deutsche Post)",
+"ticker": "DHL.DE",
+"slug": "deutsche-post",
+"cap": 73551707557,
+"country": "Germany"
+},
+{
+"rank": 338,
+"name": "DoorDash",
+"ticker": "DASH",
+"slug": "doordash",
+"cap": 73439674368,
+"country": "USA"
+},
+{
+"rank": 339,
+"name": "Cummins",
+"ticker": "CMI",
+"slug": "cummins",
+"cap": 73326018560,
+"country": "USA"
+},
+{
+"rank": 340,
+"name": "O'Reilly Automotive",
+"ticker": "ORLY",
+"slug": "o-reilly-automotive",
+"cap": 73162416128,
+"country": "USA"
+},
+{
+"rank": 341,
+"name": "United Rentals",
+"ticker": "URI",
+"slug": "united-rentals",
+"cap": 73110650880,
+"country": "USA"
+},
+{
+"rank": 342,
+"name": "Colgate-Palmolive",
+"ticker": "CL",
+"slug": "colgate-palmolive",
+"cap": 73092775936,
+"country": "USA"
+},
+{
+"rank": 343,
+"name": "Merck KGaA",
+"ticker": "MRK.DE",
+"slug": "merck-kgaa",
+"cap": 72845559380,
+"country": "Germany"
+},
+{
+"rank": 344,
+"name": "Ross Stores",
+"ticker": "ROST",
+"slug": "ross-stores",
+"cap": 72828919808,
+"country": "USA"
+},
+{
+"rank": 345,
+"name": "FedEx",
+"ticker": "FDX",
+"slug": "fedex",
+"cap": 72085078016,
+"country": "USA"
+},
+{
+"rank": 346,
+"name": "NetEase",
+"ticker": "NTES",
+"slug": "netease",
+"cap": 72005156864,
+"country": "China"
+},
+{
+"rank": 347,
+"name": "Generali",
+"ticker": "G.MI",
+"slug": "generali",
+"cap": 71764559574,
+"country": "Italy"
+},
+{
+"rank": 348,
+"name": "Republic Services",
+"ticker": "RSG",
+"slug": "republic-services",
+"cap": 71470112768,
+"country": "USA"
+},
+{
+"rank": 349,
+"name": "America Movil",
+"ticker": "AMX",
+"slug": "america-movil",
+"cap": 71452401664,
+"country": "Mexico"
+},
+{
+"rank": 350,
+"name": "Energy Transfer LP",
+"ticker": "ET",
+"slug": "energy-transfer-partners",
+"cap": 71310729216,
+"country": "USA"
+},
+{
+"rank": 351,
+"name": "SoftBank Corp.",
+"ticker": "9434.T",
+"slug": "softbank-corp",
+"cap": 70415347374,
+"country": "Japan"
+},
+{
+"rank": 352,
+"name": "General Motors",
+"ticker": "GM",
+"slug": "general-motors",
+"cap": 70025519104,
+"country": "USA"
+},
+{
+"rank": 353,
+"name": "Vingroup Company",
+"ticker": "VIC.VN",
+"slug": "vingroup-company",
+"cap": 69894660502,
+"country": "Vietnam"
+},
+{
+"rank": 354,
+"name": "American Electric Power",
+"ticker": "AEP",
+"slug": "american-electric-power",
+"cap": 69791744000,
+"country": "USA"
+},
+{
+"rank": 355,
+"name": "Honeywell",
+"ticker": "HON",
+"slug": "honeywell",
+"cap": 69492260864,
+"country": "USA"
+},
+{
+"rank": 356,
+"name": "Chugai Pharmaceutical",
+"ticker": "4519.T",
+"slug": "chugai-pharmaceutical",
+"cap": 69266248684,
+"country": "Japan"
+},
+{
+"rank": 357,
+"name": "Shin-Etsu Chemical",
+"ticker": "4063.T",
+"slug": "shin-etsu-chemical",
+"cap": 69034026325,
+"country": "Japan"
+},
+{
+"rank": 358,
+"name": "Ferrari",
+"ticker": "RACE",
+"slug": "ferrari",
+"cap": 68957839360,
+"country": "Italy"
+},
+{
+"rank": 359,
+"name": "Japan Post Bank",
+"ticker": "7182.T",
+"slug": "japan-post-bank",
+"cap": 68839899631,
+"country": "Japan"
+},
+{
+"rank": 360,
+"name": "Air Products and Chemicals",
+"ticker": "APD",
+"slug": "air-products-and-chemicals",
+"cap": 68408999936,
+"country": "USA"
+},
+{
+"rank": 361,
+"name": "Fubon Financial",
+"ticker": "2881.TW",
+"slug": "fubon-financial",
+"cap": 68139330874,
+"country": "Taiwan"
+},
+{
+"rank": 362,
+"name": "NatWest Group",
+"ticker": "NWG",
+"slug": "natwest-group",
+"cap": 68128718848,
+"country": "UK"
+},
+{
+"rank": 363,
+"name": "Digital Realty",
+"ticker": "DLR",
+"slug": "digital-realty",
+"cap": 67892609024,
+"country": "USA"
+},
+{
+"rank": 364,
+"name": "Target",
+"ticker": "TGT",
+"slug": "target",
+"cap": 67671257088,
+"country": "USA"
+},
+{
+"rank": 365,
+"name": "ENGIE",
+"ticker": "ENGI.PA",
+"slug": "engie",
+"cap": 67667726841,
+"country": "France"
+},
+{
+"rank": 366,
+"name": "Vinci",
+"ticker": "DG.PA",
+"slug": "vinci",
+"cap": 67602541455,
+"country": "France"
+},
+{
+"rank": 367,
+"name": "Macquarie Group Limited",
+"ticker": "MQG.AX",
+"slug": "macquarie",
+"cap": 67507688593,
+"country": "Australia"
+},
+{
+"rank": 368,
+"name": "Bloom Energy",
+"ticker": "BE",
+"slug": "bloom-energy",
+"cap": 67406127104,
+"country": "USA"
+},
+{
+"rank": 369,
+"name": "RELX",
+"ticker": "RELX",
+"slug": "relx",
+"cap": 67221094400,
+"country": "UK"
+},
+{
+"rank": 370,
+"name": "Apollo Global Management",
+"ticker": "APO",
+"slug": "apollo-global-management",
+"cap": 66997121024,
+"country": "USA"
+},
+{
+"rank": 371,
+"name": "Aon",
+"ticker": "AON",
+"slug": "aon",
+"cap": 66972246016,
+"country": "UK"
+},
+{
+"rank": 372,
+"name": "Arthur J. Gallagher & Co.",
+"ticker": "AJG",
+"slug": "arthur-gallagher",
+"cap": 66756325376,
+"country": "USA"
+},
+{
+"rank": 373,
+"name": "Bank of China (Hong Kong)",
+"ticker": "2388.HK",
+"slug": "boc-hong-kong",
+"cap": 66543194764,
+"country": "Hong Kong"
+},
+{
+"rank": 374,
+"name": "CSL",
+"ticker": "CSL.AX",
+"slug": "csl",
+"cap": 66514944023,
+"country": "Australia"
+},
+{
+"rank": 375,
+"name": "ADNOC Gas",
+"ticker": "ADNOCGAS.AE",
+"slug": "adnoc-gas",
+"cap": 65829923570,
+"country": "UAE"
+},
+{
+"rank": 376,
+"name": "TC Energy",
+"ticker": "TRP",
+"slug": "tc-energy",
+"cap": 65756327936,
+"country": "Canada"
+},
+{
+"rank": 377,
+"name": "Targa Resources",
+"ticker": "TRGP",
+"slug": "targa-resources",
+"cap": 65594449920,
+"country": "USA"
+},
+{
+"rank": 378,
+"name": "Carvana",
+"ticker": "CVNA",
+"slug": "carvana",
+"cap": 65454784512,
+"country": "USA"
+},
+{
+"rank": 379,
+"name": "Barrick Gold",
+"ticker": "B",
+"slug": "barrick-gold",
+"cap": 65325150208,
+"country": "Canada"
+},
+{
+"rank": 380,
+"name": "Imperial Oil",
+"ticker": "IMO",
+"slug": "imperial-oil",
+"cap": 64969117696,
+"country": "Canada"
+},
+{
+"rank": 381,
+"name": "KDDI",
+"ticker": "9433.T",
+"slug": "kddi",
+"cap": 64938958033,
+"country": "Japan"
+},
+{
+"rank": 382,
+"name": "Takeda Pharmaceutical",
+"ticker": "TAK",
+"slug": "takeda-pharmaceutical",
+"cap": 64370630656,
+"country": "Japan"
+},
+{
+"rank": 383,
+"name": "TE Connectivity",
+"ticker": "TEL",
+"slug": "te-connectivity",
+"cap": 64146477056,
+"country": "Switzerland"
+},
+{
+"rank": 384,
+"name": "Volvo Group",
+"ticker": "VOLV-A.ST",
+"slug": "volvo",
+"cap": 64118684078,
+"country": "Sweden"
+},
+{
+"rank": 385,
+"name": "TransDigm Group",
+"ticker": "TDG",
+"slug": "transdigm",
+"cap": 63570198528,
+"country": "USA"
+},
+{
+"rank": 386,
+"name": "NXP Semiconductors",
+"ticker": "NXPI",
+"slug": "nxp-semiconductors",
+"cap": 63467200512,
+"country": "Netherlands"
+},
+{
+"rank": 387,
+"name": "MetLife",
+"ticker": "MET",
+"slug": "metlife",
+"cap": 63318921216,
+"country": "USA"
+},
+{
+"rank": 388,
+"name": "W. W. Grainger",
+"ticker": "GWW",
+"slug": "ww-grainger",
+"cap": 63301464064,
+"country": "USA"
+},
+{
+"rank": 389,
+"name": "Allstate",
+"ticker": "ALL",
+"slug": "allstate",
+"cap": 63265058816,
+"country": "USA"
+},
+{
+"rank": 390,
+"name": "Deutsche B\u00f6rse",
+"ticker": "DB1.DE",
+"slug": "deutsche-boerse",
+"cap": 63212381387,
+"country": "Germany"
+},
+{
+"rank": 391,
+"name": "Deutsche Bank",
+"ticker": "DB",
+"slug": "deutsche-bank",
+"cap": 62965288960,
+"country": "Germany"
+},
+{
+"rank": 392,
+"name": "LG Energy Solution",
+"ticker": "373220.KS",
+"slug": "lg-energy-solution",
+"cap": 62862403223,
+"country": "S. Korea"
+},
+{
+"rank": 393,
+"name": "Occidental Petroleum",
+"ticker": "OXY",
+"slug": "occidental-petroleum",
+"cap": 62837207040,
+"country": "USA"
+},
+{
+"rank": 394,
+"name": "Mitsubishi Electric",
+"ticker": "6503.T",
+"slug": "mitsubishi-electric",
+"cap": 62671493234,
+"country": "Japan"
+},
+{
+"rank": 395,
+"name": "Bajaj Finance",
+"ticker": "BAJFINANCE.NS",
+"slug": "bajaj-finance",
+"cap": 61909555471,
+"country": "India"
+},
+{
+"rank": 396,
+"name": "Cencora",
+"ticker": "COR",
+"slug": "cencora",
+"cap": 61894791168,
+"country": "USA"
+},
+{
+"rank": 397,
+"name": "Nucor",
+"ticker": "NUE",
+"slug": "nucor",
+"cap": 61662543872,
+"country": "USA"
+},
+{
+"rank": 398,
+"name": "Industrial Bank",
+"ticker": "601166.SS",
+"slug": "industrial-bank",
+"cap": 61508896609,
+"country": "China"
+},
+{
+"rank": 399,
+"name": "Cheniere Energy",
+"ticker": "LNG",
+"slug": "cheniere-energy",
+"cap": 61499674624,
+"country": "USA"
+},
+{
+"rank": 400,
+"name": "Boston Scientific",
+"ticker": "BSX",
+"slug": "boston-scientific",
+"cap": 61490810880,
+"country": "USA"
+},
+{
+"rank": 401,
+"name": "Strategy \n (MicroStrategy)",
+"ticker": "MSTR",
+"slug": "microstrategy",
+"cap": 61485748224,
+"country": "USA"
+},
+{
+"rank": 402,
+"name": "Natera",
+"ticker": "NTRA",
+"slug": "natera",
+"cap": 61177671680,
+"country": "USA"
+},
+{
+"rank": 403,
+"name": "Nordea Bank",
+"ticker": "NDA-FI.HE",
+"slug": "nordea-bank",
+"cap": 61092901584,
+"country": "Finland"
+},
+{
+"rank": 404,
+"name": "Aflac",
+"ticker": "AFL",
+"slug": "aflac",
+"cap": 61038546944,
+"country": "USA"
+},
+{
+"rank": 405,
+"name": "Standard Chartered",
+"ticker": "STAN.L",
+"slug": "standard-chartered",
+"cap": 60606603067,
+"country": "UK"
+},
+{
+"rank": 406,
+"name": "Nintendo",
+"ticker": "7974.T",
+"slug": "nintendo",
+"cap": 60287816760,
+"country": "Japan"
+},
+{
+"rank": 407,
+"name": "MPLX",
+"ticker": "MPLX",
+"slug": "mplx",
+"cap": 59798257664,
+"country": "USA"
+},
+{
+"rank": 408,
+"name": "Oneok",
+"ticker": "OKE",
+"slug": "oneok",
+"cap": 59598888960,
+"country": "USA"
+},
+{
+"rank": 409,
+"name": "London Stock Exchange",
+"ticker": "LSEG.L",
+"slug": "london-stock-exchange",
+"cap": 59583655780,
+"country": "UK"
+},
+{
+"rank": 410,
+"name": "Cenovus Energy",
+"ticker": "CVE",
+"slug": "cenovus-energy",
+"cap": 59550670848,
+"country": "Canada"
+},
+{
+"rank": 411,
+"name": "Monolithic Power Systems",
+"ticker": "MPWR",
+"slug": "monolithic-power-systems",
+"cap": 59522981888,
+"country": "USA"
+},
+{
+"rank": 412,
+"name": "Truist Financial Corporation",
+"ticker": "TFC",
+"slug": "truist-financial",
+"cap": 59151138816,
+"country": "USA"
+},
+{
+"rank": 413,
+"name": "Great-West Lifeco",
+"ticker": "GWO.TO",
+"slug": "great-west-lifeco",
+"cap": 59088117272,
+"country": "Canada"
+},
+{
+"rank": 414,
+"name": "Fastenal",
+"ticker": "FAST",
+"slug": "fastenal",
+"cap": 59028664320,
+"country": "USA"
+},
+{
+"rank": 415,
+"name": "Nasdaq",
+"ticker": "NDAQ",
+"slug": "nasdaq",
+"cap": 59000061952,
+"country": "USA"
+},
+{
+"rank": 416,
+"name": "Ma'aden",
+"ticker": "1211.SR",
+"slug": "maaden",
+"cap": 58989209267,
+"country": "S. Arabia"
+},
+{
+"rank": 417,
+"name": "Wesfarmers",
+"ticker": "WES.AX",
+"slug": "wesfarmers",
+"cap": 58975096274,
+"country": "Australia"
+},
+{
+"rank": 418,
+"name": "Hong Kong Exchanges & Clearing",
+"ticker": "0388.HK",
+"slug": "hong-kong-exchanges-and-clearing",
+"cap": 58610123513,
+"country": "Hong Kong"
+},
+{
+"rank": 419,
+"name": "UCB",
+"ticker": "UCB.VI",
+"slug": "ucb",
+"cap": 58385326930,
+"country": "Belgium"
+},
+{
+"rank": 420,
+"name": "Diamondback Energy",
+"ticker": "FANG",
+"slug": "diamondback-energy",
+"cap": 58012430336,
+"country": "USA"
+},
+{
+"rank": 421,
+"name": "Public Storage",
+"ticker": "PSA",
+"slug": "public-storage",
+"cap": 57930809344,
+"country": "USA"
+},
+{
+"rank": 422,
+"name": "Nu Holdings",
+"ticker": "NU",
+"slug": "nu-holdings",
+"cap": 57823346688,
+"country": "Brazil"
+},
+{
+"rank": 423,
+"name": "Hyundai",
+"ticker": "005380.KS",
+"slug": "hyundai",
+"cap": 57793251641,
+"country": "S. Korea"
+},
+{
+"rank": 424,
+"name": "National Bank of Canada",
+"ticker": "NA.TO",
+"slug": "nbc-bank",
+"cap": 57709944992,
+"country": "Canada"
+},
+{
+"rank": 425,
+"name": "Cement Roadstone Holding",
+"ticker": "CRH",
+"slug": "crh",
+"cap": 57573720064,
+"country": "Ireland"
+},
+{
+"rank": 426,
+"name": "Wheaton Precious Metals",
+"ticker": "WPM",
+"slug": "wheaton-precious-metals",
+"cap": 57483026432,
+"country": "Canada"
+},
+{
+"rank": 427,
+"name": "CITIC Securities",
+"ticker": "600030.SS",
+"slug": "citic-securities",
+"cap": 57349233914,
+"country": "China"
+},
+{
+"rank": 428,
+"name": "Nongfu Spring",
+"ticker": "9633.HK",
+"slug": "nongfu-spring",
+"cap": 57308915912,
+"country": "China"
+},
+{
+"rank": 429,
+"name": "Keysight",
+"ticker": "KEYS",
+"slug": "keysight",
+"cap": 57117114368,
+"country": "USA"
+},
+{
+"rank": 430,
+"name": "Compass Group",
+"ticker": "CPG.L",
+"slug": "compass-group",
+"cap": 57096769536,
+"country": "UK"
+},
+{
+"rank": 431,
+"name": "Ametek",
+"ticker": "AME",
+"slug": "ametek",
+"cap": 56872144896,
+"country": "USA"
+},
+{
+"rank": 432,
+"name": "The Saudi National Bank",
+"ticker": "1180.SR",
+"slug": "the-saudi-national-bank",
+"cap": 56835741297,
+"country": "S. Arabia"
+},
+{
+"rank": 433,
+"name": "Cardinal Health",
+"ticker": "CAH",
+"slug": "cardinal-health",
+"cap": 56676462592,
+"country": "USA"
+},
+{
+"rank": 434,
+"name": "Dominion Energy",
+"ticker": "D",
+"slug": "dominion-energy",
+"cap": 56535928832,
+"country": "USA"
+},
+{
+"rank": 435,
+"name": "Devon Energy",
+"ticker": "DVN",
+"slug": "devon-energy",
+"cap": 56397000704,
+"country": "USA"
+},
+{
+"rank": 436,
+"name": "Honeywell Aerospace",
+"ticker": "HONA",
+"slug": "honeywell-aerospace",
+"cap": 56110141440,
+"country": "USA"
+},
+{
+"rank": 437,
+"name": "Argenx",
+"ticker": "ARGX",
+"slug": "argenx",
+"cap": 56079282176,
+"country": "Netherlands"
+},
+{
+"rank": 438,
+"name": "Loblaw Companies",
+"ticker": "L.TO",
+"slug": "loblaw-companies",
+"cap": 55929731436,
+"country": "Canada"
+},
+{
+"rank": 439,
+"name": "Larsen & Toubro",
+"ticker": "LT.NS",
+"slug": "larsen-and-toubro",
+"cap": 55922641496,
+"country": "India"
+},
+{
+"rank": 440,
+"name": "Luxshare Precision",
+"ticker": "002475.SZ",
+"slug": "luxshare-precision",
+"cap": 55764462113,
+"country": "China"
+},
+{
+"rank": 441,
+"name": "Atlassian",
+"ticker": "TEAM",
+"slug": "atlassian",
+"cap": 55720914944,
+"country": "Australia"
+},
+{
+"rank": 442,
+"name": "First Abu Dhabi Bank",
+"ticker": "FAB.AE",
+"slug": "first-abu-dhabi-bank",
+"cap": 55650175083,
+"country": "UAE"
+},
+{
+"rank": 443,
+"name": "E.ON",
+"ticker": "EOAN.DE",
+"slug": "e-on",
+"cap": 55489673089,
+"country": "Germany"
+},
+{
+"rank": 444,
+"name": "Hoya",
+"ticker": "7741.T",
+"slug": "hoya",
+"cap": 55390196606,
+"country": "Japan"
+},
+{
+"rank": 445,
+"name": "Sempra",
+"ticker": "SRE",
+"slug": "sempra-energy",
+"cap": 55365742592,
+"country": "USA"
+},
+{
+"rank": 446,
+"name": "Anglo American",
+"ticker": "AAL.L",
+"slug": "anglo-american",
+"cap": 55289736704,
+"country": "UK"
+},
+{
+"rank": 447,
+"name": "Nike",
+"ticker": "NKE",
+"slug": "nike",
+"cap": 55179223040,
+"country": "USA"
+},
+{
+"rank": 448,
+"name": "Thales",
+"ticker": "HO.PA",
+"slug": "thales",
+"cap": 54776595486,
+"country": "France"
+},
+{
+"rank": 449,
+"name": "Saudi Telecom Company",
+"ticker": "7010.SR",
+"slug": "saudi-telecom-company",
+"cap": 54710412101,
+"country": "S. Arabia"
+},
+{
+"rank": 450,
+"name": "Meituan",
+"ticker": "3690.HK",
+"slug": "meituan-dianping",
+"cap": 54435741907,
+"country": "China"
+},
+{
+"rank": 451,
+"name": "Panasonic",
+"ticker": "6752.T",
+"slug": "panasonic",
+"cap": 54401576647,
+"country": "Japan"
+},
+{
+"rank": 452,
+"name": "Swiss Re",
+"ticker": "SREN.SW",
+"slug": "swiss-re",
+"cap": 54360333261,
+"country": "Switzerland"
+},
+{
+"rank": 453,
+"name": "Baker Hughes",
+"ticker": "BKR",
+"slug": "baker-hughes",
+"cap": 54259564544,
+"country": "USA"
+},
+{
+"rank": 454,
+"name": "Rheinmetall",
+"ticker": "RHM.F",
+"slug": "rheinmetall",
+"cap": 54238124718,
+"country": "Germany"
+},
+{
+"rank": 455,
+"name": "NAURA Technology Group",
+"ticker": "002371.SZ",
+"slug": "naura-technology-group",
+"cap": 54235547313,
+"country": "China"
+},
+{
+"rank": 456,
+"name": "Paccar",
+"ticker": "PCAR",
+"slug": "paccar",
+"cap": 53924130816,
+"country": "USA"
+},
+{
+"rank": 457,
+"name": "Siemens Healthineers",
+"ticker": "SHL.DE",
+"slug": "siemens-healthineers",
+"cap": 53923213091,
+"country": "Germany"
+},
+{
+"rank": 458,
+"name": "Lonza",
+"ticker": "LONN.SW",
+"slug": "lonza",
+"cap": 53766083611,
+"country": "Switzerland"
+},
+{
+"rank": 459,
+"name": "UOB",
+"ticker": "U11.SI",
+"slug": "uob",
+"cap": 53543126465,
+"country": "Singapore"
+},
+{
+"rank": 460,
+"name": "Realty Income",
+"ticker": "O",
+"slug": "realty-income",
+"cap": 53205839872,
+"country": "USA"
+},
+{
+"rank": 461,
+"name": "Becton Dickinson",
+"ticker": "BDX",
+"slug": "becton-dickinson",
+"cap": 53159010304,
+"country": "USA"
+},
+{
+"rank": 462,
+"name": "Galderma Group",
+"ticker": "GALD.SW",
+"slug": "galderma-group",
+"cap": 53080415906,
+"country": "Switzerland"
+},
+{
+"rank": 463,
+"name": "Lukoil",
+"ticker": "LKOH.ME",
+"slug": "lukoil",
+"cap": 52990868950,
+"country": "Russia"
+},
+{
+"rank": 464,
+"name": "Delta Air Lines",
+"ticker": "DAL",
+"slug": "delta-air-lines",
+"cap": 52863258624,
+"country": "USA"
+},
+{
+"rank": 465,
+"name": "Edwards Lifesciences",
+"ticker": "EW",
+"slug": "edwards-lifesciences",
+"cap": 52846923776,
+"country": "USA"
+},
+{
+"rank": 466,
+"name": "Cathay Financial Holding",
+"ticker": "2882.TW",
+"slug": "cathay-financial-holding",
+"cap": 52599654819,
+"country": "Taiwan"
+},
+{
+"rank": 467,
+"name": "Garmin",
+"ticker": "GRMN",
+"slug": "garmin",
+"cap": 52555247616,
+"country": "Switzerland"
+},
+{
+"rank": 468,
+"name": "BASF",
+"ticker": "BAS.DE",
+"slug": "basf",
+"cap": 52550892078,
+"country": "Germany"
+},
+{
+"rank": 469,
+"name": "eBay",
+"ticker": "EBAY",
+"slug": "ebay",
+"cap": 52518899712,
+"country": "USA"
+},
+{
+"rank": 470,
+"name": "Unimicron",
+"ticker": "3037.TW",
+"slug": "unimicron",
+"cap": 52508622516,
+"country": "Taiwan"
+},
+{
+"rank": 471,
+"name": "Singtel",
+"ticker": "Z74.SI",
+"slug": "singtel",
+"cap": 52491539011,
+"country": "Singapore"
+},
+{
+"rank": 472,
+"name": "Alimentation Couche-Tard",
+"ticker": "ATD.TO",
+"slug": "alimentation-couche-tard",
+"cap": 52440814747,
+"country": "Canada"
+},
+{
+"rank": 473,
+"name": "Sumitomo",
+"ticker": "8053.T",
+"slug": "sumitomo",
+"cap": 52195533892,
+"country": "Japan"
+},
+{
+"rank": 474,
+"name": "BTG Pactual",
+"ticker": "BPAC3.SA",
+"slug": "btg-pactual",
+"cap": 52130145462,
+"country": "Brazil"
+},
+{
+"rank": 475,
+"name": "Cr\u00e9dit Agricole",
+"ticker": "ACA.PA",
+"slug": "credit-agricole",
+"cap": 51972643822,
+"country": "France"
+},
+{
+"rank": 476,
+"name": "Corteva",
+"ticker": "CTVA",
+"slug": "corteva",
+"cap": 51807772672,
+"country": "USA"
+},
+{
+"rank": 477,
+"name": "Nokia",
+"ticker": "NOK",
+"slug": "nokia",
+"cap": 51619504128,
+"country": "Finland"
+},
+{
+"rank": 478,
+"name": "Astera Labs",
+"ticker": "ALAB",
+"slug": "astera-labs",
+"cap": 51559776256,
+"country": "USA"
+},
+{
+"rank": 479,
+"name": "Entergy",
+"ticker": "ETR",
+"slug": "entergy",
+"cap": 51542630400,
+"country": "USA"
+},
+{
+"rank": 480,
+"name": "Ciena",
+"ticker": "CIEN",
+"slug": "ciena",
+"cap": 51506274304,
+"country": "USA"
+},
+{
+"rank": 481,
+"name": "RWE",
+"ticker": "RWE.DE",
+"slug": "rwe",
+"cap": 51467453629,
+"country": "Germany"
+},
+{
+"rank": 482,
+"name": "Veeva Systems",
+"ticker": "VEEV",
+"slug": "veeva-systems",
+"cap": 51457871872,
+"country": "USA"
+},
+{
+"rank": 483,
+"name": "KBC",
+"ticker": "KBCSF",
+"slug": "kbc",
+"cap": 51426553856,
+"country": "Belgium"
+},
+{
+"rank": 484,
+"name": "Emirates NBD Bank PJSC",
+"ticker": "EMIRATESNBD.AE",
+"slug": "emirates-nbd-bank",
+"cap": 51322573980,
+"country": "UAE"
+},
+{
+"rank": 485,
+"name": "Marubeni",
+"ticker": "8002.T",
+"slug": "marubeni",
+"cap": 51276737189,
+"country": "Japan"
+},
+{
+"rank": 486,
+"name": "China Telecom",
+"ticker": "0728.HK",
+"slug": "china-telecom",
+"cap": 51201513009,
+"country": "China"
+},
+{
+"rank": 487,
+"name": "Agilent Technologies",
+"ticker": "A",
+"slug": "agilent-technologies",
+"cap": 51164450816,
+"country": "USA"
+},
+{
+"rank": 488,
+"name": "Diageo",
+"ticker": "DEO",
+"slug": "diageo",
+"cap": 51143102464,
+"country": "UK"
+},
+{
+"rank": 489,
+"name": "Bayer",
+"ticker": "BAYN.DE",
+"slug": "bayer",
+"cap": 51041464116,
+"country": "Germany"
+},
+{
+"rank": 490,
+"name": "AutoZone",
+"ticker": "AZO",
+"slug": "autozone",
+"cap": 50805972992,
+"country": "USA"
+},
+{
+"rank": 491,
+"name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+"ticker": "GLE.PA",
+"slug": "societe-generale",
+"cap": 50797277736,
+"country": "France"
+},
+{
+"rank": 492,
+"name": "Maersk",
+"ticker": "MAERSK-B.CO",
+"slug": "maersk",
+"cap": 50756941402,
+"country": "Denmark"
+},
+{
+"rank": 493,
+"name": "Autodesk",
+"ticker": "ADSK",
+"slug": "autodesk",
+"cap": 50657419264,
+"country": "USA"
+},
+{
+"rank": 494,
+"name": "Nanya Technology",
+"ticker": "2408.TW",
+"slug": "nanya-technology",
+"cap": 50653992137,
+"country": "Taiwan"
+},
+{
+"rank": 495,
+"name": "Constellation Software",
+"ticker": "CSU.TO",
+"slug": "constellation-software",
+"cap": 50480346629,
+"country": "Canada"
+},
+{
+"rank": 496,
+"name": "Thomson Reuters",
+"ticker": "TRI",
+"slug": "thomson-reuters",
+"cap": 50296152064,
+"country": "Canada"
+},
+{
+"rank": 497,
+"name": "The People's Insurance Company (PICC)",
+"ticker": "601319.SS",
+"slug": "peoples-insurance-company-picc",
+"cap": 49890134807,
+"country": "China"
+},
+{
+"rank": 498,
+"name": "Shanghai Pudong Development Bank",
+"ticker": "600000.SS",
+"slug": "shanghai-pudong-development-bank",
+"cap": 49847984323,
+"country": "China"
+},
+{
+"rank": 499,
+"name": "Endesa",
+"ticker": "ELE.MC",
+"slug": "endesa",
+"cap": 49762768587,
+"country": "Spain"
+},
+{
+"rank": 500,
+"name": "Rosneft",
+"ticker": "ROSN.ME",
+"slug": "rosneft",
+"cap": 49760439613,
+"country": "Russia"
+},
+{
+"rank": 501,
+"name": "Endesa",
+"ticker": "ELE.MC",
+"slug": "endesa",
+"cap": 49728576973,
+"country": "Spain"
+},
+{
+"rank": 502,
+"name": "DSV",
+"ticker": "DSV.VI",
+"slug": "dsv",
+"cap": 49619463805,
+"country": "Denmark"
+},
+{
+"rank": 503,
+"name": "Humana",
+"ticker": "HUM",
+"slug": "humana",
+"cap": 49457475584,
+"country": "USA"
+},
+{
+"rank": 504,
+"name": "Rockwell Automation",
+"ticker": "ROK",
+"slug": "rockwell-automation",
+"cap": 49284509696,
+"country": "USA"
+},
+{
+"rank": 505,
+"name": "Workday",
+"ticker": "WDAY",
+"slug": "workday",
+"cap": 49250758656,
+"country": "USA"
+},
+{
+"rank": 506,
+"name": "DNB",
+"ticker": "DNB.OL",
+"slug": "dnb",
+"cap": 49186443796,
+"country": "Norway"
+},
+{
+"rank": 507,
+"name": "SMIC",
+"ticker": "0981.HK",
+"slug": "smic",
+"cap": 49066403048,
+"country": "China"
+},
+{
+"rank": 508,
+"name": "Heineken",
+"ticker": "HEIA.AS",
+"slug": "heineken",
+"cap": 48974346119,
+"country": "Netherlands"
+},
+{
+"rank": 509,
+"name": "Teradyne",
+"ticker": "TER",
+"slug": "teradyne",
+"cap": 48972177408,
+"country": "USA"
+},
+{
+"rank": 510,
+"name": "Infosys",
+"ticker": "INFY",
+"slug": "infosys",
+"cap": 48969052160,
+"country": "India"
+},
+{
+"rank": 511,
+"name": "Vale",
+"ticker": "VALE",
+"slug": "vale",
+"cap": 48813600768,
+"country": "Brazil"
+},
+{
+"rank": 512,
+"name": "Coca-Cola European Partners",
+"ticker": "CCEP",
+"slug": "coca-cola-european-partners",
+"cap": 48789020672,
+"country": "UK"
+},
+{
+"rank": 513,
+"name": "Swire Pacific",
+"ticker": "0019.HK",
+"slug": "swire-pacific",
+"cap": 48552362687,
+"country": "Hong Kong"
+},
+{
+"rank": 514,
+"name": "L3Harris Technologies",
+"ticker": "LHX",
+"slug": "l3harris-technologies",
+"cap": 48529391616,
+"country": "USA"
+},
+{
+"rank": 515,
+"name": "Fifth Third Bank",
+"ticker": "FITB",
+"slug": "fifth-third-bank",
+"cap": 48474460160,
+"country": "USA"
+},
+{
+"rank": 516,
+"name": "Jiangsu Hengrui Medicine",
+"ticker": "600276.SS",
+"slug": "jiangsu-hengrui-medicine",
+"cap": 48346114365,
+"country": "China"
+},
+{
+"rank": 517,
+"name": "Vylor Inc.",
+"ticker": "VYLR",
+"slug": "vylor-inc",
+"cap": 48259346432,
+"country": "USA"
+},
+{
+"rank": 518,
+"name": "Xcel Energy",
+"ticker": "XEL",
+"slug": "xcel-energy",
+"cap": 48209276928,
+"country": "USA"
+},
+{
+"rank": 519,
+"name": "Kotak Mahindra Bank",
+"ticker": "KOTAKBANK.NS",
+"slug": "kotak-mahindra-bank",
+"cap": 48191139023,
+"country": "India"
+},
+{
+"rank": 520,
+"name": "Samsung Biologics",
+"ticker": "207940.KS",
+"slug": "samsung-biologics",
+"cap": 47987449872,
+"country": "S. Korea"
+},
+{
+"rank": 521,
+"name": "Vistra",
+"ticker": "VST",
+"slug": "vistra",
+"cap": 47901855744,
+"country": "USA"
+},
+{
+"rank": 522,
+"name": "Hikvision",
+"ticker": "002415.SZ",
+"slug": "hikvision",
+"cap": 47768604623,
+"country": "China"
+},
+{
+"rank": 523,
+"name": "Eoptolink Technology",
+"ticker": "300502.SZ",
+"slug": "eoptolink-technology",
+"cap": 47725472296,
+"country": "China"
+},
+{
+"rank": 524,
+"name": "Wabtec",
+"ticker": "WAB",
+"slug": "wabtec",
+"cap": 47663263744,
+"country": "USA"
+},
+{
+"rank": 525,
+"name": "Ford",
+"ticker": "F",
+"slug": "ford",
+"cap": 47651770368,
+"country": "USA"
+},
+{
+"rank": 526,
+"name": "Keurig Dr Pepper",
+"ticker": "KDP",
+"slug": "keurig-dr-pepper",
+"cap": 47533654016,
+"country": "USA"
+},
+{
+"rank": 527,
+"name": "Comfort Systems USA",
+"ticker": "FIX",
+"slug": "comfort-systems",
+"cap": 47363473408,
+"country": "USA"
+},
+{
+"rank": 528,
+"name": "State Street Corporation",
+"ticker": "STT",
+"slug": "state-street-corporation",
+"cap": 47346614272,
+"country": "USA"
+},
+{
+"rank": 529,
+"name": "PayPal",
+"ticker": "PYPL",
+"slug": "paypal",
+"cap": 47332347904,
+"country": "USA"
+},
+{
+"rank": 530,
+"name": "Fujitsu",
+"ticker": "6702.T",
+"slug": "fujitsu",
+"cap": 47208245647,
+"country": "Japan"
+},
+{
+"rank": 531,
+"name": "United Microelectronics",
+"ticker": "UMC",
+"slug": "united-microelectronics",
+"cap": 47198838784,
+"country": "Taiwan"
+},
+{
+"rank": 532,
+"name": "Coherent Corp.",
+"ticker": "COHR",
+"slug": "coherent",
+"cap": 47182737408,
+"country": "USA"
+},
+{
+"rank": 533,
+"name": "Vivmark Residential",
+"ticker": "VMRK",
+"slug": "vivmark-residential",
+"cap": 47123148800,
+"country": "USA"
+},
+{
+"rank": 534,
+"name": "Erste Group Bank",
+"ticker": "EBO.F",
+"slug": "erste-group-bank",
+"cap": 46909128423,
+"country": "Austria"
+},
+{
+"rank": 535,
+"name": "Waters Corporation",
+"ticker": "WAT",
+"slug": "waters-corporation",
+"cap": 46822871040,
+"country": "USA"
+},
+{
+"rank": 536,
+"name": "Porsche",
+"ticker": "P911.DE",
+"slug": "porsche",
+"cap": 46818972253,
+"country": "Germany"
+},
+{
+"rank": 537,
+"name": "Carrier Global",
+"ticker": "CARR",
+"slug": "carrier",
+"cap": 46736760832,
+"country": "USA"
+},
+{
+"rank": 538,
+"name": "MS&AD Insurance",
+"ticker": "8725.T",
+"slug": "ms-ad-insurance",
+"cap": 46732749671,
+"country": "Japan"
+},
+{
+"rank": 539,
+"name": "Danone",
+"ticker": "BN.PA",
+"slug": "danone",
+"cap": 46726225601,
+"country": "France"
+},
+{
+"rank": 540,
+"name": "Teva Pharmaceutical Industries",
+"ticker": "TEVA",
+"slug": "teva-pharmaceutical-industries",
+"cap": 46616715264,
+"country": "Israel"
+},
+{
+"rank": 541,
+"name": "Holcim Group",
+"ticker": "HOLN.SW",
+"slug": "lafargeholcim",
+"cap": 46471177258,
+"country": "Switzerland"
+},
+{
+"rank": 542,
+"name": "Hindustan Unilever",
+"ticker": "HINDUNILVR.NS",
+"slug": "hindustan-unilever",
+"cap": 46384837745,
+"country": "India"
+},
+{
+"rank": 543,
+"name": "Commerzbank",
+"ticker": "CBK.F",
+"slug": "commerzbank",
+"cap": 46380991980,
+"country": "Germany"
+},
+{
+"rank": 544,
+"name": "Nebius Group",
+"ticker": "NBIS",
+"slug": "nebius-group",
+"cap": 46295793664,
+"country": "Netherlands"
+},
+{
+"rank": 545,
+"name": "Everpure",
+"ticker": "P",
+"slug": "everpure",
+"cap": 46185299968,
+"country": "USA"
+},
+{
+"rank": 546,
+"name": "Yum China",
+"ticker": "YUMC",
+"slug": "yum-china",
+"cap": 46130630656,
+"country": "China"
+},
+{
+"rank": 547,
+"name": "Exelon Corporation",
+"ticker": "EXC",
+"slug": "exelon-corporation",
+"cap": 46124470272,
+"country": "USA"
+},
+{
+"rank": 548,
+"name": "Franco-Nevada",
+"ticker": "FNV",
+"slug": "franco-nevada",
+"cap": 46053904384,
+"country": "Canada"
+},
+{
+"rank": 549,
+"name": "Sea Limited",
+"ticker": "SE",
+"slug": "sea",
+"cap": 46046588928,
+"country": "Singapore"
+},
+{
+"rank": 550,
+"name": "IQVIA",
+"ticker": "IQV",
+"slug": "iqvia",
+"cap": 45985792000,
+"country": "USA"
+},
+{
+"rank": 551,
+"name": "Aena",
+"ticker": "AENA.MC",
+"slug": "aena",
+"cap": 45630193631,
+"country": "Spain"
+},
+{
+"rank": 552,
+"name": "Sandvik",
+"ticker": "SAND.ST",
+"slug": "sandvik",
+"cap": 45612974457,
+"country": "Sweden"
+},
+{
+"rank": 553,
+"name": "CTBC Financial Holding",
+"ticker": "2891.TW",
+"slug": "ctbc-financial-holding",
+"cap": 45601652922,
+"country": "Taiwan"
+},
+{
+"rank": 554,
+"name": "Adani Ports & SEZ",
+"ticker": "ADANIPORTS.NS",
+"slug": "adani-ports-and-sez",
+"cap": 45510814372,
+"country": "India"
+},
+{
+"rank": 555,
+"name": "ArcelorMittal",
+"ticker": "MT",
+"slug": "arcelor-mittal",
+"cap": 45341679616,
+"country": "Luxembourg"
+},
+{
+"rank": 556,
+"name": "Block",
+"ticker": "XYZ",
+"slug": "square",
+"cap": 45185794048,
+"country": "USA"
+},
+{
+"rank": 557,
+"name": "Kuwait Finance House",
+"ticker": "KFH.KW",
+"slug": "kuwait-finance-house",
+"cap": 45181176403,
+"country": "Kuwait"
+},
+{
+"rank": 558,
+"name": "CITIC limited",
+"ticker": "0267.HK",
+"slug": "citic",
+"cap": 45123374895,
+"country": "China"
+},
+{
+"rank": 559,
+"name": "PICC Property and Casualty Company Limited",
+"ticker": "2328.HK",
+"slug": "picc-property-and-casualty-company-limited",
+"cap": 45104747671,
+"country": "China"
+},
+{
+"rank": 560,
+"name": "Bombardier",
+"ticker": "BBD-B.TO",
+"slug": "bombardier",
+"cap": 45001362654,
+"country": "Canada"
+},
+{
+"rank": 561,
+"name": "Waste Connections",
+"ticker": "WCN",
+"slug": "waste-connections",
+"cap": 44984508416,
+"country": "USA"
+},
+{
+"rank": 562,
+"name": "Sun Life Financial",
+"ticker": "SLF",
+"slug": "sun-life-financial",
+"cap": 44954669056,
+"country": "Canada"
+},
+{
+"rank": 563,
+"name": "Sun Pharmaceutical",
+"ticker": "SUNPHARMA.NS",
+"slug": "sun-pharmaceutical",
+"cap": 44752867089,
+"country": "India"
+},
+{
+"rank": 564,
+"name": "Reckitt Benckiser",
+"ticker": "RKT.L",
+"slug": "reckitt-benckiser",
+"cap": 44643769379,
+"country": "UK"
+},
+{
+"rank": 565,
+"name": "Swedbank",
+"ticker": "SWED-A.ST",
+"slug": "swedbank",
+"cap": 44643184047,
+"country": "Sweden"
+},
+{
+"rank": 566,
+"name": "Ferguson Enterprises",
+"ticker": "FERG",
+"slug": "ferguson",
+"cap": 44637282304,
+"country": "UK"
+},
+{
+"rank": 567,
+"name": "ORLEN",
+"ticker": "PKN.WA",
+"slug": "pkn-orlen",
+"cap": 44456071448,
+"country": "Poland"
+},
+{
+"rank": 568,
+"name": "IDEXX Laboratories",
+"ticker": "IDXX",
+"slug": "idexx-laboratories",
+"cap": 44404027392,
+"country": "USA"
+},
+{
+"rank": 569,
+"name": "China Pacific Insurance",
+"ticker": "601601.SS",
+"slug": "china-pacific-insurance",
+"cap": 44319756380,
+"country": "China"
+},
+{
+"rank": 570,
+"name": "Fomento Econ\u00f3mico Mexicano (FEMSA)",
+"ticker": "FMX",
+"slug": "fomento-economico-mexicano",
+"cap": 44262705100,
+"country": "Mexico"
+},
+{
+"rank": 571,
+"name": "Tesco",
+"ticker": "TSCO.L",
+"slug": "tesco",
+"cap": 44171683301,
+"country": "UK"
+},
+{
+"rank": 572,
+"name": "AngloGold Ashanti",
+"ticker": "AU",
+"slug": "anglogold-ashanti",
+"cap": 44128366592,
+"country": "South Africa"
+},
+{
+"rank": 573,
+"name": "MSCI",
+"ticker": "MSCI",
+"slug": "msci",
+"cap": 43979137024,
+"country": "USA"
+},
+{
+"rank": 574,
+"name": "Haleon",
+"ticker": "HLN",
+"slug": "haleon",
+"cap": 43976392704,
+"country": "UK"
+},
+{
+"rank": 575,
+"name": "Fujikura",
+"ticker": "5803.T",
+"slug": "fujikura",
+"cap": 43939043323,
+"country": "Japan"
+},
+{
+"rank": 576,
+"name": "NetApp",
+"ticker": "NTAP",
+"slug": "netapp",
+"cap": 43931074560,
+"country": "USA"
+},
+{
+"rank": 577,
+"name": "Givaudan",
+"ticker": "GIVN.SW",
+"slug": "givaudan",
+"cap": 43840271085,
+"country": "Switzerland"
+},
+{
+"rank": 578,
+"name": "Honda",
+"ticker": "HMC",
+"slug": "honda",
+"cap": 43700703232,
+"country": "Japan"
+},
+{
+"rank": 579,
+"name": "Illumina",
+"ticker": "ILMN",
+"slug": "illumina",
+"cap": 43607289856,
+"country": "USA"
+},
+{
+"rank": 580,
+"name": "Roper Technologies",
+"ticker": "ROP",
+"slug": "roper-technologies",
+"cap": 43581657088,
+"country": "USA"
+},
+{
+"rank": 581,
+"name": "Walmex",
+"ticker": "WMMVF",
+"slug": "walmex",
+"cap": 43567185920,
+"country": "Mexico"
+},
+{
+"rank": 582,
+"name": "Medline",
+"ticker": "MDLN",
+"slug": "medline",
+"cap": 43551670272,
+"country": "USA"
+},
+{
+"rank": 583,
+"name": "Sandoz Group",
+"ticker": "SDZ.SW",
+"slug": "sandoz-group",
+"cap": 43543767340,
+"country": "Switzerland"
+},
+{
+"rank": 584,
+"name": "Woodside Energy",
+"ticker": "WDS",
+"slug": "woodside-energy",
+"cap": 43440140288,
+"country": "Australia"
+},
+{
+"rank": 585,
+"name": "HEICO",
+"ticker": "HEI",
+"slug": "heico",
+"cap": 43439398912,
+"country": "USA"
+},
+{
+"rank": 586,
+"name": "STMicroelectronics",
+"ticker": "STM",
+"slug": "stmicroelectronics",
+"cap": 43397009408,
+"country": "Switzerland"
+},
+{
+"rank": 587,
+"name": "Swisscom",
+"ticker": "SCMN.SW",
+"slug": "swisscom",
+"cap": 43389789107,
+"country": "Switzerland"
+},
+{
+"rank": 588,
+"name": "Poste Italiane",
+"ticker": "PST.MI",
+"slug": "poste-italiane",
+"cap": 43329766522,
+"country": "Italy"
+},
+{
+"rank": 589,
+"name": "Novatek",
+"ticker": "NVTK.ME",
+"slug": "novatek",
+"cap": 43329724895,
+"country": "Russia"
+},
+{
+"rank": 590,
+"name": "Ameriprise Financial",
+"ticker": "AMP",
+"slug": "ameriprise-financial",
+"cap": 43298320384,
+"country": "USA"
+},
+{
+"rank": 591,
+"name": "Power Corporation of Canada",
+"ticker": "POW.TO",
+"slug": "power-corp-canada",
+"cap": 43261357308,
+"country": "Canada"
+},
+{
+"rank": 592,
+"name": "Microchip Technology",
+"ticker": "MCHP",
+"slug": "microchip-technology",
+"cap": 43239780352,
+"country": "USA"
+},
+{
+"rank": 593,
+"name": "Assa Abloy",
+"ticker": "ASSA-B.ST",
+"slug": "assa-abloy",
+"cap": 43073929830,
+"country": "Sweden"
+},
+{
+"rank": 594,
+"name": "ASM International",
+"ticker": "ASM.AS",
+"slug": "asm-international",
+"cap": 43056321028,
+"country": "Netherlands"
+},
+{
+"rank": 595,
+"name": "Toyota Tsusho",
+"ticker": "8015.T",
+"slug": "toyota-tsusho",
+"cap": 42988270275,
+"country": "Japan"
+},
+{
+"rank": 596,
+"name": "Mercedes-Benz",
+"ticker": "MBG.DE",
+"slug": "mercedes-benz-group",
+"cap": 42956437894,
+"country": "Germany"
+},
+{
+"rank": 597,
+"name": "Ambev",
+"ticker": "ABEV",
+"slug": "ambev",
+"cap": 42857832448,
+"country": "Brazil"
+},
+{
+"rank": 598,
+"name": "Orange",
+"ticker": "ORA.PA",
+"slug": "orange",
+"cap": 42843252652,
+"country": "France"
+},
+{
+"rank": 599,
+"name": "Coinbase",
+"ticker": "COIN",
+"slug": "coinbase",
+"cap": 42826010624,
+"country": "USA"
+},
+{
+"rank": 600,
+"name": "Danske Bank",
+"ticker": "DANS.VI",
+"slug": "danske-bank",
+"cap": 42819455178,
+"country": "Denmark"
+},
+{
+"rank": 601,
+"name": "Antofagasta",
+"ticker": "ANTO.L",
+"slug": "antofagasta",
+"cap": 42795059355,
+"country": "UK"
+},
+{
+"rank": 602,
+"name": "SSE",
+"ticker": "SSE.L",
+"slug": "sse",
+"cap": 42688769399,
+"country": "UK"
+},
+{
+"rank": 603,
+"name": "East Money Information",
+"ticker": "300059.SZ",
+"slug": "east-money",
+"cap": 42573064079,
+"country": "China"
+},
+{
+"rank": 604,
+"name": "BeOne Medicines",
+"ticker": "ONC",
+"slug": "beigene",
+"cap": 42476605440,
+"country": "USA"
+},
+{
+"rank": 605,
+"name": "Consolidated Edison",
+"ticker": "ED",
+"slug": "consolidated-edison",
+"cap": 42215940096,
+"country": "USA"
+},
+{
+"rank": 606,
+"name": "Zijin Gold International Company Limited",
+"ticker": "2259.HK",
+"slug": "zijin-gold-international-company-limited",
+"cap": 42196282178,
+"country": "Hong Kong"
+},
+{
+"rank": 607,
+"name": "Wuliangye Yibin",
+"ticker": "000858.SZ",
+"slug": "wuliangye-yibin",
+"cap": 42033114708,
+"country": "China"
+},
+{
+"rank": 608,
+"name": "Guotai Junan Securities",
+"ticker": "601211.SS",
+"slug": "guotai-junan-securities",
+"cap": 41993561197,
+"country": "China"
+},
+{
+"rank": 609,
+"name": "Jardine Matheson",
+"ticker": "J36.SI",
+"slug": "jardine-matheson",
+"cap": 41897310000,
+"country": "Hong Kong"
+},
+{
+"rank": 610,
+"name": "Titan Company",
+"ticker": "TITAN.NS",
+"slug": "titan-company",
+"cap": 41810306839,
+"country": "India"
+},
+{
+"rank": 611,
+"name": "American International Group",
+"ticker": "AIG",
+"slug": "aig",
+"cap": 41768706048,
+"country": "USA"
+},
+{
+"rank": 612,
+"name": "Zscaler",
+"ticker": "ZS",
+"slug": "zscaler",
+"cap": 41709391872,
+"country": "USA"
+},
+{
+"rank": 613,
+"name": "Ventas",
+"ticker": "VTR",
+"slug": "ventas",
+"cap": 41584562176,
+"country": "USA"
+},
+{
+"rank": 614,
+"name": "NEC Corp",
+"ticker": "6701.T",
+"slug": "nec-corp",
+"cap": 41567032693,
+"country": "Japan"
+},
+{
+"rank": 615,
+"name": "Dai-ichi Life Holdings",
+"ticker": "8750.T",
+"slug": "dai-ichi-life",
+"cap": 41462520028,
+"country": "Japan"
+},
+{
+"rank": 616,
+"name": "Japan Post Holdings",
+"ticker": "6178.T",
+"slug": "japan-post",
+"cap": 41316442426,
+"country": "Japan"
+},
+{
+"rank": 617,
+"name": "Skandinaviska Enskilda Banken",
+"ticker": "SEB-A.ST",
+"slug": "skandinaviska-enskilda-banken",
+"cap": 41164693769,
+"country": "Sweden"
+},
+{
+"rank": 618,
+"name": "Ares Management",
+"ticker": "ARES",
+"slug": "ares-management",
+"cap": 41080496128,
+"country": "USA"
+},
+{
+"rank": 619,
+"name": "QNB (Qatar National Bank)",
+"ticker": "QNBK.QA",
+"slug": "qnb-qatar-national-bank",
+"cap": 41075384487,
+"country": "Qatar"
+},
+{
+"rank": 620,
+"name": "Yum! Brands",
+"ticker": "YUM",
+"slug": "yum",
+"cap": 40978829312,
+"country": "USA"
+},
+{
+"rank": 621,
+"name": "Otsuka Holdings",
+"ticker": "4578.T",
+"slug": "otsuka-holdings",
+"cap": 40716172041,
+"country": "Japan"
+},
+{
+"rank": 622,
+"name": "Revolution Medicines",
+"ticker": "RVMD",
+"slug": "revolution-medicines",
+"cap": 40449568768,
+"country": "USA"
+},
+{
+"rank": 623,
+"name": "Ferrovial",
+"ticker": "FER.MC",
+"slug": "ferrovial",
+"cap": 40421519161,
+"country": "Spain"
+},
+{
+"rank": 624,
+"name": "Sysco",
+"ticker": "SYY",
+"slug": "sysco",
+"cap": 40410730496,
+"country": "USA"
+},
+{
+"rank": 625,
+"name": "Axis Bank",
+"ticker": "AXISBANK.BO",
+"slug": "axis-bank",
+"cap": 40385761620,
+"country": "India"
+},
+{
+"rank": 626,
+"name": "HCL Technologies",
+"ticker": "HCLTECH.NS",
+"slug": "hcl-technologies",
+"cap": 40234012296,
+"country": "India"
+},
+{
+"rank": 627,
+"name": "Live Nation",
+"ticker": "LYV",
+"slug": "live-nation",
+"cap": 40185516032,
+"country": "USA"
+},
+{
+"rank": 628,
+"name": "Quanta Computer",
+"ticker": "2382.TW",
+"slug": "quanta-computer",
+"cap": 40124554116,
+"country": "Taiwan"
+},
+{
+"rank": 629,
+"name": "KB Financial Group",
+"ticker": "KB",
+"slug": "kb-financial-group",
+"cap": 40053719040,
+"country": "S. Korea"
+},
+{
+"rank": 630,
+"name": "D. R. Horton",
+"ticker": "DHI",
+"slug": "dr-horton",
+"cap": 39997284352,
+"country": "USA"
+},
+{
+"rank": 631,
+"name": "Samsung C&T Corporation",
+"ticker": "028260.KS",
+"slug": "samsung-ct-corporation",
+"cap": 39946251146,
+"country": "S. Korea"
+},
+{
+"rank": 632,
+"name": "Prudential Financial",
+"ticker": "PRU",
+"slug": "prudential-financial",
+"cap": 39802650624,
+"country": "USA"
+},
+{
+"rank": 633,
+"name": "ORIX",
+"ticker": "IX",
+"slug": "orix",
+"cap": 39690813440,
+"country": "Japan"
+},
+{
+"rank": 634,
+"name": "Estee Lauder",
+"ticker": "EL",
+"slug": "estee-lauder",
+"cap": 39605501952,
+"country": "USA"
+},
+{
+"rank": 635,
+"name": "Sun Hung Kai Properties",
+"ticker": "0016.HK",
+"slug": "sun-hung-kai-properties",
+"cap": 39482667464,
+"country": "Hong Kong"
+},
+{
+"rank": 636,
+"name": "PG&E Corporation",
+"ticker": "PCG",
+"slug": "pacific-gas-and-electric",
+"cap": 39481122816,
+"country": "USA"
+},
+{
+"rank": 637,
+"name": "WEG ON",
+"ticker": "WEGE3.SA",
+"slug": "weg-on",
+"cap": 39422559293,
+"country": "Brazil"
+},
+{
+"rank": 638,
+"name": "Goodman Group",
+"ticker": "GMG.AX",
+"slug": "goodman",
+"cap": 39367531519,
+"country": "Australia"
+},
+{
+"rank": 639,
+"name": "Fairfax Financial",
+"ticker": "FFH.TO",
+"slug": "fairfax-financial",
+"cap": 39269365569,
+"country": "Canada"
+},
+{
+"rank": 640,
+"name": "Adani Power",
+"ticker": "ADANIPOWER.NS",
+"slug": "adani-power",
+"cap": 39257473824,
+"country": "India"
+},
+{
+"rank": 641,
+"name": "Volkswagen",
+"ticker": "VOW3.DE",
+"slug": "volkswagen",
+"cap": 39249916867,
+"country": "Germany"
+},
+{
+"rank": 642,
+"name": "Sompo Holdings",
+"ticker": "8630.T",
+"slug": "sompo-holdings",
+"cap": 39171410445,
+"country": "Japan"
+},
+{
+"rank": 643,
+"name": "Legrand",
+"ticker": "LR.PA",
+"slug": "legrand",
+"cap": 39116817575,
+"country": "France"
+},
+{
+"rank": 644,
+"name": "JBS N.V.",
+"ticker": "JBS",
+"slug": "jbs",
+"cap": 39011852288,
+"country": "Brazil"
+},
+{
+"rank": 645,
+"name": "Twilio",
+"ticker": "TWLO",
+"slug": "twilio",
+"cap": 38972784640,
+"country": "USA"
+},
+{
+"rank": 646,
+"name": "Okta",
+"ticker": "OKTA",
+"slug": "okta",
+"cap": 38925627392,
+"country": "USA"
+},
+{
+"rank": 647,
+"name": "BMW",
+"ticker": "BMW.DE",
+"slug": "bmw",
+"cap": 38878493141,
+"country": "Germany"
+},
+{
+"rank": 648,
+"name": "Viking Holdings",
+"ticker": "VIK",
+"slug": "viking-holdings",
+"cap": 38634196992,
+"country": "Bermuda"
+},
+{
+"rank": 649,
+"name": "Dollarama",
+"ticker": "DOL.TO",
+"slug": "dollarama",
+"cap": 38593714244,
+"country": "Canada"
+},
+{
+"rank": 650,
+"name": "Paychex",
+"ticker": "PAYX",
+"slug": "paychex",
+"cap": 38520647680,
+"country": "USA"
+},
+{
+"rank": 651,
+"name": "Hannover R\u00fcck",
+"ticker": "HNR1.DE",
+"slug": "hannover-rueck",
+"cap": 38446938461,
+"country": "Germany"
+},
+{
+"rank": 652,
+"name": "EQT",
+"ticker": "EQT.ST",
+"slug": "eqt",
+"cap": 38430108748,
+"country": "Sweden"
+},
+{
+"rank": 653,
+"name": "Kroger",
+"ticker": "KR",
+"slug": "kroger",
+"cap": 38400073728,
+"country": "USA"
+},
+{
+"rank": 654,
+"name": "Telstra",
+"ticker": "TLS.AX",
+"slug": "telstra",
+"cap": 38223017349,
+"country": "Australia"
+},
+{
+"rank": 655,
+"name": "Schindler Group",
+"ticker": "SCHN.SW",
+"slug": "schindler-group",
+"cap": 38201736260,
+"country": "Switzerland"
+},
+{
+"rank": 656,
+"name": "China State Shipbuilding Corporation (CSSC)",
+"ticker": "600150.SS",
+"slug": "china-cssc",
+"cap": 38176055768,
+"country": "China"
+},
+{
+"rank": 657,
+"name": "Maruti Suzuki India",
+"ticker": "MARUTI.NS",
+"slug": "maruti-suzuki-india",
+"cap": 38114445458,
+"country": "India"
+},
+{
+"rank": 658,
+"name": "Roblox",
+"ticker": "RBLX",
+"slug": "roblox",
+"cap": 38061948928,
+"country": "USA"
+},
+{
+"rank": 659,
+"name": "COSCO Shipping",
+"ticker": "601919.SS",
+"slug": "cosco-shipping",
+"cap": 38006503899,
+"country": "China"
+},
+{
+"rank": 660,
+"name": "Celestica",
+"ticker": "CLS",
+"slug": "celestica",
+"cap": 37808320512,
+"country": "Canada"
+},
+{
+"rank": 661,
+"name": "Carnival Corporation",
+"ticker": "CCL",
+"slug": "carnival-cruise-line",
+"cap": 37729759232,
+"country": "USA"
+},
+{
+"rank": 662,
+"name": "PKO Bank Polski",
+"ticker": "PKO.WA",
+"slug": "pko-bank-polski",
+"cap": 37723447005,
+"country": "Poland"
+},
+{
+"rank": 663,
+"name": "Samsung Life Insurance",
+"ticker": "032830.KS",
+"slug": "samsung-life-insurance",
+"cap": 37671702696,
+"country": "S. Korea"
+},
+{
+"rank": 664,
+"name": "SABIC",
+"ticker": "2010.SR",
+"slug": "sabic",
+"cap": 37654964827,
+"country": "S. Arabia"
+},
+{
+"rank": 665,
+"name": "Adani Enterprises",
+"ticker": "ADANIENT.NS",
+"slug": "adani-enterprises",
+"cap": 37494320145,
+"country": "India"
+},
+{
+"rank": 666,
+"name": "Rocket Lab",
+"ticker": "RKLB",
+"slug": "rocket-lab-usa",
+"cap": 37469483008,
+"country": "USA"
+},
+{
+"rank": 667,
+"name": "Royalty Pharma",
+"ticker": "RPRX",
+"slug": "royalty-pharma",
+"cap": 37455294464,
+"country": "UK"
+},
+{
+"rank": 668,
+"name": "Chunghwa Telecom",
+"ticker": "CHT",
+"slug": "chunghwa-telecom",
+"cap": 37352103936,
+"country": "Taiwan"
+},
+{
+"rank": 669,
+"name": "Crown Castle",
+"ticker": "CCI",
+"slug": "crown-castle",
+"cap": 37329457152,
+"country": "USA"
+},
+{
+"rank": 670,
+"name": "Daikin",
+"ticker": "6367.T",
+"slug": "daikin",
+"cap": 37222999319,
+"country": "Japan"
+},
+{
+"rank": 671,
+"name": "Archer Daniels Midland (ADM)",
+"ticker": "ADM",
+"slug": "archer-daniels-midland",
+"cap": 37221502976,
+"country": "USA"
+},
+{
+"rank": 672,
+"name": "Kenvue",
+"ticker": "KVUE",
+"slug": "kenvue",
+"cap": 37128552448,
+"country": "USA"
+},
+{
+"rank": 673,
+"name": "China General Nuclear Power Group (CGN)",
+"ticker": "003816.SZ",
+"slug": "china-general-nuclear-power-group-cgn",
+"cap": 37071397422,
+"country": "China"
+},
+{
+"rank": 674,
+"name": "Banca Monte dei Paschi di Siena",
+"ticker": "BMPS.MI",
+"slug": "banca-monte-dei-paschi-di-siena",
+"cap": 36978454394,
+"country": "Italy"
+},
+{
+"rank": 675,
+"name": "Mahindra & Mahindra",
+"ticker": "M&M.NS",
+"slug": "mahindra-mahindra",
+"cap": 36916606930,
+"country": "India"
+},
+{
+"rank": 676,
+"name": "Sumitomo Denki K\u014dgy\u014d",
+"ticker": "5802.T",
+"slug": "sumitomo-denki-kogyo",
+"cap": 36905252427,
+"country": "Japan"
+},
+{
+"rank": 677,
+"name": "Talanx",
+"ticker": "TLX.DE",
+"slug": "talanx",
+"cap": 36898142520,
+"country": "Germany"
+},
+{
+"rank": 678,
+"name": "Prysmian Group",
+"ticker": "PRY.MI",
+"slug": "prysmian-group",
+"cap": 36795717215,
+"country": "Italy"
+},
+{
+"rank": 679,
+"name": "Dubai Electricity and Water Authority (DEWA)",
+"ticker": "DEWA.AE",
+"slug": "dubai-electricity-and-water-authority",
+"cap": 36758698831,
+"country": "UAE"
+},
+{
+"rank": 680,
+"name": "Compagnie de Saint-Gobain",
+"ticker": "SGO.PA",
+"slug": "compagnie-de-saint-gobain",
+"cap": 36757607668,
+"country": "France"
+},
+{
+"rank": 681,
+"name": "SAAB AB",
+"ticker": "SAAB-B.ST",
+"slug": "saab",
+"cap": 36527744385,
+"country": "Sweden"
+},
+{
+"rank": 682,
+"name": "ABN AMRO",
+"ticker": "ABN.AS",
+"slug": "abn-amro",
+"cap": 36526553150,
+"country": "Netherlands"
+},
+{
+"rank": 683,
+"name": "Elbit Systems",
+"ticker": "ESLT",
+"slug": "elbit-systems",
+"cap": 36522041344,
+"country": "Israel"
+},
+{
+"rank": 684,
+"name": "Take-Two Interactive",
+"ticker": "TTWO",
+"slug": "take-2-interactive",
+"cap": 36515409920,
+"country": "USA"
+},
+{
+"rank": 685,
+"name": "Cameco",
+"ticker": "CCJ",
+"slug": "cameco",
+"cap": 36515086336,
+"country": "Canada"
+},
+{
+"rank": 686,
+"name": "Ubiquiti",
+"ticker": "UI",
+"slug": "ubiquiti",
+"cap": 36465008640,
+"country": "USA"
+},
+{
+"rank": 687,
+"name": "Chipotle Mexican Grill",
+"ticker": "CMG",
+"slug": "chipotle-mexican-grill",
+"cap": 36355457024,
+"country": "USA"
+},
+{
+"rank": 688,
+"name": "Ecopetrol",
+"ticker": "EC",
+"slug": "ecopetrol",
+"cap": 36347158528,
+"country": "Colombia"
+},
+{
+"rank": 689,
+"name": "Martin Marietta Materials",
+"ticker": "MLM",
+"slug": "martin-marietta",
+"cap": 36219887616,
+"country": "USA"
+},
+{
+"rank": 690,
+"name": "Vodafone",
+"ticker": "VOD",
+"slug": "vodafone",
+"cap": 36210425856,
+"country": "UK"
+},
+{
+"rank": 691,
+"name": "PSEG",
+"ticker": "PEG",
+"slug": "pseg",
+"cap": 36113354752,
+"country": "USA"
+},
+{
+"rank": 692,
+"name": "Biogen",
+"ticker": "BIIB",
+"slug": "biogen",
+"cap": 36059365376,
+"country": "USA"
+},
+{
+"rank": 693,
+"name": "Dassault Syst\u00e8mes",
+"ticker": "DSY.PA",
+"slug": "dassault-systemes",
+"cap": 36048003980,
+"country": "France"
+},
+{
+"rank": 694,
+"name": "WEC Energy Group",
+"ticker": "WEC",
+"slug": "wec-energy",
+"cap": 36006354944,
+"country": "USA"
+},
+{
+"rank": 695,
+"name": "Kimberly-Clark",
+"ticker": "KMB",
+"slug": "kimberly-clark",
+"cap": 35982336000,
+"country": "USA"
+},
+{
+"rank": 696,
+"name": "Old Dominion Freight Line",
+"ticker": "ODFL",
+"slug": "old-dominion-freight-line",
+"cap": 35939053568,
+"country": "USA"
+},
+{
+"rank": 697,
+"name": "Disco Corp.",
+"ticker": "6146.T",
+"slug": "disco-corp",
+"cap": 35900881440,
+"country": "Japan"
+},
+{
+"rank": 698,
+"name": "Venture Global",
+"ticker": "VG",
+"slug": "venture-global",
+"cap": 35876335616,
+"country": "USA"
+},
+{
+"rank": 699,
+"name": "Ericsson",
+"ticker": "ERIC",
+"slug": "ericsson",
+"cap": 35860955136,
+"country": "Sweden"
+},
+{
+"rank": 700,
+"name": "Henkel",
+"ticker": "HEN3.DE",
+"slug": "henkel",
+"cap": 35718929820,
+"country": "Germany"
+},
+{
+"rank": 701,
+"name": "CBRE Group",
+"ticker": "CBRE",
+"slug": "cbre-group",
+"cap": 35649875968,
+"country": "USA"
+},
+{
+"rank": 702,
+"name": "PTT PCL",
+"ticker": "PTT-R.BK",
+"slug": "ptt-pcl",
+"cap": 35647996145,
+"country": "Thailand"
+},
+{
+"rank": 703,
+"name": "Muyuan Foods",
+"ticker": "002714.SZ",
+"slug": "muyuan-foods",
+"cap": 35590398974,
+"country": "China"
+},
+{
+"rank": 704,
+"name": "Steel Dynamics",
+"ticker": "STLD",
+"slug": "steel-dynamics",
+"cap": 35552952320,
+"country": "USA"
+},
+{
+"rank": 705,
+"name": "Ibiden",
+"ticker": "4062.T",
+"slug": "ibiden",
+"cap": 35383581725,
+"country": "Japan"
+},
+{
+"rank": 706,
+"name": "Komatsu",
+"ticker": "6301.T",
+"slug": "komatsu",
+"cap": 35319751754,
+"country": "Japan"
+},
+{
+"rank": 707,
+"name": "ITC",
+"ticker": "ITC.NS",
+"slug": "itc",
+"cap": 35273786926,
+"country": "India"
+},
+{
+"rank": 708,
+"name": "CoreWeave",
+"ticker": "CRWV",
+"slug": "coreweave",
+"cap": 35259731968,
+"country": "USA"
+},
+{
+"rank": 709,
+"name": "Genmab",
+"ticker": "GMAB",
+"slug": "genmab",
+"cap": 35227766784,
+"country": "Denmark"
+},
+{
+"rank": 710,
+"name": "ResMed",
+"ticker": "RMD",
+"slug": "resmed",
+"cap": 35183718400,
+"country": "USA"
+},
+{
+"rank": 711,
+"name": "EQT Corporation",
+"ticker": "EQT",
+"slug": "eqt-corporation",
+"cap": 35168391168,
+"country": "USA"
+},
+{
+"rank": 712,
+"name": "Lenovo",
+"ticker": "0992.HK",
+"slug": "lenovo",
+"cap": 35004651677,
+"country": "Hong Kong"
+},
+{
+"rank": 713,
+"name": "Bank of Jiangsu",
+"ticker": "600919.SS",
+"slug": "bank-of-jiangsu",
+"cap": 34999155714,
+"country": "China"
+},
+{
+"rank": 714,
+"name": "Arch Capital",
+"ticker": "ACGL",
+"slug": "arch-capital",
+"cap": 34952499200,
+"country": "Bermuda"
+},
+{
+"rank": 715,
+"name": "UltraTech Cement",
+"ticker": "ULTRACEMCO.NS",
+"slug": "ultratech-cement",
+"cap": 34845644283,
+"country": "India"
+},
+{
+"rank": 716,
+"name": "The Hartford",
+"ticker": "HIG",
+"slug": "the-hartford",
+"cap": 34774433792,
+"country": "USA"
+},
+{
+"rank": 717,
+"name": "Sika",
+"ticker": "SIKA.SW",
+"slug": "sika",
+"cap": 34642436739,
+"country": "Switzerland"
+},
+{
+"rank": 718,
+"name": "Repsol",
+"ticker": "REP.MC",
+"slug": "repsol",
+"cap": 34610177797,
+"country": "Spain"
+},
+{
+"rank": 719,
+"name": "Bank of Ningbo",
+"ticker": "002142.SZ",
+"slug": "bank-of-ningbo",
+"cap": 34606818949,
+"country": "China"
+},
+{
+"rank": 720,
+"name": "Abu Dhabi Commercial Bank (ADCB)",
+"ticker": "ADCB.AE",
+"slug": "abu-dhabi-commercial-bank-adcb",
+"cap": 34599341293,
+"country": "UAE"
+},
+{
+"rank": 721,
+"name": "Daimler Truck",
+"ticker": "DTG.F",
+"slug": "daimler-truck",
+"cap": 34586193973,
+"country": "Germany"
+},
+{
+"rank": 722,
+"name": "Bank Leumi",
+"ticker": "LUMI.TA",
+"slug": "bank-leumi",
+"cap": 34500822376,
+"country": "Israel"
+},
+{
+"rank": 723,
+"name": "GE HealthCare Technologies",
+"ticker": "GEHC",
+"slug": "ge-healthcare-technologies",
+"cap": 34489892864,
+"country": "USA"
+},
+{
+"rank": 724,
+"name": "Iron Mountain",
+"ticker": "IRM",
+"slug": "iron-mountain",
+"cap": 34435284992,
+"country": "USA"
+},
+{
+"rank": 725,
+"name": "Yageo",
+"ticker": "2327.TW",
+"slug": "yageo",
+"cap": 34402714974,
+"country": "Taiwan"
+},
+{
+"rank": 726,
+"name": "Axon Enterprise",
+"ticker": "AXON",
+"slug": "axon",
+"cap": 34377236480,
+"country": "USA"
+},
+{
+"rank": 727,
+"name": "Flex",
+"ticker": "FLEX",
+"slug": "flex",
+"cap": 34370904064,
+"country": "Singapore"
+},
+{
+"rank": 728,
+"name": "JD.com",
+"ticker": "JD",
+"slug": "jingdong-mall",
+"cap": 34370224128,
+"country": "China"
+},
+{
+"rank": 729,
+"name": "Hindustan Aeronautics",
+"ticker": "HAL.NS",
+"slug": "hindustan-aeronautics",
+"cap": 34369866092,
+"country": "India"
+},
+{
+"rank": 730,
+"name": "Vulcan Materials",
+"ticker": "VMC",
+"slug": "vulcan-materials",
+"cap": 34338365440,
+"country": "USA"
+},
+{
+"rank": 731,
+"name": "Shengyi Technology (SYTECH)",
+"ticker": "600183.SS",
+"slug": "shengyi-technology-sytech",
+"cap": 34250891346,
+"country": "China"
+},
+{
+"rank": 732,
+"name": "\u010cEZ Group",
+"ticker": "CEZ.PR",
+"slug": "cez-group",
+"cap": 34208665457,
+"country": "Czech Republic"
+},
+{
+"rank": 733,
+"name": "Renesas Electronics",
+"ticker": "6723.T",
+"slug": "renesas-electronics",
+"cap": 34179800534,
+"country": "Japan"
+},
+{
+"rank": 734,
+"name": "Restaurant Brands International",
+"ticker": "QSR",
+"slug": "rbi",
+"cap": 34138427392,
+"country": "Canada"
+},
+{
+"rank": 735,
+"name": "Experian",
+"ticker": "EXPGF",
+"slug": "experian",
+"cap": 34073217024,
+"country": "Ireland"
+},
+{
+"rank": 736,
+"name": "Mettler Toledo",
+"ticker": "MTD",
+"slug": "mettler-toledo",
+"cap": 34031495168,
+"country": "USA"
+},
+{
+"rank": 737,
+"name": "CMOC",
+"ticker": "3993.HK",
+"slug": "cmoc-group-limited",
+"cap": 34003849815,
+"country": "China"
+},
+{
+"rank": 738,
+"name": "Sunbelt Rentals",
+"ticker": "SUNB",
+"slug": "sunbelt-rentals",
+"cap": 33969510400,
+"country": "USA"
+},
+{
+"rank": 739,
+"name": "Fanuc",
+"ticker": "6954.T",
+"slug": "fanuc",
+"cap": 33907157502,
+"country": "Japan"
+},
+{
+"rank": 740,
+"name": "Woolworths Group",
+"ticker": "WOW.AX",
+"slug": "woolworths-group",
+"cap": 33847101667,
+"country": "Australia"
+},
+{
+"rank": 741,
+"name": "Bank Central Asia",
+"ticker": "BBCA.JK",
+"slug": "bank-central-asia",
+"cap": 33829827808,
+"country": "Indonesia"
+},
+{
+"rank": 742,
+"name": "Alcon",
+"ticker": "ALC",
+"slug": "alcon",
+"cap": 33755822080,
+"country": "Switzerland"
+},
+{
+"rank": 743,
+"name": "K\u00fchne + Nagel",
+"ticker": "KNIN.SW",
+"slug": "kuhne-nagel",
+"cap": 33681605610,
+"country": "Switzerland"
+},
+{
+"rank": 744,
+"name": "United Airlines Holdings",
+"ticker": "UAL",
+"slug": "united-airlines",
+"cap": 33603823616,
+"country": "USA"
+},
+{
+"rank": 745,
+"name": "Ping An Bank",
+"ticker": "000001.SZ",
+"slug": "ping-an-bank",
+"cap": 33550712698,
+"country": "China"
+},
+{
+"rank": 746,
+"name": "Cboe Global Markets",
+"ticker": "CBOE",
+"slug": "cboe",
+"cap": 33461786624,
+"country": "USA"
+},
+{
+"rank": 747,
+"name": "Gazprom",
+"ticker": "GAZP.ME",
+"slug": "gazprom",
+"cap": 33384500495,
+"country": "Russia"
+},
+{
+"rank": 748,
+"name": "TDK",
+"ticker": "6762.T",
+"slug": "tdk",
+"cap": 33285991880,
+"country": "Japan"
+},
+{
+"rank": 749,
+"name": "Centene",
+"ticker": "CNC",
+"slug": "centene",
+"cap": 33194311680,
+"country": "USA"
+},
+{
+"rank": 750,
+"name": "Wanhua Chemical",
+"ticker": "600309.SS",
+"slug": "wanhua-chemical",
+"cap": 33115989806,
+"country": "China"
+},
+{
+"rank": 751,
+"name": "Expedia Group",
+"ticker": "EXPE",
+"slug": "expedia",
+"cap": 33068929024,
+"country": "USA"
+},
+{
+"rank": 752,
+"name": "Z.AI",
+"ticker": "2513.HK",
+"slug": "z-ai",
+"cap": 33061917914,
+"country": "China"
+},
+{
+"rank": 753,
+"name": "Nutrien",
+"ticker": "NTR",
+"slug": "nutrien",
+"cap": 32960899072,
+"country": "Canada"
+},
+{
+"rank": 754,
+"name": "Aselsan",
+"ticker": "ASELS.IS",
+"slug": "aselsan",
+"cap": 32950567390,
+"country": "Turkey"
+},
+{
+"rank": 755,
+"name": "Eternal (Zomato)",
+"ticker": "ETERNAL.NS",
+"slug": "eternal-zomato",
+"cap": 32934815684,
+"country": "India"
+},
+{
+"rank": 756,
+"name": "Leonardo",
+"ticker": "LDO.MI",
+"slug": "leonardo",
+"cap": 32928376889,
+"country": "Italy"
+},
+{
+"rank": 757,
+"name": "Intact Financial",
+"ticker": "IFC.TO",
+"slug": "intact-financial",
+"cap": 32913963338,
+"country": "Canada"
+},
+{
+"rank": 758,
+"name": "TKO Group Holdings",
+"ticker": "TKO",
+"slug": "tko-group",
+"cap": 32910219264,
+"country": "USA"
+},
+{
+"rank": 759,
+"name": "The Hershey Company",
+"ticker": "HSY",
+"slug": "hershey-company",
+"cap": 32905596928,
+"country": "USA"
+},
+{
+"rank": 760,
+"name": "Oriental Land",
+"ticker": "4661.T",
+"slug": "oriental-land",
+"cap": 32882504869,
+"country": "Japan"
+},
+{
+"rank": 761,
+"name": "3i Group",
+"ticker": "III.L",
+"slug": "3i",
+"cap": 32871791366,
+"country": "UK"
+},
+{
+"rank": 762,
+"name": "Capitec Bank",
+"ticker": "CPI.JO",
+"slug": "capitec-bank",
+"cap": 32868393700,
+"country": "South Africa"
+},
+{
+"rank": 763,
+"name": "Taishin Financial Holdings",
+"ticker": "2887.TW",
+"slug": "taishin-financial-holdings",
+"cap": 32775421282,
+"country": "Taiwan"
+},
+{
+"rank": 764,
+"name": "Rocket Companies",
+"ticker": "RKT",
+"slug": "rocket-companies",
+"cap": 32762101760,
+"country": "USA"
+},
+{
+"rank": 765,
+"name": "Credo Technology",
+"ticker": "CRDO",
+"slug": "credo-technology",
+"cap": 32645369856,
+"country": "USA"
+},
+{
+"rank": 766,
+"name": "OTP Bank",
+"ticker": "OTP.BD",
+"slug": "otp-bank",
+"cap": 32576262917,
+"country": "Hungary"
+},
+{
+"rank": 767,
+"name": "AMEC",
+"ticker": "688012.SS",
+"slug": "amec",
+"cap": 32574791041,
+"country": "China"
+},
+{
+"rank": 768,
+"name": "Celltrion",
+"ticker": "068270.KS",
+"slug": "celltrion",
+"cap": 32572565123,
+"country": "S. Korea"
+},
+{
+"rank": 769,
+"name": "Swiss Life",
+"ticker": "SLHN.SW",
+"slug": "swiss-life",
+"cap": 32570366217,
+"country": "Switzerland"
+},
+{
+"rank": 770,
+"name": "Mindray",
+"ticker": "300760.SZ",
+"slug": "mindray",
+"cap": 32497169054,
+"country": "China"
+},
+{
+"rank": 771,
+"name": "JSW Steel",
+"ticker": "JSWSTEEL.NS",
+"slug": "jsw-steel",
+"cap": 32338762102,
+"country": "India"
+},
+{
+"rank": 772,
+"name": "Novonesis",
+"ticker": "NZYM.VI",
+"slug": "novozymes",
+"cap": 32277951704,
+"country": "Denmark"
+},
+{
+"rank": 773,
+"name": "Gold Fields",
+"ticker": "GFI",
+"slug": "gold-fields",
+"cap": 32277180416,
+"country": "South Africa"
+},
+{
+"rank": 774,
+"name": "Wiwynn",
+"ticker": "6669.TW",
+"slug": "wiwynn",
+"cap": 32246453608,
+"country": "Taiwan"
+},
+{
+"rank": 775,
+"name": "Resona Holdings",
+"ticker": "8308.T",
+"slug": "resona-holdings",
+"cap": 32191734893,
+"country": "Japan"
+},
+{
+"rank": 776,
+"name": "Ahold Delhaize",
+"ticker": "AD.AS",
+"slug": "ahold-delhaize",
+"cap": 32156889185,
+"country": "Netherlands"
+},
+{
+"rank": 777,
+"name": "Zoetis",
+"ticker": "ZTS",
+"slug": "zoetis",
+"cap": 32148799488,
+"country": "USA"
+},
+{
+"rank": 778,
+"name": "Universal Music Group",
+"ticker": "UMG.AS",
+"slug": "universal-music-group",
+"cap": 32108017400,
+"country": "Netherlands"
+},
+{
+"rank": 779,
+"name": "NTPC Limited",
+"ticker": "NTPC.NS",
+"slug": "ntpc-limited",
+"cap": 31974877353,
+"country": "India"
+},
+{
+"rank": 780,
+"name": "CK Hutchison Holdings",
+"ticker": "0001.HK",
+"slug": "ck-hutchison-holdings",
+"cap": 31950434428,
+"country": "Hong Kong"
+},
+{
+"rank": 781,
+"name": "Extra Space Storage",
+"ticker": "EXR",
+"slug": "extra-space-storage",
+"cap": 31946692608,
+"country": "USA"
+},
+{
+"rank": 782,
+"name": "KONE",
+"ticker": "KNEBV.HE",
+"slug": "kone",
+"cap": 31881837868,
+"country": "Finland"
+},
+{
+"rank": 783,
+"name": "ACWA POWER Company",
+"ticker": "2082.SR",
+"slug": "acwa-power",
+"cap": 31800828755,
+"country": "S. Arabia"
+},
+{
+"rank": 784,
+"name": "Kia",
+"ticker": "000270.KS",
+"slug": "kia",
+"cap": 31762813620,
+"country": "S. Korea"
+},
+{
+"rank": 785,
+"name": "Huntington Bancshares",
+"ticker": "HBAN",
+"slug": "huntington-bancshares",
+"cap": 31720513536,
+"country": "USA"
+},
+{
+"rank": 786,
+"name": "Svenska Handelsbanken",
+"ticker": "SHB-A.ST",
+"slug": "svenska-handelsbanken",
+"cap": 31718515722,
+"country": "Sweden"
+},
+{
+"rank": 787,
+"name": "MongoDB",
+"ticker": "MDB",
+"slug": "mongodb",
+"cap": 31694088192,
+"country": "USA"
+},
+{
+"rank": 788,
+"name": "M&T Bank",
+"ticker": "MTB",
+"slug": "mt-bank",
+"cap": 31644502016,
+"country": "USA"
+},
+{
+"rank": 789,
+"name": "Hochtief",
+"ticker": "HOT.F",
+"slug": "hochtief",
+"cap": 31630006572,
+"country": "Germany"
+},
+{
+"rank": 790,
+"name": "Banorte",
+"ticker": "GFNORTEO.MX",
+"slug": "banorte",
+"cap": 31619116214,
+"country": "Mexico"
+},
+{
+"rank": 791,
+"name": "Kongsberg Gruppen",
+"ticker": "KOG.OL",
+"slug": "kongsberg-gruppen",
+"cap": 31611332245,
+"country": "Norway"
+},
+{
+"rank": 792,
+"name": "Gree Electric Appliances",
+"ticker": "000651.SZ",
+"slug": "gree-electric-appliances",
+"cap": 31536652502,
+"country": "China"
+},
+{
+"rank": 793,
+"name": "Fortescue",
+"ticker": "FMG.AX",
+"slug": "fortescue",
+"cap": 31526490232,
+"country": "Australia"
+},
+{
+"rank": 794,
+"name": "Global Unichip Corp.",
+"ticker": "3443.TW",
+"slug": "global-unichip-corp",
+"cap": 31512587609,
+"country": "Taiwan"
+},
+{
+"rank": 795,
+"name": "Cheniere Energy\nPartners",
+"ticker": "CQP",
+"slug": "cheniere-energy-partners",
+"cap": 31463749632,
+"country": "USA"
+},
+{
+"rank": 796,
+"name": "Northern Trust",
+"ticker": "NTRS",
+"slug": "northern-trust",
+"cap": 31450075136,
+"country": "USA"
+},
+{
+"rank": 797,
+"name": "Naturgy",
+"ticker": "NTGY.MC",
+"slug": "naturgy",
+"cap": 31427866078,
+"country": "Spain"
+},
+{
+"rank": 798,
+"name": "Cognizant Technology Solutions",
+"ticker": "CTSH",
+"slug": "cognizant-technology-solutions",
+"cap": 31388280832,
+"country": "USA"
+},
+{
+"rank": 799,
+"name": "Yuanta Financial Holding",
+"ticker": "2885.TW",
+"slug": "yuanta-financial-holding",
+"cap": 31321841349,
+"country": "Taiwan"
+},
+{
+"rank": 800,
+"name": "Bank Hapoalim",
+"ticker": "POLI.TA",
+"slug": "bank-hapoalim",
+"cap": 31230760744,
+"country": "Israel"
+},
+{
+"rank": 801,
+"name": "FirstRand",
+"ticker": "FSR.JO",
+"slug": "firstrand",
+"cap": 31129812500,
+"country": "South Africa"
+},
+{
+"rank": 802,
+"name": "Alnylam Pharmaceuticals",
+"ticker": "ALNY",
+"slug": "alnylam-pharmaceuticals",
+"cap": 31097239552,
+"country": "USA"
+},
+{
+"rank": 803,
+"name": "Ajinomoto",
+"ticker": "2802.T",
+"slug": "ajinomoto",
+"cap": 30932840029,
+"country": "Japan"
+},
+{
+"rank": 804,
+"name": "Teck Resources",
+"ticker": "TECK",
+"slug": "teck-resources",
+"cap": 30927423488,
+"country": "Canada"
+},
+{
+"rank": 805,
+"name": "Naspers",
+"ticker": "NPSNY",
+"slug": "naspers",
+"cap": 30897448960,
+"country": "South Africa"
+},
+{
+"rank": 806,
+"name": "Teledyne Technologies",
+"ticker": "TDY",
+"slug": "teledyne",
+"cap": 30834819072,
+"country": "USA"
+},
+{
+"rank": 807,
+"name": "Adidas",
+"ticker": "ADS.DE",
+"slug": "adidas",
+"cap": 30832800388,
+"country": "Germany"
+},
+{
+"rank": 808,
+"name": "Bridgestone",
+"ticker": "5108.T",
+"slug": "bridgestone",
+"cap": 30760437747,
+"country": "Japan"
+},
+{
+"rank": 809,
+"name": "BPER Banca",
+"ticker": "BPE.MI",
+"slug": "bper-banca",
+"cap": 30673722647,
+"country": "Italy"
+},
+{
+"rank": 810,
+"name": "China National Nuclear Power",
+"ticker": "601985.SS",
+"slug": "china-national-nuclear-power",
+"cap": 30629523617,
+"country": "China"
+},
+{
+"rank": 811,
+"name": "Banco Bradesco",
+"ticker": "BBD",
+"slug": "banco-bradesco",
+"cap": 30509291520,
+"country": "Brazil"
+},
+{
+"rank": 812,
+"name": "Tenaris",
+"ticker": "TS",
+"slug": "tenaris",
+"cap": 30486071296,
+"country": "Luxembourg"
+},
+{
+"rank": 813,
+"name": "Techtronic Industries",
+"ticker": "0669.HK",
+"slug": "techtronic-industries",
+"cap": 30463040212,
+"country": "Hong Kong"
+},
+{
+"rank": 814,
+"name": "Raymond James Financial",
+"ticker": "RJF",
+"slug": "raymond-james",
+"cap": 30281580544,
+"country": "USA"
+},
+{
+"rank": 815,
+"name": "Foshan Haitian Flavouring and Food",
+"ticker": "603288.SS",
+"slug": "foshan-haitian-flavouring-and-food",
+"cap": 30231978179,
+"country": "China"
+},
+{
+"rank": 816,
+"name": "Standard Bank Group",
+"ticker": "SBK.JO",
+"slug": "standard-bank-group",
+"cap": 30223485800,
+"country": "South Africa"
+},
+{
+"rank": 817,
+"name": "Bajaj Auto",
+"ticker": "BAJAJ-AUTO.NS",
+"slug": "bajaj-auto",
+"cap": 30222448126,
+"country": "India"
+},
+{
+"rank": 818,
+"name": "Accton Technology",
+"ticker": "2345.TW",
+"slug": "accton-technology",
+"cap": 30190321723,
+"country": "Taiwan"
+},
+{
+"rank": 819,
+"name": "Bending Spoons",
+"ticker": "BSP",
+"slug": "bending-spoons",
+"cap": 30159536128,
+"country": "Italy"
+},
+{
+"rank": 820,
+"name": "Daiichi Sanky\u014d",
+"ticker": "4568.T",
+"slug": "daiichi-sankyo",
+"cap": 30130904080,
+"country": "Japan"
+},
+{
+"rank": 821,
+"name": "Oil & Natural Gas",
+"ticker": "ONGC.NS",
+"slug": "oil-and-natural-gas",
+"cap": 30095439423,
+"country": "India"
+},
+{
+"rank": 822,
+"name": "Epiroc",
+"ticker": "EPI-A.ST",
+"slug": "epiroc",
+"cap": 30081177046,
+"country": "Sweden"
+},
+{
+"rank": 823,
+"name": "Transurban",
+"ticker": "TCL.AX",
+"slug": "transurban",
+"cap": 30025101763,
+"country": "Australia"
+},
+{
+"rank": 824,
+"name": "Ita\u00fasa",
+"ticker": "ITSA3.SA",
+"slug": "itausa",
+"cap": 30016964158,
+"country": "Brazil"
+},
+{
+"rank": 825,
+"name": "Jabil",
+"ticker": "JBL",
+"slug": "jabil",
+"cap": 29958363136,
+"country": "USA"
+},
+{
+"rank": 826,
+"name": "Shinhan Financial Group",
+"ticker": "SHG",
+"slug": "shinhan-financial-group",
+"cap": 29947211776,
+"country": "S. Korea"
+},
+{
+"rank": 827,
+"name": "Emcor",
+"ticker": "EME",
+"slug": "emcor",
+"cap": 29930772480,
+"country": "USA"
+},
+{
+"rank": 828,
+"name": "7-Eleven",
+"ticker": "3382.T",
+"slug": "7-eleven",
+"cap": 29917046312,
+"country": "Japan"
+},
+{
+"rank": 829,
+"name": "Ameren",
+"ticker": "AEE",
+"slug": "ameren",
+"cap": 29899071488,
+"country": "USA"
+},
+{
+"rank": 830,
+"name": "Willis Towers Watson",
+"ticker": "WTW",
+"slug": "willis-wowers-watson",
+"cap": 29870401536,
+"country": "UK"
+},
+{
+"rank": 831,
+"name": "Maybank",
+"ticker": "MLYBY",
+"slug": "maybank",
+"cap": 29694646272,
+"country": "Malaysia"
+},
+{
+"rank": 832,
+"name": "Prudential",
+"ticker": "PUK",
+"slug": "prudential",
+"cap": 29686511616,
+"country": "UK"
+},
+{
+"rank": 833,
+"name": "DexCom",
+"ticker": "DXCM",
+"slug": "dexcom",
+"cap": 29668104192,
+"country": "USA"
+},
+{
+"rank": 834,
+"name": "Denso",
+"ticker": "6902.T",
+"slug": "denso",
+"cap": 29635252494,
+"country": "Japan"
+},
+{
+"rank": 835,
+"name": "Advanced Info Service (AIS)",
+"ticker": "ADVANC.BK",
+"slug": "advanced-info-service",
+"cap": 29591483819,
+"country": "Thailand"
+},
+{
+"rank": 836,
+"name": "Halliburton",
+"ticker": "HAL",
+"slug": "halliburton",
+"cap": 29578037248,
+"country": "USA"
+},
+{
+"rank": 837,
+"name": "Fresenius",
+"ticker": "FRE.DE",
+"slug": "fresenius",
+"cap": 29575965223,
+"country": "Germany"
+},
+{
+"rank": 838,
+"name": "International Container Terminal Services",
+"ticker": "ICTEF",
+"slug": "international-container-terminal-services",
+"cap": 29541804032,
+"country": "Philippines"
+},
+{
+"rank": 839,
+"name": "Hexagon AB",
+"ticker": "HEXA-B.ST",
+"slug": "hexagon",
+"cap": 29530318501,
+"country": "Sweden"
+},
+{
+"rank": 840,
+"name": "Hanwha Aerospace",
+"ticker": "012450.KS",
+"slug": "hanwha-aerospace",
+"cap": 29506239672,
+"country": "S. Korea"
+},
+{
+"rank": 841,
+"name": "Inpex",
+"ticker": "1605.T",
+"slug": "inpex",
+"cap": 29496786728,
+"country": "Japan"
+},
+{
+"rank": 842,
+"name": "Adyen",
+"ticker": "ADYEN.AS",
+"slug": "adyen",
+"cap": 29463886573,
+"country": "Netherlands"
+},
+{
+"rank": 843,
+"name": "Williams-Sonoma",
+"ticker": "WSM",
+"slug": "williams-sonoma",
+"cap": 29452599296,
+"country": "USA"
+},
+{
+"rank": 844,
+"name": "ON Semiconductor",
+"ticker": "ON",
+"slug": "on-semiconductor",
+"cap": 29444165632,
+"country": "USA"
+},
+{
+"rank": 845,
+"name": "HeidelbergCement",
+"ticker": "HEI.DE",
+"slug": "heidelbergcement",
+"cap": 29415516321,
+"country": "Germany"
+},
+{
+"rank": 846,
+"name": "Fortis",
+"ticker": "FTS",
+"slug": "fortis",
+"cap": 29279680512,
+"country": "Canada"
+},
+{
+"rank": 847,
+"name": "Ingersoll Rand",
+"ticker": "IR",
+"slug": "ingersoll-rand",
+"cap": 29274554368,
+"country": "Ireland"
+},
+{
+"rank": 848,
+"name": "HP",
+"ticker": "HPQ",
+"slug": "hp",
+"cap": 29263118336,
+"country": "USA"
+},
+{
+"rank": 849,
+"name": "Zoom",
+"ticker": "ZM",
+"slug": "zoom",
+"cap": 29254236160,
+"country": "USA"
+},
+{
+"rank": 850,
+"name": "Aviva",
+"ticker": "AV.L",
+"slug": "aviva",
+"cap": 29250698436,
+"country": "UK"
+},
+{
+"rank": 851,
+"name": "LabCorp",
+"ticker": "LH",
+"slug": "labcorp",
+"cap": 29216274432,
+"country": "USA"
+},
+{
+"rank": 852,
+"name": "DSM-Firmenich",
+"ticker": "DSFIR.AS",
+"slug": "dsm-firmenich",
+"cap": 29206961735,
+"country": "Switzerland"
+},
+{
+"rank": 853,
+"name": "Brookfield Infrastructure Partners",
+"ticker": "BIP",
+"slug": "brookfield-infrastructure-partners",
+"cap": 29147078656,
+"country": "Bermuda"
+},
+{
+"rank": 854,
+"name": "Pembina Pipeline",
+"ticker": "PBA",
+"slug": "pembina-pipeline",
+"cap": 29112643584,
+"country": "Canada"
+},
+{
+"rank": 855,
+"name": "GigaDevice Semiconductor",
+"ticker": "603986.SS",
+"slug": "gigadevice-semiconductor",
+"cap": 29015792381,
+"country": "China"
+},
+{
+"rank": 856,
+"name": "Imperial Brands",
+"ticker": "IMB.L",
+"slug": "imperial-brands",
+"cap": 28992584873,
+"country": "UK"
+},
+{
+"rank": 857,
+"name": "Sumitomo Mitsui Trust Holdings",
+"ticker": "8309.T",
+"slug": "sumitomo-mitsui-trust",
+"cap": 28928854208,
+"country": "Japan"
+},
+{
+"rank": 858,
+"name": "Credicorp",
+"ticker": "BAP",
+"slug": "credicorp",
+"cap": 28914984960,
+"country": "Bermuda"
+},
+{
+"rank": 859,
+"name": "Formosa Petrochemical",
+"ticker": "6505.TW",
+"slug": "formosa-petrochemical",
+"cap": 28909188802,
+"country": "Taiwan"
+},
+{
+"rank": 860,
+"name": "Kyocera",
+"ticker": "6971.T",
+"slug": "kyocera",
+"cap": 28658234366,
+"country": "Japan"
+},
+{
+"rank": 861,
+"name": "Atmos Energy",
+"ticker": "ATO",
+"slug": "atmos-energy",
+"cap": 28648630272,
+"country": "USA"
+},
+{
+"rank": 862,
+"name": "Bharat Electronics",
+"ticker": "BEL.NS",
+"slug": "bharat-electronics",
+"cap": 28643189371,
+"country": "India"
+},
+{
+"rank": 863,
+"name": "China State Construction Engineering",
+"ticker": "601668.SS",
+"slug": "china-state-construction-engineering",
+"cap": 28538234171,
+"country": "China"
+},
+{
+"rank": 864,
+"name": "Mitsubishi Estate",
+"ticker": "8802.T",
+"slug": "mitsubishi-estate",
+"cap": 28520096954,
+"country": "Japan"
+},
+{
+"rank": 865,
+"name": "Astellas Pharma",
+"ticker": "4503.T",
+"slug": "astellas-pharma",
+"cap": 28504468644,
+"country": "Japan"
+},
+{
+"rank": 866,
+"name": "West Pharmaceutical Services",
+"ticker": "WST",
+"slug": "west-pharma",
+"cap": 28406472704,
+"country": "USA"
+},
+{
+"rank": 867,
+"name": "Bajaj Finserv",
+"ticker": "BAJAJFINSV.NS",
+"slug": "bajaj-finserv",
+"cap": 28314758593,
+"country": "India"
+},
+{
+"rank": 868,
+"name": "Kraft Heinz",
+"ticker": "KHC",
+"slug": "kraft-heinz",
+"cap": 28293754880,
+"country": "USA"
+},
+{
+"rank": 869,
+"name": "Yankuang Energy (Yanzhou Coal Mining)",
+"ticker": "600188.SS",
+"slug": "yankuang-energy",
+"cap": 28269432787,
+"country": "China"
+},
+{
+"rank": 870,
+"name": "H&M",
+"ticker": "HM-B.ST",
+"slug": "h-m",
+"cap": 28266012055,
+"country": "Sweden"
+},
+{
+"rank": 871,
+"name": "BT Group",
+"ticker": "BT-A.L",
+"slug": "bt-group",
+"cap": 28172800998,
+"country": "UK"
+},
+{
+"rank": 872,
+"name": "China Coal Energy Company Limited",
+"ticker": "601898.SS",
+"slug": "china-coal-energy-company-limited",
+"cap": 28127085310,
+"country": "China"
+},
+{
+"rank": 873,
+"name": "TechnipFMC",
+"ticker": "FTI",
+"slug": "technipfmc",
+"cap": 28000538624,
+"country": "UK"
+},
+{
+"rank": 874,
+"name": "Rubrik",
+"ticker": "RBRK",
+"slug": "rubrik",
+"cap": 27992684544,
+"country": "USA"
+},
+{
+"rank": 875,
+"name": "Vestas Wind Systems",
+"ticker": "VWS.CO",
+"slug": "vestas-wind-systems",
+"cap": 27982676063,
+"country": "Denmark"
+},
+{
+"rank": 876,
+"name": "George Weston",
+"ticker": "WN.TO",
+"slug": "george-weston",
+"cap": 27954315000,
+"country": "Canada"
+},
+{
+"rank": 877,
+"name": "Sampo",
+"ticker": "SAMPO.HE",
+"slug": "sampo",
+"cap": 27918951050,
+"country": "Finland"
+},
+{
+"rank": 878,
+"name": "SharkNinja",
+"ticker": "SN",
+"slug": "sharkninja",
+"cap": 27916515328,
+"country": "USA"
+},
+{
+"rank": 879,
+"name": "Yili Group",
+"ticker": "600887.SS",
+"slug": "yili-group",
+"cap": 27908232691,
+"country": "China"
+},
+{
+"rank": 880,
+"name": "Dollar General",
+"ticker": "DG",
+"slug": "dollar-general",
+"cap": 27835219968,
+"country": "USA"
+},
+{
+"rank": 881,
+"name": "Publicis Groupe",
+"ticker": "PUB.PA",
+"slug": "publicis-groupe",
+"cap": 27822215146,
+"country": "France"
+},
+{
+"rank": 882,
+"name": "American Water",
+"ticker": "AWK",
+"slug": "american-water-works",
+"cap": 27780325376,
+"country": "USA"
+},
+{
+"rank": 883,
+"name": "Otis Worldwide",
+"ticker": "OTIS",
+"slug": "otis-worldwide",
+"cap": 27739375616,
+"country": "USA"
+},
+{
+"rank": 884,
+"name": "Dover Corporation",
+"ticker": "DOV",
+"slug": "dover",
+"cap": 27662809088,
+"country": "USA"
+},
+{
+"rank": 885,
+"name": "CenterPoint Energy",
+"ticker": "CNP",
+"slug": "centerpoint-energy",
+"cap": 27569164288,
+"country": "USA"
+},
+{
+"rank": 886,
+"name": "VeriSign",
+"ticker": "VRSN",
+"slug": "verisign",
+"cap": 27538798592,
+"country": "USA"
+},
+{
+"rank": 887,
+"name": "Cincinnati Financial",
+"ticker": "CINF",
+"slug": "cincinnati-financial",
+"cap": 27538216960,
+"country": "USA"
+},
+{
+"rank": 888,
+"name": "Citizens Financial Group",
+"ticker": "CFG",
+"slug": "citizens-financial-group",
+"cap": 27493015552,
+"country": "USA"
+},
+{
+"rank": 889,
+"name": "DTE Energy",
+"ticker": "DTE",
+"slug": "dte-energy",
+"cap": 27459301376,
+"country": "USA"
+},
+{
+"rank": 890,
+"name": "EchoStar",
+"ticker": "ECHO",
+"slug": "echostar",
+"cap": 27423934464,
+"country": "USA"
+},
+{
+"rank": 891,
+"name": "Veolia",
+"ticker": "VIE.PA",
+"slug": "veolia",
+"cap": 27391923499,
+"country": "France"
+},
+{
+"rank": 892,
+"name": "Gulf Development Public Company",
+"ticker": "GULF.BK",
+"slug": "gulf-energy-development-public-company",
+"cap": 27369674792,
+"country": "Thailand"
+},
+{
+"rank": 893,
+"name": "China Everbright Bank",
+"ticker": "601818.SS",
+"slug": "china-everbright-bank",
+"cap": 27352782488,
+"country": "China"
+},
+{
+"rank": 894,
+"name": "Doosan Enerbility",
+"ticker": "034020.KS",
+"slug": "doosan-enerbility",
+"cap": 27346343164,
+"country": "S. Korea"
+},
+{
+"rank": 895,
+"name": "Haier Smart Home",
+"ticker": "600690.SS",
+"slug": "haier-smart-home",
+"cap": 27346184508,
+"country": "China"
+},
+{
+"rank": 896,
+"name": "Emaar Properties",
+"ticker": "EMAAR.AE",
+"slug": "emaar-properties",
+"cap": 27339937654,
+"country": "UAE"
+},
+{
+"rank": 897,
+"name": "Kinross Gold",
+"ticker": "KGC",
+"slug": "kinross-gold",
+"cap": 27259811840,
+"country": "Canada"
+},
+{
+"rank": 898,
+"name": "Divis Laboratories",
+"ticker": "DIVISLAB.NS",
+"slug": "divis-laboratories",
+"cap": 27145532479,
+"country": "India"
+},
+{
+"rank": 899,
+"name": "Quest Diagnostics",
+"ticker": "DGX",
+"slug": "quest-diagnostics",
+"cap": 27109904384,
+"country": "USA"
+},
+{
+"rank": 900,
+"name": "Ryanair",
+"ticker": "RYAAY",
+"slug": "ryanair",
+"cap": 27092600832,
+"country": "Ireland"
+},
+{
+"rank": 901,
+"name": "Baidu",
+"ticker": "BIDU",
+"slug": "baidu",
+"cap": 27069503488,
+"country": "China"
+},
+{
+"rank": 902,
+"name": "Amadeus IT Group",
+"ticker": "AMS.MC",
+"slug": "amadeus-it-group",
+"cap": 27052388480,
+"country": "Spain"
+},
+{
+"rank": 903,
+"name": "QBE Insurance",
+"ticker": "QBE.AX",
+"slug": "qbe-insurance",
+"cap": 27043473166,
+"country": "Australia"
+},
+{
+"rank": 904,
+"name": "Verbund AG",
+"ticker": "OEWA.F",
+"slug": "verbund",
+"cap": 26908906551,
+"country": "Austria"
+},
+{
+"rank": 905,
+"name": "FirstEnergy",
+"ticker": "FE",
+"slug": "firstenergy",
+"cap": 26839207936,
+"country": "USA"
+},
+{
+"rank": 906,
+"name": "Copart",
+"ticker": "CPRT",
+"slug": "copart",
+"cap": 26826528768,
+"country": "USA"
+},
+{
+"rank": 907,
+"name": "OMV",
+"ticker": "OMV.F",
+"slug": "omv",
+"cap": 26806644590,
+"country": "Austria"
+},
+{
+"rank": 908,
+"name": "Roivant Sciences",
+"ticker": "ROIV",
+"slug": "roivant-sciences",
+"cap": 26805407744,
+"country": "UK"
+},
+{
+"rank": 909,
+"name": "E.SUN Bank",
+"ticker": "2884.TW",
+"slug": "esun-bank",
+"cap": 26772791963,
+"country": "Taiwan"
+},
+{
+"rank": 910,
+"name": "Grupo ACS",
+"ticker": "ACS.MC",
+"slug": "grupo-acs",
+"cap": 26750475281,
+"country": "Spain"
+},
+{
+"rank": 911,
+"name": "Cerebras Systems",
+"ticker": "CBRS",
+"slug": "cerebras-systems",
+"cap": 26740209664,
+"country": "USA"
+},
+{
+"rank": 912,
+"name": "Weichai Power",
+"ticker": "2338.HK",
+"slug": "weichai-power",
+"cap": 26694435540,
+"country": "China"
+},
+{
+"rank": 913,
+"name": "Nomura Holdings",
+"ticker": "NMR",
+"slug": "nomura-holdings",
+"cap": 26654023680,
+"country": "Japan"
+},
+{
+"rank": 914,
+"name": "Mitsui Fudosan",
+"ticker": "8801.T",
+"slug": "mitsui-fudosan",
+"cap": 26612373497,
+"country": "Japan"
+},
+{
+"rank": 915,
+"name": "W. R. Berkley",
+"ticker": "WRB",
+"slug": "wr-berkley",
+"cap": 26591027200,
+"country": "USA"
+},
+{
+"rank": 916,
+"name": "China Resources Land",
+"ticker": "1109.HK",
+"slug": "china-resources-land",
+"cap": 26539512172,
+"country": "Hong Kong"
+},
+{
+"rank": 917,
+"name": "Life Insurance Corporation of India (LIC)",
+"ticker": "LICI.NS",
+"slug": "life-insurance-corporation-of-india",
+"cap": 26488650500,
+"country": "India"
+},
+{
+"rank": 918,
+"name": "Dassault Aviation",
+"ticker": "AM.PA",
+"slug": "dassault-aviation",
+"cap": 26484504457,
+"country": "France"
+},
+{
+"rank": 919,
+"name": "ULTA Beauty",
+"ticker": "ULTA",
+"slug": "ulta-beauty",
+"cap": 26477135872,
+"country": "USA"
+},
+{
+"rank": 920,
+"name": "Philips",
+"ticker": "PHG",
+"slug": "philips",
+"cap": 26419865600,
+"country": "Netherlands"
+},
+{
+"rank": 921,
+"name": "Suzhou TFC Optical Communication",
+"ticker": "300394.SZ",
+"slug": "suzhou-tfc-optical-communication",
+"cap": 26409381898,
+"country": "China"
+},
+{
+"rank": 922,
+"name": "\u00d8rsted",
+"ticker": "ORSTED.CO",
+"slug": "orsted",
+"cap": 26407108779,
+"country": "Denmark"
+},
+{
+"rank": 923,
+"name": "PPL",
+"ticker": "PPL",
+"slug": "ppl",
+"cap": 26406797312,
+"country": "USA"
+},
+{
+"rank": 924,
+"name": "Hapag-Lloyd",
+"ticker": "HLAG.DE",
+"slug": "hapag-lloyd",
+"cap": 26397605946,
+"country": "Germany"
+},
+{
+"rank": 925,
+"name": "Michelin",
+"ticker": "ML.PA",
+"slug": "michelin",
+"cap": 26354799935,
+"country": "France"
+},
+{
+"rank": 926,
+"name": "PPG Industries",
+"ticker": "PPG",
+"slug": "ppg-industries",
+"cap": 26329212928,
+"country": "USA"
+},
+{
+"rank": 927,
+"name": "Fujifilm",
+"ticker": "4901.T",
+"slug": "fujifilm",
+"cap": 26306885143,
+"country": "Japan"
+},
+{
+"rank": 928,
+"name": "Aristocrat",
+"ticker": "ALL.AX",
+"slug": "aristocrat",
+"cap": 26285493289,
+"country": "Australia"
+},
+{
+"rank": 929,
+"name": "Helvetia Baloise Holding AG",
+"ticker": "HBAN.SW",
+"slug": "helvetia-baloise-holding-ag",
+"cap": 26280146717,
+"country": "Switzerland"
+},
+{
+"rank": 930,
+"name": "AIB Group (Allied Irish Banks)",
+"ticker": "A5G.IR",
+"slug": "aib-group-allied-irish-banks",
+"cap": 26276225945,
+"country": "Ireland"
+},
+{
+"rank": 931,
+"name": "Exor",
+"ticker": "EXO.AS",
+"slug": "exor",
+"cap": 26273030402,
+"country": "Netherlands"
+},
+{
+"rank": 932,
+"name": "Tradeweb",
+"ticker": "TW",
+"slug": "tradeweb",
+"cap": 26123876352,
+"country": "USA"
+},
+{
+"rank": 933,
+"name": "Corpay",
+"ticker": "CPAY",
+"slug": "corpay",
+"cap": 25992007680,
+"country": "USA"
+},
+{
+"rank": 934,
+"name": "Reddit",
+"ticker": "RDDT",
+"slug": "reddit",
+"cap": 25915809792,
+"country": "USA"
+},
+{
+"rank": 935,
+"name": "Aker BP",
+"ticker": "AKRBP.OL",
+"slug": "aker-bp",
+"cap": 25906298189,
+"country": "Norway"
+},
+{
+"rank": 936,
+"name": "VICI Properties",
+"ticker": "VICI",
+"slug": "vici-properties",
+"cap": 25897342976,
+"country": "USA"
+},
+{
+"rank": 937,
+"name": "First Citizens BancShares",
+"ticker": "FCNCA",
+"slug": "first-citizens-bancshares",
+"cap": 25889200128,
+"country": "USA"
+},
+{
+"rank": 938,
+"name": "MTR Corporation",
+"ticker": "0066.HK",
+"slug": "mtr-corporation",
+"cap": 25881092038,
+"country": "Hong Kong"
+},
+{
+"rank": 939,
+"name": "Powergrid Corporation of India",
+"ticker": "POWERGRID.NS",
+"slug": "powergrid-india",
+"cap": 25774834332,
+"country": "India"
+},
+{
+"rank": 940,
+"name": "Coal India",
+"ticker": "COALINDIA.NS",
+"slug": "coal-india",
+"cap": 25750351830,
+"country": "India"
+},
+{
+"rank": 941,
+"name": "Airports of Thailand",
+"ticker": "AOT.BK",
+"slug": "airports-of-thailand",
+"cap": 25745750482,
+"country": "Thailand"
+},
+{
+"rank": 942,
+"name": "SMC corp",
+"ticker": "6273.T",
+"slug": "smc",
+"cap": 25717495206,
+"country": "Japan"
+},
+{
+"rank": 943,
+"name": "Qnity Electronics",
+"ticker": "Q",
+"slug": "qnity-electronics",
+"cap": 25704761344,
+"country": "USA"
+},
+{
+"rank": 944,
+"name": "GlobalFoundries",
+"ticker": "GFS",
+"slug": "globalfoundries",
+"cap": 25702574080,
+"country": "USA"
+},
+{
+"rank": 945,
+"name": "BOE Technology",
+"ticker": "000725.SZ",
+"slug": "boe-tech",
+"cap": 25695936108,
+"country": "China"
+},
+{
+"rank": 946,
+"name": "Expeditors International",
+"ticker": "EXPD",
+"slug": "expeditors",
+"cap": 25627650048,
+"country": "USA"
+},
+{
+"rank": 947,
+"name": "Samsung Electro-Mechanics",
+"ticker": "009155.KS",
+"slug": "samsung-electro-mechanics",
+"cap": 25597060703,
+"country": "S. Korea"
+},
+{
+"rank": 948,
+"name": "Hansoh Pharma",
+"ticker": "3692.HK",
+"slug": "hansoh-pharma",
+"cap": 25562127987,
+"country": "China"
+},
+{
+"rank": 949,
+"name": "Suzuki Motor",
+"ticker": "7269.T",
+"slug": "suzuki-motor",
+"cap": 25453112425,
+"country": "Japan"
+},
+{
+"rank": 950,
+"name": "Fiserv",
+"ticker": "FISV",
+"slug": "fiserv",
+"cap": 25450354688,
+"country": "USA"
+},
+{
+"rank": 951,
+"name": "Chroma ATE Inc.",
+"ticker": "2360.TW",
+"slug": "chroma-ate-inc",
+"cap": 25358103983,
+"country": "Taiwan"
+},
+{
+"rank": 952,
+"name": "Coupang",
+"ticker": "CPNG",
+"slug": "coupang",
+"cap": 25328355328,
+"country": "USA"
+},
+{
+"rank": 953,
+"name": "Neste",
+"ticker": "NESTE.HE",
+"slug": "neste",
+"cap": 25321741094,
+"country": "Finland"
+},
+{
+"rank": 954,
+"name": "Northern Star",
+"ticker": "NST.AX",
+"slug": "northern-star",
+"cap": 25289658538,
+"country": "Australia"
+},
+{
+"rank": 955,
+"name": "Chaozhou Three-Circle",
+"ticker": "300408.SZ",
+"slug": "chaozhou-three-circle",
+"cap": 25289536909,
+"country": "China"
+},
+{
+"rank": 956,
+"name": "Anta Sports",
+"ticker": "2020.HK",
+"slug": "anta-sports",
+"cap": 25230371295,
+"country": "China"
+},
+{
+"rank": 957,
+"name": "Eversource Energy",
+"ticker": "ES",
+"slug": "eversource-energy",
+"cap": 25199542272,
+"country": "USA"
+},
+{
+"rank": 958,
+"name": "Sany Heavy Industry",
+"ticker": "600031.SS",
+"slug": "sany-heavy-industry",
+"cap": 25195758709,
+"country": "China"
+},
+{
+"rank": 959,
+"name": "Samsara",
+"ticker": "IOT",
+"slug": "samsara",
+"cap": 25186877440,
+"country": "USA"
+},
+{
+"rank": 960,
+"name": "East Japan Railway",
+"ticker": "9020.T",
+"slug": "east-japan-railway",
+"cap": 25163426509,
+"country": "Japan"
+},
+{
+"rank": 961,
+"name": "United Therapeutics",
+"ticker": "UTHR",
+"slug": "united-therapeutics",
+"cap": 25154531328,
+"country": "USA"
+},
+{
+"rank": 962,
+"name": "National Bank of Kuwait",
+"ticker": "NBK.KW",
+"slug": "national-bank-of-kuwait",
+"cap": 25133673316,
+"country": "Kuwait"
+},
+{
+"rank": 963,
+"name": "Veralto",
+"ticker": "VLTO",
+"slug": "veralto",
+"cap": 25061955584,
+"country": "USA"
+},
+{
+"rank": 964,
+"name": "MFHC",
+"ticker": "2886.TW",
+"slug": "mfhc",
+"cap": 25019053534,
+"country": "Taiwan"
+},
+{
+"rank": 965,
+"name": "ADNOC Drilling Company",
+"ticker": "ADNOCDRILL.AE",
+"slug": "adnoc-drilling-company",
+"cap": 24963241090,
+"country": "UAE"
+},
+{
+"rank": 966,
+"name": "Verisk Analytics",
+"ticker": "VRSK",
+"slug": "verisk-analytics",
+"cap": 24867946496,
+"country": "USA"
+},
+{
+"rank": 967,
+"name": "Nan Ya PCB",
+"ticker": "8046.TW",
+"slug": "nan-y-pcb",
+"cap": 24860167572,
+"country": "Taiwan"
+},
+{
+"rank": 968,
+"name": "Church & Dwight",
+"ticker": "CHD",
+"slug": "church-and-dwight",
+"cap": 24847108096,
+"country": "USA"
+},
+{
+"rank": 969,
+"name": "Casey's General Stores",
+"ticker": "CASY",
+"slug": "caseys-general-stores",
+"cap": 24764053504,
+"country": "USA"
+},
+{
+"rank": 970,
+"name": "Canon",
+"ticker": "7751.T",
+"slug": "canon",
+"cap": 24761173311,
+"country": "Japan"
+},
+{
+"rank": 971,
+"name": "SGS",
+"ticker": "SGSN.SW",
+"slug": "sgs",
+"cap": 24748038456,
+"country": "Switzerland"
+},
+{
+"rank": 972,
+"name": "Klabin",
+"ticker": "KLBN11.SA",
+"slug": "klabin",
+"cap": 24740227608,
+"country": "Brazil"
+},
+{
+"rank": 973,
+"name": "Affirm",
+"ticker": "AFRM",
+"slug": "affirm",
+"cap": 24739725312,
+"country": "USA"
+},
+{
+"rank": 974,
+"name": "ST Engineering",
+"ticker": "S63.SI",
+"slug": "st-engineering",
+"cap": 24738527065,
+"country": "Singapore"
+},
+{
+"rank": 975,
+"name": "Dow",
+"ticker": "DOW",
+"slug": "dow",
+"cap": 24706091008,
+"country": "USA"
+},
+{
+"rank": 976,
+"name": "S.F. Express",
+"ticker": "002352.SZ",
+"slug": "sf-express",
+"cap": 24589579175,
+"country": "China"
+},
+{
+"rank": 977,
+"name": "EnBW Energie",
+"ticker": "EBK.DE",
+"slug": "enbw-energie",
+"cap": 24562246453,
+"country": "Germany"
+},
+{
+"rank": 978,
+"name": "Kering",
+"ticker": "KER.PA",
+"slug": "kering",
+"cap": 24551169032,
+"country": "France"
+},
+{
+"rank": 979,
+"name": "Synchrony Financial",
+"ticker": "SYF",
+"slug": "synchrony",
+"cap": 24519948288,
+"country": "USA"
+},
+{
+"rank": 980,
+"name": "Guardant Health",
+"ticker": "GH",
+"slug": "guardant-health",
+"cap": 24502878208,
+"country": "USA"
+},
+{
+"rank": 981,
+"name": "Darden Restaurants",
+"ticker": "DRI",
+"slug": "darden-restaurants",
+"cap": 24502296576,
+"country": "USA"
+},
+{
+"rank": 982,
+"name": "InterContinental Hotels Group",
+"ticker": "IHG",
+"slug": "intercontinental-hotels-group",
+"cap": 24475633664,
+"country": "UK"
+},
+{
+"rank": 983,
+"name": "AerCap",
+"ticker": "AER",
+"slug": "aercap",
+"cap": 24438978560,
+"country": "Ireland"
+},
+{
+"rank": 984,
+"name": "CLP Group",
+"ticker": "0002.HK",
+"slug": "clp-group",
+"cap": 24376425875,
+"country": "Hong Kong"
+},
+{
+"rank": 985,
+"name": "Trip.com",
+"ticker": "TCOM",
+"slug": "trip-dot-com",
+"cap": 24287729664,
+"country": "China"
+},
+{
+"rank": 986,
+"name": "Entegris",
+"ticker": "ENTG",
+"slug": "entegris",
+"cap": 24264437760,
+"country": "USA"
+},
+{
+"rank": 987,
+"name": "China International Capital Corporation",
+"ticker": "601995.SS",
+"slug": "china-international-capital-corporation",
+"cap": 24230278944,
+"country": "China"
+},
+{
+"rank": 988,
+"name": "Coca-Cola FEMSA",
+"ticker": "KOF",
+"slug": "coca-cola-femsa",
+"cap": 24209991680,
+"country": "Mexico"
+},
+{
+"rank": 989,
+"name": "Nestl\u00e9 India",
+"ticker": "NESTLEIND.NS",
+"slug": "nestle-india",
+"cap": 24189169771,
+"country": "India"
+},
+{
+"rank": 990,
+"name": "Regions Financial",
+"ticker": "RF",
+"slug": "regions-financial",
+"cap": 24186279936,
+"country": "USA"
+},
+{
+"rank": 991,
+"name": "ENEOS Holdings",
+"ticker": "5020.T",
+"slug": "eneos-holdings",
+"cap": 24151002564,
+"country": "Japan"
+},
+{
+"rank": 992,
+"name": "WuXi Biologics",
+"ticker": "WXXWY",
+"slug": "wuxi-biologics",
+"cap": 24142276608,
+"country": "China"
+},
+{
+"rank": 993,
+"name": "Hana Financial Group",
+"ticker": "086790.KS",
+"slug": "hana-financial-group",
+"cap": 24127088846,
+"country": "S. Korea"
+},
+{
+"rank": 994,
+"name": "Bandai Namco",
+"ticker": "7832.T",
+"slug": "bandai-namco",
+"cap": 24096615249,
+"country": "Japan"
+},
+{
+"rank": 995,
+"name": "Dollar Tree",
+"ticker": "DLTR",
+"slug": "dollar-tree",
+"cap": 23862822912,
+"country": "USA"
+},
+{
+"rank": 996,
+"name": "Fortum",
+"ticker": "FORTUM.HE",
+"slug": "fortum",
+"cap": 23827600663,
+"country": "Finland"
+},
+{
+"rank": 997,
+"name": "Principal Financial Group",
+"ticker": "PFG",
+"slug": "principal",
+"cap": 23799552000,
+"country": "USA"
+},
+{
+"rank": 998,
+"name": "Ems-Chemie",
+"ticker": "EMSN.SW",
+"slug": "ems-chemie",
+"cap": 23775737215,
+"country": "Switzerland"
+},
+{
+"rank": 999,
+"name": "Fox Corporation",
+"ticker": "FOX",
+"slug": "fox-corporation",
+"cap": 23761307648,
+"country": "USA"
+},
+{
+"rank": 1000,
+"name": "Incyte",
+"ticker": "INCY",
+"slug": "incyte",
+"cap": 23689285632,
+"country": "USA"
+},
+{
+"rank": 1001,
+"name": "New China Life Insurance",
+"ticker": "601336.SS",
+"slug": "new-china-life-insurance",
+"cap": 23625140163,
+"country": "China"
+},
+{
+"rank": 1002,
+"name": "Victory Giant Technology",
+"ticker": "300476.SZ",
+"slug": "victory-giant-technology",
+"cap": 23614045346,
+"country": "China"
+},
+{
+"rank": 1003,
+"name": "Symbotic",
+"ticker": "SYM",
+"slug": "symbotic",
+"cap": 23591067648,
+"country": "USA"
+},
+{
+"rank": 1004,
+"name": "Bank Rakyat Indonesia",
+"ticker": "BBRI.JK",
+"slug": "bank-rakyat-indonesia",
+"cap": 23581092852,
+"country": "Indonesia"
+},
+{
+"rank": 1005,
+"name": "Hyundai Mobis",
+"ticker": "012330.KS",
+"slug": "hyundai-mobis",
+"cap": 23565361108,
+"country": "S. Korea"
+},
+{
+"rank": 1006,
+"name": "Moore Threads",
+"ticker": "688795.SS",
+"slug": "moore-threads",
+"cap": 23519015298,
+"country": "China"
+},
+{
+"rank": 1007,
+"name": "Lasertec",
+"ticker": "6920.T",
+"slug": "lasertec",
+"cap": 23460202738,
+"country": "Japan"
+},
+{
+"rank": 1008,
+"name": "Las Vegas Sands",
+"ticker": "LVS",
+"slug": "las-vegas-sands",
+"cap": 23459737600,
+"country": "USA"
+},
+{
+"rank": 1009,
+"name": "Largan Precision",
+"ticker": "3008.TW",
+"slug": "largan-precision",
+"cap": 23410018748,
+"country": "Taiwan"
+},
+{
+"rank": 1010,
+"name": "Next plc",
+"ticker": "NXT.L",
+"slug": "next-plc",
+"cap": 23378033710,
+"country": "UK"
+},
+{
+"rank": 1011,
+"name": "Fresnillo",
+"ticker": "FNLPF",
+"slug": "fresnillo",
+"cap": 23374264320,
+"country": "Mexico"
+},
+{
+"rank": 1012,
+"name": "Arxis, Inc.",
+"ticker": "ARXS",
+"slug": "arxis-inc",
+"cap": 23320629248,
+"country": "USA"
+},
+{
+"rank": 1013,
+"name": "Mediobanca",
+"ticker": "MB.MI",
+"slug": "mediobanca",
+"cap": 23249216672,
+"country": "Italy"
+},
+{
+"rank": 1014,
+"name": "PT DCI Indonesia Tbk",
+"ticker": "DCII.JK",
+"slug": "pt-dci-indonesia-tbk",
+"cap": 23245606504,
+"country": "Indonesia"
+},
+{
+"rank": 1015,
+"name": "Asian Paints",
+"ticker": "ASIANPAINT.NS",
+"slug": "asian-paints",
+"cap": 23238580642,
+"country": "India"
+},
+{
+"rank": 1016,
+"name": "China Minsheng Bank",
+"ticker": "600016.SS",
+"slug": "china-minsheng-bank",
+"cap": 23220135179,
+"country": "China"
+},
+{
+"rank": 1017,
+"name": "Ralph Lauren",
+"ticker": "RL",
+"slug": "ralph-lauren",
+"cap": 23210856448,
+"country": "USA"
+},
+{
+"rank": 1018,
+"name": "Banco BPM",
+"ticker": "BAMI.MI",
+"slug": "banco-bpm",
+"cap": 23176321953,
+"country": "Italy"
+},
+{
+"rank": 1019,
+"name": "Supermicro",
+"ticker": "SMCI",
+"slug": "supermicro",
+"cap": 23164524544,
+"country": "USA"
+},
+{
+"rank": 1020,
+"name": "International Flavors & Fragrances",
+"ticker": "IFF",
+"slug": "iff",
+"cap": 23145814016,
+"country": "USA"
+},
+{
+"rank": 1021,
+"name": "Snam",
+"ticker": "SRG.MI",
+"slug": "snam",
+"cap": 23120115834,
+"country": "Italy"
+},
+{
+"rank": 1022,
+"name": "Huatai Securities",
+"ticker": "601688.SS",
+"slug": "htsc",
+"cap": 23112169360,
+"country": "China"
+},
+{
+"rank": 1023,
+"name": "Hubbell",
+"ticker": "HUBB",
+"slug": "hubbell",
+"cap": 23109294080,
+"country": "USA"
+},
+{
+"rank": 1024,
+"name": "Chocoladefabriken Lindt & Spr\u00fcngli",
+"ticker": "LISP.SW",
+"slug": "lindt",
+"cap": 23066217542,
+"country": "Switzerland"
+},
+{
+"rank": 1025,
+"name": "Shenzhen Inovance",
+"ticker": "300124.SZ",
+"slug": "shenzhen-inovance",
+"cap": 23062029135,
+"country": "China"
+},
+{
+"rank": 1026,
+"name": "Roku",
+"ticker": "ROKU",
+"slug": "roku",
+"cap": 23053920256,
+"country": "USA"
+},
+{
+"rank": 1027,
+"name": "Hydro One",
+"ticker": "H.TO",
+"slug": "hydro-one",
+"cap": 23032638166,
+"country": "Canada"
+},
+{
+"rank": 1028,
+"name": "Hindustan Zinc",
+"ticker": "HINDZINC.NS",
+"slug": "hindustan-zinc",
+"cap": 23027877365,
+"country": "India"
+},
+{
+"rank": 1029,
+"name": "Central Japan Railway",
+"ticker": "9022.T",
+"slug": "central-japan-railway",
+"cap": 22954488271,
+"country": "Japan"
+},
+{
+"rank": 1030,
+"name": "Capgemini",
+"ticker": "CAP.PA",
+"slug": "capgemini",
+"cap": 22927398624,
+"country": "France"
+},
+{
+"rank": 1031,
+"name": "Texas Pacific Land Corporation",
+"ticker": "TPL",
+"slug": "texas-pacific-land-trust",
+"cap": 22894764032,
+"country": "USA"
+},
+{
+"rank": 1032,
+"name": "Bank of Nanjing",
+"ticker": "601009.SS",
+"slug": "bank-of-nanjing",
+"cap": 22894121852,
+"country": "China"
+},
+{
+"rank": 1033,
+"name": "Industrivarden",
+"ticker": "INDU-A.ST",
+"slug": "industrivarden",
+"cap": 22872289952,
+"country": "Sweden"
+},
+{
+"rank": 1034,
+"name": "Adani Green Energy",
+"ticker": "ADANIGREEN.NS",
+"slug": "adani-green-energy",
+"cap": 22868631471,
+"country": "India"
+},
+{
+"rank": 1035,
+"name": "Coca-Cola HBC",
+"ticker": "CCH.L",
+"slug": "coca-cola-hbc",
+"cap": 22860748427,
+"country": "Switzerland"
+},
+{
+"rank": 1036,
+"name": "Markel Group",
+"ticker": "MKL",
+"slug": "markel",
+"cap": 22856499200,
+"country": "USA"
+},
+{
+"rank": 1037,
+"name": "NN Group",
+"ticker": "NN.AS",
+"slug": "nn-group",
+"cap": 22810290848,
+"country": "Netherlands"
+},
+{
+"rank": 1038,
+"name": "PulteGroup",
+"ticker": "PHM",
+"slug": "pultegroup",
+"cap": 22803120128,
+"country": "USA"
+},
+{
+"rank": 1039,
+"name": "Alfa Laval",
+"ticker": "ALFA.ST",
+"slug": "alfa-laval",
+"cap": 22782651541,
+"country": "Sweden"
+},
+{
+"rank": 1040,
+"name": "Formula One Group",
+"ticker": "FWONK",
+"slug": "formula-one-group",
+"cap": 22779373568,
+"country": "USA"
+},
+{
+"rank": 1041,
+"name": "Seven Group Holdings\n (SGH)",
+"ticker": "SGH.AX",
+"slug": "seven-group-holdings",
+"cap": 22739872046,
+"country": "Australia"
+},
+{
+"rank": 1042,
+"name": "nVent Electric",
+"ticker": "NVT",
+"slug": "nvent-electric",
+"cap": 22679533568,
+"country": "UK"
+},
+{
+"rank": 1043,
+"name": "Aluminum Corporation of China",
+"ticker": "601600.SS",
+"slug": "aluminum-corporation-of-china",
+"cap": 22661975091,
+"country": "China"
+},
+{
+"rank": 1044,
+"name": "Edison International",
+"ticker": "EIX",
+"slug": "edison-international",
+"cap": 22638608384,
+"country": "USA"
+},
+{
+"rank": 1045,
+"name": "EDP Group",
+"ticker": "EDP.F",
+"slug": "edp-group",
+"cap": 22554994839,
+"country": "Portugal"
+},
+{
+"rank": 1046,
+"name": "Loews Corporation",
+"ticker": "L",
+"slug": "loews-corporation",
+"cap": 22527932416,
+"country": "USA"
+},
+{
+"rank": 1047,
+"name": "ATI Inc.",
+"ticker": "ATI",
+"slug": "allegheny-technologies",
+"cap": 22508965888,
+"country": "USA"
+},
+{
+"rank": 1048,
+"name": "PBBank (Public Bank Bhd)",
+"ticker": "1295.KL",
+"slug": "pbbank-public-bank",
+"cap": 22503083087,
+"country": "Malaysia"
+},
+{
+"rank": 1049,
+"name": "Constellation Oil Services Holding",
+"ticker": "QG21.F",
+"slug": "constellation-oil-services-holding",
+"cap": 22466204822,
+"country": "Luxembourg"
+},
+{
+"rank": 1050,
+"name": "Geberit",
+"ticker": "GEBN.SW",
+"slug": "geberit",
+"cap": 22452302004,
+"country": "Switzerland"
+},
+{
+"rank": 1051,
+"name": "KeyCorp (KeyBank)",
+"ticker": "KEY",
+"slug": "keycorp",
+"cap": 22433331200,
+"country": "USA"
+},
+{
+"rank": 1052,
+"name": "Grupo Cibest (Bancolombia)",
+"ticker": "CIB",
+"slug": "bancolombia",
+"cap": 22357786624,
+"country": "Colombia"
+},
+{
+"rank": 1053,
+"name": "AXIA Energia SA",
+"ticker": "AXIA3.SA",
+"slug": "axia-energia-sa",
+"cap": 22344372597,
+"country": "Brazil"
+},
+{
+"rank": 1054,
+"name": "Tata Steel",
+"ticker": "TATASTEEL.NS",
+"slug": "tata-steel",
+"cap": 22320375804,
+"country": "India"
+},
+{
+"rank": 1055,
+"name": "Reliance",
+"ticker": "RS",
+"slug": "reliance-steel-aluminum",
+"cap": 22319349760,
+"country": "USA"
+},
+{
+"rank": 1056,
+"name": "Steris",
+"ticker": "STE",
+"slug": "steris",
+"cap": 22306074624,
+"country": "Ireland"
+},
+{
+"rank": 1057,
+"name": "CK Infrastructure",
+"ticker": "1038.HK",
+"slug": "ck-infrastructure",
+"cap": 22271182119,
+"country": "Hong Kong"
+},
+{
+"rank": 1058,
+"name": "SoFi",
+"ticker": "SOFI",
+"slug": "sofi",
+"cap": 22224021504,
+"country": "USA"
+},
+{
+"rank": 1059,
+"name": "T. Rowe Price",
+"ticker": "TROW",
+"slug": "t-rowe-price",
+"cap": 22184849408,
+"country": "USA"
+},
+{
+"rank": 1060,
+"name": "Omnicom Group",
+"ticker": "OMC",
+"slug": "omnicom",
+"cap": 22164932608,
+"country": "USA"
+},
+{
+"rank": 1061,
+"name": "International Consolidated Airlines",
+"ticker": "BABWF",
+"slug": "international-consolidated-airlines",
+"cap": 22162767872,
+"country": "Spain"
+},
+{
+"rank": 1062,
+"name": "Packaging Corporation of America",
+"ticker": "PKG",
+"slug": "packaging-corporation-of-america",
+"cap": 22135580672,
+"country": "USA"
+},
+{
+"rank": 1063,
+"name": "Coles Group",
+"ticker": "COL.AX",
+"slug": "coles-group",
+"cap": 22128895704,
+"country": "Australia"
+},
+{
+"rank": 1064,
+"name": "Global Payments",
+"ticker": "GPN",
+"slug": "global-payments",
+"cap": 22108866560,
+"country": "USA"
+},
+{
+"rank": 1065,
+"name": "Terumo",
+"ticker": "4543.T",
+"slug": "terumo",
+"cap": 22106692254,
+"country": "Japan"
+},
+{
+"rank": 1066,
+"name": "BioNTech",
+"ticker": "BNTX",
+"slug": "biontech",
+"cap": 22103472128,
+"country": "Germany"
+},
+{
+"rank": 1067,
+"name": "Tapestry",
+"ticker": "TPR",
+"slug": "tapestry",
+"cap": 22073948160,
+"country": "USA"
+},
+{
+"rank": 1068,
+"name": "US Foods",
+"ticker": "USFD",
+"slug": "us-foods",
+"cap": 22050590720,
+"country": "USA"
+},
+{
+"rank": 1069,
+"name": "SK Group",
+"ticker": "034730.KS",
+"slug": "sk-group",
+"cap": 22019580782,
+"country": "S. Korea"
+},
+{
+"rank": 1070,
+"name": "DMart",
+"ticker": "DMART.NS",
+"slug": "dmart",
+"cap": 21969259647,
+"country": "India"
+},
+{
+"rank": 1071,
+"name": "Tower Semiconductor",
+"ticker": "TSEM",
+"slug": "tower-semiconductor",
+"cap": 21967939584,
+"country": "Israel"
+},
+{
+"rank": 1072,
+"name": "Constellation Brands",
+"ticker": "STZ",
+"slug": "constellation-brands",
+"cap": 21965303808,
+"country": "USA"
+},
+{
+"rank": 1073,
+"name": "MTN Group",
+"ticker": "MTN.JO",
+"slug": "mtn-group",
+"cap": 21917623200,
+"country": "South Africa"
+},
+{
+"rank": 1074,
+"name": "Expand Energy",
+"ticker": "EXE",
+"slug": "expand-energy",
+"cap": 21906186240,
+"country": "USA"
+},
+{
+"rank": 1075,
+"name": "Amrize",
+"ticker": "AMRZ",
+"slug": "amrize",
+"cap": 21893433344,
+"country": "Switzerland"
+},
+{
+"rank": 1076,
+"name": "Brown & Brown",
+"ticker": "BRO",
+"slug": "brown-and-brown",
+"cap": 21851856896,
+"country": "USA"
+},
+{
+"rank": 1077,
+"name": "Legal & General",
+"ticker": "LGEN.L",
+"slug": "legal-and-eneral",
+"cap": 21825757064,
+"country": "UK"
+},
+{
+"rank": 1078,
+"name": "Nippon Steel",
+"ticker": "5401.T",
+"slug": "nippon-steel",
+"cap": 21794547275,
+"country": "Japan"
+},
+{
+"rank": 1079,
+"name": "VAT Group",
+"ticker": "VACN.SW",
+"slug": "vat-group",
+"cap": 21788973316,
+"country": "Switzerland"
+},
+{
+"rank": 1080,
+"name": "Zhejiang Sanhua Intelligent Controls Co.,Ltd",
+"ticker": "002050.SZ",
+"slug": "zhejiang-sanhua-intelligent-controls",
+"cap": 21749936995,
+"country": "China"
+},
+{
+"rank": 1081,
+"name": "ASUS",
+"ticker": "2357.TW",
+"slug": "asus",
+"cap": 21718135085,
+"country": "Taiwan"
+},
+{
+"rank": 1082,
+"name": "LY Corporation",
+"ticker": "4689.T",
+"slug": "z-holdings",
+"cap": 21697142308,
+"country": "Japan"
+},
+{
+"rank": 1083,
+"name": "Pop Mart International Group",
+"ticker": "9992.HK",
+"slug": "pop-mart-international-group",
+"cap": 21687899441,
+"country": "China"
+},
+{
+"rank": 1084,
+"name": "LyondellBasell",
+"ticker": "LYB",
+"slug": "lyondellbasell",
+"cap": 21685536768,
+"country": "USA"
+},
+{
+"rank": 1085,
+"name": "Tenet Healthcare",
+"ticker": "THC",
+"slug": "tenet-healthcare",
+"cap": 21619351552,
+"country": "USA"
+},
+{
+"rank": 1086,
+"name": "TVS Motor",
+"ticker": "TVSMOTOR.NS",
+"slug": "tvs-motor",
+"cap": 21576128287,
+"country": "India"
+},
+{
+"rank": 1087,
+"name": "Viatris",
+"ticker": "VTRS",
+"slug": "viatris",
+"cap": 21559050240,
+"country": "USA"
+},
+{
+"rank": 1088,
+"name": "HD Hyundai Heavy Industries",
+"ticker": "329180.KS",
+"slug": "hd-hyundai-heavy-industries",
+"cap": 21537989764,
+"country": "S. Korea"
+},
+{
+"rank": 1089,
+"name": "Terna",
+"ticker": "TRN.MI",
+"slug": "terna",
+"cap": 21511064707,
+"country": "Italy"
+},
+{
+"rank": 1090,
+"name": "Hua Nan Financial Holdings",
+"ticker": "2880.TW",
+"slug": "hua-nan-financial-holdings",
+"cap": 21460138283,
+"country": "Taiwan"
+},
+{
+"rank": 1091,
+"name": "CMS Energy",
+"ticker": "CMS",
+"slug": "cms-energy",
+"cap": 21392404480,
+"country": "USA"
+},
+{
+"rank": 1092,
+"name": "Permian Resources",
+"ticker": "PR",
+"slug": "permian-resources",
+"cap": 21374455808,
+"country": "USA"
+},
+{
+"rank": 1093,
+"name": "Nornickel",
+"ticker": "GMKN.ME",
+"slug": "nornickel",
+"cap": 21332901485,
+"country": "Russia"
+},
+{
+"rank": 1094,
+"name": "First Quantum Minerals",
+"ticker": "FM.TO",
+"slug": "first-quantum-minerals",
+"cap": 21315737669,
+"country": "Canada"
+},
+{
+"rank": 1095,
+"name": "China Securities (CSC Financial)",
+"ticker": "601066.SS",
+"slug": "china-securities",
+"cap": 21312278396,
+"country": "China"
+},
+{
+"rank": 1096,
+"name": "Sinopac Financial Holdings",
+"ticker": "2890.TW",
+"slug": "sinopac-financial-holdings",
+"cap": 21294472804,
+"country": "Taiwan"
+},
+{
+"rank": 1097,
+"name": "XPO Logistics",
+"ticker": "XPO",
+"slug": "xpo-logistics",
+"cap": 21273440256,
+"country": "USA"
+},
+{
+"rank": 1098,
+"name": "Southwest Airlines",
+"ticker": "LUV",
+"slug": "southwest-airlines",
+"cap": 21265881088,
+"country": "USA"
+},
+{
+"rank": 1099,
+"name": "Nomura Research Institute",
+"ticker": "4307.T",
+"slug": "nomura-research-institute",
+"cap": 21231224974,
+"country": "Japan"
+},
+{
+"rank": 1100,
+"name": "Erste Bank Polska",
+"ticker": "EBP.WA",
+"slug": "erste-bank-polska",
+"cap": 21209375390,
+"country": "Poland"
+},
+{
+"rank": 1101,
+"name": "LPL Financial",
+"ticker": "LPLA",
+"slug": "lpl-financial",
+"cap": 21196636160,
+"country": "USA"
+},
+{
+"rank": 1102,
+"name": "PTC",
+"ticker": "PTC",
+"slug": "ptc",
+"cap": 21180024832,
+"country": "USA"
+},
+{
+"rank": 1103,
+"name": "Insmed",
+"ticker": "INSM",
+"slug": "insmed",
+"cap": 21178638336,
+"country": "USA"
+},
+{
+"rank": 1104,
+"name": "Wolters Kluwer",
+"ticker": "WKL.AS",
+"slug": "wolters-kluwer",
+"cap": 21154104894,
+"country": "Netherlands"
+},
+{
+"rank": 1105,
+"name": "Smurfit Westrock",
+"ticker": "SW",
+"slug": "smurfit-westrock",
+"cap": 21154009088,
+"country": "Ireland"
+},
+{
+"rank": 1106,
+"name": "Lens Technology",
+"ticker": "300433.SZ",
+"slug": "lens-technology",
+"cap": 21115598228,
+"country": "China"
+},
+{
+"rank": 1107,
+"name": "Eicher Motors",
+"ticker": "EICHERMOT.NS",
+"slug": "eicher-motors",
+"cap": 21113029871,
+"country": "India"
+},
+{
+"rank": 1108,
+"name": "Amcor",
+"ticker": "AMCR",
+"slug": "amcor",
+"cap": 21092440064,
+"country": "Switzerland"
+},
+{
+"rank": 1109,
+"name": "Grasim Industries",
+"ticker": "GRASIM.NS",
+"slug": "grasim-industries",
+"cap": 21089807437,
+"country": "India"
+},
+{
+"rank": 1110,
+"name": "NiSource",
+"ticker": "NI",
+"slug": "nisource",
+"cap": 21038301184,
+"country": "USA"
+},
+{
+"rank": 1111,
+"name": "Ka\u014d",
+"ticker": "4452.T",
+"slug": "kao",
+"cap": 21028506357,
+"country": "Japan"
+},
+{
+"rank": 1112,
+"name": "LG Electronics",
+"ticker": "066570.KS",
+"slug": "lg-electronics",
+"cap": 21011560607,
+"country": "S. Korea"
+},
+{
+"rank": 1113,
+"name": "Hindalco Industries",
+"ticker": "HINDALCO.NS",
+"slug": "hindalco-industries",
+"cap": 21009027115,
+"country": "India"
+},
+{
+"rank": 1114,
+"name": "Raiffeisen Bank International",
+"ticker": "RAW.F",
+"slug": "raiffeisen-bank-international",
+"cap": 21005195834,
+"country": "Austria"
+},
+{
+"rank": 1115,
+"name": "Abu Dhabi Islamic Bank (ADIB)",
+"ticker": "ADIB.AE",
+"slug": "abu-dhabi-islamic-bank-adib",
+"cap": 20965637247,
+"country": "UAE"
+},
+{
+"rank": 1116,
+"name": "J. B. Hunt",
+"ticker": "JBHT",
+"slug": "jb-hunt",
+"cap": 20964114432,
+"country": "USA"
+},
+{
+"rank": 1117,
+"name": "Shriram Transport Finance",
+"ticker": "SHRIRAMFIN.NS",
+"slug": "shriram-transport-finance",
+"cap": 20952312974,
+"country": "India"
+},
+{
+"rank": 1118,
+"name": "Fuyao Glass Industry Group",
+"ticker": "600660.SS",
+"slug": "fuyao-glass-industry-group",
+"cap": 20902032830,
+"country": "China"
+},
+{
+"rank": 1119,
+"name": "Samsung Fire & Marine Insurance Co., Ltd.",
+"ticker": "000810.KS",
+"slug": "samsung-fire-marine-insurance",
+"cap": 20882969641,
+"country": "S. Korea"
+},
+{
+"rank": 1120,
+"name": "Sungrow Power Supply",
+"ticker": "300274.SZ",
+"slug": "sungrow-power-supply",
+"cap": 20875611457,
+"country": "China"
+},
+{
+"rank": 1121,
+"name": "GF Securities",
+"ticker": "000776.SZ",
+"slug": "gf-securities",
+"cap": 20866877971,
+"country": "China"
+},
+{
+"rank": 1122,
+"name": "Telef\u00f3nica",
+"ticker": "TEF.MC",
+"slug": "telefonica",
+"cap": 20826183337,
+"country": "Spain"
+},
+{
+"rank": 1123,
+"name": "Santos",
+"ticker": "STO.AX",
+"slug": "santos",
+"cap": 20809997553,
+"country": "Australia"
+},
+{
+"rank": 1124,
+"name": "Dr. Sulaiman Al Habib Medical Services Group Company",
+"ticker": "4013.SR",
+"slug": "dr-sulaiman-al-habib-medical-services-group",
+"cap": 20752352329,
+"country": "S. Arabia"
+},
+{
+"rank": 1125,
+"name": "Uniper",
+"ticker": "UN0.DE",
+"slug": "uniper",
+"cap": 20748910564,
+"country": "Germany"
+},
+{
+"rank": 1126,
+"name": "Circle Internet Group",
+"ticker": "CRCL",
+"slug": "circle-internet-group",
+"cap": 20744198144,
+"country": "USA"
+},
+{
+"rank": 1127,
+"name": "F5",
+"ticker": "FFIV",
+"slug": "f5-networks",
+"cap": 20698935296,
+"country": "USA"
+},
+{
+"rank": 1128,
+"name": "Equifax",
+"ticker": "EFX",
+"slug": "equifax",
+"cap": 20680865792,
+"country": "USA"
+},
+{
+"rank": 1129,
+"name": "Unipol Assicurazioni",
+"ticker": "UNI.MI",
+"slug": "unipol-gruppo",
+"cap": 20680600954,
+"country": "Italy"
+},
+{
+"rank": 1130,
+"name": "ASICS Corporation",
+"ticker": "7936.T",
+"slug": "asics-corporation",
+"cap": 20565647025,
+"country": "Japan"
+},
+{
+"rank": 1131,
+"name": "CK Asset Holdings",
+"ticker": "1113.HK",
+"slug": "ck-asset--holdings",
+"cap": 20563865550,
+"country": "Hong Kong"
+},
+{
+"rank": 1132,
+"name": "Riyad Bank",
+"ticker": "1010.SR",
+"slug": "riyad-bank",
+"cap": 20538638297,
+"country": "S. Arabia"
+},
+{
+"rank": 1133,
+"name": "Skyworks Solutions",
+"ticker": "SWKS",
+"slug": "skyworks-solutions",
+"cap": 20513490944,
+"country": "USA"
+},
+{
+"rank": 1134,
+"name": "Royal Gold",
+"ticker": "RGLD",
+"slug": "royal-gold",
+"cap": 20499904512,
+"country": "USA"
+},
+{
+"rank": 1135,
+"name": "TD Synnex",
+"ticker": "SNX",
+"slug": "synnex",
+"cap": 20482076672,
+"country": "USA"
+},
+{
+"rank": 1136,
+"name": "Aeon",
+"ticker": "8267.T",
+"slug": "aeon",
+"cap": 20453242263,
+"country": "Japan"
+},
+{
+"rank": 1137,
+"name": "Partners Group",
+"ticker": "PGHN.SW",
+"slug": "partners-group",
+"cap": 20442103503,
+"country": "Switzerland"
+},
+{
+"rank": 1138,
+"name": "Amundi",
+"ticker": "AMUN.PA",
+"slug": "amundi",
+"cap": 20398259015,
+"country": "France"
+},
+{
+"rank": 1139,
+"name": "NRG Energy",
+"ticker": "NRG",
+"slug": "nrg-energy",
+"cap": 20384110592,
+"country": "USA"
+},
+{
+"rank": 1140,
+"name": "Wipro",
+"ticker": "WIT",
+"slug": "wipro",
+"cap": 20381128704,
+"country": "India"
+},
+{
+"rank": 1141,
+"name": "Sonova",
+"ticker": "SOON.SW",
+"slug": "sonova",
+"cap": 20364326856,
+"country": "Switzerland"
+},
+{
+"rank": 1142,
+"name": "CDW Corporation",
+"ticker": "CDW",
+"slug": "cdw-corporation",
+"cap": 20335335424,
+"country": "USA"
+},
+{
+"rank": 1143,
+"name": "Best Buy",
+"ticker": "BBY",
+"slug": "best-buy",
+"cap": 20335198208,
+"country": "USA"
+},
+{
+"rank": 1144,
+"name": "Xylem",
+"ticker": "XYL",
+"slug": "xylem",
+"cap": 20234190848,
+"country": "USA"
+},
+{
+"rank": 1145,
+"name": "AVIC Shenyang Aircraft Company Limited",
+"ticker": "600760.SS",
+"slug": "avic-shenyang-aircraft-company-limited",
+"cap": 20195495526,
+"country": "China"
+},
+{
+"rank": 1146,
+"name": "KGI Financial Holding",
+"ticker": "2883.TW",
+"slug": "china-development-financial",
+"cap": 20114574743,
+"country": "Taiwan"
+},
+{
+"rank": 1147,
+"name": "Beiersdorf",
+"ticker": "BEI.DE",
+"slug": "beiersdorf",
+"cap": 20089848902,
+"country": "Germany"
+},
+{
+"rank": 1148,
+"name": "China Merchants Securities",
+"ticker": "600999.SS",
+"slug": "china-merchants-securities",
+"cap": 20064498144,
+"country": "China"
+},
+{
+"rank": 1149,
+"name": "Bank of Ireland Group",
+"ticker": "BIRG.IR",
+"slug": "bank-of-ireland-group",
+"cap": 20058082127,
+"country": "Ireland"
+},
+{
+"rank": 1150,
+"name": "Bank of Shanghai",
+"ticker": "601229.SS",
+"slug": "bank-of-shanghai",
+"cap": 20033921125,
+"country": "China"
+},
+{
+"rank": 1151,
+"name": "China Unicom",
+"ticker": "0762.HK",
+"slug": "china-unicom",
+"cap": 20026121422,
+"country": "Hong Kong"
+},
+{
+"rank": 1152,
+"name": "Broadridge Financial Solutions",
+"ticker": "BR",
+"slug": "broadridge-financial-solutions",
+"cap": 19979919360,
+"country": "USA"
+},
+{
+"rank": 1153,
+"name": "MACOM Technology Solutions",
+"ticker": "MTSI",
+"slug": "macom",
+"cap": 19926704128,
+"country": "USA"
+},
+{
+"rank": 1154,
+"name": "ZTE",
+"ticker": "000063.SZ",
+"slug": "zte",
+"cap": 19915869332,
+"country": "China"
+},
+{
+"rank": 1155,
+"name": "HF Sinclair",
+"ticker": "DINO",
+"slug": "hf-sinclair",
+"cap": 19904679936,
+"country": "USA"
+},
+{
+"rank": 1156,
+"name": "Wistron Corporation",
+"ticker": "3231.TW",
+"slug": "wistron-corporation",
+"cap": 19899205587,
+"country": "Taiwan"
+},
+{
+"rank": 1157,
+"name": "Euronext",
+"ticker": "ENX.PA",
+"slug": "euronext",
+"cap": 19876313503,
+"country": "Netherlands"
+},
+{
+"rank": 1158,
+"name": "Lennar",
+"ticker": "LEN",
+"slug": "lennar",
+"cap": 19852773376,
+"country": "USA"
+},
+{
+"rank": 1159,
+"name": "Kingspan Group",
+"ticker": "KRX.IR",
+"slug": "kingspan-group",
+"cap": 19805332889,
+"country": "Ireland"
+},
+{
+"rank": 1160,
+"name": "Naver",
+"ticker": "035420.KS",
+"slug": "naver",
+"cap": 19771486089,
+"country": "S. Korea"
+},
+{
+"rank": 1161,
+"name": "China Tower",
+"ticker": "0788.HK",
+"slug": "china-tower",
+"cap": 19763241602,
+"country": "China"
+},
+{
+"rank": 1162,
+"name": "Arca Continental",
+"ticker": "AC.MX",
+"slug": "arca-continental",
+"cap": 19753405900,
+"country": "Mexico"
+},
+{
+"rank": 1163,
+"name": "Ovintiv",
+"ticker": "OVV",
+"slug": "ovintiv",
+"cap": 19732643840,
+"country": "USA"
+},
+{
+"rank": 1164,
+"name": "First Financial Holding",
+"ticker": "2892.TW",
+"slug": "first-financial-holding",
+"cap": 19672740292,
+"country": "Taiwan"
+},
+{
+"rank": 1165,
+"name": "Konami Holdings",
+"ticker": "9766.T",
+"slug": "konami",
+"cap": 19672090441,
+"country": "Japan"
+},
+{
+"rank": 1166,
+"name": "Nutanix",
+"ticker": "NTNX",
+"slug": "nutanix",
+"cap": 19662333952,
+"country": "USA"
+},
+{
+"rank": 1167,
+"name": "SBA Communications",
+"ticker": "SBAC",
+"slug": "sba-communications",
+"cap": 19600838656,
+"country": "USA"
+},
+{
+"rank": 1168,
+"name": "Baosteel",
+"ticker": "600019.SS",
+"slug": "baosteel",
+"cap": 19579989719,
+"country": "China"
+},
+{
+"rank": 1169,
+"name": "Fortive",
+"ticker": "FTV",
+"slug": "fortive",
+"cap": 19544639488,
+"country": "USA"
+},
+{
+"rank": 1170,
+"name": "Brambles",
+"ticker": "BXB.AX",
+"slug": "brambles",
+"cap": 19543237234,
+"country": "Australia"
+},
+{
+"rank": 1171,
+"name": "Grupo Carso",
+"ticker": "GCARSOA1.MX",
+"slug": "grupo-carso",
+"cap": 19531720961,
+"country": "Mexico"
+},
+{
+"rank": 1172,
+"name": "Banco de Chile",
+"ticker": "BCH",
+"slug": "banco-de-chile",
+"cap": 19496296448,
+"country": "Chile"
+},
+{
+"rank": 1173,
+"name": "Tyson Foods",
+"ticker": "TSN",
+"slug": "tyson-foods",
+"cap": 19475732480,
+"country": "USA"
+},
+{
+"rank": 1174,
+"name": "SDIC Power Holdings",
+"ticker": "600886.SS",
+"slug": "sdic-power-holdings",
+"cap": 19475187886,
+"country": "China"
+},
+{
+"rank": 1175,
+"name": "Lundin Mining",
+"ticker": "LUN.TO",
+"slug": "lundin-mining",
+"cap": 19468928899,
+"country": "Canada"
+},
+{
+"rank": 1176,
+"name": "Indian Oil",
+"ticker": "IOC.NS",
+"slug": "indian-oil",
+"cap": 19464733847,
+"country": "India"
+},
+{
+"rank": 1177,
+"name": "Pershing Square Inc.",
+"ticker": "PS",
+"slug": "pershing-square-inc",
+"cap": 19439998976,
+"country": "USA"
+},
+{
+"rank": 1178,
+"name": "Evergy",
+"ticker": "EVRG",
+"slug": "evergy",
+"cap": 19425284096,
+"country": "USA"
+},
+{
+"rank": 1179,
+"name": "MTU Aero Engines",
+"ticker": "MTX.DE",
+"slug": "mtu-aero-engines",
+"cap": 19413270422,
+"country": "Germany"
+},
+{
+"rank": 1180,
+"name": "KEPCO",
+"ticker": "9503.T",
+"slug": "kepco",
+"cap": 19409218419,
+"country": "Japan"
+},
+{
+"rank": 1181,
+"name": "Medpace",
+"ticker": "MEDP",
+"slug": "medpace",
+"cap": 19375427584,
+"country": "USA"
+},
+{
+"rank": 1182,
+"name": "Bunge Global SA",
+"ticker": "BG",
+"slug": "bunge",
+"cap": 19365607424,
+"country": "USA"
+},
+{
+"rank": 1183,
+"name": "Bank Mandiri",
+"ticker": "BMRI.JK",
+"slug": "bank-mandiri",
+"cap": 19350163787,
+"country": "Indonesia"
+},
+{
+"rank": 1184,
+"name": "YPF S.A.",
+"ticker": "YPF",
+"slug": "ypf",
+"cap": 19344984064,
+"country": "Argentina"
+},
+{
+"rank": 1185,
+"name": "CRRC",
+"ticker": "1766.HK",
+"slug": "crrc",
+"cap": 19295253501,
+"country": "China"
+},
+{
+"rank": 1186,
+"name": "PTT Exploration and Production",
+"ticker": "PTTEP.BK",
+"slug": "ptt-exploration-and-production",
+"cap": 19276365257,
+"country": "Thailand"
+},
+{
+"rank": 1187,
+"name": "Telia Company",
+"ticker": "TELIA.ST",
+"slug": "telia-company",
+"cap": 19249780461,
+"country": "Sweden"
+},
+{
+"rank": 1188,
+"name": "Hua Hong Semiconductor Limited",
+"ticker": "1347.HK",
+"slug": "hua-hong-semiconductor-limited",
+"cap": 19235974242,
+"country": "China"
+},
+{
+"rank": 1189,
+"name": "Technoprobe",
+"ticker": "TPRO.MI",
+"slug": "technoprobe",
+"cap": 19219650224,
+"country": "Italy"
+},
+{
+"rank": 1190,
+"name": "InterGlobe Aviation (IndiGo)",
+"ticker": "INDIGO.NS",
+"slug": "interglobe-aviation",
+"cap": 19179810094,
+"country": "India"
+},
+{
+"rank": 1191,
+"name": "China Northern Rare Earth (CNREHT)",
+"ticker": "600111.SS",
+"slug": "china-northern-rare-earth",
+"cap": 19113034177,
+"country": "China"
+},
+{
+"rank": 1192,
+"name": "Shanghai International Port Group (SIPG)",
+"ticker": "600018.SS",
+"slug": "shanghai-international-port-group",
+"cap": 19112809580,
+"country": "China"
+},
+{
+"rank": 1193,
+"name": "Banco do Brasil",
+"ticker": "BBAS3.SA",
+"slug": "banco-do-brasil",
+"cap": 19080504139,
+"country": "Brazil"
+},
+{
+"rank": 1194,
+"name": "Telenor",
+"ticker": "TEL.OL",
+"slug": "telenor",
+"cap": 19035134192,
+"country": "Norway"
+},
+{
+"rank": 1195,
+"name": "Mizrahi-Tefahot",
+"ticker": "MZTF.TA",
+"slug": "mizrahi-tefahot",
+"cap": 19031351153,
+"country": "Israel"
+},
+{
+"rank": 1196,
+"name": "KE Holdings",
+"ticker": "BEKE",
+"slug": "ke-holdings",
+"cap": 19029819392,
+"country": "China"
+},
+{
+"rank": 1197,
+"name": "Vodacom",
+"ticker": "VOD.JO",
+"slug": "vodacom",
+"cap": 19025677300,
+"country": "South Africa"
+},
+{
+"rank": 1198,
+"name": "Carlsberg",
+"ticker": "CARL-B.CO",
+"slug": "carlsberg",
+"cap": 19015448885,
+"country": "Denmark"
+},
+{
+"rank": 1199,
+"name": "Alpha Dhabi",
+"ticker": "ALPHADHABI.AE",
+"slug": "alpha-dhabi",
+"cap": 18951151613,
+"country": "UAE"
+},
+{
+"rank": 1200,
+"name": "First Solar",
+"ticker": "FSLR",
+"slug": "first-solar",
+"cap": 18946924544,
+"country": "USA"
+},
+{
+"rank": 1201,
+"name": "Straumann",
+"ticker": "STMN.SW",
+"slug": "straumann",
+"cap": 18924348408,
+"country": "Switzerland"
+},
+{
+"rank": 1202,
+"name": "SS&C Technologies",
+"ticker": "SSNC",
+"slug": "ssc-technologies",
+"cap": 18887378944,
+"country": "USA"
+},
+{
+"rank": 1203,
+"name": "Fidelity National Information Services",
+"ticker": "FIS",
+"slug": "fidelity-national-information-services",
+"cap": 18855749632,
+"country": "USA"
+},
+{
+"rank": 1204,
+"name": "Tenaga Nasional",
+"ticker": "TNABY",
+"slug": "tenaga-nasional",
+"cap": 18842701824,
+"country": "Malaysia"
+},
+{
+"rank": 1205,
+"name": "Sumitomo Realty & Development",
+"ticker": "8830.T",
+"slug": "sumitomo-realty-and-development",
+"cap": 18825821766,
+"country": "Japan"
+},
+{
+"rank": 1206,
+"name": "Essity",
+"ticker": "ESSITY-B.ST",
+"slug": "essity",
+"cap": 18824553127,
+"country": "Sweden"
+},
+{
+"rank": 1207,
+"name": "Plains All American Pipeline",
+"ticker": "PAA",
+"slug": "plains-all-american-pipeline",
+"cap": 18768068608,
+"country": "USA"
+},
+{
+"rank": 1208,
+"name": "Tourmaline Oil",
+"ticker": "TOU.TO",
+"slug": "tourmaline-oil",
+"cap": 18741458616,
+"country": "Canada"
+},
+{
+"rank": 1209,
+"name": "Dupont De Nemours",
+"ticker": "DD",
+"slug": "dupont-de-nemours",
+"cap": 18724491264,
+"country": "USA"
+},
+{
+"rank": 1210,
+"name": "SAIC Motor",
+"ticker": "600104.SS",
+"slug": "saic-motor",
+"cap": 18685768376,
+"country": "China"
+},
+{
+"rank": 1211,
+"name": "Banca Mediolanum",
+"ticker": "BMED.MI",
+"slug": "banca-mediolanum",
+"cap": 18669740840,
+"country": "Italy"
+},
+{
+"rank": 1212,
+"name": "BCE Inc.",
+"ticker": "BCE",
+"slug": "bce",
+"cap": 18669166592,
+"country": "Canada"
+},
+{
+"rank": 1213,
+"name": "Pernod Ricard",
+"ticker": "RI.PA",
+"slug": "pernod-ricard",
+"cap": 18663962866,
+"country": "France"
+},
+{
+"rank": 1214,
+"name": "Kubota",
+"ticker": "6326.T",
+"slug": "kubota",
+"cap": 18658603492,
+"country": "Japan"
+},
+{
+"rank": 1215,
+"name": "Geely",
+"ticker": "0175.HK",
+"slug": "geely",
+"cap": 18655153616,
+"country": "China"
+},
+{
+"rank": 1216,
+"name": "Western Midstream",
+"ticker": "WES",
+"slug": "western-midstream",
+"cap": 18605250560,
+"country": "USA"
+},
+{
+"rank": 1217,
+"name": "Solar Industries India",
+"ticker": "SOLARINDS.NS",
+"slug": "solar-industries-india",
+"cap": 18599084095,
+"country": "India"
+},
+{
+"rank": 1218,
+"name": "Bank of Hangzhou",
+"ticker": "600926.SS",
+"slug": "bank-of-hangzhou",
+"cap": 18560174809,
+"country": "China"
+},
+{
+"rank": 1219,
+"name": "Cellnex Telecom",
+"ticker": "CLNX.MC",
+"slug": "cellnex-telecom",
+"cap": 18544548733,
+"country": "Spain"
+},
+{
+"rank": 1220,
+"name": "Toast",
+"ticker": "TOST",
+"slug": "toast",
+"cap": 18461321216,
+"country": "USA"
+},
+{
+"rank": 1221,
+"name": "Revvity",
+"ticker": "RVTY",
+"slug": "revvity",
+"cap": 18448580608,
+"country": "USA"
+},
+{
+"rank": 1222,
+"name": "China Galaxy Securities",
+"ticker": "601881.SS",
+"slug": "china-galaxy-securities",
+"cap": 18429319794,
+"country": "China"
+},
+{
+"rank": 1223,
+"name": "Banco Sabadell",
+"ticker": "SAB.MC",
+"slug": "banco-sabadell",
+"cap": 18420788753,
+"country": "Spain"
+},
+{
+"rank": 1224,
+"name": "Borouge",
+"ticker": "BOROUGE.AE",
+"slug": "borouge",
+"cap": 18414694084,
+"country": "UAE"
+},
+{
+"rank": 1225,
+"name": "Torrent Pharmaceuticals",
+"ticker": "TORNTPHARM.NS",
+"slug": "torrent-pharmaceuticals",
+"cap": 18405455566,
+"country": "India"
+},
+{
+"rank": 1226,
+"name": "Tech Mahindra",
+"ticker": "TECHM.NS",
+"slug": "tech-mahindra",
+"cap": 18396098038,
+"country": "India"
+},
+{
+"rank": 1227,
+"name": "Snap-on",
+"ticker": "SNA",
+"slug": "snap-on",
+"cap": 18395199488,
+"country": "USA"
+},
+{
+"rank": 1228,
+"name": "Zimmer Biomet",
+"ticker": "ZBH",
+"slug": "zimmer-biomet",
+"cap": 18385207296,
+"country": "USA"
+},
+{
+"rank": 1229,
+"name": "Multiply Group",
+"ticker": "MULTIPLY.AE",
+"slug": "multiply-group",
+"cap": 18351868080,
+"country": "UAE"
+},
+{
+"rank": 1230,
+"name": "Zebra Technologies",
+"ticker": "ZBRA",
+"slug": "zebra-technologies",
+"cap": 18324566016,
+"country": "USA"
+},
+{
+"rank": 1231,
+"name": "Krung Thai Bank",
+"ticker": "KTB.BK",
+"slug": "krung-thai-bank",
+"cap": 18318340986,
+"country": "Thailand"
+},
+{
+"rank": 1232,
+"name": "mBank",
+"ticker": "MBK.WA",
+"slug": "mbank",
+"cap": 18287832676,
+"country": "Poland"
+},
+{
+"rank": 1233,
+"name": "International Paper",
+"ticker": "IP",
+"slug": "international-paper",
+"cap": 18259568640,
+"country": "USA"
+},
+{
+"rank": 1234,
+"name": "Nippon Y\u016bsen",
+"ticker": "9101.T",
+"slug": "nyk-line",
+"cap": 18256079983,
+"country": "Japan"
+},
+{
+"rank": 1235,
+"name": "Telefonica Brasil",
+"ticker": "VIV",
+"slug": "telefonica-brasil",
+"cap": 18246912000,
+"country": "Brazil"
+},
+{
+"rank": 1236,
+"name": "Swire Properties",
+"ticker": "1972.HK",
+"slug": "swire-properties",
+"cap": 18228366761,
+"country": "Hong Kong"
+},
+{
+"rank": 1237,
+"name": "Bank Pekao (Bank Polska Kasa Opieki)",
+"ticker": "PEO.WA",
+"slug": "bank-pekao",
+"cap": 18226193395,
+"country": "Poland"
+},
+{
+"rank": 1238,
+"name": "Banco Comercial Portugu\u00eas (Millennium bcp)",
+"ticker": "BCP.LS",
+"slug": "banco-comercial-portugues",
+"cap": 18211244907,
+"country": "Portugal"
+},
+{
+"rank": 1239,
+"name": "DLF",
+"ticker": "DLF.NS",
+"slug": "dlf",
+"cap": 18206448158,
+"country": "India"
+},
+{
+"rank": 1240,
+"name": "Nippon Paint",
+"ticker": "4612.T",
+"slug": "nippon-paint",
+"cap": 18187389382,
+"country": "Japan"
+},
+{
+"rank": 1241,
+"name": "CIMB Group",
+"ticker": "1023.KL",
+"slug": "cimb",
+"cap": 18168509077,
+"country": "Malaysia"
+},
+{
+"rank": 1242,
+"name": "Nordson",
+"ticker": "NDSN",
+"slug": "nordson",
+"cap": 18165164032,
+"country": "USA"
+},
+{
+"rank": 1243,
+"name": "Dynatrace",
+"ticker": "DT",
+"slug": "dynatrace",
+"cap": 18152222720,
+"country": "USA"
+},
+{
+"rank": 1244,
+"name": "CF Industries",
+"ticker": "CF",
+"slug": "cf-industries",
+"cap": 18148468736,
+"country": "USA"
+},
+{
+"rank": 1245,
+"name": "Innovent Biologics",
+"ticker": "1801.HK",
+"slug": "innovent-biologics",
+"cap": 18137034896,
+"country": "China"
+},
+{
+"rank": 1246,
+"name": "Rongsheng Petrochemical",
+"ticker": "002493.SZ",
+"slug": "rongsheng-petrochemical",
+"cap": 18123711602,
+"country": "China"
+},
+{
+"rank": 1247,
+"name": "Sartorius",
+"ticker": "SRT.DE",
+"slug": "sartorius",
+"cap": 18112456861,
+"country": "Germany"
+},
+{
+"rank": 1248,
+"name": "Great Wall Motors",
+"ticker": "601633.SS",
+"slug": "great-wall-motors",
+"cap": 18078916281,
+"country": "China"
+},
+{
+"rank": 1249,
+"name": "Essex Property Trust",
+"ticker": "ESS",
+"slug": "essex-property-trust",
+"cap": 18018686976,
+"country": "USA"
+},
+{
+"rank": 1250,
+"name": "Advantech",
+"ticker": "2395.TW",
+"slug": "advantech",
+"cap": 18001475557,
+"country": "Taiwan"
+},
+{
+"rank": 1251,
+"name": "Samvardhana Motherson",
+"ticker": "MOTHERSON.NS",
+"slug": "mssl",
+"cap": 17998369096,
+"country": "India"
+},
+{
+"rank": 1252,
+"name": "East West Bancorp",
+"ticker": "EWBC",
+"slug": "east-west-bancorp",
+"cap": 17986916352,
+"country": "USA"
+},
+{
+"rank": 1253,
+"name": "Alliant Energy",
+"ticker": "LNT",
+"slug": "alliant-energy",
+"cap": 17986580480,
+"country": "USA"
+},
+{
+"rank": 1254,
+"name": "Traton",
+"ticker": "8TRA.DE",
+"slug": "traton",
+"cap": 17962254861,
+"country": "Germany"
+},
+{
+"rank": 1255,
+"name": "Huaneng Power International",
+"ticker": "600011.SS",
+"slug": "huaneng-power",
+"cap": 17960428796,
+"country": "China"
+},
+{
+"rank": 1256,
+"name": "Woodward",
+"ticker": "WWD",
+"slug": "woodward",
+"cap": 17953472512,
+"country": "USA"
+},
+{
+"rank": 1257,
+"name": "APA Corporation",
+"ticker": "APA",
+"slug": "apache-corporation",
+"cap": 17906466816,
+"country": "USA"
+},
+{
+"rank": 1258,
+"name": "KPN",
+"ticker": "KPN.AS",
+"slug": "kpn",
+"cap": 17877533874,
+"country": "Netherlands"
+},
+{
+"rank": 1259,
+"name": "APi Group",
+"ticker": "APG",
+"slug": "api-group",
+"cap": 17865506816,
+"country": "USA"
+},
+{
+"rank": 1260,
+"name": "Charles River Laboratories",
+"ticker": "CRL",
+"slug": "charles-river-laboratories",
+"cap": 17853384704,
+"country": "USA"
+},
+{
+"rank": 1261,
+"name": "Kaspi.kz Joint Stock Company",
+"ticker": "KKS.F",
+"slug": "kaspi-kz",
+"cap": 17820952756,
+"country": "Kazakhstan"
+},
+{
+"rank": 1262,
+"name": "Eurobank Ergasias Services and Holdings",
+"ticker": "EUROB.AT",
+"slug": "eurobank-ergasias-services-and-holdings",
+"cap": 17819636809,
+"country": "Greece"
+},
+{
+"rank": 1263,
+"name": "Jacobs Engineering",
+"ticker": "J",
+"slug": "jacobs-engineering",
+"cap": 17819586560,
+"country": "USA"
+},
+{
+"rank": 1264,
+"name": "ageas",
+"ticker": "AGS.BR",
+"slug": "ageas",
+"cap": 17815609597,
+"country": "Belgium"
+},
+{
+"rank": 1265,
+"name": "JX Advanced Metals",
+"ticker": "5016.T",
+"slug": "jx-advanced-metals",
+"cap": 17812540453,
+"country": "Japan"
+},
+{
+"rank": 1266,
+"name": "Bouygues",
+"ticker": "EN.PA",
+"slug": "bouygues",
+"cap": 17809692437,
+"country": "France"
+},
+{
+"rank": 1267,
+"name": "SPEEH Hidroelectrica",
+"ticker": "H2O.RO",
+"slug": "speeh-hidroelectrica",
+"cap": 17794469132,
+"country": "Romania"
+},
+{
+"rank": 1268,
+"name": "LS ELECTRIC Co., Ltd.",
+"ticker": "010120.KS",
+"slug": "ls-electric-co-ltd",
+"cap": 17784450554,
+"country": "S. Korea"
+},
+{
+"rank": 1269,
+"name": "Bank of Beijing",
+"ticker": "601169.SS",
+"slug": "bank-of-beijing",
+"cap": 17770142875,
+"country": "China"
+},
+{
+"rank": 1270,
+"name": "Bayan Resources",
+"ticker": "BYAN.JK",
+"slug": "bayan-resources",
+"cap": 17741367065,
+"country": "Indonesia"
+},
+{
+"rank": 1271,
+"name": "W\u00e4rtsil\u00e4",
+"ticker": "WRT1V.HE",
+"slug": "wartsila",
+"cap": 17709939287,
+"country": "Finland"
+},
+{
+"rank": 1272,
+"name": "China National Uranium",
+"ticker": "001280.SZ",
+"slug": "china-national-uranium",
+"cap": 17692392021,
+"country": "China"
+},
+{
+"rank": 1273,
+"name": "Associated British Foods",
+"ticker": "ABF.L",
+"slug": "associated-british-foods",
+"cap": 17689843315,
+"country": "UK"
+},
+{
+"rank": 1274,
+"name": "CNH Industrial",
+"ticker": "CNH",
+"slug": "cnh-industrial",
+"cap": 17689745408,
+"country": "UK"
+},
+{
+"rank": 1275,
+"name": "Whitecap Resources",
+"ticker": "WCP.TO",
+"slug": "whitecap-resources",
+"cap": 17685597952,
+"country": "Canada"
+},
+{
+"rank": 1276,
+"name": "Hongkong Land",
+"ticker": "H78.SI",
+"slug": "hongkong-land",
+"cap": 17675728896,
+"country": "Hong Kong"
+},
+{
+"rank": 1277,
+"name": "General Mills",
+"ticker": "GIS",
+"slug": "general-mills",
+"cap": 17671409664,
+"country": "USA"
+},
+{
+"rank": 1278,
+"name": "WSP Global",
+"ticker": "WSP.TO",
+"slug": "wsp-global",
+"cap": 17658102804,
+"country": "Canada"
+},
+{
+"rank": 1279,
+"name": "Air China",
+"ticker": "601111.SS",
+"slug": "air-china",
+"cap": 17653296293,
+"country": "China"
+},
+{
+"rank": 1280,
+"name": "Kasikornbank",
+"ticker": "KBANK.BK",
+"slug": "kasikornbank",
+"cap": 17644680877,
+"country": "Thailand"
+},
+{
+"rank": 1281,
+"name": "Curtiss-Wright",
+"ticker": "CW",
+"slug": "curtiss-wright",
+"cap": 17635827712,
+"country": "USA"
+},
+{
+"rank": 1282,
+"name": "IHH Healthcare",
+"ticker": "Q0F.SI",
+"slug": "ihh-healthcare",
+"cap": 17632919612,
+"country": "Malaysia"
+},
+{
+"rank": 1283,
+"name": "ITT",
+"ticker": "ITT",
+"slug": "itt",
+"cap": 17608605696,
+"country": "USA"
+},
+{
+"rank": 1284,
+"name": "Adani Energy Solutions",
+"ticker": "ADANIENSOL.NS",
+"slug": "adani-energy-solutions",
+"cap": 17606921063,
+"country": "India"
+},
+{
+"rank": 1285,
+"name": "Lite-On Technology",
+"ticker": "2301.TW",
+"slug": "liteon-technology",
+"cap": 17604878896,
+"country": "Taiwan"
+},
+{
+"rank": 1286,
+"name": "IDEX",
+"ticker": "IEX",
+"slug": "idex",
+"cap": 17585143808,
+"country": "USA"
+},
+{
+"rank": 1287,
+"name": "China Jushi Co., Ltd.",
+"ticker": "600176.SS",
+"slug": "china-jushi",
+"cap": 17584342746,
+"country": "China"
+},
+{
+"rank": 1288,
+"name": "China Steel",
+"ticker": "2002A.TW",
+"slug": "china-steel",
+"cap": 17568621293,
+"country": "Taiwan"
+},
+{
+"rank": 1289,
+"name": "Leidos",
+"ticker": "LDOS",
+"slug": "leidos",
+"cap": 17559652352,
+"country": "USA"
+},
+{
+"rank": 1290,
+"name": "Host Hotels & Resorts",
+"ticker": "HST",
+"slug": "host-hotels-and-resorts",
+"cap": 17555738624,
+"country": "USA"
+},
+{
+"rank": 1291,
+"name": "SBI Life Insurance",
+"ticker": "SBILIFE.NS",
+"slug": "sbi-life-insurance",
+"cap": 17522744943,
+"country": "India"
+},
+{
+"rank": 1292,
+"name": "Halma",
+"ticker": "HLMA.L",
+"slug": "halma",
+"cap": 17511878295,
+"country": "UK"
+},
+{
+"rank": 1293,
+"name": "Daiwa House",
+"ticker": "1925.T",
+"slug": "daiwa-house",
+"cap": 17468233394,
+"country": "Japan"
+},
+{
+"rank": 1294,
+"name": "Polyus",
+"ticker": "PLZL.ME",
+"slug": "polyus",
+"cap": 17427542449,
+"country": "Russia"
+},
+{
+"rank": 1295,
+"name": "TPG Inc.",
+"ticker": "TPG",
+"slug": "tpg",
+"cap": 17415399424,
+"country": "USA"
+},
+{
+"rank": 1296,
+"name": "Pan American Silver",
+"ticker": "PAAS",
+"slug": "pan-american-silvera",
+"cap": 17393225728,
+"country": "Canada"
+},
+{
+"rank": 1297,
+"name": "Evergreen Marine",
+"ticker": "2603.TW",
+"slug": "evergreen-marine",
+"cap": 17392311510,
+"country": "Taiwan"
+},
+{
+"rank": 1298,
+"name": "Alinma Bank",
+"ticker": "1150.SR",
+"slug": "alinma-bank",
+"cap": 17387826168,
+"country": "S. Arabia"
+},
+{
+"rank": 1299,
+"name": "Unity Software",
+"ticker": "U",
+"slug": "unity-software",
+"cap": 17383512064,
+"country": "USA"
+},
+{
+"rank": 1300,
+"name": "Galaxy Entertainment",
+"ticker": "0027.HK",
+"slug": "galaxy-entertainment",
+"cap": 17358913970,
+"country": "Hong Kong"
+}
+]
+}
