@@ -27,6 +27,11 @@ for r in results:
     if r["verdict"] not in ("wrong", "found"):
         continue
     v = accepted.get(r["key"])
+    if r["verdict"] == "wrong" and not (r.get("date") or (v or {}).get("date")):
+        # the checker found our date belongs to a different person or is unsupported: retract it
+        overrides[r["key"]] = {"birthday": None, "retract": r.get("note", "")[:200], "source_url": r.get("source_url")}
+        applied += 1
+        continue
     if not v:
         skipped.append((r["name"], r["verdict"], (rejected.get(r["key"]) or {}).get("why", "no skeptic verdict")[:80]))
         continue

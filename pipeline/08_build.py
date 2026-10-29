@@ -144,6 +144,8 @@ src_counts = Counter(f["birth_source"] for f in dated)
 ring_counts = Counter(c["ring"] for c in companies)
 ring_people = {r: len({key_of(f) for f in founders if any(cmap.get(c, {}).get("ring") == r for c in f["companies"])}) for r in ("giants", "big", "fallen")}
 ring_dated = {r: len({key_of(f) for f in dated if any(cmap.get(c, {}).get("ring") == r for c in f["companies"])}) for r in ("giants", "big", "fallen")}
+_chk = load_json(os.path.join(ROOT, "research", "birthday_checks.json"), {"results": []})
+_vc = Counter(r["verdict"] for r in _chk["results"])
 undated_cos = sorted({c for f in founders if not f.get("birthday") for c in f["companies"]})
 base_use = Counter("uniform" if f["base"] == [round(calendar.monthrange(2001, m)[1] / 365, 5) for m in range(1, 13)] else "country-year" for f in out_f)
 T = stats["tests"]
@@ -153,6 +155,7 @@ methods_table = f"""<div class="chart"><table class="t">
 <tr><th>Universe</th><td>{ring_counts['giants']} Giants ($100B+), {ring_counts['big']} Big ($20B to $100B), {ring_counts['fallen']} Fallen; companies founded 1960 to 2023 with at least one named human founder</td></tr>
 <tr><th>Founders found</th><td>{n_people} people ({ring_people['giants']} Giants, {ring_people['big']} Big, {ring_people['fallen']} Fallen)</td></tr>
 <tr><th>Day-precision birthdays</th><td>{n_dated} ({src_counts.get('wikidata',0)} from Wikidata, {src_counts.get('wikipedia infobox',0)} from a Wikipedia infobox, {src_counts.get('wikipedia lead',0)} from a Wikipedia lead sentence); {n_missing} missing, never guessed</td></tr>
+<tr><th>Verification</th><td>{_vc.get('confirmed',0)} dates confirmed against Wikipedia by a reviewer agent, {_vc.get('wrong',0)} found wrong (namesakes or unsupported days) and retracted or corrected after a second agent re-checked the source, {_vc.get('found',0)} new dates found, {_vc.get('unsure',0)} kept but flagged because the day rests on an uncited Wikidata value; see research/SPOTCHECK.md</td></tr>
 <tr><th>Dated by ring</th><td>{ring_dated['giants']} of {ring_people['giants']} Giants, {ring_dated['big']} of {ring_people['big']} Big, {ring_dated['fallen']} of {ring_people['fallen']} Fallen</td></tr>
 <tr><th>Companies with undated cofounders</th><td>{len(undated_cos)}: {", ".join(undated_cos[:40])}{" and more" if len(undated_cos) > 40 else ""}</td></tr>
 <tr><th>Baseline</th><td>{base_use.get('country-year',0)} founders use their birth country's monthly births in their birth year (Human Fertility Database via Our World in Data; nearest year when the exact year is missing); {base_use.get('uniform',0)} use a uniform-by-day baseline because no monthly data exists for their country (mostly China, India, Taiwan)</td></tr>

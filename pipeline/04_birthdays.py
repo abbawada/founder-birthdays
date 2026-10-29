@@ -118,6 +118,10 @@ n_bo = 0
 for rec in out:
     k = rec["qid"] or ("name:" + rec["name"])
     o = bo.get(k)
+    if o and "retract" in o and not o.get("birthday"):
+        rec.update({"birthday": None, "birth_precision": None, "birth_source": None, "birth_source_url": None, "birth_raw": "retracted: " + o["retract"][:120]})
+        n_bo += 1
+        continue
     if o and o.get("birthday"):
         rec.update({"birthday": o["birthday"], "birth_precision": "day", "birth_source": o.get("source", "verified"), "birth_source_url": o.get("source_url"), "birth_raw": (rec.get("birth_raw") or "") + " | verified"})
         n_bo += 1

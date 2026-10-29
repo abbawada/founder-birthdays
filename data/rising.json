@@ -95,6 +95,17 @@
   "place": "Chicago, Illinois, 41n51, 87w39",
   "tz": "CST h6w (is standard time)"
  },
+ "Q106543540": {
+  "rating": "AA",
+  "adb_slug": "Bankman-Fried,_Sam",
+  "adb_url": "https://www.astro.com/astro-databank/Bankman-Fried,_Sam",
+  "rising": "Taurus",
+  "moon": "Pisces",
+  "sun": "Pisces",
+  "time": "09:51 local",
+  "place": "Stanford, California, 37n25, 122w10",
+  "tz": "PST h8w (is standard time)"
+ },
  "Q1687865": {
   "rating": "X",
   "adb_slug": "Sanders,_Jerry",

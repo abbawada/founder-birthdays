@@ -3607,11 +3607,11 @@
   "roster_sources": [
    "wikipedia infobox"
   ],
-  "birthday": "1950-10-08",
+  "birthday": "1950-10-18",
   "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q716830",
-  "birth_raw": null,
+  "birth_source": "verified: wikipedia",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Terry_Gou",
+  "birth_raw": " | verified",
   "citizenship": [
    "Taiwan"
   ],
@@ -4002,11 +4002,11 @@
   "roster_sources": [
    "wikidata P112"
   ],
-  "birthday": "1924-02-28",
+  "birthday": "1924-03-19",
   "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q5423843",
-  "birth_raw": null,
+  "birth_source": "verified: wikipedia",
+  "birth_source_url": "https://en.wikipedia.org/wiki/F._C._Kohli",
+  "birth_raw": " | verified",
   "citizenship": [
    "British Raj",
    "India"
@@ -4824,11 +4824,11 @@
   "roster_sources": [
    "wikipedia infobox"
   ],
-  "birthday": "1934-10-20",
+  "birthday": "1934-10-23",
   "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q5735576",
-  "birth_raw": null,
+  "birth_source": "verified: wikipedia",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Herb_Simon_(businessman)",
+  "birth_raw": " | verified",
   "citizenship": [
    "United States"
   ],
@@ -6793,11 +6793,11 @@
   "roster_sources": [
    "wikipedia infobox"
   ],
-  "birthday": null,
-  "birth_precision": "year",
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": "1949-01-01",
+  "birthday": "1949-05-16",
+  "birth_precision": "day",
+  "birth_source": "verified: wikipedia",
+  "birth_source_url": "https://en.wikipedia.org/wiki/John_Walker_(programmer)",
+  "birth_raw": "1949-01-01 | verified",
   "citizenship": [
    "United States"
   ],
@@ -7267,11 +7267,11 @@
   "roster_sources": [
    "wikipedia infobox"
   ],
-  "birthday": "1941-09-27",
+  "birthday": "1941-09-28",
   "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q363124",
-  "birth_raw": null,
+  "birth_source": "verified: wikipedia",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Sam_Zell",
+  "birth_raw": " | verified",
   "citizenship": [
    "United States"
   ],
@@ -7780,11 +7780,11 @@
   "roster_sources": [
    "wikidata P112"
   ],
-  "birthday": null,
-  "birth_precision": "year",
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": "1931-01-01",
+  "birthday": "1931-11-17",
+  "birth_precision": "day",
+  "birth_source": "verified: wikipedia",
+  "birth_source_url": "https://nl.wikipedia.org/wiki/Arthur_del_Prado",
+  "birth_raw": "1931-01-01 | verified",
   "citizenship": [
    "Kingdom of the Netherlands"
   ],
@@ -7979,11 +7979,11 @@
   "roster_sources": [
    "wikipedia infobox"
   ],
-  "birthday": null,
-  "birth_precision": "8",
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": "{{Birth year and age|1958}}",
+  "birthday": "1958-08-26",
+  "birth_precision": "day",
+  "birth_source": "verified: wikipedia",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Jay_Chaudhry",
+  "birth_raw": "{{Birth year and age|1958}} | verified",
   "citizenship": [],
   "birthplace": "Una district",
   "birthplace_country": "India",
@@ -8117,11 +8117,11 @@
   "roster_sources": [
    "wikidata P112"
   ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
+  "birthday": "1916-02-29",
+  "birth_precision": "day",
+  "birth_source": "verified: press",
+  "birth_source_url": "https://www.globenewswire.com/news-release/2007/03/07/356223/2867/en/John-F-Baugh-Founder-of-SYSCO-Corporation-Dies-at-91.html",
+  "birth_raw": " | verified",
   "citizenship": [],
   "birthplace": null,
   "birthplace_country": null,
@@ -8407,11 +8407,11 @@
   "roster_sources": [
    "wikipedia infobox"
   ],
-  "birthday": "1959-06-16",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q5606941",
-  "birth_raw": null,
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "retracted: Wrong person: Wikidata Q5606941 and its enwiki article 'Gregory Goodman' are an American film producer (US citizenship, ",
   "citizenship": [
    "United States"
   ],
@@ -8819,11 +8819,11 @@
   "roster_sources": [
    "wikidata P112"
   ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
+  "birthday": "1971-11-26",
+  "birth_precision": "day",
+  "birth_source": "verified: other",
+  "birth_source_url": "https://www.dignitymemorial.com/obituaries/west-palm-beach-fl/ryan-brant-8226376",
+  "birth_raw": " | verified",
   "citizenship": [],
   "birthplace": null,
   "birthplace_country": null,
@@ -9273,11 +9273,11 @@
   "roster_sources": [
    "wikidata P112"
   ],
-  "birthday": "1922-08-16",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q7173936",
-  "birth_raw": null,
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "retracted: Wrong person. The row's wikipedia_url and Wikidata item Q7173936 are Peter Desmond Farrell, Irish footballer and manager",
   "citizenship": [
    "Ireland"
   ],
@@ -11527,11 +11527,11 @@
   "roster_sources": [
    "wikipedia infobox"
   ],
-  "birthday": "1947-06-16",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q7704484",
-  "birth_raw": null,
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "retracted: Wrong person: Q7704484 and the English Wikipedia article are the American radio personality and soccer coach Terry Hanso",
   "citizenship": [
    "United States"
   ],
@@ -14802,11 +14802,11 @@
   "roster_sources": [
    "wikipedia infobox"
   ],
-  "birthday": "1992-03-06",
+  "birthday": "1992-03-05",
   "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q106543540",
-  "birth_raw": null,
+  "birth_source": "verified: wrong",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+  "birth_raw": " | verified",
   "citizenship": [
    "United States"
   ],

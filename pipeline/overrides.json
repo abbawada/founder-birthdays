@@ -488,10 +488,10 @@
  "Equinix": {
   "founded_year": 1998,
   "founders": [
-   "Jay Adelson",
-   "Al Avery"
+   "Al Avery",
+   "Jay Adelson"
   ],
-  "note": "Infobox founders field names Jay Adelson and Al Avery; the row dropped Al Avery (unlinked). He has no English Wikipedia article: the title 'Al Avery' redirects to the author Rutherford George Montgomery, so do not link it. 1998 stands.",
+  "note": "Infobox founders field names Jay Adelson and Al Avery; the row dropped Al Avery (unlinked). He has no English Wikipedia article: the title 'Al Avery' redirects to the author Rutherford George Montgomery, so do not link it. 1998 stands. | Founders per the Wikipedia article (1998, Al Avery and Jay Adelson); the Wikidata P112 item Rutherford George Montgomery is a children's author, misattributed.",
   "review_source": "https://en.wikipedia.org/wiki/Equinix"
  },
  "GSK plc": {

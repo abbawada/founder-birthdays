@@ -1,0 +1,195 @@
+{
+ "Q6211708": {
+  "birthday": null,
+  "retract": "Wrong person. Both the Wikipedia article and Wikidata Q6211708 (description 'English footballer (born 1971)') are the Hartlepool United football coach born 11 June 1971; neither mentions Micron. Micro",
+  "source_url": "https://en.wikipedia.org/wiki/Joe_Parkinson"
+ },
+ "Q453611": {
+  "birthday": null,
+  "retract": "Wrong person. Wikipedia and Wikidata Q453611 ('American musician (1944-1983)') are the Beach Boys drummer, born December 4, 1944; no Micron mention. Micron's co-founder Dennis Wilson (ex-Mostek design",
+  "source_url": "https://en.wikipedia.org/wiki/Dennis_Wilson"
+ },
+ "Q56705066": {
+  "birthday": null,
+  "retract": "Wrong person. Wikipedia and Wikidata Q56705066 ('American demographer') are the Brown University demographer Sidney Goldstein (August 4, 1927 - August 5, 2019); no CVS mention. CVS co-founder Sidney G",
+  "source_url": "https://en.wikipedia.org/wiki/Sidney_Goldstein"
+ },
+ "Q6513931": {
+  "birthday": null,
+  "retract": "Wrong person. The Wikipedia article (our birth_source 'wikipedia infobox') and Wikidata Q6513931 ('American politician', social worker, born 1946) are the Milwaukee County Board chairman Lee Holloway ",
+  "source_url": "https://en.wikipedia.org/wiki/Lee_Holloway"
+ },
+ "Q7383341": {
+  "birthday": null,
+  "retract": "Wrong person, and the row itself is misattributed. Wikipedia and Wikidata Q7383341 ('American children's writer (1894-1985)') describe an author born April 12, 1894 (Wikidata also carries a 12 April 1",
+  "source_url": "https://en.wikipedia.org/wiki/Rutherford_George_Montgomery"
+ },
+ "Q1872970": {
+  "birthday": null,
+  "retract": "Wrong person: Q1872970 and the English Wikipedia article (and it.wikipedia 'Luca Ferrari') are the Baroque painter Luca Ferrari / Luca da Reggio, born 17 February 1605, died 1654. Our date matches tha",
+  "source_url": "https://en.wikipedia.org/wiki/Luca_Ferrari"
+ },
+ "Q114179": {
+  "birthday": null,
+  "retract": "Wrong person: Q114179 and the English Wikipedia article are the American actor Theodore Scott Glenn. Wikipedia: 'born January 26 between 1939 and 1941' (year uncertain); Wikidata: 26 January 1941 (ref",
+  "source_url": "https://en.wikipedia.org/wiki/Scott_Glenn"
+ },
+ "Q7704484": {
+  "birthday": null,
+  "retract": "Wrong person: Q7704484 and the English Wikipedia article are the American radio personality and soccer coach Terry Hanson, born June 16, 1947 (Wikidata date imported from enwiki). Neither mentions Ult",
+  "source_url": "https://en.wikipedia.org/wiki/Terry_Hanson"
+ },
+ "Q111132867": {
+  "birthday": null,
+  "retract": "Wrong person: Q111132867 and the English Wikipedia article are the Chinese Para cross-country skier and biathlete Mao Zhongwu, born 7 August 1986 (Wikidata date imported from Russian Wikipedia). Neith",
+  "source_url": "https://en.wikipedia.org/wiki/Mao_Zhongwu"
+ },
+ "Q702527": {
+  "birthday": null,
+  "retract": "Wrong person: Q702527 and the English Wikipedia article are the Taiwanese actress, singer and host Joe Chen (Chen Qiao-en), born 4 April 1979 (Wikidata ref IMDb). Neither mentions Anduril. The Anduril",
+  "source_url": "https://en.wikipedia.org/wiki/Joe_Chen"
+ },
+ "Q72733245": {
+  "birthday": null,
+  "retract": "Wrong person: Q72733245 and the English Wikipedia article are the Uruguayan footballer Rafael Melo, right winger, born 19 March 2000 (Wikidata date imported from Italian Wikipedia). Neither mentions C",
+  "source_url": "https://en.wikipedia.org/wiki/Rafael_Melo"
+ },
+ "Q131290259": {
+  "birthday": "1834-11-14",
+  "source_url": "https://en.wikipedia.org/wiki/Thomas_Caldecot_Chubb",
+  "source": "verified: wikipedia",
+  "note": "Wikipedia lead: '(14 November 1834 – 10 August 1887)'; Early life: 'Chubb was born on 14 November 1834 in London', cited to Harleian Society, Publications of the Harleian Society: Registers (1914), p."
+ },
+ "Q716830": {
+  "birthday": "1950-10-18",
+  "source_url": "https://en.wikipedia.org/wiki/Terry_Gou",
+  "source": "verified: wikipedia",
+  "note": "English Wikipedia infobox and lead give 18 October 1950; ours is 8 October 1950. Wikidata Q716830 gives 8 October 1950, cited to Munzinger Personen (ID 00000031162, retrieved 2017). Chinese Wikipedia "
+ },
+ "Q5423843": {
+  "birthday": "1924-03-19",
+  "source_url": "https://en.wikipedia.org/wiki/F._C._Kohli",
+  "source": "verified: wikipedia",
+  "note": "English Wikipedia infobox and lead: 19 March 1924. Wikidata Q5423843 says 28 February 1924 and cites Britannica (biography/F-C-Kohli, retrieved 2017), but Britannica's current page (search snippet; di"
+ },
+ "Q920647": {
+  "birthday": "1861-07-03",
+  "source_url": "https://en.wikipedia.org/wiki/Frederick_Stark_Pearson",
+  "source": "verified: wikipedia",
+  "note": "English Wikipedia infobox and lead: July 3, 1861 (died May 7, 1915). Wikidata Q920647 says 30 July 1861 cited to SNAC, the Dictionary of Canadian Biography and the Gran Enciclopedia Catalana. The Dict"
+ },
+ "Q15516394": {
+  "birthday": "1849-10-17",
+  "source_url": "https://en.wikipedia.org/wiki/William_Mackenzie_(railway_entrepreneur)",
+  "source": "verified: wikipedia",
+  "note": "Wikipedia lead: \"Sir William Mackenzie (October 17, 1849 – December 5, 1923)\". Wikidata Q15516394 has two P569 values: 17 October 1849 (stated in GND 119020211 and SNAC w6m936p3) and 30 October 1849 ("
+ },
+ "Q5735576": {
+  "birthday": "1934-10-23",
+  "source_url": "https://en.wikipedia.org/wiki/Herb_Simon_(businessman)",
+  "source": "verified: wikipedia",
+  "note": "Wikipedia infobox \"(1934-10-23) October 23, 1934\" and lead \"Herbert Simon (born October 23, 1934)\". Wikidata Q5735576 P569 says \"20 October 1934\" with only \"imported from English Wikipedia\" as its ref"
+ },
+ "Q93033": {
+  "birthday": "1949-05-16",
+  "source_url": "https://en.wikipedia.org/wiki/John_Walker_(programmer)",
+  "source": "verified: wikipedia",
+  "note": "Wikipedia states the full date: infobox 'May 16, 1949', lead 'John Wallace Walker (May 16, 1949 - February 2, 2024)', and the Early projects section 'Walker was born in Baltimore, Maryland on May 16, "
+ },
+ "Q363124": {
+  "birthday": "1941-09-28",
+  "source_url": "https://en.wikipedia.org/wiki/Sam_Zell",
+  "source": "verified: wikipedia",
+  "note": "Ours says 27 September 1941; Wikipedia lead and infobox say September 28, 1941. Wikidata P569 = 27 September 1941 with only an 'imported from English Wikipedia' reference (no outside source), so the t"
+ },
+ "Q26912932": {
+  "birthday": "1931-11-17",
+  "source_url": "https://nl.wikipedia.org/wiki/Arthur_del_Prado",
+  "source": "verified: wikipedia",
+  "note": "No English Wikipedia article. Dutch Wikipedia infobox (Geboortedatum 17 november 1931) and lead ('17 november 1931', Batavia) give the full date; French Wikipedia lead agrees ('17 novembre 1931 - 9 se"
+ },
+ "Q1042645": {
+  "birthday": "1948-05-01",
+  "source_url": "https://pt.wikipedia.org/wiki/Carlos_Alberto_Sicupira",
+  "source": "verified: wikipedia",
+  "note": "English Wikipedia (infobox, lead, early life) and Wikidata give only 1948. Portuguese Wikipedia states the full date in the lead ('Rio de Janeiro, 1 de maio de 1948') and infobox ('1 de maio de 1948')"
+ },
+ "Q56222225": {
+  "birthday": "1988-05-10",
+  "source_url": "https://en.wikipedia.org/wiki/Fred_Ehrsam",
+  "source": "verified: wikipedia",
+  "note": "Q56222225 is a duplicate Wikidata item for the same Fred Ehrsam as Q106510423 (business executive, employer Goldman Sachs, educated at Duke University, Golden ID; no sitelinks, no date of birth statem"
+ },
+ "Q69873545": {
+  "birthday": "1958-08-26",
+  "source_url": "https://en.wikipedia.org/wiki/Jay_Chaudhry",
+  "source": "verified: wikipedia",
+  "note": "Wikipedia lead reads '(born August 26, 1958)' and the raw wikitext cites it to a Mercury News interview (Steve Johnson, 2011-09-09). Caveats: the infobox uses {{Birth year and age|1958}} cited to a Fo"
+ },
+ "Q122830857": {
+  "birthday": "1916-02-29",
+  "source_url": "https://www.globenewswire.com/news-release/2007/03/07/356223/2867/en/John-F-Baugh-Founder-of-SYSCO-Corporation-Dies-at-91.html",
+  "source": "verified: press",
+  "note": "Sysco's 7 March 2007 press release states 'John F. Baugh was born February 29, 1916 in Waco, TX' (died San Antonio, 5 March 2007, aged 91). The GlobeNewswire page returned HTTP 403 to WebFetch (and a "
+ },
+ "Q5606941": {
+  "birthday": null,
+  "retract": "Wrong person: Wikidata Q5606941 and its enwiki article 'Gregory Goodman' are an American film producer (US citizenship, born Hollywood; P569 16 June 1959 referenced only to IMDb), not the Australian f",
+  "source_url": "https://www.wikidata.org/wiki/Q5606941"
+ },
+ "Q119933903": {
+  "birthday": "1971-11-26",
+  "source_url": "https://www.dignitymemorial.com/obituaries/west-palm-beach-fl/ryan-brant-8226376",
+  "source": "verified: other",
+  "note": "Obituary (Dignity Memorial, West Palm Beach FL) header gives 'November 26, 1971 - March 23, 2019'; text says he died at 47 at Good Samaritan Hospital, Palm Beach, of cardiac arrest. MobyGames person p"
+ },
+ "Q7173936": {
+  "birthday": null,
+  "retract": "Wrong person. The row's wikipedia_url and Wikidata item Q7173936 are Peter Desmond Farrell, Irish footballer and manager (16 August 1922 - 16 March 1999); neither mentions ResMed. The ResMed founder i",
+  "source_url": "https://horatioalger.org/members/detail/peter-craig-farrell"
+ },
+ "Q217098": {
+  "birthday": "1889-11-04",
+  "source_url": "https://en.wikipedia.org/wiki/Jamnalal_Bajaj",
+  "source": "verified: wikipedia",
+  "note": "Wikipedia lead and infobox: '(4 November 1889 – 11 February 1942)'. Wikidata Q217098 still says 4 November 1884, with its only reference 'imported from Wikimedia project: English Wikipedia', i.e. a st"
+ },
+ "Q107649400": {
+  "birthday": null,
+  "retract": "Wrong person, not a wrong date. Wikidata Q107649400 and the linked Wikipedia article are a Chinese footballer (full-back for Chengdu Rongcheng) born 12 May 1997; the article never mentions BOE. The BO",
+  "source_url": "https://en.wikipedia.org/wiki/Wang_Dongsheng"
+ },
+ "Q113470205": {
+  "birthday": "1961-08-25",
+  "source_url": "https://en.wikipedia.org/wiki/Urs_Wietlisbach",
+  "source": "verified: wikipedia",
+  "note": "This Wikidata item (Q113470205, 'Swiss entrepreneur') has no date-of-birth statement and is a duplicate of Q117742759 (row 406), the Partners Group co-founder. The English Wikipedia article Urs Wietli"
+ },
+ "Q6186752": {
+  "birthday": null,
+  "retract": "Row is mislinked: Q6186752 and this Wikipedia article are Jesse Powell the R&B singer (1970-2022), not the Kraken founder. For the singer, Wikipedia (lead and infobox) says September 12, 1970 while Wi",
+  "source_url": "https://en.wikipedia.org/wiki/Jesse_Powell"
+ },
+ "Q106543540": {
+  "birthday": "1992-03-05",
+  "source_url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+  "source": "verified: wrong",
+  "note": "Wikipedia lead '(born March 5, 1992)' and infobox 'March 5, 1992' give March 5, not March 6. Wikidata has two P569 values: 5 March 1992 (normal rank, referenced to The Times / Michael Lewis, 2 Nov 202"
+ },
+ "Q2978600": {
+  "birthday": "1950-12-31",
+  "source_url": "https://encyclopedia.com/economics/news-wires-white-papers-and-books/marks-michael-e-1950",
+  "source": "verified: other",
+  "note": "Row is mislinked: Q2978600 and the Wikipedia URL are Michael Marks the Marks & Spencer co-founder (1859?–1907, 'Disputed year of birth'), not the Katerra co-founder. The Katerra co-founder is Michael "
+ },
+ "Q456219": {
+  "birthday": null,
+  "retract": "Row is mislinked: Q456219 and this Wikipedia article are Steve Burns the Blue's Clues actor ('Steven Michael Burns (born October 9, 1973)', Wikidata 9 October 1973 cited to SNAC). Our 1973-10-09 is th",
+  "source_url": "https://en.wikipedia.org/wiki/Steve_Burns"
+ },
+ "Q16214943": {
+  "birthday": null,
+  "retract": "Wrong person, not just a wrong date. Wikidata Q16214943 (label 'Daniel Leon', description 'American soccer player', alias Daniel Leon-Penaranda, occupation association football player/midfielder) and ",
+  "source_url": "https://www.wikidata.org/wiki/Q16214943"
+ }
+}

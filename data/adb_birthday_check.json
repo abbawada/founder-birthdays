@@ -92,10 +92,10 @@
  },
  {
   "name": "Sam Bankman-Fried",
-  "ours": "1992-03-06",
+  "ours": "1992-03-05",
   "astro_databank": "1992-03-05",
   "rating": "AA",
-  "match": false
+  "match": true
  },
  {
   "name": "Jerry Sanders",
