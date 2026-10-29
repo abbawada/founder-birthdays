@@ -1,0 +1,51 @@
+company,founded,peak_value_usd,outcome,outcome_year,founders_to_verify
+Theranos,2003,9B private (2014),fraud conviction and dissolution,2018,Elizabeth Holmes
+FTX,2019,32B private (2022),bankruptcy and fraud conviction,2022,Sam Bankman-Fried;Gary Wang
+WeWork,2010,47B private (2019),Chapter 11 after founder ouster,2023,Adam Neumann;Miguel McKelvey
+Enron,1985,70B public (2000),bankruptcy and fraud convictions,2001,Kenneth Lay
+WorldCom,1983,180B public (1999),bankruptcy and fraud conviction,2002,Bernard Ebbers
+Lehman Brothers,1850,60B public (2007),bankruptcy,2008,EXCLUDED pre-1960
+Wirecard,1999,28B public (2018),insolvency and fraud,2020,Markus Braun (CEO not founder; verify founders)
+Luckin Coffee,2017,12B public (2020),accounting fraud delisting (company survived),2020,Jenny Qian;Charles Lu
+Quibi,2018,1.75B raised,shut down after 6 months,2020,Jeffrey Katzenberg;Meg Whitman
+Juicero,2013,0.7B valuation,shut down,2017,Doug Evans
+Jawbone,1999,3.2B private (2014),liquidated,2017,Hosain Rahman;Alexander Asseily
+Katerra,2015,3B+ private (2018),Chapter 11,2021,Michael Marks;Fritz Wolff;Jim Davidson
+Zume,2015,2.25B private (2018),shut down,2023,Alex Garden;Julia Collins
+Convoy,2015,3.8B private (2022),ceased operations,2023,Dan Lewis;Grant Goodale
+Bird,2017,2.5B+ (2019),Chapter 11,2023,Travis VanderZanden
+Better Place,2007,2.25B private,bankruptcy,2013,Shai Agassi
+Solyndra,2005,1B+ private,bankruptcy,2011,Chris Gronet
+Fisker Automotive,2007,2B+ private,bankruptcy,2013,Henrik Fisker;Bernhard Koehler
+Fisker Inc.,2016,8B public (2021),Chapter 11,2024,Henrik Fisker;Geeta Gupta-Fisker
+Nikola,2014,34B public (2020),Chapter 11 and founder fraud conviction,2025,Trevor Milton
+Lordstown Motors,2018,5B public (2020),Chapter 11,2023,Steve Burns
+Pets.com,1998,0.3B IPO (2000),liquidated,2000,Greg McLemore;Julie Wainwright (CEO)
+Webvan,1996,8B public (1999),bankruptcy,2001,Louis Borders
+Napster,1999,n/a,bankruptcy,2002,Shawn Fanning;Sean Parker
+Friendster,2002,n/a,shut down (social network),2011,Jonathan Abrams
+MySpace,2003,0.58B sale (2005),collapsed and resold for 35M,2011,Tom Anderson;Chris DeWolfe
+Vine,2012,acquired 30M,shut down by Twitter,2017,Dom Hofmann;Rus Yusupov;Colin Kroll
+Yik Yak,2013,0.4B private,shut down,2017,Tyler Droll;Brooks Buffington
+Blockbuster,1985,8.4B sale (1994),Chapter 11,2010,David Cook
+Commodore International,1954,n/a,bankruptcy,1994,EXCLUDED pre-1960
+Atari Inc.,1972,2B revenue,broken up and sold,1984,Nolan Bushnell;Ted Dabney
+Pebble,2012,n/a,insolvent assets sold to Fitbit,2016,Eric Migicovsky
+Essential Products,2017,1.2B private,shut down,2020,Andy Rubin
+Ozy Media,2013,n/a,shut down and founder fraud conviction,2021,Carlos Watson;Samir Rao
+Frank,2016,175M sale,fraud conviction after sale to JPMorgan,2025,Charlie Javice
+IRL,2018,1.17B private,shut down over fake users,2023,Abraham Shafi
+Fast (checkout),2019,0.58B private,shut down,2022,Domm Holland;Allison Barr Allen
+Olive AI,2012,4B private (2021),shut down,2023,Sean Lane
+Hopin,2019,7.75B private (2021),sold core for 15M,2023,Johnny Boufarhat
+Veev,2008,1B+ private,shut down,2023,Amit Haller
+Byju's,2011,22B private (2022),insolvency proceedings,2024,Byju Raveendran;Divya Gokulnath
+Northvolt,2016,12B private,bankruptcy,2024,Peter Carlsson;Paolo Cerruti
+Greensill Capital,2011,3.5B+ private,insolvency,2021,Lex Greensill
+Evergrande,1996,50B public (2017),liquidation order,2024,Hui Ka Yan
+LeEco,2004,n/a,collapse and founder debt default,2017,Jia Yueting
+Ofo,2014,2B+ private,collapse,2019,Dai Wei
+Terra/Luna (Terraform Labs),2018,40B+ token value (2022),collapse and founder fraud plea,2022,Do Kwon;Daniel Shin
+Three Arrows Capital,2012,n/a,liquidation,2022,Su Zhu;Kyle Davies
+Celsius Network,2017,3B+ private,bankruptcy and founder fraud plea,2022,Alex Mashinsky
+Silicon Valley Bank,1983,40B public (2021),bank failure,2023,Bill Biggerstaff;Robert Medearis

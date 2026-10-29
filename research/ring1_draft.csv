@@ -1,0 +1,132 @@
+company,ticker_or_private,country,value_usd_bn,founded,founders_per_wikipedia_or_press,source
+NVIDIA,NVDA,USA,5200.8,1993,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Nvidia
+Apple,AAPL,USA,5017.9,1976,Steve Jobs; Steve Wozniak; Ronald Wayne,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Apple_Inc.
+Microsoft,MSFT,USA,3943.0,1975,Bill Gates; Paul Allen,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Microsoft
+Alphabet (Google),GOOG,USA,3936.7,1998,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Google
+Amazon,AMZN,USA,2746.2,1994,Jeff Bezos,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Amazon_(company)
+SpaceX,SPCX,USA,1972.4,2023,Elon Musk,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/SpaceXAI
+Broadcom,AVGO,USA,1679.4,1961,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Broadcom
+Tesla,TSLA,USA,1597.8,2003,(none found: check),"companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Tesla,_Inc."
+Meta Platforms (Facebook),META,USA,1594.2,2004,Mark Zuckerberg; Eduardo Saverin; Dustin Moskovitz; Andrew McCollum; Chris Hughes,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Meta_Platforms
+Micron Technology,MU,USA,1112.4,1978,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Micron_Technology
+AMD,AMD,USA,944.3,1969,Jerry Sanders (businessman),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/AMD
+Walmart,WMT,USA,942.3,1962,Sam Walton; Bud Walton,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Walmart
+ASML,ASML,Netherlands,640.9,1984,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/ASML
+Mastercard,MA,USA,534.6,1966,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Mastercard
+Intel,INTC,USA,505.0,1968,Robert Noyce; Gordon Moore,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Intel
+Palantir,PLTR,USA,472.9,2003,Peter Thiel; Stephen Cohen (entrepreneur); Alex Karp; Joe Lonsdale; Nathan Gettings,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Palantir
+CXMT,688825.SS,China,454.8,2016,Zhu Yiming,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/ChangXin_Memory_Technologies
+Tencent,TCEHY,China,443.8,1998,Ma Huateng; Tony Zhang; Chen Yidan,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Tencent
+Oracle,ORCL,USA,438.2,1977,Larry Ellison; Bob Miner; Ed Oates,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Oracle_Corporation
+Costco,COST,USA,435.5,1983,James Sinegal; Jeffrey Brotman,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Costco
+Cisco,CSCO,USA,434.8,1984,Leonard Bosack; Sandy Lerner,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Cisco
+UnitedHealth,UNH,USA,365.4,1974,Richard T. Burke,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/UnitedHealth_Group
+ICBC,1398.HK,China,353.4,1984,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Industrial_and_Commercial_Bank_of_China
+Bank of America,BAC,USA,352.0,1998,"Charlotte, North Carolina; New York City",companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Bank_of_America
+Applied Materials,AMAT,USA,330.1,1967,Michael A. McNeilly,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Applied_Materials
+Palo Alto Networks,PANW,USA,322.7,2005,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Palo_Alto_Networks
+Lam Research,LRCX,USA,317.6,1980,David K. Lam,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Lam_Research
+Home Depot,HD,USA,316.8,1978,Bernard Marcus; Arthur Blank; Ron Brill; Pat Farrah; Ken Langone,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Home_Depot
+Philip Morris International,PM,USA,315.8,2008,Philip Morris (tobacconist),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Philip_Morris_International
+Novartis,NVS,Switzerland,294.8,1996,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Novartis
+CrowdStrike,CRWD,USA,273.0,2011,George Kurtz; Dmitri Alperovitch,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/CrowdStrike
+RTX,RTX,USA,264.3,2020,Vannevar Bush; Raytheon; Frederick Rentschler; United Technologies,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/RTX_Corporation
+AstraZeneca,AZN,UK,262.9,1999,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/AstraZeneca
+Netflix,NFLX,USA,258.1,1997,Reed Hastings; Marc Randolph,"companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Netflix,_Inc."
+Alibaba,BABA,China,251.2,1999,Jack Ma,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Alibaba_Group
+Amgen,AMGN,USA,244.3,1980,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Amgen
+Mitsubishi UFJ Financial,MUFG,Japan,241.5,2005,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/MUFG
+PetroChina,0857.HK,China,238.9,1999,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/PetroChina
+Arista Networks,ANET,USA,235.5,2008,Andy Bechtolsheim; David Cheriton,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Arista_Networks
+Marvell Technology,MRVL,USA,226.2,1995,Sehat Sutardja; Weili Dai,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Marvell_Technology
+China Mobile,0941.HK,China,217.0,1997,China; Shanghai; China,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/China_Mobile
+Shopify,SHOP,Canada,216.4,2006,Tobias Lütke,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Shopify
+LVMH,MC.PA,France,214.9,1987,Henry Racamier,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/LVMH
+Analog Devices,ADI,USA,207.5,1965,Ray Stata; Matthew Lorber,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Analog_Devices
+KLA,KLAC,USA,207.2,1997,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/KLA_Corporation
+Citigroup,C,USA,205.4,1998,New York City,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Citigroup
+International Holding Company,IHC.AE,UAE,203.1,1998,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/International_Holding_Company
+Sandisk,SNDK,USA,203.0,1988,Eli Harari; Sanjay Mehrotra,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Sandisk
+Salesforce,CRM,USA,199.3,1999,Marc Benioff,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Salesforce
+MediaTek,2454.TW,Taiwan,198.8,1997,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/MediaTek
+Gilead Sciences,GILD,USA,197.4,1987,Michael L. Riordan,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Gilead_Sciences
+Inditex,ITX.MC,Spain,196.0,1985,Amancio Ortega; Rosalía Mera,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Inditex
+QUALCOMM,QCOM,USA,195.4,1985,Irwin M. Jacobs; Andrew Viterbi,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Qualcomm
+BlackRock,BLK,USA,188.1,1988,Robert S. Kapito; Larry Fink; Susan Wagner,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/BlackRock
+Verizon,VZ,USA,179.0,1983,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Verizon
+Union Pacific Corporation,UNP,USA,176.9,1969,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Union_Pacific_Corporation
+Airbus,AIR.PA,Netherlands,174.9,1970,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Airbus
+SoftBank Group Corp.,9984.T,Japan,171.8,1981,Masayoshi Son,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/SoftBank_Group
+Nextera Energy,NEE,USA,169.9,1984,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/NextEra_Energy
+CM Bank,3968.HK,China,169.6,2015,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/IDFC_First_Bank
+China Shenhua Energy,601088.SS,China,167.7,1995,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/China_Shenhua_Energy
+Welltower,WELL,USA,166.3,1970,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Welltower
+Iberdrola,IBE.MC,Spain,166.0,1992,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Iberdrola
+Recruit,6098.T,Japan,166.0,1960,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Recruit_(company)
+Danaher,DHR,USA,164.5,1969,Steven Rales; Mitchell Rales,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Danaher_Corporation
+DBS Group,D05.SI,Singapore,164.3,1968,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/DBS_Bank
+ABB,ABBN.SW,Switzerland,160.2,1988,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/ABB
+T-Mobile US,TMUS,USA,158.8,1994,John W. Stanton,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/T-Mobile_US
+CATL,300750.SZ,China,158.8,2011,Robin Zeng,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/CATL
+Seagate Technology,STX,Ireland,158.7,1979,Alan Shugart; Finis Conner; Syed Iftikar,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Seagate_Technology
+Intuitive Surgical,ISRG,USA,156.9,1995,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Intuitive_Surgical
+ServiceNow,NOW,USA,155.2,2003,Fred Luddy,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/ServiceNow
+Charles Schwab,SCHW,USA,153.5,1971,Charles R. Schwab,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Charles_Schwab_Corporation
+TJX Companies,TJX,USA,152.9,1987,Bernard Cammarata,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/TJX
+Sumitomo Mitsui Financial Group,SMFG,Japan,151.4,2001,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Sumitomo_Mitsui_Banking_Corporation
+Accenture,ACN,Ireland,148.9,1989,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Accenture
+Western Digital,WDC,USA,148.4,1970,Alvin B. Phillips,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Western_Digital
+KIOXIA Holdings Corporation,285A.T,Japan,146.6,2019,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Kioxia
+CNOOC,0883.HK,China,145.4,1982,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/China_National_Offshore_Oil_Corporation
+Tokyo Electron,8035.T,Japan,144.2,1963,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Tokyo_Electron
+UBS,UBS,Switzerland,143.0,1998,Basel,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/UBS
+Interactive Brokers,IBKR,USA,142.3,1978,Thomas Peterffy,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Interactive_Brokers
+Blackstone Group,BX,USA,139.9,1985,Peter G. Peterson; Stephen A. Schwarzman,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Blackstone_Inc.
+AT&T,T,USA,139.4,1983,Gulshan Kumar,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/T-Series_(company)
+Deutsche Telekom,DTE.DE,Germany,138.5,1995,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Deutsche_Telekom
+Chubb,CB,Switzerland,137.2,1985,Thomas Caldecot Chubb,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Chubb_Limited
+Foxconn Industrial Internet,601138.SS,China,134.4,2015,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Foxconn_Industrial_Internet
+Vertex Pharmaceuticals,VRTX,USA,134.2,1989,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Vertex_Pharmaceuticals
+Uber,UBER,USA,133.3,2009,Garrett Camp; Travis Kalanick,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Uber
+Bharti Airtel,BHARTIARTL.NS,India,130.3,2010,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Airtel_Africa
+Marathon Petroleum,MPC,USA,128.7,2009,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Marathon_Petroleum
+Fortinet,FTNT,USA,127.7,2000,Ken Xie,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Fortinet
+Safran,SAF.PA,France,127.3,2005,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Safran
+Capital One,COF,USA,125.7,1994,Richard Fairbank; Nigel Morris,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Capital_One
+UniCredit,UCG.MI,Italy,124.8,1998,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/UniCredit
+Altria Group,MO,USA,121.9,1985,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Altria
+Prologis,PLD,USA,121.7,1983,Hamid Moghadam,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Prologis
+Snowflake,SNOW,USA,119.9,2012,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Snowflake_Inc.
+Delta Electronics,2308.TW,Taiwan,118.3,1971,Bruce CH Cheng,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Delta_Electronics
+Starbucks,SBUX,USA,117.6,1971,Jerry Baldwin; Zev Siegl; Gordon Bowker,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Starbucks
+Mizuho Financial Group,MFG,Japan,117.5,2000,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Mizuho_Financial_Group
+CVS Health,CVS,USA,115.0,1963,Stanley P. Goldstein; Ralph P. Hoagland III,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/CVS_Health
+Booking Holdings (Booking.com),BKNG,USA,114.6,1996,Jay S. Walker,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Booking_Holdings
+Cloudflare,NET,USA,113.5,2009,Matthew Prince; Michelle Zatlyn,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Cloudflare
+Canadian Natural Resources,CNQ,Canada,113.0,1973,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Canadian_Natural_Resources
+Intesa Sanpaolo,ISP.MI,Italy,113.0,2007,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Intesa_Sanpaolo
+Equinor,EQNR,Norway,112.8,1972,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Equinor
+Valero Energy,VLO,USA,111.9,1980,William Greehey,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Valero_Energy
+Zijin Mining,601899.SS,China,111.7,1986,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Zijin_Mining
+HDFC Bank,HDB,India,110.8,1995,Deepak Parekh,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/HDFC_Bank
+PDD Holdings (Pinduoduo),PDD,China,110.3,2015,Colin Huang,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Pinduoduo
+Foxconn (Hon Hai Precision Industry),2317.TW,Taiwan,107.4,1974,Terry Gou,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Foxconn
+CIBC (Canadian Imperial Bank of Commerce),CM,Canada,106.9,1961,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Canadian_Imperial_Bank_of_Commerce
+Enel,ENEL.MI,Italy,104.4,1962,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Enel
+Postal Savings Bank of China,601658.SS,China,103.3,2007,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Postal_Savings_Bank_of_China
+Marriott International,MAR,USA,102.8,1993,John Willard Marriott; Alice Marriott,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Marriott_International
+Zhongji Innolight,300308.SZ,China,102.7,1987,Liu Sheng (President),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Zhongji_Innolight
+Sinopec,600028.SS,China,101.6,2000,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Sinopec
+Tokio Marine,8766.T,Japan,101.2,2002,(none found: check),companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Tokio_Marine
+Midea,000333.SZ,China,100.0,1968,He Xiangjian,companiesmarketcap.com 2026-10-29; en.wikipedia.org/wiki/Midea_Group
+Anthropic,private,USA,965,2021,Dario Amodei; Daniela Amodei; Jack Clark; Tom Brown; Chris Olah; Sam McCandlish; Jared Kaplan,Crunchbase Unicorn Board 2026-10-28
+OpenAI,private,USA,852,2015,Sam Altman; Greg Brockman; Ilya Sutskever; Elon Musk; and others (verify list),Crunchbase Unicorn Board 2026-10-28
+Tether,private,El Salvador,500,2014,Brock Pierce; Reeve Collins; Craig Sellars (verify),multiples.vc 2026-10-23
+ByteDance,private,China,480,2012,Zhang Yiming; Liang Rubo,Crunchbase Unicorn Board 2026-10-28
+Databricks,private,USA,190,2013,Ali Ghodsi; Matei Zaharia; Ion Stoica; Reynold Xin; Patrick Wendell; Andy Konwinski; Arsalan Tavakoli,Crunchbase Unicorn Board 2026-10-28
+Stripe,private,USA,159,2010,Patrick Collison; John Collison,Crunchbase Unicorn Board 2026-10-28
+Ant Group,private,China,150,2004,(spin-out of Alibaba: founder attribution to decide),Crunchbase Unicorn Board 2026-10-28
+Blue Origin,private,USA,140,2000,Jeff Bezos,multiples.vc 2026-10-23 (not on Crunchbase board: verify)
+Waymo,private,USA,126,2009,"(Alphabet subsidiary, no founders: exclude)",Crunchbase Unicorn Board 2026-10-28
+Revolut,private,UK,115,2015,Nikolay Storonsky; Vlad Yatsenko,Crunchbase Unicorn Board 2026-10-28
+Reliance Retail,private,India,101,2006,(subsidiary of Reliance Industries: exclude),multiples.vc 2026-10-23
