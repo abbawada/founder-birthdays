@@ -250,6 +250,7 @@ function layout(){
 }
 function recount(){ const {list,L}=LAST; const obs=new Array(12).fill(0); list.forEach(f=>obs[L.of(Math.round(f.cur)%365)]++); LAST.obs=obs; }
 
+const FAMOUS=["Steve Jobs","Bill Gates","Elon Musk","Jeff Bezos","Mark Zuckerberg","Larry Page","Jensen Huang","Larry Ellison","Phil Knight","Sam Altman","Reed Hastings","Michael Dell","Jack Ma","Masayoshi Son"];
 function draw(){
   ctx.clearRect(0,0,W,H);
   const {list,L,obs}=LAST; if(!L) return;
@@ -302,6 +303,15 @@ function draw(){
   });
   if(state.highlight==="rising"){ list.filter(f=>f.rising).forEach(f=>{ ctx.beginPath(); ctx.arc(f.x,f.y,f.r+4,0,TAU); ctx.strokeStyle="rgba(111,227,180,.9)"; ctx.lineWidth=1; ctx.stroke(); }); }
   if(state.hover && vis.has(state.hover.i)){ const f=state.hover; ctx.beginPath(); ctx.arc(f.x,f.y,f.r+4,0,TAU); ctx.strokeStyle="#fff"; ctx.lineWidth=1.5; ctx.stroke(); f.companies.forEach(c=>c.members.forEach(j=>{ const g=F[j]; if(j!==f.i&&vis.has(j)){ ctx.beginPath(); ctx.arc(g.x,g.y,g.r+3,0,TAU); ctx.strokeStyle="rgba(255,255,255,.75)"; ctx.lineWidth=1; ctx.stroke(); } })); }
+  // --- famous names (Jobs first so he always wins a collision)
+  { const placed=[]; ctx.font=`600 ${Math.max(9,10.5*SC)}px ${monoFont()}`; ctx.lineJoin="round";
+    FAMOUS.forEach(n=>{ const f=list.find(g=>g.name===n); if(!f||!vis.has(f.i)) return;
+      const a=Math.atan2(f.y-CY,f.x-CX), out=Math.cos(a)>=0, lab=n.split(" ").slice(-1)[0].toUpperCase();
+      const lx=f.x+Math.cos(a)*(f.r+5), ly=f.y+Math.sin(a)*(f.r+5)+3, w=ctx.measureText(lab).width;
+      const x0=out?lx:lx-w; if(placed.some(b=>x0<b[0]+b[2]+4&&x0+w+4>b[0]&&Math.abs(ly-b[1])<12)) return; placed.push([x0,ly,w]);
+      ctx.textAlign=out?"left":"right"; ctx.strokeStyle="rgba(11,13,18,.9)"; ctx.lineWidth=3; ctx.strokeText(lab,lx,ly);
+      ctx.fillStyle=n==="Steve Jobs"?"#ffd27a":"#ece9df"; ctx.fillText(lab,lx,ly);
+      ctx.beginPath(); ctx.arc(f.x,f.y,f.r+2.5,0,TAU); ctx.strokeStyle=n==="Steve Jobs"?"#ffd27a":"rgba(236,233,223,.7)"; ctx.lineWidth=1; ctx.stroke(); }); }
   // --- you
   if(state.highlight==="you"){ const a=angleOf(state.you,L); const x1=CX+Math.cos(a)*(R0-14*SC),y1=CY+Math.sin(a)*(R0-14*SC),x2=CX+Math.cos(a)*(Rb-6),y2=CY+Math.sin(a)*(Rb-6); ctx.beginPath(); ctx.moveTo(x1,y1); ctx.lineTo(x2,y2); ctx.strokeStyle="#6fe3b4"; ctx.lineWidth=1.5; ctx.stroke(); ctx.beginPath(); ctx.arc(x1,y1,4,0,TAU); ctx.fillStyle="#6fe3b4"; ctx.fill(); ctx.font=`${10*SC}px ${monoFont()}`; ctx.fillStyle="#6fe3b4"; ctx.textAlign="center"; ctx.fillText("YOU",CX+Math.cos(a)*(R0-28*SC),CY+Math.sin(a)*(R0-28*SC)+4); }
   // --- centre
