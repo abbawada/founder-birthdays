@@ -156,8 +156,8 @@
   "company_qid": "Q380",
   "founder_qid": "Q370321",
   "founder_name": "Chris Hughes",
-  "wp_title": "Chris Hughes",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikidata P112"
  },
  {
   "company": "Micron Technology",
@@ -170,18 +170,18 @@
  {
   "company": "Micron Technology",
   "company_qid": "Q1197548",
-  "founder_qid": "Q6211708",
+  "founder_qid": null,
   "founder_name": "Joe Parkinson",
-  "wp_title": "Joe Parkinson",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Micron Technology",
   "company_qid": "Q1197548",
-  "founder_qid": "Q453611",
+  "founder_qid": null,
   "founder_name": "Dennis Wilson",
-  "wp_title": "Dennis Wilson",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Micron Technology",
@@ -424,14 +424,6 @@
   "source": "wikipedia infobox (no article)"
  },
  {
-  "company": "Palo Alto Networks",
-  "company_qid": "Q7128508",
-  "founder_qid": "Q19447315",
-  "founder_name": "Nir Zuk",
-  "wp_title": null,
-  "source": "wikidata P112"
- },
- {
   "company": "Lam Research",
   "company_qid": "Q1342041",
   "founder_qid": "Q5235798",
@@ -498,10 +490,10 @@
  {
   "company": "SAP",
   "company_qid": "Q552581",
-  "founder_qid": null,
+  "founder_qid": "Q1578305",
   "founder_name": "Hans-Werner Hector",
   "wp_title": null,
-  "source": "wikipedia infobox (no article)"
+  "source": "wikidata P112"
  },
  {
   "company": "SAP",
@@ -526,14 +518,6 @@
   "founder_name": "Claus Wellenreuther",
   "wp_title": "Claus Wellenreuther",
   "source": "wikipedia infobox"
- },
- {
-  "company": "SAP",
-  "company_qid": "Q552581",
-  "founder_qid": "Q1578305",
-  "founder_name": "Hans-Werner Hector",
-  "wp_title": null,
-  "source": "wikidata P112"
  },
  {
   "company": "CrowdStrike",
@@ -803,6 +787,14 @@
   "company": "Seagate Technology",
   "company_qid": "Q705392",
   "founder_qid": null,
+  "founder_name": "Tom Mitchell",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Seagate Technology",
+  "company_qid": "Q705392",
+  "founder_qid": null,
   "founder_name": "Doug Mahon",
   "wp_title": null,
   "source": "wikipedia infobox (no article)"
@@ -1018,10 +1010,10 @@
  {
   "company": "Snowflake",
   "company_qid": "Q22078063",
-  "founder_qid": null,
+  "founder_qid": "Q101855939",
   "founder_name": "Benoît Dageville",
   "wp_title": null,
-  "source": "wikipedia infobox (no article)"
+  "source": "wikidata P112"
  },
  {
   "company": "Snowflake",
@@ -1038,14 +1030,6 @@
   "founder_name": "Marcin Żukowski",
   "wp_title": null,
   "source": "wikipedia infobox (no article)"
- },
- {
-  "company": "Snowflake",
-  "company_qid": "Q22078063",
-  "founder_qid": "Q101855939",
-  "founder_name": "Benoît Dageville",
-  "wp_title": null,
-  "source": "wikidata P112"
  },
  {
   "company": "Delta Electronics",
@@ -1098,10 +1082,10 @@
  {
   "company": "CVS Health",
   "company_qid": "Q624375",
-  "founder_qid": "Q56705066",
+  "founder_qid": null,
   "founder_name": "Sidney Goldstein",
-  "wp_title": "Sidney Goldstein",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "CVS Health",
@@ -1130,10 +1114,10 @@
  {
   "company": "Cloudflare",
   "company_qid": "Q4778915",
-  "founder_qid": "Q6513931",
+  "founder_qid": "Q51666063",
   "founder_name": "Lee Holloway",
-  "wp_title": "Lee Holloway",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikidata P112"
  },
  {
   "company": "Cloudflare",
@@ -1142,14 +1126,6 @@
   "founder_name": "Michelle Zatlyn",
   "wp_title": "Michelle Zatlyn",
   "source": "wikipedia infobox"
- },
- {
-  "company": "Cloudflare",
-  "company_qid": "Q4778915",
-  "founder_qid": "Q51666063",
-  "founder_name": "Lee Holloway",
-  "wp_title": null,
-  "source": "wikidata P112"
  },
  {
   "company": "BYD",
@@ -1258,10 +1234,10 @@
  {
   "company": "Equinix",
   "company_qid": "Q851641",
-  "founder_qid": "Q7383341",
+  "founder_qid": null,
   "founder_name": "Al Avery",
-  "wp_title": "Rutherford George Montgomery",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Airbnb",
@@ -1730,10 +1706,10 @@
  {
   "company": "Bloom Energy",
   "company_qid": "Q29526078",
-  "founder_qid": "Q1700068",
+  "founder_qid": null,
   "founder_name": "John Finn",
-  "wp_title": "John Finn",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Bloom Energy",
@@ -1746,10 +1722,10 @@
  {
   "company": "Bloom Energy",
   "company_qid": "Q29526078",
-  "founder_qid": "Q6139293",
+  "founder_qid": null,
   "founder_name": "James McElroy",
-  "wp_title": "James McElroy",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Bloom Energy",
@@ -1842,10 +1818,10 @@
  {
   "company": "TransDigm Group",
   "company_qid": "Q7833612",
-  "founder_qid": null,
+  "founder_qid": "Q117323781",
   "founder_name": "W. Nicholas Howley",
   "wp_title": null,
-  "source": "wikipedia infobox (no article)"
+  "source": "wikidata P112"
  },
  {
   "company": "TransDigm Group",
@@ -1854,14 +1830,6 @@
   "founder_name": "Douglas W. Peacock",
   "wp_title": null,
   "source": "wikipedia infobox (no article)"
- },
- {
-  "company": "TransDigm Group",
-  "company_qid": "Q7833612",
-  "founder_qid": "Q117323781",
-  "founder_name": "W. Nicholas Howley",
-  "wp_title": null,
-  "source": "wikidata P112"
  },
  {
   "company": "Bajaj Finance",
@@ -1990,6 +1958,14 @@
   "founder_name": "Robert D. Walter",
   "wp_title": "Robert D. Walter",
   "source": "wikipedia infobox"
+ },
+ {
+  "company": "Devon Energy",
+  "company_qid": "Q1206980",
+  "founder_qid": null,
+  "founder_name": "John Nichols",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Devon Energy",
@@ -2234,10 +2210,10 @@
  {
   "company": "Veeva Systems",
   "company_qid": "Q24204493",
-  "founder_qid": "Q3528708",
+  "founder_qid": null,
   "founder_name": "Matt Wallach",
-  "wp_title": "Tim Wallach",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "AutoZone",
@@ -2436,8 +2412,8 @@
   "company_qid": "Q305473",
   "founder_qid": "Q29919085",
   "founder_name": "Dennis Gillings",
-  "wp_title": "Dennis Gillings",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikidata P112"
  },
  {
   "company": "Adani Ports & SEZ",
@@ -2506,18 +2482,18 @@
  {
   "company": "NetApp",
   "company_qid": "Q727883",
-  "founder_qid": "Q16336528",
+  "founder_qid": null,
   "founder_name": "James Lau",
-  "wp_title": "James Lau",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "NetApp",
   "company_qid": "Q727883",
-  "founder_qid": "Q6832461",
+  "founder_qid": null,
   "founder_name": "Michael Malcolm",
-  "wp_title": "Michael Malcolm",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Illumina",
@@ -2562,10 +2538,18 @@
  {
   "company": "Medline",
   "company_qid": "Q6807236",
-  "founder_qid": "Q6271245",
+  "founder_qid": null,
+  "founder_name": "Jim Mills",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Medline",
+  "company_qid": "Q6807236",
+  "founder_qid": null,
   "founder_name": "Jon Mills",
-  "wp_title": "Jon Mills",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Novatek",
@@ -2574,14 +2558,6 @@
   "founder_name": "Leonid Mikhelson",
   "wp_title": "Leonid Mikhelson",
   "source": "wikipedia infobox"
- },
- {
-  "company": "ASM International",
-  "company_qid": "Q2478569",
-  "founder_qid": null,
-  "founder_name": "Arthur del Prado",
-  "wp_title": null,
-  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "ASM International",
@@ -2608,14 +2584,6 @@
   "source": "wikipedia infobox"
  },
  {
-  "company": "Coinbase",
-  "company_qid": "Q16972754",
-  "founder_qid": "Q56222225",
-  "founder_name": "Fred Ehrsam",
-  "wp_title": null,
-  "source": "wikidata P112"
- },
- {
   "company": "East Money Information",
   "company_qid": "Q24836492",
   "founder_qid": "Q22121142",
@@ -2634,10 +2602,18 @@
  {
   "company": "BeOne Medicines",
   "company_qid": "Q30260298",
-  "founder_qid": "Q908515",
+  "founder_qid": null,
   "founder_name": "Xiaodong Wang (biochemist)",
-  "wp_title": "Xiaodong Wang (biochemist)",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "BeOne Medicines",
+  "company_qid": "Q30260298",
+  "founder_qid": "Q908515",
+  "founder_name": "Xiaodong Wang",
+  "wp_title": null,
+  "source": "wikidata P112"
  },
  {
   "company": "Titan Company",
@@ -2682,10 +2658,10 @@
  {
   "company": "Ares Management",
   "company_qid": "Q4789079",
-  "founder_qid": null,
-  "founder_name": "Bennett Rosenthal",
+  "founder_qid": "Q60048026",
+  "founder_name": "David Kaplan",
   "wp_title": null,
-  "source": "wikipedia infobox (no article)"
+  "source": "wikidata P112"
  },
  {
   "company": "Ares Management",
@@ -2696,35 +2672,11 @@
   "source": "wikidata P112"
  },
  {
-  "company": "Ares Management",
-  "company_qid": "Q4789079",
-  "founder_qid": "Q60048026",
-  "founder_name": "David Kaplan",
-  "wp_title": null,
-  "source": "wikidata P112"
- },
- {
   "company": "Sysco",
   "company_qid": "Q2376711",
   "founder_qid": "Q111603335",
   "founder_name": "Herbert Irving",
   "wp_title": "Herbert Irving",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Sysco",
-  "company_qid": "Q2376711",
-  "founder_qid": null,
-  "founder_name": "John F. Baugh",
-  "wp_title": null,
-  "source": "wikipedia infobox (no article)"
- },
- {
-  "company": "Sysco",
-  "company_qid": "Q2376711",
-  "founder_qid": "Q5672034",
-  "founder_name": "Harry Rosenthal",
-  "wp_title": "Harry Rosenthal",
   "source": "wikipedia infobox"
  },
  {
@@ -2856,14 +2808,6 @@
   "source": "wikipedia infobox (no article)"
  },
  {
-  "company": "Twilio",
-  "company_qid": "Q7858039",
-  "founder_qid": "Q100251193",
-  "founder_name": "Jeff Lawson",
-  "wp_title": null,
-  "source": "wikidata P112"
- },
- {
   "company": "Okta",
   "company_qid": "Q55627388",
   "founder_qid": null,
@@ -2886,14 +2830,6 @@
   "founder_name": "Torstein Hagen",
   "wp_title": "Torstein Hagen",
   "source": "wikipedia infobox"
- },
- {
-  "company": "Dollarama",
-  "company_qid": "Q3033947",
-  "founder_qid": null,
-  "founder_name": "Larry Rossy",
-  "wp_title": null,
-  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Dollarama",
@@ -3163,6 +3099,14 @@
   "company": "Arch Capital",
   "company_qid": "Q28155430",
   "founder_qid": null,
+  "founder_name": "Robert Clements",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Arch Capital",
+  "company_qid": "Q28155430",
+  "founder_qid": null,
   "founder_name": "Peter A. Appel",
   "wp_title": null,
   "source": "wikipedia infobox (no article)"
@@ -3202,10 +3146,10 @@
  {
   "company": "Flex",
   "company_qid": "Q1140680",
-  "founder_qid": "Q19974916",
+  "founder_qid": null,
   "founder_name": "Joe McKenzie",
-  "wp_title": "Joe McKenzie",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Flex",
@@ -3368,6 +3312,14 @@
   "source": "wikipedia infobox (no article)"
  },
  {
+  "company": "Extra Space Storage",
+  "company_qid": "Q5422162",
+  "founder_qid": null,
+  "founder_name": "Kenneth Woolley",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
   "company": "MongoDB",
   "company_qid": "Q4546965",
   "founder_qid": "Q6397188",
@@ -3514,10 +3466,10 @@
  {
   "company": "Bending Spoons",
   "company_qid": "Q96314827",
-  "founder_qid": "Q1872970",
+  "founder_qid": null,
   "founder_name": "Luca Ferrari",
-  "wp_title": "Luca Ferrari",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Bending Spoons",
@@ -3560,6 +3512,14 @@
   "source": "wikipedia infobox (no article)"
  },
  {
+  "company": "Jabil",
+  "company_qid": "Q2171646",
+  "founder_qid": null,
+  "founder_name": "James Golden",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
   "company": "Shinhan Financial Group",
   "company_qid": "Q491325",
   "founder_qid": null,
@@ -3578,10 +3538,10 @@
  {
   "company": "DexCom",
   "company_qid": "Q15109865",
-  "founder_qid": "Q114179",
+  "founder_qid": null,
   "founder_name": "Scott Glenn",
-  "wp_title": "Scott Glenn",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "DexCom",
@@ -3779,6 +3739,14 @@
   "company": "Ryanair",
   "company_qid": "Q170614",
   "founder_qid": null,
+  "founder_name": "Declan Ryan",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Ryanair",
+  "company_qid": "Q170614",
+  "founder_qid": null,
   "founder_name": "Liam Lonergan",
   "wp_title": null,
   "source": "wikipedia infobox (no article)"
@@ -3836,6 +3804,14 @@
   "company_qid": "Q66604886",
   "founder_qid": null,
   "founder_name": "Gary Lauterbach",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Cerebras Systems",
+  "company_qid": "Q66604886",
+  "founder_qid": null,
+  "founder_name": "Michael James",
   "wp_title": null,
   "source": "wikipedia infobox (no article)"
  },
@@ -3946,10 +3922,10 @@
  {
   "company": "BOE Technology",
   "company_qid": "Q22234667",
-  "founder_qid": "Q107649400",
+  "founder_qid": null,
   "founder_name": "Wang Dongsheng",
-  "wp_title": "Wang Dongsheng",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Hansoh Pharma",
@@ -4002,10 +3978,10 @@
  {
   "company": "Sany Heavy Industry",
   "company_qid": "Q1853060",
-  "founder_qid": "Q111132867",
+  "founder_qid": null,
   "founder_name": "Mao Zhongwu",
-  "wp_title": "Mao Zhongwu",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Sany Heavy Industry",
@@ -4022,14 +3998,6 @@
   "founder_name": "Sanjit Biswas",
   "wp_title": "Sanjit Biswas",
   "source": "wikipedia infobox"
- },
- {
-  "company": "Samsara",
-  "company_qid": "Q79543668",
-  "founder_qid": null,
-  "founder_name": "John Bicket",
-  "wp_title": null,
-  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Samsara",
@@ -4402,14 +4370,6 @@
  {
   "company": "Partners Group",
   "company_qid": "Q684222",
-  "founder_qid": "Q113470205",
-  "founder_name": "Urs Wietlisbach",
-  "wp_title": null,
-  "source": "wikidata P112"
- },
- {
-  "company": "Partners Group",
-  "company_qid": "Q684222",
   "founder_qid": "Q113470240",
   "founder_name": "Marcel Erni",
   "wp_title": null,
@@ -4500,8 +4460,8 @@
   "company_qid": "Q21708200",
   "founder_qid": "Q4088422",
   "founder_name": "Trevor Blackwell",
-  "wp_title": "Trevor Blackwell",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikidata P112"
  },
  {
   "company": "OpenAI",
@@ -4664,6 +4624,14 @@
   "source": "wikipedia infobox (no article)"
  },
  {
+  "company": "Ramp",
+  "company_qid": "Q123190361",
+  "founder_qid": null,
+  "founder_name": "Gene Lee",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
   "company": "Anduril Industries",
   "company_qid": "Q61918830",
   "founder_qid": "Q16269109",
@@ -4690,16 +4658,8 @@
  {
   "company": "Anduril Industries",
   "company_qid": "Q61918830",
-  "founder_qid": "Q702527",
-  "founder_name": "Joe Chen",
-  "wp_title": "Joe Chen",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Anduril Industries",
-  "company_qid": "Q61918830",
   "founder_qid": null,
-  "founder_name": "Brian Schimpf",
+  "founder_name": "Joe Chen",
   "wp_title": null,
   "source": "wikipedia infobox (no article)"
  },
@@ -4850,22 +4810,6 @@
  {
   "company": "Mistral AI",
   "company_qid": "Q119718658",
-  "founder_qid": null,
-  "founder_name": "Guillaume Lample",
-  "wp_title": null,
-  "source": "wikipedia infobox (no article)"
- },
- {
-  "company": "Mistral AI",
-  "company_qid": "Q119718658",
-  "founder_qid": null,
-  "founder_name": "Timothée Lacroix",
-  "wp_title": null,
-  "source": "wikipedia infobox (no article)"
- },
- {
-  "company": "Mistral AI",
-  "company_qid": "Q119718658",
   "founder_qid": "Q56101409",
   "founder_name": "Guillaume Lample",
   "wp_title": null,
@@ -4882,10 +4826,10 @@
  {
   "company": "FNZ",
   "company_qid": "Q5426794",
-  "founder_qid": "Q4684995",
+  "founder_qid": null,
   "founder_name": "Adrian Durham",
-  "wp_title": "Adrian Durham",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "The Boring Company",
@@ -4944,6 +4888,14 @@
   "source": "wikidata P112"
  },
  {
+  "company": "Envision Group",
+  "company_qid": "Q24910394",
+  "founder_qid": null,
+  "founder_name": "Lei Zhang",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
   "company": "JUUL",
   "company_qid": "Q21017093",
   "founder_qid": "Q61972012",
@@ -4978,10 +4930,10 @@
  {
   "company": "Crypto.com",
   "company_qid": "Q105659003",
-  "founder_qid": "Q72733245",
+  "founder_qid": null,
   "founder_name": "Rafael Melo",
-  "wp_title": "Rafael Melo",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Whatnot",
@@ -5022,14 +4974,6 @@
   "founder_name": "Andy Konwinski",
   "wp_title": "Andy Konwinski",
   "source": "wikipedia infobox"
- },
- {
-  "company": "Perplexity",
-  "company_qid": "Q124333951",
-  "founder_qid": "Q120492201",
-  "founder_name": "Aravind Srinivas",
-  "wp_title": null,
-  "source": "wikidata P112"
  },
  {
   "company": "Tether",
@@ -5106,10 +5050,10 @@
  {
   "company": "Katerra",
   "company_qid": "Q54958664",
-  "founder_qid": "Q2978600",
+  "founder_qid": null,
   "founder_name": "Michael Marks",
-  "wp_title": "Michael Marks",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Katerra",
@@ -5124,6 +5068,22 @@
   "company_qid": "Q28222782",
   "founder_qid": null,
   "founder_name": "Alex Garden",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Zume",
+  "company_qid": "Q28222782",
+  "founder_qid": null,
+  "founder_name": "Julia Collins",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Convoy",
+  "company_qid": "Q39078842",
+  "founder_qid": null,
+  "founder_name": "Dan Lewis",
   "wp_title": null,
   "source": "wikipedia infobox (no article)"
  },
@@ -5162,10 +5122,10 @@
  {
   "company": "Lordstown Motors",
   "company_qid": "Q86681792",
-  "founder_qid": "Q456219",
+  "founder_qid": null,
   "founder_name": "Steve Burns",
-  "wp_title": "Steve Burns",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Webvan",
@@ -5226,10 +5186,10 @@
  {
   "company": "Celsius Network",
   "company_qid": "Q112486680",
-  "founder_qid": "Q16214943",
+  "founder_qid": null,
   "founder_name": "Daniel Leon",
-  "wp_title": "Daniel Leon",
-  "source": "wikipedia infobox"
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
  },
  {
   "company": "Celsius Network",
@@ -5293,6 +5253,14 @@
   "founder_qid": "Q7646502",
   "founder_name": "Suroosh Alvi",
   "wp_title": "Suroosh Alvi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Vice Media",
+  "company_qid": "Q18395343",
+  "founder_qid": "Q7488279",
+  "founder_name": "Shane Smith",
+  "wp_title": "Shane Smith (journalist)",
   "source": "wikipedia infobox"
  },
  {

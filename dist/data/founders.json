@@ -492,7 +492,7 @@
    "Meta Platforms (Facebook)"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikidata P112"
   ],
   "birthday": "1983-11-26",
   "birth_precision": "day",
@@ -534,54 +534,50 @@
   "wikidata_url": null
  },
  {
-  "qid": "Q6211708",
+  "qid": null,
   "name": "Joe Parkinson",
   "companies": [
    "Micron Technology"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1971-06-11",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q6211708",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "United Kingdom"
-  ],
-  "birthplace": "Eccles",
-  "birthplace_country": "United Kingdom",
-  "lat": 53.4824,
-  "lon": -2.339,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Parkinson",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q6211708"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
-  "qid": "Q453611",
+  "qid": null,
   "name": "Dennis Wilson",
   "companies": [
    "Micron Technology"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1944-12-04",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q453611",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "United States"
-  ],
-  "birthplace": "Inglewood",
-  "birthplace_country": "United States",
-  "lat": 33.9575,
-  "lon": -118.346111111,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Dennis_Wilson",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q453611"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": null,
@@ -1324,31 +1320,6 @@
   "wikidata_url": null
  },
  {
-  "qid": "Q19447315",
-  "name": "Nir Zuk",
-  "companies": [
-   "Palo Alto Networks"
-  ],
-  "roster_sources": [
-   "wikidata P112"
-  ],
-  "birthday": null,
-  "birth_precision": "year",
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": "1971-01-01",
-  "citizenship": [
-   "Israel"
-  ],
-  "birthplace": "Rehovot",
-  "birthplace_country": "Israel",
-  "lat": 31.891388888,
-  "lon": 34.807777777,
-  "gender": "male",
-  "wikipedia_url": null,
-  "wikidata_url": "https://www.wikidata.org/wiki/Q19447315"
- },
- {
   "qid": "Q5235798",
   "name": "David K. Lam",
   "companies": [
@@ -1550,27 +1521,29 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q62543"
  },
  {
-  "qid": null,
+  "qid": "Q1578305",
   "name": "Hans-Werner Hector",
   "companies": [
    "SAP"
   ],
   "roster_sources": [
-   "wikipedia infobox (no article)"
+   "wikidata P112"
   ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
+  "birthday": "1940-01-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1578305",
   "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": null,
+  "citizenship": [
+   "Germany"
+  ],
+  "birthplace": "Kaiserslautern",
+  "birthplace_country": "Germany",
+  "lat": 49.444722222,
+  "lon": 7.768888888,
+  "gender": "male",
   "wikipedia_url": null,
-  "wikidata_url": null
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1578305"
  },
  {
   "qid": "Q71074",
@@ -1646,31 +1619,6 @@
   "gender": "male",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Claus_Wellenreuther",
   "wikidata_url": "https://www.wikidata.org/wiki/Q108783"
- },
- {
-  "qid": "Q1578305",
-  "name": "Hans-Werner Hector",
-  "companies": [
-   "SAP"
-  ],
-  "roster_sources": [
-   "wikidata P112"
-  ],
-  "birthday": "1940-01-17",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q1578305",
-  "birth_raw": null,
-  "citizenship": [
-   "Germany"
-  ],
-  "birthplace": "Kaiserslautern",
-  "birthplace_country": "Germany",
-  "lat": 49.444722222,
-  "lon": 7.768888888,
-  "gender": "male",
-  "wikipedia_url": null,
-  "wikidata_url": "https://www.wikidata.org/wiki/Q1578305"
  },
  {
   "qid": "Q50082669",
@@ -2490,6 +2438,29 @@
  },
  {
   "qid": null,
+  "name": "Tom Mitchell",
+  "companies": [
+   "Seagate Technology"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
+  "qid": null,
   "name": "Doug Mahon",
   "companies": [
    "Seagate Technology"
@@ -3139,27 +3110,29 @@
   "wikidata_url": null
  },
  {
-  "qid": null,
+  "qid": "Q101855939",
   "name": "Benoît Dageville",
   "companies": [
    "Snowflake"
   ],
   "roster_sources": [
-   "wikipedia infobox (no article)"
+   "wikidata P112"
   ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
+  "birthday": "1966-06-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q101855939",
   "birth_raw": null,
-  "citizenship": [],
+  "citizenship": [
+   "France"
+  ],
   "birthplace": null,
   "birthplace_country": null,
   "lat": null,
   "lon": null,
-  "gender": null,
+  "gender": "male",
   "wikipedia_url": null,
-  "wikidata_url": null
+  "wikidata_url": "https://www.wikidata.org/wiki/Q101855939"
  },
  {
   "qid": null,
@@ -3206,31 +3179,6 @@
   "gender": null,
   "wikipedia_url": null,
   "wikidata_url": null
- },
- {
-  "qid": "Q101855939",
-  "name": "Benoît Dageville",
-  "companies": [
-   "Snowflake"
-  ],
-  "roster_sources": [
-   "wikidata P112"
-  ],
-  "birthday": "1966-06-29",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q101855939",
-  "birth_raw": null,
-  "citizenship": [
-   "France"
-  ],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": "male",
-  "wikipedia_url": null,
-  "wikidata_url": "https://www.wikidata.org/wiki/Q101855939"
  },
  {
   "qid": null,
@@ -3379,29 +3327,27 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q126165402"
  },
  {
-  "qid": "Q56705066",
+  "qid": null,
   "name": "Sidney Goldstein",
   "companies": [
    "CVS Health"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1927-08-04",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q56705066",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "United States"
-  ],
-  "birthplace": "New London",
-  "birthplace_country": "United States",
-  "lat": 41.354069,
-  "lon": -72.10104,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Sidney_Goldstein",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q56705066"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": "Q126163208",
@@ -3477,19 +3423,19 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q51665553"
  },
  {
-  "qid": "Q6513931",
+  "qid": "Q51666063",
   "name": "Lee Holloway",
   "companies": [
    "Cloudflare"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikidata P112"
   ],
-  "birthday": "1946-12-04",
-  "birth_precision": "day",
-  "birth_source": "wikipedia infobox",
-  "birth_source_url": "https://en.wikipedia.org/wiki/Lee_Holloway",
-  "birth_raw": "{{birth date|1946|12|4}}",
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1981-01-01",
   "citizenship": [
    "United States"
   ],
@@ -3498,8 +3444,8 @@
   "lat": null,
   "lon": null,
   "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Lee_Holloway",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q6513931"
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q51666063"
  },
  {
   "qid": "Q51665968",
@@ -3526,31 +3472,6 @@
   "gender": "female",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Michelle_Zatlyn",
   "wikidata_url": "https://www.wikidata.org/wiki/Q51665968"
- },
- {
-  "qid": "Q51666063",
-  "name": "Lee Holloway",
-  "companies": [
-   "Cloudflare"
-  ],
-  "roster_sources": [
-   "wikidata P112"
-  ],
-  "birthday": null,
-  "birth_precision": "year",
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": "1981-01-01",
-  "citizenship": [
-   "United States"
-  ],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": "male",
-  "wikipedia_url": null,
-  "wikidata_url": "https://www.wikidata.org/wiki/Q51666063"
  },
  {
   "qid": "Q716030",
@@ -3874,29 +3795,27 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q6166316"
  },
  {
-  "qid": "Q7383341",
-  "name": "Rutherford George Montgomery",
+  "qid": null,
+  "name": "Al Avery",
   "companies": [
    "Equinix"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1894-04-12",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q7383341",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "United States"
-  ],
+  "citizenship": [],
   "birthplace": null,
   "birthplace_country": null,
   "lat": null,
   "lon": null,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Rutherford_George_Montgomery",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q7383341"
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": "Q4963341",
@@ -5289,29 +5208,27 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q6323852"
  },
  {
-  "qid": "Q1700068",
+  "qid": null,
   "name": "John Finn",
   "companies": [
    "Bloom Energy"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1952-09-30",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q1700068",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "United States"
-  ],
-  "birthplace": "New York City",
-  "birthplace_country": "United States",
-  "lat": 40.712777777,
-  "lon": -74.006111111,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/John_Finn",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q1700068"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": null,
@@ -5337,29 +5254,27 @@
   "wikidata_url": null
  },
  {
-  "qid": "Q6139293",
+  "qid": null,
   "name": "James McElroy",
   "companies": [
    "Bloom Energy"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
   "birthday": null,
-  "birth_precision": "year",
+  "birth_precision": null,
   "birth_source": null,
   "birth_source_url": null,
-  "birth_raw": "{{Birth date text|1945}}",
-  "citizenship": [
-   "Ireland"
-  ],
+  "birth_raw": null,
+  "citizenship": [],
   "birthplace": null,
   "birthplace_country": null,
   "lat": null,
   "lon": null,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/James_McElroy",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q6139293"
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": null,
@@ -5634,52 +5549,6 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q982623"
  },
  {
-  "qid": null,
-  "name": "W. Nicholas Howley",
-  "companies": [
-   "TransDigm Group"
-  ],
-  "roster_sources": [
-   "wikipedia infobox (no article)"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": null,
-  "wikipedia_url": null,
-  "wikidata_url": null
- },
- {
-  "qid": null,
-  "name": "Douglas W. Peacock",
-  "companies": [
-   "TransDigm Group"
-  ],
-  "roster_sources": [
-   "wikipedia infobox (no article)"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": null,
-  "wikipedia_url": null,
-  "wikidata_url": null
- },
- {
   "qid": "Q117323781",
   "name": "W. Nicholas Howley",
   "companies": [
@@ -5703,6 +5572,29 @@
   "gender": "male",
   "wikipedia_url": null,
   "wikidata_url": "https://www.wikidata.org/wiki/Q117323781"
+ },
+ {
+  "qid": null,
+  "name": "Douglas W. Peacock",
+  "companies": [
+   "TransDigm Group"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": "Q2724084",
@@ -6097,6 +5989,29 @@
   "gender": "male",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_D._Walter",
   "wikidata_url": "https://www.wikidata.org/wiki/Q18091290"
+ },
+ {
+  "qid": null,
+  "name": "John Nichols",
+  "companies": [
+   "Devon Energy"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": "Q25344397",
@@ -6822,29 +6737,27 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q50324424"
  },
  {
-  "qid": "Q3528708",
-  "name": "Tim Wallach",
+  "qid": null,
+  "name": "Matt Wallach",
   "companies": [
    "Veeva Systems"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1957-09-14",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q3528708",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "United States"
-  ],
-  "birthplace": "Huntington Park",
-  "birthplace_country": "United States",
-  "lat": 33.9825,
-  "lon": -118.2175,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Wallach",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q3528708"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": "Q7199072",
@@ -7403,7 +7316,7 @@
    "IQVIA"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikidata P112"
   ],
   "birthday": "1944-04-25",
   "birth_precision": "day",
@@ -7622,54 +7535,50 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q5235034"
  },
  {
-  "qid": "Q16336528",
+  "qid": null,
   "name": "James Lau",
   "companies": [
    "NetApp"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1950-04-24",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q16336528",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "People's Republic of China"
-  ],
-  "birthplace": "British Hong Kong",
-  "birthplace_country": "United Kingdom",
-  "lat": 22.280068253,
-  "lon": 114.160327229,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/James_Lau",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q16336528"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
-  "qid": "Q6832461",
+  "qid": null,
   "name": "Michael Malcolm",
   "companies": [
    "NetApp"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1985-10-13",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q6832461",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "United Kingdom"
-  ],
-  "birthplace": "Harrow",
-  "birthplace_country": "United Kingdom",
-  "lat": 51.5836,
-  "lon": -0.3464,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Malcolm",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q6832461"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": "Q87741033",
@@ -7791,29 +7700,50 @@
   "wikidata_url": null
  },
  {
-  "qid": "Q6271245",
+  "qid": null,
+  "name": "Jim Mills",
+  "companies": [
+   "Medline"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
+  "qid": null,
   "name": "Jon Mills",
   "companies": [
    "Medline"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1978-03-06",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q6271245",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "United States"
-  ],
-  "birthplace": "Oshawa",
-  "birthplace_country": "Canada",
-  "lat": 43.9,
-  "lon": -78.85,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Jon_Mills",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q6271245"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": "Q1819424",
@@ -7840,29 +7770,6 @@
   "gender": "male",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Leonid_Mikhelson",
   "wikidata_url": "https://www.wikidata.org/wiki/Q1819424"
- },
- {
-  "qid": null,
-  "name": "Arthur del Prado",
-  "companies": [
-   "ASM International"
-  ],
-  "roster_sources": [
-   "wikipedia infobox (no article)"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": null,
-  "wikipedia_url": null,
-  "wikidata_url": null
  },
  {
   "qid": "Q26912932",
@@ -7938,29 +7845,6 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q106510423"
  },
  {
-  "qid": "Q56222225",
-  "name": "Fred Ehrsam",
-  "companies": [
-   "Coinbase"
-  ],
-  "roster_sources": [
-   "wikidata P112"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": "male",
-  "wikipedia_url": null,
-  "wikidata_url": "https://www.wikidata.org/wiki/Q56222225"
- },
- {
   "qid": "Q22121142",
   "name": "Qi Shi",
   "companies": [
@@ -8011,13 +7895,36 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q132130651"
  },
  {
+  "qid": null,
+  "name": "Xiaodong Wang (biochemist)",
+  "companies": [
+   "BeOne Medicines"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
   "qid": "Q908515",
   "name": "Xiaodong Wang",
   "companies": [
    "BeOne Medicines"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikidata P112"
   ],
   "birthday": null,
   "birth_precision": "year",
@@ -8133,13 +8040,13 @@
   "wikidata_url": null
  },
  {
-  "qid": null,
-  "name": "Bennett Rosenthal",
+  "qid": "Q60048026",
+  "name": "David Kaplan",
   "companies": [
    "Ares Management"
   ],
   "roster_sources": [
-   "wikipedia infobox (no article)"
+   "wikidata P112"
   ],
   "birthday": null,
   "birth_precision": null,
@@ -8151,9 +8058,9 @@
   "birthplace_country": null,
   "lat": null,
   "lon": null,
-  "gender": null,
+  "gender": "male",
   "wikipedia_url": null,
-  "wikidata_url": null
+  "wikidata_url": "https://www.wikidata.org/wiki/Q60048026"
  },
  {
   "qid": "Q60047641",
@@ -8179,29 +8086,6 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q60047641"
  },
  {
-  "qid": "Q60048026",
-  "name": "David Kaplan",
-  "companies": [
-   "Ares Management"
-  ],
-  "roster_sources": [
-   "wikidata P112"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": "male",
-  "wikipedia_url": null,
-  "wikidata_url": "https://www.wikidata.org/wiki/Q60048026"
- },
- {
   "qid": "Q111603335",
   "name": "Herbert Irving",
   "companies": [
@@ -8223,54 +8107,6 @@
   "gender": "male",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Herbert_Irving",
   "wikidata_url": "https://www.wikidata.org/wiki/Q111603335"
- },
- {
-  "qid": null,
-  "name": "John F. Baugh",
-  "companies": [
-   "Sysco"
-  ],
-  "roster_sources": [
-   "wikipedia infobox (no article)"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": null,
-  "wikipedia_url": null,
-  "wikidata_url": null
- },
- {
-  "qid": "Q5672034",
-  "name": "Harry Rosenthal",
-  "companies": [
-   "Sysco"
-  ],
-  "roster_sources": [
-   "wikipedia infobox"
-  ],
-  "birthday": "1900-05-15",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q5672034",
-  "birth_raw": null,
-  "citizenship": [
-   "United States"
-  ],
-  "birthplace": "Belfast",
-  "birthplace_country": "United Kingdom",
-  "lat": 54.596666666,
-  "lon": -5.93,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Harry_Rosenthal",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q5672034"
  },
  {
   "qid": "Q122830857",
@@ -8659,29 +8495,6 @@
   "wikidata_url": null
  },
  {
-  "qid": "Q100251193",
-  "name": "Jeff Lawson",
-  "companies": [
-   "Twilio"
-  ],
-  "roster_sources": [
-   "wikidata P112"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": "male",
-  "wikipedia_url": null,
-  "wikidata_url": "https://www.wikidata.org/wiki/Q100251193"
- },
- {
   "qid": null,
   "name": "Todd McKinnon",
   "companies": [
@@ -8751,29 +8564,6 @@
   "gender": "male",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Torstein_Hagen",
   "wikidata_url": "https://www.wikidata.org/wiki/Q7827229"
- },
- {
-  "qid": null,
-  "name": "Larry Rossy",
-  "companies": [
-   "Dollarama"
-  ],
-  "roster_sources": [
-   "wikipedia infobox (no article)"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": null,
-  "wikipedia_url": null,
-  "wikidata_url": null
  },
  {
   "qid": "Q120918397",
@@ -9549,6 +9339,29 @@
  },
  {
   "qid": null,
+  "name": "Robert Clements",
+  "companies": [
+   "Arch Capital"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
+  "qid": null,
   "name": "Peter A. Appel",
   "companies": [
    "Arch Capital"
@@ -9667,27 +9480,27 @@
   "wikidata_url": null
  },
  {
-  "qid": "Q19974916",
+  "qid": null,
   "name": "Joe McKenzie",
   "companies": [
    "Flex"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1889-04-23",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q19974916",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
   "citizenship": [],
-  "birthplace": "Port Melbourne",
-  "birthplace_country": "Australia",
-  "lat": -37.823888888,
-  "lon": 144.911111111,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_McKenzie",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q19974916"
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": null,
@@ -10172,6 +9985,29 @@
   "wikidata_url": null
  },
  {
+  "qid": null,
+  "name": "Kenneth Woolley",
+  "companies": [
+   "Extra Space Storage"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
   "qid": "Q6397188",
   "name": "Kevin P. Ryan",
   "companies": [
@@ -10589,29 +10425,27 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q30122565"
  },
  {
-  "qid": "Q1872970",
+  "qid": null,
   "name": "Luca Ferrari",
   "companies": [
    "Bending Spoons"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1605-02-17",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q1872970",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "Duchy of Modena and Reggio"
-  ],
-  "birthplace": "Reggio Emilia",
-  "birthplace_country": "Italy",
-  "lat": 44.7,
-  "lon": 10.633333333,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Luca_Ferrari",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q1872970"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": null,
@@ -10730,6 +10564,29 @@
  },
  {
   "qid": null,
+  "name": "James Golden",
+  "companies": [
+   "Jabil"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
+  "qid": null,
   "name": "Lee Hee-gun",
   "companies": [
    "Shinhan Financial Group"
@@ -10779,29 +10636,27 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q1387731"
  },
  {
-  "qid": "Q114179",
+  "qid": null,
   "name": "Scott Glenn",
   "companies": [
    "DexCom"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1942-01-26",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q114179",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "United States"
-  ],
-  "birthplace": "Pittsburgh",
-  "birthplace_country": "United States",
-  "lat": 40.441666666,
-  "lon": -80.0,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Glenn",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q114179"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": null,
@@ -11358,6 +11213,29 @@
  },
  {
   "qid": null,
+  "name": "Declan Ryan",
+  "companies": [
+   "Ryanair"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
+  "qid": null,
   "name": "Liam Lonergan",
   "companies": [
    "Ryanair"
@@ -11528,6 +11406,29 @@
  {
   "qid": null,
   "name": "Gary Lauterbach",
+  "companies": [
+   "Cerebras Systems"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
+  "qid": null,
+  "name": "Michael James",
   "companies": [
    "Cerebras Systems"
   ],
@@ -11856,29 +11757,27 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q302817"
  },
  {
-  "qid": "Q107649400",
+  "qid": null,
   "name": "Wang Dongsheng",
   "companies": [
    "BOE Technology"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1997-05-12",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q107649400",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "People's Republic of China"
-  ],
+  "citizenship": [],
   "birthplace": null,
   "birthplace_country": null,
   "lat": null,
   "lon": null,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Wang_Dongsheng",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q107649400"
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": "Q105338400",
@@ -12026,29 +11925,27 @@
   "wikidata_url": null
  },
  {
-  "qid": "Q111132867",
+  "qid": null,
   "name": "Mao Zhongwu",
   "companies": [
    "Sany Heavy Industry"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1986-08-07",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q111132867",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "People's Republic of China"
-  ],
+  "citizenship": [],
   "birthplace": null,
   "birthplace_country": null,
   "lat": null,
   "lon": null,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Mao_Zhongwu",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q111132867"
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": null,
@@ -12095,29 +11992,6 @@
   "gender": "male",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sanjit_Biswas",
   "wikidata_url": "https://www.wikidata.org/wiki/Q7418560"
- },
- {
-  "qid": null,
-  "name": "John Bicket",
-  "companies": [
-   "Samsara"
-  ],
-  "roster_sources": [
-   "wikipedia infobox (no article)"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": null,
-  "wikipedia_url": null,
-  "wikidata_url": null
  },
  {
   "qid": "Q79543012",
@@ -13131,31 +13005,6 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q104903559"
  },
  {
-  "qid": "Q113470205",
-  "name": "Urs Wietlisbach",
-  "companies": [
-   "Partners Group"
-  ],
-  "roster_sources": [
-   "wikidata P112"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [
-   "Switzerland"
-  ],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": "male",
-  "wikipedia_url": null,
-  "wikidata_url": "https://www.wikidata.org/wiki/Q113470205"
- },
- {
   "qid": "Q113470240",
   "name": "Marcel Erni",
   "companies": [
@@ -13408,7 +13257,7 @@
    "OpenAI"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikidata P112"
   ],
   "birthday": "1969-11-04",
   "birth_precision": "day",
@@ -13893,6 +13742,29 @@
   "wikidata_url": null
  },
  {
+  "qid": null,
+  "name": "Gene Lee",
+  "companies": [
+   "Ramp"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
   "qid": "Q16269109",
   "name": "Palmer Luckey",
   "companies": [
@@ -13966,33 +13838,8 @@
   "wikidata_url": null
  },
  {
-  "qid": "Q702527",
-  "name": "Joe Chen",
-  "companies": [
-   "Anduril Industries"
-  ],
-  "roster_sources": [
-   "wikipedia infobox"
-  ],
-  "birthday": "1979-04-04",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q702527",
-  "birth_raw": null,
-  "citizenship": [
-   "Taiwan"
-  ],
-  "birthplace": "Taiwan",
-  "birthplace_country": "Taiwan",
-  "lat": 24.0,
-  "lon": 121.0,
-  "gender": "female",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Chen",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q702527"
- },
- {
   "qid": null,
-  "name": "Brian Schimpf",
+  "name": "Joe Chen",
   "companies": [
    "Anduril Industries"
   ],
@@ -14452,52 +14299,6 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q123758735"
  },
  {
-  "qid": null,
-  "name": "Guillaume Lample",
-  "companies": [
-   "Mistral AI"
-  ],
-  "roster_sources": [
-   "wikipedia infobox (no article)"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": null,
-  "wikipedia_url": null,
-  "wikidata_url": null
- },
- {
-  "qid": null,
-  "name": "Timothée Lacroix",
-  "companies": [
-   "Mistral AI"
-  ],
-  "roster_sources": [
-   "wikipedia infobox (no article)"
-  ],
-  "birthday": null,
-  "birth_precision": null,
-  "birth_source": null,
-  "birth_source_url": null,
-  "birth_raw": null,
-  "citizenship": [],
-  "birthplace": null,
-  "birthplace_country": null,
-  "lat": null,
-  "lon": null,
-  "gender": null,
-  "wikipedia_url": null,
-  "wikidata_url": null
- },
- {
   "qid": "Q56101409",
   "name": "Guillaume Lample",
   "companies": [
@@ -14546,27 +14347,27 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q125192446"
  },
  {
-  "qid": "Q4684995",
+  "qid": null,
   "name": "Adrian Durham",
   "companies": [
    "FNZ"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1969-05-13",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q4684995",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
   "citizenship": [],
-  "birthplace": "Peterborough",
-  "birthplace_country": "United Kingdom",
-  "lat": 52.5725,
-  "lon": -0.243055555,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Adrian_Durham",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q4684995"
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": "Q139394083",
@@ -14711,6 +14512,29 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q105580754"
  },
  {
+  "qid": null,
+  "name": "Lei Zhang",
+  "companies": [
+   "Envision Group"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
   "qid": "Q61972012",
   "name": "James Monsees",
   "companies": [
@@ -14805,27 +14629,27 @@
   "wikidata_url": null
  },
  {
-  "qid": "Q72733245",
+  "qid": null,
   "name": "Rafael Melo",
   "companies": [
    "Crypto.com"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "2000-03-19",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q72733245",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
   "citizenship": [],
-  "birthplace": "Juan Lacaze",
-  "birthplace_country": "Uruguay",
-  "lat": -34.43438,
-  "lon": -57.43837,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Rafael_Melo",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q72733245"
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": null,
@@ -14918,31 +14742,6 @@
   "gender": null,
   "wikipedia_url": null,
   "wikidata_url": null
- },
- {
-  "qid": "Q120492201",
-  "name": "Aravind Srinivas",
-  "companies": [
-   "Perplexity"
-  ],
-  "roster_sources": [
-   "wikidata P112"
-  ],
-  "birthday": "1994-06-07",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q120492201",
-  "birth_raw": null,
-  "citizenship": [
-   "India"
-  ],
-  "birthplace": "Chennai",
-  "birthplace_country": "India",
-  "lat": 13.0825,
-  "lon": 80.275,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Aravind_Srinivas",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q120492201"
  },
  {
   "qid": "Q2925904",
@@ -15144,30 +14943,27 @@
   "wikidata_url": null
  },
  {
-  "qid": "Q2978600",
+  "qid": null,
   "name": "Michael Marks",
   "companies": [
    "Katerra"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
   "birthday": null,
-  "birth_precision": "year",
+  "birth_precision": null,
   "birth_source": null,
   "birth_source_url": null,
-  "birth_raw": "Disputed year of birth",
-  "citizenship": [
-   "Russian Empire",
-   "United Kingdom of Great Britain and Ireland"
-  ],
-  "birthplace": "Slonim",
-  "birthplace_country": "Belarus",
-  "lat": 53.083333333,
-  "lon": 25.316666666,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Marks",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q2978600"
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": null,
@@ -15197,6 +14993,52 @@
   "name": "Alex Garden",
   "companies": [
    "Zume"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
+  "qid": null,
+  "name": "Julia Collins",
+  "companies": [
+   "Zume"
+  ],
+  "roster_sources": [
+   "wikipedia infobox (no article)"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
+ },
+ {
+  "qid": null,
+  "name": "Dan Lewis",
+  "companies": [
+   "Convoy"
   ],
   "roster_sources": [
    "wikipedia infobox (no article)"
@@ -15312,29 +15154,27 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q67146947"
  },
  {
-  "qid": "Q456219",
+  "qid": null,
   "name": "Steve Burns",
   "companies": [
    "Lordstown Motors"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1973-10-09",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q456219",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "United States"
-  ],
-  "birthplace": "Boyertown",
-  "birthplace_country": "United States",
-  "lat": 40.33371,
-  "lon": -75.63741,
-  "gender": "cisgender man",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Burns",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q456219"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": "Q22277126",
@@ -15510,29 +15350,27 @@
   "wikidata_url": "https://www.wikidata.org/wiki/Q51858249"
  },
  {
-  "qid": "Q16214943",
+  "qid": null,
   "name": "Daniel Leon",
   "companies": [
    "Celsius Network"
   ],
   "roster_sources": [
-   "wikipedia infobox"
+   "wikipedia infobox (no article)"
   ],
-  "birthday": "1974-10-14",
-  "birth_precision": "day",
-  "birth_source": "wikidata",
-  "birth_source_url": "https://www.wikidata.org/wiki/Q16214943",
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
   "birth_raw": null,
-  "citizenship": [
-   "United States"
-  ],
-  "birthplace": "Lima",
-  "birthplace_country": "Peru",
-  "lat": -12.06,
-  "lon": -77.0375,
-  "gender": "male",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Leon",
-  "wikidata_url": "https://www.wikidata.org/wiki/Q16214943"
+  "citizenship": [],
+  "birthplace": null,
+  "birthplace_country": null,
+  "lat": null,
+  "lon": null,
+  "gender": null,
+  "wikipedia_url": null,
+  "wikidata_url": null
  },
  {
   "qid": null,
@@ -15723,6 +15561,31 @@
   "gender": "male",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Suroosh_Alvi",
   "wikidata_url": "https://www.wikidata.org/wiki/Q7646502"
+ },
+ {
+  "qid": "Q7488279",
+  "name": "Shane Smith",
+  "companies": [
+   "Vice Media"
+  ],
+  "roster_sources": [
+   "wikipedia infobox"
+  ],
+  "birthday": "1969-09-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7488279",
+  "birth_raw": null,
+  "citizenship": [
+   "Canada"
+  ],
+  "birthplace": "Ottawa",
+  "birthplace_country": "Canada",
+  "lat": 45.424722222,
+  "lon": -75.695,
+  "gender": "male",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Shane_Smith_(journalist)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7488279"
  },
  {
   "qid": "Q5528217",

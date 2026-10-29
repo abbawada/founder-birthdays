@@ -10,14 +10,6 @@
  {
   "company": "Seagate Technology",
   "company_qid": "Q705392",
-  "founder_qid": "Q418582",
-  "founder_name": "Tom Mitchell",
-  "wp_title": "Thomas Mitchell",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Seagate Technology",
-  "company_qid": "Q705392",
   "founder_qid": "Q388927",
   "founder_name": "Syed Iftikar",
   "wp_title": "SyQuest Technology",
@@ -32,35 +24,11 @@
   "source": "wikipedia infobox"
  },
  {
-  "company": "Devon Energy",
-  "company_qid": "Q1206980",
-  "founder_qid": "Q1701214",
-  "founder_name": "John Nichols",
-  "wp_title": "John Nichols",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Medline",
-  "company_qid": "Q6807236",
-  "founder_qid": "Q2592987",
-  "founder_name": "Jim Mills",
-  "wp_title": "James Mills",
-  "source": "wikipedia infobox"
- },
- {
   "company": "Ares Management",
   "company_qid": "Q4789079",
   "founder_qid": "Q4789079",
   "founder_name": "Michael Arougheti",
   "wp_title": "Ares Management",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Ares Management",
-  "company_qid": "Q4789079",
-  "founder_qid": "Q5235846",
-  "founder_name": "David Kaplan",
-  "wp_title": "David Kaplan",
   "source": "wikipedia infobox"
  },
  {
@@ -80,75 +48,11 @@
   "source": "wikipedia infobox"
  },
  {
-  "company": "Arch Capital",
-  "company_qid": "Q28155430",
-  "founder_qid": "Q16463438",
-  "founder_name": "Robert Clements",
-  "wp_title": "Robert Clements",
-  "source": "wikipedia infobox"
- },
- {
   "company": "Eternal (Zomato)",
   "company_qid": "Q8073715",
   "founder_qid": "Q8073715",
   "founder_name": "Deepinder Goyal",
   "wp_title": "Zomato",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Extra Space Storage",
-  "company_qid": "Q5422162",
-  "founder_qid": "Q6565626",
-  "founder_name": "Kenneth Woolley",
-  "wp_title": "List of Cambridge University Cricket Club players",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Jabil",
-  "company_qid": "Q2171646",
-  "founder_qid": "Q6134707",
-  "founder_name": "James Golden",
-  "wp_title": "James Golden",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "SharkNinja",
-  "company_qid": "Q97164583",
-  "founder_qid": "Q50324595",
-  "founder_name": "Mark Rosenzweig",
-  "wp_title": "Mark Rosenzweig",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Ryanair",
-  "company_qid": "Q170614",
-  "founder_qid": "Q5249392",
-  "founder_name": "Declan Ryan",
-  "wp_title": "Declan Ryan",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Cerebras Systems",
-  "company_qid": "Q66604886",
-  "founder_qid": "Q374420",
-  "founder_name": "Michael James",
-  "wp_title": "Mike James",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Ramp",
-  "company_qid": "Q123190361",
-  "founder_qid": "Q853873",
-  "founder_name": "Gene Lee",
-  "wp_title": "Cantopop",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Envision Group",
-  "company_qid": "Q24910394",
-  "founder_qid": "Q823117",
-  "founder_name": "Lei Zhang",
-  "wp_title": "Zhang Lei",
   "source": "wikipedia infobox"
  },
  {
@@ -176,22 +80,6 @@
   "source": "wikipedia infobox"
  },
  {
-  "company": "Zume",
-  "company_qid": "Q28222782",
-  "founder_qid": "Q17129480",
-  "founder_name": "Julia Collins",
-  "wp_title": "Julia Collins",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Convoy",
-  "company_qid": "Q39078842",
-  "founder_qid": "Q5217930",
-  "founder_name": "Dan Lewis",
-  "wp_title": "Daniel Lewis",
-  "source": "wikipedia infobox"
- },
- {
   "company": "Blockbuster",
   "company_qid": "Q884711",
   "founder_qid": "Q11755896",
@@ -205,14 +93,6 @@
   "founder_qid": "Q52144716",
   "founder_name": "Matt Hershenson",
   "wp_title": "Playground Global",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Vice Media",
-  "company_qid": "Q18395343",
-  "founder_qid": "Q7488276",
-  "founder_name": "Shane Smith",
-  "wp_title": "Shane Smith",
   "source": "wikipedia infobox"
  }
 ]

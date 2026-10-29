@@ -10,7 +10,7 @@ import os
 import re
 from collections import defaultdict
 
-from common import DATA, load_json, save_json, sparql, chunks, wp_page, infobox, strip_markup
+from common import DATA, ROOT, load_json, save_json, sparql, chunks, wp_page, infobox, strip_markup
 
 rows = load_json(os.path.join(DATA, "founders_raw.json"))
 people = {}
@@ -112,6 +112,16 @@ for key, p in people.items():
             if bd:
                 rec["birth_source"] = "wikipedia infobox" if "{{" in (raw or "") or re.search(r"\d{4}", strip_markup(raw or "")) else "wikipedia lead"
     out.append(rec)
+# verified corrections and found dates from the review workflow (pipeline/birthday_overrides.json: key -> {birthday, source_url, source})
+bo = load_json(os.path.join(ROOT, "pipeline", "birthday_overrides.json"), {})
+n_bo = 0
+for rec in out:
+    k = rec["qid"] or ("name:" + rec["name"])
+    o = bo.get(k)
+    if o and o.get("birthday"):
+        rec.update({"birthday": o["birthday"], "birth_precision": "day", "birth_source": o.get("source", "verified"), "birth_source_url": o.get("source_url"), "birth_raw": (rec.get("birth_raw") or "") + " | verified"})
+        n_bo += 1
+print(n_bo, "birthdays set from verified overrides")
 save_json(os.path.join(DATA, "founders.json"), out)
 dated = [o for o in out if o["birthday"]]
 print(len(out), "people;", len(dated), "day-dated (", sum(o['birth_source'] == 'wikidata' for o in dated), "wikidata,", sum(o['birth_source'] == 'wikipedia infobox' for o in dated), "wikipedia );", len(out) - len(dated), "missing")

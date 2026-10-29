@@ -31,6 +31,8 @@ for i, (m, d) in enumerate(STARTS):
 
 companies = load_json(os.path.join(DATA, "companies.json"))
 founders = load_json(os.path.join(DATA, "founders.json"))
+_with = {c for f in founders for c in f["companies"]}
+companies = [c for c in companies if c["name"] in _with]   # a company with no resolvable founder is not on the ring
 stats = load_json(os.path.join(DATA, "stats.json"))
 moon = load_json(os.path.join(DATA, "moon.json"), {})
 rising = load_json(os.path.join(DATA, "rising.json"), {})

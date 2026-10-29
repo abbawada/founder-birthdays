@@ -1,0 +1,674 @@
+[
+ {
+  "key": "Q6211708",
+  "name": "Joe Parkinson",
+  "companies": [
+   "Micron Technology"
+  ],
+  "birthday": "1971-06-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6211708",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Parkinson",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6211708"
+ },
+ {
+  "key": "Q453611",
+  "name": "Dennis Wilson",
+  "companies": [
+   "Micron Technology"
+  ],
+  "birthday": "1944-12-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q453611",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dennis_Wilson",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q453611"
+ },
+ {
+  "key": "Q1739008",
+  "name": "Ma Huateng",
+  "companies": [
+   "Tencent"
+  ],
+  "birthday": "1971-10-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1739008",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pony_Ma",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1739008"
+ },
+ {
+  "key": "Q15934341",
+  "name": "Zhang Zhidong",
+  "companies": [
+   "Tencent"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1972}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Zhang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q15934341"
+ },
+ {
+  "key": "Q20689208",
+  "name": "Chen Yidan",
+  "companies": [
+   "Tencent"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1971}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chen_Yidan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q20689208"
+ },
+ {
+  "key": "Q11550665",
+  "name": "Hiromasa Ezoe",
+  "companies": [
+   "Recruit"
+  ],
+  "birthday": "1936-06-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q11550665",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hiromasa_Ezoe",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q11550665"
+ },
+ {
+  "key": "Q5497099",
+  "name": "Frederic Moll",
+  "companies": [
+   "Intuitive Surgical"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1952-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Frederic_Moll",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5497099"
+ },
+ {
+  "key": "Q123453958",
+  "name": "John Freund",
+  "companies": [
+   "Intuitive Surgical"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/John_Freund_(business_executive)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q123453958"
+ },
+ {
+  "key": "Q47501260",
+  "name": "Joshua Boger",
+  "companies": [
+   "Vertex Pharmaceuticals"
+  ],
+  "birthday": "1951-04-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q47501260",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Joshua_Boger",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q47501260"
+ },
+ {
+  "key": "Q11565122",
+  "name": "Takemitsu Takizaki",
+  "companies": [
+   "Keyence"
+  ],
+  "birthday": "1945-06-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q11565122",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Takemitsu_Takizaki",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q11565122"
+ },
+ {
+  "key": "Q56705066",
+  "name": "Sidney Goldstein",
+  "companies": [
+   "CVS Health"
+  ],
+  "birthday": "1927-08-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q56705066",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sidney_Goldstein",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q56705066"
+ },
+ {
+  "key": "Q6167147",
+  "name": "Jay S. Walker",
+  "companies": [
+   "Booking Holdings (Booking.com)"
+  ],
+  "birthday": "1955-11-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6167147",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jay_S._Walker",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6167147"
+ },
+ {
+  "key": "Q6513931",
+  "name": "Lee Holloway",
+  "companies": [
+   "Cloudflare"
+  ],
+  "birthday": "1946-12-04",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Lee_Holloway",
+  "birth_raw": "{{birth date|1946|12|4}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lee_Holloway",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6513931"
+ },
+ {
+  "key": "Q7383341",
+  "name": "Rutherford George Montgomery",
+  "companies": [
+   "Equinix"
+  ],
+  "birthday": "1894-04-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7383341",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rutherford_George_Montgomery",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7383341"
+ },
+ {
+  "key": "Q110405430",
+  "name": "Ge Li",
+  "companies": [
+   "WuXi AppTec"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1967-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ge_Li",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q110405430"
+ },
+ {
+  "key": "Q24006843",
+  "name": "Charif Souki",
+  "companies": [
+   "Cheniere Energy"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1953",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Charif_Souki",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q24006843"
+ },
+ {
+  "key": "Q563379",
+  "name": "Tsai Wan-lin",
+  "companies": [
+   "Cathay Financial Holding"
+  ],
+  "birthday": "1924-11-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q563379",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tsai_Wan-lin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q563379"
+ },
+ {
+  "key": "Q56347746",
+  "name": "Paulo Roberto Nunes Guedes",
+  "companies": [
+   "BTG Pactual"
+  ],
+  "birthday": "1949-08-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q56347746",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Paulo_Guedes",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q56347746"
+ },
+ {
+  "key": "Q74752542",
+  "name": "David R. Huber",
+  "companies": [
+   "Ciena"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/David_R._Huber",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q74752542"
+ },
+ {
+  "key": "Q3528708",
+  "name": "Tim Wallach",
+  "companies": [
+   "Veeva Systems"
+  ],
+  "birthday": "1957-09-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q3528708",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Wallach",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q3528708"
+ },
+ {
+  "key": "Q16336528",
+  "name": "James Lau",
+  "companies": [
+   "NetApp"
+  ],
+  "birthday": "1950-04-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q16336528",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/James_Lau",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16336528"
+ },
+ {
+  "key": "Q6832461",
+  "name": "Michael Malcolm",
+  "companies": [
+   "NetApp"
+  ],
+  "birthday": "1985-10-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6832461",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Malcolm",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6832461"
+ },
+ {
+  "key": "Q5672034",
+  "name": "Harry Rosenthal",
+  "companies": [
+   "Sysco"
+  ],
+  "birthday": "1900-05-15",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5672034",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Harry_Rosenthal",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5672034"
+ },
+ {
+  "key": "Q8998330",
+  "name": "Barry Lam",
+  "companies": [
+   "Quanta Computer"
+  ],
+  "birthday": "1949-04-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q8998330",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Barry_Lam",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q8998330"
+ },
+ {
+  "key": "Q7240183",
+  "name": "Prem Watsa",
+  "companies": [
+   "Fairfax Financial"
+  ],
+  "birthday": "1950-08-05",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Prem_Watsa",
+  "birth_raw": "{{Birth date and age|df=yes|1950|08|05}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Prem_Watsa",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7240183"
+ },
+ {
+  "key": "Q135354897",
+  "name": "Michael Intrator",
+  "companies": [
+   "CoreWeave"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1969}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Intrator",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q135354897"
+ },
+ {
+  "key": "Q16734526",
+  "name": "Pierre Chen",
+  "companies": [
+   "Yageo"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1958}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pierre_Chen",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16734526"
+ },
+ {
+  "key": "Q19974916",
+  "name": "Joe McKenzie",
+  "companies": [
+   "Flex"
+  ],
+  "birthday": "1889-04-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q19974916",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_McKenzie",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19974916"
+ },
+ {
+  "key": "Q60539018",
+  "name": "Li Xiting",
+  "companies": [
+   "Mindray"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1951}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Li_Xiting",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q60539018"
+ },
+ {
+  "key": "Q111936936",
+  "name": "Xu Hang",
+  "companies": [
+   "Mindray"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1967}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Xu_Hang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q111936936"
+ },
+ {
+  "key": "Q7153466",
+  "name": "Paul Schimmel",
+  "companies": [
+   "Alnylam Pharmaceuticals"
+  ],
+  "birthday": "1940-08-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7153466",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Schimmel",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7153466"
+ },
+ {
+  "key": "Q117256",
+  "name": "David P. Bartel",
+  "companies": [
+   "Alnylam Pharmaceuticals"
+  ],
+  "birthday": null,
+  "birth_precision": "7",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "2000-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/David_Bartel",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q117256"
+ },
+ {
+  "key": "Q90093",
+  "name": "Thomas Tuschl",
+  "companies": [
+   "Alnylam Pharmaceuticals"
+  ],
+  "birthday": "1966-06-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q90093",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Tuschl",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q90093"
+ },
+ {
+  "key": "Q52600489",
+  "name": "Phillip D. Zamore",
+  "companies": [
+   "Alnylam Pharmaceuticals"
+  ],
+  "birthday": "1963-11-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q52600489",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Phillip_D._Zamore",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q52600489"
+ },
+ {
+  "key": "Q5111736",
+  "name": "Christoph Westphal",
+  "companies": [
+   "Alnylam Pharmaceuticals"
+  ],
+  "birthday": null,
+  "birth_precision": "7",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "2000-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Christoph_Westphal",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5111736"
+ },
+ {
+  "key": "Q1872970",
+  "name": "Luca Ferrari",
+  "companies": [
+   "Bending Spoons"
+  ],
+  "birthday": "1605-02-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1872970",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Luca_Ferrari",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1872970"
+ },
+ {
+  "key": "Q114179",
+  "name": "Scott Glenn",
+  "companies": [
+   "DexCom"
+  ],
+  "birthday": "1942-01-26",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q114179",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Glenn",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q114179"
+ },
+ {
+  "key": "Q137919893",
+  "name": "Christopher Ryan",
+  "companies": [
+   "Ryanair"
+  ],
+  "birthday": "1936-12-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q137919893",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Christopher_Ryan_(aviation_executive)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q137919893"
+ },
+ {
+  "key": "Q7704484",
+  "name": "Terry Hanson",
+  "companies": [
+   "ULTA Beauty"
+  ],
+  "birthday": "1947-06-16",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7704484",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Terry_Hanson",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7704484"
+ },
+ {
+  "key": "Q114690180",
+  "name": "Lee Olesky",
+  "companies": [
+   "Tradeweb"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1961}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lee_Olesky",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q114690180"
+ },
+ {
+  "key": "Q111132867",
+  "name": "Mao Zhongwu",
+  "companies": [
+   "Sany Heavy Industry"
+  ],
+  "birthday": "1986-08-07",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q111132867",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mao_Zhongwu",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q111132867"
+ },
+ {
+  "key": "Q27947568",
+  "name": "James Liang",
+  "companies": [
+   "Trip.com"
+  ],
+  "birthday": null,
+  "birth_precision": "8",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1969}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/James_Liang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q27947568"
+ },
+ {
+  "key": "Q23418611",
+  "name": "Neil Shen",
+  "companies": [
+   "Trip.com"
+  ],
+  "birthday": "1967-12-16",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Neil_Shen",
+  "birth_raw": "{{Birth date and age|1967|12|16|df=y}} }}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Neil_Shen",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q23418611"
+ },
+ {
+  "key": "Q488446",
+  "name": "Chung Mong-koo",
+  "companies": [
+   "Hyundai Mobis"
+  ],
+  "birthday": "1938-03-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q488446",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chung_Mong-koo",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q488446"
+ },
+ {
+  "key": "Q56599954",
+  "name": "Scott Lin",
+  "companies": [
+   "Largan Precision"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1933}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Lin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q56599954"
+ },
+ {
+  "key": "Q6202240",
+  "name": "Jing Shuping",
+  "companies": [
+   "China Minsheng Bank"
+  ],
+  "birthday": "1918-07-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6202240",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jing_Shuping",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6202240"
+ },
+ {
+  "key": "Q702527",
+  "name": "Joe Chen",
+  "companies": [
+   "Anduril Industries"
+  ],
+  "birthday": "1979-04-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q702527",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Chen",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q702527"
+ },
+ {
+  "key": "Q72733245",
+  "name": "Rafael Melo",
+  "companies": [
+   "Crypto.com"
+  ],
+  "birthday": "2000-03-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q72733245",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rafael_Melo",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q72733245"
+ }
+]
