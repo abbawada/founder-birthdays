@@ -68,6 +68,12 @@ def wp_birthday(title):
         y, mo, d = map(int, m.groups())
         return f"{y:04d}-{mo:02d}-{d:02d}", pg["url"], strip_markup(raw)[:80]
     clean = strip_markup(raw)
+    if not re.search(r"\d{4}", clean):
+        # no usable infobox date: try the lead sentence "(born 12 March 1965" / "(born March 12, 1965"
+        lead = strip_markup(re.sub(r"\{\{Infobox.*?\n\}\}", "", pg["text"][:6000], flags=re.S))
+        m = re.search(r"\(born\s+(?:[^()\d]{0,60}?)(\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}|(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4})", lead)
+        if m:
+            clean = m.group(1)
     m = re.search(r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),?\s+(\d{4})", clean)
     if m:
         return f"{int(m.group(3)):04d}-{MONTHS[m.group(1).lower()]:02d}-{int(m.group(2)):02d}", pg["url"], clean[:80]
@@ -103,6 +109,8 @@ for key, p in people.items():
                 rec.update({"birthday": bd, "birth_precision": "day", "birth_source": "wikipedia infobox", "birth_source_url": url, "birth_raw": raw})
             elif raw:
                 rec["birth_raw"] = raw
+            if bd:
+                rec["birth_source"] = "wikipedia infobox" if "{{" in (raw or "") or re.search(r"\d{4}", strip_markup(raw or "")) else "wikipedia lead"
     out.append(rec)
 save_json(os.path.join(DATA, "founders.json"), out)
 dated = [o for o in out if o["birthday"]]

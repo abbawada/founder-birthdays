@@ -1,0 +1,4850 @@
+[
+ {
+  "company": "NVIDIA",
+  "company_qid": "Q182477",
+  "founder_qid": "Q305177",
+  "founder_name": "Jensen Huang",
+  "wp_title": "Jensen Huang",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "NVIDIA",
+  "company_qid": "Q182477",
+  "founder_qid": "Q5107317",
+  "founder_name": "Chris Malachowsky",
+  "wp_title": "Chris Malachowsky",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "NVIDIA",
+  "company_qid": "Q182477",
+  "founder_qid": "Q5195858",
+  "founder_name": "Curtis Priem",
+  "wp_title": "Curtis Priem",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Apple",
+  "company_qid": "Q312",
+  "founder_qid": "Q19837",
+  "founder_name": "Steve Jobs",
+  "wp_title": "Steve Jobs",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Apple",
+  "company_qid": "Q312",
+  "founder_qid": "Q483382",
+  "founder_name": "Steve Wozniak",
+  "wp_title": "Steve Wozniak",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Apple",
+  "company_qid": "Q312",
+  "founder_qid": "Q332591",
+  "founder_name": "Ronald Wayne",
+  "wp_title": "Ronald Wayne",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Microsoft",
+  "company_qid": "Q2283",
+  "founder_qid": "Q5284",
+  "founder_name": "Bill Gates",
+  "wp_title": "Bill Gates",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Microsoft",
+  "company_qid": "Q2283",
+  "founder_qid": "Q162005",
+  "founder_name": "Paul Allen",
+  "wp_title": "Paul Allen",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Alphabet (Google)",
+  "company_qid": "Q95",
+  "founder_qid": "Q4934",
+  "founder_name": "Larry Page",
+  "wp_title": "Larry Page",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Alphabet (Google)",
+  "company_qid": "Q95",
+  "founder_qid": "Q92764",
+  "founder_name": "Sergey Brin",
+  "wp_title": "Sergey Brin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Amazon",
+  "company_qid": "Q3884",
+  "founder_qid": "Q312556",
+  "founder_name": "Jeff Bezos",
+  "wp_title": "Jeff Bezos",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "TSMC",
+  "company_qid": "Q713418",
+  "founder_qid": "Q4745214",
+  "founder_name": "Morris Chang",
+  "wp_title": "Morris Chang",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "SpaceX",
+  "company_qid": "Q193701",
+  "founder_qid": "Q317521",
+  "founder_name": "Elon Musk",
+  "wp_title": "Elon Musk",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Tesla",
+  "company_qid": "Q478214",
+  "founder_qid": "Q1903673",
+  "founder_name": "Martin Eberhard",
+  "wp_title": "Martin Eberhard",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Tesla",
+  "company_qid": "Q478214",
+  "founder_qid": "Q1892831",
+  "founder_name": "Marc Tarpenning",
+  "wp_title": "Marc Tarpenning",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Meta Platforms (Facebook)",
+  "company_qid": "Q380",
+  "founder_qid": "Q36215",
+  "founder_name": "Mark Zuckerberg",
+  "wp_title": "Mark Zuckerberg",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Meta Platforms (Facebook)",
+  "company_qid": "Q380",
+  "founder_qid": "Q312663",
+  "founder_name": "Eduardo Saverin",
+  "wp_title": "Eduardo Saverin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Meta Platforms (Facebook)",
+  "company_qid": "Q380",
+  "founder_qid": "Q370217",
+  "founder_name": "Dustin Moskovitz",
+  "wp_title": "Dustin Moskovitz",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Meta Platforms (Facebook)",
+  "company_qid": "Q380",
+  "founder_qid": "Q4757939",
+  "founder_name": "Andrew McCollum",
+  "wp_title": "Andrew McCollum",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Meta Platforms (Facebook)",
+  "company_qid": "Q380",
+  "founder_qid": "Q370321",
+  "founder_name": "Chris Hughes",
+  "wp_title": "Chris Hughes",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "AMD",
+  "company_qid": "Q128896",
+  "founder_qid": "Q1687865",
+  "founder_name": "Jerry Sanders (businessman)",
+  "wp_title": "Jerry Sanders (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "AMD",
+  "company_qid": "Q128896",
+  "founder_qid": "Q930948",
+  "founder_name": "Edwin Turney",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "AMD",
+  "company_qid": "Q128896",
+  "founder_qid": "Q16018448",
+  "founder_name": "Jack Gifford",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Walmart",
+  "company_qid": "Q483551",
+  "founder_qid": "Q497827",
+  "founder_name": "Sam Walton",
+  "wp_title": "Sam Walton",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Walmart",
+  "company_qid": "Q483551",
+  "founder_qid": "Q1045098",
+  "founder_name": "Bud Walton",
+  "wp_title": "Bud Walton",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Exxon Mobil",
+  "company_qid": "Q156238",
+  "founder_qid": "Q359908",
+  "founder_name": "Lee Raymond",
+  "wp_title": "Lee Raymond",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Intel",
+  "company_qid": "Q248",
+  "founder_qid": "Q241735",
+  "founder_name": "Robert Noyce",
+  "wp_title": "Robert Noyce",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Intel",
+  "company_qid": "Q248",
+  "founder_qid": "Q243969",
+  "founder_name": "Gordon Moore",
+  "wp_title": "Gordon Moore",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Intel",
+  "company_qid": "Q248",
+  "founder_qid": "Q432929",
+  "founder_name": "Andrew Grove",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Palantir",
+  "company_qid": "Q2047336",
+  "founder_qid": "Q705525",
+  "founder_name": "Peter Thiel",
+  "wp_title": "Peter Thiel",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Palantir",
+  "company_qid": "Q2047336",
+  "founder_qid": "Q16204157",
+  "founder_name": "Stephen Cohen (entrepreneur)",
+  "wp_title": "Stephen Cohen (entrepreneur)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Palantir",
+  "company_qid": "Q2047336",
+  "founder_qid": "Q19560940",
+  "founder_name": "Alex Karp",
+  "wp_title": "Alex Karp",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Palantir",
+  "company_qid": "Q2047336",
+  "founder_qid": "Q6210988",
+  "founder_name": "Joe Lonsdale",
+  "wp_title": "Joe Lonsdale",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Palantir",
+  "company_qid": "Q2047336",
+  "founder_qid": "Q137910729",
+  "founder_name": "Nathan Gettings",
+  "wp_title": "Nathan Gettings",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "CXMT",
+  "company_qid": "Q60787452",
+  "founder_qid": "Q140590016",
+  "founder_name": "Zhu Yiming",
+  "wp_title": "Zhu Yiming",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Oracle",
+  "company_qid": "Q19900",
+  "founder_qid": "Q92759",
+  "founder_name": "Larry Ellison",
+  "wp_title": "Larry Ellison",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Oracle",
+  "company_qid": "Q19900",
+  "founder_qid": "Q2744012",
+  "founder_name": "Bob Miner",
+  "wp_title": "Bob Miner",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Oracle",
+  "company_qid": "Q19900",
+  "founder_qid": "Q5335240",
+  "founder_name": "Ed Oates",
+  "wp_title": "Ed Oates",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Costco",
+  "company_qid": "Q715583",
+  "founder_qid": "Q6143243",
+  "founder_name": "James Sinegal",
+  "wp_title": "James Sinegal",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Costco",
+  "company_qid": "Q715583",
+  "founder_qid": "Q6175871",
+  "founder_name": "Jeffrey Brotman",
+  "wp_title": "Jeffrey Brotman",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cisco",
+  "company_qid": "Q173395",
+  "founder_qid": "Q3229666",
+  "founder_name": "Leonard Bosack",
+  "wp_title": "Leonard Bosack",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cisco",
+  "company_qid": "Q173395",
+  "founder_qid": "Q7549",
+  "founder_name": "Sandy Lerner",
+  "wp_title": "Sandy Lerner",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "UnitedHealth",
+  "company_qid": "Q2103926",
+  "founder_qid": "Q107934870",
+  "founder_name": "Richard T. Burke",
+  "wp_title": "Richard T. Burke",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Bank of America",
+  "company_qid": "Q487907",
+  "founder_qid": "Q2637693",
+  "founder_name": "Amadeo Giannini",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Applied Materials",
+  "company_qid": "Q621610",
+  "founder_qid": null,
+  "founder_name": "Michael A. McNeilly",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Palo Alto Networks",
+  "company_qid": "Q7128508",
+  "founder_qid": null,
+  "founder_name": "Nir Zuk|Rajiv Batra",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Palo Alto Networks",
+  "company_qid": "Q7128508",
+  "founder_qid": "Q19447315",
+  "founder_name": "Nir Zuk",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Lam Research",
+  "company_qid": "Q1342041",
+  "founder_qid": "Q5235798",
+  "founder_name": "David K. Lam",
+  "wp_title": "David K. Lam",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Home Depot",
+  "company_qid": "Q864407",
+  "founder_qid": "Q2898293",
+  "founder_name": "Bernard Marcus",
+  "wp_title": "Bernard Marcus",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Home Depot",
+  "company_qid": "Q864407",
+  "founder_qid": "Q2865008",
+  "founder_name": "Arthur Blank",
+  "wp_title": "Arthur Blank",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Home Depot",
+  "company_qid": "Q864407",
+  "founder_qid": "Q7363572",
+  "founder_name": "Ron Brill",
+  "wp_title": "Ron Brill",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Home Depot",
+  "company_qid": "Q864407",
+  "founder_qid": "Q7143429",
+  "founder_name": "Pat Farrah",
+  "wp_title": "Pat Farrah",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Home Depot",
+  "company_qid": "Q864407",
+  "founder_qid": "Q6390362",
+  "founder_name": "Ken Langone",
+  "wp_title": "Ken Langone",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Dell",
+  "company_qid": "Q30873",
+  "founder_qid": "Q218630",
+  "founder_name": "Michael Dell",
+  "wp_title": "Michael Dell",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Novartis",
+  "company_qid": "Q507154",
+  "founder_qid": null,
+  "founder_name": "Johann Rudolf|Alexander Clavel",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "SAP",
+  "company_qid": "Q552581",
+  "founder_qid": "Q62543",
+  "founder_name": "Dietmar Hopp",
+  "wp_title": "Dietmar Hopp",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "SAP",
+  "company_qid": "Q552581",
+  "founder_qid": "Q71074",
+  "founder_name": "Hasso Plattner",
+  "wp_title": "Hasso Plattner",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "SAP",
+  "company_qid": "Q552581",
+  "founder_qid": "Q95452",
+  "founder_name": "Klaus Tschira",
+  "wp_title": "Klaus Tschira",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "SAP",
+  "company_qid": "Q552581",
+  "founder_qid": "Q108783",
+  "founder_name": "Claus Wellenreuther",
+  "wp_title": "Claus Wellenreuther",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "SAP",
+  "company_qid": "Q552581",
+  "founder_qid": "Q1578305",
+  "founder_name": "Hans-Werner Hector",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "CrowdStrike",
+  "company_qid": "Q24890758",
+  "founder_qid": "Q50082669",
+  "founder_name": "George Kurtz",
+  "wp_title": "George Kurtz",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "CrowdStrike",
+  "company_qid": "Q24890758",
+  "founder_qid": "Q5285463",
+  "founder_name": "Dmitri Alperovitch",
+  "wp_title": "Dmitri Alperovitch",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "RTX",
+  "company_qid": "Q89368734",
+  "founder_qid": "Q299595",
+  "founder_name": "Vannevar Bush",
+  "wp_title": "Vannevar Bush",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "RTX",
+  "company_qid": "Q89368734",
+  "founder_qid": "Q3087154",
+  "founder_name": "Frederick Rentschler",
+  "wp_title": "Frederick Rentschler",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Netflix",
+  "company_qid": "Q116452644",
+  "founder_qid": "Q7306657",
+  "founder_name": "Reed Hastings",
+  "wp_title": "Reed Hastings",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Netflix",
+  "company_qid": "Q116452644",
+  "founder_qid": "Q18341330",
+  "founder_name": "Marc Randolph",
+  "wp_title": "Marc Randolph",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Arm Holdings",
+  "company_qid": "Q296782",
+  "founder_qid": "Q7352762",
+  "founder_name": "Robin Saxby",
+  "wp_title": "Robin Saxby",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Alibaba",
+  "company_qid": "Q1359568",
+  "founder_qid": "Q1137062",
+  "founder_name": "Jack Ma",
+  "wp_title": "Jack Ma",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Alibaba",
+  "company_qid": "Q1359568",
+  "founder_qid": "Q18165291",
+  "founder_name": "Joseph Tsai",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Arista Networks",
+  "company_qid": "Q2861324",
+  "founder_qid": "Q65344",
+  "founder_name": "Andy Bechtolsheim",
+  "wp_title": "Andy Bechtolsheim",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Arista Networks",
+  "company_qid": "Q2861324",
+  "founder_qid": "Q5232332",
+  "founder_name": "David Cheriton",
+  "wp_title": "David Cheriton",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Marvell Technology",
+  "company_qid": "Q1347782",
+  "founder_qid": "Q7446496",
+  "founder_name": "Sehat Sutardja",
+  "wp_title": "Sehat Sutardja",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Marvell Technology",
+  "company_qid": "Q1347782",
+  "founder_qid": "Q7980199",
+  "founder_name": "Weili Dai",
+  "wp_title": "Weili Dai",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Shopify",
+  "company_qid": "Q7501150",
+  "founder_qid": "Q20684647",
+  "founder_name": "Tobias Lütke",
+  "wp_title": "Tobias Lütke",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "LVMH",
+  "company_qid": "Q504998",
+  "founder_qid": "Q58215022",
+  "founder_name": "Henry Racamier",
+  "wp_title": "Henry Racamier",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "LVMH",
+  "company_qid": "Q504998",
+  "founder_qid": "Q58214823",
+  "founder_name": "Alain Chevalier",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Analog Devices",
+  "company_qid": "Q484930",
+  "founder_qid": "Q7298142",
+  "founder_name": "Ray Stata",
+  "wp_title": "Ray Stata",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Analog Devices",
+  "company_qid": "Q484930",
+  "founder_qid": "Q131367295",
+  "founder_name": "Matthew Lorber",
+  "wp_title": "Matthew Lorber",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Citigroup",
+  "company_qid": "Q219508",
+  "founder_qid": "Q2221592",
+  "founder_name": "Sanford I. Weill",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Sandisk",
+  "company_qid": "Q260833",
+  "founder_qid": "Q28797531",
+  "founder_name": "Eli Harari",
+  "wp_title": "Eli Harari",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Sandisk",
+  "company_qid": "Q260833",
+  "founder_qid": "Q20714493",
+  "founder_name": "Sanjay Mehrotra",
+  "wp_title": "Sanjay Mehrotra",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Salesforce",
+  "company_qid": "Q941127",
+  "founder_qid": "Q1521908",
+  "founder_name": "Marc Benioff",
+  "wp_title": "Marc Benioff",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Gilead Sciences",
+  "company_qid": "Q663596",
+  "founder_qid": null,
+  "founder_name": "Michael L. Riordan",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Inditex",
+  "company_qid": "Q44504",
+  "founder_qid": "Q29279",
+  "founder_name": "Amancio Ortega",
+  "wp_title": "Amancio Ortega",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Inditex",
+  "company_qid": "Q44504",
+  "founder_qid": "Q1086680",
+  "founder_name": "Rosalía Mera",
+  "wp_title": "Rosalía Mera",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "QUALCOMM",
+  "company_qid": "Q544847",
+  "founder_qid": "Q6075105",
+  "founder_name": "Irwin M. Jacobs",
+  "wp_title": "Irwin M. Jacobs",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "QUALCOMM",
+  "company_qid": "Q544847",
+  "founder_qid": "Q505358",
+  "founder_name": "Andrew Viterbi",
+  "wp_title": "Andrew Viterbi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "BlackRock",
+  "company_qid": "Q219635",
+  "founder_qid": "Q7349476",
+  "founder_name": "Robert S. Kapito",
+  "wp_title": "Robert S. Kapito",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "BlackRock",
+  "company_qid": "Q219635",
+  "founder_qid": "Q3218882",
+  "founder_name": "Larry Fink",
+  "wp_title": "Larry Fink",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "BlackRock",
+  "company_qid": "Q219635",
+  "founder_qid": "Q17388808",
+  "founder_name": "Susan Wagner",
+  "wp_title": "Susan Wagner",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "SoftBank Group Corp.",
+  "company_qid": "Q201653",
+  "founder_qid": "Q717038",
+  "founder_name": "Masayoshi Son",
+  "wp_title": "Masayoshi Son",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Danaher",
+  "company_qid": "Q1159256",
+  "founder_qid": "Q7615005",
+  "founder_name": "Steven Rales",
+  "wp_title": "Steven Rales",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Danaher",
+  "company_qid": "Q1159256",
+  "founder_qid": "Q6881360",
+  "founder_name": "Mitchell Rales",
+  "wp_title": "Mitchell Rales",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "T-Mobile US",
+  "company_qid": "Q3511885",
+  "founder_qid": "Q6262563",
+  "founder_name": "John W. Stanton",
+  "wp_title": "John W. Stanton",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "CATL",
+  "company_qid": "Q18653563",
+  "founder_qid": "Q18653686",
+  "founder_name": "Robin Zeng",
+  "wp_title": "Robin Zeng",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Seagate Technology",
+  "company_qid": "Q705392",
+  "founder_qid": "Q1373431",
+  "founder_name": "Alan Shugart",
+  "wp_title": "Alan Shugart",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Seagate Technology",
+  "company_qid": "Q705392",
+  "founder_qid": "Q15809687",
+  "founder_name": "Finis Conner",
+  "wp_title": "Finis Conner",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "ServiceNow",
+  "company_qid": "Q7455653",
+  "founder_qid": "Q55138692",
+  "founder_name": "Fred Luddy",
+  "wp_title": "Fred Luddy",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Charles Schwab",
+  "company_qid": "Q1066028",
+  "founder_qid": "Q1066027",
+  "founder_name": "Charles R. Schwab",
+  "wp_title": "Charles R. Schwab",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Western Digital",
+  "company_qid": "Q738770",
+  "founder_qid": null,
+  "founder_name": "Alvin B. Phillips",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Ping An Insurance",
+  "company_qid": "Q1256188",
+  "founder_qid": "Q6720788",
+  "founder_name": "Ma&nbsp;Mingzhe",
+  "wp_title": "Ma Mingzhe",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Ping An Insurance",
+  "company_qid": "Q1256188",
+  "founder_qid": "Q8290978",
+  "founder_name": "Yuan Geng",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Interactive Brokers",
+  "company_qid": "Q20011294",
+  "founder_qid": "Q7793127",
+  "founder_name": "Thomas Peterffy",
+  "wp_title": "Thomas Peterffy",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Blackstone Group",
+  "company_qid": "Q880942",
+  "founder_qid": "Q456216",
+  "founder_name": "Peter G. Peterson",
+  "wp_title": "Peter G. Peterson",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Blackstone Group",
+  "company_qid": "Q880942",
+  "founder_qid": "Q552465",
+  "founder_name": "Stephen A. Schwarzman",
+  "wp_title": "Stephen A. Schwarzman",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "AT&T",
+  "company_qid": "Q35476",
+  "founder_qid": "Q1294060",
+  "founder_name": "Edward Whitacre Jr.",
+  "wp_title": "Edward Whitacre Jr.",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "AT&T",
+  "company_qid": "Q35476",
+  "founder_qid": "Q34286",
+  "founder_name": "Alexander Graham Bell",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Chubb",
+  "company_qid": "Q1089060",
+  "founder_qid": "Q131290259",
+  "founder_name": "Thomas Caldecot Chubb",
+  "wp_title": "Thomas Caldecot Chubb",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Uber",
+  "company_qid": "Q780442",
+  "founder_qid": "Q5523871",
+  "founder_name": "Garrett Camp",
+  "wp_title": "Garrett Camp",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Uber",
+  "company_qid": "Q780442",
+  "founder_qid": "Q7836291",
+  "founder_name": "Travis Kalanick",
+  "wp_title": "Travis Kalanick",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Bharti Airtel",
+  "company_qid": "Q854867",
+  "founder_qid": "Q1301476",
+  "founder_name": "Sunil Mittal",
+  "wp_title": "Sunil Mittal",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Fortinet",
+  "company_qid": "Q2749364",
+  "founder_qid": "Q16924425",
+  "founder_name": "Ken Xie",
+  "wp_title": "Ken Xie",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Capital One",
+  "company_qid": "Q1034654",
+  "founder_qid": "Q7325595",
+  "founder_name": "Richard Fairbank",
+  "wp_title": "Richard Fairbank",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Capital One",
+  "company_qid": "Q1034654",
+  "founder_qid": "Q16732890",
+  "founder_name": "Nigel Morris",
+  "wp_title": "Nigel Morris",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Prologis",
+  "company_qid": "Q16983765",
+  "founder_qid": "Q17580306",
+  "founder_name": "Hamid Moghadam",
+  "wp_title": "Hamid Moghadam",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Snowflake",
+  "company_qid": "Q22078063",
+  "founder_qid": "Q101855939",
+  "founder_name": "Benoît Dageville",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Delta Electronics",
+  "company_qid": "Q5254620",
+  "founder_qid": null,
+  "founder_name": "Bruce CH Cheng",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Starbucks",
+  "company_qid": "Q37158",
+  "founder_qid": "Q765286",
+  "founder_name": "Jerry Baldwin",
+  "wp_title": "Jerry Baldwin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Starbucks",
+  "company_qid": "Q37158",
+  "founder_qid": "Q766557",
+  "founder_name": "Zev Siegl",
+  "wp_title": "Zev Siegl",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Starbucks",
+  "company_qid": "Q37158",
+  "founder_qid": "Q766781",
+  "founder_name": "Gordon Bowker",
+  "wp_title": "Gordon Bowker",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Compagnie Financière Richemont",
+  "company_qid": "Q689240",
+  "founder_qid": "Q6216224",
+  "founder_name": "Johann Rupert",
+  "wp_title": "Johann Rupert",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "CVS Health",
+  "company_qid": "Q624375",
+  "founder_qid": "Q126165402",
+  "founder_name": "Stanley P. Goldstein",
+  "wp_title": "Stanley P. Goldstein",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "CVS Health",
+  "company_qid": "Q624375",
+  "founder_qid": "Q126163208",
+  "founder_name": "Ralph P. Hoagland III",
+  "wp_title": "Ralph P. Hoagland III",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cloudflare",
+  "company_qid": "Q4778915",
+  "founder_qid": "Q51665553",
+  "founder_name": "Matthew Prince",
+  "wp_title": "Matthew Prince",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cloudflare",
+  "company_qid": "Q4778915",
+  "founder_qid": "Q51665968",
+  "founder_name": "Michelle Zatlyn",
+  "wp_title": "Michelle Zatlyn",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cloudflare",
+  "company_qid": "Q4778915",
+  "founder_qid": "Q51666063",
+  "founder_name": "Lee Holloway",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "BYD",
+  "company_qid": "Q2608329",
+  "founder_qid": "Q716030",
+  "founder_name": "Wang Chuanfu",
+  "wp_title": "Wang Chuanfu",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "BYD",
+  "company_qid": "Q2608329",
+  "founder_qid": "Q33733753",
+  "founder_name": "Lu Xiangyang",
+  "wp_title": "Lu Xiangyang",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Valero Energy",
+  "company_qid": "Q1283291",
+  "founder_qid": "Q47308075",
+  "founder_name": "William Greehey",
+  "wp_title": "William Greehey",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "HDFC Bank",
+  "company_qid": "Q631047",
+  "founder_qid": "Q5250522",
+  "founder_name": "Deepak Parekh",
+  "wp_title": "Deepak Parekh",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Spotify",
+  "company_qid": "Q689141",
+  "founder_qid": "Q901670",
+  "founder_name": "Daniel Ek",
+  "wp_title": "Daniel Ek",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Spotify",
+  "company_qid": "Q689141",
+  "founder_qid": "Q62098183",
+  "founder_name": "Martin Lorentzon",
+  "wp_title": "Martin Lorentzon",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "PDD Holdings (Pinduoduo)",
+  "company_qid": "Q47015652",
+  "founder_qid": "Q55846513",
+  "founder_name": "Colin Huang",
+  "wp_title": "Colin Huang",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Foxconn (Hon Hai Precision Industry)",
+  "company_qid": "Q463094",
+  "founder_qid": "Q716830",
+  "founder_name": "Terry Gou",
+  "wp_title": "Terry Gou",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Marriott International",
+  "company_qid": "Q1141173",
+  "founder_qid": "Q716147",
+  "founder_name": "John Willard Marriott",
+  "wp_title": "J. Willard Marriott",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Marriott International",
+  "company_qid": "Q1141173",
+  "founder_qid": "Q4725984",
+  "founder_name": "Alice Marriott",
+  "wp_title": "Alice Marriott",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "HCA Healthcare",
+  "company_qid": "Q1630431",
+  "founder_qid": "Q7789441",
+  "founder_name": "Thomas F. Frist Sr.",
+  "wp_title": "Thomas F. Frist Sr.",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "HCA Healthcare",
+  "company_qid": "Q1630431",
+  "founder_qid": "Q7789440",
+  "founder_name": "Thomas F. Frist Jr.",
+  "wp_title": "Thomas F. Frist Jr.",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "HCA Healthcare",
+  "company_qid": "Q1630431",
+  "founder_qid": "Q6111520",
+  "founder_name": "Jack C. Massey",
+  "wp_title": "Jack C. Massey",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Midea",
+  "company_qid": "Q2609533",
+  "founder_qid": "Q1515641",
+  "founder_name": "He Xiangjian",
+  "wp_title": "He Xiangjian",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Datadog",
+  "company_qid": "Q16248637",
+  "founder_qid": null,
+  "founder_name": "Olivier Pomel|Alexis Lê-Quôc",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Equinix",
+  "company_qid": "Q851641",
+  "founder_qid": "Q6166316",
+  "founder_name": "Jay Adelson",
+  "wp_title": "Jay Adelson",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Airbnb",
+  "company_qid": "Q63327",
+  "founder_qid": "Q4963341",
+  "founder_name": "Brian Chesky",
+  "wp_title": "Brian Chesky",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Airbnb",
+  "company_qid": "Q63327",
+  "founder_qid": "Q19560551",
+  "founder_name": "Joe Gebbia",
+  "wp_title": "Joe Gebbia",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Airbnb",
+  "company_qid": "Q63327",
+  "founder_qid": "Q19538950",
+  "founder_name": "Nathan Blecharczyk",
+  "wp_title": "Nathan Blecharczyk",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Adobe",
+  "company_qid": "Q11463",
+  "founder_qid": "Q1344392",
+  "founder_name": "John Warnock",
+  "wp_title": "John Warnock",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Adobe",
+  "company_qid": "Q11463",
+  "founder_qid": "Q2959209",
+  "founder_name": "Charles Geschke",
+  "wp_title": "Charles Geschke",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "ASE Group",
+  "company_qid": "Q25054159",
+  "founder_qid": "Q19879088",
+  "founder_name": "Jason Chang",
+  "wp_title": "Jason Chang",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Tata Consultancy Services",
+  "company_qid": "Q13227919",
+  "founder_qid": "Q468334",
+  "founder_name": "J. R. D. Tata",
+  "wp_title": "JRD Tata",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Tata Consultancy Services",
+  "company_qid": "Q13227919",
+  "founder_qid": "Q5423843",
+  "founder_name": "F. C. Kohli",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Cadence Design Systems",
+  "company_qid": "Q608776",
+  "founder_qid": "Q6143393",
+  "founder_name": "James Solomon (engineer)",
+  "wp_title": "James Solomon (engineer)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cadence Design Systems",
+  "company_qid": "Q608776",
+  "founder_qid": "Q4648338",
+  "founder_name": "A. Richard Newton",
+  "wp_title": "A. Richard Newton",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cadence Design Systems",
+  "company_qid": "Q608776",
+  "founder_qid": "Q4712193",
+  "founder_name": "Alberto Sangiovanni-Vincentelli",
+  "wp_title": "Alberto Sangiovanni-Vincentelli",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Vertiv Holdings",
+  "company_qid": "Q5370909",
+  "founder_qid": "Q140979837",
+  "founder_name": "Ralph Liebert",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Agnico Eagle Mines",
+  "company_qid": "Q38676",
+  "founder_qid": null,
+  "founder_name": "Paul Penna",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Synopsys",
+  "company_qid": "Q2303478",
+  "founder_qid": "Q4662637",
+  "founder_name": "Aart de Geus",
+  "wp_title": "Aart de Geus",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Synopsys",
+  "company_qid": "Q2303478",
+  "founder_qid": "Q4712193",
+  "founder_name": "Alberto Sangiovanni-Vincentelli",
+  "wp_title": "Alberto Sangiovanni-Vincentelli",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Waste Management",
+  "company_qid": "Q2552219",
+  "founder_qid": "Q5689956",
+  "founder_name": "Wayne Huizenga",
+  "wp_title": "Wayne Huizenga",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Waste Management",
+  "company_qid": "Q2552219",
+  "founder_qid": "Q5246035",
+  "founder_name": "Dean Buntrock",
+  "wp_title": "Dean Buntrock",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Intuit",
+  "company_qid": "Q1318848",
+  "founder_qid": "Q7436159",
+  "founder_name": "Scott Cook",
+  "wp_title": "Scott Cook",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Intuit",
+  "company_qid": "Q1318848",
+  "founder_qid": "Q7793309",
+  "founder_name": "Tom Proulx",
+  "wp_title": "Tom Proulx",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Intercontinental Exchange",
+  "company_qid": "Q841458",
+  "founder_qid": "Q6175884",
+  "founder_name": "Jeffrey Sprecher",
+  "wp_title": "Jeffrey Sprecher",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "AppLovin",
+  "company_qid": "Q27150212",
+  "founder_qid": "Q107414226",
+  "founder_name": "Adam Foroughi",
+  "wp_title": "Adam Foroughi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "AppLovin",
+  "company_qid": "Q27150212",
+  "founder_qid": "Q113557741",
+  "founder_name": "Andrew Karam",
+  "wp_title": "Andrew Karam",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cambricon Technologies",
+  "company_qid": "Q48890160",
+  "founder_qid": "Q134307934",
+  "founder_name": "Chen Tianshi",
+  "wp_title": "Chen Tianshi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "KKR & Co.",
+  "company_qid": "Q1570773",
+  "founder_qid": "Q933721",
+  "founder_name": "Henry Kravis",
+  "wp_title": "Henry Kravis",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "KKR & Co.",
+  "company_qid": "Q1570773",
+  "founder_qid": "Q1508188",
+  "founder_name": "George R. Roberts",
+  "wp_title": "George R. Roberts",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "KKR & Co.",
+  "company_qid": "Q1570773",
+  "founder_qid": "Q1687749",
+  "founder_name": "Jerome Kohlberg Jr.",
+  "wp_title": "Jerome Kohlberg Jr.",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Brookfield Corporation",
+  "company_qid": "Q908324",
+  "founder_qid": "Q920647",
+  "founder_name": "Frederick Stark Pearson",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Brookfield Corporation",
+  "company_qid": "Q908324",
+  "founder_qid": "Q15516394",
+  "founder_name": "William Mackenzie",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "EOG Resources",
+  "company_qid": "Q1275577",
+  "founder_qid": "Q17180831",
+  "founder_name": "Mark G. Papa",
+  "wp_title": "Mark G. Papa",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Moderna",
+  "company_qid": "Q17081612",
+  "founder_qid": "Q50173077",
+  "founder_name": "Derrick Rossi",
+  "wp_title": "Derrick Rossi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Moderna",
+  "company_qid": "Q17081612",
+  "founder_qid": "Q1649143",
+  "founder_name": "Timothy A. Springer",
+  "wp_title": "Timothy A. Springer",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Moderna",
+  "company_qid": "Q17081612",
+  "founder_qid": "Q669597",
+  "founder_name": "Robert S. Langer",
+  "wp_title": "Robert S. Langer",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Moderna",
+  "company_qid": "Q17081612",
+  "founder_qid": "Q56221343",
+  "founder_name": "Kenneth R. Chien",
+  "wp_title": "Kenneth R. Chien",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Moderna",
+  "company_qid": "Q17081612",
+  "founder_qid": "Q14949405",
+  "founder_name": "Noubar Afeyan",
+  "wp_title": "Noubar Afeyan",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Glencore",
+  "company_qid": "Q169339",
+  "founder_qid": "Q706542",
+  "founder_name": "Marc Rich",
+  "wp_title": "Marc Rich",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Glencore",
+  "company_qid": "Q169339",
+  "founder_qid": "Q7194971",
+  "founder_name": "Pincus Green",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "MercadoLibre",
+  "company_qid": "Q950419",
+  "founder_qid": "Q5996574",
+  "founder_name": "Marcos Galperin",
+  "wp_title": "Marcos Galperin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Regeneron Pharmaceuticals",
+  "company_qid": "Q7308054",
+  "founder_qid": "Q16185577",
+  "founder_name": "Leonard Schleifer",
+  "wp_title": "Leonard Schleifer",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Regeneron Pharmaceuticals",
+  "company_qid": "Q7308054",
+  "founder_qid": "Q5546581",
+  "founder_name": "George Yancopoulos",
+  "wp_title": "George Yancopoulos",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Delta Electronics (Thailand)",
+  "company_qid": "Q5254620",
+  "founder_qid": null,
+  "founder_name": "Bruce CH Cheng",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Xiaomi",
+  "company_qid": "Q1636958",
+  "founder_qid": "Q9000717",
+  "founder_name": "Lei Jun",
+  "wp_title": "Lei Jun",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Xiaomi",
+  "company_qid": "Q1636958",
+  "founder_qid": "Q18745545",
+  "founder_name": "Lin Bin",
+  "wp_title": "Lin Bin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Robinhood",
+  "company_qid": "Q18155123",
+  "founder_qid": "Q56248473",
+  "founder_name": "Vladimir Tenev",
+  "wp_title": "Vlad Tenev",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Robinhood",
+  "company_qid": "Q18155123",
+  "founder_qid": "Q55760424",
+  "founder_name": "Baiju Bhatt",
+  "wp_title": "Baiju Bhatt",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Enterprise Products",
+  "company_qid": "Q5380346",
+  "founder_qid": "Q4385978",
+  "founder_name": "Dan Duncan",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Simon Property Group",
+  "company_qid": "Q2287759",
+  "founder_qid": "Q6814070",
+  "founder_name": "Melvin Simon",
+  "wp_title": "Melvin Simon",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Simon Property Group",
+  "company_qid": "Q2287759",
+  "founder_qid": "Q5735576",
+  "founder_name": "Herb Simon (businessman)",
+  "wp_title": "Herb Simon (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Royal Caribbean Group",
+  "company_qid": "Q427881",
+  "founder_qid": "Q11959103",
+  "founder_name": "Arne Wilhelmsen",
+  "wp_title": "Arne Wilhelmsen",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Comcast",
+  "company_qid": "Q1113804",
+  "founder_qid": "Q7287704",
+  "founder_name": "Ralph J. Roberts",
+  "wp_title": "Ralph J. Roberts",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Comcast",
+  "company_qid": "Q1113804",
+  "founder_qid": "Q17859800",
+  "founder_name": "Julian A. Brodsky",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Kinder Morgan",
+  "company_qid": "Q931032",
+  "founder_qid": "Q7327075",
+  "founder_name": "Richard Kinder",
+  "wp_title": "Richard Kinder",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "DoorDash",
+  "company_qid": "Q20714323",
+  "founder_qid": "Q105038817",
+  "founder_name": "Tony Xu",
+  "wp_title": "Tony Xu",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "DoorDash",
+  "company_qid": "Q20714323",
+  "founder_qid": "Q105272825",
+  "founder_name": "Andy Fang",
+  "wp_title": "Andy Fang",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "DoorDash",
+  "company_qid": "Q20714323",
+  "founder_qid": "Q107301240",
+  "founder_name": "Stanley Tang",
+  "wp_title": "Stanley Tang",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "United Rentals",
+  "company_qid": "Q7889101",
+  "founder_qid": "Q4955022",
+  "founder_name": "Brad Jacobs (businessman)",
+  "wp_title": "Brad Jacobs (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "FedEx",
+  "company_qid": "Q459477",
+  "founder_qid": "Q324086",
+  "founder_name": "Frederick W. Smith",
+  "wp_title": "Frederick W. Smith",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "NetEase",
+  "company_qid": "Q196259",
+  "founder_qid": "Q5278137",
+  "founder_name": "Ding Lei",
+  "wp_title": "Ding Lei",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "America Movil",
+  "company_qid": "Q482267",
+  "founder_qid": "Q170419",
+  "founder_name": "Carlos Slim",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Energy Transfer LP",
+  "company_qid": "Q5377000",
+  "founder_qid": "Q6385527",
+  "founder_name": "Kelcy Warren",
+  "wp_title": "Kelcy Warren",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Energy Transfer LP",
+  "company_qid": "Q5377000",
+  "founder_qid": "Q16728421",
+  "founder_name": "Ray Davis (businessman)",
+  "wp_title": "Ray Davis (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "SoftBank Corp.",
+  "company_qid": "Q201653",
+  "founder_qid": "Q717038",
+  "founder_name": "Masayoshi Son",
+  "wp_title": "Masayoshi Son",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Vingroup Company",
+  "company_qid": "Q10831597",
+  "founder_qid": "Q10806972",
+  "founder_name": "Phạm Nhật Vượng",
+  "wp_title": "Phạm Nhật Vượng",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Bloom Energy",
+  "company_qid": "Q29526078",
+  "founder_qid": "Q6323852",
+  "founder_name": "K.R. Sridhar",
+  "wp_title": "K. R. Sridhar",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Bloom Energy",
+  "company_qid": "Q29526078",
+  "founder_qid": "Q1700068",
+  "founder_name": "John Finn",
+  "wp_title": "John Finn",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Bloom Energy",
+  "company_qid": "Q29526078",
+  "founder_qid": null,
+  "founder_name": "Matthias Gottmann",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Bloom Energy",
+  "company_qid": "Q29526078",
+  "founder_qid": "Q6139293",
+  "founder_name": "James McElroy",
+  "wp_title": "James McElroy",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Bloom Energy",
+  "company_qid": "Q29526078",
+  "founder_qid": null,
+  "founder_name": "Dien Nguyen",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Apollo Global Management",
+  "company_qid": "Q619121",
+  "founder_qid": "Q5578461",
+  "founder_name": "Leon Black",
+  "wp_title": "Leon Black",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Apollo Global Management",
+  "company_qid": "Q619121",
+  "founder_qid": "Q6289885",
+  "founder_name": "Josh Harris (businessman)",
+  "wp_title": "Josh Harris (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Apollo Global Management",
+  "company_qid": "Q619121",
+  "founder_qid": "Q16194777",
+  "founder_name": "Marc Rowan",
+  "wp_title": "Marc Rowan",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Apollo Global Management",
+  "company_qid": "Q619121",
+  "founder_qid": "Q16193321",
+  "founder_name": "Tony Ressler",
+  "wp_title": "Tony Ressler",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Aon",
+  "company_qid": "Q739518",
+  "founder_qid": "Q7143985",
+  "founder_name": "Pat Ryan (executive)",
+  "wp_title": "Pat Ryan (executive)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Carvana",
+  "company_qid": "Q16247191",
+  "founder_qid": "Q47157156",
+  "founder_name": "Ernest Garcia III",
+  "wp_title": "Ernest Garcia III",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Barrick Gold",
+  "company_qid": "Q808908",
+  "founder_qid": "Q2158383",
+  "founder_name": "Peter Munk",
+  "wp_title": "Peter Munk",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "KDDI",
+  "company_qid": "Q971946",
+  "founder_qid": "Q982623",
+  "founder_name": "Kazuo Inamori",
+  "wp_title": "Kazuo Inamori",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "TransDigm Group",
+  "company_qid": "Q7833612",
+  "founder_qid": null,
+  "founder_name": "W. Nicholas Howley|Douglas W. Peacock",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "TransDigm Group",
+  "company_qid": "Q7833612",
+  "founder_qid": "Q117323781",
+  "founder_name": "W. Nicholas Howley",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Bajaj Finance",
+  "company_qid": "Q28173355",
+  "founder_qid": "Q2724084",
+  "founder_name": "Rahul Bajaj",
+  "wp_title": "Rahul Bajaj",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Boston Scientific",
+  "company_qid": "Q894585",
+  "founder_qid": "Q4272092",
+  "founder_name": "John Abele",
+  "wp_title": "John Abele",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Boston Scientific",
+  "company_qid": "Q894585",
+  "founder_qid": "Q7176091",
+  "founder_name": "Peter Nicholas (businessman)",
+  "wp_title": "Peter Nicholas (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Natera",
+  "company_qid": "Q6968762",
+  "founder_qid": "Q116739045",
+  "founder_name": "Matthew Rabinowitz",
+  "wp_title": "Matthew Rabinowitz",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Monolithic Power Systems",
+  "company_qid": "Q22058448",
+  "founder_qid": null,
+  "founder_name": "Michael R. Hsing",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Great-West Lifeco",
+  "company_qid": "Q5598598",
+  "founder_qid": "Q6176392",
+  "founder_name": "Jeffry Hall Brock",
+  "wp_title": "Jeffry Hall Brock",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Fastenal",
+  "company_qid": "Q3067119",
+  "founder_qid": "Q16105134",
+  "founder_name": "Bob Kierlin",
+  "wp_title": "Bob Kierlin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Public Storage",
+  "company_qid": "Q1156045",
+  "founder_qid": "Q4834257",
+  "founder_name": "B. Wayne Hughes",
+  "wp_title": "B. Wayne Hughes",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Nu Holdings",
+  "company_qid": "Q25422888",
+  "founder_qid": "Q60999523",
+  "founder_name": "David Vélez",
+  "wp_title": "David Vélez",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Nu Holdings",
+  "company_qid": "Q25422888",
+  "founder_qid": "Q110750746",
+  "founder_name": "Cristina Junqueira",
+  "wp_title": "Cristina Junqueira",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Hyundai",
+  "company_qid": "Q55931",
+  "founder_qid": "Q468467",
+  "founder_name": "Chung Ju-yung",
+  "wp_title": "Chung Ju-yung",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Nongfu Spring",
+  "company_qid": "Q10895089",
+  "founder_qid": "Q99312028",
+  "founder_name": "Zhong Shanshan",
+  "wp_title": "Zhong Shanshan",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Keysight",
+  "company_qid": "Q17551096",
+  "founder_qid": "Q380467",
+  "founder_name": "Bill Hewlett",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Cardinal Health",
+  "company_qid": "Q902397",
+  "founder_qid": "Q18091290",
+  "founder_name": "Robert D. Walter",
+  "wp_title": "Robert D. Walter",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Devon Energy",
+  "company_qid": "Q1206980",
+  "founder_qid": "Q25344397",
+  "founder_name": "J. Larry Nichols",
+  "wp_title": "J. Larry Nichols",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Luxshare Precision",
+  "company_qid": "Q16926220",
+  "founder_qid": "Q19661172",
+  "founder_name": "Wang Laichun",
+  "wp_title": "Wang Laichun",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Atlassian",
+  "company_qid": "Q757307",
+  "founder_qid": "Q23939846",
+  "founder_name": "Mike Cannon-Brookes",
+  "wp_title": "Mike Cannon-Brookes",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Atlassian",
+  "company_qid": "Q757307",
+  "founder_qid": "Q23939847",
+  "founder_name": "Scott Farquhar",
+  "wp_title": "Scott Farquhar",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Nike",
+  "company_qid": "Q483915",
+  "founder_qid": "Q861967",
+  "founder_name": "Bill Bowerman",
+  "wp_title": "Bill Bowerman",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Nike",
+  "company_qid": "Q483915",
+  "founder_qid": "Q557305",
+  "founder_name": "Phil Knight",
+  "wp_title": "Phil Knight",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Saudi Telecom Company",
+  "company_qid": "Q1535171",
+  "founder_qid": "Q183187",
+  "founder_name": "Fahd of Saudi Arabia",
+  "wp_title": "Fahd of Saudi Arabia",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Meituan",
+  "company_qid": "Q15907772",
+  "founder_qid": "Q18235069",
+  "founder_name": "Wang Xing",
+  "wp_title": "Wang Xing",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Siemens Healthineers",
+  "company_qid": "Q472451",
+  "founder_qid": "Q58577",
+  "founder_name": "Werner von Siemens",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Realty Income",
+  "company_qid": "Q7301386",
+  "founder_qid": null,
+  "founder_name": "William E. Clark",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Realty Income",
+  "company_qid": "Q7301386",
+  "founder_qid": null,
+  "founder_name": "Evelyn J. Clark",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Lukoil",
+  "company_qid": "Q329347",
+  "founder_qid": "Q451455",
+  "founder_name": "Vagit Alekperov",
+  "wp_title": "Vagit Alekperov",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Garmin",
+  "company_qid": "Q658789",
+  "founder_qid": "Q5524792",
+  "founder_name": "Gary Burrell",
+  "wp_title": "Gary Burrell",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Garmin",
+  "company_qid": "Q658789",
+  "founder_qid": "Q6862563",
+  "founder_name": "Min Kao",
+  "wp_title": "Min Kao",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "eBay",
+  "company_qid": "Q58024",
+  "founder_qid": "Q348483",
+  "founder_name": "Pierre Omidyar",
+  "wp_title": "Pierre Omidyar",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Alimentation Couche-Tard",
+  "company_qid": "Q2836957",
+  "founder_qid": "Q2829601",
+  "founder_name": "Alain Bouchard",
+  "wp_title": "Alain Bouchard",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Alimentation Couche-Tard",
+  "company_qid": "Q2836957",
+  "founder_qid": "Q63315386",
+  "founder_name": "Jacques D'Amours",
+  "wp_title": "Jacques D'Amours",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Alimentation Couche-Tard",
+  "company_qid": "Q2836957",
+  "founder_qid": "Q63285089",
+  "founder_name": "Richard Fortin (businessman)",
+  "wp_title": "Richard Fortin (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Ciena",
+  "company_qid": "Q1091783",
+  "founder_qid": "Q6396698",
+  "founder_name": "Kevin Kimberlin",
+  "wp_title": "Kevin Kimberlin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Veeva Systems",
+  "company_qid": "Q24204493",
+  "founder_qid": "Q50324424",
+  "founder_name": "Peter Gassner",
+  "wp_title": "Peter Gassner",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Agilent Technologies",
+  "company_qid": "Q393762",
+  "founder_qid": "Q380467",
+  "founder_name": "Bill Hewlett",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "AutoZone",
+  "company_qid": "Q4826087",
+  "founder_qid": "Q7199072",
+  "founder_name": "Pitt Hyde",
+  "wp_title": "Pitt Hyde",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Autodesk",
+  "company_qid": "Q628051",
+  "founder_qid": "Q93033",
+  "founder_name": "John Walker (programmer)",
+  "wp_title": "John Walker (programmer)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Humana",
+  "company_qid": "Q910866",
+  "founder_qid": "Q2559017",
+  "founder_name": "Wendell Cherry",
+  "wp_title": "Wendell Cherry",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Workday",
+  "company_qid": "Q8034666",
+  "founder_qid": "Q5233095",
+  "founder_name": "Dave Duffield",
+  "wp_title": "David Duffield",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Workday",
+  "company_qid": "Q8034666",
+  "founder_qid": "Q18352311",
+  "founder_name": "Aneel Bhusri",
+  "wp_title": "Aneel Bhusri",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "SMIC",
+  "company_qid": "Q648533",
+  "founder_qid": "Q53700469",
+  "founder_name": "Zhang Rujing",
+  "wp_title": "Zhang Rujing",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Teradyne",
+  "company_qid": "Q2404292",
+  "founder_qid": "Q4718049",
+  "founder_name": "Alex d'Arbeloff",
+  "wp_title": "Alex d'Arbeloff",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Teradyne",
+  "company_qid": "Q2404292",
+  "founder_qid": "Q7027005",
+  "founder_name": "Nick DeWolf",
+  "wp_title": "Nick DeWolf",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Infosys",
+  "company_qid": "Q26989",
+  "founder_qid": "Q1398708",
+  "founder_name": "N. R. Narayana Murthy",
+  "wp_title": "N. R. Narayana Murthy",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Infosys",
+  "company_qid": "Q26989",
+  "founder_qid": "Q1391255",
+  "founder_name": "Nandan Nilekani",
+  "wp_title": "Nandan Nilekani",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Infosys",
+  "company_qid": "Q26989",
+  "founder_qid": "Q6437174",
+  "founder_name": "Kris Gopalakrishnan",
+  "wp_title": "Kris Gopalakrishnan",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Infosys",
+  "company_qid": "Q26989",
+  "founder_qid": "Q7387428",
+  "founder_name": "S. D. Shibulal",
+  "wp_title": "S. D. Shibulal",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Infosys",
+  "company_qid": "Q26989",
+  "founder_qid": "Q6951777",
+  "founder_name": "N. S. Raghavan",
+  "wp_title": "N. S. Raghavan",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Kotak Mahindra Bank",
+  "company_qid": "Q2040404",
+  "founder_qid": "Q7876966",
+  "founder_name": "Uday Kotak",
+  "wp_title": "Uday Kotak",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Hikvision",
+  "company_qid": "Q5760704",
+  "founder_qid": "Q18811132",
+  "founder_name": "Gong Hongjia",
+  "wp_title": "Gong Hongjia",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Eoptolink Technology",
+  "company_qid": "Q130559547",
+  "founder_qid": null,
+  "founder_name": "Gao Guangrong",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Keurig Dr Pepper",
+  "company_qid": "Q3116111",
+  "founder_qid": "Q20880796",
+  "founder_name": "Bob Stiller",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "PayPal",
+  "company_qid": "Q483959",
+  "founder_qid": "Q705525",
+  "founder_name": "Peter Thiel",
+  "wp_title": "Peter Thiel",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "PayPal",
+  "company_qid": "Q483959",
+  "founder_qid": "Q317521",
+  "founder_name": "Elon Musk",
+  "wp_title": "Elon Musk",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "PayPal",
+  "company_qid": "Q483959",
+  "founder_qid": "Q93014",
+  "founder_name": "Max Levchin",
+  "wp_title": "Max Levchin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "PayPal",
+  "company_qid": "Q483959",
+  "founder_qid": "Q19866080",
+  "founder_name": "Yu Pan",
+  "wp_title": "Yu Pan",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "PayPal",
+  "company_qid": "Q483959",
+  "founder_qid": "Q6702205",
+  "founder_name": "Luke Nosek",
+  "wp_title": "Luke Nosek",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "PayPal",
+  "company_qid": "Q483959",
+  "founder_qid": "Q6387836",
+  "founder_name": "Ken Howery",
+  "wp_title": "Ken Howery",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "United Microelectronics",
+  "company_qid": "Q143616",
+  "founder_qid": "Q8926583",
+  "founder_name": "Robert Tsao",
+  "wp_title": "Robert Tsao",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Coherent Corp.",
+  "company_qid": "Q15109887",
+  "founder_qid": null,
+  "founder_name": "Carl Johnson | James Hawkey",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Vivmark Residential",
+  "company_qid": "Q187740",
+  "founder_qid": "Q363124",
+  "founder_name": "Sam Zell",
+  "wp_title": "Sam Zell",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Everpure",
+  "company_qid": "Q7261135",
+  "founder_qid": null,
+  "founder_name": "John Colgrove|John Hayes",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Sea Limited",
+  "company_qid": "Q93520415",
+  "founder_qid": "Q61974364",
+  "founder_name": "Forrest Li",
+  "wp_title": "Forrest Li",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "IQVIA",
+  "company_qid": "Q305473",
+  "founder_qid": "Q29919085",
+  "founder_name": "Dennis Gillings",
+  "wp_title": "Dennis Gillings",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Adani Ports & SEZ",
+  "company_qid": "Q16058076",
+  "founder_qid": "Q5527865",
+  "founder_name": "Gautam Adani",
+  "wp_title": "Gautam Adani",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "ArcelorMittal",
+  "company_qid": "Q27893",
+  "founder_qid": "Q191311",
+  "founder_name": "Lakshmi Mittal",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Block",
+  "company_qid": "Q110778747",
+  "founder_qid": "Q335552",
+  "founder_name": "Jack Dorsey",
+  "wp_title": "Jack Dorsey",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Block",
+  "company_qid": "Q110778747",
+  "founder_qid": "Q6196866",
+  "founder_name": "Jim McKelvey",
+  "wp_title": "Jim McKelvey",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Kuwait Finance House",
+  "company_qid": "Q2336459",
+  "founder_qid": null,
+  "founder_name": "Consortium of Kuwaiti merchants",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Sun Pharmaceutical",
+  "company_qid": "Q3291801",
+  "founder_qid": "Q1225503",
+  "founder_name": "Dilip Shanghvi",
+  "wp_title": "Dilip Shanghvi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "IDEXX Laboratories",
+  "company_qid": "Q1758392",
+  "founder_qid": "Q5233470",
+  "founder_name": "David Evans Shaw",
+  "wp_title": "David Evans Shaw",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "NetApp",
+  "company_qid": "Q727883",
+  "founder_qid": "Q5235034",
+  "founder_name": "David Hitz",
+  "wp_title": "David Hitz",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Illumina",
+  "company_qid": "Q2068984",
+  "founder_qid": "Q87741033",
+  "founder_name": "David R. Walt",
+  "wp_title": "David R. Walt",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Illumina",
+  "company_qid": "Q2068984",
+  "founder_qid": "Q18684861",
+  "founder_name": "Larry Bock",
+  "wp_title": "Larry Bock",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Illumina",
+  "company_qid": "Q2068984",
+  "founder_qid": "Q56749685",
+  "founder_name": "Anthony Czarnik",
+  "wp_title": "Anthony Czarnik",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Medline",
+  "company_qid": "Q6807236",
+  "founder_qid": "Q6271245",
+  "founder_name": "Jon Mills | Jim Mills",
+  "wp_title": "Jon Mills",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "STMicroelectronics",
+  "company_qid": "Q661845",
+  "founder_qid": "Q559794",
+  "founder_name": "Elihu Thomson",
+  "wp_title": "Elihu Thomson",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "STMicroelectronics",
+  "company_qid": "Q661845",
+  "founder_qid": "Q1029394",
+  "founder_name": "Camillo Olivetti",
+  "wp_title": "Camillo Olivetti",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Novatek",
+  "company_qid": "Q251546",
+  "founder_qid": "Q1819424",
+  "founder_name": "Leonid Mikhelson",
+  "wp_title": "Leonid Mikhelson",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "ASM International",
+  "company_qid": "Q2478569",
+  "founder_qid": null,
+  "founder_name": "Arthur del Prado",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "ASM International",
+  "company_qid": "Q2478569",
+  "founder_qid": "Q26912932",
+  "founder_name": "Arthur del Prado",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Ambev",
+  "company_qid": "Q2142669",
+  "founder_qid": "Q1042645",
+  "founder_name": "Beto Sicupira",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Coinbase",
+  "company_qid": "Q16972754",
+  "founder_qid": "Q64705310",
+  "founder_name": "Brian Armstrong (businessman)",
+  "wp_title": "Brian Armstrong (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Coinbase",
+  "company_qid": "Q16972754",
+  "founder_qid": "Q106510423",
+  "founder_name": "Fred Ehrsam",
+  "wp_title": "Fred Ehrsam",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Coinbase",
+  "company_qid": "Q16972754",
+  "founder_qid": "Q56222225",
+  "founder_name": "Fred Ehrsam",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "East Money Information",
+  "company_qid": "Q24836492",
+  "founder_qid": "Q22121142",
+  "founder_name": "Qi Shi",
+  "wp_title": "Qi Shi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "BeOne Medicines",
+  "company_qid": "Q30260298",
+  "founder_qid": "Q132130651",
+  "founder_name": "John V. Oyler",
+  "wp_title": "John V. Oyler",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "BeOne Medicines",
+  "company_qid": "Q30260298",
+  "founder_qid": "Q908515",
+  "founder_name": "Xiaodong Wang (biochemist)",
+  "wp_title": "Xiaodong Wang (biochemist)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Titan Company",
+  "company_qid": "Q3536932",
+  "founder_qid": "Q25313780",
+  "founder_name": "Xerxes Desai",
+  "wp_title": "Xerxes Desai",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Zscaler",
+  "company_qid": "Q8074786",
+  "founder_qid": "Q69873545",
+  "founder_name": "Jay Chaudhry",
+  "wp_title": "Jay Chaudhry",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Ares Management",
+  "company_qid": "Q4789079",
+  "founder_qid": "Q16193321",
+  "founder_name": "Antony Ressler",
+  "wp_title": "Tony Ressler",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Ares Management",
+  "company_qid": "Q4789079",
+  "founder_qid": "Q60047641",
+  "founder_name": "Bennett Rosenthal",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Ares Management",
+  "company_qid": "Q4789079",
+  "founder_qid": "Q60048026",
+  "founder_name": "David Kaplan",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Sysco",
+  "company_qid": "Q2376711",
+  "founder_qid": "Q111603335",
+  "founder_name": "Herbert Irving",
+  "wp_title": "Herbert Irving",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Sysco",
+  "company_qid": "Q2376711",
+  "founder_qid": "Q122830857",
+  "founder_name": "John F. Baugh",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Sysco",
+  "company_qid": "Q2376711",
+  "founder_qid": "Q122830879",
+  "founder_name": "Harry Rosenthal",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "HCL Technologies",
+  "company_qid": "Q5629103",
+  "founder_qid": "Q3522726",
+  "founder_name": "Shiv Nadar",
+  "wp_title": "Shiv Nadar",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "HCL Technologies",
+  "company_qid": "Q5629103",
+  "founder_qid": "Q3559999",
+  "founder_name": "Vineet Nayar",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "D. R. Horton",
+  "company_qid": "Q5203782",
+  "founder_qid": null,
+  "founder_name": "Donald Ray Horton",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "D. R. Horton",
+  "company_qid": "Q5203782",
+  "founder_qid": "Q21551626",
+  "founder_name": "Donald R. Horton",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Sun Hung Kai Properties",
+  "company_qid": "Q1789188",
+  "founder_qid": "Q6450499",
+  "founder_name": "Kwok Tak Seng",
+  "wp_title": "Kwok Tak-seng",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Sun Hung Kai Properties",
+  "company_qid": "Q1789188",
+  "founder_qid": "Q15928352",
+  "founder_name": "Fung King Hey",
+  "wp_title": "Fung King-hey",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Sun Hung Kai Properties",
+  "company_qid": "Q1789188",
+  "founder_qid": "Q716047",
+  "founder_name": "Lee Shau Kee",
+  "wp_title": "Lee Shau-kee",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Goodman Group",
+  "company_qid": "Q3110722",
+  "founder_qid": "Q5606941",
+  "founder_name": "Gregory Goodman",
+  "wp_title": "Gregory Goodman",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Twilio",
+  "company_qid": "Q7858039",
+  "founder_qid": null,
+  "founder_name": "Jeff Lawson|Evan Cooke|John Wolthuis",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Twilio",
+  "company_qid": "Q7858039",
+  "founder_qid": "Q100251193",
+  "founder_name": "Jeff Lawson",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Okta",
+  "company_qid": "Q55627388",
+  "founder_qid": null,
+  "founder_name": "Todd McKinnon|Frederic Kerrest",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Viking Holdings",
+  "company_qid": "Q24249643",
+  "founder_qid": "Q7827229",
+  "founder_name": "Torstein Hagen",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Dollarama",
+  "company_qid": "Q3033947",
+  "founder_qid": null,
+  "founder_name": "Larry Rossy",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Dollarama",
+  "company_qid": "Q3033947",
+  "founder_qid": "Q120918397",
+  "founder_name": "Larry Rossy",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Paychex",
+  "company_qid": "Q946080",
+  "founder_qid": "Q3297814",
+  "founder_name": "B. Thomas Golisano",
+  "wp_title": "Tom Golisano",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "EQT",
+  "company_qid": "Q1275733",
+  "founder_qid": null,
+  "founder_name": "Conni Jonsson",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Roblox",
+  "company_qid": "Q67186598",
+  "founder_qid": "Q20117554",
+  "founder_name": "David Baszucki",
+  "wp_title": "David Baszucki",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Roblox",
+  "company_qid": "Q67186598",
+  "founder_qid": "Q23945383",
+  "founder_name": "Erik Cassel",
+  "wp_title": "Erik Cassel",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Carnival Corporation",
+  "company_qid": "Q1044059",
+  "founder_qid": "Q2605460",
+  "founder_name": "Ted Arison",
+  "wp_title": "Ted Arison",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Adani Enterprises",
+  "company_qid": "Q107646415",
+  "founder_qid": "Q5527865",
+  "founder_name": "Gautam Adani",
+  "wp_title": "Gautam Adani",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Rocket Lab",
+  "company_qid": "Q116319",
+  "founder_qid": "Q55629586",
+  "founder_name": "Peter Beck",
+  "wp_title": "Peter Beck",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Royalty Pharma",
+  "company_qid": "Q97160437",
+  "founder_qid": "Q101428127",
+  "founder_name": "Pablo Legorreta",
+  "wp_title": "Pablo Legorreta",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Royalty Pharma",
+  "company_qid": "Q97160437",
+  "founder_qid": "Q141044173",
+  "founder_name": "Rory Riggs",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Take-Two Interactive",
+  "company_qid": "Q94933",
+  "founder_qid": "Q6767469",
+  "founder_name": "Mark E. Seremet",
+  "wp_title": "Mark E. Seremet",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Take-Two Interactive",
+  "company_qid": "Q94933",
+  "founder_qid": "Q119933903",
+  "founder_name": "Ryan Ashley Brant",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Ubiquiti",
+  "company_qid": "Q7876533",
+  "founder_qid": "Q7345956",
+  "founder_name": "Robert Pera",
+  "wp_title": "Robert Pera",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Chipotle Mexican Grill",
+  "company_qid": "Q465751",
+  "founder_qid": "Q7612483",
+  "founder_name": "Steve Ells",
+  "wp_title": "Steve Ells",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Vodafone",
+  "company_qid": "Q122141",
+  "founder_qid": "Q15967751",
+  "founder_name": "Ernest Harrison",
+  "wp_title": "Ernest Harrison",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Vodafone",
+  "company_qid": "Q122141",
+  "founder_qid": "Q5553070",
+  "founder_name": "Gerry Whent",
+  "wp_title": "Gerry Whent",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Biogen",
+  "company_qid": "Q864338",
+  "founder_qid": "Q6390511",
+  "founder_name": "Kenneth Murray (biologist)",
+  "wp_title": "Kenneth Murray (biologist)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Biogen",
+  "company_qid": "Q864338",
+  "founder_qid": "Q312977",
+  "founder_name": "Phillip Allen Sharp",
+  "wp_title": "Phillip Allen Sharp",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Biogen",
+  "company_qid": "Q864338",
+  "founder_qid": "Q217486",
+  "founder_name": "Walter Gilbert",
+  "wp_title": "Walter Gilbert",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Biogen",
+  "company_qid": "Q864338",
+  "founder_qid": "Q120251",
+  "founder_name": "Charles Weissmann",
+  "wp_title": "Charles Weissmann",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Dassault Systèmes",
+  "company_qid": "Q1172038",
+  "founder_qid": "Q100993061",
+  "founder_name": "Francis Bernard (engineer)",
+  "wp_title": "Francis Bernard (engineer)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Dassault Systèmes",
+  "company_qid": "Q1172038",
+  "founder_qid": "Q160802",
+  "founder_name": "Marcel Dassault",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Genmab",
+  "company_qid": "Q2076526",
+  "founder_qid": null,
+  "founder_name": "Florian Schönharting",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Genmab",
+  "company_qid": "Q2076526",
+  "founder_qid": null,
+  "founder_name": "Lisa Drakeman",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "ResMed",
+  "company_qid": "Q7314903",
+  "founder_qid": null,
+  "founder_name": "Peter C. Farrell",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "ResMed",
+  "company_qid": "Q7314903",
+  "founder_qid": "Q7173936",
+  "founder_name": "Peter Farrell",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Lenovo",
+  "company_qid": "Q14799",
+  "founder_qid": "Q1045031",
+  "founder_name": "Liu Chuanzhi",
+  "wp_title": "Liu Chuanzhi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Lenovo",
+  "company_qid": "Q14799",
+  "founder_qid": "Q5220572",
+  "founder_name": "Danny Lui",
+  "wp_title": "Danny Lui",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Arch Capital",
+  "company_qid": "Q28155430",
+  "founder_qid": null,
+  "founder_name": "Robert Clements|Peter A. Appel",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Arch Capital",
+  "company_qid": "Q28155430",
+  "founder_qid": "Q7172426",
+  "founder_name": "Q7172426",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Axon Enterprise",
+  "company_qid": "Q690604",
+  "founder_qid": null,
+  "founder_name": "Patrick W. Smith|Thomas P. Smith",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "JD.com",
+  "company_qid": "Q3598926",
+  "founder_qid": "Q8991047",
+  "founder_name": "Liu Qiangdong",
+  "wp_title": "Liu Qiangdong",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Centene",
+  "company_qid": "Q5059102",
+  "founder_qid": null,
+  "founder_name": "Elizabeth \"Betty\" Brinn",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Wanhua Chemical",
+  "company_qid": "Q2599552",
+  "founder_qid": null,
+  "founder_name": "Wanhua Group Corporation",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Wanhua Chemical",
+  "company_qid": "Q2599552",
+  "founder_qid": null,
+  "founder_name": "other investors",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Expedia Group",
+  "company_qid": "Q8085893",
+  "founder_qid": "Q7323183",
+  "founder_name": "Rich Barton",
+  "wp_title": "Rich Barton",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Z.AI",
+  "company_qid": "Q129572031",
+  "founder_qid": "Q6192187",
+  "founder_name": "Tang Jie",
+  "wp_title": "Jie Tang",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Z.AI",
+  "company_qid": "Q129572031",
+  "founder_qid": null,
+  "founder_name": "Li Juanzi",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Eternal (Zomato)",
+  "company_qid": "Q8073715",
+  "founder_qid": null,
+  "founder_name": "Deepinder Goyal|Pankaj Chaddah",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "TKO Group Holdings",
+  "company_qid": "Q120435068",
+  "founder_qid": "Q2861138",
+  "founder_name": "Ari Emanuel",
+  "wp_title": "Ari Emanuel",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "TKO Group Holdings",
+  "company_qid": "Q120435068",
+  "founder_qid": "Q44430",
+  "founder_name": "Vince McMahon",
+  "wp_title": "Vince McMahon",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Oriental Land",
+  "company_qid": "Q868679",
+  "founder_qid": "Q11478367",
+  "founder_name": "Chiharu Kawasaki",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Capitec Bank",
+  "company_qid": "Q5035822",
+  "founder_qid": "Q29841007",
+  "founder_name": "Jannie Mouton",
+  "wp_title": "Jannie Mouton",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Capitec Bank",
+  "company_qid": "Q5035822",
+  "founder_qid": "Q131466356",
+  "founder_name": "Michiel Le Roux",
+  "wp_title": "Michiel le Roux",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Credo Technology",
+  "company_qid": "Q5013858",
+  "founder_qid": "Q7172679",
+  "founder_name": "Peter Barnes (entrepreneur)",
+  "wp_title": "Peter Barnes (entrepreneur)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Celltrion",
+  "company_qid": "Q16175734",
+  "founder_qid": "Q109375925",
+  "founder_name": "Seo Jung-jin (businessman)",
+  "wp_title": "Seo Jung-jin (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "JSW Steel",
+  "company_qid": "Q6108978",
+  "founder_qid": "Q7402688",
+  "founder_name": "Sajjan Jindal",
+  "wp_title": "Sajjan Jindal",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Wiwynn",
+  "company_qid": "Q105252176",
+  "founder_qid": null,
+  "founder_name": "Simon Lin",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "MongoDB",
+  "company_qid": "Q4546965",
+  "founder_qid": "Q6397188",
+  "founder_name": "Kevin P. Ryan",
+  "wp_title": "Kevin P. Ryan",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "MongoDB",
+  "company_qid": "Q4546965",
+  "founder_qid": "Q5361236",
+  "founder_name": "Eliot Horowitz",
+  "wp_title": "Eliot Horowitz",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "MongoDB",
+  "company_qid": "Q4546965",
+  "founder_qid": "Q5318215",
+  "founder_name": "Dwight Merriman",
+  "wp_title": "Dwight Merriman",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cognizant Technology Solutions",
+  "company_qid": "Q1107035",
+  "founder_qid": "Q6443489",
+  "founder_name": "Kumar Mahadeva",
+  "wp_title": "Kumar Mahadeva",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cognizant Technology Solutions",
+  "company_qid": "Q1107035",
+  "founder_qid": "Q5483294",
+  "founder_name": "Francisco D'Souza",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Cognizant Technology Solutions",
+  "company_qid": "Q1107035",
+  "founder_qid": "Q6479902",
+  "founder_name": "Lakshmi Narayanan",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Teledyne Technologies",
+  "company_qid": "Q7696127",
+  "founder_qid": "Q5720674",
+  "founder_name": "Henry Earl Singleton",
+  "wp_title": "Henry Earl Singleton",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Teledyne Technologies",
+  "company_qid": "Q7696127",
+  "founder_qid": "Q5541424",
+  "founder_name": "George Kozmetsky",
+  "wp_title": "George Kozmetsky",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Teledyne Technologies",
+  "company_qid": "Q7696127",
+  "founder_qid": "Q4800159",
+  "founder_name": "Arthur Rock",
+  "wp_title": "Arthur Rock",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Techtronic Industries",
+  "company_qid": "Q2399612",
+  "founder_qid": null,
+  "founder_name": "Horst Julius Pudwill|Roy Chung Chi Ping",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Raymond James Financial",
+  "company_qid": "Q7298901",
+  "founder_qid": "Q30122565",
+  "founder_name": "Robert James (businessman)",
+  "wp_title": "Robert James (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Jabil",
+  "company_qid": "Q2171646",
+  "founder_qid": null,
+  "founder_name": "William E. Morean | James Golden",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Maybank",
+  "company_qid": "Q1364018",
+  "founder_qid": "Q1387731",
+  "founder_name": "Khoo Teck Puat",
+  "wp_title": "Khoo Teck Puat",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Advanced Info Service (AIS)",
+  "company_qid": "Q379592",
+  "founder_qid": "Q164373",
+  "founder_name": "Thaksin Shinawatra",
+  "wp_title": "Thaksin Shinawatra",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "International Container Terminal Services",
+  "company_qid": "Q17058305",
+  "founder_qid": null,
+  "founder_name": "Enrique Razon Sr.",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Adyen",
+  "company_qid": "Q4686934",
+  "founder_qid": "Q55760521",
+  "founder_name": "Arnout Schuijff",
+  "wp_title": "Arnout Schuijff",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Adyen",
+  "company_qid": "Q4686934",
+  "founder_qid": "Q56248504",
+  "founder_name": "Pieter van der Does (businessman)",
+  "wp_title": "Pieter van der Does (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Fortis",
+  "company_qid": "Q7810035",
+  "founder_qid": "Q6745127",
+  "founder_name": "Malvinder Mohan Singh",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Zoom",
+  "company_qid": "Q17460900",
+  "founder_qid": "Q44870909",
+  "founder_name": "Eric Yuan",
+  "wp_title": "Eric Yuan",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "LabCorp",
+  "company_qid": "Q6466630",
+  "founder_qid": null,
+  "founder_name": "Matthew Benger",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "GigaDevice Semiconductor",
+  "company_qid": "Q25231158",
+  "founder_qid": "Q140590016",
+  "founder_name": "Zhu Yiming",
+  "wp_title": "Zhu Yiming",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Bajaj Finserv",
+  "company_qid": "Q18636352",
+  "founder_qid": "Q217098",
+  "founder_name": "Jamnalal Bajaj",
+  "wp_title": "Jamnalal Bajaj",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Rubrik",
+  "company_qid": "Q55632076",
+  "founder_qid": null,
+  "founder_name": "Bipul Sinha",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Rubrik",
+  "company_qid": "Q55632076",
+  "founder_qid": null,
+  "founder_name": "Arvind Jain",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Rubrik",
+  "company_qid": "Q55632076",
+  "founder_qid": null,
+  "founder_name": "Soham Mazumdar",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Rubrik",
+  "company_qid": "Q55632076",
+  "founder_qid": null,
+  "founder_name": "Arvind Nithrakashyap",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "SharkNinja",
+  "company_qid": "Q97164583",
+  "founder_qid": "Q98113843",
+  "founder_name": "Mark Rosenzweig",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "VeriSign",
+  "company_qid": "Q734338",
+  "founder_qid": "Q96384117",
+  "founder_name": "James Bidzos",
+  "wp_title": "James Bidzos",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "EchoStar",
+  "company_qid": "Q1280748",
+  "founder_qid": "Q5084818",
+  "founder_name": "Charlie Ergen",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Gulf Development Public Company",
+  "company_qid": "Q65281131",
+  "founder_qid": "Q106977260",
+  "founder_name": "Sarath Ratanavadi",
+  "wp_title": "Sarath Ratanavadi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Haier Smart Home",
+  "company_qid": "Q1143211",
+  "founder_qid": "Q701830",
+  "founder_name": "Zhang Ruimin",
+  "wp_title": "Zhang Ruimin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Emaar Properties",
+  "company_qid": "Q1153463",
+  "founder_qid": "Q4120392",
+  "founder_name": "Mohamed Alabbar",
+  "wp_title": "Mohamed Alabbar",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Kinross Gold",
+  "company_qid": "Q546880",
+  "founder_qid": "Q7342482",
+  "founder_name": "Robert Buchan",
+  "wp_title": "Robert Buchan",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Quest Diagnostics",
+  "company_qid": "Q7271456",
+  "founder_qid": "Q968798",
+  "founder_name": "Paul Brown",
+  "wp_title": "Paul Brown",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Quest Diagnostics",
+  "company_qid": "Q7271456",
+  "founder_qid": "Q7148948",
+  "founder_name": "Paul A. Brown",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Ryanair",
+  "company_qid": "Q170614",
+  "founder_qid": "Q639725",
+  "founder_name": "rachdi mohamee",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Baidu",
+  "company_qid": "Q14772",
+  "founder_qid": "Q92985",
+  "founder_name": "Robin Li",
+  "wp_title": "Robin Li",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Baidu",
+  "company_qid": "Q14772",
+  "founder_qid": "Q19841061",
+  "founder_name": "Eric Xu",
+  "wp_title": "Eric Xu",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Copart",
+  "company_qid": "Q16951448",
+  "founder_qid": "Q75838639",
+  "founder_name": "Willis J. Johnson",
+  "wp_title": "Willis Johnson",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Roivant Sciences",
+  "company_qid": "Q53308720",
+  "founder_qid": "Q27881473",
+  "founder_name": "Vivek Ramaswamy",
+  "wp_title": "Vivek Ramaswamy",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "E.SUN Bank",
+  "company_qid": "Q5321663",
+  "founder_qid": null,
+  "founder_name": "Yung-Jen Huang",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Cerebras Systems",
+  "company_qid": "Q66604886",
+  "founder_qid": "Q140068658",
+  "founder_name": "Andrew Feldman (businessman)",
+  "wp_title": "Andrew Feldman (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "W. R. Berkley",
+  "company_qid": "Q1369955",
+  "founder_qid": "Q27922609",
+  "founder_name": "William R. Berkley",
+  "wp_title": "W. R. Berkley",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "ULTA Beauty",
+  "company_qid": "Q7880076",
+  "founder_qid": null,
+  "founder_name": "Terry Hanson | Dick George",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Suzhou TFC Optical Communication",
+  "company_qid": "Q139522380",
+  "founder_qid": null,
+  "founder_name": "Zou Zhinong",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Suzhou TFC Optical Communication",
+  "company_qid": "Q139522380",
+  "founder_qid": null,
+  "founder_name": "Ou Yang",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Suzhou TFC Optical Communication",
+  "company_qid": "Q139522380",
+  "founder_qid": null,
+  "founder_name": "Zhu Guodong",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Reddit",
+  "company_qid": "Q1136",
+  "founder_qid": "Q7612894",
+  "founder_name": "Steve Huffman",
+  "wp_title": "Steve Huffman",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Reddit",
+  "company_qid": "Q1136",
+  "founder_qid": "Q4721504",
+  "founder_name": "Alexis Ohanian",
+  "wp_title": "Alexis Ohanian",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Reddit",
+  "company_qid": "Q1136",
+  "founder_qid": "Q302817",
+  "founder_name": "Aaron Swartz",
+  "wp_title": "Aaron Swartz",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "BOE Technology",
+  "company_qid": "Q22234667",
+  "founder_qid": "Q107649400",
+  "founder_name": "Wang Dongsheng",
+  "wp_title": "Wang Dongsheng",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Hansoh Pharma",
+  "company_qid": "Q88925945",
+  "founder_qid": "Q105338400",
+  "founder_name": "Zhong Huijuan",
+  "wp_title": "Zhong Huijuan",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Coupang",
+  "company_qid": "Q12620655",
+  "founder_qid": "Q63117886",
+  "founder_name": "Bom Kim",
+  "wp_title": "Bom Kim",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Chaozhou Three-Circle",
+  "company_qid": "Q106222125",
+  "founder_qid": null,
+  "founder_name": "Zhang Wanzhen",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Anta Sports",
+  "company_qid": "Q4653060",
+  "founder_qid": null,
+  "founder_name": "Ding Shizhong",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Sany Heavy Industry",
+  "company_qid": "Q1853060",
+  "founder_qid": "Q542277",
+  "founder_name": "Liang Wengen",
+  "wp_title": "Liang Wengen",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Samsara",
+  "company_qid": "Q79543668",
+  "founder_qid": "Q7418560",
+  "founder_name": "Sanjit Biswas",
+  "wp_title": "Sanjit Biswas",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Samsara",
+  "company_qid": "Q79543668",
+  "founder_qid": "Q79543012",
+  "founder_name": "John Bicket",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "United Therapeutics",
+  "company_qid": "Q21071142",
+  "founder_qid": "Q6777103",
+  "founder_name": "Martine Rothblatt",
+  "wp_title": "Martine Rothblatt",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Casey's General Stores",
+  "company_qid": "Q2940968",
+  "founder_qid": null,
+  "founder_name": "Donald Lamberti",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Affirm",
+  "company_qid": "Q65085822",
+  "founder_qid": "Q93014",
+  "founder_name": "Max Levchin",
+  "wp_title": "Max Levchin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Affirm",
+  "company_qid": "Q65085822",
+  "founder_qid": "Q137910729",
+  "founder_name": "Nathan Gettings",
+  "wp_title": "Nathan Gettings",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "S.F. Express",
+  "company_qid": "Q131845158",
+  "founder_qid": "Q19662125",
+  "founder_name": "Wang Wei (SF Express)",
+  "wp_title": "Wang Wei (SF Express)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Kering",
+  "company_qid": "Q931207",
+  "founder_qid": "Q1451167",
+  "founder_name": "François Pinault",
+  "wp_title": "François Pinault",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Guardant Health",
+  "company_qid": "Q53308751",
+  "founder_qid": "Q76769581",
+  "founder_name": "Helmy Eltoukhy",
+  "wp_title": "Helmy Eltoukhy",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Guardant Health",
+  "company_qid": "Q53308751",
+  "founder_qid": "Q116973050",
+  "founder_name": "AmirAli Talasaz",
+  "wp_title": "AmirAli Talasaz",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Darden Restaurants",
+  "company_qid": "Q742196",
+  "founder_qid": "Q120601216",
+  "founder_name": "William Darden",
+  "wp_title": "William Darden",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "InterContinental Hotels Group",
+  "company_qid": "Q1424962",
+  "founder_qid": "Q8005164",
+  "founder_name": "William Bass (brewer)",
+  "wp_title": "William Bass (brewer)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "InterContinental Hotels Group",
+  "company_qid": "Q1424962",
+  "founder_qid": "Q8677",
+  "founder_name": "Juan Trippe",
+  "wp_title": "Juan Trippe",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Fox Corporation",
+  "company_qid": "Q60238941",
+  "founder_qid": "Q53944",
+  "founder_name": "Rupert Murdoch",
+  "wp_title": "Rupert Murdoch",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Incyte",
+  "company_qid": "Q6015591",
+  "founder_qid": null,
+  "founder_name": "Roy A. Whitfield",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Las Vegas Sands",
+  "company_qid": "Q1506045",
+  "founder_qid": "Q319137",
+  "founder_name": "Sheldon G. Adelson",
+  "wp_title": "Sheldon Adelson",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Ralph Lauren",
+  "company_qid": "Q1641437",
+  "founder_qid": "Q296647",
+  "founder_name": "Ralph Lauren",
+  "wp_title": "Ralph Lauren",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Supermicro",
+  "company_qid": "Q1817174",
+  "founder_qid": "Q124351489",
+  "founder_name": "Charles Liang",
+  "wp_title": "Charles Liang",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Shenzhen Inovance",
+  "company_qid": "Q22098886",
+  "founder_qid": null,
+  "founder_name": "Zhu Xingming",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Capgemini",
+  "company_qid": "Q1034621",
+  "founder_qid": "Q2397569",
+  "founder_name": "Serge Kampf",
+  "wp_title": "Serge Kampf",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Adani Green Energy",
+  "company_qid": "Q83473736",
+  "founder_qid": "Q5527865",
+  "founder_name": "Gautam Adani",
+  "wp_title": "Gautam Adani",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Formula One Group",
+  "company_qid": "Q174035",
+  "founder_qid": "Q172724",
+  "founder_name": "Bernie Ecclestone",
+  "wp_title": "Bernie Ecclestone",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Seven Group Holdings\n (SGH)",
+  "company_qid": "Q7457267",
+  "founder_qid": "Q6394668",
+  "founder_name": "Kerry Stokes",
+  "wp_title": "Kerry Stokes",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "SoFi",
+  "company_qid": "Q17020720",
+  "founder_qid": "Q105287298",
+  "founder_name": "Mike Cagney",
+  "wp_title": "Mike Cagney",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Omnicom Group",
+  "company_qid": "Q1519267",
+  "founder_qid": "Q96787535",
+  "founder_name": "Allen Rosenshine",
+  "wp_title": "Allen Rosenshine",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "BioNTech",
+  "company_qid": "Q30256699",
+  "founder_qid": "Q2505089",
+  "founder_name": "Uğur Şahin",
+  "wp_title": "Uğur Şahin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "BioNTech",
+  "company_qid": "Q30256699",
+  "founder_qid": "Q92379963",
+  "founder_name": "Özlem Türeci",
+  "wp_title": "Özlem Türeci",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "DMart",
+  "company_qid": "Q5203271",
+  "founder_qid": "Q29467749",
+  "founder_name": "Radhakishan Damani",
+  "wp_title": "Radhakishan Damani",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Expand Energy",
+  "company_qid": "Q2962826",
+  "founder_qid": "Q4819158",
+  "founder_name": "Aubrey McClendon",
+  "wp_title": "Aubrey McClendon",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Expand Energy",
+  "company_qid": "Q2962826",
+  "founder_qid": "Q7816519",
+  "founder_name": "Tom L. Ward",
+  "wp_title": "Tom L. Ward",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "ASUS",
+  "company_qid": "Q152864",
+  "founder_qid": "Q9052570",
+  "founder_name": "Tzu-Hsien Tung",
+  "wp_title": "Tzu-Hsien Tung",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Pop Mart International Group",
+  "company_qid": "Q97180096",
+  "founder_qid": "Q134993976",
+  "founder_name": "Wang Ning (businessman)",
+  "wp_title": "Wang Ning (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "HD Hyundai Heavy Industries",
+  "company_qid": "Q483231",
+  "founder_qid": "Q468467",
+  "founder_name": "Chung Ju-yung",
+  "wp_title": "Chung Ju-yung",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "XPO Logistics",
+  "company_qid": "Q8042415",
+  "founder_qid": "Q4955022",
+  "founder_name": "Brad Jacobs (entrepreneur)",
+  "wp_title": "Brad Jacobs (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Southwest Airlines",
+  "company_qid": "Q503308",
+  "founder_qid": "Q764247",
+  "founder_name": "Herb Kelleher",
+  "wp_title": "Herb Kelleher",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Southwest Airlines",
+  "company_qid": "Q503308",
+  "founder_qid": "Q7361158",
+  "founder_name": "Rollin King",
+  "wp_title": "Rollin King",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Lens Technology",
+  "company_qid": "Q19855135",
+  "founder_qid": "Q19841142",
+  "founder_name": "Zhou Qunfei",
+  "wp_title": "Zhou Qunfei",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "J. B. Hunt",
+  "company_qid": "Q4041705",
+  "founder_qid": "Q21066741",
+  "founder_name": "Johnelle Hunt",
+  "wp_title": "Johnelle Hunt",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "J. B. Hunt",
+  "company_qid": "Q4041705",
+  "founder_qid": "Q6266046",
+  "founder_name": "Johnnie Bryan Hunt",
+  "wp_title": "Johnnie Bryan Hunt",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Fuyao Glass Industry Group",
+  "company_qid": "Q1254961",
+  "founder_qid": "Q28413863",
+  "founder_name": "Cao Dewang",
+  "wp_title": "Cao Dewang",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Sungrow Power Supply",
+  "company_qid": "Q106003803",
+  "founder_qid": null,
+  "founder_name": "Cao Renxian",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Circle Internet Group",
+  "company_qid": "Q17007851",
+  "founder_qid": "Q6181059",
+  "founder_name": "Jeremy Allaire",
+  "wp_title": "Jeremy Allaire",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Partners Group",
+  "company_qid": "Q684222",
+  "founder_qid": "Q117742759",
+  "founder_name": "Urs Wietlisbach",
+  "wp_title": "Urs Wietlisbach",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Partners Group",
+  "company_qid": "Q684222",
+  "founder_qid": "Q104903559",
+  "founder_name": "Alfred Gantner",
+  "wp_title": "Alfred Gantner",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Partners Group",
+  "company_qid": "Q684222",
+  "founder_qid": "Q113470205",
+  "founder_name": "Urs Wietlisbach",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Partners Group",
+  "company_qid": "Q684222",
+  "founder_qid": "Q113470240",
+  "founder_name": "Marcel Erni",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "NRG Energy",
+  "company_qid": "Q6955139",
+  "founder_qid": null,
+  "founder_name": "Seth Allen",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "CDW Corporation",
+  "company_qid": "Q1023155",
+  "founder_qid": "Q6831969",
+  "founder_name": "Michael Krasny (businessman)",
+  "wp_title": "Michael Krasny (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Best Buy",
+  "company_qid": "Q533415",
+  "founder_qid": "Q7327564",
+  "founder_name": "Richard M. Schulze",
+  "wp_title": "Richard M. Schulze",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "China Unicom",
+  "company_qid": "Q1068485",
+  "founder_qid": null,
+  "founder_name": "Ministry of Electric Power Industry",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Anthropic",
+  "company_qid": "Q116758847",
+  "founder_qid": "Q103335665",
+  "founder_name": "Dario Amodei",
+  "wp_title": "Dario Amodei",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Anthropic",
+  "company_qid": "Q116758847",
+  "founder_qid": "Q119721378",
+  "founder_name": "Daniela Amodei",
+  "wp_title": "Daniela Amodei",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Anthropic",
+  "company_qid": "Q116758847",
+  "founder_qid": "Q102649624",
+  "founder_name": "Jared Kaplan",
+  "wp_title": "Jared Kaplan",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Anthropic",
+  "company_qid": "Q116758847",
+  "founder_qid": "Q50358648",
+  "founder_name": "Chris Olah",
+  "wp_title": "Chris Olah",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "OpenAI",
+  "company_qid": "Q21708200",
+  "founder_qid": "Q317521",
+  "founder_name": "Elon Musk",
+  "wp_title": "Elon Musk",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "OpenAI",
+  "company_qid": "Q21708200",
+  "founder_qid": "Q7407093",
+  "founder_name": "Sam Altman",
+  "wp_title": "Sam Altman",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "OpenAI",
+  "company_qid": "Q21708200",
+  "founder_qid": "Q21712134",
+  "founder_name": "Ilya Sutskever",
+  "wp_title": "Ilya Sutskever",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "OpenAI",
+  "company_qid": "Q21708200",
+  "founder_qid": "Q100604534",
+  "founder_name": "Greg Brockman",
+  "wp_title": "Greg Brockman",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "OpenAI",
+  "company_qid": "Q21708200",
+  "founder_qid": "Q4088422",
+  "founder_name": "Trevor Blackwell",
+  "wp_title": "Trevor Blackwell",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "OpenAI",
+  "company_qid": "Q21708200",
+  "founder_qid": "Q56037405",
+  "founder_name": "Andrej Karpathy",
+  "wp_title": "Andrej Karpathy",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "OpenAI",
+  "company_qid": "Q21708200",
+  "founder_qid": "Q29022624",
+  "founder_name": "Durk Kingma",
+  "wp_title": "Durk Kingma",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "OpenAI",
+  "company_qid": "Q21708200",
+  "founder_qid": "Q103236782",
+  "founder_name": "John Schulman",
+  "wp_title": "John Schulman",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "OpenAI",
+  "company_qid": "Q21708200",
+  "founder_qid": "Q27733815",
+  "founder_name": "Wojciech Zaremba",
+  "wp_title": "Wojciech Zaremba",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "OpenAI",
+  "company_qid": "Q21708200",
+  "founder_qid": "Q128804411",
+  "founder_name": "Vicki Cheung",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "OpenAI",
+  "company_qid": "Q21708200",
+  "founder_qid": "Q135493411",
+  "founder_name": "Pamela Vagata",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "ByteDance",
+  "company_qid": "Q55606242",
+  "founder_qid": "Q63306804",
+  "founder_name": "Zhang Yiming",
+  "wp_title": "Zhang Yiming",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Databricks",
+  "company_qid": "Q18350420",
+  "founder_qid": "Q23016890",
+  "founder_name": "Ali Ghodsi",
+  "wp_title": "Ali Ghodsi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Databricks",
+  "company_qid": "Q18350420",
+  "founder_qid": "Q102411021",
+  "founder_name": "Andy Konwinski",
+  "wp_title": "Andy Konwinski",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Databricks",
+  "company_qid": "Q18350420",
+  "founder_qid": "Q12730959",
+  "founder_name": "Ion Stoica",
+  "wp_title": "Ion Stoica",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Databricks",
+  "company_qid": "Q18350420",
+  "founder_qid": "Q26703258",
+  "founder_name": "Reynold Xin",
+  "wp_title": "Reynold Xin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Databricks",
+  "company_qid": "Q18350420",
+  "founder_qid": "Q16887186",
+  "founder_name": "Matei Zaharia",
+  "wp_title": "Matei Zaharia",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Stripe",
+  "company_qid": "Q7624104",
+  "founder_qid": "Q7146257",
+  "founder_name": "Patrick Collison",
+  "wp_title": "Patrick Collison",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Stripe",
+  "company_qid": "Q7624104",
+  "founder_qid": "Q16233063",
+  "founder_name": "John Collison",
+  "wp_title": "John Collison",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Ant Group",
+  "company_qid": "Q21979415",
+  "founder_qid": "Q1137062",
+  "founder_name": "Jack Ma",
+  "wp_title": "Jack Ma",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Waymo",
+  "company_qid": "Q15330",
+  "founder_qid": "Q62901",
+  "founder_name": "Sebastian Thrun",
+  "wp_title": "Sebastian Thrun",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Waymo",
+  "company_qid": "Q15330",
+  "founder_qid": "Q26924676",
+  "founder_name": "Anthony Levandowski",
+  "wp_title": "Anthony Levandowski",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Revolut",
+  "company_qid": "Q22908307",
+  "founder_qid": "Q50505362",
+  "founder_name": "Nik Storonsky",
+  "wp_title": "Nik Storonsky",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Revolut",
+  "company_qid": "Q22908307",
+  "founder_qid": "Q107541874",
+  "founder_name": "Vlad Yatsenko",
+  "wp_title": "Vlad Yatsenko",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "DeepSeek",
+  "company_qid": "Q131577453",
+  "founder_qid": "Q131847088",
+  "founder_name": "Liang Wenfeng",
+  "wp_title": "Liang Wenfeng",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Anduril Industries",
+  "company_qid": "Q61918830",
+  "founder_qid": "Q16269109",
+  "founder_name": "Palmer Luckey",
+  "wp_title": "Palmer Luckey",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Anduril Industries",
+  "company_qid": "Q61918830",
+  "founder_qid": "Q124646741",
+  "founder_name": "Trae Stephens",
+  "wp_title": "Trae Stephens",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Anduril Industries",
+  "company_qid": "Q61918830",
+  "founder_qid": "Q124429789",
+  "founder_name": "Brian Schimpf",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Moonshot AI",
+  "company_qid": "Q130270266",
+  "founder_qid": "Q130865273",
+  "founder_name": "Yang Zhilin",
+  "wp_title": "Yang Zhilin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Cognition",
+  "company_qid": "Q126095776",
+  "founder_qid": "Q125132537",
+  "founder_name": "Scott Wu",
+  "wp_title": "Scott Wu",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Checkout.com",
+  "company_qid": "Q110815500",
+  "founder_qid": "Q108070054",
+  "founder_name": "Guillaume Pousaz",
+  "wp_title": "Guillaume Pousaz",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Ripple",
+  "company_qid": "Q16904931",
+  "founder_qid": "Q19864583",
+  "founder_name": "Chris Larsen",
+  "wp_title": "Chris Larsen",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Ripple",
+  "company_qid": "Q16904931",
+  "founder_qid": "Q28449997",
+  "founder_name": "Jed McCaleb",
+  "wp_title": "Jed McCaleb",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Figure",
+  "company_qid": "Q124989007",
+  "founder_qid": "Q117788077",
+  "founder_name": "Brett Adcock",
+  "wp_title": "Brett Adcock",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Fanatics",
+  "company_qid": "Q18150640",
+  "founder_qid": "Q6830474",
+  "founder_name": "Michael Rubin (businessman)",
+  "wp_title": "Michael Rubin (businessman)",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Scale AI",
+  "company_qid": "Q112629176",
+  "founder_qid": "Q112629173",
+  "founder_name": "Alexandr Wang",
+  "wp_title": "Alexandr Wang",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Scale AI",
+  "company_qid": "Q112629176",
+  "founder_qid": "Q85467479",
+  "founder_name": "Lucy Guo",
+  "wp_title": "Lucy Guo",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "OKX",
+  "company_qid": "Q55627184",
+  "founder_qid": "Q119104128",
+  "founder_name": "Star Xu",
+  "wp_title": "Star Xu",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Epic Games",
+  "company_qid": "Q739711",
+  "founder_qid": "Q323671",
+  "founder_name": "Tim Sweeney (game developer)",
+  "wp_title": "Tim Sweeney",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Epic Games",
+  "company_qid": "Q739711",
+  "founder_qid": "Q16735112",
+  "founder_name": "Mark Rein",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Mistral AI",
+  "company_qid": "Q119718658",
+  "founder_qid": "Q123758735",
+  "founder_name": "Arthur Mensch",
+  "wp_title": "Arthur Mensch",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Mistral AI",
+  "company_qid": "Q119718658",
+  "founder_qid": "Q56101409",
+  "founder_name": "Guillaume Lample",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Mistral AI",
+  "company_qid": "Q119718658",
+  "founder_qid": "Q125192446",
+  "founder_name": "Timothée Lacroix",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "FNZ",
+  "company_qid": "Q5426794",
+  "founder_qid": "Q4684995",
+  "founder_name": "Adrian Durham",
+  "wp_title": "Adrian Durham",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "The Boring Company",
+  "company_qid": "Q28874479",
+  "founder_qid": "Q317521",
+  "founder_name": "Elon Musk",
+  "wp_title": "Elon Musk",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Kalshi",
+  "company_qid": "Q114586938",
+  "founder_qid": "Q139394083",
+  "founder_name": "Tarek Mansour",
+  "wp_title": "Tarek Mansour",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Kalshi",
+  "company_qid": "Q114586938",
+  "founder_qid": "Q137206729",
+  "founder_name": "Luana Lopes Lara",
+  "wp_title": "Luana Lopes Lara",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "ElevenLabs",
+  "company_qid": "Q116798355",
+  "founder_qid": "Q138427775",
+  "founder_name": "Piotr Dąbkowski",
+  "wp_title": "Piotr Dąbkowski",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "ElevenLabs",
+  "company_qid": "Q116798355",
+  "founder_qid": "Q137183852",
+  "founder_name": "Mati Staniszewski",
+  "wp_title": "Mati Staniszewski",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Kraken Exchange",
+  "company_qid": "Q22906202",
+  "founder_qid": "Q6186752",
+  "founder_name": "Jesse Powell",
+  "wp_title": "Jesse Powell",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Kraken Exchange",
+  "company_qid": "Q22906202",
+  "founder_qid": "Q105580754",
+  "founder_name": "Jesse Powell",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "JUUL",
+  "company_qid": "Q21017093",
+  "founder_qid": "Q61972012",
+  "founder_name": "James Monsees",
+  "wp_title": "James Monsees",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "JUUL",
+  "company_qid": "Q21017093",
+  "founder_qid": "Q61972465",
+  "founder_name": "Adam Bowen",
+  "wp_title": "Adam Bowen",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Whatnot",
+  "company_qid": "Q131936300",
+  "founder_qid": null,
+  "founder_name": "Grant LaFontaine",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Whatnot",
+  "company_qid": "Q131936300",
+  "founder_qid": null,
+  "founder_name": "Logan Head",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Perplexity",
+  "company_qid": "Q124333951",
+  "founder_qid": "Q135089578",
+  "founder_name": "Denis Yarats",
+  "wp_title": "Denis Yarats",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Perplexity",
+  "company_qid": "Q124333951",
+  "founder_qid": "Q102411021",
+  "founder_name": "Andy Konwinski",
+  "wp_title": "Andy Konwinski",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Perplexity",
+  "company_qid": "Q124333951",
+  "founder_qid": "Q120492201",
+  "founder_name": "Aravind Srinivas",
+  "wp_title": null,
+  "source": "wikidata P112"
+ },
+ {
+  "company": "Tether",
+  "company_qid": "Q136469110",
+  "founder_qid": "Q2925904",
+  "founder_name": "Brock Pierce",
+  "wp_title": "Brock Pierce",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Tether",
+  "company_qid": "Q136469110",
+  "founder_qid": null,
+  "founder_name": "Reeve Collins",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Tether",
+  "company_qid": "Q136469110",
+  "founder_qid": null,
+  "founder_name": "Craig Sellars",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Blue Origin",
+  "company_qid": "Q885836",
+  "founder_qid": "Q312556",
+  "founder_name": "Jeff Bezos",
+  "wp_title": "Jeff Bezos",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Theranos",
+  "company_qid": "Q16956307",
+  "founder_qid": "Q17503525",
+  "founder_name": "Elizabeth Holmes",
+  "wp_title": "Elizabeth Holmes",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "FTX",
+  "company_qid": "Q108864780",
+  "founder_qid": "Q106543540",
+  "founder_name": "Sam Bankman-Fried",
+  "wp_title": "Sam Bankman-Fried",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "WeWork",
+  "company_qid": "Q19995004",
+  "founder_qid": "Q34579349",
+  "founder_name": "Adam Neumann",
+  "wp_title": "Adam Neumann",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "WeWork",
+  "company_qid": "Q19995004",
+  "founder_qid": "Q42666281",
+  "founder_name": "Miguel McKelvey",
+  "wp_title": "Miguel McKelvey",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "WorldCom",
+  "company_qid": "Q1881291",
+  "founder_qid": "Q706548",
+  "founder_name": "Bernard Ebbers",
+  "wp_title": "Bernard Ebbers",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Jawbone",
+  "company_qid": "Q6166067",
+  "founder_qid": "Q16149771",
+  "founder_name": "Alexander Asseily",
+  "wp_title": "Alexander Asseily",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Jawbone",
+  "company_qid": "Q6166067",
+  "founder_qid": null,
+  "founder_name": "Hosain Rahman",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Katerra",
+  "company_qid": "Q54958664",
+  "founder_qid": "Q2978600",
+  "founder_name": "Michael Marks",
+  "wp_title": "Michael Marks",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Katerra",
+  "company_qid": "Q54958664",
+  "founder_qid": null,
+  "founder_name": "Fritz Wolff",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Zume",
+  "company_qid": "Q28222782",
+  "founder_qid": null,
+  "founder_name": "Alex Garden",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Convoy",
+  "company_qid": "Q39078842",
+  "founder_qid": null,
+  "founder_name": "Grant Goodale",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Bird",
+  "company_qid": "Q55639320",
+  "founder_qid": "Q54860940",
+  "founder_name": "Travis VanderZanden",
+  "wp_title": "Travis VanderZanden",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Better Place",
+  "company_qid": "Q832434",
+  "founder_qid": "Q1235658",
+  "founder_name": "Shai Agassi",
+  "wp_title": "Shai Agassi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Nikola",
+  "company_qid": "Q24887050",
+  "founder_qid": "Q67146947",
+  "founder_name": "Trevor Milton",
+  "wp_title": "Trevor Milton",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Lordstown Motors",
+  "company_qid": "Q86681792",
+  "founder_qid": "Q456219",
+  "founder_name": "Steve Burns",
+  "wp_title": "Steve Burns",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Webvan",
+  "company_qid": "Q17087287",
+  "founder_qid": "Q22277126",
+  "founder_name": "Louis Borders",
+  "wp_title": "Louis Borders",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Essential Products",
+  "company_qid": "Q30093000",
+  "founder_qid": "Q49826",
+  "founder_name": "Andy Rubin",
+  "wp_title": "Andy Rubin",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Byju's",
+  "company_qid": null,
+  "founder_qid": "Q59387146",
+  "founder_name": "Byju Raveendran",
+  "wp_title": "Byju Raveendran",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Byju's",
+  "company_qid": null,
+  "founder_qid": "Q106122307",
+  "founder_name": "Divya Gokulnath",
+  "wp_title": "Divya Gokulnath",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Greensill Capital",
+  "company_qid": "Q105042735",
+  "founder_qid": "Q105822664",
+  "founder_name": "Lex Greensill",
+  "wp_title": "Lex Greensill",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Ofo",
+  "company_qid": "Q29011371",
+  "founder_qid": "Q55608847",
+  "founder_name": "Dai Wei",
+  "wp_title": "Dai Wei",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Celsius Network",
+  "company_qid": "Q112486680",
+  "founder_qid": "Q51858249",
+  "founder_name": "Alex Mashinsky",
+  "wp_title": "Alex Mashinsky",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Celsius Network",
+  "company_qid": "Q112486680",
+  "founder_qid": "Q16214943",
+  "founder_name": "Daniel Leon",
+  "wp_title": "Daniel Leon",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Celsius Network",
+  "company_qid": "Q112486680",
+  "founder_qid": null,
+  "founder_name": "Nuke Goldstein",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Excite@Home (At Home Corporation)",
+  "company_qid": null,
+  "founder_qid": "Q8017364",
+  "founder_name": "William Randolph Hearst III",
+  "wp_title": "William Randolph Hearst III",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Global Crossing",
+  "company_qid": "Q597681",
+  "founder_qid": "Q3098642",
+  "founder_name": "Gary Winnick",
+  "wp_title": "Gary Winnick",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Global Crossing",
+  "company_qid": "Q597681",
+  "founder_qid": "Q5236221",
+  "founder_name": "David L. Lee",
+  "wp_title": "David L. Lee",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Exodus Communications",
+  "company_qid": "Q5420554",
+  "founder_qid": null,
+  "founder_name": "BV Jagadeesh",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Exodus Communications",
+  "company_qid": "Q5420554",
+  "founder_qid": null,
+  "founder_name": "KB Chandrashekar",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "New Century Financial",
+  "company_qid": "Q4956490",
+  "founder_qid": null,
+  "founder_name": "Brad Morrice",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Vice Media",
+  "company_qid": "Q18395343",
+  "founder_qid": "Q7646502",
+  "founder_name": "Suroosh Alvi",
+  "wp_title": "Suroosh Alvi",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Vice Media",
+  "company_qid": "Q18395343",
+  "founder_qid": "Q5528217",
+  "founder_name": "Gavin McInnes",
+  "wp_title": "Gavin McInnes",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Argo AI",
+  "company_qid": "Q97360249",
+  "founder_qid": null,
+  "founder_name": "Bryan Salesky",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Argo AI",
+  "company_qid": "Q97360249",
+  "founder_qid": null,
+  "founder_name": "Peter Rander",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Babylon Health",
+  "company_qid": "Q24083464",
+  "founder_qid": "Q16734205",
+  "founder_name": "Ali Parsa",
+  "wp_title": "Ali Parsa",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Arrival",
+  "company_qid": "Q28405615",
+  "founder_qid": "Q4410115",
+  "founder_name": "Denis Sverdlov",
+  "wp_title": "Denis Sverdlov",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Canoo",
+  "company_qid": "Q99482082",
+  "founder_qid": null,
+  "founder_name": "Stefan Krause",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Canoo",
+  "company_qid": "Q99482082",
+  "founder_qid": null,
+  "founder_name": "Ulrich Kranz",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Lilium",
+  "company_qid": "Q62027797",
+  "founder_qid": null,
+  "founder_name": "Sebastian Born",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Lilium",
+  "company_qid": "Q62027797",
+  "founder_qid": null,
+  "founder_name": "Matthias Meiner",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Lilium",
+  "company_qid": "Q62027797",
+  "founder_qid": null,
+  "founder_name": "Patrick Nathen",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Lilium",
+  "company_qid": "Q62027797",
+  "founder_qid": null,
+  "founder_name": "Daniel Wiegand",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Cazoo",
+  "company_qid": "Q83948954",
+  "founder_qid": "Q21005340",
+  "founder_name": "Alex Chesterman",
+  "wp_title": "Alex Chesterman",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Powa Technologies",
+  "company_qid": "Q17021605",
+  "founder_qid": "Q5214540",
+  "founder_name": "Dan Wagner",
+  "wp_title": "Dan Wagner",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Outcome Health",
+  "company_qid": "Q43080139",
+  "founder_qid": "Q38034475",
+  "founder_name": "Rishi Shah",
+  "wp_title": "Rishi Shah",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Outcome Health",
+  "company_qid": "Q43080139",
+  "founder_qid": null,
+  "founder_name": "Shradha Agarwal",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "BlockFi",
+  "company_qid": "Q115245151",
+  "founder_qid": null,
+  "founder_name": "Flori Marquez",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "BlockFi",
+  "company_qid": "Q115245151",
+  "founder_qid": null,
+  "founder_name": "Zac Prince",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Proterra",
+  "company_qid": "Q18011784",
+  "founder_qid": null,
+  "founder_name": "Dale Hill",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Volocopter",
+  "company_qid": "Q5321557",
+  "founder_qid": null,
+  "founder_name": "Alexander Zosel",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Volocopter",
+  "company_qid": "Q5321557",
+  "founder_qid": null,
+  "founder_name": "Stephan Wolf",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Bowery Farming",
+  "company_qid": "Q108899227",
+  "founder_qid": null,
+  "founder_name": "Irving Fain",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Bowery Farming",
+  "company_qid": "Q108899227",
+  "founder_qid": null,
+  "founder_name": "David Golden",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Bowery Farming",
+  "company_qid": "Q108899227",
+  "founder_qid": null,
+  "founder_name": "Brian Falther",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Refco",
+  "company_qid": "Q2136640",
+  "founder_qid": null,
+  "founder_name": "Raymond Earl Friedman",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Value America",
+  "company_qid": "Q7912728",
+  "founder_qid": "Q5181607",
+  "founder_name": "Craig Winn",
+  "wp_title": "Craig Winn",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Value America",
+  "company_qid": "Q7912728",
+  "founder_qid": null,
+  "founder_name": "Rex Scatena",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ },
+ {
+  "company": "Winstar Communications",
+  "company_qid": "Q3569382",
+  "founder_qid": null,
+  "founder_name": "William J. Rouhana",
+  "wp_title": null,
+  "source": "wikipedia infobox (no article)"
+ }
+]

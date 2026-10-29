@@ -104,6 +104,17 @@ for i, f in enumerate(dated):
                   "src": f["birth_source"], "base": [round(x, 5) for x in monthly_for(country, y)], "moon": (moon.get(mk) or {}).get("moon"),
                   "rising": r.get("rising"), "rising_rating": r.get("rating")})
 
+# broke-up pairs (indices into the dated list) for the ring highlight
+broke_pairs = []
+_bp = os.path.join(ROOT, "research", "breakups_verified.csv")
+if os.path.exists(_bp):
+    name_idx = {f["name"].lower(): i for i, f in enumerate(dated)}
+    for r in csv.DictReader(open(_bp)):
+        if (r.get("status") or "").strip().lower() in ("broke up", "board ouster"):
+            a = name_idx.get((r.get("founder_a") or "").strip().lower()); b = name_idx.get((r.get("founder_b") or "").strip().lower())
+            if a is not None and b is not None and a != b:
+                broke_pairs.append([a, b])
+
 # school cutoffs for the lens
 cutoffs = []
 cp = os.path.join(ROOT, "research", "school_cutoffs.csv")
@@ -139,7 +150,7 @@ sign_names = ", ".join(f"{s} {STARTS[i][0]}/{STARTS[i][1]}" for i, s in enumerat
 methods_table = f"""<div class="chart"><table class="t">
 <tr><th>Universe</th><td>{ring_counts['giants']} Giants ($100B+), {ring_counts['big']} Big ($20B to $100B), {ring_counts['fallen']} Fallen; companies founded 1960 to 2023 with at least one named human founder</td></tr>
 <tr><th>Founders found</th><td>{n_people} people ({ring_people['giants']} Giants, {ring_people['big']} Big, {ring_people['fallen']} Fallen)</td></tr>
-<tr><th>Day-precision birthdays</th><td>{n_dated} ({src_counts.get('wikidata',0)} from Wikidata, {src_counts.get('wikipedia infobox',0)} from a Wikipedia infobox); {n_missing} missing, never guessed</td></tr>
+<tr><th>Day-precision birthdays</th><td>{n_dated} ({src_counts.get('wikidata',0)} from Wikidata, {src_counts.get('wikipedia infobox',0)} from a Wikipedia infobox, {src_counts.get('wikipedia lead',0)} from a Wikipedia lead sentence); {n_missing} missing, never guessed</td></tr>
 <tr><th>Dated by ring</th><td>{ring_dated['giants']} of {ring_people['giants']} Giants, {ring_dated['big']} of {ring_people['big']} Big, {ring_dated['fallen']} of {ring_people['fallen']} Fallen</td></tr>
 <tr><th>Companies with undated cofounders</th><td>{len(undated_cos)}: {", ".join(undated_cos[:40])}{" and more" if len(undated_cos) > 40 else ""}</td></tr>
 <tr><th>Baseline</th><td>{base_use.get('country-year',0)} founders use their birth country's monthly births in their birth year (Human Fertility Database via Our World in Data; nearest year when the exact year is missing); {base_use.get('uniform',0)} use a uniform-by-day baseline because no monthly data exists for their country (mostly China, India, Taiwan)</td></tr>
@@ -173,11 +184,25 @@ story = {
     "fallen": "<p>If the stars made founders, they might also unmake them. The red dots are founders whose companies reached a billion-dollar valuation and then went bankrupt, shut down, or ended in a fraud conviction. Their sign mix is compared with the thriving founders', with the 'fallen' label shuffled ten thousand times.</p>",
     "breakups": "<p>Cofounder splits are the astrology question people actually ask. Each documented split, an ouster, a lawsuit, or a public feud between two cofounders, is a pair; every other cofounder pair in the data is the comparison group. If compatibility by element kept partners together, the pairs that split should be less 'compatible' than the pairs that stayed.</p>",
     "moon": "<p>Sun signs are what birthdays give you for free. A full chart wants the Moon and the Rising sign, and those need the clock. The Moon moves a sign every two and a half days, so from the date alone it is known for most founders and one-of-two for the rest. The Rising sign changes every two hours and needs a recorded birth time, which exists for only a handful of founders in Astro-Databank's collection of birth certificates and biographies. Both are shown on hover where known; neither was pre-registered.</p>",
+    "matrix": "<p>This is the question people actually ask: does a Pisces build better with a Leo than with a Cancer? Every cofounder pair in the data sits in one cell of this grid by the two founders' Sun signs. The first view shows how often each pairing occurs against what chance predicts when the same founders are dealt into random teams; the second shows the raw counts; the third shows how those companies fared, the share whose company collapsed or whose founders split.</p><p>Hover a cell and the ring lights up the pairs inside it. Most cells hold a handful of companies, so this is a map for curiosity, not a verdict: the pre-registered test above already asked the pooled version of this question.</p>",
+    "you": "<p>Type a birthday and the ring marks it. You get your sign's wedge, how many founders share it against how many chance expects, and every founder born within three days of you. The default is 25 February, the day after Steve Jobs.</p>",
     "methods": "<p>Everything on this page comes from the pipeline in the repository: companies from a market-cap ranking and the Crunchbase Unicorn Board, founders from Wikipedia infoboxes and Wikidata, birthdays only where a source records the day, baselines from national monthly birth statistics. The hypotheses were written and committed before any birth date was pulled; anything added later says 'exploratory'.</p>",
 }
 giants_n = ring_counts["giants"]
 subtitle = f"{n_dated} founders of the world's biggest companies, each placed on the day they were born. Is there a pattern in the signs? And does it survive contact with chance?"
-meta = {"pulled": "2026-10-29", "subtitle": subtitle, "regions": REGIONS, "eras": ERAS, "cutoffs": cutoffs, "story": story, "methods_table": methods_table, "breakup_rows": breakup_rows, "rising_rows": rising_rows}
+# one-sentence matrix verdict from the numbers
+matrix_verdict = ""
+pm = T.get("pair_matrix")
+if pm:
+    import numpy as _np
+    cnt = _np.array(pm["counts"]); ex = _np.array(pm["expected"]); rt = _np.array(pm["ratio"])
+    mask = cnt >= 5
+    if mask.any():
+        z = _np.where(ex > 0, (cnt - ex) / _np.sqrt(_np.where(ex > 0, ex, 1)), 0)
+        i, j = _np.unravel_index(_np.argmax(_np.where(mask, z, -9)), z.shape)
+        matrix_verdict = (f"The most over-represented pairing with at least five pairs is {SIGNS[i]} with {SIGNS[j]}: {int(cnt[i,j])} pairs against {ex[i,j]:.1f} expected ({rt[i,j]:.1f}x). "
+                          f"With 78 cells, the tallest cell in a random deal of the same founders is usually about this tall; the pooled compatibility test is the one to trust.")
+meta = {"pulled": "2026-10-29", "subtitle": subtitle, "regions": REGIONS, "eras": ERAS, "cutoffs": cutoffs, "story": story, "methods_table": methods_table, "breakup_rows": breakup_rows, "rising_rows": rising_rows, "broke_pairs": broke_pairs, "matrix_verdict": matrix_verdict}
 payload = {"founders": out_f, "companies": [{"name": c["name"], "ring": c["ring"], "value": c["value_usd"], "founded": c["founded_year"]} for c in companies], "stats": stats, "meta": meta}
 
 tpl = open(os.path.join(ROOT, "pipeline", "template.html")).read()

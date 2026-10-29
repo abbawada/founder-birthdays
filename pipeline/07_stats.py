@@ -195,6 +195,57 @@ if pairs:
                              f"against {100*c['null_mean']:.0f}% when the same founders are shuffled into random teams (95% range {100*c['band_lo']:.0f} to {100*c['band_hi']:.0f}%)"
                              + (". Nothing to see." if c["p_two_sided"] > 0.1 else ". A nudge worth a second look." if c["p_two_sided"] > 0.01 else ". That is unusual under chance."))
 
+# ---- sign-pair matrix (exploratory, requested after pre-registration) -------
+# every cofounder pair in every ring, by unordered Sun-sign pair: observed count,
+# expected count under the same team-shuffle null, and how those companies fared
+all_teams = defaultdict(list)
+for i, f in enumerate(F):
+    for c in f["companies"]:
+        if c in company_by_name:
+            all_teams[c].append(i)
+all_teams = {c: ids for c, ids in all_teams.items() if len(ids) >= 2}
+all_pairs = [(a, b, c) for c, ids in all_teams.items() for ai, a in enumerate(ids) for b in ids[ai + 1:]]
+br_names = set()
+_bp = os.path.join(ROOT, "research", "breakups_verified.csv")
+if os.path.exists(_bp):
+    for r in csv.DictReader(open(_bp)):
+        if (r.get("status") or "").strip().lower() == "broke up":
+            br_names.add(frozenset([(r.get("founder_a") or "").strip().lower(), (r.get("founder_b") or "").strip().lower()]))
+if all_pairs:
+    S_OBS = DOY_SIGN[OBS_DOY]
+    def cell(a, b):
+        return (min(a, b), max(a, b))
+    counts = np.zeros((12, 12)); fallen_c = np.zeros((12, 12)); broke_c = np.zeros((12, 12)); giants_c = np.zeros((12, 12))
+    members_cells = defaultdict(list)
+    for a, b, c in all_pairs:
+        i, j = cell(S_OBS[a], S_OBS[b])
+        counts[i, j] += 1
+        if company_by_name[c]["ring"] == "fallen":
+            fallen_c[i, j] += 1
+        if company_by_name[c]["ring"] == "giants":
+            giants_c[i, j] += 1
+        if frozenset([F[a]["name"].lower(), F[b]["name"].lower()]) in br_names:
+            broke_c[i, j] += 1
+        members_cells[(i, j)].append(c)
+    team_members_all = np.array(sorted({i for ids in all_teams.values() for i in ids}))
+    exp = np.zeros((12, 12))
+    N_PAIR_SIM = 4000
+    for _ in range(N_PAIR_SIM):
+        perm = OBS_DOY.copy()
+        perm[team_members_all] = OBS_DOY[RNG.permutation(team_members_all)]
+        s = DOY_SIGN[perm]
+        for a, b, c in all_pairs:
+            i, j = cell(s[a], s[b])
+            exp[i, j] += 1
+    exp /= N_PAIR_SIM
+    with np.errstate(divide="ignore", invalid="ignore"):
+        ratio = np.where(exp > 0, counts / exp, 0)
+    T["pair_matrix"] = {"label": "Sun-sign pairs among cofounders (exploratory)", "signs": SIGNS, "n_pairs": len(all_pairs), "n_teams": len(all_teams),
+                        "counts": counts.astype(int).tolist(), "expected": exp.round(2).tolist(), "ratio": ratio.round(2).tolist(),
+                        "fallen": fallen_c.astype(int).tolist(), "broke_up": broke_c.astype(int).tolist(), "giants": giants_c.astype(int).tolist(),
+                        "companies": {f"{i},{j}": sorted(set(v))[:12] for (i, j), v in members_cells.items()},
+                        "note": "78 cells share a few hundred pairs, so most cells hold a handful of companies; read the ratio with its count, and treat any single bright cell as a story, not a result."}
+
 # ---- relative age ----------------------------------------------------------
 cut_path = os.path.join(ROOT, "research", "school_cutoffs.csv")
 cutoffs = {}
@@ -226,9 +277,11 @@ def cutoff_for(country, year):
 
 
 def rel_age_months(d, cutoff_doy):
-    """Months older than the youngest classmate: 0 = born just before the cutoff, 11 = born just after it."""
-    delta = (cutoff_doy - d) % 365            # days from birthday forward to the cutoff
-    return 11 - min(11, int(delta // 30.44))
+    """Months older than the youngest classmate. cutoff_doy is the LAST qualifying
+    birthday (inclusive): born on it = youngest in the cohort (0); born the day
+    after = oldest of the next cohort (11)."""
+    days_after = (d - cutoff_doy - 1) % 365   # 0 on the day after the cutoff
+    return 11 - min(11, int(days_after // 30.44))
 
 
 rel_idx, rel_obs, rel_cut, rel_cert = [], [], [], []

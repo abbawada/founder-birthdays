@@ -1,0 +1,195 @@
+{
+ "Q19837": {
+  "rating": "AA",
+  "adb_slug": "Jobs,_Steve",
+  "adb_url": "https://www.astro.com/astro-databank/Jobs,_Steve",
+  "rising": "Virgo",
+  "moon": "Aries",
+  "sun": "Pisces",
+  "time": "19:15 local",
+  "place": "San Francisco, California, 37n47, 122w25",
+  "tz": "PST h8w (is standard time)"
+ },
+ "Q5284": {
+  "rating": "A",
+  "adb_slug": "Gates,_Bill",
+  "adb_url": "https://www.astro.com/astro-databank/Gates,_Bill",
+  "rising": "Cancer",
+  "moon": "Aries",
+  "sun": "Scorpio",
+  "time": "22:00 local",
+  "place": "Seattle, Washington, 47n36, 122w20",
+  "tz": "PST h8w (is standard time)"
+ },
+ "Q483382": {
+  "rating": "AA",
+  "adb_slug": "Wozniak,_Steve",
+  "adb_url": "https://www.astro.com/astro-databank/Wozniak,_Steve",
+  "rising": "Virgo",
+  "moon": "Cancer",
+  "sun": "Leo",
+  "time": "09:45 local",
+  "place": "San Jose, California, 37n20, 121w54",
+  "tz": "PDT h7w (is daylight saving time)"
+ },
+ "Q312556": {
+  "rating": "X",
+  "adb_slug": "Bezos,_Jeff",
+  "adb_url": "https://www.astro.com/astro-databank/Bezos,_Jeff"
+ },
+ "Q317521": {
+  "rating": "B",
+  "adb_slug": "Musk,_Elon",
+  "adb_url": "https://www.astro.com/astro-databank/Musk,_Elon",
+  "rising": "Cancer",
+  "moon": "Virgo",
+  "sun": "Cancer",
+  "time": "07:30 local",
+  "place": "Pretoria, South Africa, 25s45, 28e10",
+  "tz": "SAST h2e (is standard time)"
+ },
+ "Q36215": {
+  "rating": "X",
+  "adb_slug": "Zuckerberg,_Mark",
+  "adb_url": "https://www.astro.com/astro-databank/Zuckerberg,_Mark"
+ },
+ "Q92759": {
+  "rating": "X",
+  "adb_slug": "Ellison,_Larry",
+  "adb_url": "https://www.astro.com/astro-databank/Ellison,_Larry"
+ },
+ "Q4934": {
+  "rating": "X",
+  "adb_slug": "Page,_Larry",
+  "adb_url": "https://www.astro.com/astro-databank/Page,_Larry"
+ },
+ "Q92764": {
+  "rating": "X",
+  "adb_slug": "Brin,_Sergey",
+  "adb_url": "https://www.astro.com/astro-databank/Brin,_Sergey"
+ },
+ "Q332591": {
+  "rating": "AA",
+  "adb_slug": "Wayne,_Ronald",
+  "adb_url": "https://www.astro.com/astro-databank/Wayne,_Ronald",
+  "rising": "Aries",
+  "moon": "Cancer",
+  "sun": "Taurus",
+  "time": "02:58 local",
+  "place": "Cleveland, Ohio, 41n30, 81w42",
+  "tz": "EST h5w (is standard time)"
+ },
+ "Q103335665": {
+  "rating": "X",
+  "adb_slug": "Amodei,_Dario",
+  "adb_url": "https://www.astro.com/astro-databank/Amodei,_Dario"
+ },
+ "Q7407093": {
+  "rating": "A",
+  "adb_slug": "Altman,_Sam",
+  "adb_url": "https://www.astro.com/astro-databank/Altman,_Sam",
+  "rising": "Taurus",
+  "moon": "Taurus",
+  "sun": "Taurus",
+  "time": "05:00 local",
+  "place": "Chicago, Illinois, 41n51, 87w39",
+  "tz": "CST h6w (is standard time)"
+ },
+ "Q1687865": {
+  "rating": "X",
+  "adb_slug": "Sanders,_Jerry",
+  "adb_url": "https://www.astro.com/astro-databank/Sanders,_Jerry"
+ },
+ "Q497827": {
+  "rating": "C",
+  "adb_slug": "Walton,_Sam",
+  "adb_url": "https://www.astro.com/astro-databank/Walton,_Sam",
+  "rising": "Scorpio",
+  "moon": "Scorpio",
+  "sun": "Aries",
+  "time": "21:00 local",
+  "place": "Kingfisher, Oklahoma, 35n52, 97w56",
+  "tz": "CST h6w (is standard time)"
+ },
+ "Q241735": {
+  "rating": "AA",
+  "adb_slug": "Noyce,_Robert",
+  "adb_url": "https://www.astro.com/astro-databank/Noyce,_Robert",
+  "rising": "Virgo",
+  "moon": "Leo",
+  "sun": "Sagittarius",
+  "time": "22:55 local",
+  "place": "Burlington, Iowa, 40n48, 91w07",
+  "tz": "CST h6w (is standard time)"
+ },
+ "Q2898293": {
+  "rating": "X",
+  "adb_slug": "Marcus,_Bernard",
+  "adb_url": "https://www.astro.com/astro-databank/Marcus,_Bernard"
+ },
+ "Q29279": {
+  "rating": "X",
+  "adb_slug": "Ortega,_Amancio",
+  "adb_url": "https://www.astro.com/astro-databank/Ortega,_Amancio"
+ },
+ "Q3218882": {
+  "rating": "AA",
+  "adb_slug": "Fink,_Larry",
+  "adb_url": "https://www.astro.com/astro-databank/Fink,_Larry",
+  "rising": "Cancer",
+  "moon": "Taurus",
+  "sun": "Scorpio",
+  "time": "21:47 local",
+  "place": "Los Angeles, California, 34n03,  118w15 ",
+  "tz": "PST h8w (is standard time)"
+ },
+ "Q15809687": {
+  "rating": "X",
+  "adb_slug": "Conner,_Finis",
+  "adb_url": "https://www.astro.com/astro-databank/Conner,_Finis"
+ },
+ "Q2925904": {
+  "rating": "AA",
+  "adb_slug": "Pierce,_Brock",
+  "adb_url": "https://www.astro.com/astro-databank/Pierce,_Brock",
+  "rising": "Aquarius",
+  "moon": "Aquarius",
+  "sun": "Scorpio",
+  "time": "13:17 local",
+  "place": "St.Louis Park, Minnesota, 44n57,  93w21 ",
+  "tz": "CST h6w (is standard time)"
+ },
+ "Q335552": {
+  "rating": "A",
+  "adb_slug": "Dorsey,_Jack",
+  "adb_url": "https://www.astro.com/astro-databank/Dorsey,_Jack",
+  "rising": "Virgo",
+  "moon": "Libra",
+  "sun": "Scorpio",
+  "time": "01:43 local",
+  "place": "St.Louis, Missouri, 38n38,  90w12 ",
+  "tz": "CST h6w (is standard time)"
+ },
+ "Q348483": {
+  "rating": "AA",
+  "adb_slug": "Omidyar,_Pierre",
+  "adb_url": "https://www.astro.com/astro-databank/Omidyar,_Pierre",
+  "rising": "Leo",
+  "moon": "Sagittarius",
+  "sun": "Gemini",
+  "time": "08:30 local",
+  "place": "Paris, France, 48n52,  2e20 ",
+  "tz": "MET h1e (is standard time)"
+ },
+ "Q861967": {
+  "rating": "AA",
+  "adb_slug": "Bowerman,_Bill",
+  "adb_url": "https://www.astro.com/astro-databank/Bowerman,_Bill",
+  "rising": "Sagittarius",
+  "moon": "Scorpio",
+  "sun": "Aquarius",
+  "time": "01:45 local",
+  "place": "Portland, Oregon, 45n31,  122w41 ",
+  "tz": "PST h8w (is standard time)"
+ }
+}

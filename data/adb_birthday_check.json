@@ -1,0 +1,177 @@
+[
+ {
+  "name": "Steve Jobs",
+  "ours": "1955-02-24",
+  "astro_databank": "1955-02-24",
+  "rating": "AA",
+  "match": true
+ },
+ {
+  "name": "Bill Gates",
+  "ours": "1955-10-28",
+  "astro_databank": "1955-10-28",
+  "rating": "A",
+  "match": true
+ },
+ {
+  "name": "Steve Wozniak",
+  "ours": "1950-08-11",
+  "astro_databank": "1950-08-11",
+  "rating": "AA",
+  "match": true
+ },
+ {
+  "name": "Jeff Bezos",
+  "ours": "1964-01-12",
+  "astro_databank": "1964-01-12",
+  "rating": "X",
+  "match": true
+ },
+ {
+  "name": "Elon Musk",
+  "ours": "1971-06-28",
+  "astro_databank": "1971-06-28",
+  "rating": "B",
+  "match": true
+ },
+ {
+  "name": "Mark Zuckerberg",
+  "ours": "1984-05-14",
+  "astro_databank": "1984-05-14",
+  "rating": "X",
+  "match": true
+ },
+ {
+  "name": "Larry Ellison",
+  "ours": "1944-08-17",
+  "astro_databank": "1944-08-17",
+  "rating": "X",
+  "match": true
+ },
+ {
+  "name": "Larry Page",
+  "ours": "1973-03-26",
+  "astro_databank": "1973-03-26",
+  "rating": "X",
+  "match": true
+ },
+ {
+  "name": "Sergey Brin",
+  "ours": "1973-08-21",
+  "astro_databank": "1973-08-21",
+  "rating": "X",
+  "match": true
+ },
+ {
+  "name": "Ronald Wayne",
+  "ours": "1934-05-17",
+  "astro_databank": "1934-05-17",
+  "rating": "AA",
+  "match": true
+ },
+ {
+  "name": "Dario Amodei",
+  "ours": "1983-01-13",
+  "astro_databank": "1983-01-13",
+  "rating": "X",
+  "match": true
+ },
+ {
+  "name": "Daniela Amodei",
+  "ours": null,
+  "astro_databank": "1987-08-14",
+  "rating": "X",
+  "match": null
+ },
+ {
+  "name": "Sam Altman",
+  "ours": "1985-04-22",
+  "astro_databank": "1985-04-22",
+  "rating": "A",
+  "match": true
+ },
+ {
+  "name": "Sam Bankman-Fried",
+  "ours": "1992-03-06",
+  "astro_databank": "1992-03-05",
+  "rating": "AA",
+  "match": false
+ },
+ {
+  "name": "Jerry Sanders",
+  "ours": "1936-09-12",
+  "astro_databank": "1936-09-12",
+  "rating": "X",
+  "match": true
+ },
+ {
+  "name": "Sam Walton",
+  "ours": "1918-03-29",
+  "astro_databank": "1918-03-29",
+  "rating": "C",
+  "match": true
+ },
+ {
+  "name": "Robert Noyce",
+  "ours": "1927-12-12",
+  "astro_databank": "1927-12-12",
+  "rating": "AA",
+  "match": true
+ },
+ {
+  "name": "Bernard Marcus",
+  "ours": "1929-05-12",
+  "astro_databank": "1929-05-12",
+  "rating": "X",
+  "match": true
+ },
+ {
+  "name": "Amancio Ortega",
+  "ours": "1936-03-28",
+  "astro_databank": "1936-03-28",
+  "rating": "X",
+  "match": true
+ },
+ {
+  "name": "Larry Fink",
+  "ours": "1952-11-02",
+  "astro_databank": "1952-11-02",
+  "rating": "AA",
+  "match": true
+ },
+ {
+  "name": "Finis Conner",
+  "ours": "1943-07-28",
+  "astro_databank": "1943-07-28",
+  "rating": "X",
+  "match": true
+ },
+ {
+  "name": "Brock Pierce",
+  "ours": "1980-11-14",
+  "astro_databank": "1980-11-14",
+  "rating": "AA",
+  "match": true
+ },
+ {
+  "name": "Jack Dorsey",
+  "ours": "1976-11-19",
+  "astro_databank": "1976-11-19",
+  "rating": "A",
+  "match": true
+ },
+ {
+  "name": "Pierre Omidyar",
+  "ours": "1967-06-21",
+  "astro_databank": "1967-06-21",
+  "rating": "AA",
+  "match": true
+ },
+ {
+  "name": "Bill Bowerman",
+  "ours": "1911-02-19",
+  "astro_databank": "1911-02-19",
+  "rating": "AA",
+  "match": true
+ }
+]

@@ -1,0 +1,2285 @@
+{
+ "n_dated": 354,
+ "n_sim": 10000,
+ "populations": {
+  "all": 354,
+  "thriving": 332,
+  "giants": 128,
+  "fallen": 22
+ },
+ "baseline_use": [
+  [
+   "United States",
+   172
+  ],
+  [
+   "uniform",
+   99
+  ],
+  [
+   "Canada",
+   12
+  ],
+  [
+   "England and Wales",
+   11
+  ],
+  [
+   "Germany",
+   10
+  ],
+  [
+   "France",
+   10
+  ],
+  [
+   "Russia",
+   4
+  ],
+  [
+   "Hungary",
+   4
+  ],
+  [
+   "Israel",
+   4
+  ],
+  [
+   "Ireland",
+   4
+  ],
+  [
+   "Italy",
+   3
+  ],
+  [
+   "Australia",
+   3
+  ],
+  [
+   "Spain",
+   2
+  ],
+  [
+   "Japan",
+   2
+  ],
+  [
+   "Sweden",
+   2
+  ],
+  [
+   "Netherlands",
+   2
+  ],
+  [
+   "Belgium",
+   2
+  ],
+  [
+   "South Korea",
+   2
+  ],
+  [
+   "Bulgaria",
+   1
+  ],
+  [
+   "Norway",
+   1
+  ],
+  [
+   "Ukraine",
+   1
+  ],
+  [
+   "Slovakia",
+   1
+  ],
+  [
+   "Poland",
+   1
+  ],
+  [
+   "Switzerland",
+   1
+  ]
+ ],
+ "tests": {
+  "signs": {
+   "label": "Sun sign, Giants + Big",
+   "n": 332,
+   "bins": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricorn",
+    "Aquarius",
+    "Pisces"
+   ],
+   "observed": [
+    20,
+    30,
+    21,
+    26,
+    34,
+    27,
+    40,
+    30,
+    19,
+    25,
+    23,
+    37
+   ],
+   "expected": [
+    27.17,
+    27.82,
+    28.01,
+    29.48,
+    28.81,
+    28.99,
+    27.32,
+    26.71,
+    26.51,
+    26.05,
+    27.54,
+    27.6
+   ],
+   "band_lo": [
+    18.0,
+    19.0,
+    19.0,
+    20.0,
+    19.0,
+    19.0,
+    18.0,
+    17.0,
+    17.0,
+    17.0,
+    18.0,
+    18.0
+   ],
+   "band_hi": [
+    37.0,
+    38.0,
+    38.0,
+    40.0,
+    39.0,
+    39.0,
+    38.0,
+    37.0,
+    36.0,
+    36.0,
+    38.0,
+    38.0
+   ],
+   "ratio": [
+    0.736,
+    1.078,
+    0.75,
+    0.882,
+    1.18,
+    0.932,
+    1.464,
+    1.123,
+    0.717,
+    0.96,
+    0.835,
+    1.341
+   ],
+   "z": [
+    -1.38,
+    0.41,
+    -1.32,
+    -0.64,
+    0.97,
+    -0.37,
+    2.43,
+    0.64,
+    -1.46,
+    -0.2,
+    -0.87,
+    1.79
+   ],
+   "chi2": 17.71,
+   "p_chi2_mc": 0.0859,
+   "max_dev_z": 2.43,
+   "p_max_dev": 0.1231,
+   "tallest": "Libra",
+   "verdict": "The tallest bar, Libra, has 40 founders against 27.3 expected (1.46x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 12% of the time — well inside chance."
+  },
+  "signs_giants": {
+   "label": "Sun sign, Giants only",
+   "n": 128,
+   "bins": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricorn",
+    "Aquarius",
+    "Pisces"
+   ],
+   "observed": [
+    9,
+    12,
+    8,
+    6,
+    12,
+    10,
+    18,
+    11,
+    10,
+    12,
+    10,
+    10
+   ],
+   "expected": [
+    10.46,
+    10.71,
+    10.81,
+    11.38,
+    11.12,
+    11.22,
+    10.56,
+    10.29,
+    10.21,
+    10.01,
+    10.59,
+    10.63
+   ],
+   "band_lo": [
+    5.0,
+    5.0,
+    5.0,
+    6.0,
+    5.0,
+    6.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0
+   ],
+   "band_hi": [
+    17.0,
+    17.0,
+    17.0,
+    18.0,
+    18.0,
+    18.0,
+    17.0,
+    17.0,
+    17.0,
+    16.0,
+    17.0,
+    17.0
+   ],
+   "ratio": [
+    0.86,
+    1.121,
+    0.74,
+    0.527,
+    1.079,
+    0.891,
+    1.705,
+    1.069,
+    0.979,
+    1.199,
+    0.945,
+    0.941
+   ],
+   "z": [
+    -0.45,
+    0.39,
+    -0.85,
+    -1.6,
+    0.26,
+    -0.37,
+    2.29,
+    0.22,
+    -0.07,
+    0.63,
+    -0.18,
+    -0.19
+   ],
+   "chi2": 9.6,
+   "p_chi2_mc": 0.5665,
+   "max_dev_z": 2.29,
+   "p_max_dev": 0.1818,
+   "tallest": "Libra",
+   "verdict": "The tallest bar, Libra, has 18 founders against 10.6 expected (1.70x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 18% of the time — well inside chance."
+  },
+  "elements": {
+   "label": "Element, Giants + Big",
+   "n": 332,
+   "bins": [
+    "Fire",
+    "Earth",
+    "Air",
+    "Water"
+   ],
+   "observed": [
+    73,
+    82,
+    84,
+    93
+   ],
+   "expected": [
+    82.49,
+    82.85,
+    82.87,
+    83.79
+   ],
+   "band_lo": [
+    67.0,
+    67.0,
+    67.0,
+    69.0
+   ],
+   "band_hi": [
+    98.0,
+    98.0,
+    99.0,
+    100.0
+   ],
+   "ratio": [
+    0.885,
+    0.99,
+    1.014,
+    1.11
+   ],
+   "z": [
+    -1.04,
+    -0.09,
+    0.12,
+    1.01
+   ],
+   "chi2": 2.13,
+   "p_chi2_mc": 0.5424,
+   "max_dev_z": 1.04,
+   "p_max_dev": 0.5866,
+   "tallest": "Water",
+   "verdict": "The tallest bar, Water, has 93 founders against 83.8 expected (1.11x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 59% of the time — well inside chance."
+  },
+  "modalities": {
+   "label": "Modality, Giants + Big",
+   "n": 332,
+   "bins": [
+    "Cardinal",
+    "Fixed",
+    "Mutable"
+   ],
+   "observed": [
+    111,
+    117,
+    104
+   ],
+   "expected": [
+    110.02,
+    110.88,
+    111.1
+   ],
+   "band_lo": [
+    94.0,
+    94.0,
+    94.0
+   ],
+   "band_hi": [
+    127.0,
+    128.0,
+    128.0
+   ],
+   "ratio": [
+    1.009,
+    1.055,
+    0.936
+   ],
+   "z": [
+    0.09,
+    0.58,
+    -0.67
+   ],
+   "chi2": 0.8,
+   "p_chi2_mc": 0.6754,
+   "max_dev_z": 0.67,
+   "p_max_dev": 0.6878,
+   "tallest": "Fixed",
+   "verdict": "The tallest bar, Fixed, has 117 founders against 110.9 expected (1.06x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 69% of the time — well inside chance."
+  },
+  "months": {
+   "label": "Birth month, Giants + Big (exploratory)",
+   "n": 332,
+   "bins": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+   ],
+   "observed": [
+    28,
+    29,
+    33,
+    18,
+    22,
+    30,
+    23,
+    34,
+    31,
+    37,
+    29,
+    18
+   ],
+   "expected": [
+    28.09,
+    25.93,
+    28.43,
+    26.98,
+    27.8,
+    27.22,
+    28.76,
+    28.83,
+    28.11,
+    27.93,
+    26.57,
+    27.36
+   ],
+   "band_lo": [
+    19.0,
+    17.0,
+    19.0,
+    18.0,
+    18.0,
+    18.0,
+    19.0,
+    19.0,
+    19.0,
+    18.0,
+    18.0,
+    18.0
+   ],
+   "band_hi": [
+    39.0,
+    36.0,
+    39.0,
+    37.0,
+    38.0,
+    37.0,
+    39.0,
+    39.0,
+    38.0,
+    38.0,
+    37.0,
+    38.0
+   ],
+   "ratio": [
+    0.997,
+    1.119,
+    1.161,
+    0.667,
+    0.791,
+    1.102,
+    0.8,
+    1.179,
+    1.103,
+    1.325,
+    1.091,
+    0.658
+   ],
+   "z": [
+    -0.02,
+    0.6,
+    0.86,
+    -1.73,
+    -1.1,
+    0.53,
+    -1.07,
+    0.96,
+    0.54,
+    1.72,
+    0.47,
+    -1.79
+   ],
+   "chi2": 14.33,
+   "p_chi2_mc": 0.2156,
+   "max_dev_z": 1.79,
+   "p_max_dev": 0.5211,
+   "tallest": "October",
+   "verdict": "The tallest bar, October, has 37 founders against 27.9 expected (1.32x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 52% of the time — well inside chance."
+  },
+  "signs_fallen": {
+   "label": "Sun sign, Fallen",
+   "n": 22,
+   "bins": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricorn",
+    "Aquarius",
+    "Pisces"
+   ],
+   "observed": [
+    3,
+    2,
+    2,
+    2,
+    1,
+    1,
+    4,
+    0,
+    0,
+    3,
+    2,
+    2
+   ],
+   "expected": [
+    1.8,
+    1.85,
+    1.87,
+    1.96,
+    1.9,
+    1.92,
+    1.82,
+    1.78,
+    1.77,
+    1.71,
+    1.8,
+    1.82
+   ],
+   "band_lo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "band_hi": [
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0
+   ],
+   "ratio": [
+    1.667,
+    1.079,
+    1.068,
+    1.019,
+    0.526,
+    0.522,
+    2.201,
+    0.0,
+    0.0,
+    1.749,
+    1.111,
+    1.101
+   ],
+   "z": [
+    0.89,
+    0.11,
+    0.09,
+    0.03,
+    -0.65,
+    -0.66,
+    1.62,
+    -1.33,
+    -1.33,
+    0.98,
+    0.15,
+    0.14
+   ],
+   "chi2": 8.86,
+   "p_chi2_mc": 0.6482,
+   "max_dev_z": 1.62,
+   "p_max_dev": 0.6768,
+   "tallest": "Libra",
+   "verdict": "The tallest bar, Libra, has 4 founders against 1.8 expected (2.20x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 68% of the time — well inside chance."
+  },
+  "pairs": {
+   "label": "Cofounder pairings vs shuffled teams",
+   "n_pairs": 177,
+   "n_teams": 83,
+   "measures": [
+    {
+     "name": "same sign",
+     "observed": 0.0904,
+     "null_mean": 0.0824,
+     "band_lo": 0.0452,
+     "band_hi": 0.1243,
+     "p_two_sided": 0.7602
+    },
+    {
+     "name": "same element",
+     "observed": 0.2486,
+     "null_mean": 0.247,
+     "band_lo": 0.1864,
+     "band_hi": 0.3107,
+     "p_two_sided": 0.9966
+    },
+    {
+     "name": "traditionally compatible",
+     "observed": 0.5028,
+     "null_mean": 0.4985,
+     "band_lo": 0.4294,
+     "band_hi": 0.5763,
+     "p_two_sided": 0.9334
+    }
+   ],
+   "verdict": "50% of the 177 cofounder pairs are 'compatible' by the classic element rule, against 50% when the same founders are shuffled into random teams (95% range 43 to 58%). Nothing to see."
+  },
+  "pair_matrix": {
+   "label": "Sun-sign pairs among cofounders (exploratory)",
+   "signs": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricorn",
+    "Aquarius",
+    "Pisces"
+   ],
+   "n_pairs": 177,
+   "n_teams": 83,
+   "counts": [
+    [
+     0,
+     0,
+     2,
+     1,
+     3,
+     3,
+     2,
+     0,
+     2,
+     2,
+     1,
+     3
+    ],
+    [
+     0,
+     1,
+     3,
+     2,
+     2,
+     2,
+     3,
+     4,
+     6,
+     3,
+     4,
+     5
+    ],
+    [
+     0,
+     0,
+     0,
+     2,
+     4,
+     1,
+     2,
+     0,
+     2,
+     2,
+     1,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     2,
+     0,
+     2,
+     3,
+     4,
+     5,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     1,
+     3,
+     5,
+     1,
+     3,
+     3,
+     2,
+     4
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     6,
+     1,
+     3,
+     4,
+     2,
+     3
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5,
+     3,
+     1,
+     3,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     6,
+     3,
+     2,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     2,
+     3,
+     3
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2
+    ]
+   ],
+   "expected": [
+    [
+     0.82,
+     2.6,
+     1.56,
+     1.64,
+     2.46,
+     2.29,
+     2.95,
+     1.93,
+     1.92,
+     2.04,
+     1.54,
+     2.52
+    ],
+    [
+     0.0,
+     1.75,
+     2.19,
+     2.38,
+     3.46,
+     3.31,
+     4.17,
+     2.73,
+     2.75,
+     2.91,
+     2.2,
+     3.68
+    ],
+    [
+     0.0,
+     0.0,
+     0.61,
+     1.41,
+     2.12,
+     1.97,
+     2.53,
+     1.67,
+     1.66,
+     1.75,
+     1.32,
+     2.2
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.74,
+     2.3,
+     2.12,
+     2.71,
+     1.78,
+     1.79,
+     1.93,
+     1.42,
+     2.36
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.55,
+     3.15,
+     3.97,
+     2.67,
+     2.63,
+     2.76,
+     2.14,
+     3.49
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.42,
+     3.84,
+     2.45,
+     2.45,
+     2.61,
+     1.98,
+     3.31
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.31,
+     3.18,
+     3.16,
+     3.38,
+     2.5,
+     4.28
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.98,
+     2.05,
+     2.2,
+     1.64,
+     2.78
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.97,
+     2.19,
+     1.64,
+     2.77
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.1,
+     1.73,
+     2.95
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.6,
+     2.24
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.74
+    ]
+   ],
+   "ratio": [
+    [
+     0.0,
+     0.0,
+     1.28,
+     0.61,
+     1.22,
+     1.31,
+     0.68,
+     0.0,
+     1.04,
+     0.98,
+     0.65,
+     1.19
+    ],
+    [
+     0.0,
+     0.57,
+     1.37,
+     0.84,
+     0.58,
+     0.61,
+     0.72,
+     1.47,
+     2.18,
+     1.03,
+     1.82,
+     1.36
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.42,
+     1.88,
+     0.51,
+     0.79,
+     0.0,
+     1.21,
+     1.14,
+     0.76,
+     0.91
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     2.72,
+     0.0,
+     0.94,
+     1.11,
+     2.25,
+     2.79,
+     0.52,
+     0.0,
+     0.42
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.64,
+     0.95,
+     1.26,
+     0.37,
+     1.14,
+     1.09,
+     0.94,
+     1.15
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.56,
+     0.41,
+     1.22,
+     1.53,
+     1.01,
+     0.91
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.16,
+     0.94,
+     0.32,
+     0.89,
+     0.4,
+     0.23
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.05,
+     2.92,
+     1.36,
+     1.22,
+     0.72
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     3.08,
+     0.91,
+     1.83,
+     1.08
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.15,
+     0.68
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.89
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.15
+    ]
+   ],
+   "fallen": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "broke_up": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "giants": [
+    [
+     0,
+     0,
+     0,
+     0,
+     1,
+     1,
+     1,
+     0,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     2,
+     1,
+     1,
+     2,
+     3,
+     2,
+     6,
+     1,
+     3,
+     4
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     2,
+     1,
+     0,
+     0,
+     2,
+     0,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     3,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2,
+     0,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5,
+     0,
+     2,
+     3,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     0,
+     0,
+     1,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     6,
+     3,
+     2,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     2,
+     1,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "companies": {
+    "1,10": [
+     "Coinbase",
+     "Databricks",
+     "NVIDIA",
+     "SAP"
+    ],
+    "4,11": [
+     "Apple",
+     "Infosys",
+     "Moderna",
+     "Tata Consultancy Services"
+    ],
+    "1,11": [
+     "Apple",
+     "Meta Platforms (Facebook)",
+     "SAP",
+     "Vodafone",
+     "Waymo"
+    ],
+    "1,4": [
+     "Apple",
+     "MongoDB"
+    ],
+    "7,10": [
+     "BlackRock",
+     "Microsoft"
+    ],
+    "0,4": [
+     "Alphabet (Google)",
+     "Infosys",
+     "STMicroelectronics"
+    ],
+    "1,3": [
+     "OpenAI",
+     "WeWork"
+    ],
+    "3,8": [
+     "Glencore",
+     "OpenAI",
+     "Teradyne"
+    ],
+    "3,7": [
+     "OpenAI",
+     "PayPal"
+    ],
+    "1,8": [
+     "Meta Platforms (Facebook)",
+     "OpenAI",
+     "Ping An Insurance",
+     "SAP"
+    ],
+    "1,7": [
+     "OpenAI",
+     "Reddit"
+    ],
+    "8,8": [
+     "OpenAI"
+    ],
+    "7,8": [
+     "OpenAI"
+    ],
+    "7,7": [
+     "OpenAI",
+     "Reddit"
+    ],
+    "3,6": [
+     "Mistral AI",
+     "PayPal"
+    ],
+    "3,3": [
+     "Cadence Design Systems",
+     "PayPal"
+    ],
+    "6,7": [
+     "Block",
+     "Energy Transfer LP",
+     "PayPal"
+    ],
+    "1,2": [
+     "Meta Platforms (Facebook)",
+     "MongoDB",
+     "Tesla"
+    ],
+    "1,5": [
+     "Home Depot",
+     "Meta Platforms (Facebook)"
+    ],
+    "2,11": [
+     "Infosys",
+     "Meta Platforms (Facebook)"
+    ],
+    "5,11": [
+     "BioNTech",
+     "Meta Platforms (Facebook)",
+     "Moderna"
+    ],
+    "8,11": [
+     "Meta Platforms (Facebook)",
+     "Moderna",
+     "SAP"
+    ],
+    "2,5": [
+     "Meta Platforms (Facebook)"
+    ],
+    "2,8": [
+     "HCA Healthcare",
+     "Meta Platforms (Facebook)"
+    ],
+    "5,8": [
+     "Intel",
+     "Meta Platforms (Facebook)",
+     "Moderna"
+    ],
+    "0,5": [
+     "AMD",
+     "Quest Diagnostics",
+     "TKO Group Holdings"
+    ],
+    "5,9": [
+     "AMD",
+     "Alibaba",
+     "Intel",
+     "KKR & Co."
+    ],
+    "0,9": [
+     "AMD",
+     "Biogen"
+    ],
+    "0,8": [
+     "Walmart",
+     "Xiaomi"
+    ],
+    "8,9": [
+     "Intel",
+     "SAP"
+    ],
+    "6,6": [
+     "Celsius Network",
+     "Palantir",
+     "Simon Property Group"
+    ],
+    "5,6": [
+     "Adobe",
+     "Home Depot",
+     "Marriott International",
+     "Palantir"
+    ],
+    "4,9": [
+     "Apollo Global Management",
+     "Oracle"
+    ],
+    "6,9": [
+     "Apollo Global Management",
+     "Biogen",
+     "Costco"
+    ],
+    "1,6": [
+     "Databricks",
+     "Home Depot",
+     "Netflix"
+    ],
+    "1,9": [
+     "Byju's",
+     "Lenovo",
+     "SAP"
+    ],
+    "8,10": [
+     "Moderna",
+     "Roblox",
+     "SAP"
+    ],
+    "10,11": [
+     "Moderna",
+     "SAP"
+    ],
+    "9,10": [
+     "BlackRock",
+     "SAP"
+    ],
+    "9,11": [
+     "J. B. Hunt",
+     "SAP"
+    ],
+    "7,11": [
+     "AT&T",
+     "RTX"
+    ],
+    "0,6": [
+     "Arista Networks",
+     "Biogen"
+    ],
+    "4,10": [
+     "LVMH",
+     "Moderna"
+    ],
+    "7,9": [
+     "Analog Devices",
+     "BlackRock",
+     "Starbucks"
+    ],
+    "2,3": [
+     "Sandisk",
+     "Synopsys"
+    ],
+    "0,10": [
+     "Inditex"
+    ],
+    "6,11": [
+     "QUALCOMM"
+    ],
+    "4,6": [
+     "Apollo Global Management",
+     "Seagate Technology",
+     "Teledyne Technologies",
+     "Uber"
+    ],
+    "2,10": [
+     "Blackstone Group"
+    ],
+    "2,4": [
+     "CVS Health",
+     "HCA Healthcare",
+     "Infosys",
+     "MongoDB"
+    ],
+    "0,11": [
+     "Infosys",
+     "Southwest Airlines",
+     "Spotify"
+    ],
+    "4,8": [
+     "HCA Healthcare",
+     "Moderna",
+     "Teledyne Technologies"
+    ],
+    "4,5": [
+     "Airbnb",
+     "Moderna",
+     "Stripe"
+    ],
+    "2,9": [
+     "Biogen",
+     "Waste Management"
+    ],
+    "3,9": [
+     "KKR & Co."
+    ],
+    "3,5": [
+     "KKR & Co.",
+     "Partners Group"
+    ],
+    "4,7": [
+     "Brookfield Corporation"
+    ],
+    "5,10": [
+     "Moderna",
+     "Workday"
+    ],
+    "3,11": [
+     "Comcast"
+    ],
+    "4,4": [
+     "Apollo Global Management"
+    ],
+    "11,11": [
+     "Nike",
+     "Sun Hung Kai Properties"
+    ],
+    "0,2": [
+     "Biogen",
+     "Infosys"
+    ],
+    "5,7": [
+     "Illumina"
+    ],
+    "2,6": [
+     "Biogen",
+     "Perplexity"
+    ],
+    "6,8": [
+     "Teledyne Technologies"
+    ],
+    "6,10": [
+     "Databricks"
+    ],
+    "1,1": [
+     "Kalshi"
+    ],
+    "0,3": [
+     "Vice Media"
+    ]
+   },
+   "note": "78 cells share a few hundred pairs, so most cells hold a handful of companies; read the ratio with its count, and treat any single bright cell as a story, not a result."
+  },
+  "relative_age": {
+   "label": "Relative age in the school cohort, Giants + Big",
+   "n": 286,
+   "mean_months": 5.528,
+   "null_mean": 5.517,
+   "band_lo": 5.119,
+   "band_hi": 5.909,
+   "p_two_sided": 0.971,
+   "share_oldest_third": 0.3077,
+   "share_youngest_third": 0.3322,
+   "null_oldest_third": 0.3336,
+   "null_youngest_third": 0.3312,
+   "hist": [
+    13,
+    25,
+    25,
+    32,
+    28,
+    23,
+    25,
+    27,
+    15,
+    30,
+    19,
+    24
+   ],
+   "expected_hist": [
+    23.16,
+    23.17,
+    24.19,
+    24.21,
+    24.14,
+    24.68,
+    23.37,
+    23.67,
+    23.1,
+    24.23,
+    23.84,
+    24.24
+   ],
+   "certainty": [
+    [
+     "medium",
+     147
+    ],
+    [
+     "high",
+     60
+    ],
+    [
+     "medium (nearest era)",
+     33
+    ],
+    [
+     "high (nearest era)",
+     27
+    ],
+    [
+     "low",
+     17
+    ],
+    [
+     "low (nearest era)",
+     2
+    ]
+   ],
+   "countries_covered": [
+    "Argentina",
+    "Australia",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "China",
+    "France",
+    "Germany",
+    "Hungary",
+    "India",
+    "Indonesia",
+    "Iran",
+    "Italy",
+    "Japan",
+    "Mexico",
+    "Netherlands",
+    "Norway",
+    "Pakistan",
+    "Poland",
+    "Russia",
+    "Singapore",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "Taiwan",
+    "Thailand",
+    "Turkey",
+    "Ukraine",
+    "United Arab Emirates",
+    "United States",
+    "Vietnam"
+   ],
+   "verdict": "Founders average 5.53 months older than their youngest classmate; chance says 5.52 (95% range 5.12 to 5.91). 31% were among the oldest third of their class vs 33% expected. No relative-age effect shows.",
+   "sign_check": "Sign test tallest bar is Libra; see 'signs' max-deviation p = 0.12 before any cohort adjustment."
+  },
+  "fallen_vs_thriving": {
+   "label": "Fallen founders vs thriving founders",
+   "n_fallen": 22,
+   "n_thriving": 332,
+   "signs_fallen": [
+    3,
+    2,
+    2,
+    2,
+    1,
+    1,
+    4,
+    0,
+    0,
+    3,
+    2,
+    2
+   ],
+   "signs_thriving": [
+    20,
+    30,
+    21,
+    26,
+    34,
+    27,
+    40,
+    30,
+    19,
+    25,
+    23,
+    37
+   ],
+   "chi2": 8.2,
+   "p_perm": 0.7152,
+   "elements_fallen": [
+    4,
+    6,
+    8,
+    4
+   ],
+   "elements_thriving": [
+    73,
+    82,
+    84,
+    93
+   ],
+   "chi2_elements": 1.89,
+   "p_perm_elements": 0.6152,
+   "verdict": "The sign mix of the 22 fallen founders differs most at Scorpio (0% vs 9% among thriving founders). Shuffling the 'fallen' label 10,000 times produced a gap this large 72% of the time — no signature of failure in the stars."
+  },
+  "breakups": {
+   "label": "Pairs that broke up vs pairs that stayed",
+   "n_broke": 6,
+   "n_intact": 172,
+   "compatible_broke": 0.5,
+   "compatible_intact": 0.5058,
+   "diff": -0.0058,
+   "band_lo": -0.3508,
+   "band_hi": 0.3391,
+   "p_two_sided": 1.0,
+   "verdict": "50% of the 6 pairs that broke up were 'compatible' by element, against 51% of the 172 pairs that stayed together. Astrology did not see the breakup coming."
+  },
+  "moon": {
+   "label": "Moon sign (exploratory, no birth times)",
+   "n": 332,
+   "ambiguous": 157,
+   "bins": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricorn",
+    "Aquarius",
+    "Pisces"
+   ],
+   "observed": [
+    30.0,
+    35.0,
+    27.5,
+    22.5,
+    26.5,
+    25.0,
+    20.5,
+    32.5,
+    30.0,
+    22.5,
+    27.0,
+    33.0
+   ],
+   "expected": [
+    27.7,
+    27.7,
+    27.7,
+    27.7,
+    27.7,
+    27.7,
+    27.7,
+    27.7,
+    27.7,
+    27.7,
+    27.7,
+    27.7
+   ],
+   "chi2": 8.32,
+   "p_mc": 0.6856,
+   "tallest": "Taurus",
+   "verdict": "Moon in Taurus leads with 35 founders against 28 expected; 157 of 332 founders could be one of two Moon signs and count half each. Chance produces a spread like this 69% of the time."
+  }
+ },
+ "signs_order": [
+  "Aries",
+  "Taurus",
+  "Gemini",
+  "Cancer",
+  "Leo",
+  "Virgo",
+  "Libra",
+  "Scorpio",
+  "Sagittarius",
+  "Capricorn",
+  "Aquarius",
+  "Pisces"
+ ],
+ "sign_starts": [
+  [
+   3,
+   21
+  ],
+  [
+   4,
+   20
+  ],
+  [
+   5,
+   21
+  ],
+  [
+   6,
+   21
+  ],
+  [
+   7,
+   23
+  ],
+  [
+   8,
+   23
+  ],
+  [
+   9,
+   23
+  ],
+  [
+   10,
+   23
+  ],
+  [
+   11,
+   22
+  ],
+  [
+   12,
+   22
+  ],
+  [
+   1,
+   20
+  ],
+  [
+   2,
+   19
+  ]
+ ]
+}
