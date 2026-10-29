@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Founders by Birthday</title>
+<meta name="description" content="Every founder of the world's biggest companies on one 365-day ring. Do they cluster by zodiac sign, and does any pattern survive chance?">
+<style>
+:root{
+  --bg:#06070b; --bg2:#0c0e15; --panel:#0f1119; --line:#1e2230; --text:#e9e6dc; --muted:#8c909c; --dim:#5a5e6a;
+  --amber:#f2a93b; --amber2:#ffd27a; --blue:#8fcbff; --blue2:#5f9fd6; --red:#ff5c7a; --green:#6fe3b4; --band:rgba(143,203,255,.16);
+  --display:"Avenir Next Condensed","Roboto Condensed","Arial Narrow","Helvetica Neue",Arial,sans-serif;
+  --mono:"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --body:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--amber2);text-decoration:none;border-bottom:1px solid rgba(255,210,122,.35)}
+a:hover{border-bottom-color:var(--amber2)}
+.mono{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.chapter{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.chapter::after{content:"";height:1px;width:34px;background:var(--amber);opacity:.6}
+h1,h2,h3{font-family:var(--display);text-transform:uppercase;letter-spacing:.01em;line-height:.95;margin:0}
+h1{font-size:clamp(44px,9vw,112px);font-weight:700}
+h2{font-size:clamp(30px,4.5vw,52px);font-weight:700;margin-bottom:14px}
+h3{font-size:20px;color:var(--amber2);margin-bottom:6px}
+p{max-width:62ch;color:#cfd0d6}
+.wrap{max-width:1280px;margin:0 auto;padding:0 16px}
+header.top{padding:28px 0 8px}
+header .tag{display:flex;gap:18px;flex-wrap:wrap;align-items:baseline;margin-top:10px}
+.sub{font-size:18px;color:var(--muted);max-width:70ch;margin-top:14px}
+.hero{display:grid;grid-template-columns:1fr minmax(320px,380px);gap:24px;align-items:start;margin-top:12px}
+.ringbox{position:relative;width:100%;aspect-ratio:1/1;max-height:88vh}
+canvas#ring{width:100%;height:100%;display:block;cursor:crosshair}
+.ringlabel{position:absolute;left:10px;top:8px;pointer-events:none;max-width:180px}
+.ringlabel .big{font-family:var(--display);font-size:15px;color:var(--amber2);text-transform:uppercase;max-width:170px;line-height:1.1}
+.readout{position:absolute;right:10px;top:8px;text-align:right;pointer-events:none}
+.readout .n{font-family:var(--display);font-size:28px;color:var(--text);line-height:1}
+.card{position:absolute;pointer-events:none;background:rgba(10,12,20,.94);border:1px solid var(--line);border-left:3px solid var(--amber);padding:10px 12px;min-width:220px;max-width:300px;border-radius:4px;box-shadow:0 10px 30px rgba(0,0,0,.5);font-size:13px;display:none;z-index:5}
+.card b{font-family:var(--display);font-size:18px;text-transform:uppercase;display:block;color:#fff;letter-spacing:.02em}
+.card .co{color:var(--amber2)}
+.card .m{color:var(--muted);font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;margin-top:6px}
+.card a{pointer-events:auto}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:16px}
+.panel section{display:flex;flex-direction:column;gap:8px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.seg button{background:transparent;color:var(--muted);border:0;padding:8px 12px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.seg button.on{background:var(--amber);color:#111}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:4px 10px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
+.chip.on{border-color:var(--amber);color:var(--amber2)}
+.chip.giants.on{border-color:var(--amber2)} .chip.big.on{border-color:var(--blue);color:var(--blue)} .chip.fallen.on{border-color:var(--red);color:var(--red)}
+.btn{background:var(--amber);color:#111;border:0;border-radius:4px;padding:11px 14px;font-family:var(--display);font-size:18px;text-transform:uppercase;letter-spacing:.03em;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--amber2);border:1px solid var(--amber)}
+.btn:disabled{opacity:.5;cursor:default}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+input[type=date],select{background:var(--bg2);color:var(--text);border:1px solid var(--line);border-radius:4px;padding:8px;font-family:var(--mono);font-size:12px}
+.you{font-size:13px;color:#cfd0d6}
+.you ul{margin:6px 0 0;padding-left:18px}
+.you li{margin:2px 0}
+.hint{font-size:12px;color:var(--muted)}
+.story{margin-top:80px;display:grid;gap:80px}
+.block{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:32px;align-items:start}
+.block .text{max-width:60ch}
+.verdict{border-left:3px solid var(--amber);padding:10px 14px;background:var(--panel);margin:14px 0;font-size:15px;color:#f3efe3}
+.verdict small{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--amber);margin-bottom:4px}
+.chart{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px}
+.chart svg{width:100%;height:auto;display:block}
+.chart .cap{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+table.t{border-collapse:collapse;font-size:13px;width:100%}
+table.t td,table.t th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+table.t th{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:normal}
+.num{font-family:var(--mono)}
+.pill{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted);margin-left:6px;vertical-align:middle}
+.pill.x{border-color:var(--red);color:var(--red)}
+footer{margin:80px 0 40px;color:var(--muted);font-size:13px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr}
+  .ringlabel .big{display:none}
+  header .chapter{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .block{grid-template-columns:1fr}
+  .grid2{grid-template-columns:1fr}
+  .ringbox{max-height:none}
+  .readout .n{font-size:26px}
+  .card{max-width:240px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="chapter">A data story · last data pull <span id="pulldate"></span></div>
+  <h1>Founders<br>by birthday</h1>
+  <div class="sub" id="subtitle"></div>
+</header>
+
+<div class="hero">
+  <div class="ringbox">
+    <canvas id="ring"></canvas>
+    <div class="ringlabel"><div class="mono" id="lensname">Lens · Zodiac</div><div class="big" id="lenshint">Each dot is a founder</div></div>
+    <div class="readout"><div class="n" id="count">0</div><div class="mono" id="countlabel">founders shown</div></div>
+    <div class="card" id="card"></div>
+  </div>
+  <aside class="panel">
+    <section>
+      <div class="mono">Lens</div>
+      <div class="seg" id="lens">
+        <button data-lens="zodiac" class="on">Zodiac</button><button data-lens="month">Month</button><button data-lens="school">School year</button>
+      </div>
+      <div class="row" id="schoolrow" style="display:none">
+        <select id="cutoff"></select><span class="hint">cutoff sits at the top</span>
+      </div>
+    </section>
+    <section>
+      <div class="mono">Chance</div>
+      <div class="row">
+        <button class="btn" id="shuffle">Shuffle the universe</button>
+        <button class="btn ghost" id="restore" disabled>Restore</button>
+      </div>
+      <div class="hint" id="shufflenote">Every founder jumps to a random birthday drawn from their own country-and-year birth statistics. Watch how often chance makes a tall bar.</div>
+    </section>
+    <section>
+      <div class="mono">Who is on the ring</div>
+      <div class="chips" id="ringchips"></div>
+      <div class="chips" id="erachips"></div>
+      <div class="chips" id="regionchips"></div>
+      <div class="chips" id="teamchips"></div>
+      <label class="hint"><input type="checkbox" id="links"> draw lines between cofounders</label>
+    </section>
+    <section>
+      <div class="mono">Find yourself</div>
+      <div class="row"><input type="date" id="you" value="2000-02-25"><span class="hint">year is ignored</span></div>
+      <div class="you" id="youout"></div>
+    </section>
+    <div class="legend"><span><i style="background:var(--amber2)"></i>Giants $100B+</span><span><i style="background:var(--blue)"></i>Big $20B+</span><span><i style="background:var(--red)"></i>Fallen</span><span><i style="background:var(--band);border:1px solid var(--blue2)"></i>95% chance band</span></div>
+  </aside>
+</div>
+
+<div class="story" id="story"></div>
+
+<footer>
+  <div class="chapter">Files</div>
+  <p>Data: <a href="data/founders.json">founders.json</a> · <a href="data/companies.csv">companies.csv</a> · <a href="data/stats.json">stats.json</a> · pre-registration: <a href="HYPOTHESES.md">HYPOTHESES.md</a>. Built from Wikipedia, Wikidata, companiesmarketcap.com, the Crunchbase Unicorn Board, Our World in Data's mirror of the Human Fertility Database, and Astro-Databank. Nothing here is investment advice, and nothing here is astrology advice either.</p>
+</footer>
+</div>
+
+<script>
+const DATA = /*DATA*/null/*DATA*/;
+</script>
+<script>
+(() => {
+const S = DATA.stats, F = DATA.founders, C = DATA.companies, META = DATA.meta;
+const SIGNS = S.signs_order, STARTS = S.sign_starts;
+const GLYPH = {Aries:"♈",Taurus:"♉",Gemini:"♊",Cancer:"♋",Leo:"♌",Virgo:"♍",Libra:"♎",Scorpio:"♏",Sagittarius:"♐",Capricorn:"♑",Aquarius:"♒",Pisces:"♓"};
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const MDAYS = [31,28,31,30,31,30,31,31,30,31,30,31], CUM=[0]; MDAYS.forEach(d=>CUM.push(CUM[CUM.length-1]+d));
+const doy = (m,d) => CUM[m-1] + Math.min(d, MDAYS[m-1]) - 1;
+const DOY_SIGN = new Array(365);
+STARTS.forEach(([m,d],i) => { const s=doy(m,d), n=doy(...STARTS[(i+1)%12]); for(let k=0;k<365;k++){ if(n>s ? (k>=s&&k<n) : (k>=s||k<n)) DOY_SIGN[k]=i; } });
+const DOY_MONTH = new Array(365); for(let m=0;m<12;m++) for(let k=CUM[m];k<CUM[m+1];k++) DOY_MONTH[k]=m;
+const fmtDate = k => { const m = DOY_MONTH[k]; return MONTHS[m].slice(0,3)+" "+(k-CUM[m]+1); };
+const COL = {giants:"#ffd27a", big:"#8fcbff", fallen:"#ff5c7a"};
+const REGIONS = META.regions, ERAS = META.eras;
+document.getElementById("pulldate").textContent = META.pulled;
+document.getElementById("subtitle").textContent = META.subtitle;
+
+// ---------- state ----------
+const state = { lens:"zodiac", cutoff: META.cutoffs[0], rings:new Set(["giants","big","fallen"]), eras:new Set(ERAS), regions:new Set(REGIONS), team:"all", links:false, shuffled:false, shuffleN:0, you:doy(2,25), hover:null, rot:0, targetRot:0 };
+F.forEach((f,i)=>{ f.i=i; f.cur=f.doy; f.from=f.doy; f.to=f.doy; f.era = f.companies[0].era; f.ring = f.companies.some(c=>c.ring==="giants")?"giants":(f.companies.some(c=>c.ring==="big")?"big":"fallen"); f.teamSize = Math.max(...f.companies.map(c=>c.team)); });
+const visible = () => F.filter(f => state.rings.has(f.ring) && state.eras.has(f.era) && state.regions.has(f.region) && (state.team==="all" || (state.team==="solo" ? f.teamSize===1 : f.teamSize>1)));
+
+// ---------- chips ----------
+function chips(el, items, set, cls, onchange){
+  const box = document.getElementById(el); box.innerHTML="";
+  items.forEach(it => { const b=document.createElement("button"); b.className="chip "+(cls?cls(it):"")+(set.has(it)?" on":""); b.textContent=it; b.onclick=()=>{ if(set.has(it)) set.delete(it); else set.add(it); b.classList.toggle("on"); onchange(); }; box.appendChild(b); });
+}
+chips("ringchips", ["giants","big","fallen"], state.rings, it=>it, update);
+chips("erachips", ERAS, state.eras, null, update);
+chips("regionchips", REGIONS, state.regions, null, update);
+{ const box=document.getElementById("teamchips"); [["all","solo + teams"],["solo","solo founders"],["team","cofounder teams"]].forEach(([v,l])=>{ const b=document.createElement("button"); b.className="chip"+(v==="all"?" on":""); b.textContent=l; b.onclick=()=>{ state.team=v; [...box.children].forEach(c=>c.classList.remove("on")); b.classList.add("on"); update(); }; box.appendChild(b); }); }
+document.getElementById("links").onchange = e => { state.links = e.target.checked; draw(); };
+document.querySelectorAll("#lens button").forEach(b => b.onclick = () => { document.querySelectorAll("#lens button").forEach(x=>x.classList.remove("on")); b.classList.add("on"); state.lens=b.dataset.lens; document.getElementById("schoolrow").style.display = state.lens==="school"?"flex":"none"; update(); });
+{ const sel=document.getElementById("cutoff"); META.cutoffs.forEach((c,i)=>{ const o=document.createElement("option"); o.value=i; o.textContent=`${c.country}: ${MONTHS[c.m-1].slice(0,3)} ${c.d}`; sel.appendChild(o); }); sel.onchange=()=>{ state.cutoff=META.cutoffs[+sel.value]; update(); }; }
+document.getElementById("you").onchange = e => { const [y,m,d]=e.target.value.split("-").map(Number); if(m&&d){ state.you=doy(m,d); update(); } };
+
+// ---------- lens geometry ----------
+// bin(k) -> 0..11 ; binLabel(i) ; binStartDoy(i) ; ring rotation so that the "top" bin starts at 12 o'clock
+function lensDef(){
+  if(state.lens==="zodiac") return { bins: SIGNS.map((s,i)=>({label:s, glyph:GLYPH[s], start:doy(...STARTS[i])})), of:k=>DOY_SIGN[k], top:0 };
+  if(state.lens==="month") return { bins: MONTHS.map((m,i)=>({label:m, glyph:"", start:CUM[i]})), of:k=>DOY_MONTH[k], top:0 };
+  const c = state.cutoff, cd = doy(c.m,c.d);
+  // bin 0 = born in the 30 days after the cutoff (oldest in class) ... bin 11 = born just before it (youngest)
+  const of = k => Math.min(11, Math.floor(((k - cd + 365) % 365) / 30.44));
+  const bins = []; for(let i=0;i<12;i++) bins.push({label: i===0?"Oldest in class":(i===11?"Youngest in class":""), name: i===0?"Oldest in class":(i===11?"Youngest in class":`${i} months after the cutoff`), glyph:"", start:(cd + Math.round(i*30.44))%365, sub:`+${i}`});
+  return { bins, of, top:0 };
+}
+const TAU = Math.PI*2;
+function angleOf(k, L){ // 12 o'clock = start of bin 0 of this lens; clockwise
+  const start = L.bins[0].start; return ((k - start + 365) % 365) / 365 * TAU - Math.PI/2;
+}
+
+// ---------- expected counts + chance bands (client-side Monte Carlo on the current selection) ----------
+function expectedCounts(list, L){
+  const exp = new Array(12).fill(0);
+  list.forEach(f => { for(let k=0;k<365;k++){ exp[L.of(k)] += f.p[k]; } });
+  return exp;
+}
+function monteCarlo(list, L, runs){
+  const counts = []; const n=list.length;
+  for(let r=0;r<runs;r++){ const c=new Array(12).fill(0); for(let j=0;j<n;j++){ c[L.of(sampleDay(list[j]))]++; } counts.push(c); }
+  const lo=[],hi=[],maxz=[]; const exp=expectedCounts(list,L);
+  for(let b=0;b<12;b++){ const col=counts.map(c=>c[b]).sort((a,b)=>a-b); lo.push(col[Math.floor(runs*0.025)]); hi.push(col[Math.floor(runs*0.975)]); }
+  counts.forEach(c => { let m=0; for(let b=0;b<12;b++){ m=Math.max(m, Math.abs(c[b]-exp[b])/Math.sqrt(exp[b]||1)); } maxz.push(m); });
+  return {lo,hi,exp,maxz:maxz.sort((a,b)=>a-b)};
+}
+function sampleDay(f){ // month by the founder's baseline, day uniform within the month
+  const u=Math.random(); let acc=0, m=11; for(let i=0;i<12;i++){ acc+=f.base[i]; if(u<acc){ m=i; break; } }
+  return CUM[m] + Math.floor(Math.random()*MDAYS[m]);
+}
+F.forEach(f => { f.p = new Float32Array(365); for(let m=0;m<12;m++){ for(let k=CUM[m];k<CUM[m+1];k++) f.p[k]=f.base[m]/MDAYS[m]; } });
+let MC = null, LAST = {list:[], L:null, obs:[]};
+
+// ---------- canvas ----------
+const cv = document.getElementById("ring"), ctx = cv.getContext("2d");
+let W=0,H=0,DPR=1, R0=0, CX=0, CY=0;
+function resize(){ const r=cv.parentElement.getBoundingClientRect(); DPR=Math.min(2,window.devicePixelRatio||1); W=r.width; H=r.height; cv.width=W*DPR; cv.height=H*DPR; ctx.setTransform(DPR,0,0,DPR,0,0); CX=W/2; CY=H/2; R0=Math.min(W,H)*0.235; layout(); draw(); }
+window.addEventListener("resize", resize);
+
+// stacking: per day, dots stack outward in order giants, big, fallen; store radial offset
+function layout(){
+  const perDay = new Array(365).fill(0).map(()=>[]);
+  const list = visible();
+  list.forEach(f => perDay[Math.round(f.cur)%365].push(f));
+  const scale = Math.min(W,H)/700;
+  perDay.forEach(ds => { ds.sort((a,b)=>({giants:0,big:1,fallen:2}[a.ring]-{giants:0,big:1,fallen:2}[b.ring]) || b.value-a.value); let off=0; ds.forEach(f => { f.r = f.ring==="giants" ? (3+2.2*Math.log10(Math.max(1,f.value/1e11)))*scale : (f.ring==="big" ? 2.2*scale : 2.4*scale); f.off = off + f.r; off += f.r*2 + 1.2*scale; }); });
+  const L = lensDef();
+  const obs = new Array(12).fill(0); list.forEach(f => obs[L.of(Math.round(f.cur)%365)]++);
+  LAST = {list, L, obs};
+  if(!MC || MC.key !== key(list,L)) { MC = monteCarlo(list, L, 1500); MC.key = key(list,L); }
+  document.getElementById("count").textContent = list.length;
+  document.getElementById("countlabel").textContent = state.shuffled ? `founders · shuffle #${state.shuffleN}` : "founders shown";
+}
+function key(list,L){ return list.length+"|"+state.lens+"|"+(state.cutoff.country)+"|"+[...state.rings].join(",")+"|"+[...state.eras].join(",")+"|"+[...state.regions].join(",")+"|"+state.team; }
+
+function draw(){
+  ctx.clearRect(0,0,W,H);
+  const {list, L, obs} = LAST; if(!L) return;
+  const scale = Math.min(W,H)/700;
+  const Rband = R0*1.42, Rband2 = R0*1.8, Rlabel = R0*1.84;
+  const maxC = Math.max(1, ...obs, ...MC.hi);
+  // wedges
+  for(let b=0;b<12;b++){
+    const a0 = angleOf(L.bins[b].start, L), a1 = angleOf(L.bins[(b+1)%12].start, L) + (b===11 ? 0 : 0);
+    const span = ((a1 - a0) + TAU*2) % TAU || TAU/12;
+    const gap = 0.012;
+    // chance band
+    const rLo = Rband + (Rband2-Rband)*MC.lo[b]/maxC, rHi = Rband + (Rband2-Rband)*MC.hi[b]/maxC;
+    ctx.beginPath(); ctx.arc(CX,CY,rHi,a0+gap,a0+span-gap); ctx.arc(CX,CY,rLo,a0+span-gap,a0+gap,true); ctx.closePath();
+    ctx.fillStyle = "rgba(143,203,255,.17)"; ctx.fill(); ctx.strokeStyle="rgba(143,203,255,.35)"; ctx.lineWidth=1; ctx.stroke();
+    // observed bar: a narrow spoke from the base to the observed count
+    const rObs = Rband + (Rband2-Rband)*obs[b]/maxC;
+    const bw = span*0.16, bm = a0 + span/2;
+    ctx.beginPath(); ctx.arc(CX,CY,rObs,bm-bw,bm+bw); ctx.arc(CX,CY,Rband,bm+bw,bm-bw,true); ctx.closePath();
+    const outside = obs[b] > MC.hi[b] || obs[b] < MC.lo[b];
+    ctx.fillStyle = state.shuffled ? "rgba(242,169,59,.5)" : (outside ? "rgba(255,210,122,.95)" : "rgba(242,169,59,.8)"); ctx.fill();
+    // expected tick
+    const rE = Rband + (Rband2-Rband)*MC.exp[b]/maxC;
+    ctx.beginPath(); ctx.arc(CX,CY,rE,a0+gap,a0+span-gap); ctx.strokeStyle="rgba(233,230,220,.55)"; ctx.lineWidth=1; ctx.setLineDash([3,3]); ctx.stroke(); ctx.setLineDash([]);
+    // divider
+    ctx.beginPath(); ctx.moveTo(CX+Math.cos(a0)*R0*0.92, CY+Math.sin(a0)*R0*0.92); ctx.lineTo(CX+Math.cos(a0)*Rlabel, CY+Math.sin(a0)*Rlabel); ctx.strokeStyle="rgba(255,255,255,.07)"; ctx.stroke();
+    // label
+    const am = a0 + span/2, lx = CX+Math.cos(am)*(Rlabel+12*scale), ly = CY+Math.sin(am)*(Rlabel+12*scale);
+    ctx.save(); ctx.translate(lx,ly); ctx.textAlign="center"; ctx.textBaseline="middle";
+    const lab = L.bins[b].label, sub = L.bins[b].sub;
+    ctx.fillStyle = "#e9e6dc"; ctx.font = `700 ${Math.max(10,12*scale)}px ${getComputedStyle(document.body).getPropertyValue("--display")}`;
+    if(lab){ ctx.fillText((L.bins[b].glyph? L.bins[b].glyph+" ":"")+lab.toUpperCase(), 0, -7*scale); }
+    ctx.fillStyle = "#8c909c"; ctx.font = `${Math.max(9,10*scale)}px ${getComputedStyle(document.body).getPropertyValue("--mono")}`;
+    ctx.fillText(`${obs[b]} / ${MC.exp[b].toFixed(0)}` + (sub? "  "+sub:""), 0, 8*scale);
+    ctx.restore();
+  }
+  // base ring
+  ctx.beginPath(); ctx.arc(CX,CY,R0-2,0,TAU); ctx.strokeStyle="rgba(255,255,255,.12)"; ctx.lineWidth=1; ctx.stroke();
+  // cofounder links
+  const linkFor = (f) => f.companies.flatMap(c => c.members.filter(j => j!==f.i).map(j => [f.i, j, c.ring]));
+  const drawLink = (i,j,ring,alpha) => { const a=F[i], b=F[j]; const A=angleOf(Math.round(a.cur)%365,L), B=angleOf(Math.round(b.cur)%365,L); const ax=CX+Math.cos(A)*(R0+a.off), ay=CY+Math.sin(A)*(R0+a.off), bx=CX+Math.cos(B)*(R0+b.off), by=CY+Math.sin(B)*(R0+b.off); ctx.beginPath(); ctx.moveTo(ax,ay); ctx.quadraticCurveTo(CX+(ax+bx-2*CX)*0.12, CY+(ay+by-2*CY)*0.12, bx, by); ctx.strokeStyle = (ring==="fallen"? `rgba(255,92,122,${alpha})` : `rgba(242,169,59,${alpha})`); ctx.lineWidth=1; ctx.stroke(); };
+  const vis = new Set(list.map(f=>f.i));
+  if(state.links){ list.forEach(f => linkFor(f).forEach(([i,j,r]) => { if(i<j && vis.has(j)) drawLink(i,j,r,0.18); })); }
+  if(state.hover && vis.has(state.hover.i)){ linkFor(state.hover).forEach(([i,j,r]) => { if(vis.has(j)) drawLink(i,j,r,0.9); }); }
+  // dots
+  list.forEach(f => {
+    const a = angleOf(f.cur, L); const x = CX+Math.cos(a)*(R0+f.off), y = CY+Math.sin(a)*(R0+f.off);
+    f.x=x; f.y=y;
+    ctx.beginPath(); ctx.arc(x,y,f.r,0,TAU);
+    ctx.fillStyle = COL[f.ring]; ctx.globalAlpha = f.ring==="giants"?0.95:0.78; ctx.fill(); ctx.globalAlpha=1;
+    if(f.ring==="giants"){ ctx.beginPath(); ctx.arc(x,y,f.r*2.2,0,TAU); ctx.fillStyle="rgba(255,210,122,.08)"; ctx.fill(); }
+  });
+  if(state.hover && vis.has(state.hover.i)){ const f=state.hover; ctx.beginPath(); ctx.arc(f.x,f.y,f.r+4,0,TAU); ctx.strokeStyle="#fff"; ctx.lineWidth=1.5; ctx.stroke(); state.hover.companies.forEach(c => c.members.forEach(j => { const g=F[j]; if(j!==f.i && vis.has(j)){ ctx.beginPath(); ctx.arc(g.x,g.y,g.r+3,0,TAU); ctx.strokeStyle="rgba(255,255,255,.7)"; ctx.lineWidth=1; ctx.stroke(); } })); }
+  // you marker
+  { const a=angleOf(state.you,L); const x1=CX+Math.cos(a)*(R0-14*scale), y1=CY+Math.sin(a)*(R0-14*scale), x2=CX+Math.cos(a)*(Rband-6), y2=CY+Math.sin(a)*(Rband-6); ctx.beginPath(); ctx.moveTo(x1,y1); ctx.lineTo(x2,y2); ctx.strokeStyle="#6fe3b4"; ctx.lineWidth=1.5; ctx.stroke(); ctx.beginPath(); ctx.arc(x1,y1,4,0,TAU); ctx.fillStyle="#6fe3b4"; ctx.fill(); ctx.font=`${10*scale}px ${getComputedStyle(document.body).getPropertyValue("--mono")}`; ctx.fillStyle="#6fe3b4"; ctx.textAlign="center"; ctx.fillText("YOU", CX+Math.cos(a)*(R0-28*scale), CY+Math.sin(a)*(R0-28*scale)+4); }
+  // centre text
+  ctx.textAlign="center"; ctx.fillStyle="#e9e6dc"; ctx.font=`700 ${Math.max(14,26*scale)}px ${getComputedStyle(document.body).getPropertyValue("--display")}`;
+  const maxz = (() => { let m=0; for(let b=0;b<12;b++){ m=Math.max(m, Math.abs(obs[b]-MC.exp[b])/Math.sqrt(MC.exp[b]||1)); } return m; })();
+  const pct = MC.maxz.filter(z=>z>=maxz).length / MC.maxz.length;
+  ctx.fillText((state.shuffled?"THIS SHUFFLE":"TALLEST BAR"), CX, CY-10*scale);
+  ctx.fillStyle="#f2a93b"; ctx.font=`700 ${Math.max(22,40*scale)}px ${getComputedStyle(document.body).getPropertyValue("--display")}`;
+  const top = obs.indexOf(Math.max(...obs)); ctx.fillText((L.bins[top].name||L.bins[top].label).toUpperCase(), CX, CY+26*scale);
+  ctx.fillStyle="#8c909c"; ctx.font=`${Math.max(9,11*scale)}px ${getComputedStyle(document.body).getPropertyValue("--mono")}`;
+  ctx.fillText(`${obs[top]} founders vs ${MC.exp[top].toFixed(0)} expected`, CX, CY+44*scale);
+  ctx.fillText(`${(pct*100).toFixed(0)}% of shuffles beat it`, CX, CY+58*scale);
+}
+
+// ---------- animation ----------
+let anim = null;
+function animateTo(getTarget, done){
+  const list = visible(); const t0 = performance.now(); const D=1300;
+  list.forEach(f => { f.from=f.cur; f.to=getTarget(f); let d=((f.to-f.from)%365+365)%365; if(d>182) d-=365; f.delta=d; });
+  cancelAnimationFrame(anim);
+  const step = now => { const t=Math.min(1,(now-t0)/D); const e = t<0.5 ? 2*t*t : -1+(4-2*t)*t; list.forEach(f => { f.cur = ((f.from + f.delta*e)%365+365)%365; }); layoutLight(); draw(); if(t<1) anim=requestAnimationFrame(step); else { layout(); draw(); done&&done(); } };
+  anim = requestAnimationFrame(step);
+}
+function layoutLight(){ // keep offsets from the last full layout, recompute obs for the centre readout
+  const {list,L} = LAST; const obs=new Array(12).fill(0); list.forEach(f=>obs[L.of(Math.round(f.cur)%365)]++); LAST.obs=obs; }
+document.getElementById("shuffle").onclick = () => { state.shuffled=true; state.shuffleN++; document.getElementById("restore").disabled=false; animateTo(f => sampleDay(f)); };
+document.getElementById("restore").onclick = () => { state.shuffled=false; document.getElementById("restore").disabled=true; animateTo(f => f.doy); };
+
+// ---------- hover ----------
+const card = document.getElementById("card");
+cv.addEventListener("mousemove", e => {
+  const r=cv.getBoundingClientRect(); const mx=e.clientX-r.left, my=e.clientY-r.top; let best=null, bd=10;
+  LAST.list.forEach(f => { const d=Math.hypot(f.x-mx,f.y-my); if(d<bd+f.r){ bd=d; best=f; } });
+  if(best!==state.hover){ state.hover=best; draw(); showCard(best, mx, my); } else if(best){ positionCard(mx,my); }
+});
+cv.addEventListener("mouseleave", () => { state.hover=null; card.style.display="none"; draw(); });
+cv.addEventListener("click", e => { if(state.hover && state.hover.url) window.open(state.hover.url, "_blank"); });
+function positionCard(mx,my){ const r=cv.getBoundingClientRect(); card.style.left = Math.min(r.width-310, mx+14)+"px"; card.style.top = Math.max(8, my-20)+"px"; }
+function showCard(f,mx,my){
+  if(!f){ card.style.display="none"; return; }
+  const cos = f.companies.map(c => `<span class="co">${c.name}</span> <span class="pill ${c.ring==="fallen"?"x":""}">${c.ring==="fallen"?("fallen "+(c.outcome_year||"")):("$"+(c.value/1e9).toFixed(0)+"B")}</span>`).join("<br>");
+  const extra = [f.moon? `Moon ${f.moon.join(" or ")}${f.moon.length>1?" (no birth time)":""}`:null, f.rising? `Rising ${f.rising} (Astro-Databank ${f.rising_rating})`:null].filter(Boolean).join(" · ");
+  card.innerHTML = `<b>${f.name}</b>${cos}<div class="m">${f.bday_h} · ${f.sign} ${GLYPH[f.sign]}${f.place? " · born "+f.place:""}</div>${extra?`<div class="m">${extra}</div>`:""}<div class="m">${f.src==="wikidata"?"Birthday from Wikidata":"Birthday from Wikipedia"} · <a href="${f.url}" target="_blank">source</a></div>`;
+  card.style.display="block"; positionCard(mx,my);
+}
+
+// ---------- find yourself ----------
+function youList(){
+  const L = lensDef(); const k=state.you; const sign = SIGNS[DOY_SIGN[k]];
+  const near = visible().filter(f => { let d=Math.abs(f.doy-k); d=Math.min(d,365-d); return d<=3; }).sort((a,b)=>b.value-a.value);
+  const obs = LAST.obs[L.of(k)], exp = MC? MC.exp[L.of(k)] : 0;
+  const binName = L.bins[L.of(k)].name || L.bins[L.of(k)].label;
+  document.getElementById("youout").innerHTML = `<div>${fmtDate(k)} · <b>${sign} ${GLYPH[sign]}</b> · this wedge holds <span class="num">${obs}</span> founders, chance expects <span class="num">${exp.toFixed(1)}</span> (${binName}).</div>` +
+    (near.length ? `<div class="hint" style="margin-top:6px">Born within 3 days of you:</div><ul>${near.slice(0,12).map(f=>`<li>${f.name} <span class="hint">${f.companies[0].name}, ${f.bday_h}</span></li>`).join("")}${near.length>12?`<li class="hint">and ${near.length-12} more</li>`:""}</ul>` : `<div class="hint" style="margin-top:6px">No founder on the ring was born within 3 days of you.</div>`);
+}
+
+function update(){ layout(); draw(); youList(); document.getElementById("lensname").textContent = "Lens · " + (state.lens==="zodiac"?"Zodiac":(state.lens==="month"?"Month":"School year, cutoff "+state.cutoff.country)); document.getElementById("lenshint").textContent = state.lens==="school" ? "Oldest in class at the top, clockwise to youngest" : "Each dot is a founder, placed on their birthday"; }
+
+// ---------- story ----------
+function bars(test, opts={}){
+  const bins = test.bins, obs=test.observed, exp=test.expected, lo=test.band_lo||[], hi=test.band_hi||[];
+  const W=640, H=240, pad={l:34,r:10,t:16,b:54}; const n=bins.length; const bw=(W-pad.l-pad.r)/n; const maxv=Math.max(...obs,...exp,...(hi.length?hi:[0]))*1.1;
+  const y = v => pad.t + (H-pad.t-pad.b)*(1-v/maxv);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${test.label}">`;
+  [0,0.5,1].forEach(t => { const v=Math.round(maxv*t); s+=`<line x1="${pad.l}" x2="${W-pad.r}" y1="${y(v)}" y2="${y(v)}" stroke="#1e2230"/><text x="${pad.l-6}" y="${y(v)+4}" fill="#5a5e6a" font-size="10" text-anchor="end" font-family="var(--mono)">${v}</text>`; });
+  bins.forEach((b,i) => {
+    const x = pad.l + i*bw;
+    if(hi.length) s+=`<rect x="${x+bw*0.14}" y="${y(hi[i])}" width="${bw*0.72}" height="${Math.max(1,y(lo[i])-y(hi[i]))}" fill="rgba(143,203,255,.16)" stroke="rgba(143,203,255,.35)"/>`;
+    const out = hi.length && (obs[i]>hi[i] || obs[i]<lo[i]);
+    s+=`<rect x="${x+bw*0.3}" y="${y(obs[i])}" width="${bw*0.4}" height="${Math.max(1,y(0)-y(obs[i]))}" fill="${opts.color||(out?"#f2a93b":"rgba(242,169,59,.6)")}"/>`;
+    s+=`<line x1="${x+bw*0.14}" x2="${x+bw*0.86}" y1="${y(exp[i])}" y2="${y(exp[i])}" stroke="#e9e6dc" stroke-dasharray="3 3"/>`;
+    s+=`<text x="${x+bw/2}" y="${H-pad.b+16}" fill="#e9e6dc" font-size="${n>8?10:11}" text-anchor="middle" font-family="var(--display)" font-weight="700">${(GLYPH[b]? GLYPH[b]+" ":"")+String(b).toUpperCase().slice(0,n>8?4:10)}</text>`;
+    s+=`<text x="${x+bw/2}" y="${H-pad.b+30}" fill="#8c909c" font-size="9.5" text-anchor="middle" font-family="var(--mono)">${Number.isInteger(obs[i])?obs[i]:obs[i].toFixed(0)}/${exp[i].toFixed(0)}</text>`;
+  });
+  s+=`</svg>`;
+  return s;
+}
+function twoGroups(labels, a, b, na, nb, nameA, nameB){
+  const W=640,H=220,pad={l:34,r:10,t:16,b:44}; const n=labels.length; const bw=(W-pad.l-pad.r)/n; const pa=a.map(v=>v/na*100), pb=b.map(v=>v/nb*100); const maxv=Math.max(...pa,...pb)*1.15; const y=v=>pad.t+(H-pad.t-pad.b)*(1-v/maxv);
+  let s=`<svg viewBox="0 0 ${W} ${H}">`; [0,0.5,1].forEach(t=>{const v=(maxv*t).toFixed(0); s+=`<line x1="${pad.l}" x2="${W-pad.r}" y1="${y(v)}" y2="${y(v)}" stroke="#1e2230"/><text x="${pad.l-6}" y="${y(v)+4}" fill="#5a5e6a" font-size="10" text-anchor="end" font-family="var(--mono)">${v}%</text>`;});
+  labels.forEach((l,i)=>{ const x=pad.l+i*bw; s+=`<rect x="${x+bw*0.16}" y="${y(pb[i])}" width="${bw*0.32}" height="${Math.max(1,y(0)-y(pb[i]))}" fill="rgba(143,203,255,.7)"/><rect x="${x+bw*0.52}" y="${y(pa[i])}" width="${bw*0.32}" height="${Math.max(1,y(0)-y(pa[i]))}" fill="#ff5c7a"/><text x="${x+bw/2}" y="${H-pad.b+16}" fill="#e9e6dc" font-size="10" text-anchor="middle" font-family="var(--display)" font-weight="700">${(GLYPH[l]?GLYPH[l]+" ":"")+l.toUpperCase().slice(0,4)}</text>`; });
+  s+=`<rect x="${pad.l}" y="${H-14}" width="10" height="10" fill="rgba(143,203,255,.7)"/><text x="${pad.l+14}" y="${H-5}" fill="#8c909c" font-size="10" font-family="var(--mono)">${nameB} (n=${nb})</text><rect x="${pad.l+190}" y="${H-14}" width="10" height="10" fill="#ff5c7a"/><text x="${pad.l+204}" y="${H-5}" fill="#8c909c" font-size="10" font-family="var(--mono)">${nameA} (n=${na})</text></svg>`;
+  return s;
+}
+function measureRows(ms){ return `<table class="t"><tr><th>Measure</th><th>Observed</th><th>Chance (95% range)</th><th>p</th></tr>${ms.map(m=>`<tr><td>${m.name}</td><td class="num">${(m.observed*100).toFixed(1)}%</td><td class="num">${(m.null_mean*100).toFixed(1)}% (${(m.band_lo*100).toFixed(1)} to ${(m.band_hi*100).toFixed(1)})</td><td class="num">${m.p_two_sided.toFixed(2)}</td></tr>`).join("")}</table>`; }
+const T = S.tests; const story = document.getElementById("story"); const pct = p => (p*100).toFixed(0)+"%";
+const blocks = [];
+blocks.push({ch:"01 — The ring", h:"Every founder, one circle", text: META.story.ring, chart: `<div class="chart">${bars(T.signs)}<div class="cap">Sun sign · bars = observed · dashed = expected from each founder's birth-country and birth-year statistics · shaded = 95% of ${S.n_sim.toLocaleString()} simulated universes</div></div>`, verdict: T.signs.verdict, vtag:"Pre-registered test 1"});
+blocks.push({ch:"02 — The tallest bar", h:"Your eye finds the peak. So does chance.", text: META.story.tallest, chart: `<div class="chart"><table class="t"><tr><th>Population</th><th>Tallest</th><th>Observed / expected</th><th>Max deviation (z)</th><th>Chance beats it</th></tr>${["signs","signs_giants","signs_fallen"].filter(k=>T[k]).map(k=>`<tr><td>${T[k].label}</td><td>${T[k].tallest}</td><td class="num">${T[k].observed[T[k].bins.indexOf(T[k].tallest)]} / ${T[k].expected[T[k].bins.indexOf(T[k].tallest)].toFixed(1)}</td><td class="num">${T[k].max_dev_z}</td><td class="num">${pct(T[k].p_max_dev)}</td></tr>`).join("")}</table><div class="cap">Look-elsewhere corrected: the test statistic is the biggest gap among all 12 signs, compared with the biggest gap in each simulated universe · chi-square p (Monte Carlo) for all 12 bins = ${T.signs.p_chi2_mc.toFixed(2)}</div></div>`, verdict: T.signs_giants.verdict, vtag:"Pre-registered test 2 · Giants only"});
+blocks.push({ch:"03 — Elements and modalities", h:"Fewer bins, more power", text: META.story.elements, chart: `<div class="grid2"><div class="chart">${bars(T.elements)}<div class="cap">Fire · Earth · Air · Water</div></div><div class="chart">${bars(T.modalities)}<div class="cap">Cardinal · Fixed · Mutable</div></div></div>`, verdict: T.elements.verdict + " " + T.modalities.verdict, vtag:"Pre-registered test 3"});
+if(T.pairs) blocks.push({ch:"04 — Cofounders", h:"Do compatible signs build companies together?", text: META.story.pairs, chart:`<div class="chart">${measureRows(T.pairs.measures)}<div class="cap">${T.pairs.n_pairs} cofounder pairs in ${T.pairs.n_teams} teams · null = the same founders shuffled into teams of the same sizes, ${S.n_sim.toLocaleString()} times · "compatible" = Fire with Air, Earth with Water, or the same element</div></div>`, verdict:T.pairs.verdict, vtag:"Pre-registered test 4"});
+if(T.relative_age){ const ra=T.relative_age; blocks.push({ch:"05 — The school year", h:"The one birthday effect science takes seriously", text: META.story.school, chart:`<div class="chart">${bars({bins:["0","1","2","3","4","5","6","7","8","9","10","11"],observed:ra.hist,expected:ra.expected_hist,label:"Months older than the youngest classmate"})}<div class="cap">Months older than the youngest child in the school cohort (0 = born just before the cutoff, 11 = just after it) · ${ra.n} founders with a sourced national cutoff · countries: ${ra.countries_covered.join(", ")}</div></div>`, verdict: ra.verdict, vtag:"Pre-registered test 5"}); }
+if(T.fallen_vs_thriving){ const fv=T.fallen_vs_thriving; blocks.push({ch:"06 — The fallen", h:"Does failure have a sign?", text: META.story.fallen, chart:`<div class="chart">${twoGroups(SIGNS, fv.signs_fallen, fv.signs_thriving, fv.n_fallen, fv.n_thriving, "fallen", "thriving")}<div class="cap">Share of founders by sign · permutation p = ${fv.p_perm.toFixed(2)} (signs), ${fv.p_perm_elements.toFixed(2)} (elements)</div></div>`, verdict: fv.verdict, vtag:"Pre-registered test 6"}); }
+if(T.breakups){ const b=T.breakups; blocks.push({ch:"07 — Breakups", h:"Pairs that split vs pairs that stayed", text: META.story.breakups, chart:`<div class="chart"><table class="t"><tr><th>Pairs</th><th>n</th><th>"Compatible" by element</th></tr><tr><td>Broke up (ouster, lawsuit, public feud)</td><td class="num">${b.n_broke}</td><td class="num">${pct(b.compatible_broke)}</td></tr><tr><td>Stayed together</td><td class="num">${b.n_intact}</td><td class="num">${pct(b.compatible_intact)}</td></tr></table><div class="cap">Difference ${(b.diff*100).toFixed(1)} points · 95% chance range ${(b.band_lo*100).toFixed(1)} to ${(b.band_hi*100).toFixed(1)} · p = ${b.p_two_sided.toFixed(2)}</div>${META.breakup_rows}</div>`, verdict: b.verdict, vtag:"Pre-registered test 7"}); }
+if(T.moon){ blocks.push({ch:"08 — Moon and rising", h:"The rest of the chart", text: META.story.moon, chart:`<div class="chart">${bars(T.moon, {color:"rgba(143,203,255,.75)"})}<div class="cap">Moon sign from the Swiss Ephemeris · ${T.moon.ambiguous} of ${T.moon.n} founders have no birth time and sit on a day the Moon changed sign, so they count half in each · expected = uniform (the Moon's 27-day cycle ignores the calendar)</div>${META.rising_rows}</div>`, verdict: T.moon.verdict, vtag:"Exploratory"}); }
+blocks.push({ch:"09 — How we counted", h:"Methods and coverage", text: META.story.methods, chart: META.methods_table, verdict:null});
+story.innerHTML = blocks.map(b => `<section class="block"><div class="text"><div class="chapter">${b.ch}</div><h2>${b.h}</h2>${b.text}${b.verdict?`<div class="verdict"><small>${b.vtag}</small>${b.verdict}</div>`:""}</div><div>${b.chart}</div></section>`).join("");
+
+resize(); update();
+})();
+</script>
+</body>
+</html>

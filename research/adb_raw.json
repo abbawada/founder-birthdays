@@ -1,0 +1,692 @@
+{
+ "Jobs,_Steve": {
+  "born": "24 February 1955 at 19:15 (= 7:15 PM )",
+  "place": "San Francisco, California, 37n47, 122w25",
+  "tz": "PST h8w (is standard time)",
+  "rr": "AA"
+ },
+ "Gates,_Bill": {
+  "born": "28 October 1955 at 22:00 (= 10:00 PM )",
+  "place": "Seattle, Washington, 47n36, 122w20",
+  "tz": "PST h8w (is standard time)",
+  "rr": "A"
+ },
+ "Wozniak,_Steve": {
+  "born": "11 August 1950 at 09:45 (= 09:45 AM )",
+  "place": "San Jose, California, 37n20, 121w54",
+  "tz": "PDT h7w (is daylight saving time)",
+  "rr": "AA"
+ },
+ "Bezos,_Jeff": {
+  "born": "12 January 1964",
+  "place": "Albuquerque, New Mexico, 35n05, 106w39",
+  "tz": "MST h7w (is standard time)",
+  "rr": "X"
+ },
+ "Musk,_Elon": {
+  "born": "28 June 1971 at 07:30 (= 07:30 AM )",
+  "place": "Pretoria, South Africa, 25s45, 28e10",
+  "tz": "SAST h2e (is standard time)",
+  "rr": "B"
+ },
+ "Zuckerberg,_Mark": {
+  "born": "14 May 1984",
+  "place": "White Plains, New York, 41n02, 73w46",
+  "tz": "EDT h4w (is daylight saving time)",
+  "rr": "X"
+ },
+ "Allen,_Paul": {
+  "none": true
+ },
+ "Ellison,_Larry": {
+  "born": "17 August 1944",
+  "place": "Manhattan, New York, 40n46, 73w59",
+  "tz": "EWT h4w (is war time)",
+  "rr": "X"
+ },
+ "Page,_Larry": {
+  "born": "26 March 1973",
+  "place": "Lansing, Michigan, 42n44, 84w33",
+  "tz": "EST h5w (is standard time)",
+  "rr": "X"
+ },
+ "Brin,_Sergey": {
+  "born": "21 August 1973",
+  "place": "Moscow, Russia, 55n45, 37e35",
+  "tz": "MSK h3e (is standard time)",
+  "rr": "X"
+ },
+ "Wayne,_Ronald": {
+  "born": "17 May 1934 at 02:58 (= 02:58 AM )",
+  "place": "Cleveland, Ohio, 41n30, 81w42",
+  "tz": "EST h5w (is standard time)",
+  "rr": "AA"
+ },
+ "Saverin,_Eduardo": {
+  "none": true
+ },
+ "Moskovitz,_Dustin": {
+  "none": true
+ },
+ "Hughes,_Chris": {
+  "none": true
+ },
+ "Amodei,_Dario": {
+  "born": "13 January 1983",
+  "place": "San Francisco, California, 37n47, 122w25",
+  "tz": "PST h8w (is standard time)",
+  "rr": "X"
+ },
+ "Amodei,_Daniela": {
+  "born": "14 August 1987",
+  "place": "San Francisco, California, 37n47, 122w25",
+  "tz": "PDT h7w (is daylight saving time)",
+  "rr": "X"
+ },
+ "Altman,_Sam": {
+  "born": "22 April 1985 at 05:00 (= 05:00 AM )",
+  "place": "Chicago, Illinois, 41n51, 87w39",
+  "tz": "CST h6w (is standard time)",
+  "rr": "A"
+ },
+ "Bankman-Fried,_Sam": {
+  "born": "5 March 1992 at 09:51 (= 09:51 AM )",
+  "place": "Stanford, California, 37n25, 122w10",
+  "tz": "PST h8w (is standard time)",
+  "rr": "AA"
+ },
+ "Hastings,_Reed": {
+  "none": true
+ },
+ "Benioff,_Marc": {
+  "none": true
+ },
+ "Huang,_Jen-Hsun": {
+  "none": true
+ },
+ "Huang,_Jensen": {
+  "none": true
+ },
+ "McCollum,_Andrew": {
+  "none": true
+ },
+ "Sanders,_Jerry": {
+  "born": "12 September 1936",
+  "place": "Chicago, Illinois, 41n51, 87w39",
+  "tz": "CST h6w (is standard time)",
+  "rr": "X"
+ },
+ "Walton,_Sam": {
+  "born": "29 March 1918 at 21:00 (= 9:00 PM )",
+  "place": "Kingfisher, Oklahoma, 35n52, 97w56",
+  "tz": "CST h6w (is standard time)",
+  "rr": "C"
+ },
+ "Noyce,_Robert": {
+  "born": "12 December 1927 at 22:55 (= 10:55 PM )",
+  "place": "Burlington, Iowa, 40n48, 91w07",
+  "tz": "CST h6w (is standard time)",
+  "rr": "AA"
+ },
+ "Moore,_Gordon": {
+  "none": true
+ },
+ "Thiel,_Peter": {
+  "none": true
+ },
+ "Karp,_Alex": {
+  "none": true
+ },
+ "Lonsdale,_Joe": {
+  "none": true
+ },
+ "Ma,_Huateng": {
+  "none": true
+ },
+ "Ma,_Jack": {
+  "none": true
+ },
+ "Miner,_Bob": {
+  "none": true
+ },
+ "Lerner,_Sandy": {
+  "none": true
+ },
+ "Marcus,_Bernard": {
+  "born": "12 May 1929",
+  "place": "Newark, New Jersey, 40n44,  74w10 ",
+  "tz": "EDT h4w (is daylight saving time)",
+  "rr": "X"
+ },
+ "Blank,_Arthur": {
+  "none": true
+ },
+ "Brill,_Ron": {
+  "none": true
+ },
+ "Farrah,_Pat": {
+  "none": true
+ },
+ "Langone,_Ken": {
+  "none": true
+ },
+ "Kurtz,_George": {
+  "none": true
+ },
+ "Alperovitch,_Dmitri": {
+  "none": true
+ },
+ "Randolph,_Marc": {
+  "none": true
+ },
+ "Bechtolsheim,_Andy": {
+  "none": true
+ },
+ "Cheriton,_David": {
+  "none": true
+ },
+ "Sutardja,_Sehat": {
+  "none": true
+ },
+ "Dai,_Weili": {
+  "none": true
+ },
+ "Lütke,_Tobias": {
+  "none": true
+ },
+ "Stata,_Ray": {
+  "none": true
+ },
+ "Lorber,_Matthew": {
+  "none": true
+ },
+ "Harari,_Eli": {
+  "none": true
+ },
+ "Mehrotra,_Sanjay": {
+  "none": true
+ },
+ "Riordan,_Michael_L.": {
+  "none": true
+ },
+ "Ortega,_Amancio": {
+  "born": "28 March 1936",
+  "place": "León, Spain, 42n36,  5w34 ",
+  "tz": "GMT h0e (is standard time)",
+  "rr": "X"
+ },
+ "Mera,_Rosalía": {
+  "none": true
+ },
+ "Jacobs,_Irwin_M.": {
+  "none": true
+ },
+ "Viterbi,_Andrew": {
+  "none": true
+ },
+ "Kapito,_Robert_S.": {
+  "none": true
+ },
+ "Fink,_Larry": {
+  "born": "2 November 1952 at 21:47  (= 9:47 PM )",
+  "place": "Los Angeles, California, 34n03,  118w15 ",
+  "tz": "PST h8w (is standard time)",
+  "rr": "AA"
+ },
+ "Wagner,_Susan": {
+  "none": true
+ },
+ "Son,_Masayoshi": {
+  "none": true
+ },
+ "Rales,_Steven": {
+  "none": true
+ },
+ "Rales,_Mitchell": {
+  "none": true
+ },
+ "Stanton,_John_W.": {
+  "none": true
+ },
+ "Zeng,_Robin": {
+  "none": true
+ },
+ "Shugart,_Alan": {
+  "none": true
+ },
+ "Conner,_Finis": {
+  "born": "28 July 1943",
+  "place": "Gadsden, Alabama, 34n01,  86w00 ",
+  "tz": "CWT h5w (is war time)",
+  "rr": "X"
+ },
+ "Luddy,_Fred": {
+  "none": true
+ },
+ "Schwab,_Charles": {
+  "none": true
+ },
+ "Cammarata,_Bernard": {
+  "none": true
+ },
+ "Peterffy,_Thomas": {
+  "none": true
+ },
+ "Peterson,_Peter_G.": {
+  "none": true
+ },
+ "Schwarzman,_Stephen": {
+  "none": true
+ },
+ "Camp,_Garrett": {
+  "none": true
+ },
+ "Kalanick,_Travis": {
+  "none": true
+ },
+ "Xie,_Ken": {
+  "none": true
+ },
+ "Fairbank,_Richard": {
+  "none": true
+ },
+ "Moghadam,_Hamid": {
+  "none": true
+ },
+ "Baldwin,_Jerry": {
+  "none": true
+ },
+ "Siegl,_Zev": {
+  "none": true
+ },
+ "Bowker,_Gordon": {
+  "none": true
+ },
+ "Walker,_Jay": {
+  "none": true
+ },
+ "Prince,_Matthew": {
+  "none": true
+ },
+ "Zatlyn,_Michelle": {
+  "none": true
+ },
+ "Huang,_Colin": {
+  "none": true
+ },
+ "Gou,_Terry": {
+  "none": true
+ },
+ "He,_Xiangjian": {
+  "none": true
+ },
+ "Clark,_Jack": {
+  "none": true
+ },
+ "Brown,_Tom": {
+  "none": true
+ },
+ "Olah,_Chris": {
+  "none": true
+ },
+ "Kaplan,_Jared": {
+  "none": true
+ },
+ "Brockman,_Greg": {
+  "none": true
+ },
+ "Sutskever,_Ilya": {
+  "none": true
+ },
+ "Pierce,_Brock": {
+  "born": "14 November 1980 at 13:17  (= 1:17 PM )",
+  "place": "St.Louis Park, Minnesota, 44n57,  93w21 ",
+  "tz": "CST h6w (is standard time)",
+  "rr": "AA"
+ },
+ "Collins,_Reeve": {
+  "none": true
+ },
+ "Zhang,_Yiming": {
+  "none": true
+ },
+ "Liang,_Rubo": {
+  "none": true
+ },
+ "Ghodsi,_Ali": {
+  "none": true
+ },
+ "Zaharia,_Matei": {
+  "none": true
+ },
+ "Stoica,_Ion": {
+  "none": true
+ },
+ "Collison,_Patrick": {
+  "none": true
+ },
+ "Collison,_John": {
+  "none": true
+ },
+ "Storonsky,_Nikolay": {
+  "none": true
+ },
+ "Dorsey,_Jack": {
+  "born": "19 November 1976 at 01:43  (= 01:43 AM )",
+  "place": "St.Louis, Missouri, 38n38,  90w12 ",
+  "tz": "CST h6w (is standard time)",
+  "rr": "A"
+ },
+ "Spiegel,_Evan": {
+  "born": "4 June 1990 at 22:46  (= 10:46 PM )",
+  "place": "Santa Monica, California, 34n01,  118w29 ",
+  "tz": "PDT h7w (is daylight saving time)",
+  "rr": "AA"
+ },
+ "Murphy,_Bobby": {
+  "born": "19 July 1988 at 20:16  (= 8:16 PM )",
+  "place": "Berkeley, California, 37n52,  122w16 ",
+  "tz": "PDT h7w (is daylight saving time)",
+  "rr": "AA"
+ },
+ "Stone,_Biz": {
+  "born": "10 March 1974 at 13:17  (= 1:17 PM )",
+  "place": "Boston, Massachusetts, 42n22,  71w04 ",
+  "tz": "EDT h4w (is daylight saving time)",
+  "rr": "AA"
+ },
+ "Williams,_Evan": {
+  "none": true
+ },
+ "Glass,_Noah": {
+  "none": true
+ },
+ "Omidyar,_Pierre": {
+  "born": "21 June 1967 at 08:30  (= 08:30 AM )",
+  "place": "Paris, France, 48n52,  2e20 ",
+  "tz": "MET h1e (is standard time)",
+  "rr": "AA"
+ },
+ "Wales,_Jimmy": {
+  "born": "7 August 1966 at 23:20  (= 11:20 PM )",
+  "place": "Huntsville, Alabama, 34n44,  86w35 ",
+  "tz": "CST h6w (is standard time)",
+  "rr": "A"
+ },
+ "Durov,_Pavel_Valerevich": {
+  "born": "10 October 1984 at 13:20  (= 1:20 PM )",
+  "place": "Leningrad, Russian Federation, 59n55,  30e18 ",
+  "tz": "MSK h3e (is standard time)",
+  "rr": "C"
+ },
+ "Newmark,_Craig": {
+  "born": "6 December 1952 at 13:29  (= 1:29 PM )",
+  "place": "Morristown (Morris County), New Jersey, 40n48,  74w29 ",
+  "tz": "EST h5w (is standard time)",
+  "rr": "A"
+ },
+ "Graham,_Paul": {
+  "born": "13 November 1964 at 07:30  (= 07:30 AM )",
+  "place": "Weymouth, England, 50n36,  2w28 ",
+  "tz": "GMT h0e (is standard time)",
+  "rr": "C"
+ },
+ "Kamprad,_Ingvar": {
+  "born": "30 March 1926",
+  "place": "Älmhult, Sweden, 56n33,  14e08 ",
+  "tz": "MET h1e (is standard time)",
+  "rr": "X"
+ },
+ "Branson,_Richard": {
+  "born": "18 July 1950 at 07:00  (= 07:00 AM )",
+  "place": "Blackheath (London), England, 51n28,  0e01 ",
+  "tz": "GDT h1e (is daylight saving time)",
+  "rr": "A"
+ },
+ "Bloomberg,_Mike": {
+  "born": "14 February 1942 at 15:40  (= 3:40 PM )",
+  "place": "Brighton, Massachusetts, 42n21,  71w09 ",
+  "tz": "EWT h4w (is war time)",
+  "rr": "AA"
+ },
+ "Perot,_Ross": {
+  "born": "27 June 1930 at 05:34  (= 05:34 AM )",
+  "place": "Texarkana, Texas, 33n26,  94w03 ",
+  "tz": "CST h6w (is standard time)",
+  "rr": "AA"
+ },
+ "Turner,_Ted": {
+  "born": "19 November 1938 at 08:50  (= 08:50 AM )",
+  "place": "Cincinnati, Ohio, 39n10,  84w27 ",
+  "tz": "EST h5w (is standard time)",
+  "rr": "AA"
+ },
+ "Dell,_Michael": {
+  "none": true
+ },
+ "Cuban,_Mark": {
+  "none": true
+ },
+ "Knight,_Phil": {
+  "none": true
+ },
+ "Bowerman,_Bill": {
+  "born": "19 February 1911 at 01:45  (= 01:45 AM )",
+  "place": "Portland, Oregon, 45n31,  122w41 ",
+  "tz": "PST h8w (is standard time)",
+  "rr": "AA"
+ },
+ "Schultz,_Howard": {
+  "none": true
+ },
+ "Hsieh,_Tony": {
+  "none": true
+ },
+ "Chesky,_Brian": {
+  "none": true
+ },
+ "Gebbia,_Joe": {
+  "none": true
+ },
+ "Blecharczyk,_Nathan": {
+  "none": true
+ },
+ "Houston,_Drew": {
+  "none": true
+ },
+ "Systrom,_Kevin": {
+  "none": true
+ },
+ "Krieger,_Mike": {
+  "none": true
+ },
+ "Koum,_Jan": {
+  "none": true
+ },
+ "Acton,_Brian": {
+  "none": true
+ },
+ "Hoffman,_Reid": {
+  "none": true
+ },
+ "Levchin,_Max": {
+  "none": true
+ },
+ "Sacks,_David": {
+  "born": null,
+  "place": null,
+  "tz": null,
+  "rr": null
+ },
+ "Andreessen,_Marc": {
+  "none": true
+ },
+ "Clark,_Jim": {
+  "born": "4 March 1936 at 15:25  (= 3:25 PM )",
+  "place": "Balmerino, Scotland, 56n24,  3w02 ",
+  "tz": "GMT h0w (is standard time)",
+  "rr": "AA"
+ },
+ "Pincus,_Mark": {
+  "none": true
+ },
+ "Ek,_Daniel": {
+  "none": true
+ },
+ "Lorentzon,_Martin": {
+  "none": true
+ },
+ "Holmes,_Elizabeth": {
+  "none": true
+ },
+ "Neumann,_Adam": {
+  "none": true
+ },
+ "Milton,_Trevor": {
+  "none": true
+ },
+ "Kwon,_Do": {
+  "none": true
+ },
+ "Mashinsky,_Alex": {
+  "none": true
+ },
+ "Javice,_Charlie": {
+  "none": true
+ },
+ "Lay,_Kenneth": {
+  "born": "15 April 1942 at 18:00  (= 6:00 PM )",
+  "place": "Tyrone, Missouri, 37n12,  91w53 ",
+  "tz": "CWT h5w (is war time)",
+  "rr": "AA"
+ },
+ "Ebbers,_Bernard": {
+  "none": true
+ },
+ "Katzenberg,_Jeffrey": {
+  "none": true
+ },
+ "Whitman,_Meg": {
+  "none": true
+ },
+ "Agassi,_Shai": {
+  "none": true
+ },
+ "Fisker,_Henrik": {
+  "none": true
+ },
+ "Bushnell,_Nolan": {
+  "none": true
+ },
+ "Dabney,_Ted": {
+  "none": true
+ },
+ "Fanning,_Shawn": {
+  "none": true
+ },
+ "Parker,_Sean": {
+  "none": true
+ },
+ "Anderson,_Tom": {
+  "born": "29 August 1910 at 23:00  (= 11:00 PM )",
+  "place": "Sandwick, Scotland, 60n00,  1w15 ",
+  "tz": "GMT h0w (is standard time)",
+  "rr": "AA"
+ },
+ "DeWolfe,_Chris": {
+  "none": true
+ },
+ "Cook,_David": {
+  "none": true
+ },
+ "Hui,_Ka_Yan": {
+  "none": true
+ },
+ "Jia,_Yueting": {
+  "none": true
+ },
+ "Raveendran,_Byju": {
+  "none": true
+ },
+ "Greensill,_Lex": {
+  "none": true
+ },
+ "Braun,_Markus": {
+  "none": true
+ },
+ "Wolfe_Herd,_Whitney": {
+  "none": true
+ },
+ "Rad,_Sean": {
+  "none": true
+ },
+ "Mateen,_Justin": {
+  "none": true
+ },
+ "Conrad,_Parker": {
+  "none": true
+ },
+ "Ohanian,_Alexis": {
+  "none": true
+ },
+ "Huffman,_Steve": {
+  "none": true
+ },
+ "Swartz,_Aaron": {
+  "none": true
+ },
+ "Luckey,_Palmer": {
+  "none": true
+ },
+ "Yang,_Jerry": {
+  "none": true
+ },
+ "Filo,_David": {
+  "none": true
+ },
+ "Mason,_Andrew": {
+  "none": true
+ },
+ "Silbermann,_Ben": {
+  "none": true
+ },
+ "Priem,_Curtis": {
+  "none": true
+ },
+ "Malachowsky,_Chris": {
+  "none": true
+ },
+ "Eberhard,_Martin": {
+  "none": true
+ },
+ "Tarpenning,_Marc": {
+  "none": true
+ },
+ "Straubel,_JB": {
+  "none": true
+ },
+ "Liu,_Qiangdong": {
+  "none": true
+ },
+ "Lei,_Jun": {
+  "none": true
+ },
+ "Ren,_Zhengfei": {
+  "none": true
+ },
+ "Wang,_Chuanfu": {
+  "none": true
+ },
+ "Li,_Robin": {
+  "none": true
+ },
+ "Ding,_William": {
+  "none": true
+ },
+ "Ambani,_Mukesh": {
+  "none": true
+ },
+ "Ambani,_Dhirubhai": {
+  "none": true
+ }
+}

@@ -9,7 +9,7 @@ import sys
 
 from common import DATA, ROOT, load_json, save_json, wp_page, wp_search, sparql, chunks
 
-companies = load_json(os.path.join(DATA, "companies_raw.json"))
+companies = load_json(os.path.join(DATA, "companies.json"))
 overrides = load_json(os.path.join(ROOT, "pipeline", "overrides.json"), {})
 rows = []
 unlinked = []

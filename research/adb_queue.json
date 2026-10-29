@@ -1,0 +1,687 @@
+[
+{
+"name": "Steve Jobs",
+"company": "Apple",
+"adb": "Jobs,_Steve"
+},
+{
+"name": "Steve Wozniak",
+"company": "Apple",
+"adb": "Wozniak,_Steve"
+},
+{
+"name": "Ronald Wayne",
+"company": "Apple",
+"adb": "Wayne,_Ronald"
+},
+{
+"name": "Bill Gates",
+"company": "Microsoft",
+"adb": "Gates,_Bill"
+},
+{
+"name": "Paul Allen",
+"company": "Microsoft",
+"adb": "Allen,_Paul"
+},
+{
+"name": "Jeff Bezos",
+"company": "Amazon",
+"adb": "Bezos,_Jeff"
+},
+{
+"name": "Elon Musk",
+"company": "SpaceX",
+"adb": "Musk,_Elon"
+},
+{
+"name": "Mark Zuckerberg",
+"company": "Meta Platforms (Facebook)",
+"adb": "Zuckerberg,_Mark"
+},
+{
+"name": "Eduardo Saverin",
+"company": "Meta Platforms (Facebook)",
+"adb": "Saverin,_Eduardo"
+},
+{
+"name": "Dustin Moskovitz",
+"company": "Meta Platforms (Facebook)",
+"adb": "Moskovitz,_Dustin"
+},
+{
+"name": "Andrew McCollum",
+"company": "Meta Platforms (Facebook)",
+"adb": "McCollum,_Andrew"
+},
+{
+"name": "Chris Hughes",
+"company": "Meta Platforms (Facebook)",
+"adb": "Hughes,_Chris"
+},
+{
+"name": "Jerry Sanders",
+"company": "AMD",
+"adb": "Sanders,_Jerry"
+},
+{
+"name": "Sam Walton",
+"company": "Walmart",
+"adb": "Walton,_Sam"
+},
+{
+"name": "Bud Walton",
+"company": "Walmart",
+"adb": "Walton,_Bud"
+},
+{
+"name": "Robert Noyce",
+"company": "Intel",
+"adb": "Noyce,_Robert"
+},
+{
+"name": "Gordon Moore",
+"company": "Intel",
+"adb": "Moore,_Gordon"
+},
+{
+"name": "Peter Thiel",
+"company": "Palantir",
+"adb": "Thiel,_Peter"
+},
+{
+"name": "Stephen Cohen",
+"company": "Palantir",
+"adb": "Cohen,_Stephen"
+},
+{
+"name": "Alex Karp",
+"company": "Palantir",
+"adb": "Karp,_Alex"
+},
+{
+"name": "Joe Lonsdale",
+"company": "Palantir",
+"adb": "Lonsdale,_Joe"
+},
+{
+"name": "Nathan Gettings",
+"company": "Palantir",
+"adb": "Gettings,_Nathan"
+},
+{
+"name": "Zhu Yiming",
+"company": "CXMT",
+"adb": "Yiming,_Zhu"
+},
+{
+"name": "Ma Huateng",
+"company": "Tencent",
+"adb": "Huateng,_Ma"
+},
+{
+"name": "Tony Zhang",
+"company": "Tencent",
+"adb": "Zhang,_Tony"
+},
+{
+"name": "Chen Yidan",
+"company": "Tencent",
+"adb": "Yidan,_Chen"
+},
+{
+"name": "Larry Ellison",
+"company": "Oracle",
+"adb": "Ellison,_Larry"
+},
+{
+"name": "Bob Miner",
+"company": "Oracle",
+"adb": "Miner,_Bob"
+},
+{
+"name": "Ed Oates",
+"company": "Oracle",
+"adb": "Oates,_Ed"
+},
+{
+"name": "James Sinegal",
+"company": "Costco",
+"adb": "Sinegal,_James"
+},
+{
+"name": "Jeffrey Brotman",
+"company": "Costco",
+"adb": "Brotman,_Jeffrey"
+},
+{
+"name": "Leonard Bosack",
+"company": "Cisco",
+"adb": "Bosack,_Leonard"
+},
+{
+"name": "Sandy Lerner",
+"company": "Cisco",
+"adb": "Lerner,_Sandy"
+},
+{
+"name": "Richard T. Burke",
+"company": "UnitedHealth",
+"adb": "Burke,_Richard_T."
+},
+{
+"name": "Charlotte, North Carolina",
+"company": "Bank of America",
+"adb": "Carolina,_Charlotte,_North"
+},
+{
+"name": "New York City",
+"company": "Bank of America",
+"adb": "City,_New_York"
+},
+{
+"name": "Michael A. McNeilly",
+"company": "Applied Materials",
+"adb": "McNeilly,_Michael_A."
+},
+{
+"name": "David K. Lam",
+"company": "Lam Research",
+"adb": "Lam,_David_K."
+},
+{
+"name": "Bernard Marcus",
+"company": "Home Depot",
+"adb": "Marcus,_Bernard"
+},
+{
+"name": "Arthur Blank",
+"company": "Home Depot",
+"adb": "Blank,_Arthur"
+},
+{
+"name": "Ron Brill",
+"company": "Home Depot",
+"adb": "Brill,_Ron"
+},
+{
+"name": "Pat Farrah",
+"company": "Home Depot",
+"adb": "Farrah,_Pat"
+},
+{
+"name": "Ken Langone",
+"company": "Home Depot",
+"adb": "Langone,_Ken"
+},
+{
+"name": "Philip Morris",
+"company": "Philip Morris International",
+"adb": "Morris,_Philip"
+},
+{
+"name": "George Kurtz",
+"company": "CrowdStrike",
+"adb": "Kurtz,_George"
+},
+{
+"name": "Dmitri Alperovitch",
+"company": "CrowdStrike",
+"adb": "Alperovitch,_Dmitri"
+},
+{
+"name": "Vannevar Bush",
+"company": "RTX",
+"adb": "Bush,_Vannevar"
+},
+{
+"name": "Frederick Rentschler",
+"company": "RTX",
+"adb": "Rentschler,_Frederick"
+},
+{
+"name": "United Technologies",
+"company": "RTX",
+"adb": "Technologies,_United"
+},
+{
+"name": "Reed Hastings",
+"company": "Netflix",
+"adb": "Hastings,_Reed"
+},
+{
+"name": "Marc Randolph",
+"company": "Netflix",
+"adb": "Randolph,_Marc"
+},
+{
+"name": "Jack Ma",
+"company": "Alibaba",
+"adb": "Ma,_Jack"
+},
+{
+"name": "Andy Bechtolsheim",
+"company": "Arista Networks",
+"adb": "Bechtolsheim,_Andy"
+},
+{
+"name": "David Cheriton",
+"company": "Arista Networks",
+"adb": "Cheriton,_David"
+},
+{
+"name": "Sehat Sutardja",
+"company": "Marvell Technology",
+"adb": "Sutardja,_Sehat"
+},
+{
+"name": "Weili Dai",
+"company": "Marvell Technology",
+"adb": "Dai,_Weili"
+},
+{
+"name": "Tobias L\u00fctke",
+"company": "Shopify",
+"adb": "L\u00fctke,_Tobias"
+},
+{
+"name": "Henry Racamier",
+"company": "LVMH",
+"adb": "Racamier,_Henry"
+},
+{
+"name": "Ray Stata",
+"company": "Analog Devices",
+"adb": "Stata,_Ray"
+},
+{
+"name": "Matthew Lorber",
+"company": "Analog Devices",
+"adb": "Lorber,_Matthew"
+},
+{
+"name": "Eli Harari",
+"company": "Sandisk",
+"adb": "Harari,_Eli"
+},
+{
+"name": "Sanjay Mehrotra",
+"company": "Sandisk",
+"adb": "Mehrotra,_Sanjay"
+},
+{
+"name": "Marc Benioff",
+"company": "Salesforce",
+"adb": "Benioff,_Marc"
+},
+{
+"name": "Michael L. Riordan",
+"company": "Gilead Sciences",
+"adb": "Riordan,_Michael_L."
+},
+{
+"name": "Amancio Ortega",
+"company": "Inditex",
+"adb": "Ortega,_Amancio"
+},
+{
+"name": "Rosal\u00eda Mera",
+"company": "Inditex",
+"adb": "Mera,_Rosal\u00eda"
+},
+{
+"name": "Irwin M. Jacobs",
+"company": "QUALCOMM",
+"adb": "Jacobs,_Irwin_M."
+},
+{
+"name": "Andrew Viterbi",
+"company": "QUALCOMM",
+"adb": "Viterbi,_Andrew"
+},
+{
+"name": "Robert S. Kapito",
+"company": "BlackRock",
+"adb": "Kapito,_Robert_S."
+},
+{
+"name": "Larry Fink",
+"company": "BlackRock",
+"adb": "Fink,_Larry"
+},
+{
+"name": "Susan Wagner",
+"company": "BlackRock",
+"adb": "Wagner,_Susan"
+},
+{
+"name": "Masayoshi Son",
+"company": "SoftBank Group Corp.",
+"adb": "Son,_Masayoshi"
+},
+{
+"name": "Steven Rales",
+"company": "Danaher",
+"adb": "Rales,_Steven"
+},
+{
+"name": "Mitchell Rales",
+"company": "Danaher",
+"adb": "Rales,_Mitchell"
+},
+{
+"name": "John W. Stanton",
+"company": "T-Mobile US",
+"adb": "Stanton,_John_W."
+},
+{
+"name": "Robin Zeng",
+"company": "CATL",
+"adb": "Zeng,_Robin"
+},
+{
+"name": "Alan Shugart",
+"company": "Seagate Technology",
+"adb": "Shugart,_Alan"
+},
+{
+"name": "Finis Conner",
+"company": "Seagate Technology",
+"adb": "Conner,_Finis"
+},
+{
+"name": "Syed Iftikar",
+"company": "Seagate Technology",
+"adb": "Iftikar,_Syed"
+},
+{
+"name": "Fred Luddy",
+"company": "ServiceNow",
+"adb": "Luddy,_Fred"
+},
+{
+"name": "Charles R. Schwab",
+"company": "Charles Schwab",
+"adb": "Schwab,_Charles_R."
+},
+{
+"name": "Bernard Cammarata",
+"company": "TJX Companies",
+"adb": "Cammarata,_Bernard"
+},
+{
+"name": "Alvin B. Phillips",
+"company": "Western Digital",
+"adb": "Phillips,_Alvin_B."
+},
+{
+"name": "Thomas Peterffy",
+"company": "Interactive Brokers",
+"adb": "Peterffy,_Thomas"
+},
+{
+"name": "Peter G. Peterson",
+"company": "Blackstone Group",
+"adb": "Peterson,_Peter_G."
+},
+{
+"name": "Stephen A. Schwarzman",
+"company": "Blackstone Group",
+"adb": "Schwarzman,_Stephen_A."
+},
+{
+"name": "Gulshan Kumar",
+"company": "AT&T",
+"adb": "Kumar,_Gulshan"
+},
+{
+"name": "Thomas Caldecot Chubb",
+"company": "Chubb",
+"adb": "Chubb,_Thomas_Caldecot"
+},
+{
+"name": "Garrett Camp",
+"company": "Uber",
+"adb": "Camp,_Garrett"
+},
+{
+"name": "Travis Kalanick",
+"company": "Uber",
+"adb": "Kalanick,_Travis"
+},
+{
+"name": "Ken Xie",
+"company": "Fortinet",
+"adb": "Xie,_Ken"
+},
+{
+"name": "Richard Fairbank",
+"company": "Capital One",
+"adb": "Fairbank,_Richard"
+},
+{
+"name": "Nigel Morris",
+"company": "Capital One",
+"adb": "Morris,_Nigel"
+},
+{
+"name": "Hamid Moghadam",
+"company": "Prologis",
+"adb": "Moghadam,_Hamid"
+},
+{
+"name": "Bruce CH Cheng",
+"company": "Delta Electronics",
+"adb": "Cheng,_Bruce_CH"
+},
+{
+"name": "Jerry Baldwin",
+"company": "Starbucks",
+"adb": "Baldwin,_Jerry"
+},
+{
+"name": "Zev Siegl",
+"company": "Starbucks",
+"adb": "Siegl,_Zev"
+},
+{
+"name": "Gordon Bowker",
+"company": "Starbucks",
+"adb": "Bowker,_Gordon"
+},
+{
+"name": "Stanley P. Goldstein",
+"company": "CVS Health",
+"adb": "Goldstein,_Stanley_P."
+},
+{
+"name": "Ralph P. Hoagland III",
+"company": "CVS Health",
+"adb": "III,_Ralph_P._Hoagland"
+},
+{
+"name": "Jay S. Walker",
+"company": "Booking Holdings (Booking.com)",
+"adb": "Walker,_Jay_S."
+},
+{
+"name": "Matthew Prince",
+"company": "Cloudflare",
+"adb": "Prince,_Matthew"
+},
+{
+"name": "Michelle Zatlyn",
+"company": "Cloudflare",
+"adb": "Zatlyn,_Michelle"
+},
+{
+"name": "William Greehey",
+"company": "Valero Energy",
+"adb": "Greehey,_William"
+},
+{
+"name": "Deepak Parekh",
+"company": "HDFC Bank",
+"adb": "Parekh,_Deepak"
+},
+{
+"name": "Colin Huang",
+"company": "PDD Holdings (Pinduoduo)",
+"adb": "Huang,_Colin"
+},
+{
+"name": "Terry Gou",
+"company": "Foxconn (Hon Hai Precision Industry)",
+"adb": "Gou,_Terry"
+},
+{
+"name": "John Willard Marriott",
+"company": "Marriott International",
+"adb": "Marriott,_John_Willard"
+},
+{
+"name": "Alice Marriott",
+"company": "Marriott International",
+"adb": "Marriott,_Alice"
+},
+{
+"name": "Liu Sheng",
+"company": "Zhongji Innolight",
+"adb": "Sheng,_Liu"
+},
+{
+"name": "He Xiangjian",
+"company": "Midea",
+"adb": "Xiangjian,_He"
+},
+{
+"name": "Dario Amodei",
+"company": "Anthropic",
+"adb": "Amodei,_Dario"
+},
+{
+"name": "Daniela Amodei",
+"company": "Anthropic",
+"adb": "Amodei,_Daniela"
+},
+{
+"name": "Jack Clark",
+"company": "Anthropic",
+"adb": "Clark,_Jack"
+},
+{
+"name": "Tom Brown",
+"company": "Anthropic",
+"adb": "Brown,_Tom"
+},
+{
+"name": "Chris Olah",
+"company": "Anthropic",
+"adb": "Olah,_Chris"
+},
+{
+"name": "Sam McCandlish",
+"company": "Anthropic",
+"adb": "McCandlish,_Sam"
+},
+{
+"name": "Jared Kaplan",
+"company": "Anthropic",
+"adb": "Kaplan,_Jared"
+},
+{
+"name": "Sam Altman",
+"company": "OpenAI",
+"adb": "Altman,_Sam"
+},
+{
+"name": "Greg Brockman",
+"company": "OpenAI",
+"adb": "Brockman,_Greg"
+},
+{
+"name": "Ilya Sutskever",
+"company": "OpenAI",
+"adb": "Sutskever,_Ilya"
+},
+{
+"name": "Brock Pierce",
+"company": "Tether",
+"adb": "Pierce,_Brock"
+},
+{
+"name": "Reeve Collins",
+"company": "Tether",
+"adb": "Collins,_Reeve"
+},
+{
+"name": "Craig Sellars",
+"company": "Tether",
+"adb": "Sellars,_Craig"
+},
+{
+"name": "Zhang Yiming",
+"company": "ByteDance",
+"adb": "Yiming,_Zhang"
+},
+{
+"name": "Liang Rubo",
+"company": "ByteDance",
+"adb": "Rubo,_Liang"
+},
+{
+"name": "Ali Ghodsi",
+"company": "Databricks",
+"adb": "Ghodsi,_Ali"
+},
+{
+"name": "Matei Zaharia",
+"company": "Databricks",
+"adb": "Zaharia,_Matei"
+},
+{
+"name": "Ion Stoica",
+"company": "Databricks",
+"adb": "Stoica,_Ion"
+},
+{
+"name": "Reynold Xin",
+"company": "Databricks",
+"adb": "Xin,_Reynold"
+},
+{
+"name": "Patrick Wendell",
+"company": "Databricks",
+"adb": "Wendell,_Patrick"
+},
+{
+"name": "Andy Konwinski",
+"company": "Databricks",
+"adb": "Konwinski,_Andy"
+},
+{
+"name": "Arsalan Tavakoli",
+"company": "Databricks",
+"adb": "Tavakoli,_Arsalan"
+},
+{
+"name": "Patrick Collison",
+"company": "Stripe",
+"adb": "Collison,_Patrick"
+},
+{
+"name": "John Collison",
+"company": "Stripe",
+"adb": "Collison,_John"
+},
+{
+"name": "Nikolay Storonsky",
+"company": "Revolut",
+"adb": "Storonsky,_Nikolay"
+},
+{
+"name": "Vlad Yatsenko",
+"company": "Revolut",
+"adb": "Yatsenko,_Vlad"
+}
+]
