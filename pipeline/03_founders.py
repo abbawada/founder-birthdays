@@ -24,10 +24,13 @@ for c in companies:
         if not qid:
             # plain-text name: accept a search hit only when the title is the name
             hits = wp_search(name, 3)
+            base = re.sub(r"\s*\(.*?\)", "", c["name"]).strip().lower()
+            alt = (c.get("article") or "").lower()
             for h in hits:
                 if re.sub(r"\s*\(.*?\)", "", h["title"]).lower() == name.lower():
                     pg = wp_page(h["title"])
-                    if pg and pg["qid"]:
+                    # a same-named article counts only if it mentions the company (Joe Parkinson the footballer is not Micron's founder)
+                    if pg and pg["qid"] and (base in pg["text"].lower() or (alt and alt in pg["text"].lower())):
                         qid, title = pg["qid"], pg["title"]
                     break
         if not qid:

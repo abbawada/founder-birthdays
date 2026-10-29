@@ -1,36 +1,36 @@
 {
- "n_dated": 354,
+ "n_dated": 355,
  "n_sim": 10000,
  "populations": {
-  "all": 354,
-  "thriving": 332,
-  "giants": 128,
+  "all": 355,
+  "thriving": 333,
+  "giants": 120,
   "fallen": 22
  },
  "baseline_use": [
   [
    "United States",
-   172
+   168
   ],
   [
    "uniform",
-   99
-  ],
-  [
-   "Canada",
-   12
+   104
   ],
   [
    "England and Wales",
-   11
+   12
+  ],
+  [
+   "Canada",
+   10
   ],
   [
    "Germany",
-   10
+   9
   ],
   [
    "France",
-   10
+   9
   ],
   [
    "Russia",
@@ -45,6 +45,14 @@
    4
   ],
   [
+   "Japan",
+   4
+  ],
+  [
+   "Australia",
+   4
+  ],
+  [
    "Ireland",
    4
   ],
@@ -53,15 +61,11 @@
    3
   ],
   [
-   "Australia",
+   "South Korea",
    3
   ],
   [
    "Spain",
-   2
-  ],
-  [
-   "Japan",
    2
   ],
   [
@@ -74,11 +78,7 @@
   ],
   [
    "Belgium",
-   2
-  ],
-  [
-   "South Korea",
-   2
+   1
   ],
   [
    "Bulgaria",
@@ -108,7 +108,7 @@
  "tests": {
   "signs": {
    "label": "Sun sign, Giants + Big",
-   "n": 332,
+   "n": 333,
    "bins": [
     "Aries",
     "Taurus",
@@ -124,43 +124,43 @@
     "Pisces"
    ],
    "observed": [
-    20,
-    30,
     21,
+    31,
+    24,
     26,
-    34,
+    33,
     27,
-    40,
-    30,
-    19,
-    25,
+    39,
+    29,
     23,
-    37
+    24,
+    22,
+    34
    ],
    "expected": [
-    27.17,
-    27.82,
-    28.01,
-    29.48,
-    28.81,
-    28.99,
-    27.32,
-    26.71,
-    26.51,
-    26.05,
-    27.54,
-    27.6
+    27.22,
+    27.87,
+    28.04,
+    29.51,
+    28.86,
+    29.07,
+    27.45,
+    26.85,
+    26.63,
+    26.16,
+    27.66,
+    27.68
    ],
    "band_lo": [
     18.0,
-    19.0,
-    19.0,
+    18.0,
+    18.0,
     20.0,
     19.0,
-    19.0,
+    20.0,
     18.0,
-    17.0,
-    17.0,
+    18.0,
+    18.0,
     17.0,
     18.0,
     18.0
@@ -171,52 +171,52 @@
     38.0,
     40.0,
     39.0,
-    39.0,
+    40.0,
     38.0,
     37.0,
-    36.0,
+    37.0,
     36.0,
     38.0,
     38.0
    ],
    "ratio": [
-    0.736,
-    1.078,
-    0.75,
-    0.882,
-    1.18,
-    0.932,
-    1.464,
-    1.123,
-    0.717,
-    0.96,
-    0.835,
-    1.341
+    0.772,
+    1.112,
+    0.856,
+    0.881,
+    1.143,
+    0.929,
+    1.421,
+    1.08,
+    0.864,
+    0.917,
+    0.795,
+    1.228
    ],
    "z": [
-    -1.38,
+    -1.19,
+    0.59,
+    -0.76,
+    -0.65,
+    0.77,
+    -0.38,
+    2.21,
     0.41,
-    -1.32,
-    -0.64,
-    0.97,
-    -0.37,
-    2.43,
-    0.64,
-    -1.46,
-    -0.2,
-    -0.87,
-    1.79
+    -0.7,
+    -0.42,
+    -1.08,
+    1.2
    ],
-   "chi2": 17.71,
-   "p_chi2_mc": 0.0859,
-   "max_dev_z": 2.43,
-   "p_max_dev": 0.1231,
+   "chi2": 11.82,
+   "p_chi2_mc": 0.375,
+   "max_dev_z": 2.21,
+   "p_max_dev": 0.226,
    "tallest": "Libra",
-   "verdict": "The tallest bar, Libra, has 40 founders against 27.3 expected (1.46x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 12% of the time — well inside chance."
+   "verdict": "The tallest bar, Libra, has 39 founders against 27.4 expected (1.42x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 23% of the time — well inside chance."
   },
   "signs_giants": {
    "label": "Sun sign, Giants only",
-   "n": 128,
+   "n": 120,
    "bins": [
     "Aries",
     "Taurus",
@@ -232,99 +232,99 @@
     "Pisces"
    ],
    "observed": [
+    10,
+    10,
     9,
+    6,
+    11,
+    9,
+    16,
+    11,
+    12,
     12,
     8,
-    6,
-    12,
-    10,
-    18,
-    11,
-    10,
-    12,
-    10,
-    10
+    6
    ],
    "expected": [
-    10.46,
-    10.71,
-    10.81,
-    11.38,
-    11.12,
-    11.22,
-    10.56,
-    10.29,
-    10.21,
-    10.01,
-    10.59,
-    10.63
+    9.78,
+    10.0,
+    10.09,
+    10.64,
+    10.43,
+    10.55,
+    9.94,
+    9.69,
+    9.59,
+    9.4,
+    9.94,
+    9.97
    ],
    "band_lo": [
-    5.0,
-    5.0,
-    5.0,
-    6.0,
-    5.0,
-    6.0,
+    4.0,
+    4.0,
     5.0,
     5.0,
     5.0,
     5.0,
-    5.0,
-    5.0
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0
    ],
    "band_hi": [
-    17.0,
-    17.0,
-    17.0,
-    18.0,
-    18.0,
-    18.0,
+    16.0,
+    16.0,
+    16.0,
     17.0,
     17.0,
     17.0,
     16.0,
-    17.0,
-    17.0
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
    ],
    "ratio": [
-    0.86,
-    1.121,
-    0.74,
-    0.527,
-    1.079,
-    0.891,
-    1.705,
-    1.069,
-    0.979,
-    1.199,
-    0.945,
-    0.941
+    1.022,
+    1.0,
+    0.892,
+    0.564,
+    1.055,
+    0.853,
+    1.61,
+    1.136,
+    1.251,
+    1.276,
+    0.805,
+    0.602
    ],
    "z": [
-    -0.45,
-    0.39,
-    -0.85,
-    -1.6,
-    0.26,
-    -0.37,
-    2.29,
-    0.22,
-    -0.07,
-    0.63,
-    -0.18,
-    -0.19
+    0.07,
+    0.0,
+    -0.34,
+    -1.42,
+    0.18,
+    -0.48,
+    1.92,
+    0.42,
+    0.78,
+    0.85,
+    -0.62,
+    -1.26
    ],
-   "chi2": 9.6,
-   "p_chi2_mc": 0.5665,
-   "max_dev_z": 2.29,
-   "p_max_dev": 0.1818,
+   "chi2": 9.57,
+   "p_chi2_mc": 0.5779,
+   "max_dev_z": 1.92,
+   "p_max_dev": 0.3979,
    "tallest": "Libra",
-   "verdict": "The tallest bar, Libra, has 18 founders against 10.6 expected (1.70x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 18% of the time — well inside chance."
+   "verdict": "The tallest bar, Libra, has 16 founders against 9.9 expected (1.61x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 40% of the time — well inside chance."
   },
   "elements": {
    "label": "Element, Giants + Big",
-   "n": 332,
+   "n": 333,
    "bins": [
     "Fire",
     "Earth",
@@ -332,96 +332,96 @@
     "Water"
    ],
    "observed": [
-    73,
+    77,
     82,
-    84,
-    93
+    85,
+    89
    ],
    "expected": [
-    82.49,
-    82.85,
-    82.87,
-    83.79
+    82.7,
+    83.1,
+    83.15,
+    84.05
    ],
    "band_lo": [
     67.0,
-    67.0,
-    67.0,
+    68.0,
+    68.0,
     69.0
    ],
    "band_hi": [
-    98.0,
-    98.0,
+    99.0,
+    99.0,
     99.0,
     100.0
    ],
    "ratio": [
-    0.885,
-    0.99,
-    1.014,
-    1.11
+    0.931,
+    0.987,
+    1.022,
+    1.059
    ],
    "z": [
-    -1.04,
-    -0.09,
-    0.12,
-    1.01
+    -0.63,
+    -0.12,
+    0.2,
+    0.54
    ],
-   "chi2": 2.13,
-   "p_chi2_mc": 0.5424,
-   "max_dev_z": 1.04,
-   "p_max_dev": 0.5866,
+   "chi2": 0.74,
+   "p_chi2_mc": 0.8624,
+   "max_dev_z": 0.63,
+   "p_max_dev": 0.878,
    "tallest": "Water",
-   "verdict": "The tallest bar, Water, has 93 founders against 83.8 expected (1.11x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 59% of the time — well inside chance."
+   "verdict": "The tallest bar, Water, has 89 founders against 84.0 expected (1.06x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 88% of the time — well inside chance."
   },
   "modalities": {
    "label": "Modality, Giants + Big",
-   "n": 332,
+   "n": 333,
    "bins": [
     "Cardinal",
     "Fixed",
     "Mutable"
    ],
    "observed": [
-    111,
-    117,
-    104
+    110,
+    115,
+    108
    ],
    "expected": [
-    110.02,
-    110.88,
-    111.1
+    110.34,
+    111.24,
+    111.42
    ],
    "band_lo": [
     94.0,
     94.0,
-    94.0
+    95.0
    ],
    "band_hi": [
-    127.0,
+    128.0,
     128.0,
     128.0
    ],
    "ratio": [
-    1.009,
-    1.055,
-    0.936
+    0.997,
+    1.034,
+    0.969
    ],
    "z": [
-    0.09,
-    0.58,
-    -0.67
+    -0.03,
+    0.36,
+    -0.32
    ],
-   "chi2": 0.8,
-   "p_chi2_mc": 0.6754,
-   "max_dev_z": 0.67,
-   "p_max_dev": 0.6878,
+   "chi2": 0.23,
+   "p_chi2_mc": 0.8896,
+   "max_dev_z": 0.36,
+   "p_max_dev": 0.8955,
    "tallest": "Fixed",
-   "verdict": "The tallest bar, Fixed, has 117 founders against 110.9 expected (1.06x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 69% of the time — well inside chance."
+   "verdict": "The tallest bar, Fixed, has 115 founders against 111.2 expected (1.03x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 90% of the time — well inside chance."
   },
   "months": {
    "label": "Birth month, Giants + Big (exploratory)",
-   "n": 332,
+   "n": 333,
    "bins": [
     "January",
     "February",
@@ -437,32 +437,32 @@
     "December"
    ],
    "observed": [
+    26,
     28,
-    29,
-    33,
-    18,
-    22,
     30,
     23,
-    34,
-    31,
-    37,
+    20,
+    32,
+    23,
+    35,
+    30,
+    36,
     29,
-    18
+    21
    ],
    "expected": [
-    28.09,
-    25.93,
-    28.43,
-    26.98,
-    27.8,
-    27.22,
-    28.76,
-    28.83,
-    28.11,
-    27.93,
-    26.57,
-    27.36
+    28.23,
+    26.03,
+    28.5,
+    27.01,
+    27.84,
+    27.24,
+    28.79,
+    28.89,
+    28.2,
+    28.08,
+    26.71,
+    27.47
    ],
    "band_lo": [
     19.0,
@@ -473,7 +473,7 @@
     18.0,
     19.0,
     19.0,
-    19.0,
+    18.0,
     18.0,
     18.0,
     18.0
@@ -487,45 +487,45 @@
     37.0,
     39.0,
     39.0,
-    38.0,
+    39.0,
     38.0,
     37.0,
     38.0
    ],
    "ratio": [
-    0.997,
-    1.119,
-    1.161,
-    0.667,
-    0.791,
-    1.102,
-    0.8,
-    1.179,
-    1.103,
-    1.325,
-    1.091,
-    0.658
+    0.921,
+    1.075,
+    1.053,
+    0.852,
+    0.718,
+    1.175,
+    0.799,
+    1.212,
+    1.064,
+    1.282,
+    1.086,
+    0.764
    ],
    "z": [
-    -0.02,
-    0.6,
-    0.86,
-    -1.73,
-    -1.1,
-    0.53,
-    -1.07,
-    0.96,
-    0.54,
-    1.72,
-    0.47,
-    -1.79
+    -0.42,
+    0.39,
+    0.28,
+    -0.77,
+    -1.49,
+    0.91,
+    -1.08,
+    1.14,
+    0.34,
+    1.5,
+    0.44,
+    -1.24
    ],
-   "chi2": 14.33,
-   "p_chi2_mc": 0.2156,
-   "max_dev_z": 1.79,
-   "p_max_dev": 0.5211,
+   "chi2": 10.57,
+   "p_chi2_mc": 0.4809,
+   "max_dev_z": 1.5,
+   "p_max_dev": 0.7713,
    "tallest": "October",
-   "verdict": "The tallest bar, October, has 37 founders against 27.9 expected (1.32x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 52% of the time — well inside chance."
+   "verdict": "The tallest bar, October, has 36 founders against 28.1 expected (1.28x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 77% of the time — well inside chance."
   },
   "signs_fallen": {
    "label": "Sun sign, Fallen",
@@ -629,43 +629,43 @@
     0.14
    ],
    "chi2": 8.86,
-   "p_chi2_mc": 0.6482,
+   "p_chi2_mc": 0.638,
    "max_dev_z": 1.62,
-   "p_max_dev": 0.6768,
+   "p_max_dev": 0.675,
    "tallest": "Libra",
    "verdict": "The tallest bar, Libra, has 4 founders against 1.8 expected (2.20x). In 10,000 shuffles of the same founders, a bar at least this far from expectation appeared 68% of the time — well inside chance."
   },
   "pairs": {
    "label": "Cofounder pairings vs shuffled teams",
-   "n_pairs": 177,
-   "n_teams": 83,
+   "n_pairs": 186,
+   "n_teams": 85,
    "measures": [
     {
      "name": "same sign",
-     "observed": 0.0904,
-     "null_mean": 0.0824,
-     "band_lo": 0.0452,
-     "band_hi": 0.1243,
-     "p_two_sided": 0.7602
+     "observed": 0.0968,
+     "null_mean": 0.0821,
+     "band_lo": 0.0484,
+     "band_hi": 0.1237,
+     "p_two_sided": 0.5294
     },
     {
      "name": "same element",
-     "observed": 0.2486,
-     "null_mean": 0.247,
-     "band_lo": 0.1864,
-     "band_hi": 0.3107,
-     "p_two_sided": 0.9966
+     "observed": 0.2366,
+     "null_mean": 0.2482,
+     "band_lo": 0.1882,
+     "band_hi": 0.3118,
+     "p_two_sided": 0.7978
     },
     {
      "name": "traditionally compatible",
-     "observed": 0.5028,
-     "null_mean": 0.4985,
-     "band_lo": 0.4294,
-     "band_hi": 0.5763,
-     "p_two_sided": 0.9334
+     "observed": 0.5161,
+     "null_mean": 0.4974,
+     "band_lo": 0.4301,
+     "band_hi": 0.5753,
+     "p_two_sided": 0.6358
     }
    ],
-   "verdict": "50% of the 177 cofounder pairs are 'compatible' by the classic element rule, against 50% when the same founders are shuffled into random teams (95% range 43 to 58%). Nothing to see."
+   "verdict": "52% of the 186 cofounder pairs are 'compatible' by the classic element rule, against 50% when the same founders are shuffled into random teams (95% range 43 to 58%). Nothing to see."
   },
   "pair_matrix": {
    "label": "Sun-sign pairs among cofounders (exploratory)",
@@ -683,16 +683,16 @@
     "Aquarius",
     "Pisces"
    ],
-   "n_pairs": 177,
-   "n_teams": 83,
+   "n_pairs": 186,
+   "n_teams": 85,
    "counts": [
     [
      0,
      0,
      2,
      1,
-     3,
-     3,
+     2,
+     4,
      2,
      0,
      2,
@@ -707,23 +707,23 @@
      2,
      2,
      2,
-     3,
      4,
+     5,
      6,
      3,
      4,
-     5
+     4
     ],
     [
      0,
      0,
-     0,
+     1,
      2,
-     4,
+     7,
      1,
      2,
      0,
-     2,
+     5,
      2,
      1,
      2
@@ -747,12 +747,26 @@
      0,
      0,
      0,
-     1,
+     2,
      3,
+     5,
+     0,
+     4,
+     4,
+     1,
+     4
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
      5,
      1,
      3,
-     3,
+     4,
      2,
      4
     ],
@@ -763,20 +777,6 @@
      0,
      0,
      0,
-     6,
-     1,
-     3,
-     4,
-     2,
-     3
-    ],
-    [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
      5,
      3,
      1,
@@ -793,10 +793,10 @@
      0,
      0,
      2,
-     6,
+     7,
      3,
      2,
-     2
+     0
     ],
     [
      0,
@@ -809,7 +809,7 @@
      0,
      3,
      2,
-     3,
+     4,
      3
     ],
     [
@@ -857,88 +857,88 @@
    ],
    "expected": [
     [
-     0.82,
-     2.6,
-     1.56,
-     1.64,
-     2.46,
-     2.29,
-     2.95,
-     1.93,
-     1.92,
-     2.04,
-     1.54,
-     2.52
-    ],
-    [
-     0.0,
-     1.75,
-     2.19,
-     2.38,
-     3.46,
-     3.31,
-     4.17,
-     2.73,
-     2.75,
-     2.91,
-     2.2,
-     3.68
-    ],
-    [
-     0.0,
-     0.0,
-     0.61,
-     1.41,
-     2.12,
-     1.97,
-     2.53,
-     1.67,
-     1.66,
-     1.75,
-     1.32,
-     2.2
-    ],
-    [
-     0.0,
-     0.0,
-     0.0,
-     0.74,
-     2.3,
-     2.12,
+     0.83,
      2.71,
-     1.78,
+     1.76,
+     1.65,
+     2.39,
+     2.47,
+     2.93,
      1.79,
-     1.93,
-     1.42,
-     2.36
+     2.42,
+     2.13,
+     1.52,
+     2.28
     ],
     [
      0.0,
-     0.0,
-     0.0,
-     0.0,
-     1.55,
-     3.15,
-     3.97,
-     2.67,
-     2.63,
-     2.76,
-     2.14,
+     1.89,
+     2.65,
+     2.49,
+     3.65,
+     3.61,
+     4.42,
+     2.69,
+     3.67,
+     3.27,
+     2.28,
      3.49
     ],
     [
      0.0,
      0.0,
+     0.81,
+     1.65,
+     2.34,
+     2.41,
+     2.95,
+     1.79,
+     2.42,
+     2.13,
+     1.49,
+     2.3
+    ],
+    [
      0.0,
      0.0,
      0.0,
+     0.72,
+     2.21,
+     2.26,
+     2.65,
+     1.62,
+     2.26,
+     2.03,
      1.42,
-     3.84,
-     2.45,
-     2.45,
-     2.61,
-     1.98,
-     3.31
+     2.13
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.57,
+     3.26,
+     3.96,
+     2.38,
+     3.28,
+     2.92,
+     2.04,
+     3.09
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.56,
+     3.96,
+     2.47,
+     3.24,
+     2.92,
+     2.1,
+     3.06
     ],
     [
      0.0,
@@ -947,12 +947,12 @@
      0.0,
      0.0,
      0.0,
-     2.31,
-     3.18,
-     3.16,
-     3.38,
-     2.5,
-     4.28
+     2.29,
+     2.87,
+     3.95,
+     3.51,
+     2.53,
+     3.77
     ],
     [
      0.0,
@@ -962,25 +962,25 @@
      0.0,
      0.0,
      0.0,
-     0.98,
-     2.05,
-     2.2,
-     1.64,
-     2.78
-    ],
-    [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.97,
+     0.82,
+     2.4,
      2.19,
-     1.64,
-     2.77
+     1.52,
+     2.28
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.58,
+     2.91,
+     2.03,
+     3.08
     ],
     [
      0.0,
@@ -992,9 +992,9 @@
      0.0,
      0.0,
      0.0,
-     1.1,
-     1.73,
-     2.95
+     1.23,
+     1.86,
+     2.8
     ],
     [
      0.0,
@@ -1008,7 +1008,7 @@
      0.0,
      0.0,
      0.6,
-     2.24
+     1.98
     ],
     [
      0.0,
@@ -1022,93 +1022,79 @@
      0.0,
      0.0,
      0.0,
-     1.74
+     1.4
     ]
    ],
    "ratio": [
     [
      0.0,
      0.0,
-     1.28,
+     1.14,
      0.61,
-     1.22,
-     1.31,
+     0.84,
+     1.62,
      0.68,
      0.0,
-     1.04,
-     0.98,
-     0.65,
-     1.19
+     0.83,
+     0.94,
+     0.66,
+     1.32
     ],
     [
      0.0,
-     0.57,
-     1.37,
-     0.84,
-     0.58,
-     0.61,
-     0.72,
-     1.47,
-     2.18,
-     1.03,
-     1.82,
-     1.36
+     0.53,
+     1.13,
+     0.8,
+     0.55,
+     0.55,
+     0.9,
+     1.86,
+     1.64,
+     0.92,
+     1.75,
+     1.15
     ],
     [
      0.0,
      0.0,
-     0.0,
-     1.42,
-     1.88,
-     0.51,
-     0.79,
-     0.0,
+     1.24,
      1.21,
-     1.14,
-     0.76,
-     0.91
+     2.99,
+     0.42,
+     0.68,
+     0.0,
+     2.07,
+     0.94,
+     0.67,
+     0.87
     ],
     [
      0.0,
      0.0,
      0.0,
-     2.72,
-     0.0,
-     0.94,
-     1.11,
-     2.25,
      2.79,
-     0.52,
      0.0,
-     0.42
+     0.88,
+     1.13,
+     2.46,
+     2.21,
+     0.49,
+     0.0,
+     0.47
     ],
     [
      0.0,
      0.0,
      0.0,
      0.0,
-     0.64,
-     0.95,
+     1.28,
+     0.92,
      1.26,
-     0.37,
-     1.14,
-     1.09,
-     0.94,
-     1.15
-    ],
-    [
      0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     1.56,
-     0.41,
      1.22,
-     1.53,
-     1.01,
-     0.91
+     1.37,
+     0.49,
+     1.29
     ],
     [
      0.0,
@@ -1117,12 +1103,26 @@
      0.0,
      0.0,
      0.0,
-     2.16,
-     0.94,
-     0.32,
-     0.89,
+     1.26,
      0.4,
-     0.23
+     0.93,
+     1.37,
+     0.95,
+     1.31
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.18,
+     1.05,
+     0.25,
+     0.85,
+     0.39,
+     0.27
     ],
     [
      0.0,
@@ -1132,11 +1132,11 @@
      0.0,
      0.0,
      0.0,
-     2.05,
+     2.44,
      2.92,
-     1.36,
-     1.22,
-     0.72
+     1.37,
+     1.31,
+     0.0
     ],
     [
      0.0,
@@ -1147,24 +1147,10 @@
      0.0,
      0.0,
      0.0,
-     3.08,
-     0.91,
-     1.83,
-     1.08
-    ],
-    [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     1.15,
-     0.68
+     1.9,
+     0.69,
+     1.97,
+     0.97
     ],
     [
      0.0,
@@ -1177,8 +1163,8 @@
      0.0,
      0.0,
      0.0,
-     0.0,
-     0.89
+     1.08,
+     0.71
     ],
     [
      0.0,
@@ -1192,7 +1178,21 @@
      0.0,
      0.0,
      0.0,
-     1.15
+     1.01
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.43
     ]
    ],
    "fallen": [
@@ -1562,18 +1562,18 @@
      6,
      1,
      3,
-     4
+     3
     ],
     [
      0,
      0,
      0,
      1,
-     2,
+     3,
      1,
      0,
      0,
-     2,
+     3,
      0,
      1,
      1
@@ -1597,13 +1597,13 @@
      0,
      0,
      0,
-     0,
+     1,
      1,
      2,
      0,
      1,
      1,
-     1,
+     0,
      1
     ],
     [
@@ -1613,7 +1613,7 @@
      0,
      0,
      0,
-     5,
+     4,
      0,
      2,
      3,
@@ -1643,10 +1643,10 @@
      0,
      0,
      1,
-     6,
+     7,
      3,
      2,
-     2
+     0
     ],
     [
      0,
@@ -1722,8 +1722,7 @@
      "Apple",
      "Meta Platforms (Facebook)",
      "SAP",
-     "Vodafone",
-     "Waymo"
+     "Vodafone"
     ],
     "1,4": [
      "Apple",
@@ -1735,8 +1734,7 @@
     ],
     "0,4": [
      "Alphabet (Google)",
-     "Infosys",
-     "STMicroelectronics"
+     "Infosys"
     ],
     "1,3": [
      "OpenAI",
@@ -1759,12 +1757,14 @@
     ],
     "1,7": [
      "OpenAI",
-     "Reddit"
+     "Reddit",
+     "Sysco"
     ],
     "8,8": [
      "OpenAI"
     ],
     "7,8": [
+     "Cloudflare",
      "OpenAI"
     ],
     "7,7": [
@@ -1800,7 +1800,8 @@
     "5,11": [
      "BioNTech",
      "Meta Platforms (Facebook)",
-     "Moderna"
+     "Moderna",
+     "Veeva Systems"
     ],
     "8,11": [
      "Meta Platforms (Facebook)",
@@ -1811,8 +1812,10 @@
      "Meta Platforms (Facebook)"
     ],
     "2,8": [
+     "Alnylam Pharmaceuticals",
      "HCA Healthcare",
-     "Meta Platforms (Facebook)"
+     "Meta Platforms (Facebook)",
+     "Micron Technology"
     ],
     "5,8": [
      "Intel",
@@ -1821,7 +1824,8 @@
     ],
     "0,5": [
      "AMD",
-     "Quest Diagnostics",
+     "Anduril Industries",
+     "Equinix",
      "TKO Group Holdings"
     ],
     "5,9": [
@@ -1850,12 +1854,12 @@
     "5,6": [
      "Adobe",
      "Home Depot",
-     "Marriott International",
      "Palantir"
     ],
     "4,9": [
      "Apollo Global Management",
-     "Oracle"
+     "Oracle",
+     "Sany Heavy Industry"
     ],
     "6,9": [
      "Apollo Global Management",
@@ -1865,6 +1869,7 @@
     "1,6": [
      "Databricks",
      "Home Depot",
+     "NetApp",
      "Netflix"
     ],
     "1,9": [
@@ -1875,6 +1880,7 @@
     "8,10": [
      "Moderna",
      "Roblox",
+     "Ryanair",
      "SAP"
     ],
     "10,11": [
@@ -1889,17 +1895,9 @@
      "J. B. Hunt",
      "SAP"
     ],
-    "7,11": [
-     "AT&T",
-     "RTX"
-    ],
     "0,6": [
      "Arista Networks",
      "Biogen"
-    ],
-    "4,10": [
-     "LVMH",
-     "Moderna"
     ],
     "7,9": [
      "Analog Devices",
@@ -1926,10 +1924,15 @@
      "Blackstone Group"
     ],
     "2,4": [
+     "Alnylam Pharmaceuticals",
      "CVS Health",
      "HCA Healthcare",
      "Infosys",
      "MongoDB"
+    ],
+    "4,4": [
+     "Apollo Global Management",
+     "CVS Health"
     ],
     "0,11": [
      "Infosys",
@@ -1937,6 +1940,7 @@
      "Spotify"
     ],
     "4,8": [
+     "Alnylam Pharmaceuticals",
      "HCA Healthcare",
      "Moderna",
      "Teledyne Technologies"
@@ -1957,18 +1961,15 @@
      "KKR & Co.",
      "Partners Group"
     ],
-    "4,7": [
-     "Brookfield Corporation"
-    ],
     "5,10": [
      "Moderna",
      "Workday"
     ],
+    "4,10": [
+     "Moderna"
+    ],
     "3,11": [
      "Comcast"
-    ],
-    "4,4": [
-     "Apollo Global Management"
     ],
     "11,11": [
      "Nike",
@@ -1984,6 +1985,9 @@
     "2,6": [
      "Biogen",
      "Perplexity"
+    ],
+    "2,2": [
+     "Alnylam Pharmaceuticals"
     ],
     "6,8": [
      "Teledyne Technologies"
@@ -2003,63 +2007,63 @@
   "relative_age": {
    "label": "Relative age in the school cohort, Giants + Big",
    "n": 286,
-   "mean_months": 5.528,
-   "null_mean": 5.517,
-   "band_lo": 5.119,
-   "band_hi": 5.909,
-   "p_two_sided": 0.971,
-   "share_oldest_third": 0.3077,
-   "share_youngest_third": 0.3322,
-   "null_oldest_third": 0.3336,
-   "null_youngest_third": 0.3312,
+   "mean_months": 5.503,
+   "null_mean": 5.507,
+   "band_lo": 5.105,
+   "band_hi": 5.902,
+   "p_two_sided": 0.9758,
+   "share_oldest_third": 0.3217,
+   "share_youngest_third": 0.3392,
+   "null_oldest_third": 0.3323,
+   "null_youngest_third": 0.3324,
    "hist": [
-    13,
+    17,
     25,
-    25,
-    32,
+    24,
+    31,
     28,
+    21,
     23,
     25,
-    27,
-    15,
+    18,
     30,
-    19,
+    20,
     24
    ],
    "expected_hist": [
-    23.16,
-    23.17,
-    24.19,
-    24.21,
-    24.14,
-    24.68,
-    23.37,
-    23.67,
-    23.1,
-    24.23,
-    23.84,
-    24.24
+    23.25,
+    23.31,
+    24.32,
+    24.17,
+    24.17,
+    24.71,
+    23.34,
+    23.68,
+    23.0,
+    24.12,
+    23.77,
+    24.15
    ],
    "certainty": [
     [
      "medium",
-     147
+     143
     ],
     [
      "high",
-     60
-    ],
-    [
-     "medium (nearest era)",
-     33
+     61
     ],
     [
      "high (nearest era)",
-     27
+     33
+    ],
+    [
+     "medium (nearest era)",
+     31
     ],
     [
      "low",
-     17
+     16
     ],
     [
      "low (nearest era)",
@@ -2081,7 +2085,6 @@
     "Iran",
     "Italy",
     "Japan",
-    "Mexico",
     "Netherlands",
     "Norway",
     "Pakistan",
@@ -2101,13 +2104,13 @@
     "United States",
     "Vietnam"
    ],
-   "verdict": "Founders average 5.53 months older than their youngest classmate; chance says 5.52 (95% range 5.12 to 5.91). 31% were among the oldest third of their class vs 33% expected. No relative-age effect shows.",
-   "sign_check": "Sign test tallest bar is Libra; see 'signs' max-deviation p = 0.12 before any cohort adjustment."
+   "verdict": "Founders average 5.50 months older than their youngest classmate; chance says 5.51 (95% range 5.10 to 5.90). 32% were among the oldest third of their class vs 33% expected. No relative-age effect shows.",
+   "sign_check": "Sign test tallest bar is Libra; see 'signs' max-deviation p = 0.23 before any cohort adjustment."
   },
   "fallen_vs_thriving": {
    "label": "Fallen founders vs thriving founders",
    "n_fallen": 22,
-   "n_thriving": 332,
+   "n_thriving": 333,
    "signs_fallen": [
     3,
     2,
@@ -2123,21 +2126,21 @@
     2
    ],
    "signs_thriving": [
-    20,
-    30,
     21,
+    31,
+    24,
     26,
-    34,
+    33,
     27,
-    40,
-    30,
-    19,
-    25,
+    39,
+    29,
     23,
-    37
+    24,
+    22,
+    34
    ],
-   "chi2": 8.2,
-   "p_perm": 0.7152,
+   "chi2": 8.22,
+   "p_perm": 0.7186,
    "elements_fallen": [
     4,
     6,
@@ -2145,31 +2148,31 @@
     4
    ],
    "elements_thriving": [
-    73,
+    77,
     82,
-    84,
-    93
+    85,
+    89
    ],
-   "chi2_elements": 1.89,
-   "p_perm_elements": 0.6152,
+   "chi2_elements": 1.78,
+   "p_perm_elements": 0.6225,
    "verdict": "The sign mix of the 22 fallen founders differs most at Scorpio (0% vs 9% among thriving founders). Shuffling the 'fallen' label 10,000 times produced a gap this large 72% of the time — no signature of failure in the stars."
   },
   "breakups": {
    "label": "Pairs that broke up vs pairs that stayed",
    "n_broke": 6,
-   "n_intact": 172,
+   "n_intact": 181,
    "compatible_broke": 0.5,
-   "compatible_intact": 0.5058,
-   "diff": -0.0058,
-   "band_lo": -0.3508,
-   "band_hi": 0.3391,
+   "compatible_intact": 0.5193,
+   "diff": -0.0193,
+   "band_lo": -0.3637,
+   "band_hi": 0.325,
    "p_two_sided": 1.0,
-   "verdict": "50% of the 6 pairs that broke up were 'compatible' by element, against 51% of the 172 pairs that stayed together. Astrology did not see the breakup coming."
+   "verdict": "50% of the 6 pairs that broke up were 'compatible' by element, against 52% of the 181 pairs that stayed together. Astrology did not see the breakup coming."
   },
   "moon": {
    "label": "Moon sign (exploratory, no birth times)",
-   "n": 332,
-   "ambiguous": 157,
+   "n": 333,
+   "ambiguous": 153,
    "bins": [
     "Aries",
     "Taurus",
@@ -2185,37 +2188,37 @@
     "Pisces"
    ],
    "observed": [
-    30.0,
-    35.0,
-    27.5,
-    22.5,
-    26.5,
-    25.0,
-    20.5,
-    32.5,
+    29.5,
+    36.0,
     30.0,
     22.5,
     27.0,
-    33.0
+    25.5,
+    19.5,
+    32.5,
+    29.0,
+    22.5,
+    26.5,
+    32.5
    ],
    "expected": [
-    27.7,
-    27.7,
-    27.7,
-    27.7,
-    27.7,
-    27.7,
-    27.7,
-    27.7,
-    27.7,
-    27.7,
-    27.7,
-    27.7
+    27.8,
+    27.8,
+    27.8,
+    27.8,
+    27.8,
+    27.8,
+    27.8,
+    27.8,
+    27.8,
+    27.8,
+    27.8,
+    27.8
    ],
-   "chi2": 8.32,
-   "p_mc": 0.6856,
+   "chi2": 9.13,
+   "p_mc": 0.616,
    "tallest": "Taurus",
-   "verdict": "Moon in Taurus leads with 35 founders against 28 expected; 157 of 332 founders could be one of two Moon signs and count half each. Chance produces a spread like this 69% of the time."
+   "verdict": "Moon in Taurus leads with 36 founders against 28 expected; 153 of 333 founders could be one of two Moon signs and count half each. Chance produces a spread like this 62% of the time."
   }
  },
  "signs_order": [

@@ -181,6 +181,24 @@
   "sun_longitude": 243.86,
   "tz_assumed": -5
  },
+ "Q6211708": {
+  "moon": [
+   "Capricorn"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Gemini",
+  "sun_longitude": 79.92,
+  "tz_assumed": 0
+ },
+ "Q453611": {
+  "moon": [
+   "Leo"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Sagittarius",
+  "sun_longitude": 252.57,
+  "tz_assumed": -8
+ },
  "Q1687865": {
   "moon": [
    "Leo"
@@ -226,15 +244,6 @@
   "moon_ambiguous": false,
   "sun_tropical": "Sagittarius",
   "sun_longitude": 268.34,
-  "tz_assumed": -6
- },
- "Q359908": {
-  "moon": [
-   "Pisces"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Leo",
-  "sun_longitude": 140.31,
   "tz_assumed": -6
  },
  "Q241735": {
@@ -304,6 +313,16 @@
   "sun_longitude": 169.72,
   "tz_assumed": -8
  },
+ "Q1739008": {
+  "moon": [
+   "Aquarius",
+   "Pisces"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Scorpio",
+  "sun_longitude": 215.08,
+  "tz_assumed": 8
+ },
  "Q92759": {
   "moon": [
    "Leo"
@@ -338,16 +357,6 @@
   "moon_ambiguous": false,
   "sun_tropical": "Libra",
   "sun_longitude": 184.07,
-  "tz_assumed": -8
- },
- "Q2637693": {
-  "moon": [
-   "Cancer",
-   "Leo"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Taurus",
-  "sun_longitude": 46.04,
   "tz_assumed": -8
  },
  "Q5235798": {
@@ -452,24 +461,6 @@
   "sun_longitude": 200.93,
   "tz_assumed": -5
  },
- "Q299595": {
-  "moon": [
-   "Scorpio"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Pisces",
-  "sun_longitude": 351.1,
-  "tz_assumed": -5
- },
- "Q3087154": {
-  "moon": [
-   "Leo"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Scorpio",
-  "sun_longitude": 226.04,
-  "tz_assumed": -6
- },
  "Q7306657": {
   "moon": [
    "Taurus",
@@ -488,16 +479,6 @@
   "sun_tropical": "Taurus",
   "sun_longitude": 38.87,
   "tz_assumed": -5
- },
- "Q7352762": {
-  "moon": [
-   "Cancer",
-   "Leo"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Aquarius",
-  "sun_longitude": 314.84,
-  "tz_assumed": 0
  },
  "Q1137062": {
   "moon": [
@@ -547,25 +528,6 @@
   "sun_longitude": 106.74,
   "tz_assumed": 7
  },
- "Q58215022": {
-  "moon": [
-   "Aries"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Aquarius",
-  "sun_longitude": 304.18,
-  "tz_assumed": 0
- },
- "Q58214823": {
-  "moon": [
-   "Virgo",
-   "Libra"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Leo",
-  "sun_longitude": 142.65,
-  "tz_assumed": 0
- },
  "Q7298142": {
   "moon": [
    "Capricorn",
@@ -585,16 +547,6 @@
   "sun_tropical": "Capricorn",
   "sun_longitude": 274.04,
   "tz_assumed": 0
- },
- "Q2221592": {
-  "moon": [
-   "Scorpio",
-   "Sagittarius"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Pisces",
-  "sun_longitude": 355.66,
-  "tz_assumed": -5
  },
  "Q28797531": {
   "moon": [
@@ -699,6 +651,15 @@
   "sun_longitude": 138.17,
   "tz_assumed": 9
  },
+ "Q11550665": {
+  "moon": [
+   "Pisces"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Gemini",
+  "sun_longitude": 80.95,
+  "tz_assumed": 9
+ },
  "Q7615005": {
   "moon": [
    "Capricorn",
@@ -793,24 +754,15 @@
   "sun_longitude": 325.17,
   "tz_assumed": -5
  },
- "Q1294060": {
+ "Q47501260": {
   "moon": [
-   "Taurus"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Scorpio",
-  "sun_longitude": 221.93,
-  "tz_assumed": -6
- },
- "Q34286": {
-  "moon": [
-   "Virgo",
-   "Libra"
+   "Gemini",
+   "Cancer"
   ],
   "moon_ambiguous": true,
-  "sun_tropical": "Pisces",
-  "sun_longitude": 342.32,
-  "tz_assumed": 0
+  "sun_tropical": "Aries",
+  "sun_longitude": 21.98,
+  "tz_assumed": -5
  },
  "Q5523871": {
   "moon": [
@@ -888,15 +840,14 @@
   "sun_longitude": 214.43,
   "tz_assumed": 0
  },
- "Q6216224": {
+ "Q11565122": {
   "moon": [
-   "Sagittarius",
-   "Capricorn"
+   "Gemini"
   ],
-  "moon_ambiguous": true,
+  "moon_ambiguous": false,
   "sun_tropical": "Gemini",
-  "sun_longitude": 70.38,
-  "tz_assumed": 1
+  "sun_longitude": 78.86,
+  "tz_assumed": 9
  },
  "Q126165402": {
   "moon": [
@@ -908,6 +859,16 @@
   "sun_longitude": 74.12,
   "tz_assumed": 0
  },
+ "Q56705066": {
+  "moon": [
+   "Libra",
+   "Scorpio"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Leo",
+  "sun_longitude": 131.31,
+  "tz_assumed": -5
+ },
  "Q126163208": {
   "moon": [
    "Sagittarius"
@@ -916,6 +877,16 @@
   "sun_tropical": "Leo",
   "sun_longitude": 128.76,
   "tz_assumed": 0
+ },
+ "Q6167147": {
+  "moon": [
+   "Cancer",
+   "Leo"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Scorpio",
+  "sun_longitude": 222.5,
+  "tz_assumed": -5
  },
  "Q51665553": {
   "moon": [
@@ -926,6 +897,15 @@
   "sun_longitude": 231.02,
   "tz_assumed": -7
  },
+ "Q6513931": {
+  "moon": [
+   "Aries"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Sagittarius",
+  "sun_longitude": 251.74,
+  "tz_assumed": 0
+ },
  "Q716030": {
   "moon": [
    "Scorpio",
@@ -935,25 +915,6 @@
   "sun_tropical": "Aries",
   "sun_longitude": 17.87,
   "tz_assumed": 8
- },
- "Q47308075": {
-  "moon": [
-   "Aquarius"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Gemini",
-  "sun_longitude": 78.68,
-  "tz_assumed": -6
- },
- "Q5250522": {
-  "moon": [
-   "Libra",
-   "Scorpio"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Libra",
-  "sun_longitude": 204.74,
-  "tz_assumed": 6
  },
  "Q901670": {
   "moon": [
@@ -993,25 +954,6 @@
   "sun_tropical": "Libra",
   "sun_longitude": 194.31,
   "tz_assumed": 8
- },
- "Q716147": {
-  "moon": [
-   "Cancer"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Virgo",
-  "sun_longitude": 174.4,
-  "tz_assumed": -7
- },
- "Q4725984": {
-  "moon": [
-   "Pisces",
-   "Aries"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Libra",
-  "sun_longitude": 205.24,
-  "tz_assumed": -7
  },
  "Q7789441": {
   "moon": [
@@ -1058,6 +1000,15 @@
   "sun_tropical": "Virgo",
   "sun_longitude": 164.69,
   "tz_assumed": -6
+ },
+ "Q7383341": {
+  "moon": [
+   "Cancer"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Aries",
+  "sun_longitude": 22.56,
+  "tz_assumed": 0
  },
  "Q4963341": {
   "moon": [
@@ -1221,25 +1172,6 @@
   "moon_ambiguous": false,
   "sun_tropical": "Cancer",
   "sun_longitude": 107.88,
-  "tz_assumed": -5
- },
- "Q920647": {
-  "moon": [
-   "Taurus"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Leo",
-  "sun_longitude": 127.43,
-  "tz_assumed": -5
- },
- "Q15516394": {
-  "moon": [
-   "Aries",
-   "Taurus"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Scorpio",
-  "sun_longitude": 217.19,
   "tz_assumed": -5
  },
  "Q50173077": {
@@ -1444,16 +1376,6 @@
   "sun_longitude": 187.33,
   "tz_assumed": 8
  },
- "Q170419": {
-  "moon": [
-   "Virgo",
-   "Libra"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Aquarius",
-  "sun_longitude": 307.72,
-  "tz_assumed": -7
- },
  "Q6385527": {
   "moon": [
    "Virgo"
@@ -1586,16 +1508,6 @@
   "sun_longitude": 315.55,
   "tz_assumed": 0
  },
- "Q6176392": {
-  "moon": [
-   "Libra",
-   "Scorpio"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Capricorn",
-  "sun_longitude": 286.11,
-  "tz_assumed": -5
- },
  "Q16105134": {
   "moon": [
    "Scorpio",
@@ -1634,16 +1546,6 @@
   "sun_tropical": "Sagittarius",
   "sun_longitude": 241.76,
   "tz_assumed": 9
- },
- "Q380467": {
-  "moon": [
-   "Scorpio",
-   "Sagittarius"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Taurus",
-  "sun_longitude": 59.09,
-  "tz_assumed": -6
  },
  "Q25344397": {
   "moon": [
@@ -1694,15 +1596,6 @@
   "sun_longitude": 328.9,
   "tz_assumed": 8
  },
- "Q58577": {
-  "moon": [
-   "Libra"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Sagittarius",
-  "sun_longitude": 261.4,
-  "tz_assumed": 1
- },
  "Q451455": {
   "moon": [
    "Aries",
@@ -1712,6 +1605,16 @@
   "sun_tropical": "Virgo",
   "sun_longitude": 158.35,
   "tz_assumed": 3
+ },
+ "Q563379": {
+  "moon": [
+   "Aries",
+   "Taurus"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Scorpio",
+  "sun_longitude": 227.49,
+  "tz_assumed": 8
  },
  "Q5524792": {
   "moon": [
@@ -1741,6 +1644,15 @@
   "sun_longitude": 329.73,
   "tz_assumed": -5
  },
+ "Q56347746": {
+  "moon": [
+   "Virgo"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Virgo",
+  "sun_longitude": 151.09,
+  "tz_assumed": -3
+ },
  "Q50324424": {
   "moon": [
    "Capricorn"
@@ -1749,6 +1661,16 @@
   "sun_tropical": "Pisces",
   "sun_longitude": 337.68,
   "tz_assumed": 0
+ },
+ "Q3528708": {
+  "moon": [
+   "Taurus",
+   "Gemini"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Virgo",
+  "sun_longitude": 171.72,
+  "tz_assumed": -8
  },
  "Q2559017": {
   "moon": [
@@ -1844,15 +1766,6 @@
   "sun_tropical": "Pisces",
   "sun_longitude": 353.95,
   "tz_assumed": 5
- },
- "Q20880796": {
-  "moon": [
-   "Virgo"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Leo",
-  "sun_longitude": 130.48,
-  "tz_assumed": -5
  },
  "Q93014": {
   "moon": [
@@ -1958,6 +1871,24 @@
   "sun_longitude": 31.76,
   "tz_assumed": -5
  },
+ "Q16336528": {
+  "moon": [
+   "Cancer"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Taurus",
+  "sun_longitude": 33.41,
+  "tz_assumed": 8
+ },
+ "Q6832461": {
+  "moon": [
+   "Libra"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Libra",
+  "sun_longitude": 200.09,
+  "tz_assumed": 0
+ },
  "Q18684861": {
   "moon": [
    "Taurus"
@@ -1985,25 +1916,6 @@
   "sun_tropical": "Pisces",
   "sun_longitude": 345.77,
   "tz_assumed": -5
- },
- "Q559794": {
-  "moon": [
-   "Scorpio",
-   "Sagittarius"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Aries",
-  "sun_longitude": 8.72,
-  "tz_assumed": 0
- },
- "Q1029394": {
-  "moon": [
-   "Gemini"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Leo",
-  "sun_longitude": 140.9,
-  "tz_assumed": 1
  },
  "Q1819424": {
   "moon": [
@@ -2042,6 +1954,16 @@
   "sun_longitude": 222.51,
   "tz_assumed": 0
  },
+ "Q5672034": {
+  "moon": [
+   "Scorpio",
+   "Sagittarius"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Taurus",
+  "sun_longitude": 54.17,
+  "tz_assumed": 0
+ },
  "Q3522726": {
   "moon": [
    "Virgo"
@@ -2050,6 +1972,15 @@
   "sun_tropical": "Cancer",
   "sun_longitude": 111.46,
   "tz_assumed": 5
+ },
+ "Q8998330": {
+  "moon": [
+   "Pisces"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Taurus",
+  "sun_longitude": 33.64,
+  "tz_assumed": 8
  },
  "Q21551626": {
   "moon": [
@@ -2088,6 +2019,15 @@
   "sun_tropical": "Gemini",
   "sun_longitude": 84.92,
   "tz_assumed": -8
+ },
+ "Q7240183": {
+  "moon": [
+   "Taurus"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Leo",
+  "sun_longitude": 132.29,
+  "tz_assumed": 5
  },
  "Q3297814": {
   "moon": [
@@ -2250,6 +2190,15 @@
   "sun_longitude": 286.95,
   "tz_assumed": 0
  },
+ "Q19974916": {
+  "moon": [
+   "Aquarius"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Taurus",
+  "sun_longitude": 33.09,
+  "tz_assumed": 10
+ },
  "Q8991047": {
   "moon": [
    "Taurus",
@@ -2286,15 +2235,6 @@
   "sun_tropical": "Virgo",
   "sun_longitude": 151.14,
   "tz_assumed": -5
- },
- "Q11478367": {
-  "moon": [
-   "Cancer"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Aries",
-  "sun_longitude": 14.53,
-  "tz_assumed": 0
  },
  "Q131466356": {
   "moon": [
@@ -2372,6 +2312,34 @@
   "sun_longitude": 150.32,
   "tz_assumed": 2
  },
+ "Q7153466": {
+  "moon": [
+   "Leo",
+   "Virgo"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Leo",
+  "sun_longitude": 132.13,
+  "tz_assumed": -5
+ },
+ "Q90093": {
+  "moon": [
+   "Scorpio"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Gemini",
+  "sun_longitude": 70.5,
+  "tz_assumed": 1
+ },
+ "Q52600489": {
+  "moon": [
+   "Taurus"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Sagittarius",
+  "sun_longitude": 246.75,
+  "tz_assumed": -5
+ },
  "Q5720674": {
   "moon": [
    "Capricorn"
@@ -2400,6 +2368,15 @@
   "sun_longitude": 145.94,
   "tz_assumed": -5
  },
+ "Q1872970": {
+  "moon": [
+   "Aquarius"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Aquarius",
+  "sun_longitude": 328.94,
+  "tz_assumed": 1
+ },
  "Q1387731": {
   "moon": [
    "Virgo"
@@ -2408,6 +2385,16 @@
   "sun_tropical": "Capricorn",
   "sun_longitude": 292.46,
   "tz_assumed": 7
+ },
+ "Q114179": {
+  "moon": [
+   "Taurus",
+   "Gemini"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Aquarius",
+  "sun_longitude": 306.13,
+  "tz_assumed": -5
  },
  "Q164373": {
   "moon": [
@@ -2435,16 +2422,6 @@
   "sun_tropical": "Pisces",
   "sun_longitude": 331.1,
   "tz_assumed": 8
- },
- "Q217098": {
-  "moon": [
-   "Taurus",
-   "Gemini"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Scorpio",
-  "sun_longitude": 222.3,
-  "tz_assumed": 5
  },
  "Q5084818": {
   "moon": [
@@ -2482,16 +2459,6 @@
   "sun_longitude": 225.9,
   "tz_assumed": 4
  },
- "Q968798": {
-  "moon": [
-   "Capricorn",
-   "Aquarius"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Virgo",
-  "sun_longitude": 164.68,
-  "tz_assumed": -6
- },
  "Q7148948": {
   "moon": [
    "Aries"
@@ -2499,6 +2466,16 @@
   "moon_ambiguous": false,
   "sun_tropical": "Aries",
   "sun_longitude": 11.11,
+  "tz_assumed": 0
+ },
+ "Q137919893": {
+  "moon": [
+   "Scorpio",
+   "Sagittarius"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Sagittarius",
+  "sun_longitude": 260.31,
   "tz_assumed": 0
  },
  "Q639725": {
@@ -2527,6 +2504,16 @@
   "moon_ambiguous": true,
   "sun_tropical": "Leo",
   "sun_longitude": 137.07,
+  "tz_assumed": -6
+ },
+ "Q7704484": {
+  "moon": [
+   "Taurus",
+   "Gemini"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Gemini",
+  "sun_longitude": 84.74,
   "tz_assumed": -6
  },
  "Q7612894": {
@@ -2586,6 +2573,16 @@
   "sun_longitude": 280.77,
   "tz_assumed": 7
  },
+ "Q111132867": {
+  "moon": [
+   "Leo",
+   "Virgo"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Leo",
+  "sun_longitude": 134.69,
+  "tz_assumed": 0
+ },
  "Q6777103": {
   "moon": [
    "Pisces",
@@ -2632,15 +2629,14 @@
   "sun_longitude": 234.59,
   "tz_assumed": -6
  },
- "Q8677": {
+ "Q23418611": {
   "moon": [
-   "Aquarius",
-   "Pisces"
+   "Gemini"
   ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Cancer",
-  "sun_longitude": 95.77,
-  "tz_assumed": -5
+  "moon_ambiguous": false,
+  "sun_tropical": "Sagittarius",
+  "sun_longitude": 263.5,
+  "tz_assumed": 8
  },
  "Q53944": {
   "moon": [
@@ -2651,6 +2647,16 @@
   "sun_longitude": 349.54,
   "tz_assumed": 10
  },
+ "Q488446": {
+  "moon": [
+   "Libra",
+   "Scorpio"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Pisces",
+  "sun_longitude": 357.86,
+  "tz_assumed": 9
+ },
  "Q319137": {
   "moon": [
    "Capricorn",
@@ -2660,6 +2666,16 @@
   "sun_tropical": "Leo",
   "sun_longitude": 131.83,
   "tz_assumed": -5
+ },
+ "Q6202240": {
+  "moon": [
+   "Libra",
+   "Scorpio"
+  ],
+  "moon_ambiguous": true,
+  "sun_tropical": "Cancer",
+  "sun_longitude": 113.8,
+  "tz_assumed": 7
  },
  "Q296647": {
   "moon": [
@@ -2972,25 +2988,6 @@
   "sun_longitude": 133.81,
   "tz_assumed": -1
  },
- "Q62901": {
-  "moon": [
-   "Cancer"
-  ],
-  "moon_ambiguous": false,
-  "sun_tropical": "Taurus",
-  "sun_longitude": 53.01,
-  "tz_assumed": 0
- },
- "Q26924676": {
-  "moon": [
-   "Aquarius",
-   "Pisces"
-  ],
-  "moon_ambiguous": true,
-  "sun_tropical": "Pisces",
-  "sun_longitude": 355.06,
-  "tz_assumed": 0
- },
  "Q50505362": {
   "moon": [
    "Aries",
@@ -3010,6 +3007,15 @@
   "sun_tropical": "Virgo",
   "sun_longitude": 177.12,
   "tz_assumed": -8
+ },
+ "Q702527": {
+  "moon": [
+   "Cancer"
+  ],
+  "moon_ambiguous": false,
+  "sun_tropical": "Aries",
+  "sun_longitude": 13.8,
+  "tz_assumed": 8
  },
  "Q108070054": {
   "moon": [
@@ -3116,15 +3122,14 @@
   "sun_longitude": 59.86,
   "tz_assumed": -3
  },
- "Q6186752": {
+ "Q72733245": {
   "moon": [
-   "Aquarius",
-   "Pisces"
+   "Virgo"
   ],
-  "moon_ambiguous": true,
+  "moon_ambiguous": false,
   "sun_tropical": "Pisces",
-  "sun_longitude": 335.48,
-  "tz_assumed": -6
+  "sun_longitude": 359.35,
+  "tz_assumed": -4
  },
  "Q120492201": {
   "moon": [

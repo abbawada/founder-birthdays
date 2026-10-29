@@ -1,0 +1,7006 @@
+[
+ {
+  "key": "Q305177",
+  "name": "Jensen Huang",
+  "companies": [
+   "NVIDIA"
+  ],
+  "birthday": "1963-02-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q305177",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q305177"
+ },
+ {
+  "key": "Q5107317",
+  "name": "Chris Malachowsky",
+  "companies": [
+   "NVIDIA"
+  ],
+  "birthday": "1959-05-02",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5107317",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Malachowsky",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5107317"
+ },
+ {
+  "key": "Q5195858",
+  "name": "Curtis Priem",
+  "companies": [
+   "NVIDIA"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date|64|2023|11|26}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Curtis_Priem",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5195858"
+ },
+ {
+  "key": "Q19837",
+  "name": "Steve Jobs",
+  "companies": [
+   "Apple"
+  ],
+  "birthday": "1955-02-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q19837",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19837"
+ },
+ {
+  "key": "Q483382",
+  "name": "Steve Wozniak",
+  "companies": [
+   "Apple"
+  ],
+  "birthday": "1950-08-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q483382",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Wozniak",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q483382"
+ },
+ {
+  "key": "Q332591",
+  "name": "Ronald Wayne",
+  "companies": [
+   "Apple"
+  ],
+  "birthday": "1934-05-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q332591",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ronald_Wayne",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q332591"
+ },
+ {
+  "key": "Q5284",
+  "name": "Bill Gates",
+  "companies": [
+   "Microsoft"
+  ],
+  "birthday": "1955-10-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5284",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bill_Gates",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5284"
+ },
+ {
+  "key": "Q162005",
+  "name": "Paul Allen",
+  "companies": [
+   "Microsoft"
+  ],
+  "birthday": "1953-01-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q162005",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Allen",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q162005"
+ },
+ {
+  "key": "Q4934",
+  "name": "Larry Page",
+  "companies": [
+   "Alphabet (Google)"
+  ],
+  "birthday": "1973-03-26",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4934",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Page",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4934"
+ },
+ {
+  "key": "Q92764",
+  "name": "Sergey Brin",
+  "companies": [
+   "Alphabet (Google)"
+  ],
+  "birthday": "1973-08-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q92764",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sergey_Brin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q92764"
+ },
+ {
+  "key": "Q312556",
+  "name": "Jeff Bezos",
+  "companies": [
+   "Amazon",
+   "Blue Origin"
+  ],
+  "birthday": "1964-01-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q312556",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_Bezos",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q312556"
+ },
+ {
+  "key": "Q4745214",
+  "name": "Morris Chang",
+  "companies": [
+   "TSMC"
+  ],
+  "birthday": "1931-07-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4745214",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Morris_Chang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4745214"
+ },
+ {
+  "key": "Q317521",
+  "name": "Elon Musk",
+  "companies": [
+   "OpenAI",
+   "PayPal",
+   "SpaceX",
+   "The Boring Company"
+  ],
+  "birthday": "1971-06-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q317521",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Elon_Musk",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q317521"
+ },
+ {
+  "key": "Q1903673",
+  "name": "Martin Eberhard",
+  "companies": [
+   "Tesla"
+  ],
+  "birthday": "1960-05-15",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1903673",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Eberhard",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1903673"
+ },
+ {
+  "key": "Q1892831",
+  "name": "Marc Tarpenning",
+  "companies": [
+   "Tesla"
+  ],
+  "birthday": "1964-06-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1892831",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Marc_Tarpenning",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1892831"
+ },
+ {
+  "key": "Q36215",
+  "name": "Mark Zuckerberg",
+  "companies": [
+   "Meta Platforms (Facebook)"
+  ],
+  "birthday": "1984-05-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q36215",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q36215"
+ },
+ {
+  "key": "Q312663",
+  "name": "Eduardo Saverin",
+  "companies": [
+   "Meta Platforms (Facebook)"
+  ],
+  "birthday": "1982-03-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q312663",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eduardo_Saverin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q312663"
+ },
+ {
+  "key": "Q370217",
+  "name": "Dustin Moskovitz",
+  "companies": [
+   "Meta Platforms (Facebook)"
+  ],
+  "birthday": "1984-05-22",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q370217",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q370217"
+ },
+ {
+  "key": "Q4757939",
+  "name": "Andrew McCollum",
+  "companies": [
+   "Meta Platforms (Facebook)"
+  ],
+  "birthday": "1983-09-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4757939",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_McCollum",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4757939"
+ },
+ {
+  "key": "Q370321",
+  "name": "Chris Hughes",
+  "companies": [
+   "Meta Platforms (Facebook)"
+  ],
+  "birthday": "1983-11-26",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q370321",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Hughes",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q370321"
+ },
+ {
+  "key": "Q1687865",
+  "name": "Jerry Sanders",
+  "companies": [
+   "AMD"
+  ],
+  "birthday": "1936-09-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1687865",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jerry_Sanders_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1687865"
+ },
+ {
+  "key": "Q930948",
+  "name": "Edwin Turney",
+  "companies": [
+   "AMD"
+  ],
+  "birthday": "1929-03-26",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q930948",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Edwin_Turney",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q930948"
+ },
+ {
+  "key": "Q16018448",
+  "name": "Jack Gifford",
+  "companies": [
+   "AMD"
+  ],
+  "birthday": "1941-01-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q16018448",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Gifford",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16018448"
+ },
+ {
+  "key": "Q497827",
+  "name": "Sam Walton",
+  "companies": [
+   "Walmart"
+  ],
+  "birthday": "1918-03-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q497827",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sam_Walton",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q497827"
+ },
+ {
+  "key": "Q1045098",
+  "name": "Bud Walton",
+  "companies": [
+   "Walmart"
+  ],
+  "birthday": "1921-12-20",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1045098",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bud_Walton",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1045098"
+ },
+ {
+  "key": "Q359908",
+  "name": "Lee Raymond",
+  "companies": [
+   "Exxon Mobil"
+  ],
+  "birthday": "1938-08-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q359908",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lee_Raymond",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q359908"
+ },
+ {
+  "key": "Q241735",
+  "name": "Robert Noyce",
+  "companies": [
+   "Intel"
+  ],
+  "birthday": "1927-12-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q241735",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Noyce",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q241735"
+ },
+ {
+  "key": "Q243969",
+  "name": "Gordon Moore",
+  "companies": [
+   "Intel"
+  ],
+  "birthday": "1929-01-03",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q243969",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gordon_Moore",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q243969"
+ },
+ {
+  "key": "Q432929",
+  "name": "Andrew Grove",
+  "companies": [
+   "Intel"
+  ],
+  "birthday": "1936-09-02",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q432929",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Grove",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q432929"
+ },
+ {
+  "key": "Q705525",
+  "name": "Peter Thiel",
+  "companies": [
+   "Palantir",
+   "PayPal"
+  ],
+  "birthday": "1967-10-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q705525",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Thiel",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q705525"
+ },
+ {
+  "key": "Q16204157",
+  "name": "Stephen Cohen",
+  "companies": [
+   "Palantir"
+  ],
+  "birthday": "1982-09-30",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q16204157",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Stephen_Cohen_(entrepreneur)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16204157"
+ },
+ {
+  "key": "Q19560940",
+  "name": "Alexander C. Karp",
+  "companies": [
+   "Palantir"
+  ],
+  "birthday": "1967-10-02",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q19560940",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Karp",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19560940"
+ },
+ {
+  "key": "Q6210988",
+  "name": "Joe Lonsdale",
+  "companies": [
+   "Palantir"
+  ],
+  "birthday": "1982-09-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6210988",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Lonsdale",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6210988"
+ },
+ {
+  "key": "Q137910729",
+  "name": "Nathan Gettings",
+  "companies": [
+   "Affirm",
+   "Palantir"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1977-03-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nathan_Gettings",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q137910729"
+ },
+ {
+  "key": "Q140590016",
+  "name": "Zhu Yiming",
+  "companies": [
+   "CXMT",
+   "GigaDevice Semiconductor"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1972}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zhu_Yiming",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q140590016"
+ },
+ {
+  "key": "Q92759",
+  "name": "Larry Ellison",
+  "companies": [
+   "Oracle"
+  ],
+  "birthday": "1944-08-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q92759",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Ellison",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q92759"
+ },
+ {
+  "key": "Q2744012",
+  "name": "Bob Miner",
+  "companies": [
+   "Oracle"
+  ],
+  "birthday": "1941-12-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2744012",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Miner",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2744012"
+ },
+ {
+  "key": "Q5335240",
+  "name": "Ed Oates",
+  "companies": [
+   "Oracle"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1946}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ed_Oates",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5335240"
+ },
+ {
+  "key": "Q6143243",
+  "name": "James Sinegal",
+  "companies": [
+   "Costco"
+  ],
+  "birthday": "1936-01-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6143243",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/James_Sinegal",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6143243"
+ },
+ {
+  "key": "Q6175871",
+  "name": "Jeffrey Brotman",
+  "companies": [
+   "Costco"
+  ],
+  "birthday": "1942-09-27",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6175871",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jeffrey_Brotman",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6175871"
+ },
+ {
+  "key": "Q3229666",
+  "name": "Leonard Bosack",
+  "companies": [
+   "Cisco"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1952}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Leonard_Bosack",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q3229666"
+ },
+ {
+  "key": "Q7549",
+  "name": "Sandra Lerner",
+  "companies": [
+   "Cisco"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1955}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sandy_Lerner",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7549"
+ },
+ {
+  "key": "Q107934870",
+  "name": "Richard T. Burke",
+  "companies": [
+   "UnitedHealth"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1943}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_T._Burke",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q107934870"
+ },
+ {
+  "key": "Q2637693",
+  "name": "Amadeo Giannini",
+  "companies": [
+   "Bank of America"
+  ],
+  "birthday": "1870-05-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2637693",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Amadeo_Giannini",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2637693"
+ },
+ {
+  "key": "Q19447315",
+  "name": "Nir Zuk",
+  "companies": [
+   "Palo Alto Networks"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1971-01-01",
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19447315"
+ },
+ {
+  "key": "Q5235798",
+  "name": "David K. Lam",
+  "companies": [
+   "Lam Research"
+  ],
+  "birthday": "1943-02-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5235798",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/David_K._Lam",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5235798"
+ },
+ {
+  "key": "Q2898293",
+  "name": "Bernard Marcus",
+  "companies": [
+   "Home Depot"
+  ],
+  "birthday": "1929-05-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2898293",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bernard_Marcus",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2898293"
+ },
+ {
+  "key": "Q2865008",
+  "name": "Arthur Blank",
+  "companies": [
+   "Home Depot"
+  ],
+  "birthday": "1942-09-27",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2865008",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_Blank",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2865008"
+ },
+ {
+  "key": "Q7363572",
+  "name": "Ron Brill",
+  "companies": [
+   "Home Depot"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1944-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ron_Brill",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7363572"
+ },
+ {
+  "key": "Q7143429",
+  "name": "Pat Farrah",
+  "companies": [
+   "Home Depot"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pat_Farrah",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7143429"
+ },
+ {
+  "key": "Q6390362",
+  "name": "Kenneth Langone",
+  "companies": [
+   "Home Depot"
+  ],
+  "birthday": "1935-09-16",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6390362",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ken_Langone",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6390362"
+ },
+ {
+  "key": "Q218630",
+  "name": "Michael Dell",
+  "companies": [
+   "Dell"
+  ],
+  "birthday": "1965-02-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q218630",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Dell",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q218630"
+ },
+ {
+  "key": "Q62543",
+  "name": "Dietmar Hopp",
+  "companies": [
+   "SAP"
+  ],
+  "birthday": "1940-04-26",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q62543",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dietmar_Hopp",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q62543"
+ },
+ {
+  "key": "Q71074",
+  "name": "Hasso Plattner",
+  "companies": [
+   "SAP"
+  ],
+  "birthday": "1944-01-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q71074",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hasso_Plattner",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q71074"
+ },
+ {
+  "key": "Q95452",
+  "name": "Klaus Tschira",
+  "companies": [
+   "SAP"
+  ],
+  "birthday": "1940-12-07",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q95452",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Klaus_Tschira",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q95452"
+ },
+ {
+  "key": "Q108783",
+  "name": "Claus Wellenreuther",
+  "companies": [
+   "SAP"
+  ],
+  "birthday": "1935-03-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q108783",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Claus_Wellenreuther",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q108783"
+ },
+ {
+  "key": "Q1578305",
+  "name": "Hans-Werner Hector",
+  "companies": [
+   "SAP"
+  ],
+  "birthday": "1940-01-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1578305",
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1578305"
+ },
+ {
+  "key": "Q50082669",
+  "name": "George Kurtz",
+  "companies": [
+   "CrowdStrike"
+  ],
+  "birthday": "1970-10-14",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/George_Kurtz",
+  "birth_raw": "{{birth date and age|1970|10|14}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/George_Kurtz",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q50082669"
+ },
+ {
+  "key": "Q5285463",
+  "name": "Dmitri Alperovitch",
+  "companies": [
+   "CrowdStrike"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1980}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dmitri_Alperovitch",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5285463"
+ },
+ {
+  "key": "Q299595",
+  "name": "Vannevar Bush",
+  "companies": [
+   "RTX"
+  ],
+  "birthday": "1890-03-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q299595",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vannevar_Bush",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q299595"
+ },
+ {
+  "key": "Q3087154",
+  "name": "Frederick Rentschler",
+  "companies": [
+   "RTX"
+  ],
+  "birthday": "1887-11-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q3087154",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Frederick_Rentschler",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q3087154"
+ },
+ {
+  "key": "Q7306657",
+  "name": "Reed Hastings",
+  "companies": [
+   "Netflix"
+  ],
+  "birthday": "1960-10-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7306657",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Reed_Hastings",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7306657"
+ },
+ {
+  "key": "Q18341330",
+  "name": "Marc Randolph",
+  "companies": [
+   "Netflix"
+  ],
+  "birthday": "1958-04-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q18341330",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Marc_Randolph",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q18341330"
+ },
+ {
+  "key": "Q7352762",
+  "name": "Robin Saxby",
+  "companies": [
+   "Arm Holdings"
+  ],
+  "birthday": "1947-02-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7352762",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Robin_Saxby",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7352762"
+ },
+ {
+  "key": "Q1137062",
+  "name": "Jack Ma",
+  "companies": [
+   "Alibaba",
+   "Ant Group"
+  ],
+  "birthday": "1964-09-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1137062",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Ma",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1137062"
+ },
+ {
+  "key": "Q18165291",
+  "name": "Joseph Tsai",
+  "companies": [
+   "Alibaba"
+  ],
+  "birthday": "1964-01-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q18165291",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Tsai",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q18165291"
+ },
+ {
+  "key": "Q65344",
+  "name": "Andy Bechtolsheim",
+  "companies": [
+   "Arista Networks"
+  ],
+  "birthday": "1955-09-30",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q65344",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q65344"
+ },
+ {
+  "key": "Q5232332",
+  "name": "David Cheriton",
+  "companies": [
+   "Arista Networks"
+  ],
+  "birthday": "1951-03-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5232332",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/David_Cheriton",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5232332"
+ },
+ {
+  "key": "Q7446496",
+  "name": "Sehat Sutardja",
+  "companies": [
+   "Marvell Technology"
+  ],
+  "birthday": "1961-07-09",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Sehat_Sutardja",
+  "birth_raw": "{{Birth date|1961|07|09}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sehat_Sutardja",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7446496"
+ },
+ {
+  "key": "Q7980199",
+  "name": "Weili Dai",
+  "companies": [
+   "Marvell Technology"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date |55|2017|03|17}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Weili_Dai",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7980199"
+ },
+ {
+  "key": "Q20684647",
+  "name": "Tobias Lütke",
+  "companies": [
+   "Shopify"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1980-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tobias_L%C3%BCtke",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q20684647"
+ },
+ {
+  "key": "Q58215022",
+  "name": "Henry Racamier",
+  "companies": [
+   "LVMH"
+  ],
+  "birthday": "1912-01-25",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q58215022",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Racamier",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q58215022"
+ },
+ {
+  "key": "Q58214823",
+  "name": "Alain Chevalier",
+  "companies": [
+   "LVMH"
+  ],
+  "birthday": "1931-08-16",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q58214823",
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q58214823"
+ },
+ {
+  "key": "Q7298142",
+  "name": "Ray Stata",
+  "companies": [
+   "Analog Devices"
+  ],
+  "birthday": "1934-11-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7298142",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ray_Stata",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7298142"
+ },
+ {
+  "key": "Q131367295",
+  "name": "Matthew Lorber",
+  "companies": [
+   "Analog Devices"
+  ],
+  "birthday": "1934-12-26",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Matthew_Lorber",
+  "birth_raw": "{{Birth date |1934|12|26}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Matthew_Lorber",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q131367295"
+ },
+ {
+  "key": "Q2221592",
+  "name": "Sanford I. Weill",
+  "companies": [
+   "Citigroup"
+  ],
+  "birthday": "1933-03-16",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2221592",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sanford_I._Weill",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2221592"
+ },
+ {
+  "key": "Q28797531",
+  "name": "Eli Harari",
+  "companies": [
+   "Sandisk"
+  ],
+  "birthday": "1945-06-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q28797531",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eli_Harari",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q28797531"
+ },
+ {
+  "key": "Q20714493",
+  "name": "Sanjay Mehrotra",
+  "companies": [
+   "Sandisk"
+  ],
+  "birthday": "1958-06-27",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q20714493",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sanjay_Mehrotra",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q20714493"
+ },
+ {
+  "key": "Q1521908",
+  "name": "Marc Benioff",
+  "companies": [
+   "Salesforce"
+  ],
+  "birthday": "1964-09-25",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1521908",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Marc_Benioff",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1521908"
+ },
+ {
+  "key": "Q29279",
+  "name": "Amancio Ortega",
+  "companies": [
+   "Inditex"
+  ],
+  "birthday": "1936-03-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q29279",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Amancio_Ortega",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q29279"
+ },
+ {
+  "key": "Q1086680",
+  "name": "Rosalía Mera",
+  "companies": [
+   "Inditex"
+  ],
+  "birthday": "1944-01-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1086680",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rosal%C3%ADa_Mera",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1086680"
+ },
+ {
+  "key": "Q6075105",
+  "name": "Irwin M. Jacobs",
+  "companies": [
+   "QUALCOMM"
+  ],
+  "birthday": "1933-10-18",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6075105",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Irwin_M._Jacobs",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6075105"
+ },
+ {
+  "key": "Q505358",
+  "name": "Andrew Viterbi",
+  "companies": [
+   "QUALCOMM"
+  ],
+  "birthday": "1935-03-09",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q505358",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Viterbi",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q505358"
+ },
+ {
+  "key": "Q7349476",
+  "name": "Rob Kapito",
+  "companies": [
+   "BlackRock"
+  ],
+  "birthday": "1957-02-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7349476",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_S._Kapito",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7349476"
+ },
+ {
+  "key": "Q3218882",
+  "name": "Larry Fink",
+  "companies": [
+   "BlackRock"
+  ],
+  "birthday": "1952-11-02",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q3218882",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Fink",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q3218882"
+ },
+ {
+  "key": "Q17388808",
+  "name": "Susan Wagner",
+  "companies": [
+   "BlackRock"
+  ],
+  "birthday": "1961-01-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q17388808",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Susan_Wagner",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q17388808"
+ },
+ {
+  "key": "Q717038",
+  "name": "Masayoshi Son",
+  "companies": [
+   "SoftBank Corp.",
+   "SoftBank Group Corp."
+  ],
+  "birthday": "1957-08-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q717038",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Masayoshi_Son",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q717038"
+ },
+ {
+  "key": "Q7615005",
+  "name": "Steven Rales",
+  "companies": [
+   "Danaher"
+  ],
+  "birthday": "1951-03-31",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7615005",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Steven_Rales",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7615005"
+ },
+ {
+  "key": "Q6881360",
+  "name": "Mitchell Rales",
+  "companies": [
+   "Danaher"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1956|8}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mitchell_Rales",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6881360"
+ },
+ {
+  "key": "Q6262563",
+  "name": "John W. Stanton",
+  "companies": [
+   "T-Mobile US"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1955",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/John_W._Stanton",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6262563"
+ },
+ {
+  "key": "Q18653686",
+  "name": "Robin Zeng",
+  "companies": [
+   "CATL"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1968}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Robin_Zeng",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q18653686"
+ },
+ {
+  "key": "Q1373431",
+  "name": "Alan Shugart",
+  "companies": [
+   "Seagate Technology"
+  ],
+  "birthday": "1930-09-27",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1373431",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alan_Shugart",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1373431"
+ },
+ {
+  "key": "Q15809687",
+  "name": "Finis Conner",
+  "companies": [
+   "Seagate Technology"
+  ],
+  "birthday": "1943-07-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q15809687",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Finis_Conner",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q15809687"
+ },
+ {
+  "key": "Q55138692",
+  "name": "Fred Luddy",
+  "companies": [
+   "ServiceNow"
+  ],
+  "birthday": "1954-11-24",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Fred_Luddy",
+  "birth_raw": "{{Birth date and age|1954|11|24}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Fred_Luddy",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q55138692"
+ },
+ {
+  "key": "Q1066027",
+  "name": "Charles R. Schwab",
+  "companies": [
+   "Charles Schwab"
+  ],
+  "birthday": "1937-07-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1066027",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_R._Schwab",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1066027"
+ },
+ {
+  "key": "Q6720788",
+  "name": "Ma Mingzhe",
+  "companies": [
+   "Ping An Insurance"
+  ],
+  "birthday": "1955-12-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6720788",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ma_Mingzhe",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6720788"
+ },
+ {
+  "key": "Q8290978",
+  "name": "Yuan Geng",
+  "companies": [
+   "Ping An Insurance"
+  ],
+  "birthday": "1917-04-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q8290978",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Yuan_Geng",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q8290978"
+ },
+ {
+  "key": "Q7793127",
+  "name": "Thomas Peterffy",
+  "companies": [
+   "Interactive Brokers"
+  ],
+  "birthday": "1944-09-30",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7793127",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Peterffy",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7793127"
+ },
+ {
+  "key": "Q456216",
+  "name": "Peter George Peterson",
+  "companies": [
+   "Blackstone Group"
+  ],
+  "birthday": "1926-06-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q456216",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_G._Peterson",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q456216"
+ },
+ {
+  "key": "Q552465",
+  "name": "Stephen A. Schwarzman",
+  "companies": [
+   "Blackstone Group"
+  ],
+  "birthday": "1947-02-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q552465",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q552465"
+ },
+ {
+  "key": "Q1294060",
+  "name": "Edward Whitacre, Jr.",
+  "companies": [
+   "AT&T"
+  ],
+  "birthday": "1941-11-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1294060",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Whitacre_Jr.",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1294060"
+ },
+ {
+  "key": "Q34286",
+  "name": "Alexander Graham Bell",
+  "companies": [
+   "AT&T"
+  ],
+  "birthday": "1847-03-03",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q34286",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q34286"
+ },
+ {
+  "key": "Q131290259",
+  "name": "Thomas Caldecot Chubb",
+  "companies": [
+   "Chubb"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1834-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Caldecot_Chubb",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q131290259"
+ },
+ {
+  "key": "Q5523871",
+  "name": "Garrett Camp",
+  "companies": [
+   "Uber"
+  ],
+  "birthday": "1978-10-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5523871",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Garrett_Camp",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5523871"
+ },
+ {
+  "key": "Q7836291",
+  "name": "Travis Kalanick",
+  "companies": [
+   "Uber"
+  ],
+  "birthday": "1976-08-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7836291",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Travis_Kalanick",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7836291"
+ },
+ {
+  "key": "Q1301476",
+  "name": "Sunil Mittal",
+  "companies": [
+   "Bharti Airtel"
+  ],
+  "birthday": "1957-10-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1301476",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sunil_Mittal",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1301476"
+ },
+ {
+  "key": "Q16924425",
+  "name": "Ken Xie",
+  "companies": [
+   "Fortinet"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1963}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ken_Xie",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16924425"
+ },
+ {
+  "key": "Q7325595",
+  "name": "Richard Fairbank",
+  "companies": [
+   "Capital One"
+  ],
+  "birthday": "1950-09-18",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Richard_Fairbank",
+  "birth_raw": "{{birth date and age|1950|09|18}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Fairbank",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7325595"
+ },
+ {
+  "key": "Q16732890",
+  "name": "Nigel Morris",
+  "companies": [
+   "Capital One"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1958|06}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nigel_Morris",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16732890"
+ },
+ {
+  "key": "Q17580306",
+  "name": "Hamid R. Moghadam",
+  "companies": [
+   "Prologis"
+  ],
+  "birthday": "1956-08-26",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q17580306",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hamid_Moghadam",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q17580306"
+ },
+ {
+  "key": "Q101855939",
+  "name": "Benoît Dageville",
+  "companies": [
+   "Snowflake"
+  ],
+  "birthday": "1966-06-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q101855939",
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q101855939"
+ },
+ {
+  "key": "Q765286",
+  "name": "Jerry Baldwin",
+  "companies": [
+   "Starbucks"
+  ],
+  "birthday": null,
+  "birth_precision": "7",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "2000-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jerry_Baldwin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q765286"
+ },
+ {
+  "key": "Q766557",
+  "name": "Zev Siegl",
+  "companies": [
+   "Starbucks"
+  ],
+  "birthday": "1942-12-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q766557",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zev_Siegl",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q766557"
+ },
+ {
+  "key": "Q766781",
+  "name": "Gordon Bowker",
+  "companies": [
+   "Starbucks"
+  ],
+  "birthday": "1942-10-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q766781",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gordon_Bowker",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q766781"
+ },
+ {
+  "key": "Q6216224",
+  "name": "Johann Rupert",
+  "companies": [
+   "Compagnie Financière Richemont"
+  ],
+  "birthday": "1950-06-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6216224",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Johann_Rupert",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6216224"
+ },
+ {
+  "key": "Q126165402",
+  "name": "Stanley P. Goldstein",
+  "companies": [
+   "CVS Health"
+  ],
+  "birthday": "1934-06-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q126165402",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Stanley_P._Goldstein",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q126165402"
+ },
+ {
+  "key": "Q126163208",
+  "name": "Ralph P. Hoagland III",
+  "companies": [
+   "CVS Health"
+  ],
+  "birthday": "1933-08-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q126163208",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ralph_P._Hoagland_III",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q126163208"
+ },
+ {
+  "key": "Q51665553",
+  "name": "Matthew Prince",
+  "companies": [
+   "Cloudflare"
+  ],
+  "birthday": "1974-11-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q51665553",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Matthew_Prince",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q51665553"
+ },
+ {
+  "key": "Q51665968",
+  "name": "Michelle Zatlyn",
+  "companies": [
+   "Cloudflare"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1979|07}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Michelle_Zatlyn",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q51665968"
+ },
+ {
+  "key": "Q51666063",
+  "name": "Lee Holloway",
+  "companies": [
+   "Cloudflare"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1981-01-01",
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q51666063"
+ },
+ {
+  "key": "Q716030",
+  "name": "Wang Chuanfu",
+  "companies": [
+   "BYD"
+  ],
+  "birthday": "1966-04-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q716030",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wang_Chuanfu",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q716030"
+ },
+ {
+  "key": "Q33733753",
+  "name": "Lu Xiang-yang",
+  "companies": [
+   "BYD"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1962}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lu_Xiangyang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q33733753"
+ },
+ {
+  "key": "Q47308075",
+  "name": "William Greehey",
+  "companies": [
+   "Valero Energy"
+  ],
+  "birthday": "1936-06-09",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q47308075",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/William_Greehey",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q47308075"
+ },
+ {
+  "key": "Q5250522",
+  "name": "Deepak Parekh",
+  "companies": [
+   "HDFC Bank"
+  ],
+  "birthday": "1944-10-18",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5250522",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Deepak_Parekh",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5250522"
+ },
+ {
+  "key": "Q901670",
+  "name": "Daniel Ek",
+  "companies": [
+   "Spotify"
+  ],
+  "birthday": "1983-02-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q901670",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Ek",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q901670"
+ },
+ {
+  "key": "Q62098183",
+  "name": "Martin Lorentzon",
+  "companies": [
+   "Spotify"
+  ],
+  "birthday": "1969-04-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q62098183",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Lorentzon",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q62098183"
+ },
+ {
+  "key": "Q55846513",
+  "name": "Colin Huang",
+  "companies": [
+   "PDD Holdings (Pinduoduo)"
+  ],
+  "birthday": "1980-01-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q55846513",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Colin_Huang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q55846513"
+ },
+ {
+  "key": "Q716830",
+  "name": "Terry Gou",
+  "companies": [
+   "Foxconn (Hon Hai Precision Industry)"
+  ],
+  "birthday": "1950-10-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q716830",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Terry_Gou",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q716830"
+ },
+ {
+  "key": "Q716147",
+  "name": "J. Willard Marriott",
+  "companies": [
+   "Marriott International"
+  ],
+  "birthday": "1900-09-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q716147",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/J._Willard_Marriott",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q716147"
+ },
+ {
+  "key": "Q4725984",
+  "name": "Alice Marriott",
+  "companies": [
+   "Marriott International"
+  ],
+  "birthday": "1907-10-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4725984",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alice_Marriott",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4725984"
+ },
+ {
+  "key": "Q7789441",
+  "name": "Thomas F. Frist, Sr.",
+  "companies": [
+   "HCA Healthcare"
+  ],
+  "birthday": "1910-12-15",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7789441",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_F._Frist_Sr.",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7789441"
+ },
+ {
+  "key": "Q7789440",
+  "name": "Thomas F. Frist, Jr.",
+  "companies": [
+   "HCA Healthcare"
+  ],
+  "birthday": "1938-08-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7789440",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_F._Frist_Jr.",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7789440"
+ },
+ {
+  "key": "Q6111520",
+  "name": "Jack C. Massey",
+  "companies": [
+   "HCA Healthcare"
+  ],
+  "birthday": "1904-06-15",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6111520",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_C._Massey",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6111520"
+ },
+ {
+  "key": "Q1515641",
+  "name": "He Xiangjian",
+  "companies": [
+   "Midea"
+  ],
+  "birthday": "1942-10-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1515641",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/He_Xiangjian",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1515641"
+ },
+ {
+  "key": "Q6166316",
+  "name": "Jay Adelson",
+  "companies": [
+   "Equinix"
+  ],
+  "birthday": "1970-09-07",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6166316",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jay_Adelson",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6166316"
+ },
+ {
+  "key": "Q4963341",
+  "name": "Brian Chesky",
+  "companies": [
+   "Airbnb"
+  ],
+  "birthday": "1981-08-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4963341",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Brian_Chesky",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4963341"
+ },
+ {
+  "key": "Q19560551",
+  "name": "Joe Gebbia",
+  "companies": [
+   "Airbnb"
+  ],
+  "birthday": "1981-08-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q19560551",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Gebbia",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19560551"
+ },
+ {
+  "key": "Q19538950",
+  "name": "Nathan Blecharczyk",
+  "companies": [
+   "Airbnb"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1983}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nathan_Blecharczyk",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19538950"
+ },
+ {
+  "key": "Q1344392",
+  "name": "John Warnock",
+  "companies": [
+   "Adobe"
+  ],
+  "birthday": "1940-10-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1344392",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/John_Warnock",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1344392"
+ },
+ {
+  "key": "Q2959209",
+  "name": "Charles Geschke",
+  "companies": [
+   "Adobe"
+  ],
+  "birthday": "1939-09-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2959209",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Geschke",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2959209"
+ },
+ {
+  "key": "Q19879088",
+  "name": "Jason Chang",
+  "companies": [
+   "ASE Group"
+  ],
+  "birthday": "1944-05-18",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q19879088",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jason_Chang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19879088"
+ },
+ {
+  "key": "Q468334",
+  "name": "JRD Tata",
+  "companies": [
+   "Tata Consultancy Services"
+  ],
+  "birthday": "1904-07-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q468334",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/JRD_Tata",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q468334"
+ },
+ {
+  "key": "Q5423843",
+  "name": "F. C. Kohli",
+  "companies": [
+   "Tata Consultancy Services"
+  ],
+  "birthday": "1924-02-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5423843",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/F._C._Kohli",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5423843"
+ },
+ {
+  "key": "Q6143393",
+  "name": "James Solomon",
+  "companies": [
+   "Cadence Design Systems"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1936",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/James_Solomon_(engineer)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6143393"
+ },
+ {
+  "key": "Q4648338",
+  "name": "A. Richard Newton",
+  "companies": [
+   "Cadence Design Systems"
+  ],
+  "birthday": "1951-07-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4648338",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/A._Richard_Newton",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4648338"
+ },
+ {
+  "key": "Q4712193",
+  "name": "Alberto Sangiovanni-Vincentelli",
+  "companies": [
+   "Cadence Design Systems",
+   "Synopsys"
+  ],
+  "birthday": "1947-06-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4712193",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alberto_Sangiovanni-Vincentelli",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4712193"
+ },
+ {
+  "key": "Q140979837",
+  "name": "Ralph Liebert",
+  "companies": [
+   "Vertiv Holdings"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q140979837"
+ },
+ {
+  "key": "Q4662637",
+  "name": "Aart de Geus",
+  "companies": [
+   "Synopsys"
+  ],
+  "birthday": "1954-06-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4662637",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aart_de_Geus",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4662637"
+ },
+ {
+  "key": "Q5689956",
+  "name": "Wayne Huizenga",
+  "companies": [
+   "Waste Management"
+  ],
+  "birthday": "1937-12-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5689956",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wayne_Huizenga",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5689956"
+ },
+ {
+  "key": "Q5246035",
+  "name": "Dean Buntrock",
+  "companies": [
+   "Waste Management"
+  ],
+  "birthday": "1931-06-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5246035",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dean_Buntrock",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5246035"
+ },
+ {
+  "key": "Q7436159",
+  "name": "Scott Cook",
+  "companies": [
+   "Intuit"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1952}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Cook",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7436159"
+ },
+ {
+  "key": "Q7793309",
+  "name": "Thomas Proulx",
+  "companies": [
+   "Intuit"
+  ],
+  "birthday": "1961-11-18",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7793309",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tom_Proulx",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7793309"
+ },
+ {
+  "key": "Q6175884",
+  "name": "Jeffrey Sprecher",
+  "companies": [
+   "Intercontinental Exchange"
+  ],
+  "birthday": "1955-02-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6175884",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jeffrey_Sprecher",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6175884"
+ },
+ {
+  "key": "Q107414226",
+  "name": "Adam Foroughi",
+  "companies": [
+   "AppLovin"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1980-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Adam_Foroughi",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q107414226"
+ },
+ {
+  "key": "Q113557741",
+  "name": "Andrew Karam",
+  "companies": [
+   "AppLovin"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date |40|2022|8|22}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Karam",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q113557741"
+ },
+ {
+  "key": "Q134307934",
+  "name": "Chen Tianshi",
+  "companies": [
+   "Cambricon Technologies"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1985|6}} }}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chen_Tianshi",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q134307934"
+ },
+ {
+  "key": "Q933721",
+  "name": "Henry Kravis",
+  "companies": [
+   "KKR & Co."
+  ],
+  "birthday": "1944-01-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q933721",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Kravis",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q933721"
+ },
+ {
+  "key": "Q1508188",
+  "name": "George R. Roberts",
+  "companies": [
+   "KKR & Co."
+  ],
+  "birthday": "1943-09-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1508188",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/George_R._Roberts",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1508188"
+ },
+ {
+  "key": "Q1687749",
+  "name": "Jerome Kohlberg, Jr.",
+  "companies": [
+   "KKR & Co."
+  ],
+  "birthday": "1925-07-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1687749",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jerome_Kohlberg_Jr.",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1687749"
+ },
+ {
+  "key": "Q920647",
+  "name": "Frederick Stark Pearson",
+  "companies": [
+   "Brookfield Corporation"
+  ],
+  "birthday": "1861-07-30",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q920647",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Frederick_Stark_Pearson",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q920647"
+ },
+ {
+  "key": "Q15516394",
+  "name": "William Mackenzie",
+  "companies": [
+   "Brookfield Corporation"
+  ],
+  "birthday": "1849-10-30",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q15516394",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/William_Mackenzie_(railway_entrepreneur)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q15516394"
+ },
+ {
+  "key": "Q17180831",
+  "name": "Mark G. Papa",
+  "companies": [
+   "EOG Resources"
+  ],
+  "birthday": null,
+  "birth_precision": "8",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date|66|2013|July|24}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_G._Papa",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q17180831"
+ },
+ {
+  "key": "Q50173077",
+  "name": "Derrick Rossi",
+  "companies": [
+   "Moderna"
+  ],
+  "birthday": "1966-02-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q50173077",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Derrick_Rossi",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q50173077"
+ },
+ {
+  "key": "Q1649143",
+  "name": "Timothy A. Springer",
+  "companies": [
+   "Moderna"
+  ],
+  "birthday": "1948-02-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1649143",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Timothy_A._Springer",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1649143"
+ },
+ {
+  "key": "Q669597",
+  "name": "Robert S. Langer, Jr.",
+  "companies": [
+   "Moderna"
+  ],
+  "birthday": "1948-08-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q669597",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_S._Langer",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q669597"
+ },
+ {
+  "key": "Q56221343",
+  "name": "Kenneth R. Chien",
+  "companies": [
+   "Moderna"
+  ],
+  "birthday": "1951-11-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q56221343",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kenneth_R._Chien",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q56221343"
+ },
+ {
+  "key": "Q14949405",
+  "name": "Noubar Afeyan",
+  "companies": [
+   "Moderna"
+  ],
+  "birthday": "1962-07-25",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q14949405",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Noubar_Afeyan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q14949405"
+ },
+ {
+  "key": "Q706542",
+  "name": "Marc Rich",
+  "companies": [
+   "Glencore"
+  ],
+  "birthday": "1934-12-18",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q706542",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Marc_Rich",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q706542"
+ },
+ {
+  "key": "Q7194971",
+  "name": "Pincus Green",
+  "companies": [
+   "Glencore"
+  ],
+  "birthday": "1934-07-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7194971",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pincus_Green",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7194971"
+ },
+ {
+  "key": "Q5996574",
+  "name": "Marcos Galperin",
+  "companies": [
+   "MercadoLibre"
+  ],
+  "birthday": "1971-10-31",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5996574",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Marcos_Galperin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5996574"
+ },
+ {
+  "key": "Q16185577",
+  "name": "Leonard Schleifer",
+  "companies": [
+   "Regeneron Pharmaceuticals"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1953}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Leonard_Schleifer",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16185577"
+ },
+ {
+  "key": "Q5546581",
+  "name": "George Yancopoulos",
+  "companies": [
+   "Regeneron Pharmaceuticals"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1959}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/George_Yancopoulos",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5546581"
+ },
+ {
+  "key": "Q9000717",
+  "name": "Lei Jun",
+  "companies": [
+   "Xiaomi"
+  ],
+  "birthday": "1969-12-16",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q9000717",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lei_Jun",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q9000717"
+ },
+ {
+  "key": "Q18745545",
+  "name": "Lin Bin",
+  "companies": [
+   "Xiaomi"
+  ],
+  "birthday": "1961-03-25",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Lin_Bin",
+  "birth_raw": "25 March 1961",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lin_Bin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q18745545"
+ },
+ {
+  "key": "Q56248473",
+  "name": "Vlad Tenev",
+  "companies": [
+   "Robinhood"
+  ],
+  "birthday": "1987-02-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q56248473",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vlad_Tenev",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q56248473"
+ },
+ {
+  "key": "Q55760424",
+  "name": "Baiju Bhatt",
+  "companies": [
+   "Robinhood"
+  ],
+  "birthday": null,
+  "birth_precision": "8",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date |33|2018|05|11}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Baiju_Bhatt",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q55760424"
+ },
+ {
+  "key": "Q4385978",
+  "name": "Dan Duncan",
+  "companies": [
+   "Enterprise Products"
+  ],
+  "birthday": "1933-01-02",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4385978",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dan_Duncan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4385978"
+ },
+ {
+  "key": "Q6814070",
+  "name": "Melvin Simon",
+  "companies": [
+   "Simon Property Group"
+  ],
+  "birthday": "1926-10-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6814070",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Melvin_Simon",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6814070"
+ },
+ {
+  "key": "Q5735576",
+  "name": "Herb Simon",
+  "companies": [
+   "Simon Property Group"
+  ],
+  "birthday": "1934-10-20",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5735576",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Herb_Simon_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5735576"
+ },
+ {
+  "key": "Q11959103",
+  "name": "Arne Wilhelmsen",
+  "companies": [
+   "Royal Caribbean Group"
+  ],
+  "birthday": "1929-06-15",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q11959103",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Arne_Wilhelmsen",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q11959103"
+ },
+ {
+  "key": "Q7287704",
+  "name": "Ralph J. Roberts",
+  "companies": [
+   "Comcast"
+  ],
+  "birthday": "1920-03-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7287704",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ralph_J._Roberts",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7287704"
+ },
+ {
+  "key": "Q17859800",
+  "name": "Julian A. Brodsky",
+  "companies": [
+   "Comcast"
+  ],
+  "birthday": "1933-07-16",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q17859800",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Julian_A._Brodsky",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q17859800"
+ },
+ {
+  "key": "Q7327075",
+  "name": "Richard Kinder",
+  "companies": [
+   "Kinder Morgan"
+  ],
+  "birthday": "1944-10-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7327075",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Kinder",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7327075"
+ },
+ {
+  "key": "Q105038817",
+  "name": "Tony Xu",
+  "companies": [
+   "DoorDash"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date|36|2020|12|9}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Xu",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q105038817"
+ },
+ {
+  "key": "Q105272825",
+  "name": "Andy Fang",
+  "companies": [
+   "DoorDash"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1992}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Andy_Fang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q105272825"
+ },
+ {
+  "key": "Q107301240",
+  "name": "Stanley Tang",
+  "companies": [
+   "DoorDash"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1992}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Stanley_Tang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q107301240"
+ },
+ {
+  "key": "Q4955022",
+  "name": "Brad Jacobs",
+  "companies": [
+   "United Rentals",
+   "XPO Logistics"
+  ],
+  "birthday": "1956-08-03",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4955022",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Brad_Jacobs_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4955022"
+ },
+ {
+  "key": "Q324086",
+  "name": "Frederick W. Smith",
+  "companies": [
+   "FedEx"
+  ],
+  "birthday": "1944-08-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q324086",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Frederick_W._Smith",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q324086"
+ },
+ {
+  "key": "Q5278137",
+  "name": "Ding Lei",
+  "companies": [
+   "NetEase"
+  ],
+  "birthday": "1971-10-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5278137",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ding_Lei",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5278137"
+ },
+ {
+  "key": "Q170419",
+  "name": "Carlos Slim",
+  "companies": [
+   "America Movil"
+  ],
+  "birthday": "1940-01-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q170419",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Slim",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q170419"
+ },
+ {
+  "key": "Q6385527",
+  "name": "Kelcy Warren",
+  "companies": [
+   "Energy Transfer LP"
+  ],
+  "birthday": "1955-11-09",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6385527",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kelcy_Warren",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6385527"
+ },
+ {
+  "key": "Q16728421",
+  "name": "Ray Davis (businessman)",
+  "companies": [
+   "Energy Transfer LP"
+  ],
+  "birthday": "1941-10-15",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Ray_Davis_(businessman)",
+  "birth_raw": "{{birth date and age|1941|10|15}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ray_Davis_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16728421"
+ },
+ {
+  "key": "Q10806972",
+  "name": "Phạm Nhật Vượng",
+  "companies": [
+   "Vingroup Company"
+  ],
+  "birthday": "1968-08-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q10806972",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_Nh%E1%BA%ADt_V%C6%B0%E1%BB%A3ng",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q10806972"
+ },
+ {
+  "key": "Q6323852",
+  "name": "K. R. Sridhar",
+  "companies": [
+   "Bloom Energy"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1960",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/K._R._Sridhar",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6323852"
+ },
+ {
+  "key": "Q1700068",
+  "name": "John Finn",
+  "companies": [
+   "Bloom Energy"
+  ],
+  "birthday": "1952-09-30",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1700068",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/John_Finn",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1700068"
+ },
+ {
+  "key": "Q6139293",
+  "name": "James McElroy",
+  "companies": [
+   "Bloom Energy"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth date text|1945}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/James_McElroy",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6139293"
+ },
+ {
+  "key": "Q5578461",
+  "name": "Leon Black",
+  "companies": [
+   "Apollo Global Management"
+  ],
+  "birthday": "1951-07-31",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5578461",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Leon_Black",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5578461"
+ },
+ {
+  "key": "Q6289885",
+  "name": "Josh Harris",
+  "companies": [
+   "Apollo Global Management"
+  ],
+  "birthday": "1964-12-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6289885",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6289885"
+ },
+ {
+  "key": "Q16194777",
+  "name": "Marc Rowan",
+  "companies": [
+   "Apollo Global Management"
+  ],
+  "birthday": "1962-08-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q16194777",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Marc_Rowan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16194777"
+ },
+ {
+  "key": "Q16193321",
+  "name": "Antony Ressler",
+  "companies": [
+   "Apollo Global Management",
+   "Ares Management"
+  ],
+  "birthday": "1960-10-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q16193321",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Ressler",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16193321"
+ },
+ {
+  "key": "Q7143985",
+  "name": "Patrick George Ryan",
+  "companies": [
+   "Aon"
+  ],
+  "birthday": "1937-05-15",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7143985",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pat_Ryan_(executive)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7143985"
+ },
+ {
+  "key": "Q47157156",
+  "name": "Ernest Garcia III",
+  "companies": [
+   "Carvana"
+  ],
+  "birthday": null,
+  "birth_precision": "8",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date |34|2017|12|18}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ernest_Garcia_III",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q47157156"
+ },
+ {
+  "key": "Q2158383",
+  "name": "Peter Munk",
+  "companies": [
+   "Barrick Gold"
+  ],
+  "birthday": "1927-11-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2158383",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Munk",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2158383"
+ },
+ {
+  "key": "Q982623",
+  "name": "Kazuo Inamori",
+  "companies": [
+   "KDDI"
+  ],
+  "birthday": "1932-01-30",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q982623",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kazuo_Inamori",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q982623"
+ },
+ {
+  "key": "Q117323781",
+  "name": "W. Nicholas Howley",
+  "companies": [
+   "TransDigm Group"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q117323781"
+ },
+ {
+  "key": "Q2724084",
+  "name": "Rahul Bajaj",
+  "companies": [
+   "Bajaj Finance"
+  ],
+  "birthday": "1938-06-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2724084",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rahul_Bajaj",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2724084"
+ },
+ {
+  "key": "Q4272092",
+  "name": "John Abele",
+  "companies": [
+   "Boston Scientific"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1937}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/John_Abele",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4272092"
+ },
+ {
+  "key": "Q7176091",
+  "name": "Peter Nicholas",
+  "companies": [
+   "Boston Scientific"
+  ],
+  "birthday": "1941-05-16",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7176091",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Nicholas_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7176091"
+ },
+ {
+  "key": "Q116739045",
+  "name": "Matthew Rabinowitz",
+  "companies": [
+   "Natera"
+  ],
+  "birthday": "1973-02-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q116739045",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Matthew_Rabinowitz",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q116739045"
+ },
+ {
+  "key": "Q6176392",
+  "name": "Jeffry Hall Brock",
+  "companies": [
+   "Great-West Lifeco"
+  ],
+  "birthday": "1850-01-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6176392",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jeffry_Hall_Brock",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6176392"
+ },
+ {
+  "key": "Q16105134",
+  "name": "Bob Kierlin",
+  "companies": [
+   "Fastenal"
+  ],
+  "birthday": "1939-06-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q16105134",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Kierlin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16105134"
+ },
+ {
+  "key": "Q4834257",
+  "name": "B. Wayne Hughes",
+  "companies": [
+   "Public Storage"
+  ],
+  "birthday": "1933-09-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4834257",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/B._Wayne_Hughes",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4834257"
+ },
+ {
+  "key": "Q60999523",
+  "name": "David Vélez",
+  "companies": [
+   "Nu Holdings"
+  ],
+  "birthday": "1981-10-02",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q60999523",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/David_V%C3%A9lez",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q60999523"
+ },
+ {
+  "key": "Q110750746",
+  "name": "Cristina Junqueira",
+  "companies": [
+   "Nu Holdings"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1982|9}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cristina_Junqueira",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q110750746"
+ },
+ {
+  "key": "Q468467",
+  "name": "Jeong Ju-yung",
+  "companies": [
+   "HD Hyundai Heavy Industries",
+   "Hyundai"
+  ],
+  "birthday": "1915-11-25",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q468467",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chung_Ju-yung",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q468467"
+ },
+ {
+  "key": "Q99312028",
+  "name": "Zhong Shanshan",
+  "companies": [
+   "Nongfu Spring"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1954}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zhong_Shanshan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q99312028"
+ },
+ {
+  "key": "Q380467",
+  "name": "Bill Hewlett",
+  "companies": [
+   "Agilent Technologies",
+   "Keysight"
+  ],
+  "birthday": "1913-05-20",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q380467",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bill_Hewlett",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q380467"
+ },
+ {
+  "key": "Q18091290",
+  "name": "Robert D. Walter",
+  "companies": [
+   "Cardinal Health"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1946-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_D._Walter",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q18091290"
+ },
+ {
+  "key": "Q25344397",
+  "name": "J. Larry Nichols",
+  "companies": [
+   "Devon Energy"
+  ],
+  "birthday": "1942-07-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q25344397",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/J._Larry_Nichols",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q25344397"
+ },
+ {
+  "key": "Q19661172",
+  "name": "Wang Laichun",
+  "companies": [
+   "Luxshare Precision"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1967}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wang_Laichun",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19661172"
+ },
+ {
+  "key": "Q23939846",
+  "name": "Mike Cannon-Brookes",
+  "companies": [
+   "Atlassian"
+  ],
+  "birthday": "1979-11-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q23939846",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Cannon-Brookes",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q23939846"
+ },
+ {
+  "key": "Q23939847",
+  "name": "Scott Farquhar",
+  "companies": [
+   "Atlassian"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1979|12}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Farquhar",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q23939847"
+ },
+ {
+  "key": "Q861967",
+  "name": "Bill Bowerman",
+  "companies": [
+   "Nike"
+  ],
+  "birthday": "1911-02-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q861967",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bill_Bowerman",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q861967"
+ },
+ {
+  "key": "Q557305",
+  "name": "Phil Knight",
+  "companies": [
+   "Nike"
+  ],
+  "birthday": "1938-02-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q557305",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Phil_Knight",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q557305"
+ },
+ {
+  "key": "Q183187",
+  "name": "Fahd bin Abdulaziz Al Saud",
+  "companies": [
+   "Saudi Telecom Company"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1920, 1921 or 1923",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Fahd_of_Saudi_Arabia",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q183187"
+ },
+ {
+  "key": "Q18235069",
+  "name": "Wang Xing",
+  "companies": [
+   "Meituan"
+  ],
+  "birthday": "1979-02-18",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q18235069",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wang_Xing",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q18235069"
+ },
+ {
+  "key": "Q58577",
+  "name": "Werner von Siemens",
+  "companies": [
+   "Siemens Healthineers"
+  ],
+  "birthday": "1816-12-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q58577",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Werner_von_Siemens",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q58577"
+ },
+ {
+  "key": "Q451455",
+  "name": "Vagit Alekperov",
+  "companies": [
+   "Lukoil"
+  ],
+  "birthday": "1950-09-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q451455",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vagit_Alekperov",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q451455"
+ },
+ {
+  "key": "Q5524792",
+  "name": "Gary Burrell",
+  "companies": [
+   "Garmin"
+  ],
+  "birthday": "1937-08-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5524792",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gary_Burrell",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5524792"
+ },
+ {
+  "key": "Q6862563",
+  "name": "Min Kao",
+  "companies": [
+   "Garmin"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1949}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Min_Kao",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6862563"
+ },
+ {
+  "key": "Q348483",
+  "name": "Pierre Omidyar",
+  "companies": [
+   "eBay"
+  ],
+  "birthday": "1967-06-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q348483",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pierre_Omidyar",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q348483"
+ },
+ {
+  "key": "Q2829601",
+  "name": "Alain Bouchard",
+  "companies": [
+   "Alimentation Couche-Tard"
+  ],
+  "birthday": "1949-02-18",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2829601",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alain_Bouchard",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2829601"
+ },
+ {
+  "key": "Q63315386",
+  "name": "Jacques D'Amours",
+  "companies": [
+   "Alimentation Couche-Tard"
+  ],
+  "birthday": null,
+  "birth_precision": "8",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1955-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jacques_D%27Amours",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q63315386"
+ },
+ {
+  "key": "Q63285089",
+  "name": "Richard Fortin",
+  "companies": [
+   "Alimentation Couche-Tard"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date |69|2019|04|23}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Fortin_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q63285089"
+ },
+ {
+  "key": "Q6396698",
+  "name": "Kevin Kimberlin",
+  "companies": [
+   "Ciena"
+  ],
+  "birthday": null,
+  "birth_precision": "7",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "2000-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Kimberlin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6396698"
+ },
+ {
+  "key": "Q50324424",
+  "name": "Peter Gassner",
+  "companies": [
+   "Veeva Systems"
+  ],
+  "birthday": "1965-02-26",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Peter_Gassner",
+  "birth_raw": "{{birth date and age|1965|02|26}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Gassner",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q50324424"
+ },
+ {
+  "key": "Q7199072",
+  "name": "Pitt Hyde",
+  "companies": [
+   "AutoZone"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1942-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pitt_Hyde",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7199072"
+ },
+ {
+  "key": "Q93033",
+  "name": "John Walker",
+  "companies": [
+   "Autodesk"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1949-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/John_Walker_(programmer)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q93033"
+ },
+ {
+  "key": "Q2559017",
+  "name": "Wendell Cherry",
+  "companies": [
+   "Humana"
+  ],
+  "birthday": "1935-09-25",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2559017",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wendell_Cherry",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2559017"
+ },
+ {
+  "key": "Q5233095",
+  "name": "David Duffield",
+  "companies": [
+   "Workday"
+  ],
+  "birthday": "1940-09-21",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/David_Duffield",
+  "birth_raw": "{{birth date and age|1940|09|21|df=y}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/David_Duffield",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5233095"
+ },
+ {
+  "key": "Q18352311",
+  "name": "Aneel Bhusri",
+  "companies": [
+   "Workday"
+  ],
+  "birthday": "1966-02-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q18352311",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aneel_Bhusri",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q18352311"
+ },
+ {
+  "key": "Q53700469",
+  "name": "Zhang Rujing",
+  "companies": [
+   "SMIC"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1948}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zhang_Rujing",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q53700469"
+ },
+ {
+  "key": "Q4718049",
+  "name": "Alex d'Arbeloff",
+  "companies": [
+   "Teradyne"
+  ],
+  "birthday": "1927-12-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4718049",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_d%27Arbeloff",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4718049"
+ },
+ {
+  "key": "Q7027005",
+  "name": "Nick DeWolf",
+  "companies": [
+   "Teradyne"
+  ],
+  "birthday": "1928-07-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7027005",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nick_DeWolf",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7027005"
+ },
+ {
+  "key": "Q1398708",
+  "name": "N. R. Narayana Murthy",
+  "companies": [
+   "Infosys"
+  ],
+  "birthday": "1946-08-20",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1398708",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/N._R._Narayana_Murthy",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1398708"
+ },
+ {
+  "key": "Q1391255",
+  "name": "Nandan Nilekani",
+  "companies": [
+   "Infosys"
+  ],
+  "birthday": "1955-06-02",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1391255",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nandan_Nilekani",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1391255"
+ },
+ {
+  "key": "Q6437174",
+  "name": "Kris Gopalakrishnan",
+  "companies": [
+   "Infosys"
+  ],
+  "birthday": "1955-04-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6437174",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kris_Gopalakrishnan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6437174"
+ },
+ {
+  "key": "Q7387428",
+  "name": "S. D. Shibulal",
+  "companies": [
+   "Infosys"
+  ],
+  "birthday": "1955-03-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7387428",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/S._D._Shibulal",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7387428"
+ },
+ {
+  "key": "Q6951777",
+  "name": "N. S. Raghavan",
+  "companies": [
+   "Infosys"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/N._S._Raghavan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6951777"
+ },
+ {
+  "key": "Q7876966",
+  "name": "Uday Kotak",
+  "companies": [
+   "Kotak Mahindra Bank"
+  ],
+  "birthday": "1959-03-15",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7876966",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Uday_Kotak",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7876966"
+ },
+ {
+  "key": "Q18811132",
+  "name": "Gong Hongjia",
+  "companies": [
+   "Hikvision"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1965}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gong_Hongjia",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q18811132"
+ },
+ {
+  "key": "Q20880796",
+  "name": "Bob Stiller",
+  "companies": [
+   "Keurig Dr Pepper"
+  ],
+  "birthday": "1943-08-03",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q20880796",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Stiller",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q20880796"
+ },
+ {
+  "key": "Q93014",
+  "name": "Max Levchin",
+  "companies": [
+   "Affirm",
+   "PayPal"
+  ],
+  "birthday": "1975-07-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q93014",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Max_Levchin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q93014"
+ },
+ {
+  "key": "Q19866080",
+  "name": "Yu Pan",
+  "companies": [
+   "PayPal"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Yu_Pan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19866080"
+ },
+ {
+  "key": "Q6702205",
+  "name": "Luke Nosek",
+  "companies": [
+   "PayPal"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1975}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Luke_Nosek",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6702205"
+ },
+ {
+  "key": "Q6387836",
+  "name": "Ken Howery",
+  "companies": [
+   "PayPal"
+  ],
+  "birthday": "1975-11-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6387836",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ken_Howery",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6387836"
+ },
+ {
+  "key": "Q8926583",
+  "name": "Robert Tsao",
+  "companies": [
+   "United Microelectronics"
+  ],
+  "birthday": "1947-02-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q8926583",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Tsao",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q8926583"
+ },
+ {
+  "key": "Q363124",
+  "name": "Sam Zell",
+  "companies": [
+   "Vivmark Residential"
+  ],
+  "birthday": "1941-09-27",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q363124",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sam_Zell",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q363124"
+ },
+ {
+  "key": "Q61974364",
+  "name": "Forrest Li",
+  "companies": [
+   "Sea Limited"
+  ],
+  "birthday": null,
+  "birth_precision": "8",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date |42|2020|10|07}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Forrest_Li",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q61974364"
+ },
+ {
+  "key": "Q29919085",
+  "name": "Dennis Gillings",
+  "companies": [
+   "IQVIA"
+  ],
+  "birthday": "1944-04-25",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q29919085",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dennis_Gillings",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q29919085"
+ },
+ {
+  "key": "Q5527865",
+  "name": "Gautam Adani",
+  "companies": [
+   "Adani Enterprises",
+   "Adani Green Energy",
+   "Adani Ports & SEZ"
+  ],
+  "birthday": "1962-06-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5527865",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gautam_Adani",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5527865"
+ },
+ {
+  "key": "Q191311",
+  "name": "Lakshmi Mittal",
+  "companies": [
+   "ArcelorMittal"
+  ],
+  "birthday": "1950-06-15",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q191311",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lakshmi_Mittal",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q191311"
+ },
+ {
+  "key": "Q335552",
+  "name": "Jack Dorsey",
+  "companies": [
+   "Block"
+  ],
+  "birthday": "1976-11-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q335552",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Dorsey",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q335552"
+ },
+ {
+  "key": "Q6196866",
+  "name": "Jim McKelvey",
+  "companies": [
+   "Block"
+  ],
+  "birthday": "1965-10-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6196866",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_McKelvey",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6196866"
+ },
+ {
+  "key": "Q1225503",
+  "name": "Dilip Shanghvi",
+  "companies": [
+   "Sun Pharmaceutical"
+  ],
+  "birthday": "1955-10-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1225503",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dilip_Shanghvi",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1225503"
+ },
+ {
+  "key": "Q5233470",
+  "name": "David Evans Shaw",
+  "companies": [
+   "IDEXX Laboratories"
+  ],
+  "birthday": "1951-04-22",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/David_Evans_Shaw",
+  "birth_raw": "{{birth date and age|1951|4|22}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/David_Evans_Shaw",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5233470"
+ },
+ {
+  "key": "Q5235034",
+  "name": "David Hitz",
+  "companies": [
+   "NetApp"
+  ],
+  "birthday": null,
+  "birth_precision": "7",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1901-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/David_Hitz",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5235034"
+ },
+ {
+  "key": "Q87741033",
+  "name": "David R. Walt",
+  "companies": [
+   "Illumina"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/David_R._Walt",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q87741033"
+ },
+ {
+  "key": "Q18684861",
+  "name": "Larry Bock",
+  "companies": [
+   "Illumina"
+  ],
+  "birthday": "1959-09-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q18684861",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Bock",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q18684861"
+ },
+ {
+  "key": "Q56749685",
+  "name": "Anthony W. Czarnik",
+  "companies": [
+   "Illumina"
+  ],
+  "birthday": "1957-11-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q56749685",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_Czarnik",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q56749685"
+ },
+ {
+  "key": "Q6271245",
+  "name": "Jon Mills",
+  "companies": [
+   "Medline"
+  ],
+  "birthday": "1978-03-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6271245",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jon_Mills",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6271245"
+ },
+ {
+  "key": "Q559794",
+  "name": "Elihu Thomson",
+  "companies": [
+   "STMicroelectronics"
+  ],
+  "birthday": "1853-03-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q559794",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Elihu_Thomson",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q559794"
+ },
+ {
+  "key": "Q1029394",
+  "name": "Camillo Olivetti",
+  "companies": [
+   "STMicroelectronics"
+  ],
+  "birthday": "1868-08-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1029394",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Camillo_Olivetti",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1029394"
+ },
+ {
+  "key": "Q1819424",
+  "name": "Leonid Mikhelson",
+  "companies": [
+   "Novatek"
+  ],
+  "birthday": "1955-08-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1819424",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Leonid_Mikhelson",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1819424"
+ },
+ {
+  "key": "Q26912932",
+  "name": "Arthur del Prado",
+  "companies": [
+   "ASM International"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1931-01-01",
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q26912932"
+ },
+ {
+  "key": "Q1042645",
+  "name": "Beto Sicupira",
+  "companies": [
+   "Ambev"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1948}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Beto_Sicupira",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1042645"
+ },
+ {
+  "key": "Q64705310",
+  "name": "Brian Armstrong",
+  "companies": [
+   "Coinbase"
+  ],
+  "birthday": "1983-01-25",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q64705310",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Brian_Armstrong_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q64705310"
+ },
+ {
+  "key": "Q106510423",
+  "name": "Fred Ehrsam",
+  "companies": [
+   "Coinbase"
+  ],
+  "birthday": "1988-05-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q106510423",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Fred_Ehrsam",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q106510423"
+ },
+ {
+  "key": "Q56222225",
+  "name": "Fred Ehrsam",
+  "companies": [
+   "Coinbase"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q56222225"
+ },
+ {
+  "key": "Q22121142",
+  "name": "Qi Shi",
+  "companies": [
+   "East Money Information"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age |1970|10}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Qi_Shi",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q22121142"
+ },
+ {
+  "key": "Q132130651",
+  "name": "John Vincent Oyler",
+  "companies": [
+   "BeOne Medicines"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1968",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/John_V._Oyler",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q132130651"
+ },
+ {
+  "key": "Q908515",
+  "name": "Xiaodong Wang",
+  "companies": [
+   "BeOne Medicines"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1963}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Xiaodong_Wang_(biochemist)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q908515"
+ },
+ {
+  "key": "Q25313780",
+  "name": "Xerxes Desai",
+  "companies": [
+   "Titan Company"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1937",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Xerxes_Desai",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q25313780"
+ },
+ {
+  "key": "Q69873545",
+  "name": "Jay Chaudhry",
+  "companies": [
+   "Zscaler"
+  ],
+  "birthday": null,
+  "birth_precision": "8",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1958}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jay_Chaudhry",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q69873545"
+ },
+ {
+  "key": "Q60047641",
+  "name": "Bennett Rosenthal",
+  "companies": [
+   "Ares Management"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1963-01-01",
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q60047641"
+ },
+ {
+  "key": "Q60048026",
+  "name": "David Kaplan",
+  "companies": [
+   "Ares Management"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q60048026"
+ },
+ {
+  "key": "Q111603335",
+  "name": "Herbert Irving",
+  "companies": [
+   "Sysco"
+  ],
+  "birthday": "1917-11-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q111603335",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Herbert_Irving",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q111603335"
+ },
+ {
+  "key": "Q122830857",
+  "name": "John F. Baugh",
+  "companies": [
+   "Sysco"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q122830857"
+ },
+ {
+  "key": "Q122830879",
+  "name": "Harry Rosenthal",
+  "companies": [
+   "Sysco"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q122830879"
+ },
+ {
+  "key": "Q3522726",
+  "name": "Shiv Nadar",
+  "companies": [
+   "HCL Technologies"
+  ],
+  "birthday": "1945-07-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q3522726",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Shiv_Nadar",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q3522726"
+ },
+ {
+  "key": "Q3559999",
+  "name": "Vineet Nayar",
+  "companies": [
+   "HCL Technologies"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1962}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vineet_Nayar",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q3559999"
+ },
+ {
+  "key": "Q21551626",
+  "name": "Donald R. Horton",
+  "companies": [
+   "D. R. Horton"
+  ],
+  "birthday": "1950-03-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q21551626",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Donald_R._Horton",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q21551626"
+ },
+ {
+  "key": "Q6450499",
+  "name": "Kwok Tak-Seng",
+  "companies": [
+   "Sun Hung Kai Properties"
+  ],
+  "birthday": "1911-03-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6450499",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kwok_Tak-seng",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6450499"
+ },
+ {
+  "key": "Q15928352",
+  "name": "Fung King Hey",
+  "companies": [
+   "Sun Hung Kai Properties"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1922",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Fung_King-hey",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q15928352"
+ },
+ {
+  "key": "Q716047",
+  "name": "Lee Shau-kee",
+  "companies": [
+   "Sun Hung Kai Properties"
+  ],
+  "birthday": "1928-02-20",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q716047",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lee_Shau-kee",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q716047"
+ },
+ {
+  "key": "Q5606941",
+  "name": "Gregory Goodman",
+  "companies": [
+   "Goodman Group"
+  ],
+  "birthday": "1959-06-16",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5606941",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gregory_Goodman",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5606941"
+ },
+ {
+  "key": "Q100251193",
+  "name": "Jeff Lawson",
+  "companies": [
+   "Twilio"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q100251193"
+ },
+ {
+  "key": "Q7827229",
+  "name": "Torstein Hagen",
+  "companies": [
+   "Viking Holdings"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1943}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Torstein_Hagen",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7827229"
+ },
+ {
+  "key": "Q120918397",
+  "name": "Larry Rossy",
+  "companies": [
+   "Dollarama"
+  ],
+  "birthday": null,
+  "birth_precision": "8",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1940-01-01",
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q120918397"
+ },
+ {
+  "key": "Q3297814",
+  "name": "Tom Golisano",
+  "companies": [
+   "Paychex"
+  ],
+  "birthday": "1941-11-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q3297814",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tom_Golisano",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q3297814"
+ },
+ {
+  "key": "Q20117554",
+  "name": "David Baszucki",
+  "companies": [
+   "Roblox"
+  ],
+  "birthday": "1963-01-20",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q20117554",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/David_Baszucki",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q20117554"
+ },
+ {
+  "key": "Q23945383",
+  "name": "Erik Cassel",
+  "companies": [
+   "Roblox"
+  ],
+  "birthday": "1967-12-16",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q23945383",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Erik_Cassel",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q23945383"
+ },
+ {
+  "key": "Q2605460",
+  "name": "Ted Arison",
+  "companies": [
+   "Carnival Corporation"
+  ],
+  "birthday": "1924-02-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2605460",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ted_Arison",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2605460"
+ },
+ {
+  "key": "Q55629586",
+  "name": "Peter Beck",
+  "companies": [
+   "Rocket Lab"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth based on age as of date|40|2017|05|27}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Beck",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q55629586"
+ },
+ {
+  "key": "Q101428127",
+  "name": "Pablo Legorreta",
+  "companies": [
+   "Royalty Pharma"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pablo_Legorreta",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q101428127"
+ },
+ {
+  "key": "Q141044173",
+  "name": "Rory Riggs",
+  "companies": [
+   "Royalty Pharma"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q141044173"
+ },
+ {
+  "key": "Q6767469",
+  "name": "Mark E. Seremet",
+  "companies": [
+   "Take-Two Interactive"
+  ],
+  "birthday": "1965-03-18",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Mark_E._Seremet",
+  "birth_raw": "March 18, 1965",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_E._Seremet",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6767469"
+ },
+ {
+  "key": "Q119933903",
+  "name": "Ryan Ashley Brant",
+  "companies": [
+   "Take-Two Interactive"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q119933903"
+ },
+ {
+  "key": "Q7345956",
+  "name": "Robert J. Pera",
+  "companies": [
+   "Ubiquiti"
+  ],
+  "birthday": "1978-03-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7345956",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Pera",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7345956"
+ },
+ {
+  "key": "Q7612483",
+  "name": "Steve Ells",
+  "companies": [
+   "Chipotle Mexican Grill"
+  ],
+  "birthday": "1965-09-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7612483",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Ells",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7612483"
+ },
+ {
+  "key": "Q15967751",
+  "name": "Ernest Harrison",
+  "companies": [
+   "Vodafone"
+  ],
+  "birthday": "1926-05-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q15967751",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ernest_Harrison",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q15967751"
+ },
+ {
+  "key": "Q5553070",
+  "name": "Gerry Whent",
+  "companies": [
+   "Vodafone"
+  ],
+  "birthday": "1927-03-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5553070",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gerry_Whent",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5553070"
+ },
+ {
+  "key": "Q6390511",
+  "name": "Kenneth Murray",
+  "companies": [
+   "Biogen"
+  ],
+  "birthday": "1930-12-30",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6390511",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kenneth_Murray_(biologist)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6390511"
+ },
+ {
+  "key": "Q312977",
+  "name": "Phillip Sharp",
+  "companies": [
+   "Biogen"
+  ],
+  "birthday": "1944-06-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q312977",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Phillip_Allen_Sharp",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q312977"
+ },
+ {
+  "key": "Q217486",
+  "name": "Walter Gilbert",
+  "companies": [
+   "Biogen"
+  ],
+  "birthday": "1932-03-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q217486",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Walter_Gilbert",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q217486"
+ },
+ {
+  "key": "Q120251",
+  "name": "Charles Weissmann",
+  "companies": [
+   "Biogen"
+  ],
+  "birthday": "1931-10-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q120251",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Weissmann",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q120251"
+ },
+ {
+  "key": "Q100993061",
+  "name": "Francis Bernard",
+  "companies": [
+   "Dassault Systèmes"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1940",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Francis_Bernard_(engineer)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q100993061"
+ },
+ {
+  "key": "Q160802",
+  "name": "Marcel Dassault",
+  "companies": [
+   "Dassault Systèmes"
+  ],
+  "birthday": "1892-01-22",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q160802",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Marcel_Dassault",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q160802"
+ },
+ {
+  "key": "Q7173936",
+  "name": "Peter Farrell",
+  "companies": [
+   "ResMed"
+  ],
+  "birthday": "1922-08-16",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7173936",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Farrell_(Irish_footballer)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7173936"
+ },
+ {
+  "key": "Q1045031",
+  "name": "Liu Chuanzhi",
+  "companies": [
+   "Lenovo"
+  ],
+  "birthday": "1944-04-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1045031",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Liu_Chuanzhi",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1045031"
+ },
+ {
+  "key": "Q5220572",
+  "name": "Danny Lui",
+  "companies": [
+   "Lenovo"
+  ],
+  "birthday": "1957-01-07",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5220572",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Danny_Lui",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5220572"
+ },
+ {
+  "key": "Q7172426",
+  "name": "Q7172426",
+  "companies": [
+   "Arch Capital"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1962-01-01",
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7172426"
+ },
+ {
+  "key": "Q8991047",
+  "name": "Liu Qiangdong",
+  "companies": [
+   "JD.com"
+  ],
+  "birthday": "1973-03-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q8991047",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Liu_Qiangdong",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q8991047"
+ },
+ {
+  "key": "Q7323183",
+  "name": "Rich Barton",
+  "companies": [
+   "Expedia Group"
+  ],
+  "birthday": "1967-06-02",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7323183",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rich_Barton",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7323183"
+ },
+ {
+  "key": "Q6192187",
+  "name": "Jie Tang",
+  "companies": [
+   "Z.AI"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1977",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jie_Tang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6192187"
+ },
+ {
+  "key": "Q2861138",
+  "name": "Ari Emanuel",
+  "companies": [
+   "TKO Group Holdings"
+  ],
+  "birthday": "1961-03-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2861138",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ari_Emanuel",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2861138"
+ },
+ {
+  "key": "Q44430",
+  "name": "Vince McMahon",
+  "companies": [
+   "TKO Group Holdings"
+  ],
+  "birthday": "1945-08-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q44430",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vince_McMahon",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q44430"
+ },
+ {
+  "key": "Q11478367",
+  "name": "Chiharu Kawasaki",
+  "companies": [
+   "Oriental Land"
+  ],
+  "birthday": "1903-04-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q11478367",
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q11478367"
+ },
+ {
+  "key": "Q29841007",
+  "name": "Jannie Mouton",
+  "companies": [
+   "Capitec Bank"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age |1946}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jannie_Mouton",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q29841007"
+ },
+ {
+  "key": "Q131466356",
+  "name": "Michiel le Roux",
+  "companies": [
+   "Capitec Bank"
+  ],
+  "birthday": "1949-05-20",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q131466356",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Michiel_le_Roux",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q131466356"
+ },
+ {
+  "key": "Q7172679",
+  "name": "Peter Barnes",
+  "companies": [
+   "Credo Technology"
+  ],
+  "birthday": "1940-04-16",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7172679",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Barnes_(entrepreneur)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7172679"
+ },
+ {
+  "key": "Q109375925",
+  "name": "Seo Jung-jin",
+  "companies": [
+   "Celltrion"
+  ],
+  "birthday": "1957-10-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q109375925",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Seo_Jung-jin_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q109375925"
+ },
+ {
+  "key": "Q7402688",
+  "name": "Sajjan Jindal",
+  "companies": [
+   "JSW Steel"
+  ],
+  "birthday": "1959-12-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7402688",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sajjan_Jindal",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7402688"
+ },
+ {
+  "key": "Q6397188",
+  "name": "Kevin P. Ryan",
+  "companies": [
+   "MongoDB"
+  ],
+  "birthday": "1969-06-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6397188",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_P._Ryan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6397188"
+ },
+ {
+  "key": "Q5361236",
+  "name": "Eliot Horowitz",
+  "companies": [
+   "MongoDB"
+  ],
+  "birthday": "1981-05-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5361236",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eliot_Horowitz",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5361236"
+ },
+ {
+  "key": "Q5318215",
+  "name": "Dwight Merriman",
+  "companies": [
+   "MongoDB"
+  ],
+  "birthday": "1968-08-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5318215",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dwight_Merriman",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5318215"
+ },
+ {
+  "key": "Q6443489",
+  "name": "Kumar Mahadeva",
+  "companies": [
+   "Cognizant Technology Solutions"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kumar_Mahadeva",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6443489"
+ },
+ {
+  "key": "Q5483294",
+  "name": "Francisco D'Souza",
+  "companies": [
+   "Cognizant Technology Solutions"
+  ],
+  "birthday": "1968-08-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5483294",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Francisco_D%27Souza",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5483294"
+ },
+ {
+  "key": "Q6479902",
+  "name": "Lakshmi Narayanan",
+  "companies": [
+   "Cognizant Technology Solutions"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1953}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lakshmi_Narayanan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6479902"
+ },
+ {
+  "key": "Q5720674",
+  "name": "Henry Earl Singleton",
+  "companies": [
+   "Teledyne Technologies"
+  ],
+  "birthday": "1916-11-27",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5720674",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Earl_Singleton",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5720674"
+ },
+ {
+  "key": "Q5541424",
+  "name": "George Kozmetsky",
+  "companies": [
+   "Teledyne Technologies"
+  ],
+  "birthday": "1917-10-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5541424",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/George_Kozmetsky",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5541424"
+ },
+ {
+  "key": "Q4800159",
+  "name": "Arthur Rock",
+  "companies": [
+   "Teledyne Technologies"
+  ],
+  "birthday": "1926-08-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4800159",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_Rock",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4800159"
+ },
+ {
+  "key": "Q30122565",
+  "name": "Robert James",
+  "companies": [
+   "Raymond James Financial"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1909-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_James_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q30122565"
+ },
+ {
+  "key": "Q1387731",
+  "name": "Khoo Teck Puat",
+  "companies": [
+   "Maybank"
+  ],
+  "birthday": "1917-01-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1387731",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Khoo_Teck_Puat",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1387731"
+ },
+ {
+  "key": "Q164373",
+  "name": "Thaksin Shinawatra",
+  "companies": [
+   "Advanced Info Service (AIS)"
+  ],
+  "birthday": "1949-07-26",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q164373",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Thaksin_Shinawatra",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q164373"
+ },
+ {
+  "key": "Q55760521",
+  "name": "Arnout Schuijff",
+  "companies": [
+   "Adyen"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1967}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Arnout_Schuijff",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q55760521"
+ },
+ {
+  "key": "Q56248504",
+  "name": "Pieter van der Does",
+  "companies": [
+   "Adyen"
+  ],
+  "birthday": "1969-06-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q56248504",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pieter_van_der_Does_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q56248504"
+ },
+ {
+  "key": "Q6745127",
+  "name": "Malvinder Mohan Singh",
+  "companies": [
+   "Fortis"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1972-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Malvinder_Mohan_Singh",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6745127"
+ },
+ {
+  "key": "Q44870909",
+  "name": "Eric S. Yuan",
+  "companies": [
+   "Zoom"
+  ],
+  "birthday": "1970-02-20",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q44870909",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eric_Yuan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q44870909"
+ },
+ {
+  "key": "Q217098",
+  "name": "Jamnalal Bajaj",
+  "companies": [
+   "Bajaj Finserv"
+  ],
+  "birthday": "1884-11-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q217098",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jamnalal_Bajaj",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q217098"
+ },
+ {
+  "key": "Q98113843",
+  "name": "Mark Rosenzweig",
+  "companies": [
+   "SharkNinja"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q98113843"
+ },
+ {
+  "key": "Q96384117",
+  "name": "James Bidzos",
+  "companies": [
+   "VeriSign"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/James_Bidzos",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q96384117"
+ },
+ {
+  "key": "Q5084818",
+  "name": "Charlie Ergen",
+  "companies": [
+   "EchoStar"
+  ],
+  "birthday": "1953-03-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5084818",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Charlie_Ergen",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5084818"
+ },
+ {
+  "key": "Q106977260",
+  "name": "Sarath Ratanavadi",
+  "companies": [
+   "Gulf Development Public Company"
+  ],
+  "birthday": "1965-07-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q106977260",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sarath_Ratanavadi",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q106977260"
+ },
+ {
+  "key": "Q701830",
+  "name": "Zhang Ruimin",
+  "companies": [
+   "Haier Smart Home"
+  ],
+  "birthday": "1949-01-05",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q701830",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zhang_Ruimin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q701830"
+ },
+ {
+  "key": "Q4120392",
+  "name": "Mohamed Atiya",
+  "companies": [
+   "Emaar Properties"
+  ],
+  "birthday": "1956-11-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4120392",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mohamed_Alabbar",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4120392"
+ },
+ {
+  "key": "Q7342482",
+  "name": "Robert Buchan",
+  "companies": [
+   "Kinross Gold"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1949-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Buchan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7342482"
+ },
+ {
+  "key": "Q968798",
+  "name": "Paul Brown",
+  "companies": [
+   "Quest Diagnostics"
+  ],
+  "birthday": "1908-09-07",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q968798",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Brown",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q968798"
+ },
+ {
+  "key": "Q7148948",
+  "name": "Paul A. Brown",
+  "companies": [
+   "Quest Diagnostics"
+  ],
+  "birthday": "1938-04-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7148948",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_A._Brown",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7148948"
+ },
+ {
+  "key": "Q639725",
+  "name": "rachdi mohamee",
+  "companies": [
+   "Ryanair"
+  ],
+  "birthday": "1936-02-02",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q639725",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Ryan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q639725"
+ },
+ {
+  "key": "Q92985",
+  "name": "Robin Li",
+  "companies": [
+   "Baidu"
+  ],
+  "birthday": "1968-11-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q92985",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Robin_Li",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q92985"
+ },
+ {
+  "key": "Q19841061",
+  "name": "Eric Xu",
+  "companies": [
+   "Baidu"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1964-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eric_Xu",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19841061"
+ },
+ {
+  "key": "Q75838639",
+  "name": "Willis Johnson",
+  "companies": [
+   "Copart"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1947}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Willis_Johnson",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q75838639"
+ },
+ {
+  "key": "Q27881473",
+  "name": "Vivek Ramaswamy",
+  "companies": [
+   "Roivant Sciences"
+  ],
+  "birthday": "1985-08-09",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q27881473",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q27881473"
+ },
+ {
+  "key": "Q140068658",
+  "name": "Andrew Feldman",
+  "companies": [
+   "Cerebras Systems"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Feldman_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q140068658"
+ },
+ {
+  "key": "Q27922609",
+  "name": "William Robert Berkley",
+  "companies": [
+   "W. R. Berkley"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year|1946}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/W._R._Berkley",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q27922609"
+ },
+ {
+  "key": "Q7612894",
+  "name": "Steve Huffman",
+  "companies": [
+   "Reddit"
+  ],
+  "birthday": "1983-11-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7612894",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Huffman",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7612894"
+ },
+ {
+  "key": "Q4721504",
+  "name": "Alexis Ohanian",
+  "companies": [
+   "Reddit"
+  ],
+  "birthday": "1983-04-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4721504",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alexis_Ohanian",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4721504"
+ },
+ {
+  "key": "Q302817",
+  "name": "Aaron Swartz",
+  "companies": [
+   "Reddit"
+  ],
+  "birthday": "1986-11-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q302817",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aaron_Swartz",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q302817"
+ },
+ {
+  "key": "Q107649400",
+  "name": "Wang Dongsheng",
+  "companies": [
+   "BOE Technology"
+  ],
+  "birthday": "1997-05-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q107649400",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wang_Dongsheng",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q107649400"
+ },
+ {
+  "key": "Q105338400",
+  "name": "Zhong Huijuan",
+  "companies": [
+   "Hansoh Pharma"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1961|4}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zhong_Huijuan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q105338400"
+ },
+ {
+  "key": "Q63117886",
+  "name": "Bom Kim",
+  "companies": [
+   "Coupang"
+  ],
+  "birthday": "1978-10-07",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q63117886",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bom_Kim",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q63117886"
+ },
+ {
+  "key": "Q542277",
+  "name": "Liang Wengen",
+  "companies": [
+   "Sany Heavy Industry"
+  ],
+  "birthday": "1956-01-02",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q542277",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Liang_Wengen",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q542277"
+ },
+ {
+  "key": "Q7418560",
+  "name": "Sanjit Biswas",
+  "companies": [
+   "Samsara"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1982",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sanjit_Biswas",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7418560"
+ },
+ {
+  "key": "Q79543012",
+  "name": "John Bicket",
+  "companies": [
+   "Samsara"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1980-01-01",
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q79543012"
+ },
+ {
+  "key": "Q6777103",
+  "name": "Martine Rothblatt",
+  "companies": [
+   "United Therapeutics"
+  ],
+  "birthday": "1954-10-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6777103",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Martine_Rothblatt",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6777103"
+ },
+ {
+  "key": "Q19662125",
+  "name": "Wang Wei",
+  "companies": [
+   "S.F. Express"
+  ],
+  "birthday": "1970-01-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q19662125",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wang_Wei_(SF_Express)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19662125"
+ },
+ {
+  "key": "Q1451167",
+  "name": "François Pinault",
+  "companies": [
+   "Kering"
+  ],
+  "birthday": "1936-08-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1451167",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Pinault",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1451167"
+ },
+ {
+  "key": "Q76769581",
+  "name": "Helmy Eltoukhy",
+  "companies": [
+   "Guardant Health"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Helmy_Eltoukhy",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q76769581"
+ },
+ {
+  "key": "Q116973050",
+  "name": "AmirAli Talasaz",
+  "companies": [
+   "Guardant Health"
+  ],
+  "birthday": "1979-08-03",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q116973050",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/AmirAli_Talasaz",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q116973050"
+ },
+ {
+  "key": "Q120601216",
+  "name": "William Darden",
+  "companies": [
+   "Darden Restaurants"
+  ],
+  "birthday": "1918-11-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q120601216",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/William_Darden",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q120601216"
+ },
+ {
+  "key": "Q8005164",
+  "name": "William Bass",
+  "companies": [
+   "InterContinental Hotels Group"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1717-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/William_Bass_(brewer)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q8005164"
+ },
+ {
+  "key": "Q8677",
+  "name": "Juan Trippe",
+  "companies": [
+   "InterContinental Hotels Group"
+  ],
+  "birthday": "1899-06-27",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q8677",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Juan_Trippe",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q8677"
+ },
+ {
+  "key": "Q53944",
+  "name": "Rupert Murdoch",
+  "companies": [
+   "Fox Corporation"
+  ],
+  "birthday": "1931-03-11",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q53944",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rupert_Murdoch",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q53944"
+ },
+ {
+  "key": "Q319137",
+  "name": "Sheldon Adelson",
+  "companies": [
+   "Las Vegas Sands"
+  ],
+  "birthday": "1933-08-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q319137",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sheldon_Adelson",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q319137"
+ },
+ {
+  "key": "Q296647",
+  "name": "Ralph Lauren",
+  "companies": [
+   "Ralph Lauren"
+  ],
+  "birthday": "1939-10-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q296647",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ralph_Lauren",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q296647"
+ },
+ {
+  "key": "Q124351489",
+  "name": "Charles Liang",
+  "companies": [
+   "Supermicro"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date |53|2010|10|15}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Liang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q124351489"
+ },
+ {
+  "key": "Q2397569",
+  "name": "Serge Kampf",
+  "companies": [
+   "Capgemini"
+  ],
+  "birthday": "1934-10-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2397569",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Serge_Kampf",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2397569"
+ },
+ {
+  "key": "Q172724",
+  "name": "Bernie Ecclestone",
+  "companies": [
+   "Formula One Group"
+  ],
+  "birthday": "1930-10-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q172724",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bernie_Ecclestone",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q172724"
+ },
+ {
+  "key": "Q6394668",
+  "name": "Kerry Stokes",
+  "companies": [
+   "Seven Group Holdings\n (SGH)"
+  ],
+  "birthday": "1940-09-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6394668",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kerry_Stokes",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6394668"
+ },
+ {
+  "key": "Q105287298",
+  "name": "MIke Cagney",
+  "companies": [
+   "SoFi"
+  ],
+  "birthday": "1971-02-01",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Mike_Cagney",
+  "birth_raw": "{{birth date and age|1971|02|01}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Cagney",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q105287298"
+ },
+ {
+  "key": "Q96787535",
+  "name": "Allen Rosenshine",
+  "companies": [
+   "Omnicom Group"
+  ],
+  "birthday": "1939-03-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q96787535",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Allen_Rosenshine",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q96787535"
+ },
+ {
+  "key": "Q2505089",
+  "name": "Uğur Şahin",
+  "companies": [
+   "BioNTech"
+  ],
+  "birthday": "1965-09-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2505089",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/U%C4%9Fur_%C5%9Eahin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2505089"
+ },
+ {
+  "key": "Q92379963",
+  "name": "Özlem Türeci",
+  "companies": [
+   "BioNTech"
+  ],
+  "birthday": "1967-03-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q92379963",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/%C3%96zlem_T%C3%BCreci",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q92379963"
+ },
+ {
+  "key": "Q29467749",
+  "name": "Radhakishan Damani",
+  "companies": [
+   "DMart"
+  ],
+  "birthday": "1955-07-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q29467749",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Radhakishan_Damani",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q29467749"
+ },
+ {
+  "key": "Q4819158",
+  "name": "Aubrey McClendon",
+  "companies": [
+   "Expand Energy"
+  ],
+  "birthday": "1959-07-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4819158",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aubrey_McClendon",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4819158"
+ },
+ {
+  "key": "Q7816519",
+  "name": "Tom L. Ward",
+  "companies": [
+   "Expand Energy"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1959-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tom_L._Ward",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7816519"
+ },
+ {
+  "key": "Q9052570",
+  "name": "T.H. Tung",
+  "companies": [
+   "ASUS"
+  ],
+  "birthday": "1960-06-25",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q9052570",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tzu-Hsien_Tung",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q9052570"
+ },
+ {
+  "key": "Q134993976",
+  "name": "Wang Ning",
+  "companies": [
+   "Pop Mart International Group"
+  ],
+  "birthday": "1987-01-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q134993976",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wang_Ning_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q134993976"
+ },
+ {
+  "key": "Q764247",
+  "name": "Herb Kelleher",
+  "companies": [
+   "Southwest Airlines"
+  ],
+  "birthday": "1931-03-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q764247",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Herb_Kelleher",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q764247"
+ },
+ {
+  "key": "Q7361158",
+  "name": "Rollin King",
+  "companies": [
+   "Southwest Airlines"
+  ],
+  "birthday": "1931-04-10",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7361158",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rollin_King",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7361158"
+ },
+ {
+  "key": "Q19841142",
+  "name": "Zhou Qunfei",
+  "companies": [
+   "Lens Technology"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1970}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zhou_Qunfei",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19841142"
+ },
+ {
+  "key": "Q21066741",
+  "name": "Johnelle Hunt",
+  "companies": [
+   "J. B. Hunt"
+  ],
+  "birthday": "1932-01-04",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Johnelle_Hunt",
+  "birth_raw": "{{birth date and age|1932|1|4}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Johnelle_Hunt",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q21066741"
+ },
+ {
+  "key": "Q6266046",
+  "name": "Johnnie Bryan Hunt",
+  "companies": [
+   "J. B. Hunt"
+  ],
+  "birthday": "1927-02-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6266046",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Johnnie_Bryan_Hunt",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6266046"
+ },
+ {
+  "key": "Q28413863",
+  "name": "Cao Dewang",
+  "companies": [
+   "Fuyao Glass Industry Group"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1946|05}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cao_Dewang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q28413863"
+ },
+ {
+  "key": "Q6181059",
+  "name": "Jeremy Allaire",
+  "companies": [
+   "Circle Internet Group"
+  ],
+  "birthday": "1971-05-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6181059",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jeremy_Allaire",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6181059"
+ },
+ {
+  "key": "Q117742759",
+  "name": "Urs Wietlisbach",
+  "companies": [
+   "Partners Group"
+  ],
+  "birthday": "1961-08-25",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Urs_Wietlisbach",
+  "birth_raw": "{{Birth date and age|1961|08|25|df=y}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Urs_Wietlisbach",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q117742759"
+ },
+ {
+  "key": "Q104903559",
+  "name": "Alfred Gantner",
+  "companies": [
+   "Partners Group"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1968}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alfred_Gantner",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q104903559"
+ },
+ {
+  "key": "Q113470205",
+  "name": "Urs Wietlisbach",
+  "companies": [
+   "Partners Group"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q113470205"
+ },
+ {
+  "key": "Q113470240",
+  "name": "Marcel Erni",
+  "companies": [
+   "Partners Group"
+  ],
+  "birthday": "1965-06-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q113470240",
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q113470240"
+ },
+ {
+  "key": "Q6831969",
+  "name": "Michael Krasny",
+  "companies": [
+   "CDW Corporation"
+  ],
+  "birthday": null,
+  "birth_precision": "8",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date |66|2019|10|17}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Krasny_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6831969"
+ },
+ {
+  "key": "Q7327564",
+  "name": "Richard M. Schulze",
+  "companies": [
+   "Best Buy"
+  ],
+  "birthday": "1941-03-25",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Richard_M._Schulze",
+  "birth_raw": "{{Birth date and age|1941|03|25}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_M._Schulze",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7327564"
+ },
+ {
+  "key": "Q103335665",
+  "name": "Dario Amodei",
+  "companies": [
+   "Anthropic"
+  ],
+  "birthday": "1983-01-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q103335665",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dario_Amodei",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q103335665"
+ },
+ {
+  "key": "Q119721378",
+  "name": "Daniela Amodei",
+  "companies": [
+   "Anthropic"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1987}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Daniela_Amodei",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q119721378"
+ },
+ {
+  "key": "Q102649624",
+  "name": "Jared Kaplan",
+  "companies": [
+   "Anthropic"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jared_Kaplan",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q102649624"
+ },
+ {
+  "key": "Q50358648",
+  "name": "Chris Olah",
+  "companies": [
+   "Anthropic"
+  ],
+  "birthday": null,
+  "birth_precision": "8",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date|34|2026}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Olah",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q50358648"
+ },
+ {
+  "key": "Q7407093",
+  "name": "Sam Altman",
+  "companies": [
+   "OpenAI"
+  ],
+  "birthday": "1985-04-22",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7407093",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sam_Altman",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7407093"
+ },
+ {
+  "key": "Q21712134",
+  "name": "Ilya Sutskever",
+  "companies": [
+   "OpenAI"
+  ],
+  "birthday": "1986-12-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q21712134",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ilya_Sutskever",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q21712134"
+ },
+ {
+  "key": "Q100604534",
+  "name": "Greg Brockman",
+  "companies": [
+   "OpenAI"
+  ],
+  "birthday": "1987-11-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q100604534",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Greg_Brockman",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q100604534"
+ },
+ {
+  "key": "Q4088422",
+  "name": "Trevor Blackwell",
+  "companies": [
+   "OpenAI"
+  ],
+  "birthday": "1969-11-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4088422",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Trevor_Blackwell",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4088422"
+ },
+ {
+  "key": "Q56037405",
+  "name": "Andrej Karpathy",
+  "companies": [
+   "OpenAI"
+  ],
+  "birthday": "1986-10-23",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q56037405",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Andrej_Karpathy",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q56037405"
+ },
+ {
+  "key": "Q29022624",
+  "name": "Diederik P. Kingma",
+  "companies": [
+   "OpenAI"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1983-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Durk_Kingma",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q29022624"
+ },
+ {
+  "key": "Q103236782",
+  "name": "John Schulman",
+  "companies": [
+   "OpenAI"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/John_Schulman",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q103236782"
+ },
+ {
+  "key": "Q27733815",
+  "name": "Wojciech Zaremba",
+  "companies": [
+   "OpenAI"
+  ],
+  "birthday": "1988-11-30",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q27733815",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wojciech_Zaremba",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q27733815"
+ },
+ {
+  "key": "Q128804411",
+  "name": "Vicki Cheung",
+  "companies": [
+   "OpenAI"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q128804411"
+ },
+ {
+  "key": "Q135493411",
+  "name": "Pamela Vagata",
+  "companies": [
+   "OpenAI"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q135493411"
+ },
+ {
+  "key": "Q63306804",
+  "name": "Zhang Yiming",
+  "companies": [
+   "ByteDance"
+  ],
+  "birthday": "1983-04-01",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q63306804",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zhang_Yiming",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q63306804"
+ },
+ {
+  "key": "Q23016890",
+  "name": "Ali Ghodsi",
+  "companies": [
+   "Databricks"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1978}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ali_Ghodsi",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q23016890"
+ },
+ {
+  "key": "Q102411021",
+  "name": "Andrew Konwinski",
+  "companies": [
+   "Databricks",
+   "Perplexity"
+  ],
+  "birthday": "1983-10-15",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Andy_Konwinski",
+  "birth_raw": "October 15, 1983",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Andy_Konwinski",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q102411021"
+ },
+ {
+  "key": "Q12730959",
+  "name": "Ion Stoica",
+  "companies": [
+   "Databricks"
+  ],
+  "birthday": "1965-02-12",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q12730959",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ion_Stoica",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q12730959"
+ },
+ {
+  "key": "Q26703258",
+  "name": "Reynold Xin",
+  "companies": [
+   "Databricks"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Reynold_Xin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q26703258"
+ },
+ {
+  "key": "Q16887186",
+  "name": "Matei Zaharia",
+  "companies": [
+   "Databricks"
+  ],
+  "birthday": "1985-04-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q16887186",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Matei_Zaharia",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16887186"
+ },
+ {
+  "key": "Q7146257",
+  "name": "Patrick Collison",
+  "companies": [
+   "Stripe"
+  ],
+  "birthday": "1988-09-09",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7146257",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Patrick_Collison",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7146257"
+ },
+ {
+  "key": "Q16233063",
+  "name": "John Collison",
+  "companies": [
+   "Stripe"
+  ],
+  "birthday": "1990-08-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q16233063",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/John_Collison",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16233063"
+ },
+ {
+  "key": "Q62901",
+  "name": "Sebastian Thrun",
+  "companies": [
+   "Waymo"
+  ],
+  "birthday": "1967-05-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q62901",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sebastian_Thrun",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q62901"
+ },
+ {
+  "key": "Q26924676",
+  "name": "Anthony Levandowski",
+  "companies": [
+   "Waymo"
+  ],
+  "birthday": "1980-03-15",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q26924676",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_Levandowski",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q26924676"
+ },
+ {
+  "key": "Q50505362",
+  "name": "Nikolay Storonsky",
+  "companies": [
+   "Revolut"
+  ],
+  "birthday": "1984-07-21",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q50505362",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nik_Storonsky",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q50505362"
+ },
+ {
+  "key": "Q107541874",
+  "name": "Vlad Yatsenko",
+  "companies": [
+   "Revolut"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth-date and age|August 1983}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vlad_Yatsenko",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q107541874"
+ },
+ {
+  "key": "Q131847088",
+  "name": "Liang Wenfeng",
+  "companies": [
+   "DeepSeek"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1985}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Liang_Wenfeng",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q131847088"
+ },
+ {
+  "key": "Q16269109",
+  "name": "Palmer Luckey",
+  "companies": [
+   "Anduril Industries"
+  ],
+  "birthday": "1992-09-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q16269109",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Palmer_Luckey",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16269109"
+ },
+ {
+  "key": "Q124646741",
+  "name": "Trae Stephens",
+  "companies": [
+   "Anduril Industries"
+  ],
+  "birthday": null,
+  "birth_precision": "month",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth date and age text|November 1983}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Trae_Stephens",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q124646741"
+ },
+ {
+  "key": "Q124429789",
+  "name": "Brian Schimpf",
+  "companies": [
+   "Anduril Industries"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q124429789"
+ },
+ {
+  "key": "Q130865273",
+  "name": "Yang Zhilin",
+  "companies": [
+   "Moonshot AI"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1992}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Yang_Zhilin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q130865273"
+ },
+ {
+  "key": "Q125132537",
+  "name": "Scott Wu",
+  "companies": [
+   "Cognition"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1996}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Wu",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q125132537"
+ },
+ {
+  "key": "Q108070054",
+  "name": "Guillaume Pousaz",
+  "companies": [
+   "Checkout.com"
+  ],
+  "birthday": "1981-08-06",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Guillaume_Pousaz",
+  "birth_raw": "{{birth date and age|1981|08|06|df=y}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Guillaume_Pousaz",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q108070054"
+ },
+ {
+  "key": "Q19864583",
+  "name": "Chris Larsen",
+  "companies": [
+   "Ripple"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1960}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Larsen",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q19864583"
+ },
+ {
+  "key": "Q28449997",
+  "name": "Jed McCaleb",
+  "companies": [
+   "Ripple"
+  ],
+  "birthday": "1975-06-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q28449997",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jed_McCaleb",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q28449997"
+ },
+ {
+  "key": "Q117788077",
+  "name": "Brett Adcock",
+  "companies": [
+   "Figure"
+  ],
+  "birthday": "1986-04-06",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Brett_Adcock",
+  "birth_raw": "{{birth date and age|1986|04|06}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Brett_Adcock",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q117788077"
+ },
+ {
+  "key": "Q6830474",
+  "name": "Michael G. Rubin",
+  "companies": [
+   "Fanatics"
+  ],
+  "birthday": "1972-07-21",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Michael_Rubin_(businessman)",
+  "birth_raw": "{{Birth date and age|1972|7|21}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Rubin_(businessman)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6830474"
+ },
+ {
+  "key": "Q112629173",
+  "name": "Alexandr Wang",
+  "companies": [
+   "Scale AI"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1997|1}} }}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alexandr_Wang",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q112629173"
+ },
+ {
+  "key": "Q85467479",
+  "name": "Lucy Guo",
+  "companies": [
+   "Scale AI"
+  ],
+  "birthday": "1994-10-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q85467479",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lucy_Guo",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q85467479"
+ },
+ {
+  "key": "Q119104128",
+  "name": "Star Xu",
+  "companies": [
+   "OKX"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1985}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Star_Xu",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q119104128"
+ },
+ {
+  "key": "Q323671",
+  "name": "Tim Sweeney",
+  "companies": [
+   "Epic Games"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1970|}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Sweeney",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q323671"
+ },
+ {
+  "key": "Q16735112",
+  "name": "Mark Rein",
+  "companies": [
+   "Epic Games"
+  ],
+  "birthday": "1963-05-02",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Mark_Rein_(executive)",
+  "birth_raw": "{{bda|2 May 1963}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Rein_(executive)",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16735112"
+ },
+ {
+  "key": "Q123758735",
+  "name": "Arthur Mensch",
+  "companies": [
+   "Mistral AI"
+  ],
+  "birthday": "1992-07-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q123758735",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_Mensch",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q123758735"
+ },
+ {
+  "key": "Q56101409",
+  "name": "Guillaume Lample",
+  "companies": [
+   "Mistral AI"
+  ],
+  "birthday": "1990-10-08",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q56101409",
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q56101409"
+ },
+ {
+  "key": "Q125192446",
+  "name": "Timothée Lacroix",
+  "companies": [
+   "Mistral AI"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q125192446"
+ },
+ {
+  "key": "Q4684995",
+  "name": "Adrian Durham",
+  "companies": [
+   "FNZ"
+  ],
+  "birthday": "1969-05-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4684995",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Adrian_Durham",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4684995"
+ },
+ {
+  "key": "Q139394083",
+  "name": "Tarek Mansour",
+  "companies": [
+   "Kalshi"
+  ],
+  "birthday": "1996-05-07",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q139394083",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tarek_Mansour",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q139394083"
+ },
+ {
+  "key": "Q137206729",
+  "name": "Luana Lara Lopes",
+  "companies": [
+   "Kalshi"
+  ],
+  "birthday": "1996-05-20",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q137206729",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Luana_Lopes_Lara",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q137206729"
+ },
+ {
+  "key": "Q138427775",
+  "name": "Piotr Dąbkowski",
+  "companies": [
+   "ElevenLabs"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "1994-01-01",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Piotr_D%C4%85bkowski",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q138427775"
+ },
+ {
+  "key": "Q137183852",
+  "name": "Mati Staniszewski",
+  "companies": [
+   "ElevenLabs"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year|1995}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mati_Staniszewski",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q137183852"
+ },
+ {
+  "key": "Q6186752",
+  "name": "Jesse Powell",
+  "companies": [
+   "Kraken Exchange"
+  ],
+  "birthday": "1971-02-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q6186752",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jesse_Powell",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q6186752"
+ },
+ {
+  "key": "Q105580754",
+  "name": "Jesse Powell",
+  "companies": [
+   "Kraken Exchange"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": null,
+  "wikidata_url": "https://www.wikidata.org/wiki/Q105580754"
+ },
+ {
+  "key": "Q61972012",
+  "name": "James Monsees",
+  "companies": [
+   "JUUL"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/James_Monsees",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q61972012"
+ },
+ {
+  "key": "Q61972465",
+  "name": "Adam Bowen",
+  "companies": [
+   "JUUL"
+  ],
+  "birthday": null,
+  "birth_precision": "8",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth based on age as of date |44|2019|10|05}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Adam_Bowen",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q61972465"
+ },
+ {
+  "key": "Q135089578",
+  "name": "Denis Yarats",
+  "companies": [
+   "Perplexity"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1987}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Denis_Yarats",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q135089578"
+ },
+ {
+  "key": "Q120492201",
+  "name": "Aravind Srinivas",
+  "companies": [
+   "Perplexity"
+  ],
+  "birthday": "1994-06-07",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q120492201",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aravind_Srinivas",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q120492201"
+ },
+ {
+  "key": "Q2925904",
+  "name": "Brock Pierce",
+  "companies": [
+   "Tether"
+  ],
+  "birthday": "1980-11-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q2925904",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Brock_Pierce",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2925904"
+ },
+ {
+  "key": "Q17503525",
+  "name": "Elizabeth Holmes",
+  "companies": [
+   "Theranos"
+  ],
+  "birthday": "1984-02-03",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q17503525",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q17503525"
+ },
+ {
+  "key": "Q106543540",
+  "name": "Sam Bankman-Fried",
+  "companies": [
+   "FTX"
+  ],
+  "birthday": "1992-03-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q106543540",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q106543540"
+ },
+ {
+  "key": "Q34579349",
+  "name": "Adam Neumann",
+  "companies": [
+   "WeWork"
+  ],
+  "birthday": "1979-04-25",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q34579349",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Adam_Neumann",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q34579349"
+ },
+ {
+  "key": "Q42666281",
+  "name": "Miguel McKelvey",
+  "companies": [
+   "WeWork"
+  ],
+  "birthday": "1974-07-04",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q42666281",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Miguel_McKelvey",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q42666281"
+ },
+ {
+  "key": "Q706548",
+  "name": "Bernard Ebbers",
+  "companies": [
+   "WorldCom"
+  ],
+  "birthday": "1941-08-27",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q706548",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bernard_Ebbers",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q706548"
+ },
+ {
+  "key": "Q16149771",
+  "name": "Alexander Asseily",
+  "companies": [
+   "Jawbone"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Asseily",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16149771"
+ },
+ {
+  "key": "Q2978600",
+  "name": "Michael Marks",
+  "companies": [
+   "Katerra"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "Disputed year of birth",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Marks",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q2978600"
+ },
+ {
+  "key": "Q54860940",
+  "name": "Travis VanderZanden",
+  "companies": [
+   "Bird"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1979}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Travis_VanderZanden",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q54860940"
+ },
+ {
+  "key": "Q1235658",
+  "name": "Shai Agassi",
+  "companies": [
+   "Better Place"
+  ],
+  "birthday": "1968-04-19",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q1235658",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Shai_Agassi",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q1235658"
+ },
+ {
+  "key": "Q67146947",
+  "name": "Trevor Milton",
+  "companies": [
+   "Nikola"
+  ],
+  "birthday": "1982-04-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q67146947",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Trevor_Milton",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q67146947"
+ },
+ {
+  "key": "Q456219",
+  "name": "Steve Burns",
+  "companies": [
+   "Lordstown Motors"
+  ],
+  "birthday": "1973-10-09",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q456219",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Burns",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q456219"
+ },
+ {
+  "key": "Q22277126",
+  "name": "Louis Borders",
+  "companies": [
+   "Webvan"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Louis_Borders",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q22277126"
+ },
+ {
+  "key": "Q49826",
+  "name": "Andy Rubin",
+  "companies": [
+   "Essential Products"
+  ],
+  "birthday": "1963-03-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q49826",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Andy_Rubin",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q49826"
+ },
+ {
+  "key": "Q59387146",
+  "name": "Byju Raveendran",
+  "companies": [
+   "Byju's"
+  ],
+  "birthday": "1980-01-05",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Byju_Raveendran",
+  "birth_raw": "{{Birth date and age|1980|1|5|df=y}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Byju_Raveendran",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q59387146"
+ },
+ {
+  "key": "Q106122307",
+  "name": "Divya Gokulnath",
+  "companies": [
+   "Byju's"
+  ],
+  "birthday": "1987-04-21",
+  "birth_precision": "day",
+  "birth_source": "wikipedia infobox",
+  "birth_source_url": "https://en.wikipedia.org/wiki/Divya_Gokulnath",
+  "birth_raw": "{{Birth date and age|1987|4|21|df=y}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Divya_Gokulnath",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q106122307"
+ },
+ {
+  "key": "Q105822664",
+  "name": "Lex Greensill",
+  "companies": [
+   "Greensill Capital"
+  ],
+  "birthday": "1976-12-29",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q105822664",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lex_Greensill",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q105822664"
+ },
+ {
+  "key": "Q55608847",
+  "name": "Dai Wei",
+  "companies": [
+   "Ofo"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1991}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dai_Wei",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q55608847"
+ },
+ {
+  "key": "Q51858249",
+  "name": "Alex Mashinsky",
+  "companies": [
+   "Celsius Network"
+  ],
+  "birthday": "1965-10-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q51858249",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Mashinsky",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q51858249"
+ },
+ {
+  "key": "Q16214943",
+  "name": "Daniel Leon",
+  "companies": [
+   "Celsius Network"
+  ],
+  "birthday": "1974-10-14",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q16214943",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Leon",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16214943"
+ },
+ {
+  "key": "Q8017364",
+  "name": "William Randolph Hearst III",
+  "companies": [
+   "Excite@Home (At Home Corporation)"
+  ],
+  "birthday": "1949-06-18",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q8017364",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/William_Randolph_Hearst_III",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q8017364"
+ },
+ {
+  "key": "Q3098642",
+  "name": "Gary Winnick",
+  "companies": [
+   "Global Crossing"
+  ],
+  "birthday": "1947-10-13",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q3098642",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gary_Winnick",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q3098642"
+ },
+ {
+  "key": "Q5236221",
+  "name": "David L. Lee",
+  "companies": [
+   "Global Crossing"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{Birth year and age|1949}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/David_L._Lee",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5236221"
+ },
+ {
+  "key": "Q7646502",
+  "name": "Suroosh Alvi",
+  "companies": [
+   "Vice Media"
+  ],
+  "birthday": "1969-03-26",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q7646502",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Suroosh_Alvi",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q7646502"
+ },
+ {
+  "key": "Q5528217",
+  "name": "Gavin McInnes",
+  "companies": [
+   "Vice Media"
+  ],
+  "birthday": "1970-07-17",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5528217",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gavin_McInnes",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5528217"
+ },
+ {
+  "key": "Q16734205",
+  "name": "Ali Parsa",
+  "companies": [
+   "Babylon Health"
+  ],
+  "birthday": "1965-01-24",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q16734205",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ali_Parsa",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q16734205"
+ },
+ {
+  "key": "Q4410115",
+  "name": "Denis Sverdlov",
+  "companies": [
+   "Arrival"
+  ],
+  "birthday": "1978-06-06",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q4410115",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Denis_Sverdlov",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q4410115"
+ },
+ {
+  "key": "Q21005340",
+  "name": "Alex Chesterman",
+  "companies": [
+   "Cazoo"
+  ],
+  "birthday": "1970-01-09",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q21005340",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Chesterman",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q21005340"
+ },
+ {
+  "key": "Q5214540",
+  "name": "Dan Wagner",
+  "companies": [
+   "Powa Technologies"
+  ],
+  "birthday": "1963-07-28",
+  "birth_precision": "day",
+  "birth_source": "wikidata",
+  "birth_source_url": "https://www.wikidata.org/wiki/Q5214540",
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dan_Wagner",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5214540"
+ },
+ {
+  "key": "Q38034475",
+  "name": "Rishi Shah",
+  "companies": [
+   "Outcome Health"
+  ],
+  "birthday": null,
+  "birth_precision": "year",
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": "{{birth year and age|1986}}",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rishi_Shah",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q38034475"
+ },
+ {
+  "key": "Q5181607",
+  "name": "Craig Winn",
+  "companies": [
+   "Value America"
+  ],
+  "birthday": null,
+  "birth_precision": null,
+  "birth_source": null,
+  "birth_source_url": null,
+  "birth_raw": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Craig_Winn",
+  "wikidata_url": "https://www.wikidata.org/wiki/Q5181607"
+ }
+]

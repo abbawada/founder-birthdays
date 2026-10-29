@@ -1,26 +1,18 @@
 [
  {
-  "company": "RTX",
-  "company_qid": "Q89368734",
-  "founder_qid": "Q156644",
-  "founder_name": "American Appliance Company",
-  "wp_title": "Raytheon",
+  "company": "Palo Alto Networks",
+  "company_qid": "Q7128508",
+  "founder_qid": "Q7128508",
+  "founder_name": "Nir Zuk",
+  "wp_title": "Palo Alto Networks",
   "source": "wikipedia infobox"
  },
  {
-  "company": "RTX",
-  "company_qid": "Q89368734",
-  "founder_qid": "Q1045758",
-  "founder_name": "United Technologies",
-  "wp_title": "United Technologies",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Prosus",
-  "company_qid": "Q67389109",
-  "founder_qid": "Q1965898",
-  "founder_name": "Naspers",
-  "wp_title": "Naspers",
+  "company": "Seagate Technology",
+  "company_qid": "Q705392",
+  "founder_qid": "Q418582",
+  "founder_name": "Tom Mitchell",
+  "wp_title": "Thomas Mitchell",
   "source": "wikipedia infobox"
  },
  {
@@ -40,131 +32,67 @@
   "source": "wikipedia infobox"
  },
  {
-  "company": "Tokyo Electron",
-  "company_qid": "Q1351484",
-  "founder_qid": "Q605233",
-  "founder_name": "Tokyo Broadcasting System",
-  "wp_title": "TBS Holdings",
+  "company": "Devon Energy",
+  "company_qid": "Q1206980",
+  "founder_qid": "Q1701214",
+  "founder_name": "John Nichols",
+  "wp_title": "John Nichols",
   "source": "wikipedia infobox"
  },
  {
-  "company": "HDFC Bank",
-  "company_qid": "Q631047",
-  "founder_qid": "Q1446319",
-  "founder_name": "Housing Development Finance Corporation",
-  "wp_title": "Housing Development Finance Corporation",
+  "company": "Medline",
+  "company_qid": "Q6807236",
+  "founder_qid": "Q2592987",
+  "founder_name": "Jim Mills",
+  "wp_title": "James Mills",
   "source": "wikipedia infobox"
  },
  {
-  "company": "Enel",
-  "company_qid": "Q651222",
-  "founder_qid": "Q3773971",
-  "founder_name": "Italian government",
-  "wp_title": "Government of Italy",
+  "company": "Ares Management",
+  "company_qid": "Q4789079",
+  "founder_qid": "Q4789079",
+  "founder_name": "Michael Arougheti",
+  "wp_title": "Ares Management",
   "source": "wikipedia infobox"
  },
  {
-  "company": "NTT (Nippon Telegraph & Telephone)",
-  "company_qid": "Q1054787",
-  "founder_qid": "Q1190574",
-  "founder_name": "Government of Japan",
-  "wp_title": "Government of Japan",
+  "company": "Ares Management",
+  "company_qid": "Q4789079",
+  "founder_qid": "Q5235846",
+  "founder_name": "David Kaplan",
+  "wp_title": "David Kaplan",
   "source": "wikipedia infobox"
  },
  {
-  "company": "Realty Income",
-  "company_qid": "Q7301386",
-  "founder_qid": "Q127942",
-  "founder_name": "Jr.",
-  "wp_title": "JR",
+  "company": "Twilio",
+  "company_qid": "Q7858039",
+  "founder_qid": "Q6174326",
+  "founder_name": "Jeff Lawson",
+  "wp_title": "Jeff Lawson",
   "source": "wikipedia infobox"
  },
  {
-  "company": "Ciena",
-  "company_qid": "Q1091783",
-  "founder_qid": "Q38587651",
-  "founder_name": "David Huber",
-  "wp_title": "David Huber",
+  "company": "Take-Two Interactive",
+  "company_qid": "Q94933",
+  "founder_qid": "Q94933",
+  "founder_name": "Ryan Brant",
+  "wp_title": "Take-Two Interactive",
   "source": "wikipedia infobox"
  },
  {
-  "company": "Ciena",
-  "company_qid": "Q1091783",
-  "founder_qid": "Q85791082",
-  "founder_name": "Optelecom",
-  "wp_title": "Optelecom",
+  "company": "Arch Capital",
+  "company_qid": "Q28155430",
+  "founder_qid": "Q16463438",
+  "founder_name": "Robert Clements",
+  "wp_title": "Robert Clements",
   "source": "wikipedia infobox"
  },
  {
-  "company": "China Telecom",
-  "company_qid": "Q24834296",
-  "founder_qid": "Q1073540",
-  "founder_name": "China Telecommunications Corporation",
-  "wp_title": "China Telecommunications Corporation",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Constellation Software",
-  "company_qid": "Q48801091",
-  "founder_qid": "Q11775579",
-  "founder_name": "Mark Leonard",
-  "wp_title": "Mark Leonard",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Endesa",
-  "company_qid": "Q104874542",
-  "founder_qid": "Q651222",
-  "founder_name": "Enel Group",
-  "wp_title": "Enel",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Endesa",
-  "company_qid": "Q104874542",
-  "founder_qid": "Q651222",
-  "founder_name": "Enel Group",
-  "wp_title": "Enel",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "PICC Property and Casualty Company Limited",
-  "company_qid": "Q80556618",
-  "founder_qid": "Q1807264",
-  "founder_name": "People's Insurance Company of China",
-  "wp_title": "People's Insurance Company of China",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Maruti Suzuki India",
-  "company_qid": "Q963718",
-  "founder_qid": "Q2767140",
-  "founder_name": "Government of India",
-  "wp_title": "Government of India",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Celestica",
-  "company_qid": "Q225440",
-  "founder_qid": "Q37156",
-  "founder_name": "IBM",
-  "wp_title": "IBM",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Repsol",
-  "company_qid": "Q174747",
-  "founder_qid": "Q1031623",
-  "founder_name": "CAMPSA",
-  "wp_title": "Campsa",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Cboe Global Markets",
-  "company_qid": "Q30635731",
-  "founder_qid": "Q1071867",
-  "founder_name": "Chicago Board of Trade",
-  "wp_title": "Chicago Board of Trade",
+  "company": "Eternal (Zomato)",
+  "company_qid": "Q8073715",
+  "founder_qid": "Q8073715",
+  "founder_name": "Deepinder Goyal",
+  "wp_title": "Zomato",
   "source": "wikipedia infobox"
  },
  {
@@ -176,6 +104,14 @@
   "source": "wikipedia infobox"
  },
  {
+  "company": "Jabil",
+  "company_qid": "Q2171646",
+  "founder_qid": "Q6134707",
+  "founder_name": "James Golden",
+  "wp_title": "James Golden",
+  "source": "wikipedia infobox"
+ },
+ {
   "company": "SharkNinja",
   "company_qid": "Q97164583",
   "founder_qid": "Q50324595",
@@ -184,75 +120,27 @@
   "source": "wikipedia infobox"
  },
  {
-  "company": "Hapag-Lloyd",
-  "company_qid": "Q819094",
-  "founder_qid": "Q696056",
-  "founder_name": "Hamburg America Line",
-  "wp_title": "Hamburg America Line",
+  "company": "Ryanair",
+  "company_qid": "Q170614",
+  "founder_qid": "Q5249392",
+  "founder_name": "Declan Ryan",
+  "wp_title": "Declan Ryan",
   "source": "wikipedia infobox"
  },
  {
-  "company": "Hapag-Lloyd",
-  "company_qid": "Q819094",
-  "founder_qid": "Q652374",
-  "founder_name": "Norddeutscher Lloyd",
-  "wp_title": "Norddeutscher Lloyd",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Victory Giant Technology",
-  "company_qid": "Q138665184",
-  "founder_qid": "Q5090903",
-  "founder_name": "Chen Tao",
-  "wp_title": "Chen Tao",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "China Securities (CSC Financial)",
-  "company_qid": "Q27833474",
-  "founder_qid": "Q737443",
-  "founder_name": "CITIC Securities",
-  "wp_title": "CITIC Securities",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "China Securities (CSC Financial)",
-  "company_qid": "Q27833474",
-  "founder_qid": "Q27966789",
-  "founder_name": "China Jianyin Investment",
-  "wp_title": "China Jianyin Investment",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "China Unicom",
-  "company_qid": "Q1068485",
-  "founder_qid": "Q1981156",
-  "founder_name": "Ministry of Railways",
-  "wp_title": "Ministry of Railways",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "China Unicom",
-  "company_qid": "Q1068485",
-  "founder_qid": "Q59202957",
-  "founder_name": "Ministry of Electronics Industry",
-  "wp_title": "Ministry of the Electronics Industry",
+  "company": "Cerebras Systems",
+  "company_qid": "Q66604886",
+  "founder_qid": "Q374420",
+  "founder_name": "Michael James",
+  "wp_title": "Mike James",
   "source": "wikipedia infobox"
  },
  {
   "company": "Ramp",
   "company_qid": "Q123190361",
-  "founder_qid": "Q484876",
-  "founder_name": "Chief executive officer",
-  "wp_title": "Chief executive officer",
-  "source": "wikipedia infobox"
- },
- {
-  "company": "Ramp",
-  "company_qid": "Q123190361",
-  "founder_qid": "Q5287861",
-  "founder_name": "Chief technology officer",
-  "wp_title": "Chief technology officer",
+  "founder_qid": "Q853873",
+  "founder_name": "Gene Lee",
+  "wp_title": "Cantopop",
   "source": "wikipedia infobox"
  },
  {
@@ -261,6 +149,14 @@
   "founder_qid": "Q823117",
   "founder_name": "Lei Zhang",
   "wp_title": "Zhang Lei",
+  "source": "wikipedia infobox"
+ },
+ {
+  "company": "Crypto.com",
+  "company_qid": "Q105659003",
+  "founder_qid": "Q105659003",
+  "founder_name": "Kris Marszalek",
+  "wp_title": "Crypto.com",
   "source": "wikipedia infobox"
  },
  {

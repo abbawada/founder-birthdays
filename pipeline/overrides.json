@@ -1,0 +1,2876 @@
+{
+ "Broadcom": {
+  "exclude": "Spin-off lineage with no founding person: the infobox Founded field reads only '1961' (no parenthetical); the infobox 'Formerly' list gives HP Associates (1961-1999), Agilent Technologies (1999-2005),",
+  "note": "Exclude. The 1961 date is an HP division, not a founding by named people; the Broadcom Corporation founders (Samueli, Nicholas) founded the company that was acquired, not this legal entity.",
+  "review_source": "https://en.wikipedia.org/wiki/Broadcom",
+  "refuted_note": "The exclusion stands (article 'Broadcom', no founder field, 1961 is an HP division not a founding by named people), but the reviewer's text attributes an '(as HP Associates, a Hewlett-Packard division"
+ },
+ "Micron Technology": {
+  "founded_year": 1978,
+  "founders": [
+   "Ward Parkinson",
+   "Joe Parkinson",
+   "Dennis Wilson",
+   "Doug Pitman"
+  ],
+  "note": "Row had founders_wp empty, but the infobox 'founders' field names Ward Parkinson, Joe Parkinson, Dennis Wilson, Doug Pitman (founded October 5, 1978). None of the four is linked and none has an English Wikipedia biography: 'Ward Parkinson' and 'Doug Pitman' return 404, while the titles 'Joe Parkinso",
+  "review_source": "https://en.wikipedia.org/wiki/Micron_Technology"
+ },
+ "JPMorgan Chase": {
+  "exclude": "Merger of equals: formed December 1, 2000 by the merger of Chase Manhattan Corporation and J.P. Morgan & Co.; infobox founders field is empty; predecessors trace to 1799 (Manhattan Company), outside t",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/JPMorgan_Chase"
+ },
+ "Exxon Mobil": {
+  "exclude": "Merger of equals: formed November 30, 1999 by the merger of Exxon and Mobil; predecessors Standard Oil (1870) and Mobil. The infobox 'founders' field lists Lucio Noto and Lee Raymond, the two merging ",
+  "note": "Exclude; Lee Raymond must not be kept as a founder.",
+  "review_source": "https://en.wikipedia.org/wiki/ExxonMobil"
+ },
+ "ASML": {
+  "exclude": "Joint venture with no founding person: infobox Founded 1984 (joint venture of Philips and ASM International), independent company 1988; the infobox founder field names only 'Philips', a company, and t",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/ASML"
+ },
+ "Mastercard": {
+  "exclude": "No founding person: founded 1966 as the Interbank Card Association by a group of banks and regional bankcard associations; infobox has no founder field.",
+  "note": "Exclude. Karl H. Hinke (Marine Midland Bank) only convened the banks; the article does not call him a founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Mastercard"
+ },
+ "AbbVie": {
+  "exclude": "Spin-off: founded April 10, 2012 as a spin-off of Abbott Laboratories; infobox has no founder field.",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/AbbVie"
+ },
+ "Tencent": {
+  "article": "Tencent",
+  "founded_year": 1998,
+  "founders": [
+   "Pony Ma",
+   "Tony Zhang",
+   "Xu Chenye",
+   "Chen Yidan",
+   "Zeng Liqing"
+  ],
+  "note": "Wrong page: row pointed at 'Tencent Games' (2003). The Tencent infobox gives Founded 7 November 1998 and founders Pony Ma (link target Ma Huateng, which now redirects to the article titled 'Pony Ma'), Tony Zhang (article 'Tony Zhang', the Zhang Zhidong of the history section), Xu Chenye (unlinked, n",
+  "review_source": "https://en.wikipedia.org/wiki/Tencent"
+ },
+ "ICBC": {
+  "exclude": "State-owned enterprise: established 4 January 1984 by splitting the commercial banking business off the People's Bank of China; infobox Type 'State-owned', Owner Chinese Central Government, no founder",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Industrial_and_Commercial_Bank_of_China"
+ },
+ "Bank of America": {
+  "exclude": "Merger of equals: infobox Founded 1998 (via the merger of BankAmerica & NationsBank); founders field is empty. The Wikidata founder Amadeo Giannini founded the Bank of Italy in 1904, outside the windo",
+  "note": "Exclude; drop Amadeo Giannini.",
+  "review_source": "https://en.wikipedia.org/wiki/Bank_of_America"
+ },
+ "Palo Alto Networks": {
+  "founded_year": 2005,
+  "founders": [
+   "Nir Zuk",
+   "Rajiv Batra"
+  ],
+  "note": "Parse bug: founders_wp held the single string 'Nir Zuk|Rajiv Batra'. The infobox founders field names Nir Zuk and Rajiv Batra (founded March 1, 2005). Neither has an English Wikipedia biography: 'Nir Zuk' redirects to the Palo Alto Networks article and 'Rajiv Batra' returns 404, so no founder birthd",
+  "review_source": "https://en.wikipedia.org/wiki/Palo_Alto_Networks"
+ },
+ "Novartis": {
+  "exclude": "Merger of equals: infobox Founded 20 December 1996 (from merger) of Ciba-Geigy and Sandoz. The infobox 'founders' field (Johann Rudolf [Geigy], Alexander Clavel) names 18th/19th-century founders of pr",
+  "note": "Exclude; the row's 'Johann Rudolf|Alexander Clavel' string is also a parse artefact.",
+  "review_source": "https://en.wikipedia.org/wiki/Novartis"
+ },
+ "SAP": {
+  "founded_year": 1972,
+  "founders": [
+   "Dietmar Hopp",
+   "Hans-Werner Hector",
+   "Hasso Plattner",
+   "Klaus Tschira",
+   "Claus Wellenreuther"
+  ],
+  "note": "Row listed four founders; the infobox founders field names five, adding Hans-Werner Hector (also in Wikidata). Hector is unlinked and 'Hans-Werner Hector' returns 404, so he has no English Wikipedia biography; the other four titles exist as given.",
+  "review_source": "https://en.wikipedia.org/wiki/SAP"
+ },
+ "RTX": {
+  "exclude": "Formed 3 April 2020 as a merger of equals between United Technologies' aerospace subsidiaries and the Raytheon Company; infobox 'founders' are the 1922/1934 founders of the predecessor firms, not of t",
+  "note": "Exclude: 2020 merger of equals; no founding person for the merged company.",
+  "review_source": "https://en.wikipedia.org/wiki/RTX_Corporation"
+ },
+ "AstraZeneca": {
+  "exclude": "Formed 6 April 1999 by the merger of Astra AB (founded 1913 by 400 doctors and apothecaries) and Zeneca Group (1993 ICI demerger); infobox has no founder field.",
+  "note": "Exclude: merger of equals with pre-1960 origins and no named founder.",
+  "review_source": "https://en.wikipedia.org/wiki/AstraZeneca"
+ },
+ "Mitsubishi UFJ Financial": {
+  "exclude": "Created 1 October 2005 by the merger of Mitsubishi Tokyo Financial Group and UFJ Holdings; infobox says '(by merger)' and has no founder field.",
+  "note": "Exclude: 2005 merger of equals, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/MUFG"
+ },
+ "PetroChina": {
+  "exclude": "Listed arm of state-owned China National Petroleum Corporation (82.62% parent), established 5 November 1999 as a joint stock company in CNPC's restructuring; no founder named.",
+  "note": "Exclude: state-owned enterprise subsidiary with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/PetroChina"
+ },
+ "China Mobile": {
+  "exclude": "State-owned telecommunications company (Government of China 72.72%), born from the 1999 break-up of China Telecommunications Corporation; infobox has no founder field.",
+  "note": "Exclude: state-owned enterprise, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/China_Mobile"
+ },
+ "KLA": {
+  "exclude": "Infobox: 'Founded 1997 (merger of KLA and Tencor)'; KLA Corporation was formed as KLA-Tencor through the merger of KLA Instruments (1975, Ken Levy and Bob Anderson) and Tencor Instruments (1976, Karel",
+  "note": "Exclude: 1997 merger of equals; infobox names no founders. If the orchestrator prefers to trace to KLA Instruments (1975), note that Ken Levy has no English Wikipedia article.",
+  "review_source": "https://en.wikipedia.org/wiki/KLA_Corporation"
+ },
+ "Citigroup": {
+  "exclude": "Formed 8 October 1998 by the merger of Citicorp (holding company for Citibank, 1812 origin) and Travelers Group; infobox has no founder field; Sanford Weill and John Reed are named only as co-chairmen",
+  "note": "Exclude: merger of equals; Wikidata's Sanford I. Weill is not an infobox or lead founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Citigroup"
+ },
+ "International Holding Company": {
+  "exclude": "Founded 1998 as Asmak (fisheries); infobox has no founder field and the article names no founder; 60% owned by Royal Group of the Abu Dhabi ruling family.",
+  "note": "Exclude: no named human founder anywhere in the article.",
+  "review_source": "https://en.wikipedia.org/wiki/International_Holding_Company"
+ },
+ "Inditex": {
+  "founded_year": 1975,
+  "founders": [
+   "Amancio Ortega",
+   "Rosalía Mera"
+  ],
+  "note": "Holding-company reorganisation: the article says 'Industria de Diseño Textil S.A. or Inditex was created as a holding company for Zara and its manufacturing plants' in 1985, so trace to the origin business. The article dates the first Zara store to 1975 (incorporated the following year); Ortega's ea",
+  "review_source": "https://en.wikipedia.org/wiki/Inditex"
+ },
+ "Verizon": {
+  "exclude": "Founded 7 October 1983 as Bell Atlantic Corporation, one of the Regional Bell Operating Companies created by the AT&T breakup; renamed Verizon after the 2000 GTE merger; infobox has no founder field.",
+  "note": "Exclude: court-ordered spin-off from AT&T with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Verizon"
+ },
+ "Union Pacific Corporation": {
+  "exclude": "Established 1969 by incorporation in Utah 'as a holding company for the Union Pacific Railroad and other subsidiaries' (railroad chartered 1862); infobox has no founder field.",
+  "note": "Exclude: holding company for a pre-1960 railroad, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Union_Pacific_Corporation"
+ },
+ "Airbus": {
+  "exclude": "Originated as Airbus Industrie GIE, a 1970 consortium of European aerospace companies (state-owned Aérospatiale 37.9%, Deutsche Airbus 37.9%, British Aerospace 20%, largely state-owned CASA 4.2%); cur",
+  "note": "Exclude: government-backed consortium and merger with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Airbus"
+ },
+ "Nextera Energy": {
+  "exclude": "Electric utility holding company formed in 1984 as FPL Group for Florida Power & Light (formed 1925); infobox has no founder field.",
+  "note": "Exclude: utility holding company, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/NextEra_Energy"
+ },
+ "Novo Nordisk": {
+  "exclude": "Picked page was the Novo Nordisk Foundation; the company article 'Novo Nordisk' has infobox 'Founded 21 December 1923', no founder field, and says the corporation 'was created in 1989, through a merge",
+  "article": "Novo Nordisk",
+  "founded_year": 1923,
+  "note": "Wrong article (foundation, not company). Exclude: 1989 merger whose origins (1923) are before 1960.",
+  "review_source": "https://en.wikipedia.org/wiki/Novo_Nordisk"
+ },
+ "Prosus": {
+  "exclude": "Infobox 'Founder' is Naspers (a company); described as the 'Internet investment division of Naspers' with Naspers as parent and majority shareholder; shares listed on Euronext Amsterdam September 2019",
+  "note": "Exclude: subsidiary/spin-off of Naspers with no founding person; founders_wp 'Naspers' is not a person.",
+  "review_source": "https://en.wikipedia.org/wiki/Prosus"
+ },
+ "China Shenhua Energy": {
+  "exclude": "Subsidiary of Shenhua Group (73.06%), 'the largest state-owned coal mining enterprise in mainland China'; infobox founded 1995 with no founder field and no founder named.",
+  "note": "Exclude: state-owned enterprise subsidiary, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/China_Shenhua_Energy"
+ },
+ "Iberdrola": {
+  "exclude": "Electric utility 'created on 1 November 1992, from the merger between Hidroeléctrica Española and Iberduero'; infobox has no founder field.",
+  "note": "Exclude: utility formed by merger of equals, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Iberdrola"
+ },
+ "Recruit": {
+  "founded_year": 1960,
+  "founders": [
+   "Hiromasa Ezoe"
+  ],
+  "note": "Infobox has no founder field; the lead says the company was founded in 1960 by Hiromasa Ezoe (linked article 'Hiromasa Ezoe'). Add him as founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Recruit_(company)"
+ },
+ "Danaher": {
+  "founded_year": 1984,
+  "founders": [
+   "Steven Rales",
+   "Mitchell Rales"
+  ],
+  "note": "Infobox gives 1969 (as DMG) and 1984 (as Danaher), but DMG was a Massachusetts real-estate trust organised in 1969 by no named person; the Rales brothers invested in 1983 and the lead says 'Danaher was founded in 1984 by brothers Steven Rales and Mitchell Rales'. The founders started the business in",
+  "review_source": "https://en.wikipedia.org/wiki/Danaher_Corporation"
+ },
+ "Seagate Technology": {
+  "founded_year": 1978,
+  "founders": [
+   "Alan Shugart",
+   "Tom Mitchell",
+   "Doug Mahon",
+   "Finis Conner",
+   "Syed Iftikar"
+  ],
+  "note": "Infobox founders list five people (Alan Shugart, Tom Mitchell, Doug Mahon, Finis Conner, Syed Iftikar); the dataset has only three. Tom Mitchell and Doug Mahon are unlinked and have no English Wikipedia article ('Thomas Mitchell' is a disambiguation page); 'Syed Iftikar' redirects to SyQuest Technol",
+  "review_source": "https://en.wikipedia.org/wiki/Seagate_Technology",
+  "refuted_note": "Infobox and body disagree. Infobox 'Founded' reads 'November 1, 1979 (as Shugart Technology)', but the lead says 'It was incorporated in 1978 as Shugart Technology and commenced business in 1979', and"
+ },
+ "Intuitive Surgical": {
+  "founded_year": 1995,
+  "founders": [
+   "Frederic Moll",
+   "John Freund (business executive)",
+   "Robert Younge"
+  ],
+  "note": "Infobox has no founder field and the lead names none; the History section says that in 1995 Frederic Moll met John Freund, who optioned SRI's IP and 'incorporated a new company that he named Intuitive Surgical Devices, Inc.', and that Freund, Moll and Robert Younge wrote the business plan. Moll and ",
+  "review_source": "https://en.wikipedia.org/wiki/Intuitive_Surgical"
+ },
+ "Ping An Insurance": {
+  "founded_year": 1988,
+  "founders": [
+   "Ma Mingzhe"
+  ],
+  "note": "Infobox founder is Ma Mingzhe, linked to the article 'Ma Mingzhe'; the dataset value carries a stray '&nbsp;'. The Wikidata label Yuan Geng does not appear anywhere on the Wikipedia page, so do not use it.",
+  "review_source": "https://en.wikipedia.org/wiki/Ping_An_Insurance"
+ },
+ "Tokyo Electron": {
+  "founded_year": 1963,
+  "founders": [
+   "Tokuo Kubo",
+   "Toshio Kodaka"
+  ],
+  "note": "Infobox founder field reads 'Tokuo Kub, Toshio Kodaka, Tokyo Broadcasting System, Inc.'; the History section spells the first name Tokuo Kubo and says TBS only funded the company. Drop Tokyo Broadcasting System (a company). Neither Kubo nor Kodaka has an English Wikipedia article (both titles missin",
+  "review_source": "https://en.wikipedia.org/wiki/Tokyo_Electron"
+ },
+ "Vertex Pharmaceuticals": {
+  "founded_year": 1989,
+  "founders": [
+   "Joshua Boger",
+   "Kevin J. Kinsella"
+  ],
+  "note": "Infobox has no founder field; the History section says 'Vertex was founded in 1989 by Joshua Boger and Kevin J. Kinsella'. 'Joshua Boger' is a linked article. Kevin J. Kinsella is plain text with no article: the existing 'Kevin Kinsella' page is a reggae musician and explicitly says it is not the Av",
+  "review_source": "https://en.wikipedia.org/wiki/Vertex_Pharmaceuticals"
+ },
+ "Fortinet": {
+  "founded_year": 2000,
+  "founders": [
+   "Ken Xie",
+   "Michael Xie"
+  ],
+  "note": "Infobox founders are Ken Xie and Michael Xie ('Founded in 2000 by brothers Ken Xie and Michael Xie'); the dataset has only Ken Xie. 'Michael Xie' has no English Wikipedia article (title missing; search finds only mentions in Fortinet and Ken Xie), so the name is given as written.",
+  "review_source": "https://en.wikipedia.org/wiki/Fortinet"
+ },
+ "DBS Group": {
+  "exclude": "Incorporated on 16 July 1968 by the Government of Singapore; no founder field and no named human founder.",
+  "note": "Exclude: state-founded development bank.",
+  "review_source": "https://en.wikipedia.org/wiki/DBS_Bank"
+ },
+ "ABB": {
+  "exclude": "Formed in 1988 by the merger of ASEA (Sweden) and Brown, Boveri & Cie (Switzerland), both 19th-century firms; no founder field.",
+  "note": "Exclude: merger of equals.",
+  "review_source": "https://en.wikipedia.org/wiki/ABB"
+ },
+ "Sumitomo Mitsui Financial Group": {
+  "exclude": "Formed 1 April 2001 by the merger of The Sumitomo Bank and The Sakura Bank (zaibatsu-era banks); no founder field.",
+  "article": "SMBC Group",
+  "note": "Exclude: merger of equals. Also the picked article 'Sumitomo Mitsui Banking Corporation' is the bank subsidiary; the group's own page is 'Sumitomo Mitsui Financial Group'.",
+  "review_source": "https://en.wikipedia.org/wiki/Sumitomo_Mitsui_Banking_Corporation",
+  "refuted_note": "The reviewer's exclusion stands (merger-derived holding company, no founder field), but the article pick and date are off. 'Sumitomo Mitsui Financial Group' is a redirect; the group's page is titled '"
+ },
+ "Accenture": {
+  "exclude": "Began as Arthur Andersen's consulting division (1950s); became a separate unit, Andersen Consulting, in 1989 and split off in 2000; no founder field and no named founding person.",
+  "note": "Exclude: spin-off of a division with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Accenture"
+ },
+ "KIOXIA Holdings Corporation": {
+  "exclude": "Toshiba separated its memory business into Toshiba Memory Corporation on 1 April 2017; a Bain-led consortium bought it in 2018 and the holding company was set up on 1 March 2019; no founder field or f",
+  "note": "Exclude: corporate spin-off from Toshiba.",
+  "review_source": "https://en.wikipedia.org/wiki/Kioxia"
+ },
+ "Lockheed Martin": {
+  "exclude": "Formed on 15 March 1995 by the merger of Lockheed Corporation and Martin Marietta; no founder field.",
+  "note": "Exclude: merger of equals.",
+  "review_source": "https://en.wikipedia.org/wiki/Lockheed_Martin"
+ },
+ "CNOOC": {
+  "exclude": "Incorporated in Hong Kong in August 1999 as the listing vehicle of China National Offshore Oil Corporation, a state-owned enterprise; no founder field.",
+  "note": "Exclude: state-owned enterprise subsidiary.",
+  "review_source": "https://en.wikipedia.org/wiki/CNOOC_Limited"
+ },
+ "UBS": {
+  "exclude": "Formed on 29 June 1998 by the merger of Union Bank of Switzerland and Swiss Bank Corporation (roots 1862); no founder field.",
+  "note": "Exclude: merger of equals.",
+  "review_source": "https://en.wikipedia.org/wiki/UBS"
+ },
+ "AT&T": {
+  "exclude": "Southwestern Bell Corporation was one of the companies created by the court-ordered 1984 breakup of AT&T Corp.; infobox lists Zane Edison Barnes and Edward Whitacre, who were its first executives, not",
+  "note": "Exclude: Bell System divestiture spin-off with no founding person (Whitacre was CEO, per the task rules). The Wikidata label Alexander Graham Bell refers to the 1885 AT&T Corporation, outside the window.",
+  "review_source": "https://en.wikipedia.org/wiki/AT&T"
+ },
+ "Deutsche Telekom": {
+  "exclude": "Formed on 1 January 1995 when the state monopoly Deutsche Bundespost was restructured, privatised 1996; the Federal Republic still holds 31.9%; no founder field.",
+  "note": "Exclude: privatised state utility.",
+  "review_source": "https://en.wikipedia.org/wiki/Deutsche_Telekom"
+ },
+ "Chubb": {
+  "exclude": "ACE Limited was established in Hamilton, Bermuda in 1985 by a group of companies with the help of broker Marsh & McLennan; it took the Chubb name in January 2016 after buying Chubb Corp. Infobox found",
+  "note": "Exclude: no founding person for the 1985 entity; the named founder belongs to an 1882 predecessor (per the task rules).",
+  "review_source": "https://en.wikipedia.org/wiki/Chubb_Limited"
+ },
+ "Foxconn Industrial Internet": {
+  "exclude": "Set up on 6 March 2015 in Shenzhen as a wholly owned subsidiary and investment platform of Foxconn; no founder field or founding person.",
+  "note": "Exclude: subsidiary with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Foxconn_Industrial_Internet"
+ },
+ "Siemens Energy": {
+  "exclude": "Formed on 1 April 2020 by the spin-off of Siemens' Gas and Power division; no founder field.",
+  "note": "Exclude: corporate spin-off.",
+  "review_source": "https://en.wikipedia.org/wiki/Siemens_Energy"
+ },
+ "Marathon Petroleum": {
+  "exclude": "Created on 9 November 2009 as a wholly owned subsidiary of Marathon Oil and spun off on 30 June 2011; origins trace to The Ohio Oil Company of 1887; no founder field.",
+  "note": "Exclude: spin-off with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Marathon_Petroleum"
+ },
+ "Safran": {
+  "exclude": "Founded on 11 May 2005 through the merger of Snecma and Sagem; no founder field.",
+  "note": "Exclude: merger of equals.",
+  "review_source": "https://en.wikipedia.org/wiki/Safran"
+ },
+ "UniCredit": {
+  "exclude": "Formed in 1998 through the merger of Credito Italiano and Unicredito; no founder field.",
+  "note": "Exclude: merger of equals.",
+  "review_source": "https://en.wikipedia.org/wiki/UniCredit"
+ },
+ "Altria Group": {
+  "exclude": "Holding-company reorganisation with no founder: 1985 Philip Morris Companies Inc. (renamed Altria 2003); the origin is Philip Morris & Co. (New York 1902, after the London tobacconist Philip Morris, 1",
+  "note": "Infobox founder field is empty; Formerly = Philip Morris Companies, Inc. (1985-2003). Tracing back to the origin puts the founding before 1960, so the row leaves the dataset.",
+  "review_source": "https://en.wikipedia.org/wiki/Altria"
+ },
+ "Prologis": {
+  "founded_year": 1983,
+  "founders": [
+   "Hamid Moghadam",
+   "Doug Abbey",
+   "T. Robert Burke"
+  ],
+  "note": "Infobox founders field names three people (AMB Property Corporation, 1983); the row had only Hamid Moghadam. Doug Abbey and T. Robert Burke have no English Wikipedia article (unlinked in the infobox). Current Prologis came from the 2011 AMB/ProLogis merger with AMB as the surviving entity; the infob",
+  "review_source": "https://en.wikipedia.org/wiki/Prologis"
+ },
+ "Snowflake": {
+  "founded_year": 2012,
+  "founders": [
+   "Benoît Dageville",
+   "Thierry Cruanes",
+   "Marcin Żukowski"
+  ],
+  "note": "Infobox founders field names all three (unlinked); the row had none from Wikipedia. None of the three has an English Wikipedia article. Founded 23 July 2012 stands.",
+  "review_source": "https://en.wikipedia.org/wiki/Snowflake_Inc."
+ },
+ "Keyence": {
+  "founded_year": 1974,
+  "founders": [
+   "Takemitsu Takizaki"
+  ],
+  "note": "The infobox has no founder field, but its Key people field lists Takemitsu Takizaki as 'Founder & Honorary Chairman' with a link to his article, whose lead says he is 'honorary chairman and founder of Keyence'. Row had no founder. Founded 27 May 1974 stands. If you apply the key-people rule strictly",
+  "review_source": "https://en.wikipedia.org/wiki/Keyence"
+ },
+ "CVS Health": {
+  "founded_year": 1963,
+  "founders": [
+   "Stanley P. Goldstein",
+   "Sidney Goldstein",
+   "Ralph P. Hoagland III"
+  ],
+  "note": "Infobox founders field names three people; the row dropped Sidney Goldstein (unlinked). The CVS co-founder has no English Wikipedia article: the existing 'Sidney Goldstein' page is a Brown University demographer, so do not link that title. 1963 Lowell stands.",
+  "review_source": "https://en.wikipedia.org/wiki/CVS_Health"
+ },
+ "Booking Holdings (Booking.com)": {
+  "article": "Booking Holdings",
+  "founded_year": 1996,
+  "founders": [
+   "Jay S. Walker"
+  ],
+  "note": "Wrong page: the row used the Booking.com subsidiary article (no founder). The Booking Holdings infobox gives Founder = Jay S. Walker (article title 'Jay S. Walker', not 'Jay Walker (entrepreneur)'), Formerly = Priceline.com Incorporated (1998-2014). Year: the Booking Holdings infobox says 1996 ('In ",
+  "review_source": "https://en.wikipedia.org/wiki/Booking_Holdings",
+  "refuted_note": "The picked article is Booking Holdings, and there the infobox ('1996 ... in Stamford, Connecticut, U.S.') and the History section ('In 1996, Jay S. Walker founded Priceline.com Incorporated in Stamfor"
+ },
+ "Cloudflare": {
+  "founded_year": 2009,
+  "founders": [
+   "Matthew Prince",
+   "Lee Holloway",
+   "Michelle Zatlyn"
+  ],
+  "note": "Infobox founders field and lead name three founders; the row dropped Lee Holloway (unlinked). The Cloudflare co-founder has no English Wikipedia article: the existing 'Lee Holloway' page is a Milwaukee County politician (1946-2018), so do not link that title. Wikidata Q51666063 is the right person. ",
+  "review_source": "https://en.wikipedia.org/wiki/Cloudflare"
+ },
+ "Canadian Natural Resources": {
+  "exclude": "No named founder: infobox has no founder field and the lead names none; founded 7 November 1973 as AEX Minerals Corporation, a shell renamed in 1975. Murray Edwards and Allan Markin appear only as lat",
+  "note": "Row already had no founders; excluded under the named-human-founders rule.",
+  "review_source": "https://en.wikipedia.org/wiki/Canadian_Natural_Resources"
+ },
+ "Intesa Sanpaolo": {
+  "exclude": "Merger of equals: formed January 2007 from Banca Intesa and Sanpaolo IMI; no founder in infobox or lead.",
+  "note": "Infobox founded field itself says '(merger)'.",
+  "review_source": "https://en.wikipedia.org/wiki/Intesa_Sanpaolo"
+ },
+ "Equinor": {
+  "exclude": "State-owned enterprise: Statoil was created by the Norwegian state in 1972 and the Government of Norway still holds 67%; no founder in infobox or lead.",
+  "note": "Current company formed by the 2007 Statoil/Norsk Hydro oil-and-gas merger.",
+  "review_source": "https://en.wikipedia.org/wiki/Equinor"
+ },
+ "Zijin Mining": {
+  "exclude": "Partly state-owned enterprise with no named founder: founded 1986 as Shanghang Mineral Company; infobox has no founder field, the lead names none, and Chen Jinghe appears only as chairman.",
+  "note": "Largest shareholder is a Shanghang state-owned investment company (24%).",
+  "review_source": "https://en.wikipedia.org/wiki/Zijin_Mining"
+ },
+ "HDFC Bank": {
+  "founded_year": 1995,
+  "founders": [
+   "Deepak Parekh"
+  ],
+  "note": "Infobox founder field reads 'HDFC Ltd (under the leadership of Deepak Parekh)'. Dropped Housing Development Finance Corporation (a company); kept Deepak Parekh, the only person the founder field names. Borderline: HDFC Bank was set up as a subsidiary of HDFC Ltd, so exclude it if you read the subsid",
+  "review_source": "https://en.wikipedia.org/wiki/HDFC_Bank",
+  "exclude": "Exclude: subsidiary set up by a parent company, with no human founder named. Infobox founder field is \"HDFC Ltd (under the leadership of Deepak Parekh)\" and History says the bank \"was incorporated in ",
+  "refuted_note": "The only founder the infobox names is a company; Deepak Parekh is named as the parent's leader, not as founder. His own article never calls him a founder of HDFC Bank (lead: \"the former chairman of Ho"
+ },
+ "China Yangtze Power": {
+  "exclude": "State-owned enterprise: controlled by China Three Gorges Corporation (SASAC) and formed in 2002 by a group of state enterprises; infobox founder field is empty and the lead names no person.",
+  "note": "",
+  "review_source": "https://en.wikipedia.org/wiki/China_Yangtze_Power"
+ },
+ "Enel": {
+  "exclude": "State-owned, later privatised utility: infobox founder = 'Italian government'; established as a public body in 1962, limited company 1992, privatised 1999.",
+  "note": "Row's only founder was a government, which the rules drop.",
+  "review_source": "https://en.wikipedia.org/wiki/Enel"
+ },
+ "Postal Savings Bank of China": {
+  "exclude": "State-owned enterprise: formed 6 March 2007 out of China Post's savings business; no founder in infobox or lead.",
+  "note": "",
+  "review_source": "https://en.wikipedia.org/wiki/Postal_Savings_Bank_of_China"
+ },
+ "Marriott International": {
+  "exclude": "1993 is a spin-off from Marriott Corporation; the origin the infobox itself gives is J. Willard Marriott and Alice Marriott's 1927 business (Hot Shoppes), before 1960.",
+  "note": "Infobox: founders 'John Willard Marriott and Alice Marriott (1927)', founded 1993, predecessor Marriott Corporation. If you keep it anyway, the exact article titles are 'J. Willard Marriott' (the row's 'John Willard Marriott' is a redirect) and 'Alice Marriott', with founded_year 1927.",
+  "review_source": "https://en.wikipedia.org/wiki/Marriott_International"
+ },
+ "Zhongji Innolight": {
+  "exclude": "No named founder: infobox founder field is empty and the lead names none; founded May 1987 as Shandong Zhongji Electrical Equipment (InnoLight itself founded April 2008). Wang Weixiu and Liu Sheng app",
+  "note": "",
+  "review_source": "https://en.wikipedia.org/wiki/Zhongji_Innolight"
+ },
+ "Sinopec": {
+  "exclude": "State-owned enterprise: administered by SASAC for the State Council; formed 25 February 2000; no founder in infobox or lead.",
+  "note": "",
+  "review_source": "https://en.wikipedia.org/wiki/Sinopec"
+ },
+ "Sanofi": {
+  "exclude": "Subsidiary with no founding person: founded 15 February 1973 as a subsidiary of (state-controlled) Elf Aquitaine, then built by mergers (Synthélabo 1999, Aventis 2004); infobox has no founder field an",
+  "note": "Jean-François Dehecq is described only as general manager from 1973; 'Jean-François Dehecq' redirects to the Sanofi article, so there is no founder article either way.",
+  "review_source": "https://en.wikipedia.org/wiki/Sanofi"
+ },
+ "Tokio Marine": {
+  "exclude": "Holding-company reorganisation with no founder: Millea Holdings formed 2 April 2002 as parent of Tokio Marine Insurance (renamed 2008); the origin, Tokio Marine Insurance, dates to 1879, before 1960, ",
+  "note": "",
+  "review_source": "https://en.wikipedia.org/wiki/Tokio_Marine"
+ },
+ "BNY Mellon (Bank of New York Mellon)": {
+  "exclude": "Merger of equals: formed 1 July 2007 from Bank of New York (founded 1784) and Mellon Financial (founded 1870); infobox founders field is empty.",
+  "note": "Both predecessors also predate 1960.",
+  "review_source": "https://en.wikipedia.org/wiki/BNY"
+ },
+ "Datadog": {
+  "founded_year": 2010,
+  "founders": [
+   "Olivier Pomel",
+   "Alexis Lê-Quôc"
+  ],
+  "note": "The row stored both founders as one pipe-joined string 'Olivier Pomel|Alexis Lê-Quôc'; split into two names as the infobox lists them. Neither has an English Wikipedia article (unlinked in the infobox). 2010 New York stands.",
+  "review_source": "https://en.wikipedia.org/wiki/Datadog"
+ },
+ "Equinix": {
+  "founded_year": 1998,
+  "founders": [
+   "Jay Adelson",
+   "Al Avery"
+  ],
+  "note": "Infobox founders field names Jay Adelson and Al Avery; the row dropped Al Avery (unlinked). He has no English Wikipedia article: the title 'Al Avery' redirects to the author Rutherford George Montgomery, so do not link it. 1998 stands.",
+  "review_source": "https://en.wikipedia.org/wiki/Equinix"
+ },
+ "GSK plc": {
+  "exclude": "Merger of equals: formed 27 Dec 2000 by the merger of Glaxo Wellcome and SmithKline Beecham; infobox has no founder and the lead names none.",
+  "note": "Infobox lists only predecessors (Glaxo Wellcome, SmithKline Beecham); no human founder anywhere in infobox or lead.",
+  "review_source": "https://en.wikipedia.org/wiki/GSK_plc"
+ },
+ "CSX Corporation": {
+  "exclude": "Merger of equals: established 1 Nov 1980 as the holding company for the Chessie System and Seaboard Coast Line Industries merger; no founder named.",
+  "note": "Infobox has only predecessors; lead says 'established in 1980 as part of the Chessie System and Seaboard Coast Line Industries merger'.",
+  "review_source": "https://en.wikipedia.org/wiki/CSX_Corporation"
+ },
+ "Tata Consultancy Services": {
+  "founded_year": 1968,
+  "founders": [
+   "JRD Tata"
+  ],
+  "note": "Infobox founder is [[J. R. D. Tata]], which redirects; the exact article title is 'JRD Tata'. Year 1968 confirmed. Wikidata's F. C. Kohli (first CEO) is not in the infobox founder field, so not added.",
+  "review_source": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services"
+ },
+ "Vertiv Holdings": {
+  "exclude": "Origin outside the window and no founding person for the 2016 entity: the business began as Capitol Refrigeration Industries in 1946 (Ralph Liebert), became Liebert Corp, was bought by Emerson in 1987",
+  "note": "Infobox founded 2016 is the carve-out date; tracing to the origin gives 1946, before 1960. Ralph Liebert has no English Wikipedia article.",
+  "review_source": "https://en.wikipedia.org/wiki/Vertiv"
+ },
+ "ING": {
+  "exclude": "Merger of equals: ING Group formed 4 March 1991 by the merger of Nationale-Nederlanden and NMB Postbank Groep; infobox lists only predecessors, no founder.",
+  "note": "Article 'ING Group' is the right page; the lead and infobox name no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/ING_Group"
+ },
+ "EssilorLuxottica": {
+  "exclude": "Merger of equals: created 1 Oct 2018 by the combination of Essilor (France) and Luxottica (Italy); infobox has only predecessors, no founder.",
+  "note": "Luxottica's founder Leonardo Del Vecchio is not named as founder of EssilorLuxottica in the infobox or lead.",
+  "review_source": "https://en.wikipedia.org/wiki/EssilorLuxottica"
+ },
+ "Constellation Energy": {
+  "exclude": "Spin-off: the current company was created in 2022 by separation from Exelon (the 1999 date is the former Constellation Energy Group holding company, itself merged into Exelon in 2012); no founder name",
+  "note": "Infobox founded field itself reads '1999 (spun off from Exelon in 2022)'; no founder in infobox or lead.",
+  "review_source": "https://en.wikipedia.org/wiki/Constellation_Energy"
+ },
+ "Suncor Energy": {
+  "exclude": "Subsidiary with no founding person: created 22 Aug 1979 when Sun Oil merged its Canadian units (Sun Oil Company of Canada and Great Canadian Oil Sands); no founder in infobox or lead.",
+  "note": "Infobox lists predecessors only.",
+  "review_source": "https://en.wikipedia.org/wiki/Suncor_Energy"
+ },
+ "National Australia Bank": {
+  "exclude": "Merger of equals: formed 1 Oct 1981 as National Commercial Banking Corporation of Australia from the merger of National Bank of Australasia and the Commercial Banking Company of Sydney; no founder nam",
+  "note": "Infobox and lead name no founding person; the lead speaks only of 'the merged entity'.",
+  "review_source": "https://en.wikipedia.org/wiki/National_Australia_Bank"
+ },
+ "NTT (Nippon Telegraph & Telephone)": {
+  "exclude": "Privatised state enterprise: established 1 April 1985 from the Nippon Telegraph and Telephone Public Corporation; infobox founder is 'Government of Japan', not a person.",
+  "note": "Drop the non-person founder 'Government of Japan'.",
+  "review_source": "https://en.wikipedia.org/wiki/Nippon_Telegraph_and_Telephone"
+ },
+ "CaixaBank": {
+  "exclude": "Reorganisation with no founding person: created 2011 when La Caixa transferred its banking business into Criteria CaixaCorp (renamed CaixaBank); infobox and lead name no founder.",
+  "note": "Infobox type is Sociedad Anónima; no founder field.",
+  "review_source": "https://en.wikipedia.org/wiki/CaixaBank"
+ },
+ "Brookfield Corporation": {
+  "exclude": "Merger with origin outside the window: the current company is the 1997 merger of Edper and Brascan, and Brascan traces to Brazilian Traction, Light and Power (1899, Frederick Stark Pearson and William",
+  "note": "Wikidata-only founders Pearson and Mackenzie founded the 1899 predecessor, not a 1960-2023 business.",
+  "review_source": "https://en.wikipedia.org/wiki/Brookfield_Corporation"
+ },
+ "EOG Resources": {
+  "exclude": "Spin-off: 1999 is the year Enron Oil & Gas Company separated from Enron and was renamed EOG Resources; the business existed as Enron's oil-and-gas subsidiary before that. Mark G. Papa was named chairm",
+  "note": "Conflict to be aware of: the infobox 'Founder' field does name Mark G. Papa. Judged a CEO-of-a-spin-off case under the rules (CEO who did not found the company is not a founder). If the orchestrator prefers to follow the infobox literally, keep Mark G. Papa with 1999.",
+  "review_source": "https://en.wikipedia.org/wiki/EOG_Resources"
+ },
+ "American Tower": {
+  "exclude": "Subsidiary/spin-off with no founder in the article: formed 1995 as a unit of American Radio Systems and spun off in 1998 when ARS merged with CBS; infobox has no founder field and the lead names Steve",
+  "note": "Steven B. Dodge's own article calls him founder of American Tower, but the American Tower infobox and lead do not, so under the rules he is not attributable here.",
+  "review_source": "https://en.wikipedia.org/wiki/American_Tower"
+ },
+ "Delta Electronics (Thailand)": {
+  "exclude": "Subsidiary with no founding person: the listed company is Delta Electronics (Thailand) PCL, a Thai subsidiary of Delta Electronics, Inc. (Taiwan), which has no English Wikipedia article; the picked ar",
+  "note": "If the dataset instead means the Taiwanese parent, the founder still cannot be given as an article title ('Bruce Cheng' and 'Bruce C. H. Cheng' do not exist on enwiki).",
+  "review_source": "https://en.wikipedia.org/wiki/Delta_Electronics"
+ },
+ "Japan Tobacco": {
+  "exclude": "Privatised state monopoly: established 1 April 1985 as the successor to the Japan Tobacco and Salt Public Corporation; infobox founded field reads '(privatized)' and names no founder.",
+  "note": "No human founder in infobox or lead.",
+  "review_source": "https://en.wikipedia.org/wiki/Japan_Tobacco"
+ },
+ "Lumentum": {
+  "exclude": "Spin-off: founded 1 Aug 2015 as a spin-off from JDSU (which became Viavi Solutions); infobox founder field is empty and the lead names none.",
+  "note": "Infobox predecessor is JDSU.",
+  "review_source": "https://en.wikipedia.org/wiki/Lumentum"
+ },
+ "National Grid": {
+  "exclude": "Privatised utility: formed 1990 as the successor to the state-owned Central Electricity Generating Board; infobox names no founder.",
+  "note": "Infobox: predecessor Central Electricity Generating Board, founded 1990, no founder field; the lead describes a privatised transmission utility.",
+  "review_source": "https://en.wikipedia.org/wiki/National_Grid_plc"
+ },
+ "Robinhood": {
+  "founded_year": 2013,
+  "founders": [
+   "Vlad Tenev",
+   "Baiju Bhatt"
+  ],
+  "note": "Infobox links 'Vladimir Tenev', which is a redirect; the exact article title is 'Vlad Tenev'. Baiju Bhatt and the 18 April 2013 founding stand.",
+  "review_source": "https://en.wikipedia.org/wiki/Robinhood_Markets"
+ },
+ "Enterprise Products": {
+  "founded_year": 1968,
+  "founders": [
+   "Dan Duncan"
+  ],
+  "note": "The company infobox founder field is blank and its lead calls Dan Duncan only 'majority owner', but the Dan Duncan article's infobox ('co-founder, chairman and majority shareholder of Enterprise Products') and lead name him co-founder of the 1968 company. Added from that article (also Wikidata's ans",
+  "review_source": "https://en.wikipedia.org/wiki/Dan_Duncan"
+ },
+ "Itaú Unibanco": {
+  "exclude": "Merger of equals: formed 4 Nov 2008 by merging Banco Itaú and Unibanco; no founder named, and both predecessors predate 1960.",
+  "note": "Infobox: predecessor Banco Itaú and Unibanco, founded 2008, no founder; lead: 'formed through the merger of Banco Itaú and Unibanco in 2008'.",
+  "review_source": "https://en.wikipedia.org/wiki/Ita%C3%BA_Unibanco"
+ },
+ "TAQA": {
+  "exclude": "State-owned enterprise: Abu Dhabi National Energy Company, owned by the Government of Abu Dhabi; infobox type 'State-owned', no founder.",
+  "note": "Lead: 'a government controlled energy holding company of Abu Dhabi'.",
+  "review_source": "https://en.wikipedia.org/wiki/TAQA"
+ },
+ "BAE Systems": {
+  "exclude": "Merger: formed 30 Nov 1999 by the merger of British Aerospace (itself a 1977 nationalisation) and Marconi Electronic Systems; no founding person.",
+  "note": "Infobox: predecessors British Aerospace and Marconi Electronic Systems, no founder field.",
+  "review_source": "https://en.wikipedia.org/wiki/BAE_Systems"
+ },
+ "Hewlett Packard Enterprise": {
+  "exclude": "Spin-off: created 1 Nov 2015 by splitting Hewlett-Packard; no founding person (HP's 1939 founders are outside the window and HP Inc. kept the original company's history).",
+  "note": "Lead: 'founded on November 1, 2015 ... as part of the splitting of the Hewlett-Packard company'; infobox predecessor Hewlett-Packard, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Hewlett_Packard_Enterprise"
+ },
+ "Lloyds Banking Group": {
+  "exclude": "Bank merger: formed 16 Jan 2009 when Lloyds TSB acquired HBOS; origins are Lloyds Bank (1765) and Bank of Scotland (1695); no founder.",
+  "note": "Infobox lists predecessor lines only, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Lloyds_Banking_Group"
+ },
+ "Northrop Grumman": {
+  "exclude": "Merger of equals: formed 1994 by merging Northrop Corporation and Grumman; no founding person.",
+  "note": "Infobox: predecessors Northrop Corporation and Grumman Corporation, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Northrop_Grumman"
+ },
+ "Sberbank": {
+  "exclude": "State-owned enterprise: majority owned by the Russian government (National Wealth Fund, 50%+1 share), successor to the USSR State Labor Savings Banks; the 1991 date is a re-registration, no founder.",
+  "note": "Infobox owner: Government of Russia; lead: 'majority state-owned ... successor entity of the State Labor Savings Banks System of the USSR'.",
+  "review_source": "https://en.wikipedia.org/wiki/Sberbank"
+ },
+ "Infineon": {
+  "exclude": "Spin-off: carved out of Siemens on 1 April 1999; no founding person.",
+  "note": "Lead: 'spun-off from Siemens ... in April 1999'; infobox has no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Infineon_Technologies"
+ },
+ "The Cigna Group": {
+  "exclude": "Merger of equals: formed 1982 by merging Connecticut General Life Insurance and INA Corporation (1792); no founder.",
+  "note": "Infobox founded: '1982 (merger of CG and INA)'.",
+  "review_source": "https://en.wikipedia.org/wiki/The_Cigna_Group"
+ },
+ "CITIC Bank": {
+  "exclude": "State-owned subsidiary: established April 1987 under state-owned CITIC Group (parent CITIC Limited); infobox names no founder.",
+  "note": "Lead: 'a major commercial bank in China, under CITIC Group. Established in 1987'.",
+  "review_source": "https://en.wikipedia.org/wiki/China_CITIC_Bank"
+ },
+ "Brookfield Asset Management": {
+  "exclude": "Spin-off: created 12 Dec 2022 from Brookfield Corporation's asset-management arm and 73% owned by it; no founder.",
+  "note": "Lead: 'founded in December 2022 as a spin-off of the asset management operations of Brookfield Corporation'.",
+  "review_source": "https://en.wikipedia.org/wiki/Brookfield_Asset_Management"
+ },
+ "WuXi AppTec": {
+  "founded_year": 2000,
+  "founders": [
+   "Ge Li"
+  ],
+  "note": "Infobox has no founder field; the lead says 'Founded in 2000 by chemist Ge Li as WuXi PharmaTech'. 'Ge Li' is the linked article title (also in key_people).",
+  "review_source": "https://en.wikipedia.org/wiki/WuXi_AppTec"
+ },
+ "DHL Group (Deutsche Post)": {
+  "exclude": "Privatised state enterprise: Deutsche Bundespost Postdienst became Deutsche Post AG on 2 Jan 1995; the DHL Group infobox names no founder (the 1969 DHL founders started a separate company that Deutsch",
+  "article": "DHL Group",
+  "note": "Wrong page: 'Deutsche Post' is now the Post & Parcel Germany division page (infobox type 'Division', parent DHL Group); the listed company is 'DHL Group' (DHL AG). Excluded either way.",
+  "review_source": "https://en.wikipedia.org/wiki/DHL_Group"
+ },
+ "Republic Services": {
+  "exclude": "No founder: infobox founder field is blank and the History section says 'The company's founding date is unknown'; Wayne Huizenga bought it in 1995 (a buyer, not a founder) and Republic Industries spun",
+  "note": "The 1981 infobox year has no founding person attached anywhere in the article.",
+  "review_source": "https://en.wikipedia.org/wiki/Republic_Services"
+ },
+ "America Movil": {
+  "exclude": "Spin-off: created 25 Sept 2000 when Telmex spun off its wireless business; infobox and lead name no founder (Carlos Slim appears only as Chairman Emeritus in key_people and in Wikidata).",
+  "note": "History: 'América Móvil was created when Telmex spun off its wireless mobile activities'; article is in Category:Corporate spin-offs.",
+  "review_source": "https://en.wikipedia.org/wiki/Am%C3%A9rica_M%C3%B3vil"
+ },
+ "Japan Post Bank": {
+  "exclude": "State-owned enterprise: a 2006 reorganisation of the government postal savings system (1875), held by Japan Post Holdings in which the Japanese government has a majority stake; no founder.",
+  "note": "Infobox type 'Public (subsidiary)', parent Japan Post Holdings (61.50%); lead: 'fully government owned' through most of its history.",
+  "review_source": "https://en.wikipedia.org/wiki/Japan_Post_Bank"
+ },
+ "NatWest Group": {
+  "exclude": "Merger: formed 25 March 1968 as National and Commercial Banking Group by merging National Commercial Bank of Scotland and the Royal Bank of Scotland (1727); no founder.",
+  "note": "Infobox former names National and Commercial Banking Group / Royal Bank of Scotland Group; no founder field.",
+  "review_source": "https://en.wikipedia.org/wiki/NatWest_Group"
+ },
+ "Digital Realty": {
+  "exclude": "No human founder: formed 2004 by private-equity firm GI Partners, which contributed 21 data centres and took it public; infobox and lead name no person.",
+  "note": "Lead: 'It was formed in 2004 by GI Partners'.",
+  "review_source": "https://en.wikipedia.org/wiki/Digital_Realty"
+ },
+ "ENGIE": {
+  "exclude": "Merger: formed 22 July 2008 by merging state-owned Gaz de France with Suez; the French state still holds 23.64%; no founder.",
+  "note": "Infobox predecessor Gaz de France and Suez; lead: 'formed on 22 July 2008, by the merger of Gaz de France and Suez'.",
+  "review_source": "https://en.wikipedia.org/wiki/Engie"
+ },
+ "Bloom Energy": {
+  "article": "Bloom Energy",
+  "founded_year": 2001,
+  "founders": [
+   "K. R. Sridhar",
+   "John Finn",
+   "Matthias Gottmann",
+   "James McElroy",
+   "Dien Nguyen"
+  ],
+  "note": "Founder title fix only: the English Wikipedia article is 'K. R. Sridhar' (with a space), not 'K.R. Sridhar'. The other four infobox founders have no Wikipedia articles, so their names stay as the infobox writes them. Year 2001 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Bloom_Energy"
+ },
+ "RELX": {
+  "exclude": "Merger of equals: RELX came into being in August 1993 as Reed Elsevier through the merger of Reed International (UK) and Elsevier (NL); infobox says 'by merger', no founder.",
+  "article": "RELX",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/RELX"
+ },
+ "Bank of China (Hong Kong)": {
+  "exclude": "Wrong article in the row (Hong Kong Disneyland Resort). The right article, Bank of China (Hong Kong), describes a state-owned Bank of China subsidiary established 1 October 2001 by merging 12 BOC subs",
+  "article": "Bank of China (Hong Kong)",
+  "note": "Fix the article title and exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Bank_of_China_(Hong_Kong)"
+ },
+ "Targa Resources": {
+  "exclude": "No named human founder: the infobox has no founder field and neither the lead nor the History section names a person or firm behind the 27 October 2005 formation.",
+  "article": "Targa Resources",
+  "note": "Exclude for lack of a named founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Targa_Resources"
+ },
+ "Carvana": {
+  "article": "Carvana",
+  "founded_year": 2012,
+  "founders": [
+   "Ernest Garcia III",
+   "Ryan Keeton",
+   "Ben Huston"
+  ],
+  "note": "Infobox founders field lists three people: Ernest Garcia III, Ryan Keeton, Ben Huston. The row has only Garcia. Keeton and Huston have no Wikipedia articles (names as in the infobox). Year 2012 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Carvana"
+ },
+ "TE Connectivity": {
+  "exclude": "Spin-off: formed in July 2007 when Tyco International separated into three companies (Tyco Electronics, later TE Connectivity); no founder named; predecessor AMP Incorporated dates to 1941.",
+  "article": "TE Connectivity",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/TE_Connectivity"
+ },
+ "TransDigm Group": {
+  "article": "TransDigm Group",
+  "founded_year": 1993,
+  "founders": [
+   "W. Nicholas Howley",
+   "Douglas W. Peacock"
+  ],
+  "note": "Parsing fix: the row holds 'W. Nicholas Howley|Douglas W. Peacock' as one string; the infobox lists two founders. Neither has an English Wikipedia article (both missing in the API), so names stay as written. Year 1993 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/TransDigm_Group"
+ },
+ "NXP Semiconductors": {
+  "exclude": "Spin-off: Philips Semiconductors was spun off from Philips in 2006 to a private-equity consortium; infobox says 'as a spin-off of Philips', no founder.",
+  "article": "NXP Semiconductors",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/NXP_Semiconductors"
+ },
+ "Deutsche Börse": {
+  "exclude": "Exchange operator with no founding person: 'Founded in 1992, it is a joint stock company headquartered in Frankfurt'; infobox has no founder and the article names none.",
+  "article": "Deutsche Börse",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Deutsche_B%C3%B6rse"
+ },
+ "LG Energy Solution": {
+  "exclude": "Spin-off and subsidiary: LG Chem spun off its battery business on 1 December 2020; infobox type 'Public subsidiary', parent LG Chem (81%), founder field empty.",
+  "article": "LG Energy Solution",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/LG_Energy_Solution"
+ },
+ "Cencora": {
+  "exclude": "Merger of equals: formed 28 August 2001 by the merger of AmeriSource Health and Bergen Brunswig (as AmerisourceBergen); no founder.",
+  "article": "Cencora",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Cencora"
+ },
+ "Industrial Bank": {
+  "exclude": "State-created bank: established 26 August 1988 on approval of the State Council and the People's Bank of China; largest shareholder the Financial Bureau of Fujian Province; no founder named.",
+  "article": "Industrial Bank (China)",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Industrial_Bank_(China)"
+ },
+ "Cheniere Energy": {
+  "article": "Cheniere Energy",
+  "founded_year": 1996,
+  "founders": [
+   "Charif Souki"
+  ],
+  "note": "Missing founder. The infobox has no founder field and the lead names none, but the article body calls him 'Cheniere founder Charif Souki' (2016 ouster), and his own article's lead calls him 'co-founder and former CEO of Cheniere Energy'. No other co-founder is named anywhere. Year 1996 from the info",
+  "review_source": "https://en.wikipedia.org/wiki/Cheniere_Energy"
+ },
+ "Natera": {
+  "article": "Natera",
+  "founded_year": 2004,
+  "founders": [
+   "Matthew Rabinowitz",
+   "Jonathan Sheena"
+  ],
+  "note": "Infobox founders field lists Matthew Rabinowitz and Jonathan Sheena; the row has only Rabinowitz. Sheena has no Wikipedia article (name as in the infobox). Year 2004 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Natera"
+ },
+ "Nordea Bank": {
+  "exclude": "Wrong article in the row (Nordea Bank Polska, a Polish subsidiary). The right article, Nordea, gives founded '1820 as Sparekassen for Kjøbenhavn og Omegn' (outside the window) and the group was formed",
+  "article": "Nordea",
+  "note": "Fix the article title and exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Nordea"
+ },
+ "London Stock Exchange": {
+  "exclude": "Holding-company reorganisation of an exchange founded in 1801: LSEG plc was registered 18 February 2005 (as Milescreen Limited) and became the group in 2007 on the Borsa Italiana acquisition; no found",
+  "article": "London Stock Exchange Group",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/London_Stock_Exchange_Group"
+ },
+ "Cenovus Energy": {
+  "exclude": "Spin-off: 'Cenovus was formed in 2009 when Encana split into two companies'; infobox founder field empty, no person named as founder.",
+  "article": "Cenovus Energy",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Cenovus_Energy"
+ },
+ "Truist Financial Corporation": {
+  "exclude": "Merger of equals: formed December 2019 by the merger of BB&T and SunTrust (predecessors date to 1872 and 1891); no founder.",
+  "article": "Truist",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Truist"
+ },
+ "Great-West Lifeco": {
+  "exclude": "Holding-company reorganisation whose origin is outside the window: Lifeco (infobox founded 15 May 1986) is the holding company for The Great-West Life Assurance Company, founded in Winnipeg in 1891 by",
+  "article": "Great-West Lifeco",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Great-West_Lifeco"
+ },
+ "Nasdaq": {
+  "exclude": "Wrong article in the row ('Nasdaq' is the stock market; the listed company is 'Nasdaq, Inc.'). Nasdaq was established on 8 February 1971 by the National Association of Securities Dealers (NASD), an or",
+  "article": "Nasdaq, Inc.",
+  "note": "Fix the article title and exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Nasdaq,_Inc."
+ },
+ "Ma'aden": {
+  "exclude": "State-owned enterprise: formed as a Saudi joint stock company on 23 March 1997 to develop the Kingdom's mineral resources; infobox type 'Public (mostly state-owned)', the Saudi government holds 50%; n",
+  "article": "Maaden (company)",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Maaden_(company)"
+ },
+ "Hong Kong Exchanges & Clearing": {
+  "exclude": "Exchange merger with no founding person: formed 6 March 2000 when the Stock Exchange of Hong Kong merged with the Hong Kong Futures Exchange and the clearing company; the Hong Kong Government is the l",
+  "article": "Hong Kong Exchanges and Clearing",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Hong_Kong_Exchanges_and_Clearing"
+ },
+ "Diamondback Energy": {
+  "exclude": "No named human founder: infobox has no founder field; the article only says 'The company began operations in December 2007 with the acquisition of 4,174 net acres in the Permian Basin' and names nobod",
+  "article": "Diamondback Energy",
+  "note": "Exclude for lack of a named founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Diamondback_Energy"
+ },
+ "Public Storage": {
+  "article": "Public Storage",
+  "founded_year": 1972,
+  "founders": [
+   "B. Wayne Hughes",
+   "Kenneth Volk Jr."
+  ],
+  "note": "Infobox founders field lists B. Wayne Hughes and Kenneth Volk Jr.; the row has only Hughes. History: 'Hughes partnered with Kenneth Volk and the two founded Public Storage in August 1972'. Volk has no Wikipedia article (name as in the infobox). Year 1972 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Public_Storage"
+ },
+ "Nu Holdings": {
+  "article": "Nubank",
+  "founded_year": 2013,
+  "founders": [
+   "David Vélez",
+   "Edward Wible",
+   "Cristina Junqueira"
+  ],
+  "note": "Infobox founders field lists David Vélez, Edward Wible, Cristina Junqueira; the row misses Edward Wible (no Wikipedia article; name as in the infobox). Article 'Nubank' is right: its infobox title is Nu Holdings Ltd. Year 2013 (6 May) confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Nubank"
+ },
+ "Cement Roadstone Holding": {
+  "exclude": "Merger of equals: 'established in 1970 through the merger of Cement Ltd (est. 1936) and Roadstone Ltd (est. 1949)'; infobox lists those two predecessors and no founder.",
+  "article": "CRH plc",
+  "note": "Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/CRH_plc"
+ },
+ "Wheaton Precious Metals": {
+  "exclude": "No named human founder: the article says only \"Silver Wheaton was established in 2004\" and that Goldcorp controlled it until 2006; a corporate spin-out with no founding person.",
+  "note": "Infobox has no founder field and the History section names nobody as founder; key people (Smallwood, Barnes, Holtby) are executives, not founders.",
+  "review_source": "https://en.wikipedia.org/wiki/Wheaton_Precious_Metals"
+ },
+ "CITIC Securities": {
+  "exclude": "State-owned enterprise (CITIC Group, central government) established 1995 with no named founder.",
+  "note": "Infobox has no founder field; article has no History section and names no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/CITIC_Securities"
+ },
+ "Keysight": {
+  "exclude": "2014 spin-off of Agilent Technologies (itself an HP spin-off) with no founding person.",
+  "note": "Wikidata's Bill Hewlett is Hewlett-Packard's 1939 founder, not Keysight's; the article names no Keysight founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Keysight"
+ },
+ "Dominion Energy": {
+  "exclude": "Regulated utility: the 1983 date is a holding-company reorganisation of VEPCO, whose origin (Virginia Railway & Power 1909, Upper Appomattox Company 1795) predates 1960; no founder in the infobox.",
+  "note": "The only person the article names as a founder is Frank Jay Gould, who founded the 1909 predecessor, outside the window.",
+  "review_source": "https://en.wikipedia.org/wiki/Dominion_Energy"
+ },
+ "Devon Energy": {
+  "founders": [
+   "John Nichols",
+   "J. Larry Nichols"
+  ],
+  "note": "Infobox founders field reads {{ubl|John Nichols|[[J. Larry Nichols]]}}: the dataset dropped John Nichols (1914-2008), father and co-founder; his name is unlinked (no \"John Nichols (businessman)\" article exists). Founded 1971 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Devon_Energy"
+ },
+ "Argenx": {
+  "founders": [
+   "Tim Van Hauwermeiren",
+   "Hans de Haard",
+   "Torsten Dreier"
+  ],
+  "note": "Infobox has no founder field; the History section says the company was founded in 2008 in Ghent by three scientists, Tim Van Hauwermeiren, Hans de Haard and Torsten Dreier. None of the three names is linked to an article. Founded 2008 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Argenx"
+ },
+ "First Abu Dhabi Bank": {
+  "exclude": "Merger of equals: formed April 2017 by the merger of First Gulf Bank and National Bank of Abu Dhabi; no founder named.",
+  "note": "Share-swap merger announced July 2016, completed April 2017; infobox has no founder field.",
+  "review_source": "https://en.wikipedia.org/wiki/First_Abu_Dhabi_Bank"
+ },
+ "E.ON": {
+  "exclude": "Merger of equals: created in 2000 through the merger of VEBA and VIAG; no founder named.",
+  "note": "Both the lead and History describe the creation as a merger; infobox has no founder field.",
+  "review_source": "https://en.wikipedia.org/wiki/E.ON"
+ },
+ "Sempra": {
+  "exclude": "Merger of equals: created in 1998 by the merger of Pacific Enterprises (SoCalGas parent) and Enova (SDG&E parent); no founder named.",
+  "note": "Infobox has no founder field; Jeffrey Martin is CEO since 2018, not a founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Sempra"
+ },
+ "Thales": {
+  "exclude": "The 2000 date is a rename of Thomson-CSF (a 1968 merger) whose roots go back to Compagnie Francaise Thomson-Houston in 1893; nationalised 1982 and later privatised; no founder named.",
+  "note": "Infobox has no founder field; article names only corporate predecessors.",
+  "review_source": "https://en.wikipedia.org/wiki/Thales_Group"
+ },
+ "Saudi Telecom Company": {
+  "exclude": "State-owned enterprise: created 21 April 1998 by royal decree from the Directorate of Post, Telephone and Telegraph, wholly government-owned at launch; the infobox \"founder\" is King Fahd, the head of ",
+  "note": "The dataset's founder \"Fahd of Saudi Arabia\" comes from the infobox, but the article body never mentions him and describes the company as a government spin-off/privatisation.",
+  "review_source": "https://en.wikipedia.org/wiki/Stc_Group"
+ },
+ "NAURA Technology Group": {
+  "exclude": "State-owned enterprise: created September 2001 by Beijing Electronics Holdings, a government SASAC entity; no founder named.",
+  "note": "Infobox has no founder field; Zhao Jinrong and Tao Haihong are listed as chairman and CEO only.",
+  "review_source": "https://en.wikipedia.org/wiki/Naura_Technology"
+ },
+ "Siemens Healthineers": {
+  "exclude": "Spin-off: separated from Siemens in 2017 (Siemens keeps 67%); no founding person.",
+  "note": "Wikidata's Werner von Siemens founded Siemens & Halske in 1847, not Siemens Healthineers; the article names no Healthineers founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Siemens_Healthineers"
+ },
+ "Realty Income": {
+  "founders": [
+   "William E. Clark, Jr.",
+   "Evelyn J. Clark"
+  ],
+  "note": "The dataset split \"William E. Clark, Jr.\" at the comma into two entries. Infobox founder line reads \"William E. Clark, Jr.<br>Evelyn J. Clark\"; neither name is linked. Founded 1969 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Realty_Income"
+ },
+ "Galderma Group": {
+  "exclude": "Joint venture of two corporations: formed 1981 by L'Oreal and Nestle; the article names no founder of Galderma itself.",
+  "note": "Infobox has no founder field; Hans Schaefer founded the CIRD research centre and M. Owen the Owen laboratory, both predecessors, not Galderma.",
+  "review_source": "https://en.wikipedia.org/wiki/Galderma"
+ },
+ "Cathay Financial Holding": {
+  "article": "Cathay Life Insurance",
+  "founded_year": 1962,
+  "founders": [
+   "Tsai Wan-lin"
+  ],
+  "note": "The picked article \"Cathay United Bank\" is a subsidiary bank (English Wikipedia redirects both \"Cathay Financial Holding\" and \"Cathay Financial Holdings\" to it; no page for the holding company exists). The holding company traces to Cathay Life Insurance, whose infobox gives founded 1962 and founder ",
+  "review_source": "https://en.wikipedia.org/wiki/Cathay_Life_Insurance"
+ },
+ "Unimicron": {
+  "exclude": "Subsidiary with no founding person: founded 1990 as a subsidiary of United Microelectronics Corporation; no founder named.",
+  "note": "Infobox has no founder field and the article has no History section.",
+  "review_source": "https://en.wikipedia.org/wiki/Unimicron"
+ },
+ "Alimentation Couche-Tard": {
+  "founders": [
+   "Alain Bouchard",
+   "Jacques D'Amours",
+   "Richard Fortin (businessman)",
+   "Réal Plourde"
+  ],
+  "note": "Infobox founder field lists four people; the dataset dropped Réal Plourde, who is unlinked. Links: [[Alain Bouchard]], [[Jacques D'Amours]], [[Richard Fortin (businessman)|Richard Fortin]]. Article title \"Couche-Tard\" and founded 1980 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Couche-Tard"
+ },
+ "BTG Pactual": {
+  "founders": [
+   "André Jacurski",
+   "Luiz Cezar Fernandes",
+   "Paulo Guedes"
+  ],
+  "note": "No separate founder field; the infobox Founded parameter reads \"1983 in [[Rio de Janeiro]]<br />by André Jacurski, Luiz Cezar Fernandes and [[Paulo Guedes]]\" and the History section says the firm began in 1983 as the brokerage Pactual DTVM. Only Paulo Guedes is linked. Founded 1983 confirmed. (André",
+  "review_source": "https://en.wikipedia.org/wiki/BTG_Pactual"
+ },
+ "Corteva": {
+  "exclude": "Spin-off: formed March 2018 as DowDuPont's agriculture subsidiary and spun off in June 2019; no founder named.",
+  "note": "Infobox has no founder field; predecessor is E. I. du Pont de Nemours (1802).",
+  "review_source": "https://en.wikipedia.org/wiki/Corteva"
+ },
+ "Astera Labs": {
+  "founders": [
+   "Jitendra Mohan",
+   "Sanjay Gajendra",
+   "Casey Morrison"
+  ],
+  "note": "Infobox founders field reads {{Unbulleted list|Jitendra Mohan|Sanjay Gajendra|Casey Morrison}}; the dataset had none. None of the three is linked. History: founded November 2017 in Santa Clara by the three ex-Texas Instruments engineers. Founded 2017 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Astera_Labs"
+ },
+ "Ciena": {
+  "founders": [
+   "David R. Huber",
+   "Kevin Kimberlin"
+  ],
+  "note": "Dropped \"Optelecom\" (a company, Huber's former employer, which provided facilities). Infobox founder line is plain text \"David Huber, Optelecom (company), and Kevin Kimberlin\"; the History section links the two people to the existing articles \"David R. Huber\" and \"Kevin Kimberlin\" (both verified to ",
+  "review_source": "https://en.wikipedia.org/wiki/Ciena"
+ },
+ "Veeva Systems": {
+  "founders": [
+   "Peter Gassner",
+   "Matt Wallach"
+  ],
+  "note": "Infobox founders field reads {{ubl|[[Peter Gassner]]|Matt Wallach}}; the dataset dropped Matt Wallach (unlinked). History: founded 2007 by Peter Gassner and Matt Wallach. Founded 2007 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Veeva_Systems"
+ },
+ "Emirates NBD Bank PJSC": {
+  "exclude": "State-founded bank: National Bank of Dubai was formed 19 June 1963 by Sheikh Rashid bin Saeed Al Maktoum, Emir of Dubai (parent today: Investment Corporation of Dubai), and the current company is its ",
+  "note": "Row was matched by name only; the ruler who decreed the bank is a head of state, not a business founder, and the present entity is a merger.",
+  "review_source": "https://en.wikipedia.org/wiki/Emirates_NBD"
+ },
+ "China Telecom": {
+  "exclude": "State-owned enterprise: incorporated 10 September 2002 as the listing vehicle of China Telecommunications Corporation (central government SOE, 70.89% owner); the infobox \"founder\" is the parent corpor",
+  "note": "Row was matched by name only; the article names no individual founder.",
+  "review_source": "https://en.wikipedia.org/wiki/China_Telecom"
+ },
+ "Agilent Technologies": {
+  "exclude": "Spin-off: created 1999 as a spin-off of several Hewlett-Packard business units with a $2.1B IPO; no founding person.",
+  "note": "Wikidata's Bill Hewlett is HP's 1939 founder, not Agilent's; the article names no Agilent founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Agilent_Technologies"
+ },
+ "Diageo": {
+  "exclude": "Formed 17 Dec 1997 by the merger of Guinness plc and Grand Metropolitan plc; infobox has no founder field and the article names only executives (Greener, Yea, Bull, McGrath) as its creators, not found",
+  "article": "Diageo",
+  "note": "Merger of equals, no founding person; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Diageo"
+ },
+ "Thomson Reuters": {
+  "exclude": "Formed 17 Apr 2008 by combining Thomson Corporation (1934) and Reuters Group (1851); infobox lists predecessors only, no founder field.",
+  "article": "Thomson Reuters",
+  "note": "Merger of two pre-1960 companies, no founding person; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Thomson_Reuters"
+ },
+ "Shanghai Pudong Development Bank": {
+  "exclude": "City-owned joint-stock bank established 1993 and owned by the Shanghai Municipal Government; infobox type 'State-owned enterprise', no founder.",
+  "article": "Shanghai Pudong Development Bank",
+  "note": "State-owned enterprise; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Shanghai_Pudong_Development_Bank"
+ },
+ "Endesa": {
+  "exclude": "Duplicate of row 286 (second Endesa listing). Right article 'Endesa': state-created utility founded 1944, now an Enel subsidiary; no founder.",
+  "article": "Endesa",
+  "note": "Row 288: same fix as row 286 (article 'Endesa', not 'Endesa X'); exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Endesa"
+ },
+ "Rosneft": {
+  "exclude": "Russian state-controlled oil company (Rosneftegaz 70%), established 1993 out of state assets; infobox founder field is empty.",
+  "article": "Rosneft",
+  "note": "State-owned enterprise; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Rosneft"
+ },
+ "DSV": {
+  "exclude": "Founded 1976 'by nine independent Danish hauliers'; neither the infobox (no founder field) nor the lead names any person.",
+  "article": "DSV (company)",
+  "note": "No named human founder on Wikipedia; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/DSV_(company)"
+ },
+ "Workday": {
+  "article": "Workday, Inc.",
+  "founded_year": 2005,
+  "founders": [
+   "David Duffield",
+   "Aneel Bhusri"
+  ],
+  "note": "'Dave Duffield' is a redirect; the article title is 'David Duffield'. Year 2005 confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/Workday,_Inc."
+ },
+ "Coca-Cola European Partners": {
+  "exclude": "Formed 28 May 2016 by merging Coca-Cola bottlers (predecessors Coca-Cola Enterprises, Coca-Cola Amatil, etc.); founder field blank.",
+  "article": "Coca-Cola Europacific Partners",
+  "note": "Merger-formed bottler with no founding person; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Coca-Cola_Europacific_Partners"
+ },
+ "L3Harris Technologies": {
+  "exclude": "Formed 29 June 2019 by the merger of L3 Technologies and Harris Corporation (1895); founder field blank.",
+  "article": "L3Harris",
+  "note": "Merger of equals, no founding person; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/L3Harris"
+ },
+ "Jiangsu Hengrui Medicine": {
+  "exclude": "Infobox founder field is blank and the lead names no founder; Sun Piaoyang appears only as chairman under key people.",
+  "article": "Jiangsu Hengrui",
+  "note": "No named founder on Wikipedia; exclude (a chairman is not a founder).",
+  "review_source": "https://en.wikipedia.org/wiki/Jiangsu_Hengrui"
+ },
+ "Samsung Biologics": {
+  "exclude": "Biotech subsidiary of Samsung Group set up in 2011 (owners Samsung C&T, Samsung Electronics); founder field empty.",
+  "article": "Samsung Biologics",
+  "note": "Subsidiary with no founding person; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Samsung_Biologics"
+ },
+ "Vistra": {
+  "exclude": "Wrong page picked ('Vistra (services company)' is a Hong Kong corporate-services firm). The US power company's article is 'Vistra Corp.': formed 2016 when Texas Competitive Electric Holdings (TXU Ener",
+  "article": "Vistra Corp.",
+  "note": "Fix article to 'Vistra Corp.'; bankruptcy reorganisation of a legacy utility with no founding person; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Vistra_Corp."
+ },
+ "Eoptolink Technology": {
+  "article": "Eoptolink",
+  "founded_year": 2008,
+  "founders": [],
+  "note": "Infobox founder is 'Gao Guangrong' (unlinked); no English Wikipedia article exists for him under any title (search returns only the Eoptolink page), so there is no founder article title to give. Year 2008 confirmed. Company still qualifies (named human founder) if a founder article is not required.",
+  "review_source": "https://en.wikipedia.org/wiki/Eoptolink"
+ },
+ "Wabtec": {
+  "exclude": "Formed 1999 'via merger' of Westinghouse Air Brake Company (1869) and MotivePower; founder field empty.",
+  "article": "Wabtec",
+  "note": "Merger of pre-1960 lineage, no founding person; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Wabtec"
+ },
+ "Keurig Dr Pepper": {
+  "exclude": "Formed 9 July 2018 by the merger of Keurig Green Mountain and Dr Pepper Snapple Group (Dr Pepper dates to 1885); founder field blank. Wikidata's Bob Stiller founded Green Mountain Coffee Roasters, not",
+  "article": "Keurig Dr Pepper",
+  "note": "Merger, no founding person; drop the Wikidata-only founder; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Keurig_Dr_Pepper"
+ },
+ "Comfort Systems USA": {
+  "exclude": "Infobox has no founder field and the lead names no founder or formation story; founded 1997.",
+  "article": "Comfort Systems USA",
+  "note": "No named human founder on Wikipedia; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Comfort_Systems_USA"
+ },
+ "Coherent Corp.": {
+  "article": "Coherent Corp.",
+  "founded_year": 1971,
+  "founders": [],
+  "note": "founders_wp holds one malformed string 'Carl Johnson | James Hawkey'. The infobox names Carl Johnson and James Hawkey (both unlinked); neither has an English Wikipedia article ('Carl Johnson' is a disambiguation page, 'James Hawkey' is missing; search finds only the Coherent page). Year 1971 (as II-",
+  "review_source": "https://en.wikipedia.org/wiki/Coherent_Corp."
+ },
+ "Erste Group Bank": {
+  "exclude": "Wrong page picked ('Erste Bank Croatia' is a subsidiary). The right article is 'Erste Group': founded 'October 1819 as the first Austrian savings banks', current holding formed 9 August 2008; no found",
+  "article": "Erste Group",
+  "note": "Fix article to 'Erste Group'; 1819 origin, holding-company reorganisation, no founding person; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Erste_Group"
+ },
+ "MS&AD Insurance": {
+  "exclude": "Holding company formed 2008 by combining Mitsui Sumitomo Insurance and Aioi Nissay Dowa Insurance; no founder or predecessor field.",
+  "article": "MS&AD Insurance Group",
+  "note": "Merger holding company, no founding person; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/MS%26AD_Insurance_Group"
+ },
+ "Holcim Group": {
+  "exclude": "Formerly LafargeHolcim, the 2015 merger of equals of Holcim (1912) and Lafarge (1833); infobox has no founded or founder field, predecessors blank. The Wikidata year 2015 is the merger, not an origin.",
+  "article": "Holcim Group",
+  "note": "Merger of equals with pre-1960 origins, no founding person; exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Holcim_Group"
+ },
+ "Everpure": {
+  "article": "Everpure",
+  "founded_year": 2009,
+  "founders": [],
+  "note": "founders_wp holds one malformed string 'John Colgrove|John Hayes'. Infobox founders are John Colgrove and John Hayes (both unlinked); neither has an English Wikipedia article ('John Colgrove' is missing, 'John Hayes' is a disambiguation page; search finds only the Everpure page). Year 2009 confirmed",
+  "review_source": "https://en.wikipedia.org/wiki/Everpure"
+ },
+ "Constellation Software": {
+  "article": "Constellation Software",
+  "founded_year": 1995,
+  "founders": [],
+  "note": "Infobox founder is 'Mark Leonard' (unlinked). 'Mark Leonard' on Wikipedia is a disambiguation page and 'Mark Leonard (businessman)' does not exist; search finds no biography. So founders_wp ['Mark Leonard'] points at a disambiguation page, and there is no founder article title to give. Year 1995 con",
+  "review_source": "https://en.wikipedia.org/wiki/Constellation_Software"
+ },
+ "Yum China": {
+  "exclude": "Spin-off: separated from Yum! Brands on 1 November 2016; infobox has no founder and the lead names none.",
+  "note": "Infobox Founded 2016-11-01, Predecessor Yum! Brands; a spin-off with no founding person, so excluded.",
+  "review_source": "https://en.wikipedia.org/wiki/Yum_China"
+ },
+ "Exelon Corporation": {
+  "exclude": "Merger: created 20 October 2000 by the merger of PECO Energy (1902) and Unicom (1907); no founder named.",
+  "note": "Infobox Founded reads '2000; by merger'; predecessors PECO Energy Company and Unicom Corp; John Rowe oversaw the merger but is not a founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Exelon"
+ },
+ "Franco-Nevada": {
+  "exclude": "Spin-off: the present company was spun off by Newmont in a 2007 IPO; the infobox has no founder or founded field and the lead names no founder.",
+  "note": "Wikidata gave 2007. The lead says 'Old Franco-Nevada' was listed 1983-2002 and 'In 2007 Newmont spun off Franco-Nevada'; the article says the old company was 'led by executives Seymour Schulich and Pierre Lassonde' but never calls anyone a founder. If the dataset later chooses to trace to the 1983 o",
+  "review_source": "https://en.wikipedia.org/wiki/Franco-Nevada"
+ },
+ "Aena": {
+  "exclude": "State-owned enterprise: 'Aena' redirects to ENAIRE, a public corporate entity owned by the Government of Spain, created 1990/1991 under Act 4/1990; no founder.",
+  "article": "ENAIRE",
+  "note": "The picked article is right by redirect (Aena -> ENAIRE); the infobox Owner field is 'Government of Spain' and there is no founder field, so the row is excluded rather than re-pointed.",
+  "review_source": "https://en.wikipedia.org/wiki/ENAIRE"
+ },
+ "Block": {
+  "founded_year": 2009,
+  "founders": [
+   "Jack Dorsey",
+   "Jim McKelvey",
+   "Tristan O'Tierney"
+  ],
+  "note": "Infobox founder field names three people: Jack Dorsey, Jim McKelvey and Tristan O'Tierney; the dataset dropped O'Tierney. He is plain text in the infobox and has no English Wikipedia article, so the name is given as written.",
+  "review_source": "https://en.wikipedia.org/wiki/Block,_Inc."
+ },
+ "Kuwait Finance House": {
+  "exclude": "No named human founder: infobox founder field is 'Consortium of Kuwaiti merchants'; no individual is named in the lead or history.",
+  "note": "Founded 1977 as Kuwait's first Islamic bank; founders_wp held the consortium string, which is not a person.",
+  "review_source": "https://en.wikipedia.org/wiki/Kuwait_Finance_House"
+ },
+ "CITIC limited": {
+  "exclude": "State-owned subsidiary: infobox type 'Partial state-owned enterprise', 58% owned by the state-owned CITIC Group; founded 1990 in Hong Kong as CITIC Pacific with no founding person named.",
+  "note": "Renamed from CITIC Pacific Limited to CITIC Limited in 2014; the article never mentions a founder.",
+  "review_source": "https://en.wikipedia.org/wiki/CITIC_Limited"
+ },
+ "PICC Property and Casualty Company Limited": {
+  "exclude": "Subsidiary with no founding person: incorporated 2003 as one of three subsidiaries of the People's Insurance Company of China; infobox founder field names the parent company, not a person.",
+  "note": "Owner PICC (68.98%); founders_wp held a company name.",
+  "review_source": "https://en.wikipedia.org/wiki/PICC_Property_and_Casualty"
+ },
+ "ORLEN": {
+  "exclude": "State-owned merger: formed 7 September 1999 when the Council of Ministers merged the state firms CPN and Petrochemia Płock as Polski Koncern Naftowy; Polish state holds 49.9%; no founder named.",
+  "note": "Infobox has no founder field; Andrzej Modrzejewski was first management-board president, not a founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Orlen"
+ },
+ "China Pacific Insurance": {
+  "exclude": "State-linked with no founding person: 'established on the basis of the former China Pacific Insurance Corporation' (1991, approved by the People's Bank of China); owners are the central government (23",
+  "note": "Infobox has no founder field and the article has no history section.",
+  "review_source": "https://en.wikipedia.org/wiki/China_Pacific_Insurance_Company"
+ },
+ "Fomento Económico Mexicano (FEMSA)": {
+  "exclude": "Holding reorganisation with no founding person: FEMSA arose in 1974 when Grupo Monterrey split into two branches; the origin business is the Cervecería Cuauhtémoc brewery founded in 1890 by Isaac Garz",
+  "note": "Infobox Founded 1974, no founder field. Tracing to the origin gives 1890, outside the window; the 1974 holding split names no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/FEMSA"
+ },
+ "AngloGold Ashanti": {
+  "exclude": "Merger: formed 26 April 2004 by the merger of AngloGold (Anglo American's gold arm) and Ashanti Goldfields; no founder named.",
+  "note": "Infobox predecessors Ashanti Goldfields and AngloGold; no founder field.",
+  "review_source": "https://en.wikipedia.org/wiki/AngloGold_Ashanti"
+ },
+ "MSCI": {
+  "exclude": "Spin-off with no founding person: indices published by Capital International from 1968, licensed and branded by Morgan Stanley in 1986, divested by Morgan Stanley through a 2007 IPO completed in 2009;",
+  "note": "Infobox Founded 1968, no founder field; the 1968 date is Capital International's index launch, not a founding by named people.",
+  "review_source": "https://en.wikipedia.org/wiki/MSCI"
+ },
+ "Haleon": {
+  "exclude": "Spin-off: established 18 July 2022 as a corporate spin-off (demerger) from GSK; infobox predecessors are GSK Consumer Healthcare and others; no founder named.",
+  "note": "Infobox Founded 2022-07-18; no founder field.",
+  "review_source": "https://en.wikipedia.org/wiki/Haleon"
+ },
+ "NetApp": {
+  "founded_year": 1992,
+  "founders": [
+   "David Hitz",
+   "James Lau",
+   "Michael Malcolm"
+  ],
+  "note": "Infobox founders field names David Hitz, James Lau and Michael Malcolm; the dataset kept only Hitz. Lau and Malcolm are plain text in the infobox; the existing Wikipedia articles titled 'James Lau' (Hong Kong official) and 'Michael Malcolm' (English footballer) are different people, so these two nam",
+  "review_source": "https://en.wikipedia.org/wiki/NetApp"
+ },
+ "Illumina": {
+  "founded_year": 1998,
+  "founders": [
+   "David R. Walt",
+   "Larry Bock",
+   "John Stuelpnagel",
+   "Anthony Czarnik",
+   "Mark Chee"
+  ],
+  "note": "Infobox founders field names five people; the dataset dropped John Stuelpnagel and Mark Chee, who are plain text with no English Wikipedia article. 'David Walt' links to the article 'David R. Walt'.",
+  "review_source": "https://en.wikipedia.org/wiki/Illumina,_Inc."
+ },
+ "Medline": {
+  "founded_year": 1966,
+  "founders": [
+   "Jim Mills",
+   "Jon Mills"
+  ],
+  "note": "The dataset stored 'Jon Mills | Jim Mills' as one string; the infobox names two founders, Jon Mills and Jim Mills (grandsons of A. L. Mills, who left Cenco and founded Medline in 1966). Neither is linked: the article 'Jon Mills' is a Canadian golfer and 'Jim Mills' redirects to a disambiguation page",
+  "review_source": "https://en.wikipedia.org/wiki/Medline_Inc."
+ },
+ "STMicroelectronics": {
+  "exclude": "Merger of state-owned companies: formed 1987 by merging Italy's SGS Microelettronica and France's Thomson Semiconducteurs, both government-owned; the infobox founders Elihu Thomson and Camillo Olivett",
+  "note": "Pasquale Pistorio was the first chief executive, not a founder.",
+  "review_source": "https://en.wikipedia.org/wiki/STMicroelectronics"
+ },
+ "Swisscom": {
+  "exclude": "Privatised state utility: Telecom PTT was spun off and rebranded Swisscom on 1 October 1997 ahead of partial privatisation; infobox type 'state-owned enterprise', Swiss Government owns 51%; no founder",
+  "note": "Infobox predecessor Telecom PTT; no founder field.",
+  "review_source": "https://en.wikipedia.org/wiki/Swisscom"
+ },
+ "Microchip Technology": {
+  "exclude": "Spin-off with no founding person: founded 14 February 1989 when General Instrument spun off its microelectronics division as a wholly owned subsidiary, bought later in 1989 by Sequoia-led investors; n",
+  "note": "Steve Sanghi joined as president and COO in 1990 and is a key person, not a founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Microchip_Technology"
+ },
+ "Assa Abloy": {
+  "exclude": "Merger: formed 1994 when Assa AB separated from Securitas and merged with Finland's Abloy Oy (a Wärtsilä subsidiary); no founder named.",
+  "note": "The ASSA brand itself traces to August Stenman, but the article does not call him a founder of Assa Abloy and the brand predates the window.",
+  "review_source": "https://en.wikipedia.org/wiki/Assa_Abloy"
+ },
+ "ASM International": {
+  "founded_year": 1964,
+  "founders": [
+   "Arthur del Prado"
+  ],
+  "note": "The lead says 'The company was founded by Arthur del Prado (1931-2016) in 1964' (as Advanced Semiconductor Materials, Bilthoven); the History section agrees. The 1968 in the dataset came from Wikidata and corresponds to formal incorporation as a private limited company. Arthur del Prado is a red lin",
+  "review_source": "https://en.wikipedia.org/wiki/ASM_International"
+ },
+ "Ambev": {
+  "exclude": "Merger of equals: created 1 July 1999 (infobox: 1 June 1999) by the merger of Companhia Cervejaria Brahma and Companhia Antarctica Paulista; infobox and lead name no founder.",
+  "note": "Wikidata's Beto Sicupira does not appear in the article; he was a controlling investor in Brahma, not a founder of Ambev per Wikipedia.",
+  "review_source": "https://en.wikipedia.org/wiki/Ambev"
+ },
+ "Orange": {
+  "exclude": "State-owned, later privatised utility: founded 1 January 1988 as France Télécom from the Ministry of Posts and Telecommunications, privatisation began 1998, French State still holds 23%; no founder na",
+  "note": "The article title is 'Orange Group' ('Orange S.A.' redirects to it), so the picked article is right. Marcel Roulet and Michel Bon were chairmen, not founders.",
+  "review_source": "https://en.wikipedia.org/wiki/Orange_Group"
+ },
+ "SSE": {
+  "exclude": "Merger of privatised utilities: formed September 1998 by the merger of Scottish Hydro-Electric and Southern Electric, both former public electricity boards privatised in 1990/91; no founder named.",
+  "note": "Infobox Founded 1998; no founder field.",
+  "review_source": "https://en.wikipedia.org/wiki/SSE_plc"
+ },
+ "Guotai Junan Securities": {
+  "exclude": "State-owned Chinese brokerage formed 18 Aug 1999 by the merger of Guotai Securities (1992) and Junan Securities (1992), later renamed Guotai Haitong after absorbing Haitong; no founder named in infobo",
+  "note": "Article resolves to 'Guotai Haitong Securities'; it is a merger of equals of state-controlled firms with no founding person, so it does not belong.",
+  "review_source": "https://en.wikipedia.org/wiki/Guotai_Haitong_Securities"
+ },
+ "Zscaler": {
+  "founded_year": 2007,
+  "founders": [
+   "Jay Chaudhry",
+   "Kailash Kailash"
+  ],
+  "note": "Infobox founders field lists Jay Chaudhry AND Kailash Kailash (history: 'founded in 2007 by Jay Chaudhry and K. Kailash'); founders_wp dropped the second name. Kailash Kailash has no English Wikipedia article.",
+  "review_source": "https://en.wikipedia.org/wiki/Zscaler"
+ },
+ "Ventas": {
+  "exclude": "Founded 1998 as a corporate spin-off of Vencor (the healthcare operator founded by Bruce Lunsford); the infobox names no founder and the article presents Ventas as a spin-off, not a renamed origin.",
+  "note": "Spin-off with no founding person. If the dataset later chooses to trace spin-offs to their parent, Vencor's founder is Bruce Lunsford, but that is not how the article frames Ventas.",
+  "review_source": "https://en.wikipedia.org/wiki/Ventas_(company)"
+ },
+ "Japan Post Holdings": {
+  "exclude": "Holding company incorporated 2006 to take over the state-owned Japan Post postal service under postal privatisation; still majority government-held; no founder.",
+  "note": "Privatised state enterprise, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Japan_Post_Holdings"
+ },
+ "Ares Management": {
+  "founded_year": 1997,
+  "founders": [
+   "Tony Ressler",
+   "John Kissick",
+   "Michael Arougheti",
+   "David Kaplan",
+   "Bennett Rosenthal"
+  ],
+  "note": "Infobox founders field names five people: Antony Ressler, John Kissick, Michael Arougheti, David Kaplan and Bennett Rosenthal; founders_wp kept only Ressler. Exact article title for Ressler is 'Tony Ressler' ('Antony Ressler' is a redirect). 'Michael Arougheti' redirects to the Ares Management artic",
+  "review_source": "https://en.wikipedia.org/wiki/Ares_Management"
+ },
+ "QNB (Qatar National Bank)": {
+  "exclude": "Wrong article picked (Qatar Development Bank). The right article is 'QNB Group' (Qatar National Bank), founded 6 June 1964 as a state bank, 50% owned by the Qatar Investment Authority; no founder name",
+  "article": "QNB Group",
+  "founded_year": 1964,
+  "note": "Article corrected to 'QNB Group' and founded year to 1964, but the company is a state-owned bank with no founding person, so it is excluded.",
+  "review_source": "https://en.wikipedia.org/wiki/QNB_Group"
+ },
+ "Yum! Brands": {
+  "exclude": "Created 1977 as PepsiCo's restaurant division and spun off as a separate company on 6 Oct 1997 (infobox predecessor: PepsiCo); no founder named.",
+  "note": "Spin-off / former subsidiary with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Yum!_Brands"
+ },
+ "Sysco": {
+  "founded_year": 1969,
+  "founders": [
+   "Herbert Irving",
+   "John F. Baugh",
+   "Harry Rosenthal"
+  ],
+  "note": "Infobox founder field names Herbert Irving, John F. Baugh and Harry Rosenthal (lead: 'founded in 1969 by Herbert Irving, John F. Baugh, and Harry Rosenthal'); founders_wp kept only Irving. John F. Baugh has no article; the existing 'Harry Rosenthal' article is an American actor, not the Sysco founde",
+  "review_source": "https://en.wikipedia.org/wiki/Sysco"
+ },
+ "Axis Bank": {
+  "exclude": "Founded 3 Dec 1993 as UTI Bank by the Unit Trust of India, a Government of India entity, together with state insurers (LIC, GIC and others); no founding person named in infobox or article.",
+  "note": "Bank promoted by state-owned institutions, no human founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Axis_Bank"
+ },
+ "Live Nation": {
+  "exclude": "Live Nation Entertainment was formed 25 Jan 2010 by the merger of Live Nation and Ticketmaster; infobox names no founder. Live Nation itself was a 2005 Clear Channel spin-off (origin SFX Entertainment",
+  "note": "Merger of two companies with no founding person in the infobox or lead.",
+  "review_source": "https://en.wikipedia.org/wiki/Live_Nation_Entertainment"
+ },
+ "Quanta Computer": {
+  "founded_year": 1988,
+  "founders": [
+   "Barry Lam"
+  ],
+  "note": "Infobox has no founder field but lists Barry Lam as 'founder and chairman' in key_people, and the history says 'The firm was founded in 1988 by Barry Lam'. Article title 'Barry Lam' exists (Taiwanese businessman).",
+  "review_source": "https://en.wikipedia.org/wiki/Quanta_Computer"
+ },
+ "KB Financial Group": {
+  "exclude": "Financial holding company established Sept 2008 by restructuring Kookmin Bank (a bank set up by the Korean state in 1963) into a holding company; no founder named.",
+  "note": "Holding-company reorganisation of a formerly state-owned bank, no founding person; origin outside the window anyway.",
+  "review_source": "https://en.wikipedia.org/wiki/KB_Financial_Group"
+ },
+ "D. R. Horton": {
+  "founded_year": 1978,
+  "founders": [
+   "Donald R. Horton"
+  ],
+  "note": "Infobox founder is written 'Donald Ray Horton' (unlinked); the exact English Wikipedia article title is 'Donald R. Horton' ('Donald Ray Horton' does not exist as a page).",
+  "review_source": "https://en.wikipedia.org/wiki/D._R._Horton"
+ },
+ "ORIX": {
+  "exclude": "Established 17 April 1964 as Orient Leasing Co., a subsidiary of the trading house Nichimen (now Sojitz); renamed ORIX in 1989; no founding person in infobox or article.",
+  "note": "Corporate-formed subsidiary with no human founder (Yoshihiko Miyauchi joined from Nichimen as an employee, not a founder).",
+  "review_source": "https://en.wikipedia.org/wiki/Orix"
+ },
+ "Sun Hung Kai Properties": {
+  "founded_year": 1963,
+  "founders": [
+   "Kwok Tak-seng",
+   "Fung King-hey",
+   "Lee Shau-kee"
+  ],
+  "note": "Same three infobox founders, but the exact article titles are hyphenated: 'Kwok Tak-seng', 'Fung King-hey', 'Lee Shau-kee' (the unhyphenated forms are redirects). Founded year 1963 (Sun Hung Kai Enterprises, the origin) stands; the 1972 date is the current legal entity.",
+  "review_source": "https://en.wikipedia.org/wiki/Sun_Hung_Kai_Properties"
+ },
+ "WEG ON": {
+  "founded_year": 1961,
+  "founders": [
+   "Werner Ricardo Voigt",
+   "Eggon João da Silva",
+   "Geraldo Werninghaus"
+  ],
+  "note": "Infobox founders field is empty, but the lead says 'WEG was founded in 1961 by Werner Ricardo Voigt, Eggon João da Silva and Geraldo Werninghaus' (the name is an acronym of their first names). None of the three has an English Wikipedia article.",
+  "review_source": "https://en.wikipedia.org/wiki/WEG_S.A."
+ },
+ "Fairfax Financial": {
+  "founded_year": 1985,
+  "founders": [
+   "Prem Watsa"
+  ],
+  "note": "Infobox has no founder field, but the lead says 'Founded in 1985 by V. Prem Watsa'. Article title 'Prem Watsa' exists.",
+  "review_source": "https://en.wikipedia.org/wiki/Fairfax_Financial"
+ },
+ "Adani Power": {
+  "exclude": "Subsidiary of Adani Group started as a power-trading company in 1996; infobox names no founder (Gautam Adani appears only as chairman) and the lead calls it a subsidiary.",
+  "note": "Subsidiary with no founding person named.",
+  "review_source": "https://en.wikipedia.org/wiki/Adani_Power"
+ },
+ "Sompo Holdings": {
+  "exclude": "Insurance holding company formed 1 April 2010 by the merger of Sompo Japan and Nipponkoa Insurance; no founder named; the predecessors date to 1888.",
+  "note": "Merger of equals, no founding person; origin outside the window.",
+  "review_source": "https://en.wikipedia.org/wiki/SOMPO_Holdings"
+ },
+ "Twilio": {
+  "founded_year": 2008,
+  "founders": [
+   "Jeff Lawson",
+   "Evan Cooke",
+   "John Wolthuis"
+  ],
+  "note": "founders_wp holds one pipe-joined string 'Jeff Lawson|Evan Cooke|John Wolthuis' (template parse error); the infobox names three people. None has an English Wikipedia article: 'Jeff Lawson' is a disambiguation page that lists the Twilio co-founder unlinked; Evan Cooke and John Wolthuis are missing.",
+  "review_source": "https://en.wikipedia.org/wiki/Twilio"
+ },
+ "Okta": {
+  "founded_year": 2009,
+  "founders": [
+   "Todd McKinnon",
+   "Frederic Kerrest"
+  ],
+  "note": "founders_wp holds one pipe-joined string 'Todd McKinnon|Frederic Kerrest' (template parse error); the infobox names two people. Neither has an English Wikipedia article.",
+  "review_source": "https://en.wikipedia.org/wiki/Okta,_Inc."
+ },
+ "Viking Holdings": {
+  "founded_year": 1997,
+  "founders": [
+   "Torstein Hagen"
+  ],
+  "note": "Infobox has no founder field but lists Torstein Hagen as 'Founder, Executive Chairman' in key_people, and the history says the company was established by Torstein Hagen as Viking River Cruises in 1997. Article 'Viking (cruise line)' is the right page ('Viking Holdings' does not exist). Article title",
+  "review_source": "https://en.wikipedia.org/wiki/Viking_(cruise_line)"
+ },
+ "Paychex": {
+  "founded_year": 1971,
+  "founders": [
+   "Tom Golisano"
+  ],
+  "note": "Infobox founder link 'B. Thomas Golisano' is a redirect; the exact article title is 'Tom Golisano' (history: 'founded in 1971 by Tom Golisano').",
+  "review_source": "https://en.wikipedia.org/wiki/Paychex"
+ },
+ "Hannover Rück": {
+  "exclude": "Founded 6 June 1966 with no founding person named anywhere in the infobox or article; 50.2% owned by Talanx (HDI group), of which it was the reinsurance arm.",
+  "note": "Corporate-founded reinsurer, no human founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Hannover_Re"
+ },
+ "Telstra": {
+  "exclude": "Former state-owned enterprise originating as the Postmaster-General's Department (1901), split off as Telecom Australia in 1975 and fully privatised by 2006; no founder.",
+  "note": "Privatised government utility.",
+  "review_source": "https://en.wikipedia.org/wiki/Telstra"
+ },
+ "Maruti Suzuki India": {
+  "exclude": "Established Feb 1981 by the Government of India as Maruti Udyog, a state joint venture with Suzuki; infobox founder field is 'Government of India', not a person.",
+  "note": "State-founded joint venture, no human founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Maruti_Suzuki"
+ },
+ "COSCO Shipping": {
+  "exclude": "State-owned enterprise formed 2016 by the merger of COSCO Group (1961) and China Shipping Group; infobox type is 'State-owned enterprise' and no founder is named.",
+  "note": "State-owned merger, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/COSCO_Shipping"
+ },
+ "Celestica": {
+  "exclude": "Incorporated 1994 as a subsidiary of IBM (infobox founder field is 'IBM'), sold to Onex in 1996; no founding person.",
+  "note": "Corporate spin-off/subsidiary, founder field is a company not a person.",
+  "review_source": "https://en.wikipedia.org/wiki/Celestica"
+ },
+ "SABIC": {
+  "exclude": "State-owned enterprise: founded 1976 by Saudi royal decree, no founding person named (first chairman and CEO only).",
+  "note": "Infobox has no founder; history says founded by royal decree; majority state-owned (Aramco 70%).",
+  "review_source": "https://en.wikipedia.org/wiki/SABIC"
+ },
+ "Chunghwa Telecom": {
+  "exclude": "Privatised state utility: incorporated 15 June 1996 out of the Directorate General of Telecommunications as part of the government's privatisation; no founding person.",
+  "note": "Infobox has no founder; article credits the 1996 Telecommunications Act ordinance, privatised in 2005.",
+  "review_source": "https://en.wikipedia.org/wiki/Chunghwa_Telecom"
+ },
+ "Kenvue": {
+  "exclude": "Spin-off: Johnson & Johnson's consumer health division, incorporated 2022 and separated 2023; no founding person.",
+  "note": "Infobox founders field is empty.",
+  "review_source": "https://en.wikipedia.org/wiki/Kenvue"
+ },
+ "China General Nuclear Power Group (CGN)": {
+  "exclude": "State-owned enterprise under SASAC, founded September 1994 as China Guangdong Nuclear Power Group; no founder.",
+  "article": "China General Nuclear Power Group",
+  "note": "Picked article 'China Resources Power' is a different company (a China Resources subsidiary, 2001). The right article is 'China General Nuclear Power Group' (its listed arm is CGN Power); either way state-owned with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/China_General_Nuclear_Power_Group"
+ },
+ "Talanx": {
+  "exclude": "Holding-company reorganisation of the HDI mutual insurer (HDI V.a.G., majority shareholder), set up 1996; no founding person named.",
+  "note": "Infobox founders field empty; article does not describe the 1996 formation or name any person.",
+  "review_source": "https://en.wikipedia.org/wiki/Talanx"
+ },
+ "ABN AMRO": {
+  "exclude": "Merger of equals: formed 21 September 1991 by the merger of Algemene Bank Nederland and AMRO Bank; later nationalised and re-listed; no founding person.",
+  "note": "Infobox has no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/ABN_AMRO"
+ },
+ "Elbit Systems": {
+  "exclude": "Founded 1966 by Elron Electronic Industries and Israel's Ministry of Defense (a company and a government), as a subsidiary; no human founder named in infobox, lead or history.",
+  "note": "Article does not mention Uzia Galil or any person at the 1966 founding.",
+  "review_source": "https://en.wikipedia.org/wiki/Elbit_Systems"
+ },
+ "Take-Two Interactive": {
+  "founded_year": 1993,
+  "founders": [
+   "Ryan Brant",
+   "Mark E. Seremet"
+  ],
+  "note": "Infobox founder field is 'Ryan Brant<br>[[Mark E. Seremet]]'; Ryan Brant was dropped because he is unlinked. 'Ryan Brant' on English Wikipedia redirects to Take-Two Interactive (no own article); Wikidata Q119933903 'Ryan Ashley Brant' has no enwiki sitelink and no birth date.",
+  "review_source": "https://en.wikipedia.org/wiki/Take-Two_Interactive"
+ },
+ "Cameco": {
+  "exclude": "Formed 1988 by the merger and privatisation of two Crown corporations (Eldorado Nuclear and Saskatchewan Mining Development Corporation); no founding person.",
+  "note": "Initially owned 62% by Saskatchewan and 38% by the federal government.",
+  "review_source": "https://en.wikipedia.org/wiki/Cameco"
+ },
+ "Martin Marietta Materials": {
+  "exclude": "Spin-off: Martin Marietta's aggregates business, a subsidiary from 1993, spun off from Lockheed Martin in 1996; no founding person in the window (the business traces to Superior Stone, founded 1939 by",
+  "note": "Infobox has no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Martin_Marietta_Materials"
+ },
+ "Biogen": {
+  "founded_year": 1978,
+  "founders": [
+   "Kenneth Murray (biologist)",
+   "Phillip Allen Sharp",
+   "Walter Gilbert",
+   "Heinz Schaller",
+   "Charles Weissmann"
+  ],
+  "note": "Infobox founders list has five names; Heinz Schaller was dropped because he is unlinked. He has no English Wikipedia article (German Wikipedia has one; enwiki search returns only mentions, e.g. the Chica and Heinz Schaller Foundation).",
+  "review_source": "https://en.wikipedia.org/wiki/Biogen"
+ },
+ "CoreWeave": {
+  "founded_year": 2017,
+  "founders": [
+   "Michael Intrator",
+   "Brian Venturo",
+   "Brannin McBee",
+   "Peter Salanki"
+  ],
+  "note": "Infobox founders field names all four (unlinked), so founders_wp was empty. Only 'Michael Intrator' has an English Wikipedia article (Wikidata Q135354897, born 1969); the other three have none. Founded 21 September 2017 as Atlantic Crypto.",
+  "review_source": "https://en.wikipedia.org/wiki/CoreWeave"
+ },
+ "ResMed": {
+  "founded_year": 1989,
+  "founders": [
+   "Peter C. Farrell"
+  ],
+  "note": "Name is right (infobox founder 'Peter C. Farrell', unlinked), but founders_wd Q7173936 is Peter Farrell the Irish footballer (1922-1999), the wrong person. The ResMed founder has no English Wikipedia article; the 'Peter Farrell' disambiguation page does not list him.",
+  "review_source": "https://en.wikipedia.org/wiki/ResMed"
+ },
+ "Bank of Jiangsu": {
+  "exclude": "Formed 24 January 2007 from the combination and restructuring of 10 city commercial banks in Jiangsu; no founding person.",
+  "note": "Infobox has no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Bank_of_Jiangsu"
+ },
+ "Arch Capital": {
+  "founded_year": 2000,
+  "founders": [
+   "Robert Clements",
+   "Peter A. Appel"
+  ],
+  "note": "founders_wp held both names as one pipe-joined string 'Robert Clements|Peter A. Appel'; split into two. History: 'founded in May 2000 by Robert Clements and Peter A. Appel' (predecessor shell Risk Capital Holdings, 1995), so 2000 stands. Neither has an English Wikipedia article: 'Robert Clements' is",
+  "review_source": "https://en.wikipedia.org/wiki/Arch_Capital_Group"
+ },
+ "UltraTech Cement": {
+  "exclude": "Subsidiary carve-out: began 1983 as the cement division of Larsen & Toubro, demerged and taken over by Grasim (Aditya Birla Group) in 2004; no founding person.",
+  "note": "Infobox has no founder; key people are current executives.",
+  "review_source": "https://en.wikipedia.org/wiki/UltraTech_Cement"
+ },
+ "Repsol": {
+  "exclude": "State-owned enterprise: created 1986 by the Spanish state's Instituto Nacional de Hidrocarburos as a state holding, privatised 1989-1997; no founding person for Repsol.",
+  "note": "Infobox founder reads 'Miguel Primo de Rivera y Orbaneja (as CAMPSA in 1927)', a 1927 state monopoly, not Repsol; founders_wp 'CAMPSA' is a company, not a person.",
+  "review_source": "https://en.wikipedia.org/wiki/Repsol"
+ },
+ "Bank of Ningbo": {
+  "exclude": "City commercial bank founded 1997 as Ningbo Commercial Bank, government-affiliated (Ningbo Development and Investment Group is the largest holder); no founding person named.",
+  "note": "Infobox founder field empty.",
+  "review_source": "https://en.wikipedia.org/wiki/Bank_of_Ningbo"
+ },
+ "Abu Dhabi Commercial Bank (ADCB)": {
+  "exclude": "Formed 1985 by the merger of Emirates Commercial Bank, Federal Commercial Bank and Khaleej Commercial Bank; majority owned by the Government of Abu Dhabi; no founding person.",
+  "note": "Infobox has no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/ADCB"
+ },
+ "Daimler Truck": {
+  "exclude": "Spin-off of Daimler AG's heavy commercial vehicle operations (subsidiary from November 2019, separated December 2021); no founding person.",
+  "note": "Infobox has no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Daimler_Truck"
+ },
+ "GE HealthCare Technologies": {
+  "exclude": "Spin-off: General Electric's healthcare division (subsidiary since 1994), spun off January 2023; no founding person.",
+  "note": "Infobox has no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/GE_HealthCare"
+ },
+ "Yageo": {
+  "founded_year": 1977,
+  "founders": [
+   "Pierre Chen"
+  ],
+  "note": "Infobox has no founder field; the lead says 'founded in 1977 by Pierre Chen'. Article 'Pierre Chen' exists (Chen Tai-Min, Wikidata Q16734526, born 1958).",
+  "review_source": "https://en.wikipedia.org/wiki/Yageo"
+ },
+ "Axon Enterprise": {
+  "founded_year": 1993,
+  "founders": [
+   "Patrick W. Smith",
+   "Thomas P. Smith"
+  ],
+  "note": "founders_wp held both names as one pipe-joined string; split into two. History: 'In 1993, Rick and Tom Smith formed AIR TASER, Inc.' Neither founder has an English Wikipedia article (no 'Patrick W. Smith', 'Rick Smith (executive)' or 'Thomas P. Smith' page).",
+  "review_source": "https://en.wikipedia.org/wiki/Axon_Enterprise"
+ },
+ "Flex": {
+  "founded_year": 1969,
+  "founders": [
+   "Joe McKenzie",
+   "Barbara Ann McKenzie"
+  ],
+  "note": "Infobox 'founders' field names Joe McKenzie and Barbara Ann McKenzie; body: 'The company was founded in 1969 by Joe and Barbara-Ann McKenzie as Flextronics, Inc.' Neither has an English Wikipedia article: the existing page 'Joe McKenzie' is an Australian rules footballer (1889-1968), not the founder",
+  "review_source": "https://en.wikipedia.org/wiki/Flex_Ltd."
+ },
+ "Centene": {
+  "founded_year": 1984,
+  "founders": [
+   "Elizabeth Brinn"
+  ],
+  "note": "Infobox founder is the unlinked string Elizabeth \"Betty\" Brinn; History: 'Centene was founded by Elizabeth Brinn as Managed Health Services in Milwaukee, Wisconsin, in 1984.' Plain name given; no English Wikipedia article exists under 'Elizabeth Brinn' or 'Betty Brinn'.",
+  "review_source": "https://en.wikipedia.org/wiki/Centene_Corporation"
+ },
+ "Z.AI": {
+  "founded_year": 2019,
+  "founders": [
+   "Jie Tang",
+   "Li Juanzi"
+  ],
+  "note": "Infobox founders are [[Tang Jie]] and [[Li Juanzi]]. 'Tang Jie' redirects to the article 'Jie Tang' (Tsinghua computer-science professor, born 1977; lead: 'Founded in Beijing in 2019 by Jie Tang as a Tsinghua University spin-out'), so the exact title is 'Jie Tang'. 'Li Juanzi' is a red link with no ",
+  "review_source": "https://en.wikipedia.org/wiki/Z.ai"
+ },
+ "Eternal (Zomato)": {
+  "article": "Eternal Limited",
+  "founded_year": 2008,
+  "founders": [
+   "Deepinder Goyal",
+   "Pankaj Chaddah"
+  ],
+  "note": "The listed company is Eternal Limited (formerly Zomato Ltd; Zomato is now one of its brands). Its infobox: founded 10 July 2008, founders Deepinder Goyal and Pankaj Chaddah. The row's single founder string 'Deepinder Goyal|Pankaj Chaddah' is two people joined by a template pipe. Neither has his own ",
+  "review_source": "https://en.wikipedia.org/wiki/Eternal_Limited"
+ },
+ "Capitec Bank": {
+  "founded_year": 2001,
+  "founders": [
+   "Jannie Mouton",
+   "Michiel le Roux",
+   "Riaan Stassen"
+  ],
+  "note": "Infobox founders field lists Jannie Mouton, Michiel Le Roux and Riaan Stassen; the row was missing Stassen. 'Michiel Le Roux' redirects to the article 'Michiel le Roux' (lowercase le; co-founder and first CEO 2001-2004). Riaan Stassen has no English article. Infobox founded 1 March 2001 kept; Histor",
+  "review_source": "https://en.wikipedia.org/wiki/Capitec_Bank"
+ },
+ "AMEC": {
+  "article": "Advanced Micro-Fabrication Equipment",
+  "founded_year": 2004,
+  "founders": [
+   "Gerald Yin"
+  ],
+  "note": "Wrong article: 'Amec Foster Wheeler' is a defunct British engineering group formed by a 1982 merger. The Chinese AMEC is 'Advanced Micro-Fabrication Equipment' (Shanghai, partly state-owned, SSE-listed): infobox founded 31 May 2004, founder Gerald Yin; History: 'AMEC was co-founded in May 2004 by Ge",
+  "review_source": "https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment"
+ },
+ "Mindray": {
+  "founded_year": 1991,
+  "founders": [
+   "Li Xiting",
+   "Xu Hang",
+   "Cheng Minghe"
+  ],
+  "note": "Infobox has no founder field and the lead names none, so these come from the History section: 'Mindray was founded in 1991 in Shenzhen, Guangdong by seven former employees of Anke, including Li Xiting, Xu Hang and Cheng Minghe.' Infobox key_people tags Xu Hang '(co-founder)'. 'Li Xiting' and 'Xu Han",
+  "review_source": "https://en.wikipedia.org/wiki/Mindray"
+ },
+ "Extra Space Storage": {
+  "founded_year": 1977,
+  "founders": [
+   "Kenneth Woolley"
+  ],
+  "note": "Infobox founder Kenneth Woolley (unlinked) and founded 1977 are correct, but there is no English Wikipedia article for him: the title 'Kenneth Woolley' redirects to 'List of Cambridge University Cricket Club players', a different person, so do not use it for a birthday lookup.",
+  "review_source": "https://en.wikipedia.org/wiki/Extra_Space_Storage"
+ },
+ "ČEZ Group": {
+  "exclude": "State enterprise successor: established 1992 succeeding the state enterprise České energetické závody; the Czech state owns about 70%; no founding person.",
+  "note": "Infobox has no founder; lead: 'The parent company was established in 1992, succeeding the state enterprise České energetické závody.' Owner: Czech Republic via the Ministry of Finance (69.78%).",
+  "review_source": "https://en.wikipedia.org/wiki/ČEZ_Group"
+ },
+ "Renesas Electronics": {
+  "exclude": "Spin-off and merger: began as NEC Electronics (an NEC spin-off, Nov 2002) and became Renesas Electronics through the 2010 merger with Renesas Technology (Hitachi and Mitsubishi Electric); no founding ",
+  "note": "Infobox has no founder; predecessor Renesas Technology; lead: 'Renesas Electronics began operations in April 2010 following the merger of NEC Electronics and Renesas Technology.'",
+  "review_source": "https://en.wikipedia.org/wiki/Renesas_Electronics"
+ },
+ "Restaurant Brands International": {
+  "exclude": "Merger-formed holding company: created 15 Dec 2014 by the merger of Burger King and Tim Hortons (3G Capital); no founding person.",
+  "note": "Infobox has no founder; lead: 'formed in 2014 by the $12.5 billion merger between ... Burger King and ... Tim Hortons.'",
+  "review_source": "https://en.wikipedia.org/wiki/Restaurant_Brands_International"
+ },
+ "Experian": {
+  "exclude": "Corporate carve-out, no founder: formed in 1996 when TRW sold TRW Information Services (ex Credit Data Corporation, acquired 1968) and GUS merged it with its CCN unit; demerged from GUS in 2006.",
+  "note": "Infobox has no founder; History traces the business to Credit Data Corporation bought by TRW in 1968, sold as Experian in Nov 1996 to Bain Capital and Thomas H. Lee, then to GUS a month later. No person is named as founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Experian"
+ },
+ "CMOC": {
+  "exclude": "State-origin mining company: founded 1969 (China Molybdenum), partly state-owned; infobox founder field is empty and no person is named as founder.",
+  "note": "Infobox type: 'Public; partly state-owned'; founder field blank; lead names no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/CMOC_Group_Limited"
+ },
+ "Ping An Bank": {
+  "exclude": "Subsidiary with no founding person: subsidiary of Ping An Insurance formed through the 2012 reverse takeover of Shenzhen Development Bank (1987); infobox names no founder.",
+  "note": "Infobox founded lists 1995 (Ping An Bank), 1987 (Shenzhen Development Bank) and 2012 (merger); parent Ping An Insurance (55.67%); no founder field.",
+  "review_source": "https://en.wikipedia.org/wiki/Ping_An_Bank"
+ },
+ "Cboe Global Markets": {
+  "exclude": "No human founder: founded 1973 as the Chicago Board Options Exchange by the Chicago Board of Trade, an organisation; the row's founder 'Chicago Board of Trade' is not a person.",
+  "founders": [],
+  "note": "Infobox founder: [[Chicago Board of Trade]]; founded 'As Chicago Board Options Exchange 1973'. Drop the non-person founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Cboe_Global_Markets"
+ },
+ "Gazprom": {
+  "exclude": "State-owned enterprise: created 8 Aug 1989 from the Soviet Ministry of Gas Industry; Russian government owns 50.23%; infobox founder field is empty.",
+  "note": "Infobox type: 'State-owned company; Public (PAO)'; lead: 'Russian state-owned multinational energy corporation'.",
+  "review_source": "https://en.wikipedia.org/wiki/Gazprom"
+ },
+ "Wanhua Chemical": {
+  "exclude": "No human founder: infobox founder is 'Wanhua Group Corporation and other investors' (a company; largest owner is Yantai Guofeng, a state entity); founded 16 Dec 1998 in Yantai.",
+  "founders": [],
+  "note": "Drop the non-person founders 'Wanhua Group Corporation' and 'other investors'.",
+  "review_source": "https://en.wikipedia.org/wiki/Wanhua_Chemical_Group"
+ },
+ "Nutrien": {
+  "exclude": "Merger of equals: formed 1 Jan 2018 by the merger of PotashCorp and Agrium; no founding person.",
+  "note": "Infobox has no founder; lead: 'It was formed through the merger of PotashCorp and Agrium, in a transaction that closed on January 1, 2018.'",
+  "review_source": "https://en.wikipedia.org/wiki/Nutrien"
+ },
+ "Aselsan": {
+  "exclude": "State foundation: founded 1975 by the Turkish Army Foundation (now the Turkish Armed Forces Foundation, the major stockholder); no human founder.",
+  "note": "Lead: 'The Turkish Army Foundation is the founder, and its successor, the Turkish Armed Forces Foundation, is the major stockholder.' Infobox has no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Aselsan"
+ },
+ "Intact Financial": {
+  "exclude": "Renamed subsidiary, no founder: formed in 2009 when ING sold and renamed ING Canada; predecessors date to the Halifax Fire Insurance Association (1809).",
+  "note": "Infobox: founded 2009, former name ING Canada Inc., no founder; History: 'The predecessor company to Intact Financial was founded as the Halifax Fire Insurance Association in 1809' and 'ING decided to pull out of Canada in 2009'.",
+  "review_source": "https://en.wikipedia.org/wiki/Intact_Financial"
+ },
+ "Oriental Land": {
+  "exclude": "No founding person in the English article: founded 11 July 1960; infobox founder field is empty and neither infobox nor lead names a founder; the Wikidata-only 'Chiharu Kawasaki' has no English Wikipe",
+  "note": "History says only 'Oriental Land was founded in 1960.' Largest shareholder Keisei Electric Railway (20-22%). If Wikidata founders are accepted, Chiharu Kawasaki (Q11478367) is the only candidate, but no English article exists for him.",
+  "review_source": "https://en.wikipedia.org/wiki/Oriental_Land_Company"
+ },
+ "Ahold Delhaize": {
+  "exclude": "Merger of equals: formed by the 2016 merger of Ahold (Dutch) and Delhaize Group (Belgian), both with 1800s origins; no founding person.",
+  "note": "Infobox founded is a Wikidata pull ({{#statements:P571}}, 2016); no founder field; lead: 'Its name comes from the 2016 merger of two companies: Ahold (Dutch) and Delhaize Group (Belgian).'",
+  "review_source": "https://en.wikipedia.org/wiki/Ahold_Delhaize"
+ },
+ "NTPC Limited": {
+  "exclude": "State-owned enterprise: Indian central public sector undertaking owned by the Ministry of Power, Government of India, set up 7 Nov 1975; infobox founder field is empty.",
+  "note": "Infobox type: 'Central Public Sector Undertaking'; owner Ministry of Power, Government of India.",
+  "review_source": "https://en.wikipedia.org/wiki/NTPC_Limited"
+ },
+ "ACWA POWER Company": {
+  "exclude": "No human founder: founded 2004 as ACWA Power Projects, a joint venture between ACWA Holding (Abunayyan Holding and Al-Muhaidib) and the MADA Group, all companies; infobox and lead name no person as fo",
+  "note": "Body: 'originally founded in 2004 as ACWA Power Projects, a joint venture between ACWA Holding ... and the MADA Group'. Chairman Mohammad Abdullah Abunayyan is listed only as key person, is not called founder, and has no English article.",
+  "review_source": "https://en.wikipedia.org/wiki/ACWA_Power"
+ },
+ "Gree Electric Appliances": {
+  "exclude": "No founding person: established 1989 in Zhuhai as Zhuhai City Haili Cooling Engineering Company Limited (a city enterprise), restructured and renamed Gree in 1994; infobox founder field is empty and n",
+  "note": "Note the year conflict: infobox founded 1991, History says established 1989. Zhu Jianghong (chairman 2001-2012) is not named as founder in the Gree article.",
+  "review_source": "https://en.wikipedia.org/wiki/Gree_Electric"
+ },
+ "Naturgy": {
+  "exclude": "Spanish gas and electricity utility (formerly Gas Natural Fenosa), dated only to 1991 with no founder named anywhere in the article; a utility group with no founding person.",
+  "article": "Naturgy",
+  "note": "Row 455. Infobox has founded=1991 and no founder field; lead and body name no founder. Exclude.",
+  "review_source": "https://en.wikipedia.org/wiki/Naturgy"
+ },
+ "Alnylam Pharmaceuticals": {
+  "article": "Alnylam Pharmaceuticals",
+  "founded_year": 2002,
+  "founders": [
+   "Phillip Allen Sharp",
+   "Paul Schimmel",
+   "David Bartel",
+   "Thomas Tuschl",
+   "Phillip D. Zamore",
+   "Christoph Westphal"
+  ],
+  "note": "Row 457. Infobox has no founder field; the History section says it was founded in 2002 by scientists Phillip Sharp, Paul Schimmel, David Bartel, Thomas Tuschl, Phillip Zamore and investors Christoph Westphal and John Kennedy Clarke (John Maraganore was founding CEO, not a founder). John Kennedy Clar",
+  "review_source": "https://en.wikipedia.org/wiki/Alnylam_Pharmaceuticals"
+ },
+ "China National Nuclear Power": {
+  "exclude": "State-owned: China National Nuclear Power Co. is the listed subsidiary of the state-owned China National Nuclear Corporation; the matched article (China General Nuclear Power Group) is a different sta",
+  "article": "China National Nuclear Corporation",
+  "note": "Row 459. Wrong article: CGN is a different company from CNNP. CNNP has no English Wikipedia article of its own; its parent is China National Nuclear Corporation. Either way a state-owned enterprise, so excluded.",
+  "review_source": "https://en.wikipedia.org/wiki/China_General_Nuclear_Power_Group"
+ },
+ "Tenaris": {
+  "exclude": "Holding reorganisation: organised 17 Dec 2001 by Techint to consolidate its steel-pipe companies; roots trace to Siderca (1948); no founder named.",
+  "article": "Tenaris",
+  "note": "Row 460. Infobox has no founder; owner Techint 64%; History: 'traces its roots to the formation of Siderca ... in 1948. Tenaris was organized on December 17, 2001.' Origin predates 1960 and no founding person is named.",
+  "review_source": "https://en.wikipedia.org/wiki/Tenaris"
+ },
+ "Techtronic Industries": {
+  "article": "Techtronic Industries",
+  "founded_year": 1985,
+  "founders": [
+   "Horst Julius Pudwill",
+   "Roy Chung Chi Ping"
+  ],
+  "note": "Row 461. founders_wp held both names in one string joined by a pipe; split into two founders. Infobox founders: Horst Julius Pudwill and Roy Chung Chi Ping (History spells him Roy Chi Ping Chung). Neither has an English Wikipedia article; the existing 'Roy Chung' article is a US Army defector, not h",
+  "review_source": "https://en.wikipedia.org/wiki/Techtronic_Industries"
+ },
+ "Bending Spoons": {
+  "article": "Bending Spoons",
+  "founded_year": 2013,
+  "founders": [
+   "Luca Ferrari",
+   "Francesco Patarnello",
+   "Matteo Danieli",
+   "Luca Querella",
+   "Tomasz Greber"
+  ],
+  "note": "Row 464. The flag 'no founders in infobox' is wrong: the infobox 'founders' field (Unbulleted list) names Luca Ferrari, Francesco Patarnello, Matteo Danieli, Luca Querella and Tomasz Greber. None has an English Wikipedia article; the existing 'Luca Ferrari' article is a 17th-century painter, not the",
+  "review_source": "https://en.wikipedia.org/wiki/Bending_Spoons"
+ },
+ "Daiichi Sankyō": {
+  "exclude": "Merger of equals: established 2005 through the merger of Daiichi Pharmaceutical and Sankyo, both century-old companies.",
+  "article": "Daiichi Sankyo",
+  "note": "Row 465. Infobox: founded 2005 '(by merger)', predecessors Daiichi Pharmaceutical Company and Sankyo Company; no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Daiichi_Sankyo"
+ },
+ "Transurban": {
+  "exclude": "Formed March 1996 as a single-purpose concession company to operate Melbourne's CityLink toll road; no founding person named.",
+  "article": "Transurban",
+  "note": "Row 466. Infobox has no founder; lead says it was founded in March 1996 limited to operating CityLink under a single-purpose restriction. No person is named as founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Transurban"
+ },
+ "Itaúsa": {
+  "exclude": "Holding company of the Itaú group controlled by the Setubal and Villela families; the English article names no founder and the group's banking origin predates 1960.",
+  "article": "Itaúsa",
+  "note": "Row 467. Stub article: infobox founded=1966, no founder field; lead names no founder. Olavo Setúbal's article calls him chairman of Itaúsa (2001-2008), not founder. Cannot be included on Wikipedia evidence.",
+  "review_source": "https://en.wikipedia.org/wiki/Ita%C3%BAsa"
+ },
+ "Jabil": {
+  "article": "Jabil",
+  "founded_year": 1966,
+  "founders": [
+   "William E. Morean",
+   "James Golden"
+  ],
+  "note": "Row 468. founders_wp held both names in one pipe-joined string; split into two founders as the infobox lists them. The History section names the founders as James Golden and Bill Morean (name = JAmes + BILl). Neither has an English Wikipedia article; 'James Golden' is a disambiguation page for other",
+  "review_source": "https://en.wikipedia.org/wiki/Jabil"
+ },
+ "Shinhan Financial Group": {
+  "article": "Shinhan Financial Group",
+  "founded_year": 1982,
+  "founders": [
+   "Lee Hee-gun"
+  ],
+  "note": "Row 469. The 2001 holding company traces back to Shinhan Bank, founded 1982 by Lee Hee-gun with capital from Korean businessmen in Japan (Shinhan Bank article); the group's own lead says 'It was founded in 1982' and lists Lee Hee-gun as honorary chairman 2001-2011. Lee Hee-gun has no English Wikiped",
+  "review_source": "https://en.wikipedia.org/wiki/Shinhan_Financial_Group"
+ },
+ "Emcor": {
+  "exclude": "1994 renaming of Jamaica Water Properties (JWP) after its bankruptcy, with Frank MacInnis as CEO; a reorganised 19th-century utility successor with no founder.",
+  "article": "Emcor",
+  "note": "Row 470. Infobox has no founder; History: in 1994 Jamaica Water Properties filed for bankruptcy, MacInnis became CEO, sold businesses and renamed the remainder Emcor.",
+  "review_source": "https://en.wikipedia.org/wiki/Emcor"
+ },
+ "Ameren": {
+  "exclude": "Utility holding company created 31 Dec 1997 by the merger of Union Electric and Central Illinois Public Service (CIPSCO); no founder.",
+  "article": "Ameren",
+  "note": "Row 471. Lead: 'created December 31, 1997, by the merger of Union Electric Company ... and ... CIPSCO'.",
+  "review_source": "https://en.wikipedia.org/wiki/Ameren"
+ },
+ "Willis Towers Watson": {
+  "exclude": "Merger: formed 5 Jan 2016 by the merger of Willis Group and Towers Watson; no founder.",
+  "article": "Willis Towers Watson",
+  "note": "Row 472. Infobox predecessors Willis Group and Towers Watson; no founder field.",
+  "review_source": "https://en.wikipedia.org/wiki/Willis_Towers_Watson"
+ },
+ "DexCom": {
+  "article": "Dexcom",
+  "founded_year": 1999,
+  "founders": [
+   "Scott Glenn",
+   "John Burd",
+   "Lauren Otsuki",
+   "Ellen Preston",
+   "Bret Megargel"
+  ],
+  "note": "Row 474. Infobox has no founder field; the History section says 'Dexcom was founded in 1999 by Scott Glenn, John Burd, Lauren Otsuki, Ellen Preston and Bret Megargel.' None has an English Wikipedia article; the existing 'Scott Glenn' article is the actor, not the Dexcom founder, so do not link it.",
+  "review_source": "https://en.wikipedia.org/wiki/Dexcom"
+ },
+ "Hanwha Aerospace": {
+  "exclude": "Subsidiary with no founding person: established 1977 as Samsung Precision inside Samsung Group, now a Hanwha Group subsidiary.",
+  "article": "Hanwha Aerospace",
+  "note": "Row 478. Infobox has no founder, parent Hanwha Group; lead: 'a subsidiary of Hanwha Group ... established in 1977 as Samsung Precision'.",
+  "review_source": "https://en.wikipedia.org/wiki/Hanwha_Aerospace"
+ },
+ "ON Semiconductor": {
+  "exclude": "Spin-off: founded 1999 as a spinoff of Motorola's Semiconductor Components Group; no founder.",
+  "article": "Onsemi",
+  "note": "Row 480. Infobox predecessor Motorola Semiconductor Products Sector; History: 'originally a spinoff of Motorola's Semiconductor Components Group'.",
+  "review_source": "https://en.wikipedia.org/wiki/Onsemi"
+ },
+ "Fortis": {
+  "exclude": "Privatised-utility holding reorganisation: formed 1987 when shareholders of Newfoundland Light & Power (1885) voted to create a holding company; traces to an 1885 utility, no founding entrepreneur.",
+  "article": "Fortis Inc.",
+  "founded_year": 1987,
+  "note": "Row 481. Wrong article: the $29B Canadian 'Fortis' is Fortis Inc. (electric utility holding, St. John's), not Fortis Healthcare of India. Fortis Inc. infobox lists founder Angus Bruneau (first CEO, no Wikipedia article) and founded 1987, but the lead says it was created by NL&P shareholders exchangi",
+  "review_source": "https://en.wikipedia.org/wiki/Fortis_Inc."
+ },
+ "Aviva": {
+  "exclude": "Merger: formed May 2000 as CGNU plc when Norwich Union merged with CGU plc; no founder.",
+  "article": "Aviva",
+  "note": "Row 483. Infobox predecessors CGU plc and Norwich Union; Name section confirms the May 2000 merger.",
+  "review_source": "https://en.wikipedia.org/wiki/Aviva"
+ },
+ "LabCorp": {
+  "exclude": "Merger: formed April 1995 when Roche contributed Roche Biomedical Laboratories to National Health Laboratories (DCL BioMedical, 1968, bought by Revlon 1971); no attributable founder.",
+  "article": "Labcorp",
+  "note": "Row 484. The infobox 'founder = Matthew Benger' (present since at least Dec 2022) is not supported anywhere in the article body, no such Wikipedia article exists, and the History section describes only corporate predecessors and the 1995 combination. Do not use Matthew Benger as a founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Labcorp"
+ },
+ "DSM-Firmenich": {
+  "exclude": "Merger: formed 9 May 2023 through the merger of Royal DSM and Firmenich; no founder.",
+  "article": "DSM-Firmenich",
+  "note": "Row 485. Infobox predecessors DSM and Firmenich; lead confirms the merger.",
+  "review_source": "https://en.wikipedia.org/wiki/DSM-Firmenich"
+ },
+ "Brookfield Infrastructure Partners": {
+  "exclude": "Spin-off: an operating unit of Brookfield Asset Management until its January 2008 spin-off; no founder.",
+  "article": "Brookfield Infrastructure Partners",
+  "note": "Row 486. Lead: 'Until a spin-off in January 2008, Brookfield Infrastructure was an operating unit of Brookfield Asset Management, which retains a 30 percent ownership'.",
+  "review_source": "https://en.wikipedia.org/wiki/Brookfield_Infrastructure_Partners"
+ },
+ "Sumitomo Mitsui Trust Holdings": {
+  "exclude": "Bank holding company formed 2002 as Chuo Mitsui Trust Holdings for merged trust banks; no founder.",
+  "article": "Sumitomo Mitsui Trust Holdings",
+  "note": "Row 488. Infobox: founded 2002 '(as Chuo Mitsui Trust Holdings, Inc.)', no founder; lead describes a financial holding company.",
+  "review_source": "https://en.wikipedia.org/wiki/Sumitomo_Mitsui_Trust_Holdings"
+ },
+ "Formosa Petrochemical": {
+  "exclude": "Subsidiary with no founding person: founded 6 Apr 1992 as a wholly owned subsidiary of Formosa Plastics Group.",
+  "article": "Formosa Petrochemical",
+  "note": "Row 489. Infobox has no founder; Corporate overview: 'founded on April 6, 1992, as a wholly owned subsidiary of Formosa Plastics Group'. No person is named as founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Formosa_Petrochemical"
+ },
+ "Astellas Pharma": {
+  "exclude": "Formed 1 April 2005 by the merger of equals of Yamanouchi Pharmaceutical and Fujisawa Pharmaceutical; infobox lists predecessors and no founder.",
+  "note": "Merger of equals, no founding person; both predecessors date from before 1960.",
+  "review_source": "https://en.wikipedia.org/wiki/Astellas_Pharma"
+ },
+ "Bajaj Finserv": {
+  "exclude": "Spin-off: created in 2007 by the demerger of Bajaj Auto's financial-services business (Bombay High Court order 18 Dec 2007); no founding person in 2007.",
+  "note": "Infobox founder Jamnalal Bajaj (1889-1942) founded the Bajaj group in 1926, outside the window, and could not have founded a 2007 company; the article's history describes a demerger, not a founding.",
+  "review_source": "https://en.wikipedia.org/wiki/Bajaj_Finserv"
+ },
+ "Kraft Heinz": {
+  "exclude": "Formed 2 July 2015 by the merger of Kraft Foods Group and the H.J. Heinz Company; no founder in infobox or lead.",
+  "note": "Merger of equals.",
+  "review_source": "https://en.wikipedia.org/wiki/Kraft_Heinz"
+ },
+ "China Coal Energy Company Limited": {
+  "exclude": "State-owned enterprise: listed subsidiary of China National Coal Group, infobox founded 2006, founder field empty, no founder in lead.",
+  "article": "China Coal Energy",
+  "note": "The picked article (China Shenhua Energy) is a different company; the right page is 'China Coal Energy' (founded 2006, not 1995). Excluded either way as a state-owned enterprise with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/China_Coal_Energy"
+ },
+ "TechnipFMC": {
+  "exclude": "Formed 17 January 2017 by the merger of Technip (France) and FMC Technologies (US); infobox lists predecessors and no founder.",
+  "note": "Merger of equals.",
+  "review_source": "https://en.wikipedia.org/wiki/TechnipFMC"
+ },
+ "SharkNinja": {
+  "founded_year": 1994,
+  "founders": [
+   "Mark Rosenzweig"
+  ],
+  "note": "Data stands (infobox: founded 1994, founder Mark Rosenzweig), but 'Mark Rosenzweig' on English Wikipedia is a disambiguation page (an economist and a psychologist); the SharkNinja founder has no article, so do not resolve his birthday from that title.",
+  "review_source": "https://en.wikipedia.org/wiki/SharkNinja"
+ },
+ "Yili Group": {
+  "exclude": "Partly state-owned (Hohhot government); traces to the 1956 state 'Cattle Breeding Team of Hohhot Huimin District', reorganised as a joint-stock company in 1993; no founder in infobox or lead.",
+  "note": "State-owned enterprise reorganisation, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Yili_Group"
+ },
+ "DTE Energy": {
+  "exclude": "Utility holding company created in the mid-1990s for Detroit Edison (founded 1903); infobox founder field empty, no founder in lead.",
+  "note": "Privatised/regulated utility with no founding person; its origin (Detroit Edison, 1903) is outside the window anyway.",
+  "review_source": "https://en.wikipedia.org/wiki/DTE_Energy"
+ },
+ "EchoStar": {
+  "founded_year": 1980,
+  "founders": [
+   "Charlie Ergen"
+  ],
+  "note": "Infobox 'founded 2008' is the date the Dish Network business was spun off from the EchoStar technology side; the article says 'EchoStar was originally formed in 1980 by its chairman Charles Ergen' and calls Ergen its 'founder', and EchoStar reacquired Dish in 2023, so the origin is 1980 by Charlie E",
+  "review_source": "https://en.wikipedia.org/wiki/EchoStar"
+ },
+ "China Everbright Bank": {
+  "exclude": "State-owned enterprise: national joint-stock bank established August 1992 with State Council approval; infobox type 'partial state-owned enterprise', founder field empty.",
+  "note": "No founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/China_Everbright_Bank"
+ },
+ "Doosan Enerbility": {
+  "exclude": "No human founder: article says the company (formerly Korea Heavy Industries and Construction, a state heavy-industry company privatised to Doosan in 2001) was 'founded by Doosan Group' in 1962; infobo",
+  "note": "Founder named is a company, not a person.",
+  "review_source": "https://en.wikipedia.org/wiki/Doosan_Enerbility"
+ },
+ "Quest Diagnostics": {
+  "founded_year": 1967,
+  "founders": [
+   "Paul A. Brown"
+  ],
+  "note": "Infobox founder 'Paul Brown' is unlinked; the exact article is 'Paul A. Brown' (1938-2024), whose page says he founded MetPath in 1967, later spun off as Quest Diagnostics.",
+  "review_source": "https://en.wikipedia.org/wiki/Paul_A._Brown"
+ },
+ "Ryanair": {
+  "founded_year": 1984,
+  "founders": [
+   "Christopher Ryan (aviation executive)",
+   "Tony Ryan",
+   "Declan Ryan",
+   "Liam Lonergan"
+  ],
+  "note": "Row had no founders_wp and a vandalised Wikidata value ('rachdi mohamee'). The infobox founders field names Christopher Ryan, Tony Ryan, Declan Ryan and Liam Lonergan; the lead names Christopher and Tony Ryan. 'Declan Ryan' on Wikipedia is a disambiguation page (a chef and a hurler), and Liam Lonerg",
+  "review_source": "https://en.wikipedia.org/wiki/Ryanair"
+ },
+ "Amadeus IT Group": {
+  "exclude": "Founded 1987 as an airline consortium (Air France, Iberia, Lufthansa, SAS); infobox has no founder field and the lead names no founder.",
+  "note": "No human founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Amadeus_IT_Group"
+ },
+ "FirstEnergy": {
+  "exclude": "Formed 7 November 1997 by the merger of Ohio Edison and Centerior Energy; infobox lists predecessors and no founder.",
+  "note": "Merger of utilities, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/FirstEnergy"
+ },
+ "Copart": {
+  "founded_year": 1982,
+  "founders": [
+   "Willis Johnson"
+  ],
+  "note": "Exact-title fix only: 'Willis J. Johnson' redirects to the article 'Willis Johnson' (born 1947, founder of Copart). Year 1982 stands.",
+  "review_source": "https://en.wikipedia.org/wiki/Copart"
+ },
+ "Grupo ACS": {
+  "exclude": "Formed in 1997 by the merger of OCP Construcciones and Ginés Navarro Construcciones; infobox founder field empty, lead names no founder.",
+  "note": "Merger; Florentino Pérez appears only as chairman.",
+  "review_source": "https://en.wikipedia.org/wiki/ACS_Group"
+ },
+ "Cerebras Systems": {
+  "founded_year": 2015,
+  "founders": [
+   "Andrew Feldman (businessman)",
+   "Gary Lauterbach",
+   "Michael James",
+   "Sean Lie",
+   "Jean-Philippe Fricker"
+  ],
+  "note": "Infobox founders field lists five people; the row had only Andrew Feldman. Only Feldman has an article; 'Michael James' on Wikipedia redirects to the disambiguation page 'Mike James' (other people), and the other three have no articles.",
+  "review_source": "https://en.wikipedia.org/wiki/Cerebras_Systems"
+ },
+ "Weichai Power": {
+  "exclude": "Founded 23 December 2002 as the listed arm of the state-owned Weichai Group (Shandong Heavy Industry); infobox founder field empty, no founder in lead.",
+  "note": "State-owned subsidiary, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Weichai_Power"
+ },
+ "W. R. Berkley": {
+  "founded_year": 1967,
+  "founders": [
+   "W. R. Berkley"
+  ],
+  "note": "Exact-title fix only: 'William R. Berkley' redirects to the article 'W. R. Berkley' (1946-2026, founder of W. R. Berkley Corporation). Year 1967 stands.",
+  "review_source": "https://en.wikipedia.org/wiki/W._R._Berkley_Corporation"
+ },
+ "China Resources Land": {
+  "exclude": "Property arm of the state-owned China Resources Group, listed as a red chip in 1996; infobox founder field empty, no founder in lead.",
+  "note": "State-owned subsidiary, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/China_Resources_Land"
+ },
+ "ULTA Beauty": {
+  "founded_year": 1990,
+  "founders": [
+   "Terry Hanson",
+   "Dick George"
+  ],
+  "note": "Row had the two founders joined as one string ('Terry Hanson | Dick George'); the infobox lists them separately and the body says Ulta was founded by Richard E. George (ex-president of Osco Drug) and Terry Hanson. Neither has an article: the existing 'Terry Hanson' page is a radio personality, not t",
+  "review_source": "https://en.wikipedia.org/wiki/Ulta_Beauty"
+ },
+ "Ørsted": {
+  "exclude": "Formed 14 March 2006 (as DONG Energy) by merging the state-owned Dansk Naturgas with Elsam, Energi E2, NESA, Københavns Energi and Frederiksberg Forsyning; Danish state is majority owner; infobox foun",
+  "note": "State-owned merger, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/%C3%98rsted_(company)"
+ },
+ "Hapag-Lloyd": {
+  "exclude": "Formed 1 September 1970 by the merger of Hamburg America Line (HAPAG) and Norddeutscher Lloyd; the infobox founders are the 19th-century founders of those predecessors ('all founded in 1800s').",
+  "note": "Merger; the row's founders_wp were the two predecessor companies, not people.",
+  "review_source": "https://en.wikipedia.org/wiki/Hapag-Lloyd"
+ },
+ "AIB Group (Allied Irish Banks)": {
+  "exclude": "Formed 21 Sep 1966 as a new company that acquired/merged three banks (Provincial Bank of Ireland, Royal Bank of Ireland, Munster & Leinster Bank); infobox has no founder and the article names none.",
+  "note": "Merger of existing banks, no founding person. Later nationalised 2010, re-listed 2017.",
+  "review_source": "https://en.wikipedia.org/wiki/Allied_Irish_Banks"
+ },
+ "Tradeweb": {
+  "founded_year": 1996,
+  "founders": [
+   "Lee Olesky",
+   "Jim Toffey"
+  ],
+  "note": "Infobox 'Founded' says 1998 (platform launch) and has no founder field; the History section says Tradeweb was 'co-founded in 1996 by Lee Olesky and Jim Toffey' while both were at Credit Suisse First Boston. Founders come from the History section, not the lead. 'Lee Olesky' has an article; 'Jim Toffe",
+  "review_source": "https://en.wikipedia.org/wiki/Tradeweb"
+ },
+ "Aker BP": {
+  "exclude": "Formed by a 2016 merger of Det norske oljeselskap and BP Norge (Aker 40%, BP 30%, public 30%); infobox has no founder and the article names none.",
+  "note": "Merger; founding chain is Det norske (1971) + Pertra + Aker Exploration + BP Norge, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Aker_BP"
+ },
+ "VICI Properties": {
+  "exclude": "Formed 6 Oct 2017 as a spin-off from Caesars Entertainment in its Chapter 11 bankruptcy reorganisation; no founder in infobox or lead.",
+  "note": "Spin-off with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Vici_Properties"
+ },
+ "MTR Corporation": {
+  "exclude": "Began in 1972/1975 as the Mass Transit Railway Corporation, a Hong Kong government statutory body; the Hong Kong Government still holds 75.09%; no founder named.",
+  "note": "State-owned enterprise, partly privatised in 2000.",
+  "review_source": "https://en.wikipedia.org/wiki/MTR_Corporation"
+ },
+ "Powergrid Corporation of India": {
+  "exclude": "Indian central public sector undertaking owned by the Ministry of Power, Government of India; no founder named.",
+  "note": "State-owned enterprise.",
+  "review_source": "https://en.wikipedia.org/wiki/Power_Grid_Corporation_of_India"
+ },
+ "Coal India": {
+  "exclude": "Indian state-owned coal mining company (Government of India 63.13%); no founder named.",
+  "note": "State-owned enterprise.",
+  "review_source": "https://en.wikipedia.org/wiki/Coal_India"
+ },
+ "Airports of Thailand": {
+  "exclude": "Government-owned company (Thai government holds 70%); no founder named.",
+  "note": "State-owned enterprise.",
+  "review_source": "https://en.wikipedia.org/wiki/Airports_of_Thailand"
+ },
+ "GlobalFoundries": {
+  "exclude": "Created 2 Mar 2009 by the divestiture (spin-off) of AMD's manufacturing arm, owned by Mubadala until its 2021 IPO; no founder named.",
+  "note": "Spin-off with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/GlobalFoundries"
+ },
+ "Samsung Electro-Mechanics": {
+  "exclude": "Samsung Group subsidiary established in 1973 as Samsung Sanyo Parts; infobox has no founder and the article names none.",
+  "note": "Subsidiary with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Samsung_Electro-Mechanics"
+ },
+ "Eversource Energy": {
+  "exclude": "Utility holding company formed 1 Jul 1966 as Northeast Utilities by combining Connecticut Light and Power, Western Massachusetts Electric and Hartford Electric Light; no founder named (Lelan Sillin wa",
+  "note": "Utility holding company / merger, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Eversource_Energy"
+ },
+ "Sany Heavy Industry": {
+  "founded_year": 1986,
+  "founders": [
+   "Liang Wengen",
+   "Tang Xiuguo",
+   "Mao Zhongwu",
+   "Yuan Jinhua"
+  ],
+  "note": "Infobox 'Founders' lists four people, the row has only Liang Wengen. Year: infobox says 1989, but the History section says the origin company, Lianyuan Welding Material Ltd, was 'founded in 1986 by Liang Wengen, Tang Xiuguo, Mao Zhongwu and Yuan Jinhua', renamed Sany Group in 1991; the listed Sany H",
+  "review_source": "https://en.wikipedia.org/wiki/Sany"
+ },
+ "Samsara": {
+  "founders": [
+   "Sanjit Biswas",
+   "John Bicket"
+  ],
+  "note": "Infobox 'Founders' lists Sanjit Biswas and John Bicket (both ex-Meraki); the row has only Biswas. 'John Bicket' has no English Wikipedia article. Year 2015 is correct.",
+  "review_source": "https://en.wikipedia.org/wiki/Samsara_(company)"
+ },
+ "East Japan Railway": {
+  "exclude": "Incorporated 1 Apr 1987 as the privatisation/spin-off of the government-run Japanese National Railways; wholly owned by the JNR Settlement Corporation until sold to the public by 2002; no founder name",
+  "note": "Privatised state railway.",
+  "review_source": "https://en.wikipedia.org/wiki/East_Japan_Railway_Company"
+ },
+ "Veralto": {
+  "exclude": "Spun off from Danaher Corporation in September/October 2023; infobox has no founder and the article names none.",
+  "note": "Spin-off with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Veralto"
+ },
+ "Verisk Analytics": {
+  "exclude": "Origin is the Insurance Services Office, created in 1971 by combining several property/casualty insurance bureaus (an industry body); no founder named.",
+  "note": "Industry association origin, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Verisk_Analytics"
+ },
+ "Affirm": {
+  "founders": [
+   "Max Levchin",
+   "Nathan Gettings",
+   "Jeffrey Kaditz",
+   "Alex Rampell"
+  ],
+  "note": "Infobox 'Founders' lists four people in this order and the History section says 'Affirm was founded in 2012 by Max Levchin, Nathan Gettings, Jeffrey Kaditz, and Alex Rampell'; the row has only the first two. 'Jeffrey Kaditz' and 'Alex Rampell' have no English Wikipedia articles. Year 2012 is correct",
+  "review_source": "https://en.wikipedia.org/wiki/Affirm_Holdings"
+ },
+ "ST Engineering": {
+  "exclude": "Government-linked: traces to Chartered Industries of Singapore (1967, state defence firm), formed as a listed holding company in 1997 by merging four Singapore Technologies units, parent Temasek Holdi",
+  "note": "State-owned enterprise / merger, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/ST_Engineering"
+ },
+ "EnBW Energie": {
+  "exclude": "Formed 1 Jan 1997 by the merger of Badenwerk AG and Energie-Versorgung Schwaben AG; 46.75% held by the state of Baden-Württemberg's NECKARPRI and 46.75% by municipal OEW; no founder named.",
+  "note": "Utility merger, publicly owned, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/EnBW"
+ },
+ "Synchrony Financial": {
+  "exclude": "Incorporated 2003 as GE Capital Retail Finance Corporation, inactive until GE spun off its retail finance unit in 2013-2014; no founder named.",
+  "note": "Spin-off of a GE unit, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Synchrony_Financial"
+ },
+ "Darden Restaurants": {
+  "founded_year": 1968,
+  "founders": [
+   "William Darden"
+  ],
+  "note": "Infobox gives 1995, the year General Mills spun the restaurant group off; the lead says the company began as an extension of Red Lobster, which William Darden opened in 1968 (he sold it to General Mills in 1970). Trace to origin: 1968. His 1938 Green Frog diner is his first restaurant, not this busi",
+  "review_source": "https://en.wikipedia.org/wiki/Darden_Restaurants"
+ },
+ "InterContinental Hotels Group": {
+  "exclude": "Formed 15 April 2003 by the demerger of Six Continents (ex-Bass); infobox founders William Bass (Bass Brewery, 1777) and Juan Trippe (InterContinental chain, 1946) founded predecessor businesses befor",
+  "note": "Exclude: demerger, no founding person in the window.",
+  "review_source": "https://en.wikipedia.org/wiki/IHG_Hotels_%26_Resorts"
+ },
+ "AerCap": {
+  "exclude": "No founder in infobox or lead; the company is debis AirFinance renamed in 2005 after a Cerberus buyout (lineage to Guinness Peat Aviation, 1975, is a predecessor, not this company).",
+  "note": "Exclude: no founding person named.",
+  "review_source": "https://en.wikipedia.org/wiki/AerCap"
+ },
+ "Trip.com": {
+  "article": "Trip.com Group",
+  "founded_year": 1999,
+  "founders": [
+   "James Liang",
+   "Neil Shen"
+  ],
+  "note": "The picked article 'Trip.com' is the travel website (a subsidiary); the listed company is Trip.com Group, formerly Ctrip.com International. Its History section says it was founded as Ctrip.com in June 1999 by James Liang, Neil Shen, Min Fan, and Qi Ji; the infobox has no founder field and the lead n",
+  "review_source": "https://en.wikipedia.org/wiki/Trip.com_Group"
+ },
+ "Entegris": {
+  "exclude": "Formed in 1999 by combining Fluoroware (operating since 1966) and EMPAK, later merged with Mykrolis; no founder named in infobox, lead, or history.",
+  "note": "Exclude: no founding person named.",
+  "review_source": "https://en.wikipedia.org/wiki/Entegris"
+ },
+ "China International Capital Corporation": {
+  "exclude": "Partially state-owned enterprise, incorporated 1995 as a joint venture of China Construction Bank, Morgan Stanley, and others; no founding person.",
+  "note": "Exclude: state-owned joint venture.",
+  "review_source": "https://en.wikipedia.org/wiki/China_International_Capital_Corporation"
+ },
+ "Coca-Cola FEMSA": {
+  "exclude": "Subsidiary of FEMSA, begun as a joint venture with The Coca-Cola Company (1991/1993); no founding person.",
+  "note": "Exclude: subsidiary with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Coca-Cola_FEMSA"
+ },
+ "Regions Financial": {
+  "exclude": "Formed 1971 as First Alabama Bankshares by combining three Alabama banks (founded 1856, 1871, 1928); no founding person.",
+  "note": "Exclude: merger of existing banks.",
+  "review_source": "https://en.wikipedia.org/wiki/Regions_Financial_Corporation"
+ },
+ "ENEOS Holdings": {
+  "exclude": "Holding company created 1 April 2010 by joint share transfer of Nippon Oil and Nippon Mining Holdings (merged again with TonenGeneral 2017); no founder.",
+  "note": "Exclude: merger holding company.",
+  "review_source": "https://en.wikipedia.org/wiki/ENEOS_Holdings"
+ },
+ "WuXi Biologics": {
+  "exclude": "Spun off from parent WuXi AppTec (started 2010 as a division, infobox 2015); no founder named in infobox or lead.",
+  "note": "Exclude: spin-off with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/WuXi_Biologics"
+ },
+ "Hana Financial Group": {
+  "exclude": "Established December 2005 as Hana Bank's transition to a holding company; no founder named.",
+  "note": "Exclude: holding-company reorganisation with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Hana_Financial_Group"
+ },
+ "Bandai Namco": {
+  "exclude": "Formed 29 September 2005 by the merger of Bandai and Namco; no founder named.",
+  "article": "Bandai Namco Holdings",
+  "note": "The picked article 'Bandai Namco Studios' is a 2012 game-development subsidiary; the listed company is Bandai Namco Holdings. Exclude: merger of equals.",
+  "review_source": "https://en.wikipedia.org/wiki/Bandai_Namco_Holdings"
+ },
+ "Fortum": {
+  "exclude": "State-owned (Government of Finland 53%); created 1998 by merging Imatran Voima and Neste; no founder.",
+  "note": "Exclude: state-owned merger.",
+  "review_source": "https://en.wikipedia.org/wiki/Fortum"
+ },
+ "Incyte": {
+  "founded_year": 1991,
+  "founders": [],
+  "note": "Infobox says 2002, but the article states Incyte was founded by Roy A. Whitfield on April 8, 1991, in Palo Alto. The infobox founder link 'Roy A. Whitfield' is a red link (no English Wikipedia article, nor 'Roy Whitfield'), so no founder title can be given; keep the name as plain text or exclude for",
+  "review_source": "https://en.wikipedia.org/wiki/Incyte"
+ },
+ "Victory Giant Technology": {
+  "founders": [],
+  "note": "Infobox founder 'Chen Tao' is unlinked, and the Wikipedia title 'Chen Tao' is a disambiguation page, so no founder article title exists. Also the infobox says 2003 while the Background section says founded in 2006; the article does not reconcile them. Keep 2003 only if the infobox is the rule.",
+  "review_source": "https://en.wikipedia.org/wiki/Victory_Giant_Technology"
+ },
+ "Hyundai Mobis": {
+  "founders": [
+   "Chung Mong-koo"
+  ],
+  "note": "Infobox key_people lists '[[Chung Mong-koo]] (Founder)'; no separate founder field, and the lead names no founder. Founded 25 June 1977 as Hyundai Precision Industry (a Hyundai Group company). Taken from the infobox founder label; reviewer may prefer to exclude as a group subsidiary.",
+  "review_source": "https://en.wikipedia.org/wiki/Hyundai_Mobis"
+ },
+ "Moore Threads": {
+  "founders": [],
+  "note": "Lead says founded October 2020 by Zhang Jianzhong (ex-Nvidia China), co-founded by Zhang Yubo. Neither has an English Wikipedia article (the title 'Zhang Jianzhong' is a footballer born 1985), so no founder titles can be given.",
+  "review_source": "https://en.wikipedia.org/wiki/Moore_Threads"
+ },
+ "Lasertec": {
+  "exclude": "Founded 1960 as Tokyo ITV Laboratory; no founder named in infobox, lead, or history.",
+  "note": "Exclude: no founding person named.",
+  "review_source": "https://en.wikipedia.org/wiki/Lasertec"
+ },
+ "Las Vegas Sands": {
+  "founders": [
+   "Sheldon Adelson"
+  ],
+  "note": "Infobox founder text 'Sheldon G. Adelson' is a redirect; the article title is 'Sheldon Adelson'. Founded 17 November 1988 stands.",
+  "review_source": "https://en.wikipedia.org/wiki/Las_Vegas_Sands"
+ },
+ "Largan Precision": {
+  "founders": [
+   "Scott Lin"
+  ],
+  "note": "Infobox (key people) and History name co-founders Tony Chen and Scott Lin, 1987. 'Scott Lin' has an article (born 1933, co-founder of Largan Precision); 'Tony Chen' is a red link, so he cannot be given as a title.",
+  "review_source": "https://en.wikipedia.org/wiki/Largan_Precision"
+ },
+ "Fresnillo": {
+  "exclude": "A wholly owned division of Industrias Peñoles until a minority stake was floated in a May 2008 IPO; Peñoles remains parent; no founder.",
+  "note": "Exclude: spin-off/subsidiary with no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Fresnillo_plc"
+ },
+ "China Minsheng Bank": {
+  "founders": [
+   "Jing Shuping"
+  ],
+  "note": "Lead: founded in 1996 by lawyer and businessman Jing Shuping (article exists; 7 July 1918 - 14 September 2009), the first privately owned bank in the PRC. Infobox has no founder field; founded 12 January 1996 stands.",
+  "review_source": "https://en.wikipedia.org/wiki/China_Minsheng_Bank"
+ },
+ "Banco BPM": {
+  "exclude": "Formed 1 January 2017 by the merger of Banco Popolare and Banca Popolare di Milano; no founder.",
+  "note": "Exclude: merger of equals.",
+  "review_source": "https://en.wikipedia.org/wiki/Banco_BPM"
+ },
+ "Huatai Securities": {
+  "exclude": "Established 9 April 1991 as Jiangsu Securities Company; no founder named in infobox, lead, or history.",
+  "note": "Exclude: no founding person named.",
+  "review_source": "https://en.wikipedia.org/wiki/Huatai_Securities"
+ },
+ "Shenzhen Inovance": {
+  "founders": [],
+  "note": "Infobox founder 'Zhu Xingming' (April 2003, with other ex-Huawei engineers) is unlinked and no English Wikipedia article exists under that title, so he cannot be given as an article title; the dataset's founders_wp value is a plain name, not a title.",
+  "review_source": "https://en.wikipedia.org/wiki/Inovance"
+ },
+ "Hydro One": {
+  "exclude": "Successor to Ontario Hydro, created 1 April 1999 under the Energy Competition Act with the Government of Ontario as sole shareholder (partly privatised later); no founder.",
+  "note": "Exclude: privatised utility.",
+  "review_source": "https://en.wikipedia.org/wiki/Hydro_One"
+ },
+ "Hindustan Zinc": {
+  "exclude": "Incorporated 10 January 1966 as a government public-sector undertaking from the Metal Corporation of India; privatised to Sterlite/Vedanta in 2002-03; no founder.",
+  "note": "Exclude: state-owned enterprise.",
+  "review_source": "https://en.wikipedia.org/wiki/Hindustan_Zinc"
+ },
+ "Central Japan Railway": {
+  "exclude": "Created 1 April 1987 by the privatisation of Japanese National Railways; no founder.",
+  "note": "Exclude: privatised state railway.",
+  "review_source": "https://en.wikipedia.org/wiki/Central_Japan_Railway_Company"
+ },
+ "Bank of Nanjing": {
+  "exclude": "Founded 6 February 1996 as Nanjing City Commercial Bank through a merger of 40 urban credit cooperatives; no founding person.",
+  "note": "Exclude: merger of cooperatives, no founding person.",
+  "review_source": "https://en.wikipedia.org/wiki/Bank_of_Nanjing"
+ },
+ "Coca-Cola HBC": {
+  "exclude": "No founder named in the infobox, lead or body: incorporated 1969 in Athens as Hellenic Bottling Company S.A. under a Coca-Cola bottling franchise; the only person named (Anastasios George Leventis) fo",
+  "note": "Exclude: no named human founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Coca-Cola_HBC"
+ },
+ "NN Group": {
+  "exclude": "Spin-off: NN Group was split off from ING Group in 2013 under the Dutch state support deal; its 1963 origin is the merger of De Nederlanden van 1845 and Nationale Levensverzekeringsbank; no founding p",
+  "note": "Exclude: spin-off of ING with a merger origin, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/NN_Group"
+ },
+ "nVent Electric": {
+  "exclude": "Spin-off: Pentair separated its electrical business on 1 May 2018 to create nVent; no founding person (infobox lists Pentair as predecessor, no founder field).",
+  "note": "Exclude: spin-off, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/NVent_Electric"
+ },
+ "Aluminum Corporation of China": {
+  "exclude": "State-owned enterprise: Chalco was set up in 2001 as the listed commercial arm of wholly state-owned Chinalco (SASAC), which holds 35.78%; no founding person.",
+  "note": "Exclude: state-owned subsidiary, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Aluminum_Corporation_of_China_Limited"
+ },
+ "EDP Group": {
+  "exclude": "Privatised utility created by the state: Electricidade de Portugal was formed on 30 June 1976 by the Portuguese government (Decree-Law 502/76) merging 14 nationalised electricity companies, later priv",
+  "note": "Exclude: state-created, privatised utility.",
+  "review_source": "https://en.wikipedia.org/wiki/EDP_Group"
+ },
+ "ATI Inc.": {
+  "exclude": "Merger: Allegheny Technologies was formed in 1996 by the merger of Allegheny Ludlum (itself a 1939 merger) and Teledyne; no founding person in infobox, lead or body.",
+  "note": "Exclude: 1996 merger, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Allegheny_Technologies"
+ },
+ "KeyCorp (KeyBank)": {
+  "exclude": "Merger of equals: KeyBank was formed on 1 March 1994 by the merger of Society Corporation (Cleveland) and KeyCorp (Albany), with roots to 1825; the article calls it a merger of equals and names no fou",
+  "note": "Exclude: 1994 merger of equals, pre-1960 roots.",
+  "review_source": "https://en.wikipedia.org/wiki/KeyBank"
+ },
+ "AXIA Energia SA": {
+  "exclude": "Privatised state utility: Eletrobras was established in 1962 by the Brazilian government (Goulart presidency), controlled by the state until its 2022 privatisation, renamed Axia Energia in 2025; no fo",
+  "note": "Exclude: state-owned utility, privatised 2022.",
+  "review_source": "https://en.wikipedia.org/wiki/Axia_Energia"
+ },
+ "Steris": {
+  "exclude": "No founder named anywhere in the article: it says only that the company was founded in August 1985 in Ohio as Innovative Medical Technologies; the infobox has no founder field and the lead and body na",
+  "note": "Exclude: no named human founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Steris"
+ },
+ "CK Infrastructure": {
+  "exclude": "Subsidiary with no founding person: CKI is 75.67% owned by CK Hutchison Holdings; the infobox founder field is empty and the article names no founder (Li Ka-shing is described only as the businessman ",
+  "note": "Exclude: CK Hutchison subsidiary, no founder named.",
+  "review_source": "https://en.wikipedia.org/wiki/CK_Infrastructure_Holdings"
+ },
+ "Global Payments": {
+  "exclude": "Spin-off: formed as a National Data Corporation subsidiary (infobox 2000, body 1996) and spun off from it in 2001; no founding person.",
+  "note": "Exclude: spin-off of National Data Corporation.",
+  "review_source": "https://en.wikipedia.org/wiki/Global_Payments"
+ },
+ "Tapestry": {
+  "exclude": "Rename of Coach, Inc.: the business traces back to Coach, founded in 1941 (before 1960) by Miles Cahn and Lillian Cahn; the infobox's 1 June 2000 date is only the incorporation of Coach, Inc. (renamed",
+  "note": "Exclude: origin is Coach, 1941, outside the 1960-2023 window.",
+  "review_source": "https://en.wikipedia.org/wiki/Tapestry,_Inc."
+ },
+ "US Foods": {
+  "exclude": "No founding person: the article traces US Foods to John Sexton & Company (1883) and a chain of ownership changes and mergers (Beatrice Foods, Rykoff-Sexton 1983, JP Foodservice as a Sara Lee spin-off,",
+  "note": "Exclude: assembled by mergers and buyouts, pre-1960 roots, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/US_Foods"
+ },
+ "Tower Semiconductor": {
+  "exclude": "No founder named: the infobox founder field is empty and the article says only that the company was founded in 1993 and listed in 1994; no person is named in lead or body.",
+  "note": "Exclude: no named human founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Tower_Semiconductor"
+ },
+ "MTN Group": {
+  "exclude": "No founder in infobox or lead: founded in 1994 as M-Cell \"with assistance from the South African government\"; the only body mention is a 1995 CEO-change sentence calling Leena Jaitley \"founder\", cited",
+  "note": "Exclude: government-assisted licence company, no attributable founder.",
+  "review_source": "https://en.wikipedia.org/wiki/MTN_Group"
+ },
+ "Nippon Steel": {
+  "exclude": "Merger with pre-1960 origin: New Japan Steel was formed on 31 March 1970 by re-merging Yawata Iron & Steel and Fuji Iron & Steel, the two halves of the 1934 state-created Japan Iron & Steel (Yawata wo",
+  "note": "Exclude. Data note: the infobox DOES have a founders field (Yoshihiro Inayama, Shigeo Nagano, as de.wikipedia external links inside a Plainlist), which the dataset's 'no founders in infobox' flag missed; neither has an English Wikipedia article.",
+  "review_source": "https://en.wikipedia.org/wiki/Nippon_Steel"
+ },
+ "VAT Group": {
+  "exclude": "No founder in the infobox or lead: only the History section says Siegfried Schertler founded the company in Flawil in 1965, and he has no English Wikipedia article.",
+  "note": "Exclude under the infobox-or-lead rule. Article identity confirmed (Swiss vacuum valve maker VAT Group AG, Haag), so the 'matched by name only' flag can be cleared. If the parent wants body-named founders too, the founder is Siegfried Schertler, 1965 (no article).",
+  "review_source": "https://en.wikipedia.org/wiki/VAT_Group"
+ },
+ "LY Corporation": {
+  "exclude": "Merger and subsidiary: formed on 1 October 2023 by the merger of Z Holdings with LINE Corporation, Yahoo! Japan, Z Entertainment and Z Data; 62.3% owned by A Holdings (SoftBank/Naver joint venture); n",
+  "note": "Exclude: 2023 merger of subsidiaries, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/LY_Corporation"
+ },
+ "LyondellBasell": {
+  "exclude": "Formed in December 2007 by Basell Polyolefins' acquisition of Lyondell Chemical (itself carved out of ARCO facilities in 1985), owned by Access Industries at formation; no founding person in infobox, ",
+  "note": "Exclude: acquisition/combination, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/LyondellBasell"
+ },
+ "Tenet Healthcare": {
+  "exclude": "No founder in the infobox (founder field empty) or lead (says only 'founded in 1969'); the History section names attorneys Richard Eamer, Leonard Cohen and John Bedrosian as 1969 incorporators of Nati",
+  "note": "Exclude under the infobox-or-lead rule. If the parent wants body-named founders too: Richard Eamer, Leonard Cohen (attorney), John Bedrosian, 1969, none with articles.",
+  "review_source": "https://en.wikipedia.org/wiki/Tenet_Healthcare"
+ },
+ "Viatris": {
+  "exclude": "Merger: formed on 16 November 2020 by the Reverse Morris Trust merger of Mylan and Pfizer's Upjohn division; no founder in infobox or lead (Mylan's 1961 founders are not named in the article).",
+  "note": "Exclude: 2020 merger, no founder.",
+  "review_source": "https://en.wikipedia.org/wiki/Viatris"
+ },
+ "Terna": {
+  "exclude": "Spin-off of a state utility: set up on 31 May 1999 within the Enel Group under Legislative Decree 79/99 to hold the national grid, privatised by a 2004 IPO, now 29.9% owned by state-controlled CDP Ret",
+  "note": "Exclude: Enel spin-off, privatised grid operator.",
+  "review_source": "https://en.wikipedia.org/wiki/Terna_Group"
+ },
+ "Nornickel": {
+  "exclude": "Privatised Soviet state enterprise: the Norilsk Combine was set up by the state in 1935, turned into joint-stock RAO Norilsk Nickel in 1993 and sold to Interros in 1995; no founding person.",
+  "note": "Exclude: privatised state enterprise with 1935 origin.",
+  "review_source": "https://en.wikipedia.org/wiki/Norilsk_Nickel"
+ },
+ "First Quantum Minerals": {
+  "exclude": "No founder named anywhere in the article: founded in 1983 as the shell Xenium Resources (renamed Zeal Capital 1989, First Quantum Ventures 1993, First Quantum Minerals 1996); infobox has no founder fi",
+  "note": "Exclude: no named human founder.",
+  "review_source": "https://en.wikipedia.org/wiki/First_Quantum_Minerals"
+ },
+ "China Securities (CSC Financial)": {
+  "exclude": "Founded 2005 by two companies (CITIC Securities 60%, China Jianyin Investment 40%); no human founder.",
+  "note": "Infobox founder field names only CITIC Securities and Jianyin Investment; lead says the firm was established by those two companies in 2005. founders_wp holds companies, not people.",
+  "review_source": "https://en.wikipedia.org/wiki/CSC_Financial"
+ },
+ "XPO Logistics": {
+  "founded_year": 2011,
+  "founders": [
+   "Brad Jacobs (businessman)"
+  ],
+  "note": "Infobox founder is Brad Jacobs, but infobox 'Founded 2000' is the predecessor Express-1's date (categories even say 1989). Jacobs acquired Express-1 and created XPO Logistics in September 2011, so the founder's start year is 2011. Also the article title is 'Brad Jacobs (businessman)'; 'Brad Jacobs (",
+  "review_source": "https://en.wikipedia.org/wiki/XPO,_Inc."
+ },
+ "Nomura Research Institute": {
+  "exclude": "Corporate research arm of Nomura Securities (1965), current company formed by a 1988 merger with Nomura Computer Systems; no founding person.",
+  "note": "Infobox has no founder; lead and body name only Nomura Group entities.",
+  "review_source": "https://en.wikipedia.org/wiki/Nomura_Research_Institute"
+ },
+ "Erste Bank Polska": {
+  "exclude": "2026 rebrand of Santander Bank Polska after Erste Group bought a 49% stake; the 2001 date is the Bank Zachodni/WBK merger; no founding person.",
+  "note": "Infobox founded 2001-03-07 with no founder field; lead says formed in 2026 by rebranding Santander Bank Polska. Flag 'matched by name only' confirmed: a bank group acquisition/merger, not a founder-started company.",
+  "review_source": "https://en.wikipedia.org/wiki/Erste_Bank_Polska"
+ },
+ "LPL Financial": {
+  "exclude": "Formed 1989 by the merger of Linsco (1968) and Private Ledger (1973); no founder named.",
+  "note": "Infobox has no founder; History says the company was formed by the merger of the two brokerages.",
+  "review_source": "https://en.wikipedia.org/wiki/LPL_Financial"
+ },
+ "Wolters Kluwer": {
+  "exclude": "Product of mergers (Wolters + Noordhoff 1968; Kluwer + Wolters Samsom 1987); origins 1836; no founding person in window.",
+  "note": "Infobox founded 1968 is itself a merger date; no founder field; the only named founder is Jan-Berend Wolters (1836).",
+  "review_source": "https://en.wikipedia.org/wiki/Wolters_Kluwer"
+ },
+ "Raiffeisen Bank International": {
+  "exclude": "Established 2010 as a subsidiary of Raiffeisen Zentralbank by merging RZB operations into Raiffeisen International; merged back with RZB in 2017; no founding person.",
+  "note": "Infobox founder field empty; lead: established in 2010 as a subsidiary of RZB.",
+  "review_source": "https://en.wikipedia.org/wiki/Raiffeisen_Bank_International"
+ },
+ "Abu Dhabi Islamic Bank (ADIB)": {
+  "exclude": "Established 20 May 1997 by Amiri Decree No. 9 of 1997; no founding person.",
+  "note": "Infobox has no founder; History credits the Amiri Decree only. Abdullah bin Zayed only inaugurated it in 1999.",
+  "review_source": "https://en.wikipedia.org/wiki/Abu_Dhabi_Islamic_Bank"
+ },
+ "GF Securities": {
+  "exclude": "Began 1991 as the securities department of China Guangfa Bank, spun off in 1999; no founding person.",
+  "note": "Infobox has no founder; History names only the parent bank.",
+  "review_source": "https://en.wikipedia.org/wiki/GF_Securities"
+ },
+ "Uniper": {
+  "exclude": "2016 spin-off of E.ON's fossil-fuel assets; no founding person.",
+  "note": "Infobox founder field empty; lead says formed by separation from E.ON, operating from 1 Jan 2016.",
+  "review_source": "https://en.wikipedia.org/wiki/Uniper"
+ },
+ "Unipol Assicurazioni": {
+  "exclude": "Founded 1962/1963 in Bologna as a cooperative insurer; no founding person named anywhere in the article.",
+  "note": "Infobox says 1963, History says 1962; no founder field, no person named.",
+  "review_source": "https://en.wikipedia.org/wiki/Unipol"
+ },
+ "Skyworks Solutions": {
+  "exclude": "Formed 2002 by the merger of Alpha Industries and Conexant's wireless communications division; no founding person.",
+  "note": "Infobox has no founder; History describes only the merger.",
+  "review_source": "https://en.wikipedia.org/wiki/Skyworks_Solutions"
+ },
+ "Royal Gold": {
+  "exclude": "Founded 1981 as Royal Resources Corporation (oil and gas); no founder named; H. Stanley Dempsey only transformed it into a royalty company in 1986.",
+  "note": "Infobox founder field blank; Dempsey is unlinked and has no article.",
+  "review_source": "https://en.wikipedia.org/wiki/Royal_Gold"
+ },
+ "TD Synnex": {
+  "exclude": "Formed 1 Sep 2021 by the merger of Synnex and Tech Data; no founder field.",
+  "note": "If the orchestrator prefers tracing to the legal acquirer, Synnex was founded 1980 by Robert Huang (article exists), but the Wikipedia article frames TD Synnex as a merger with both firms as predecessors.",
+  "review_source": "https://en.wikipedia.org/wiki/TD_Synnex"
+ },
+ "Amundi": {
+  "exclude": "Created 1 Jan 2010 by merging Crédit Agricole Asset Management and Société Générale Asset Management; no founding person.",
+  "note": "Infobox has no founder; lead describes the merger.",
+  "review_source": "https://en.wikipedia.org/wiki/Amundi"
+ },
+ "NRG Energy": {
+  "exclude": "Formed 1989 as a wholly owned subsidiary of Northern States Power; no founding person.",
+  "note": "Infobox 'founder = Seth Allen' is unlinked plain text that appears nowhere in the article body and has no Wikipedia article; treat as unsupported. founders_wp should not carry it.",
+  "review_source": "https://en.wikipedia.org/wiki/NRG_Energy"
+ },
+ "Xylem": {
+  "exclude": "2011 spin-off of ITT Corporation's water businesses; no founding person.",
+  "note": "Infobox has no founder; lead says launched as the ITT spinoff.",
+  "review_source": "https://en.wikipedia.org/wiki/Xylem_Inc."
+ },
+ "KGI Financial Holding": {
+  "exclude": "Holding company set up Dec 2001 by stock swap over China Development Industrial Bank, whose origin is the 1959 China Development Corporation established by the Executive Yuan's Economic Stabilization ",
+  "note": "Lead says 'founded by Jeffrey Koo Sr. and the Koo Family' but the History contradicts it (1959 state/World Bank origin, 2001 stock swap) and Jeffrey Koo Sr.'s own article credits him with Chinatrust (1966), not CDF; the Koo family (Angelo Koo) chairs it today. Flag 'matched by name only' confirmed.",
+  "review_source": "https://en.wikipedia.org/wiki/KGI_Financial_Holding"
+ },
+ "Bank of Shanghai": {
+  "exclude": "Founded 30 Jan 1996 as Shanghai City Cooperative Bank by merging 98 city credit cooperatives; no founding person.",
+  "note": "Infobox founder field empty.",
+  "review_source": "https://en.wikipedia.org/wiki/Bank_of_Shanghai"
+ },
+ "China Unicom": {
+  "exclude": "State-owned enterprise founded 1994 by the Ministry of Railways, Ministry of Electronics Industry and Ministry of Electric Power Industry; no human founder.",
+  "note": "founders_wp holds three ministries, not people.",
+  "review_source": "https://en.wikipedia.org/wiki/China_Unicom"
+ },
+ "Anthropic": {
+  "founded_year": 2021,
+  "founders": [
+   "Dario Amodei",
+   "Daniela Amodei",
+   "Jared Kaplan",
+   "Chris Olah"
+  ],
+  "note": "Infobox founders field names eight people; Jack Clark is unlinked there but his article 'Jack Clark (AI policy expert)' exists and the disambiguation page lists him as co-founder of Anthropic, so add him. Ben Mann, Sam McCandlish and Tom Brown have no articles (the 'Ben Mann' page is an NFL long sna",
+  "review_source": "https://en.wikipedia.org/wiki/Anthropic",
+  "refuted_note": "The first reviewer's addition fails: the title 'Jack Clark (AI policy expert)' is not a biography, it is a redirect to the Anthropic article (MediaWiki API redirects: 'Jack Clark (AI policy expert) ->"
+ },
+ "Ant Group": {
+  "founded_year": 2004,
+  "founders": [
+   "Jack Ma"
+  ],
+  "note": "Keep (founder attributable), but the year traces back: the Ant Group article says it 'was initially the financial transaction arm of Alibaba, Alipay, when it was set up in 2004' and 'Alipay was rebranded as Ant Financial Services Group on 23 October 2014' (a rename). The Alipay infobox gives founded",
+  "review_source": "https://en.wikipedia.org/wiki/Ant_Group"
+ },
+ "Waymo": {
+  "exclude": "Alphabet subsidiary that grew out of the Stanford Self-Driving Car Team (2004) and the Google Self-Driving Car Project (2009), renamed Waymo in 2016; a spin-off of a corporate research project, not a ",
+  "note": "Excluded: spin-off of Google's self-driving car project; the infobox 'founders' led a research project, they did not start a business.",
+  "review_source": "https://en.wikipedia.org/wiki/Waymo"
+ },
+ "Ramp": {
+  "founders": [
+   "Eric Glyman",
+   "Karim Atiyeh",
+   "Gene Lee"
+  ],
+  "note": "founders_wp holds the role links ('Chief executive officer', 'Chief technology officer') instead of the people. Infobox founders: 'Eric Glyman (CEO), Karim Atiyeh (CTO), Gene Lee'; History: founded March 2019 by the three. None has an English Wikipedia article; 'Gene Lee' redirects to Cantopop, do n",
+  "review_source": "https://en.wikipedia.org/wiki/Ramp_(company)"
+ },
+ "Anduril Industries": {
+  "founders": [
+   "Palmer Luckey",
+   "Trae Stephens",
+   "Matt Grimm",
+   "Joe Chen",
+   "Brian Schimpf"
+  ],
+  "note": "Infobox founders field names five people; the row has only the two linked ones. Grimm, Chen and Schimpf have no articles; the existing 'Joe Chen' page is a Taiwanese actress, do not use.",
+  "review_source": "https://en.wikipedia.org/wiki/Anduril_Industries"
+ },
+ "Moonshot AI": {
+  "founders": [
+   "Yang Zhilin",
+   "Zhou Xinyu",
+   "Wu Yuxin"
+  ],
+  "note": "Infobox founders: Yang Zhilin, Zhou Xinyu, Wu Yuxin (founded March 2023). Zhou Xinyu and Wu Yuxin have no English Wikipedia articles.",
+  "review_source": "https://en.wikipedia.org/wiki/Moonshot_AI"
+ },
+ "Cognition": {
+  "founders": [
+   "Scott Wu",
+   "Steven Hao",
+   "Walden Yan"
+  ],
+  "note": "Infobox founders: Scott Wu, Steven Hao, Walden Yan. Steven Hao and Walden Yan have no articles. Infobox founded November 2023, History says August 2023; year 2023 either way.",
+  "review_source": "https://en.wikipedia.org/wiki/Cognition_AI"
+ },
+ "Epic Games": {
+  "founders": [
+   "Tim Sweeney"
+  ],
+  "note": "'Tim Sweeney (game developer)' is a redirect; the exact article title is 'Tim Sweeney'. Founder and year (1991, as Potomac Computer Systems) are right.",
+  "review_source": "https://en.wikipedia.org/wiki/Epic_Games"
+ },
+ "Mistral AI": {
+  "founders": [
+   "Arthur Mensch",
+   "Guillaume Lample",
+   "Timothée Lacroix"
+  ],
+  "note": "Infobox founders: Arthur Mensch, Guillaume Lample, Timothée Lacroix (April 2023). Lample and Lacroix have no English Wikipedia articles.",
+  "review_source": "https://en.wikipedia.org/wiki/Mistral_AI"
+ },
+ "FNZ": {
+  "founders": [
+   "Adrian Durham"
+  ],
+  "note": "Founder name and year (2003) are right, but the infobox entry is unlinked and the existing article 'Adrian Durham' is an English football broadcaster born 1969, not the FNZ founder; the founder has no article. Do not resolve the name to that page.",
+  "review_source": "https://en.wikipedia.org/wiki/FNZ_(company)"
+ },
+ "Kraken Exchange": {
+  "founders": [
+   "Jesse Powell (entrepreneur)"
+  ],
+  "note": "The infobox founder 'Jesse Powell' is unlinked; the History section links 'Jesse Powell (entrepreneur)', which does not exist (red link). The existing 'Jesse Powell' article is an R&B singer (1970-2022), do not use. History also names Thanh Luu and Michael Gronager as co-founders, but the infobox na",
+  "review_source": "https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange)"
+ },
+ "Envision Group": {
+  "founders": [
+   "Lei Zhang"
+  ],
+  "note": "Article 'Envision Energy' is right ('Envision Group' has no page). Founder Lei Zhang (2007) is unlinked; 'Lei Zhang' redirects to the disambiguation page 'Zhang Lei', which does not list him. He has no English Wikipedia article; do not resolve to the disambiguation page.",
+  "review_source": "https://en.wikipedia.org/wiki/Envision_Energy"
+ },
+ "Crypto.com": {
+  "founders": [
+   "Bobby Bao",
+   "Gary Or",
+   "Kris Marszalek",
+   "Rafael Melo"
+  ],
+  "note": "The row has no founders, but the infobox names Bobby Bao, Gary Or, Kris Marszalek and Rafael Melo (founded 2016 as Monaco in Hong Kong). None has an own article: 'Kris Marszalek' redirects to Crypto.com, and the existing 'Rafael Melo' page is a Uruguayan footballer, do not use.",
+  "review_source": "https://en.wikipedia.org/wiki/Crypto.com"
+ },
+ "Perplexity": {
+  "founders": [
+   "Aravind Srinivas",
+   "Denis Yarats",
+   "Johnny Ho",
+   "Andy Konwinski"
+  ],
+  "note": "Infobox founders also name Johnny Ho (missing from the row); he has no article. 'Aravind Srinivas' redirects to Perplexity AI (no own article). Founded 22 August 2022.",
+  "review_source": "https://en.wikipedia.org/wiki/Perplexity_AI"
+ },
+ "TSMC": {
+  "refuted_note": "Article 'TSMC', founded_year 1987 and founder Morris Chang survive: the infobox Founder field is Morris Chang and the lead says 'Morris Chang founded the company to commercialise semiconductor researc"
+ },
+ "AMD": {
+  "refuted_note": "Article 'AMD', founded_year 1969 and founders_wp ['Jerry Sanders (businessman)'] survive under the rule that founders come from the infobox or lead, since both name only Sanders. The seven co-incorpor"
+ },
+ "Intel": {
+  "founders": [
+   "Robert Noyce",
+   "Gordon Moore"
+  ],
+  "refuted_note": "The infobox Founders field names only Robert Noyce and Gordon Moore (Founded July 18, 1968). Andrew Grove is not called a founder in the infobox or the lead; the lead only says Intel 'is associated wi"
+ },
+ "CrowdStrike": {
+  "founders": [
+   "George Kurtz",
+   "Dmitri Alperovitch",
+   "Gregg Marston"
+  ],
+  "refuted_note": "The infobox founders parameter is '{{ubl|[[George Kurtz]]|[[Dmitri Alperovitch]]|Gregg Marston}}' and the lead says 'The company was co-founded in 2011 by George Kurtz, Dmitri Alperovitch, and Gregg M"
+ },
+ "Arista Networks": {
+  "founders": [
+   "Andy Bechtolsheim",
+   "Kenneth Duda",
+   "David Cheriton"
+  ],
+  "refuted_note": "The dataset defines founded_year as the year the founders started the business that became this company. The Arista infobox has 'former_name = Arastra (2004–2008)' and Corporate history says 'Arista N",
+  "founded_year": 2004
+ },
+ "Arm Holdings": {
+  "exclude": "exclude (corporate joint venture of Acorn Computers, Apple and VLSI Technology; the only founder with an article is the recruited first CEO)",
+  "refuted_note": "Founding section: the company was 'structured as a joint venture between Acorn Computers, Apple, and VLSI Technology', 'Acorn provided 12 employees', and 'Larry Tesler, Apple VP was a key person and h"
+ },
+ "Dell": {
+  "article": "Dell Technologies",
+  "refuted_note": "The row's $314B value and ticker match are the NYSE: DELL listing, which belongs to Dell Technologies Inc. The 'Dell' article is Dell Inc.: its infobox has 'name = Dell Inc.', 'type = [[Subsidiary]]',"
+ },
+ "LVMH": {
+  "exclude": "Exclude: 1987 merger of equals. Lead: LVMH \"was formed in 1987 through the merger of fashion house Louis Vuitton (founded in 1854) with Moët Hennessy\"; History: \"In 1987, Moët Hennessy and Louis Vuitt",
+  "refuted_note": "Same pattern the first reviewer used to exclude KLA and Citigroup: a merger of two established firms, neither founded in 1987 by the named men."
+ },
+ "MediaTek": {
+  "exclude": "Exclude: spin-off with no founder. Infobox Founded \"28 May 1997\" and no Founder field (Key people only: Ming-Kai Tsai chairman, Rick Tsai CEO). History: \"MediaTek was originally a unit of the Taiwanes",
+  "refuted_note": "The task rule excludes spin-offs; the article names no founder in infobox or lead, so there is no birthday to collect."
+ },
+ "Gilead Sciences": {
+  "refuted_note": "The founder list is supposed to hold exact English Wikipedia titles; this one has no article, so a birthday cannot be sourced from Wikipedia."
+ },
+ "TJX Companies": {
+  "founded_year": 1976,
+  "refuted_note": "Infobox and lead disagree. The TJX infobox gives 'Founded 1987' and 'Founder Bernard Cammarata' (unlinked; the title 'Bernard Cammarata' redirects to TJX, so he has no article), but the lead says TJX "
+ },
+ "Capital One": {
+  "founded_year": 1988,
+  "refuted_note": "Judgment call under the task's own definition (the year the founders started the business that became this company). The History section says Fairbank and Morris 'convinced Richmond, Virginia-based Si"
+ },
+ "Compagnie Financière Richemont": {
+  "exclude": "Exclude: spin-off. The History section says Johann Rupert founded Compagnie Financière Richemont S.A. 'when he spun off the international assets of Rembrandt Group Ltd.' and 'The spin-off was complete",
+  "refuted_note": "The brief excludes spin-offs: 1988 is not the year a founder started the business, it is the year an existing group's international assets (Cartier, Rothmans etc.) were carved out. Note the disagreeme"
+ },
+ "Mizuho Financial Group": {
+  "exclude": "Exclude: merger of equals, no founder. Infobox Founded = 'September 2000', no Founder field, Predecessors = Dai-Ichi Kangyo Bank, Fuji Bank, Industrial Bank of Japan; lead: 'The group was formed in 20",
+  "refuted_note": "Infobox and lead agree there is no founder and the company is a three-bank merger, which the brief excludes. The first reviewer did not propose this one; the row would otherwise sit in the dataset wit"
+ },
+ "Valero Energy": {
+  "exclude": "Exclude: spin-off. The Valero article's History says it \"was established on January 1, 1980, as a spinoff of Coastal States Gas Corporation's subsidiary\" (LoVaca Gathering Company), created under a $1",
+  "refuted_note": "The rule excludes spin-offs, and the article uses the word itself. The infobox names William Greehey as founder, but the body names him only as CEO; his own article calls him \"founding CEO and Chairma"
+ },
+ "Tether": {
+  "founders": [
+   "Brock Pierce"
+  ],
+  "refuted_note": "In the 'Tether Limited' infobox all three founders are wikilinked, but 'Reeve Collins' and 'Craig Sellars' are red links: the MediaWiki API returns missing: true for both titles, so neither is an exac"
+ }
+}

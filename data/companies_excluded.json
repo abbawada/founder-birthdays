@@ -1,7 +1,7 @@
 [
  [
   "Broadcom",
-  "no named founder"
+  "Spin-off lineage with no founding person: the infobox Founded field reads only '1961' (no parenthetical); the infobox 'Formerly' list gives HP Associates (1961-1999), Agilent Technologies (1999-2005),"
  ],
  [
   "Saudi Aramco",
@@ -20,12 +20,8 @@
   "founded 1938"
  ],
  [
-  "Micron Technology",
-  "no named founder"
- ],
- [
   "JPMorgan Chase",
-  "no named founder"
+  "Merger of equals: formed December 1, 2000 by the merger of Chase Manhattan Corporation and J.P. Morgan & Co.; infobox founders field is empty; predecessors trace to 1799 (Manhattan Company), outside t"
  ],
  [
   "SK Hynix",
@@ -36,20 +32,24 @@
   "founded 1958"
  ],
  [
+  "Exxon Mobil",
+  "Merger of equals: formed November 30, 1999 by the merger of Exxon and Mobil; predecessors Standard Oil (1870) and Mobil. The infobox 'founders' field lists Lucio Noto and Lee Raymond, the two merging "
+ ],
+ [
   "Johnson & Johnson",
   "founded 1886"
  ],
  [
   "ASML",
-  "no named founder"
+  "Joint venture with no founding person: infobox Founded 1984 (joint venture of Philips and ASM International), independent company 1988; the infobox founder field names only 'Philips', a company, and t"
  ],
  [
   "Mastercard",
-  "no named founder"
+  "No founding person: founded 1966 as the Interbank Card Association by a group of banks and regional bankcard associations; infobox has no founder field."
  ],
  [
   "AbbVie",
-  "no named founder"
+  "Spin-off: founded April 10, 2012 as a spin-off of Abbott Laboratories; infobox has no founder field."
  ],
  [
   "China Construction Bank",
@@ -58,10 +58,6 @@
  [
   "Chevron",
   "founded None"
- ],
- [
-  "Tencent",
-  "no named founder"
  ],
  [
   "Agricultural Bank of China",
@@ -81,7 +77,11 @@
  ],
  [
   "ICBC",
-  "no named founder"
+  "State-owned enterprise: established 4 January 1984 by splitting the commercial banking business off the People's Bank of China; infobox Type 'State-owned', Owner Chinese Central Government, no founder"
+ ],
+ [
+  "Bank of America",
+  "Merger of equals: infobox Founded 1998 (via the merger of BankAmerica & NationsBank); founders field is empty. The Wikidata founder Amadeo Giannini founded the Bank of Italy in 1904, outside the windo"
  ],
  [
   "Merck",
@@ -116,6 +116,10 @@
   "founded 1865"
  ],
  [
+  "Novartis",
+  "Merger of equals: infobox Founded 20 December 1996 (from merger) of Ciba-Geigy and Sandoz. The infobox 'founders' field (Johann Rudolf [Geigy], Alexander Clavel) names 18th/19th-century founders of pr"
+ ],
+ [
   "Royal Bank Of Canada",
   "founded 1864"
  ],
@@ -128,8 +132,12 @@
   "founded 1869"
  ],
  [
+  "RTX",
+  "Formed 3 April 2020 as a merger of equals between United Technologies' aerospace subsidiaries and the Raytheon Company; infobox 'founders' are the 1922/1934 founders of the predecessor firms, not of t"
+ ],
+ [
   "AstraZeneca",
-  "no named founder"
+  "Formed 6 April 1999 by the merger of Astra AB (founded 1913 by 400 doctors and apothecaries) and Zeneca Group (1993 ICI demerger); infobox has no founder field."
  ],
  [
   "Nestlé",
@@ -148,6 +156,10 @@
   "founded 1951"
  ],
  [
+  "Arm Holdings",
+  "exclude (corporate joint venture of Acorn Computers, Apple and VLSI Technology; the only founder with an article is the recruited first CEO)"
+ ],
+ [
   "Wells Fargo",
   "founded 1929"
  ],
@@ -157,7 +169,7 @@
  ],
  [
   "Mitsubishi UFJ Financial",
-  "no named founder"
+  "Created 1 October 2005 by the merger of Mitsubishi Tokyo Financial Group and UFJ Holdings; infobox says '(by merger)' and has no founder field."
  ],
  [
   "IBM",
@@ -165,7 +177,7 @@
  ],
  [
   "PetroChina",
-  "no named founder"
+  "Listed arm of state-owned China National Petroleum Corporation (82.62% parent), established 5 November 1999 as a joint stock company in CNPC's restructuring; no founder named."
  ],
  [
   "Linde",
@@ -185,7 +197,11 @@
  ],
  [
   "China Mobile",
-  "no named founder"
+  "State-owned telecommunications company (Government of China 72.72%), born from the 1999 break-up of China Telecommunications Corporation; infobox has no founder field."
+ ],
+ [
+  "LVMH",
+  "Exclude: 1987 merger of equals. Lead: LVMH \"was formed in 1987 through the merger of fashion house Louis Vuitton (founded in 1854) with Moët Hennessy\"; History: \"In 1987, Moët Hennessy and Louis Vuitt"
  ],
  [
   "American Express",
@@ -197,11 +213,15 @@
  ],
  [
   "KLA",
-  "no named founder"
+  "Infobox: 'Founded 1997 (merger of KLA and Tencor)'; KLA Corporation was formed as KLA-Tencor through the merger of KLA Instruments (1975, Ken Levy and Bob Anderson) and Tencor Instruments (1976, Karel"
  ],
  [
   "Toronto Dominion Bank",
   "founded 1855"
+ ],
+ [
+  "Citigroup",
+  "Formed 8 October 1998 by the merger of Citicorp (holding company for Citibank, 1812 origin) and Travelers Group; infobox has no founder field; Sanford Weill and John Reed are named only as co-chairmen"
  ],
  [
   "TotalEnergies",
@@ -209,7 +229,7 @@
  ],
  [
   "International Holding Company",
-  "no named founder"
+  "Founded 1998 as Asmak (fisheries); infobox has no founder field and the article names no founder; 60% owned by Royal Group of the Abu Dhabi ruling family."
  ],
  [
   "Amphenol",
@@ -217,7 +237,7 @@
  ],
  [
   "MediaTek",
-  "no named founder"
+  "Exclude: spin-off with no founder. Infobox Founded \"28 May 1997\" and no Founder field (Key people only: Ming-Kai Tsai chairman, Rick Tsai CEO). History: \"MediaTek was originally a unit of the Taiwanes"
  ],
  [
   "Commonwealth Bank",
@@ -241,7 +261,7 @@
  ],
  [
   "Verizon",
-  "no named founder"
+  "Founded 7 October 1983 as Bell Atlantic Corporation, one of the Regional Bell Operating Companies created by the AT&T breakup; renamed Verizon after the 2000 GTE merger; infobox has no founder field."
  ],
  [
   "Abbott Laboratories",
@@ -253,11 +273,11 @@
  ],
  [
   "Union Pacific Corporation",
-  "no named founder"
+  "Established 1969 by incorporation in Utah 'as a holding company for the Union Pacific Railroad and other subsidiaries' (railroad chartered 1862); infobox has no founder field."
  ],
  [
   "Airbus",
-  "no named founder"
+  "Originated as Airbus Industrie GIE, a 1970 consortium of European aerospace companies (state-owned Aérospatiale 37.9%, Deutsche Airbus 37.9%, British Aerospace 20%, largely state-owned CASA 4.2%); cur"
  ],
  [
   "Deere & Company (John Deere)",
@@ -265,7 +285,7 @@
  ],
  [
   "Nextera Energy",
-  "no named founder"
+  "Electric utility holding company formed in 1984 as FPL Group for Florida Power & Light (formed 1925); infobox has no founder field."
  ],
  [
   "CM Bank",
@@ -281,7 +301,11 @@
  ],
  [
   "Novo Nordisk",
-  "no named founder"
+  "Picked page was the Novo Nordisk Foundation; the company article 'Novo Nordisk' has infobox 'Founded 21 December 1923', no founder field, and says the corporation 'was created in 1989, through a merge"
+ ],
+ [
+  "Prosus",
+  "Infobox 'Founder' is Naspers (a company); described as the 'Internet investment division of Naspers' with Naspers as parent and majority shareholder; shares listed on Euronext Amsterdam September 2019"
  ],
  [
   "Pfizer",
@@ -289,7 +313,7 @@
  ],
  [
   "China Shenhua Energy",
-  "no named founder"
+  "Subsidiary of Shenhua Group (73.06%), 'the largest state-owned coal mining enterprise in mainland China'; infobox founded 1995 with no founder field and no founder named."
  ],
  [
   "Reliance Industries",
@@ -301,15 +325,11 @@
  ],
  [
   "Iberdrola",
-  "no named founder"
- ],
- [
-  "Recruit",
-  "no named founder"
+  "Electric utility 'created on 1 November 1992, from the merger between Hidroeléctrica Española and Iberduero'; infobox has no founder field."
  ],
  [
   "DBS Group",
-  "no named founder"
+  "Incorporated on 16 July 1968 by the Government of Singapore; no founder field and no named human founder."
  ],
  [
   "Southern Copper",
@@ -321,15 +341,11 @@
  ],
  [
   "ABB",
-  "no named founder"
+  "Formed in 1988 by the merger of ASEA (Sweden) and Brown, Boveri & Cie (Switzerland), both 19th-century firms; no founder field."
  ],
  [
   "Anheuser-Busch Inbev",
   "founded 1852"
- ],
- [
-  "Intuitive Surgical",
-  "no named founder"
  ],
  [
   "Eaton",
@@ -337,7 +353,7 @@
  ],
  [
   "Sumitomo Mitsui Financial Group",
-  "no named founder"
+  "Formed 1 April 2001 by the merger of The Sumitomo Bank and The Sakura Bank (zaibatsu-era banks); no founder field."
  ],
  [
   "Hermès",
@@ -345,7 +361,7 @@
  ],
  [
   "Accenture",
-  "no named founder"
+  "Began as Arthur Andersen's consulting division (1950s); became a separate unit, Andersen Consulting, in 1989 and split off in 2000; no founder field and no named founding person."
  ],
  [
   "China Life Insurance",
@@ -357,15 +373,15 @@
  ],
  [
   "KIOXIA Holdings Corporation",
-  "no named founder"
+  "Toshiba separated its memory business into Toshiba Memory Corporation on 1 April 2017; a Bain-led consortium bought it in 2018 and the holding company was set up on 1 March 2019; no founder field or f"
  ],
  [
   "Lockheed Martin",
-  "no named founder"
+  "Formed on 15 March 1995 by the merger of Lockheed Corporation and Martin Marietta; no founder field."
  ],
  [
   "CNOOC",
-  "no named founder"
+  "Incorporated in Hong Kong in August 1999 as the listing vehicle of China National Offshore Oil Corporation, a state-owned enterprise; no founder field."
  ],
  [
   "Fast Retailing",
@@ -377,7 +393,7 @@
  ],
  [
   "UBS",
-  "no named founder"
+  "Formed on 29 June 1998 by the merger of Union Bank of Switzerland and Swiss Bank Corporation (roots 1862); no founder field."
  ],
  [
   "Petrobras",
@@ -392,8 +408,12 @@
   "founded 1873"
  ],
  [
+  "AT&T",
+  "Southwestern Bell Corporation was one of the companies created by the court-ordered 1984 breakup of AT&T Corp.; infobox lists Zane Edison Barnes and Edward Whitacre, who were its first executives, not"
+ ],
+ [
   "Deutsche Telekom",
-  "no named founder"
+  "Formed on 1 January 1995 when the state monopoly Deutsche Bundespost was restructured, privatised 1996; the Federal Republic still holds 31.9%; no founder field."
  ],
  [
   "Unilever",
@@ -404,12 +424,12 @@
   "founded 1857"
  ],
  [
-  "Foxconn Industrial Internet",
-  "no named founder"
+  "Chubb",
+  "ACE Limited was established in Hamilton, Bermuda in 1985 by a group of companies with the help of broker Marsh & McLennan; it took the Chubb name in January 2016 after buying Chubb Corp. Infobox found"
  ],
  [
-  "Vertex Pharmaceuticals",
-  "no named founder"
+  "Foxconn Industrial Internet",
+  "Set up on 6 March 2015 in Shenzhen as a wholly owned subsidiary and investment platform of Foxconn; no founder field or founding person."
  ],
  [
   "Investor AB",
@@ -429,11 +449,11 @@
  ],
  [
   "Siemens Energy",
-  "no named founder"
+  "Formed on 1 April 2020 by the spin-off of Siemens' Gas and Power division; no founder field."
  ],
  [
   "Marathon Petroleum",
-  "no named founder"
+  "Created on 9 November 2009 as a wholly owned subsidiary of Marathon Oil and spun off on 30 June 2011; origins trace to The Ohio Oil Company of 1887; no founder field."
  ],
  [
   "British American Tobacco",
@@ -449,11 +469,11 @@
  ],
  [
   "Safran",
-  "no named founder"
+  "Founded on 11 May 2005 through the merger of Snecma and Sagem; no founder field."
  ],
  [
   "UniCredit",
-  "no named founder"
+  "Formed in 1998 through the merger of Credito Italiano and Unicredito; no founder field."
  ],
  [
   "Bristol-Myers Squibb",
@@ -461,7 +481,7 @@
  ],
  [
   "Altria Group",
-  "no named founder"
+  "Holding-company reorganisation with no founder: 1985 Philip Morris Companies Inc. (renamed Altria 2003); the origin is Philip Morris & Co. (New York 1902, after the London tobacconist Philip Morris, 1"
  ],
  [
   "Medtronic",
@@ -476,12 +496,12 @@
   "founded 1921"
  ],
  [
-  "Mizuho Financial Group",
-  "no named founder"
+  "Compagnie Financière Richemont",
+  "Exclude: spin-off. The History section says Johann Rupert founded Compagnie Financière Richemont S.A. 'when he spun off the international assets of Rembrandt Group Ltd.' and 'The spin-off was complete"
  ],
  [
-  "Keyence",
-  "no named founder"
+  "Mizuho Financial Group",
+  "Exclude: merger of equals, no founder. Infobox Founded = 'September 2000', no Founder field, Predecessors = Dai-Ichi Kangyo Bank, Fuji Bank, Industrial Bank of Japan; lead: 'The group was formed in 20"
  ],
  [
   "Stryker Corporation",
@@ -494,10 +514,6 @@
  [
   "Parker-Hannifin",
   "founded 1917"
- ],
- [
-  "Booking Holdings (Booking.com)",
-  "no named founder"
  ],
  [
   "Mitsubishi Corporation",
@@ -517,15 +533,15 @@
  ],
  [
   "Canadian Natural Resources",
-  "no named founder"
+  "No named founder: infobox has no founder field and the lead names none; founded 7 November 1973 as AEX Minerals Corporation, a shell renamed in 1975. Murray Edwards and Allan Markin appear only as lat"
  ],
  [
   "Intesa Sanpaolo",
-  "no named founder"
+  "Merger of equals: formed January 2007 from Banca Intesa and Sanpaolo IMI; no founder in infobox or lead."
  ],
  [
   "Equinor",
-  "no named founder"
+  "State-owned enterprise: Statoil was created by the Norwegian state in 1972 and the Government of Norway still holds 67%; no founder in infobox or lead."
  ],
  [
   "Corning",
@@ -536,16 +552,24 @@
   "founded 1833"
  ],
  [
+  "Valero Energy",
+  "Exclude: spin-off. The Valero article's History says it \"was established on January 1, 1980, as a spinoff of Coastal States Gas Corporation's subsidiary\" (LoVaca Gathering Company), created under a $1"
+ ],
+ [
   "Zijin Mining",
-  "no named founder"
+  "Partly state-owned enterprise with no named founder: founded 1986 as Shanghang Mineral Company; infobox has no founder field, the lead names none, and Chen Jinghe appears only as chairman."
  ],
  [
   "Lowe's Companies",
   "founded 1921"
  ],
  [
+  "HDFC Bank",
+  "Exclude: subsidiary set up by a parent company, with no human founder named. Infobox founder field is \"HDFC Ltd (under the leadership of Deepak Parekh)\" and History says the bank \"was incorporated in "
+ ],
+ [
   "China Yangtze Power",
-  "no named founder"
+  "State-owned enterprise: controlled by China Three Gorges Corporation (SASAC) and formed in 2002 by a group of state enterprises; infobox founder field is empty and the lead names no person."
  ],
  [
   "Phillips 66",
@@ -572,8 +596,12 @@
   "founded 1848"
  ],
  [
+  "Enel",
+  "State-owned, later privatised utility: infobox founder = 'Italian government'; established as a public body in 1962, limited company 1992, privatised 1999."
+ ],
+ [
   "Postal Savings Bank of China",
-  "no named founder"
+  "State-owned enterprise: formed 6 March 2007 out of China Post's savings business; no founder in infobox or lead."
  ],
  [
   "OCBC Bank",
@@ -584,12 +612,16 @@
   "founded 1955"
  ],
  [
+  "Marriott International",
+  "1993 is a spin-off from Marriott Corporation; the origin the infobox itself gives is J. Willard Marriott and Alice Marriott's 1927 business (Hot Shoppes), before 1960."
+ ],
+ [
   "Zhongji Innolight",
-  "no named founder"
+  "No named founder: infobox founder field is empty and the lead names none; founded May 1987 as Shandong Zhongji Electrical Equipment (InnoLight itself founded April 2008). Wang Weixiu and Liu Sheng app"
  ],
  [
   "Sinopec",
-  "no named founder"
+  "State-owned enterprise: administered by SASAC for the State Council; formed 25 February 2000; no founder in infobox or lead."
  ],
  [
   "Itōchū Shōji",
@@ -597,15 +629,15 @@
  ],
  [
   "Sanofi",
-  "no named founder"
+  "Subsidiary with no founding person: founded 15 February 1973 as a subsidiary of (state-controlled) Elf Aquitaine, then built by mergers (Synthélabo 1999, Aventis 2004); infobox has no founder field an"
  ],
  [
   "Tokio Marine",
-  "no named founder"
+  "Holding-company reorganisation with no founder: Millea Holdings formed 2 April 2002 as parent of Tokio Marine Insurance (renamed 2008); the origin, Tokio Marine Insurance, dates to 1879, before 1960, "
  ],
  [
   "BNY Mellon (Bank of New York Mellon)",
-  "no named founder"
+  "Merger of equals: formed 1 July 2007 from Bank of New York (founded 1784) and Mellon Financial (founded 1870); infobox founders field is empty."
  ],
  [
   "Trane Technologies",
@@ -617,7 +649,7 @@
  ],
  [
   "GSK plc",
-  "no named founder"
+  "Merger of equals: formed 27 Dec 2000 by the merger of Glaxo Wellcome and SmithKline Beecham; infobox has no founder and the lead names none."
  ],
  [
   "Grupo México",
@@ -629,7 +661,7 @@
  ],
  [
   "CSX Corporation",
-  "no named founder"
+  "Merger of equals: established 1 Nov 1980 as the holding company for the Chessie System and Seaboard Coast Line Industries merger; no founder named."
  ],
  [
   "Al Rajhi Bank",
@@ -664,8 +696,12 @@
   "founded 1890"
  ],
  [
+  "Vertiv Holdings",
+  "Origin outside the window and no founding person for the 2016 entity: the business began as Capitol Refrigeration Industries in 1946 (Ralph Liebert), became Liebert Corp, was bought by Emerson in 1987"
+ ],
+ [
   "ING",
-  "no named founder"
+  "Merger of equals: ING Group formed 4 March 1991 by the merger of Nationale-Nederlanden and NMB Postbank Groep; infobox lists only predecessors, no founder."
  ],
  [
   "U.S. Bancorp",
@@ -673,7 +709,7 @@
  ],
  [
   "EssilorLuxottica",
-  "no named founder"
+  "Merger of equals: created 1 Oct 2018 by the combination of Essilor (France) and Luxottica (Italy); infobox has only predecessors, no founder."
  ],
  [
   "Mitsui Bussan",
@@ -685,7 +721,7 @@
  ],
  [
   "Constellation Energy",
-  "no named founder"
+  "Spin-off: the current company was created in 2022 by separation from Exelon (the 1999 date is the former Constellation Energy Group holding company, itself merged into Exelon in 2012); no founder name"
  ],
  [
   "Quanta Services",
@@ -697,7 +733,7 @@
  ],
  [
   "Suncor Energy",
-  "no named founder"
+  "Subsidiary with no founding person: created 22 Aug 1979 when Sun Oil merged its Canadian units (Sun Oil Company of Canada and Great Canadian Oil Sands); no founder in infobox or lead."
  ],
  [
   "PNC Financial Services",
@@ -725,23 +761,35 @@
  ],
  [
   "National Australia Bank",
-  "no named founder"
+  "Merger of equals: formed 1 Oct 1981 as National Commercial Banking Corporation of Australia from the merger of National Bank of Australasia and the Commercial Banking Company of Sydney; no founder nam"
+ ],
+ [
+  "NTT (Nippon Telegraph & Telephone)",
+  "Privatised state enterprise: established 1 April 1985 from the Nippon Telegraph and Telephone Public Corporation; infobox founder is 'Government of Japan', not a person."
  ],
  [
   "CaixaBank",
-  "no named founder"
+  "Reorganisation with no founding person: created 2011 when La Caixa transferred its banking business into Criteria CaixaCorp (renamed CaixaBank); infobox and lead name no founder."
  ],
  [
   "ANZ Bank",
   "founded 1835"
  ],
  [
+  "Brookfield Corporation",
+  "Merger with origin outside the window: the current company is the 1997 merger of Edper and Brascan, and Brascan traces to Brazilian Traction, Light and Power (1899, Frederick Stark Pearson and William"
+ ],
+ [
   "Dior",
   "founded 1946"
  ],
  [
+  "EOG Resources",
+  "Spin-off: 1999 is the year Enron Oil & Gas Company separated from Enron and was renamed EOG Resources; the business existed as Enron's oil-and-gas subsidiary before that. Mark G. Papa was named chairm"
+ ],
+ [
   "American Tower",
-  "no named founder"
+  "Subsidiary/spin-off with no founder in the article: formed 1995 as a unit of American Radio Systems and spun off in 1998 when ARS merged with CBS; infobox has no founder field and the lead names Steve"
  ],
  [
   "ENI",
@@ -752,16 +800,20 @@
   "founded 1929"
  ],
  [
+  "Delta Electronics (Thailand)",
+  "Subsidiary with no founding person: the listed company is Delta Electronics (Thailand) PCL, a Thai subsidiary of Delta Electronics, Inc. (Taiwan), which has no English Wikipedia article; the picked ar"
+ ],
+ [
   "Japan Tobacco",
-  "no named founder"
+  "Privatised state monopoly: established 1 April 1985 as the successor to the Japan Tobacco and Salt Public Corporation; infobox founded field reads '(privatized)' and names no founder."
  ],
  [
   "Lumentum",
-  "no named founder"
+  "Spin-off: founded 1 Aug 2015 as a spin-off from JDSU (which became Viavi Solutions); infobox founder field is empty and the lead names none."
  ],
  [
   "National Grid",
-  "no named founder"
+  "Privatised utility: formed 1990 as the successor to the state-owned Central Electricity Generating Board; infobox names no founder."
  ],
  [
   "Moody's",
@@ -773,15 +825,15 @@
  ],
  [
   "Itaú Unibanco",
-  "no named founder"
+  "Merger of equals: formed 4 Nov 2008 by merging Banco Itaú and Unibanco; no founder named, and both predecessors predate 1960."
  ],
  [
   "TAQA",
-  "no named founder"
+  "State-owned enterprise: Abu Dhabi National Energy Company, owned by the Government of Abu Dhabi; infobox type 'State-owned', no founder."
  ],
  [
   "BAE Systems",
-  "no named founder"
+  "Merger: formed 30 Nov 1999 by the merger of British Aerospace (itself a 1977 nationalisation) and Marconi Electronic Systems; no founding person."
  ],
  [
   "The Travelers Companies",
@@ -793,7 +845,7 @@
  ],
  [
   "Hewlett Packard Enterprise",
-  "no named founder"
+  "Spin-off: created 1 Nov 2015 by splitting Hewlett-Packard; no founding person (HP's 1939 founders are outside the window and HP Inc. kept the original company's history)."
  ],
  [
   "Motorola Solutions",
@@ -817,7 +869,7 @@
  ],
  [
   "Lloyds Banking Group",
-  "no named founder"
+  "Bank merger: formed 16 Jan 2009 when Lloyds TSB acquired HBOS; origins are Lloyds Bank (1765) and Bank of Scotland (1695); no founder."
  ],
  [
   "Illinois Tool Works",
@@ -829,19 +881,19 @@
  ],
  [
   "Northrop Grumman",
-  "no named founder"
+  "Merger of equals: formed 1994 by merging Northrop Corporation and Grumman; no founding person."
  ],
  [
   "Sberbank",
-  "no named founder"
+  "State-owned enterprise: majority owned by the Russian government (National Wealth Fund, 50%+1 share), successor to the USSR State Labor Savings Banks; the 1991 date is a re-registration, no founder."
  ],
  [
   "Infineon",
-  "no named founder"
+  "Spin-off: carved out of Siemens on 1 April 1999; no founding person."
  ],
  [
   "The Cigna Group",
-  "no named founder"
+  "Merger of equals: formed 1982 by merging Connecticut General Life Insurance and INA Corporation (1792); no founder."
  ],
  [
   "Howmet Aerospace",
@@ -861,7 +913,7 @@
  ],
  [
   "CITIC Bank",
-  "no named founder"
+  "State-owned subsidiary: established April 1987 under state-owned CITIC Group (parent CITIC Limited); infobox names no founder."
  ],
  [
   "Nan Ya Plastics",
@@ -877,7 +929,7 @@
  ],
  [
   "Brookfield Asset Management",
-  "no named founder"
+  "Spin-off: created 12 Dec 2022 from Brookfield Corporation's asset-management arm and 73% owned by it; no founder."
  ],
  [
   "Canadian National Railway",
@@ -892,12 +944,8 @@
   "founded 1887"
  ],
  [
-  "WuXi AppTec",
-  "no named founder"
- ],
- [
   "DHL Group (Deutsche Post)",
-  "no named founder"
+  "Privatised state enterprise: Deutsche Bundespost Postdienst became Deutsche Post AG on 2 Jan 1995; the DHL Group infobox names no founder (the 1969 DHL founders started a separate company that Deutsch"
  ],
  [
   "Cummins",
@@ -925,7 +973,11 @@
  ],
  [
   "Republic Services",
-  "no named founder"
+  "No founder: infobox founder field is blank and the History section says 'The company's founding date is unknown'; Wayne Huizenga bought it in 1995 (a buyer, not a founder) and Republic Industries spun"
+ ],
+ [
+  "America Movil",
+  "Spin-off: created 25 Sept 2000 when Telmex spun off its wireless business; infobox and lead name no founder (Carlos Slim appears only as Chairman Emeritus in key_people and in Wikidata)."
  ],
  [
   "General Motors",
@@ -953,7 +1005,7 @@
  ],
  [
   "Japan Post Bank",
-  "no named founder"
+  "State-owned enterprise: a 2006 reorganisation of the government postal savings system (1875), held by Japan Post Holdings in which the Japanese government has a majority stake; no founder."
  ],
  [
   "Air Products and Chemicals",
@@ -965,11 +1017,11 @@
  ],
  [
   "NatWest Group",
-  "no named founder"
+  "Merger: formed 25 March 1968 as National and Commercial Banking Group by merging National Commercial Bank of Scotland and the Royal Bank of Scotland (1727); no founder."
  ],
  [
   "Digital Realty",
-  "no named founder"
+  "No human founder: formed 2004 by private-equity firm GI Partners, which contributed 21 data centres and took it public; infobox and lead name no person."
  ],
  [
   "Target",
@@ -977,7 +1029,7 @@
  ],
  [
   "ENGIE",
-  "no named founder"
+  "Merger: formed 22 July 2008 by merging state-owned Gaz de France with Suez; the French state still holds 23.64%; no founder."
  ],
  [
   "Vinci",
@@ -989,7 +1041,7 @@
  ],
  [
   "RELX",
-  "no named founder"
+  "Merger of equals: RELX came into being in August 1993 as Reed Elsevier through the merger of Reed International (UK) and Elsevier (NL); infobox says 'by merger', no founder."
  ],
  [
   "Arthur J. Gallagher & Co.",
@@ -997,7 +1049,7 @@
  ],
  [
   "Bank of China (Hong Kong)",
-  "no named founder"
+  "Wrong article in the row (Hong Kong Disneyland Resort). The right article, Bank of China (Hong Kong), describes a state-owned Bank of China subsidiary established 1 October 2001 by merging 12 BOC subs"
  ],
  [
   "CSL",
@@ -1013,7 +1065,7 @@
  ],
  [
   "Targa Resources",
-  "no named founder"
+  "No named human founder: the infobox has no founder field and neither the lead nor the History section names a person or firm behind the 27 October 2005 formation."
  ],
  [
   "Imperial Oil",
@@ -1025,7 +1077,7 @@
  ],
  [
   "TE Connectivity",
-  "no named founder"
+  "Spin-off: formed in July 2007 when Tyco International separated into three companies (Tyco Electronics, later TE Connectivity); no founder named; predecessor AMP Incorporated dates to 1941."
  ],
  [
   "Volvo Group",
@@ -1033,7 +1085,7 @@
  ],
  [
   "NXP Semiconductors",
-  "no named founder"
+  "Spin-off: Philips Semiconductors was spun off from Philips in 2006 to a private-equity consortium; infobox says 'as a spin-off of Philips', no founder."
  ],
  [
   "MetLife",
@@ -1049,7 +1101,7 @@
  ],
  [
   "Deutsche Börse",
-  "no named founder"
+  "Exchange operator with no founding person: 'Founded in 1992, it is a joint stock company headquartered in Frankfurt'; infobox has no founder and the article names none."
  ],
  [
   "Deutsche Bank",
@@ -1057,7 +1109,7 @@
  ],
  [
   "LG Energy Solution",
-  "no named founder"
+  "Spin-off and subsidiary: LG Chem spun off its battery business on 1 December 2020; infobox type 'Public subsidiary', parent LG Chem (81%), founder field empty."
  ],
  [
   "Occidental Petroleum",
@@ -1069,7 +1121,7 @@
  ],
  [
   "Cencora",
-  "no named founder"
+  "Merger of equals: formed 28 August 2001 by the merger of AmeriSource Health and Bergen Brunswig (as AmerisourceBergen); no founder."
  ],
  [
   "Nucor",
@@ -1077,11 +1129,7 @@
  ],
  [
   "Industrial Bank",
-  "no named founder"
- ],
- [
-  "Cheniere Energy",
-  "no named founder"
+  "State-created bank: established 26 August 1988 on approval of the State Council and the People's Bank of China; largest shareholder the Financial Bureau of Fujian Province; no founder named."
  ],
  [
   "Strategy \n (MicroStrategy)",
@@ -1089,7 +1137,7 @@
  ],
  [
   "Nordea Bank",
-  "no named founder"
+  "Wrong article in the row (Nordea Bank Polska, a Polish subsidiary). The right article, Nordea, gives founded '1820 as Sparekassen for Kjøbenhavn og Omegn' (outside the window) and the group was formed"
  ],
  [
   "Aflac",
@@ -1113,23 +1161,27 @@
  ],
  [
   "London Stock Exchange",
-  "no named founder"
+  "Holding-company reorganisation of an exchange founded in 1801: LSEG plc was registered 18 February 2005 (as Milescreen Limited) and became the group in 2007 on the Borsa Italiana acquisition; no found"
  ],
  [
   "Cenovus Energy",
-  "no named founder"
+  "Spin-off: 'Cenovus was formed in 2009 when Encana split into two companies'; infobox founder field empty, no person named as founder."
  ],
  [
   "Truist Financial Corporation",
-  "no named founder"
+  "Merger of equals: formed December 2019 by the merger of BB&T and SunTrust (predecessors date to 1872 and 1891); no founder."
+ ],
+ [
+  "Great-West Lifeco",
+  "Holding-company reorganisation whose origin is outside the window: Lifeco (infobox founded 15 May 1986) is the holding company for The Great-West Life Assurance Company, founded in Winnipeg in 1891 by"
  ],
  [
   "Nasdaq",
-  "no named founder"
+  "Wrong article in the row ('Nasdaq' is the stock market; the listed company is 'Nasdaq, Inc.'). Nasdaq was established on 8 February 1971 by the National Association of Securities Dealers (NASD), an or"
  ],
  [
   "Ma'aden",
-  "no named founder"
+  "State-owned enterprise: formed as a Saudi joint stock company on 23 March 1997 to develop the Kingdom's mineral resources; infobox type 'Public (mostly state-owned)', the Saudi government holds 50%; n"
  ],
  [
   "Wesfarmers",
@@ -1137,7 +1189,7 @@
  ],
  [
   "Hong Kong Exchanges & Clearing",
-  "no named founder"
+  "Exchange merger with no founding person: formed 6 March 2000 when the Stock Exchange of Hong Kong merged with the Hong Kong Futures Exchange and the clearing company; the Hong Kong Government is the l"
  ],
  [
   "UCB",
@@ -1145,7 +1197,7 @@
  ],
  [
   "Diamondback Energy",
-  "no named founder"
+  "No named human founder: infobox has no founder field; the article only says 'The company began operations in December 2007 with the acquisition of 4,174 net acres in the Permian Basin' and names nobod"
  ],
  [
   "National Bank of Canada",
@@ -1153,15 +1205,19 @@
  ],
  [
   "Cement Roadstone Holding",
-  "no named founder"
+  "Merger of equals: 'established in 1970 through the merger of Cement Ltd (est. 1936) and Roadstone Ltd (est. 1949)'; infobox lists those two predecessors and no founder."
  ],
  [
   "Wheaton Precious Metals",
-  "no named founder"
+  "No named human founder: the article says only \"Silver Wheaton was established in 2004\" and that Goldcorp controlled it until 2006; a corporate spin-out with no founding person."
  ],
  [
   "CITIC Securities",
-  "no named founder"
+  "State-owned enterprise (CITIC Group, central government) established 1995 with no named founder."
+ ],
+ [
+  "Keysight",
+  "2014 spin-off of Agilent Technologies (itself an HP spin-off) with no founding person."
  ],
  [
   "Compass Group",
@@ -1177,15 +1233,11 @@
  ],
  [
   "Dominion Energy",
-  "no named founder"
+  "Regulated utility: the 1983 date is a holding-company reorganisation of VEPCO, whose origin (Virginia Railway & Power 1909, Upper Appomattox Company 1795) predates 1960; no founder in the infobox."
  ],
  [
   "Honeywell Aerospace",
   "founded 1936"
- ],
- [
-  "Argenx",
-  "no named founder"
  ],
  [
   "Loblaw Companies",
@@ -1197,11 +1249,11 @@
  ],
  [
   "First Abu Dhabi Bank",
-  "no named founder"
+  "Merger of equals: formed April 2017 by the merger of First Gulf Bank and National Bank of Abu Dhabi; no founder named."
  ],
  [
   "E.ON",
-  "no named founder"
+  "Merger of equals: created in 2000 through the merger of VEBA and VIAG; no founder named."
  ],
  [
   "Hoya",
@@ -1209,7 +1261,7 @@
  ],
  [
   "Sempra",
-  "no named founder"
+  "Merger of equals: created in 1998 by the merger of Pacific Enterprises (SoCalGas parent) and Enova (SDG&E parent); no founder named."
  ],
  [
   "Anglo American",
@@ -1217,7 +1269,11 @@
  ],
  [
   "Thales",
-  "no named founder"
+  "The 2000 date is a rename of Thomson-CSF (a 1968 merger) whose roots go back to Compagnie Francaise Thomson-Houston in 1893; nationalised 1982 and later privatised; no founder named."
+ ],
+ [
+  "Saudi Telecom Company",
+  "State-owned enterprise: created 21 April 1998 by royal decree from the Directorate of Post, Telephone and Telegraph, wholly government-owned at launch; the infobox \"founder\" is King Fahd, the head of "
  ],
  [
   "Panasonic",
@@ -1237,11 +1293,15 @@
  ],
  [
   "NAURA Technology Group",
-  "no named founder"
+  "State-owned enterprise: created September 2001 by Beijing Electronics Holdings, a government SASAC entity; no founder named."
  ],
  [
   "Paccar",
   "founded 1905"
+ ],
+ [
+  "Siemens Healthineers",
+  "Spin-off: separated from Siemens in 2017 (Siemens keeps 67%); no founding person."
  ],
  [
   "Lonza",
@@ -1257,7 +1317,7 @@
  ],
  [
   "Galderma Group",
-  "no named founder"
+  "Joint venture of two corporations: formed 1981 by L'Oreal and Nestle; the article names no founder of Galderma itself."
  ],
  [
   "Delta Air Lines",
@@ -1268,16 +1328,12 @@
   "founded 1958"
  ],
  [
-  "Cathay Financial Holding",
-  "no named founder"
- ],
- [
   "BASF",
   "founded 1865"
  ],
  [
   "Unimicron",
-  "no named founder"
+  "Subsidiary with no founding person: founded 1990 as a subsidiary of United Microelectronics Corporation; no founder named."
  ],
  [
   "Singtel",
@@ -1288,24 +1344,16 @@
   "founded 1630"
  ],
  [
-  "BTG Pactual",
-  "no named founder"
- ],
- [
   "Crédit Agricole",
   "founded 1894"
  ],
  [
   "Corteva",
-  "no named founder"
+  "Spin-off: formed March 2018 as DowDuPont's agriculture subsidiary and spun off in June 2019; no founder named."
  ],
  [
   "Nokia",
   "founded 1865"
- ],
- [
-  "Astera Labs",
-  "no named founder"
  ],
  [
   "Entergy",
@@ -1321,15 +1369,23 @@
  ],
  [
   "Emirates NBD Bank PJSC",
-  "no named founder"
+  "State-founded bank: National Bank of Dubai was formed 19 June 1963 by Sheikh Rashid bin Saeed Al Maktoum, Emir of Dubai (parent today: Investment Corporation of Dubai), and the current company is its "
  ],
  [
   "Marubeni",
   "founded 1858"
  ],
  [
+  "China Telecom",
+  "State-owned enterprise: incorporated 10 September 2002 as the listing vehicle of China Telecommunications Corporation (central government SOE, 70.89% owner); the infobox \"founder\" is the parent corpor"
+ ],
+ [
+  "Agilent Technologies",
+  "Spin-off: created 1999 as a spin-off of several Hewlett-Packard business units with a $2.1B IPO; no founding person."
+ ],
+ [
   "Diageo",
-  "no named founder"
+  "Formed 17 Dec 1997 by the merger of Guinness plc and Grand Metropolitan plc; infobox has no founder field and the article names only executives (Greener, Yea, Bull, McGrath) as its creators, not found"
  ],
  [
   "Bayer",
@@ -1348,8 +1404,12 @@
   "founded None"
  ],
  [
-  "Thomson Reuters",
+  "Constellation Software",
   "no named founder"
+ ],
+ [
+  "Thomson Reuters",
+  "Formed 17 Apr 2008 by combining Thomson Corporation (1934) and Reuters Group (1851); infobox lists predecessors only, no founder field."
  ],
  [
   "The People's Insurance Company (PICC)",
@@ -1357,15 +1417,23 @@
  ],
  [
   "Shanghai Pudong Development Bank",
-  "no named founder"
+  "City-owned joint-stock bank established 1993 and owned by the Shanghai Municipal Government; infobox type 'State-owned enterprise', no founder."
+ ],
+ [
+  "Endesa",
+  "Duplicate of row 286 (second Endesa listing). Right article 'Endesa': state-created utility founded 1944, now an Enel subsidiary; no founder."
  ],
  [
   "Rosneft",
-  "no named founder"
+  "Russian state-controlled oil company (Rosneftegaz 70%), established 1993 out of state assets; infobox founder field is empty."
+ ],
+ [
+  "Endesa",
+  "Duplicate of row 286 (second Endesa listing). Right article 'Endesa': state-created utility founded 1944, now an Enel subsidiary; no founder."
  ],
  [
   "DSV",
-  "no named founder"
+  "Founded 1976 'by nine independent Danish hauliers'; neither the infobox (no founder field) nor the lead names any person."
  ],
  [
   "Rockwell Automation",
@@ -1385,7 +1453,7 @@
  ],
  [
   "Coca-Cola European Partners",
-  "no named founder"
+  "Formed 28 May 2016 by merging Coca-Cola bottlers (predecessors Coca-Cola Enterprises, Coca-Cola Amatil, etc.); founder field blank."
  ],
  [
   "Swire Pacific",
@@ -1393,7 +1461,7 @@
  ],
  [
   "L3Harris Technologies",
-  "no named founder"
+  "Formed 29 June 2019 by the merger of L3 Technologies and Harris Corporation (1895); founder field blank."
  ],
  [
   "Fifth Third Bank",
@@ -1401,7 +1469,7 @@
  ],
  [
   "Jiangsu Hengrui Medicine",
-  "no named founder"
+  "Infobox founder field is blank and the lead names no founder; Sun Piaoyang appears only as chairman under key people."
  ],
  [
   "Vylor Inc.",
@@ -1413,23 +1481,31 @@
  ],
  [
   "Samsung Biologics",
-  "no named founder"
+  "Biotech subsidiary of Samsung Group set up in 2011 (owners Samsung C&T, Samsung Electronics); founder field empty."
  ],
  [
   "Vistra",
+  "Wrong page picked ('Vistra (services company)' is a Hong Kong corporate-services firm). The US power company's article is 'Vistra Corp.': formed 2016 when Texas Competitive Electric Holdings (TXU Ener"
+ ],
+ [
+  "Eoptolink Technology",
   "no named founder"
  ],
  [
   "Wabtec",
-  "no named founder"
+  "Formed 1999 'via merger' of Westinghouse Air Brake Company (1869) and MotivePower; founder field empty."
  ],
  [
   "Ford",
   "founded 1903"
  ],
  [
+  "Keurig Dr Pepper",
+  "Formed 9 July 2018 by the merger of Keurig Green Mountain and Dr Pepper Snapple Group (Dr Pepper dates to 1885); founder field blank. Wikidata's Bob Stiller founded Green Mountain Coffee Roasters, not"
+ ],
+ [
   "Comfort Systems USA",
-  "no named founder"
+  "Infobox has no founder field and the lead names no founder or formation story; founded 1997."
  ],
  [
   "State Street Corporation",
@@ -1440,8 +1516,12 @@
   "founded 1935"
  ],
  [
-  "Erste Group Bank",
+  "Coherent Corp.",
   "no named founder"
+ ],
+ [
+  "Erste Group Bank",
+  "Wrong page picked ('Erste Bank Croatia' is a subsidiary). The right article is 'Erste Group': founded 'October 1819 as the first Austrian savings banks', current holding formed 9 August 2008; no found"
  ],
  [
   "Waters Corporation",
@@ -1457,7 +1537,7 @@
  ],
  [
   "MS&AD Insurance",
-  "no named founder"
+  "Holding company formed 2008 by combining Mitsui Sumitomo Insurance and Aioi Nissay Dowa Insurance; no founder or predecessor field."
  ],
  [
   "Danone",
@@ -1469,7 +1549,7 @@
  ],
  [
   "Holcim Group",
-  "no named founder"
+  "Formerly LafargeHolcim, the 2015 merger of equals of Holcim (1912) and Lafarge (1833); infobox has no founded or founder field, predecessors blank. The Wikidata year 2015 is the merger, not an origin."
  ],
  [
   "Hindustan Unilever",
@@ -1484,20 +1564,24 @@
   "no named founder"
  ],
  [
-  "Yum China",
+  "Everpure",
   "no named founder"
+ ],
+ [
+  "Yum China",
+  "Spin-off: separated from Yum! Brands on 1 November 2016; infobox has no founder and the lead names none."
  ],
  [
   "Exelon Corporation",
-  "no named founder"
+  "Merger: created 20 October 2000 by the merger of PECO Energy (1902) and Unicom (1907); no founder named."
  ],
  [
   "Franco-Nevada",
-  "no named founder"
+  "Spin-off: the present company was spun off by Newmont in a 2007 IPO; the infobox has no founder or founded field and the lead names no founder."
  ],
  [
   "Aena",
-  "no named founder"
+  "State-owned enterprise: 'Aena' redirects to ENAIRE, a public corporate entity owned by the Government of Spain, created 1990/1991 under Act 4/1990; no founder."
  ],
  [
   "Sandvik",
@@ -1508,8 +1592,16 @@
   "founded None"
  ],
  [
+  "Kuwait Finance House",
+  "No named human founder: infobox founder field is 'Consortium of Kuwaiti merchants'; no individual is named in the lead or history."
+ ],
+ [
   "CITIC limited",
-  "no named founder"
+  "State-owned subsidiary: infobox type 'Partial state-owned enterprise', 58% owned by the state-owned CITIC Group; founded 1990 in Hong Kong as CITIC Pacific with no founding person named."
+ ],
+ [
+  "PICC Property and Casualty Company Limited",
+  "Subsidiary with no founding person: incorporated 2003 as one of three subsidiaries of the People's Insurance Company of China; infobox founder field names the parent company, not a person."
  ],
  [
   "Bombardier",
@@ -1537,15 +1629,15 @@
  ],
  [
   "ORLEN",
-  "no named founder"
+  "State-owned merger: formed 7 September 1999 when the Council of Ministers merged the state firms CPN and Petrochemia Płock as Polski Koncern Naftowy; Polish state holds 49.9%; no founder named."
  ],
  [
   "China Pacific Insurance",
-  "no named founder"
+  "State-linked with no founding person: 'established on the basis of the former China Pacific Insurance Corporation' (1991, approved by the People's Bank of China); owners are the central government (23"
  ],
  [
   "Fomento Económico Mexicano (FEMSA)",
-  "no named founder"
+  "Holding reorganisation with no founding person: FEMSA arose in 1974 when Grupo Monterrey split into two branches; the origin business is the Cervecería Cuauhtémoc brewery founded in 1890 by Isaac Garz"
  ],
  [
   "Tesco",
@@ -1553,15 +1645,15 @@
  ],
  [
   "AngloGold Ashanti",
-  "no named founder"
+  "Merger: formed 26 April 2004 by the merger of AngloGold (Anglo American's gold arm) and Ashanti Goldfields; no founder named."
  ],
  [
   "MSCI",
-  "no named founder"
+  "Spin-off with no founding person: indices published by Capital International from 1968, licensed and branded by Morgan Stanley in 1986, divested by Morgan Stanley through a 2007 IPO completed in 2009;"
  ],
  [
   "Haleon",
-  "no named founder"
+  "Spin-off: established 18 July 2022 as a corporate spin-off (demerger) from GSK; infobox predecessors are GSK Consumer Healthcare and others; no founder named."
  ],
  [
   "Fujikura",
@@ -1596,8 +1688,12 @@
   "founded 1957"
  ],
  [
+  "STMicroelectronics",
+  "Merger of state-owned companies: formed 1987 by merging Italy's SGS Microelettronica and France's Thomson Semiconducteurs, both government-owned; the infobox founders Elihu Thomson and Camillo Olivett"
+ ],
+ [
   "Swisscom",
-  "no named founder"
+  "Privatised state utility: Telecom PTT was spun off and rebranded Swisscom on 1 October 1997 ahead of partial privatisation; infobox type 'state-owned enterprise', Swiss Government owns 51%; no founder"
  ],
  [
   "Poste Italiane",
@@ -1613,11 +1709,11 @@
  ],
  [
   "Microchip Technology",
-  "no named founder"
+  "Spin-off with no founding person: founded 14 February 1989 when General Instrument spun off its microelectronics division as a wholly owned subsidiary, bought later in 1989 by Sequoia-led investors; n"
  ],
  [
   "Assa Abloy",
-  "no named founder"
+  "Merger: formed 1994 when Assa AB separated from Securitas and merged with Finland's Abloy Oy (a Wärtsilä subsidiary); no founder named."
  ],
  [
   "Toyota Tsusho",
@@ -1628,8 +1724,12 @@
   "founded 1926"
  ],
  [
+  "Ambev",
+  "Merger of equals: created 1 July 1999 (infobox: 1 June 1999) by the merger of Companhia Cervejaria Brahma and Companhia Antarctica Paulista; infobox and lead name no founder."
+ ],
+ [
   "Orange",
-  "no named founder"
+  "State-owned, later privatised utility: founded 1 January 1988 as France Télécom from the Ministry of Posts and Telecommunications, privatisation began 1998, French State still holds 23%; no founder na"
  ],
  [
   "Danske Bank",
@@ -1641,7 +1741,7 @@
  ],
  [
   "SSE",
-  "no named founder"
+  "Merger of privatised utilities: formed September 1998 by the merger of Scottish Hydro-Electric and Southern Electric, both former public electricity boards privatised in 1990/91; no founder named."
  ],
  [
   "Consolidated Edison",
@@ -1657,7 +1757,7 @@
  ],
  [
   "Guotai Junan Securities",
-  "no named founder"
+  "State-owned Chinese brokerage formed 18 Aug 1999 by the merger of Guotai Securities (1992) and Junan Securities (1992), later renamed Guotai Haitong after absorbing Haitong; no founder named in infobo"
  ],
  [
   "Jardine Matheson",
@@ -1669,7 +1769,7 @@
  ],
  [
   "Ventas",
-  "no named founder"
+  "Founded 1998 as a corporate spin-off of Vencor (the healthcare operator founded by Bruce Lunsford); the infobox names no founder and the article presents Ventas as a spin-off, not a renamed origin."
  ],
  [
   "NEC Corp",
@@ -1681,7 +1781,7 @@
  ],
  [
   "Japan Post Holdings",
-  "no named founder"
+  "Holding company incorporated 2006 to take over the state-owned Japan Post postal service under postal privatisation; still majority government-held; no founder."
  ],
  [
   "Skandinaviska Enskilda Banken",
@@ -1689,11 +1789,11 @@
  ],
  [
   "QNB (Qatar National Bank)",
-  "no named founder"
+  "Wrong article picked (Qatar Development Bank). The right article is 'QNB Group' (Qatar National Bank), founded 6 June 1964 as a state bank, 50% owned by the Qatar Investment Authority; no founder name"
  ],
  [
   "Yum! Brands",
-  "no named founder"
+  "Created 1977 as PepsiCo's restaurant division and spun off as a separate company on 6 Oct 1997 (infobox predecessor: PepsiCo); no founder named."
  ],
  [
   "Otsuka Holdings",
@@ -1709,19 +1809,15 @@
  ],
  [
   "Axis Bank",
-  "no named founder"
+  "Founded 3 Dec 1993 as UTI Bank by the Unit Trust of India, a Government of India entity, together with state insurers (LIC, GIC and others); no founding person named in infobox or article."
  ],
  [
   "Live Nation",
-  "no named founder"
- ],
- [
-  "Quanta Computer",
-  "no named founder"
+  "Live Nation Entertainment was formed 25 Jan 2010 by the merger of Live Nation and Ticketmaster; infobox names no founder. Live Nation itself was a 2005 Clear Channel spin-off (origin SFX Entertainment"
  ],
  [
   "KB Financial Group",
-  "no named founder"
+  "Financial holding company established Sept 2008 by restructuring Kookmin Bank (a bank set up by the Korean state in 1963) into a holding company; no founder named."
  ],
  [
   "Samsung C&T Corporation",
@@ -1733,7 +1829,7 @@
  ],
  [
   "ORIX",
-  "no named founder"
+  "Established 17 April 1964 as Orient Leasing Co., a subsidiary of the trading house Nichimen (now Sojitz); renamed ORIX in 1989; no founding person in infobox or article."
  ],
  [
   "Estee Lauder",
@@ -1744,16 +1840,8 @@
   "founded 1905"
  ],
  [
-  "WEG ON",
-  "no named founder"
- ],
- [
-  "Fairfax Financial",
-  "no named founder"
- ],
- [
   "Adani Power",
-  "no named founder"
+  "Subsidiary of Adani Group started as a power-trading company in 1996; infobox names no founder (Gautam Adani appears only as chairman) and the lead calls it a subsidiary."
  ],
  [
   "Volkswagen",
@@ -1761,7 +1849,7 @@
  ],
  [
   "Sompo Holdings",
-  "no named founder"
+  "Insurance holding company formed 1 April 2010 by the merger of Sompo Japan and Nipponkoa Insurance; no founder named; the predecessors date to 1888."
  ],
  [
   "Legrand",
@@ -1777,7 +1865,7 @@
  ],
  [
   "Hannover Rück",
-  "no named founder"
+  "Founded 6 June 1966 with no founding person named anywhere in the infobox or article; 50.2% owned by Talanx (HDI group), of which it was the reinsurance arm."
  ],
  [
   "Kroger",
@@ -1785,7 +1873,7 @@
  ],
  [
   "Telstra",
-  "no named founder"
+  "Former state-owned enterprise originating as the Postmaster-General's Department (1901), split off as Telecom Australia in 1975 and fully privatised by 2006; no founder."
  ],
  [
   "Schindler Group",
@@ -1796,8 +1884,16 @@
   "founded None"
  ],
  [
+  "Maruti Suzuki India",
+  "Established Feb 1981 by the Government of India as Maruti Udyog, a state joint venture with Suzuki; infobox founder field is 'Government of India', not a person."
+ ],
+ [
   "COSCO Shipping",
-  "no named founder"
+  "State-owned enterprise formed 2016 by the merger of COSCO Group (1961) and China Shipping Group; infobox type is 'State-owned enterprise' and no founder is named."
+ ],
+ [
+  "Celestica",
+  "Incorporated 1994 as a subsidiary of IBM (infobox founder field is 'IBM'), sold to Onex in 1996; no founding person."
  ],
  [
   "PKO Bank Polski",
@@ -1809,11 +1905,11 @@
  ],
  [
   "SABIC",
-  "no named founder"
+  "State-owned enterprise: founded 1976 by Saudi royal decree, no founding person named (first chairman and CEO only)."
  ],
  [
   "Chunghwa Telecom",
-  "no named founder"
+  "Privatised state utility: incorporated 15 June 1996 out of the Directorate General of Telecommunications as part of the government's privatisation; no founding person."
  ],
  [
   "Crown Castle",
@@ -1829,11 +1925,11 @@
  ],
  [
   "Kenvue",
-  "no named founder"
+  "Spin-off: Johnson & Johnson's consumer health division, incorporated 2022 and separated 2023; no founding person."
  ],
  [
   "China General Nuclear Power Group (CGN)",
-  "no named founder"
+  "State-owned enterprise under SASAC, founded September 1994 as China Guangdong Nuclear Power Group; no founder."
  ],
  [
   "Banca Monte dei Paschi di Siena",
@@ -1849,7 +1945,7 @@
  ],
  [
   "Talanx",
-  "no named founder"
+  "Holding-company reorganisation of the HDI mutual insurer (HDI V.a.G., majority shareholder), set up 1996; no founding person named."
  ],
  [
   "Prysmian Group",
@@ -1869,15 +1965,15 @@
  ],
  [
   "ABN AMRO",
-  "no named founder"
+  "Merger of equals: formed 21 September 1991 by the merger of Algemene Bank Nederland and AMRO Bank; later nationalised and re-listed; no founding person."
  ],
  [
   "Elbit Systems",
-  "no named founder"
+  "Founded 1966 by Elron Electronic Industries and Israel's Ministry of Defense (a company and a government), as a subsidiary; no human founder named in infobox, lead or history."
  ],
  [
   "Cameco",
-  "no named founder"
+  "Formed 1988 by the merger and privatisation of two Crown corporations (Eldorado Nuclear and Saskatchewan Mining Development Corporation); no founding person."
  ],
  [
   "Ecopetrol",
@@ -1885,7 +1981,7 @@
  ],
  [
   "Martin Marietta Materials",
-  "no named founder"
+  "Spin-off: Martin Marietta's aggregates business, a subsidiary from 1993, spun off from Lockheed Martin in 1996; no founding person in the window (the business traces to Superior Stone, founded 1939 by"
  ],
  [
   "PSEG",
@@ -1948,20 +2044,16 @@
   "founded 1910"
  ],
  [
-  "CoreWeave",
-  "no named founder"
- ],
- [
   "EQT Corporation",
   "founded 1888"
  ],
  [
   "Bank of Jiangsu",
-  "no named founder"
+  "Formed 24 January 2007 from the combination and restructuring of 10 city commercial banks in Jiangsu; no founding person."
  ],
  [
   "UltraTech Cement",
-  "no named founder"
+  "Subsidiary carve-out: began 1983 as the cement division of Larsen & Toubro, demerged and taken over by Grasim (Aditya Birla Group) in 2004; no founding person."
  ],
  [
   "The Hartford",
@@ -1972,16 +2064,20 @@
   "founded 1910"
  ],
  [
+  "Repsol",
+  "State-owned enterprise: created 1986 by the Spanish state's Instituto Nacional de Hidrocarburos as a state holding, privatised 1989-1997; no founding person for Repsol."
+ ],
+ [
   "Bank of Ningbo",
-  "no named founder"
+  "City commercial bank founded 1997 as Ningbo Commercial Bank, government-affiliated (Ningbo Development and Investment Group is the largest holder); no founding person named."
  ],
  [
   "Abu Dhabi Commercial Bank (ADCB)",
-  "no named founder"
+  "Formed 1985 by the merger of Emirates Commercial Bank, Federal Commercial Bank and Khaleej Commercial Bank; majority owned by the Government of Abu Dhabi; no founding person."
  ],
  [
   "Daimler Truck",
-  "no named founder"
+  "Spin-off of Daimler AG's heavy commercial vehicle operations (subsidiary from November 2019, separated December 2021); no founding person."
  ],
  [
   "Bank Leumi",
@@ -1989,19 +2085,11 @@
  ],
  [
   "GE HealthCare Technologies",
-  "no named founder"
+  "Spin-off: General Electric's healthcare division (subsidiary since 1994), spun off January 2023; no founding person."
  ],
  [
   "Iron Mountain",
   "founded 1951"
- ],
- [
-  "Yageo",
-  "no named founder"
- ],
- [
-  "Flex",
-  "no named founder"
  ],
  [
   "Hindustan Aeronautics",
@@ -2017,19 +2105,19 @@
  ],
  [
   "ČEZ Group",
-  "no named founder"
+  "State enterprise successor: established 1992 succeeding the state enterprise České energetické závody; the Czech state owns about 70%; no founding person."
  ],
  [
   "Renesas Electronics",
-  "no named founder"
+  "Spin-off and merger: began as NEC Electronics (an NEC spin-off, Nov 2002) and became Renesas Electronics through the 2010 merger with Renesas Technology (Hitachi and Mitsubishi Electric); no founding "
  ],
  [
   "Restaurant Brands International",
-  "no named founder"
+  "Merger-formed holding company: created 15 Dec 2014 by the merger of Burger King and Tim Hortons (3G Capital); no founding person."
  ],
  [
   "Experian",
-  "no named founder"
+  "Corporate carve-out, no founder: formed in 1996 when TRW sold TRW Information Services (ex Credit Data Corporation, acquired 1968) and GUS merged it with its CCN unit; demerged from GUS in 2006."
  ],
  [
   "Mettler Toledo",
@@ -2037,7 +2125,7 @@
  ],
  [
   "CMOC",
-  "no named founder"
+  "State-origin mining company: founded 1969 (China Molybdenum), partly state-owned; infobox founder field is empty and no person is named as founder."
  ],
  [
   "Sunbelt Rentals",
@@ -2069,23 +2157,31 @@
  ],
  [
   "Ping An Bank",
-  "no named founder"
+  "Subsidiary with no founding person: subsidiary of Ping An Insurance formed through the 2012 reverse takeover of Shenzhen Development Bank (1987); infobox names no founder."
+ ],
+ [
+  "Cboe Global Markets",
+  "No human founder: founded 1973 as the Chicago Board Options Exchange by the Chicago Board of Trade, an organisation; the row's founder 'Chicago Board of Trade' is not a person."
  ],
  [
   "Gazprom",
-  "no named founder"
+  "State-owned enterprise: created 8 Aug 1989 from the Soviet Ministry of Gas Industry; Russian government owns 50.23%; infobox founder field is empty."
  ],
  [
   "TDK",
   "founded 1935"
  ],
  [
+  "Wanhua Chemical",
+  "No human founder: infobox founder is 'Wanhua Group Corporation and other investors' (a company; largest owner is Yantai Guofeng, a state entity); founded 16 Dec 1998 in Yantai."
+ ],
+ [
   "Nutrien",
-  "no named founder"
+  "Merger of equals: formed 1 Jan 2018 by the merger of PotashCorp and Agrium; no founding person."
  ],
  [
   "Aselsan",
-  "no named founder"
+  "State foundation: founded 1975 by the Turkish Army Foundation (now the Turkish Armed Forces Foundation, the major stockholder); no human founder."
  ],
  [
   "Leonardo",
@@ -2093,11 +2189,15 @@
  ],
  [
   "Intact Financial",
-  "no named founder"
+  "Renamed subsidiary, no founder: formed in 2009 when ING sold and renamed ING Canada; predecessors date to the Halifax Fire Insurance Association (1809)."
  ],
  [
   "The Hershey Company",
   "founded 1894"
+ ],
+ [
+  "Oriental Land",
+  "No founding person in the English article: founded 11 July 1960; infobox founder field is empty and neither infobox nor lead names a founder; the Wikidata-only 'Chiharu Kawasaki' has no English Wikipe"
  ],
  [
   "3i Group",
@@ -2116,16 +2216,8 @@
   "founded 1839"
  ],
  [
-  "AMEC",
-  "no named founder"
- ],
- [
   "Swiss Life",
   "founded 1857"
- ],
- [
-  "Mindray",
-  "no named founder"
  ],
  [
   "Novonesis",
@@ -2141,7 +2233,7 @@
  ],
  [
   "Ahold Delhaize",
-  "no named founder"
+  "Merger of equals: formed by the 2016 merger of Ahold (Dutch) and Delhaize Group (Belgian), both with 1800s origins; no founding person."
  ],
  [
   "Zoetis",
@@ -2153,7 +2245,7 @@
  ],
  [
   "NTPC Limited",
-  "no named founder"
+  "State-owned enterprise: Indian central public sector undertaking owned by the Ministry of Power, Government of India, set up 7 Nov 1975; infobox founder field is empty."
  ],
  [
   "CK Hutchison Holdings",
@@ -2165,7 +2257,7 @@
  ],
  [
   "ACWA POWER Company",
-  "no named founder"
+  "No human founder: founded 2004 as ACWA Power Projects, a joint venture between ACWA Holding (Abunayyan Holding and Al-Muhaidib) and the MADA Group, all companies; infobox and lead name no person as fo"
  ],
  [
   "Kia",
@@ -2197,7 +2289,7 @@
  ],
  [
   "Gree Electric Appliances",
-  "no named founder"
+  "No founding person: established 1989 in Zhuhai as Zhuhai City Haili Cooling Engineering Company Limited (a city enterprise), restructured and renamed Gree in 1994; infobox founder field is empty and n"
  ],
  [
   "Fortescue",
@@ -2217,7 +2309,7 @@
  ],
  [
   "Naturgy",
-  "no named founder"
+  "Spanish gas and electricity utility (formerly Gas Natural Fenosa), dated only to 1991 with no founder named anywhere in the article; a utility group with no founding person."
  ],
  [
   "Yuanta Financial Holding",
@@ -2230,10 +2322,6 @@
  [
   "FirstRand",
   "founded 1838"
- ],
- [
-  "Alnylam Pharmaceuticals",
-  "no named founder"
  ],
  [
   "Ajinomoto",
@@ -2261,7 +2349,7 @@
  ],
  [
   "China National Nuclear Power",
-  "no named founder"
+  "State-owned: China National Nuclear Power Co. is the listed subsidiary of the state-owned China National Nuclear Corporation; the matched article (China General Nuclear Power Group) is a different sta"
  ],
  [
   "Banco Bradesco",
@@ -2269,7 +2357,7 @@
  ],
  [
   "Tenaris",
-  "no named founder"
+  "Holding reorganisation: organised 17 Dec 2001 by Techint to consolidate its steel-pipe companies; roots trace to Siderca (1948); no founder named."
  ],
  [
   "Foshan Haitian Flavouring and Food",
@@ -2288,12 +2376,8 @@
   "no named founder"
  ],
  [
-  "Bending Spoons",
-  "no named founder"
- ],
- [
   "Daiichi Sankyō",
-  "no named founder"
+  "Merger of equals: established 2005 through the merger of Daiichi Pharmaceutical and Sankyo, both century-old companies."
  ],
  [
   "Oil & Natural Gas",
@@ -2305,19 +2389,15 @@
  ],
  [
   "Transurban",
-  "no named founder"
+  "Formed March 1996 as a single-purpose concession company to operate Melbourne's CityLink toll road; no founding person named."
  ],
  [
   "Itaúsa",
-  "no named founder"
- ],
- [
-  "Shinhan Financial Group",
-  "no named founder"
+  "Holding company of the Itaú group controlled by the Setubal and Villela families; the English article names no founder and the group's banking origin predates 1960."
  ],
  [
   "Emcor",
-  "no named founder"
+  "1994 renaming of Jamaica Water Properties (JWP) after its bankruptcy, with Frank MacInnis as CEO; a reorganised 19th-century utility successor with no founder."
  ],
  [
   "7-Eleven",
@@ -2325,19 +2405,15 @@
  ],
  [
   "Ameren",
-  "no named founder"
+  "Utility holding company created 31 Dec 1997 by the merger of Union Electric and Central Illinois Public Service (CIPSCO); no founder."
  ],
  [
   "Willis Towers Watson",
-  "no named founder"
+  "Merger: formed 5 Jan 2016 by the merger of Willis Group and Towers Watson; no founder."
  ],
  [
   "Prudential",
   "founded 1875"
- ],
- [
-  "DexCom",
-  "no named founder"
  ],
  [
   "Denso",
@@ -2357,7 +2433,7 @@
  ],
  [
   "Hanwha Aerospace",
-  "no named founder"
+  "Subsidiary with no founding person: established 1977 as Samsung Precision inside Samsung Group, now a Hanwha Group subsidiary."
  ],
  [
   "Inpex",
@@ -2369,11 +2445,15 @@
  ],
  [
   "ON Semiconductor",
-  "no named founder"
+  "Spin-off: founded 1999 as a spinoff of Motorola's Semiconductor Components Group; no founder."
  ],
  [
   "HeidelbergCement",
   "founded 1874"
+ ],
+ [
+  "Fortis",
+  "Privatised-utility holding reorganisation: formed 1987 when shareholders of Newfoundland Light & Power (1885) voted to create a holding company; traces to an 1885 utility, no founding entrepreneur."
  ],
  [
   "Ingersoll Rand",
@@ -2385,15 +2465,19 @@
  ],
  [
   "Aviva",
-  "no named founder"
+  "Merger: formed May 2000 as CGNU plc when Norwich Union merged with CGU plc; no founder."
+ ],
+ [
+  "LabCorp",
+  "Merger: formed April 1995 when Roche contributed Roche Biomedical Laboratories to National Health Laboratories (DCL BioMedical, 1968, bought by Revlon 1971); no attributable founder."
  ],
  [
   "DSM-Firmenich",
-  "no named founder"
+  "Merger: formed 9 May 2023 through the merger of Royal DSM and Firmenich; no founder."
  ],
  [
   "Brookfield Infrastructure Partners",
-  "no named founder"
+  "Spin-off: an operating unit of Brookfield Asset Management until its January 2008 spin-off; no founder."
  ],
  [
   "Pembina Pipeline",
@@ -2405,7 +2489,7 @@
  ],
  [
   "Sumitomo Mitsui Trust Holdings",
-  "no named founder"
+  "Bank holding company formed 2002 as Chuo Mitsui Trust Holdings for merged trust banks; no founder."
  ],
  [
   "Credicorp",
@@ -2413,7 +2497,7 @@
  ],
  [
   "Formosa Petrochemical",
-  "no named founder"
+  "Subsidiary with no founding person: founded 6 Apr 1992 as a wholly owned subsidiary of Formosa Plastics Group."
  ],
  [
   "Kyocera",
@@ -2437,15 +2521,19 @@
  ],
  [
   "Astellas Pharma",
-  "no named founder"
+  "Formed 1 April 2005 by the merger of equals of Yamanouchi Pharmaceutical and Fujisawa Pharmaceutical; infobox lists predecessors and no founder."
  ],
  [
   "West Pharmaceutical Services",
   "founded 1923"
  ],
  [
+  "Bajaj Finserv",
+  "Spin-off: created in 2007 by the demerger of Bajaj Auto's financial-services business (Bombay High Court order 18 Dec 2007); no founding person in 2007."
+ ],
+ [
   "Kraft Heinz",
-  "no named founder"
+  "Formed 2 July 2015 by the merger of Kraft Foods Group and the H.J. Heinz Company; no founder in infobox or lead."
  ],
  [
   "Yankuang Energy (Yanzhou Coal Mining)",
@@ -2461,11 +2549,11 @@
  ],
  [
   "China Coal Energy Company Limited",
-  "no named founder"
+  "State-owned enterprise: listed subsidiary of China National Coal Group, infobox founded 2006, founder field empty, no founder in lead."
  ],
  [
   "TechnipFMC",
-  "no named founder"
+  "Formed 17 January 2017 by the merger of Technip (France) and FMC Technologies (US); infobox lists predecessors and no founder."
  ],
  [
   "Vestas Wind Systems",
@@ -2481,7 +2569,7 @@
  ],
  [
   "Yili Group",
-  "no named founder"
+  "Partly state-owned (Hohhot government); traces to the 1956 state 'Cattle Breeding Team of Hohhot Huimin District', reorganised as a joint-stock company in 1993; no founder in infobox or lead."
  ],
  [
   "Dollar General",
@@ -2517,7 +2605,7 @@
  ],
  [
   "DTE Energy",
-  "no named founder"
+  "Utility holding company created in the mid-1990s for Detroit Edison (founded 1903); infobox founder field empty, no founder in lead."
  ],
  [
   "Veolia",
@@ -2525,11 +2613,11 @@
  ],
  [
   "China Everbright Bank",
-  "no named founder"
+  "State-owned enterprise: national joint-stock bank established August 1992 with State Council approval; infobox type 'partial state-owned enterprise', founder field empty."
  ],
  [
   "Doosan Enerbility",
-  "no named founder"
+  "No human founder: article says the company (formerly Korea Heavy Industries and Construction, a state heavy-industry company privatised to Doosan in 2001) was 'founded by Doosan Group' in 1962; infobo"
  ],
  [
   "Divis Laboratories",
@@ -2537,7 +2625,7 @@
  ],
  [
   "Amadeus IT Group",
-  "no named founder"
+  "Founded 1987 as an airline consortium (Air France, Iberia, Lufthansa, SAS); infobox has no founder field and the lead names no founder."
  ],
  [
   "QBE Insurance",
@@ -2549,7 +2637,7 @@
  ],
  [
   "FirstEnergy",
-  "no named founder"
+  "Formed 7 November 1997 by the merger of Ohio Edison and Centerior Energy; infobox lists predecessors and no founder."
  ],
  [
   "OMV",
@@ -2557,11 +2645,11 @@
  ],
  [
   "Grupo ACS",
-  "no named founder"
+  "Formed in 1997 by the merger of OCP Construcciones and Ginés Navarro Construcciones; infobox founder field empty, lead names no founder."
  ],
  [
   "Weichai Power",
-  "no named founder"
+  "Founded 23 December 2002 as the listed arm of the state-owned Weichai Group (Shandong Heavy Industry); infobox founder field empty, no founder in lead."
  ],
  [
   "Nomura Holdings",
@@ -2573,7 +2661,7 @@
  ],
  [
   "China Resources Land",
-  "no named founder"
+  "Property arm of the state-owned China Resources Group, listed as a red chip in 1996; infobox founder field empty, no founder in lead."
  ],
  [
   "Life Insurance Corporation of India (LIC)",
@@ -2589,11 +2677,15 @@
  ],
  [
   "Ørsted",
-  "no named founder"
+  "Formed 14 March 2006 (as DONG Energy) by merging the state-owned Dansk Naturgas with Elsam, Energi E2, NESA, Københavns Energi and Frederiksberg Forsyning; Danish state is majority owner; infobox foun"
  ],
  [
   "PPL",
   "founded 1920"
+ ],
+ [
+  "Hapag-Lloyd",
+  "Formed 1 September 1970 by the merger of Hamburg America Line (HAPAG) and Norddeutscher Lloyd; the infobox founders are the 19th-century founders of those predecessors ('all founded in 1800s')."
  ],
  [
   "Michelin",
@@ -2617,15 +2709,11 @@
  ],
  [
   "AIB Group (Allied Irish Banks)",
-  "no named founder"
+  "Formed 21 Sep 1966 as a new company that acquired/merged three banks (Provincial Bank of Ireland, Royal Bank of Ireland, Munster & Leinster Bank); infobox has no founder and the article names none."
  ],
  [
   "Exor",
   "founded 1927"
- ],
- [
-  "Tradeweb",
-  "no named founder"
  ],
  [
   "Corpay",
@@ -2633,11 +2721,11 @@
  ],
  [
   "Aker BP",
-  "no named founder"
+  "Formed by a 2016 merger of Det norske oljeselskap and BP Norge (Aker 40%, BP 30%, public 30%); infobox has no founder and the article names none."
  ],
  [
   "VICI Properties",
-  "no named founder"
+  "Formed 6 Oct 2017 as a spin-off from Caesars Entertainment in its Chapter 11 bankruptcy reorganisation; no founder in infobox or lead."
  ],
  [
   "First Citizens BancShares",
@@ -2645,19 +2733,19 @@
  ],
  [
   "MTR Corporation",
-  "no named founder"
+  "Began in 1972/1975 as the Mass Transit Railway Corporation, a Hong Kong government statutory body; the Hong Kong Government still holds 75.09%; no founder named."
  ],
  [
   "Powergrid Corporation of India",
-  "no named founder"
+  "Indian central public sector undertaking owned by the Ministry of Power, Government of India; no founder named."
  ],
  [
   "Coal India",
-  "no named founder"
+  "Indian state-owned coal mining company (Government of India 63.13%); no founder named."
  ],
  [
   "Airports of Thailand",
-  "no named founder"
+  "Government-owned company (Thai government holds 70%); no founder named."
  ],
  [
   "SMC corp",
@@ -2669,7 +2757,7 @@
  ],
  [
   "GlobalFoundries",
-  "no named founder"
+  "Created 2 Mar 2009 by the divestiture (spin-off) of AMD's manufacturing arm, owned by Mubadala until its 2021 IPO; no founder named."
  ],
  [
   "Expeditors International",
@@ -2677,7 +2765,7 @@
  ],
  [
   "Samsung Electro-Mechanics",
-  "no named founder"
+  "Samsung Group subsidiary established in 1973 as Samsung Sanyo Parts; infobox has no founder and the article names none."
  ],
  [
   "Suzuki Motor",
@@ -2701,11 +2789,11 @@
  ],
  [
   "Eversource Energy",
-  "no named founder"
+  "Utility holding company formed 1 Jul 1966 as Northeast Utilities by combining Connecticut Light and Power, Western Massachusetts Electric and Hartford Electric Light; no founder named (Lelan Sillin wa"
  ],
  [
   "East Japan Railway",
-  "no named founder"
+  "Incorporated 1 Apr 1987 as the privatisation/spin-off of the government-run Japanese National Railways; wholly owned by the JNR Settlement Corporation until sold to the public by 2002; no founder name"
  ],
  [
   "National Bank of Kuwait",
@@ -2713,7 +2801,7 @@
  ],
  [
   "Veralto",
-  "no named founder"
+  "Spun off from Danaher Corporation in September/October 2023; infobox has no founder and the article names none."
  ],
  [
   "MFHC",
@@ -2725,7 +2813,7 @@
  ],
  [
   "Verisk Analytics",
-  "no named founder"
+  "Origin is the Insurance Services Office, created in 1971 by combining several property/casualty insurance bureaus (an industry body); no founder named."
  ],
  [
   "Nan Ya PCB",
@@ -2749,7 +2837,7 @@
  ],
  [
   "ST Engineering",
-  "no named founder"
+  "Government-linked: traces to Chartered Industries of Singapore (1967, state defence firm), formed as a listed holding company in 1997 by merging four Singapore Technologies units, parent Temasek Holdi"
  ],
  [
   "Dow",
@@ -2757,35 +2845,35 @@
  ],
  [
   "EnBW Energie",
-  "no named founder"
+  "Formed 1 Jan 1997 by the merger of Badenwerk AG and Energie-Versorgung Schwaben AG; 46.75% held by the state of Baden-Württemberg's NECKARPRI and 46.75% by municipal OEW; no founder named."
  ],
  [
   "Synchrony Financial",
-  "no named founder"
+  "Incorporated 2003 as GE Capital Retail Finance Corporation, inactive until GE spun off its retail finance unit in 2013-2014; no founder named."
+ ],
+ [
+  "InterContinental Hotels Group",
+  "Formed 15 April 2003 by the demerger of Six Continents (ex-Bass); infobox founders William Bass (Bass Brewery, 1777) and Juan Trippe (InterContinental chain, 1946) founded predecessor businesses befor"
  ],
  [
   "AerCap",
-  "no named founder"
+  "No founder in infobox or lead; the company is debis AirFinance renamed in 2005 after a Cerberus buyout (lineage to Guinness Peat Aviation, 1975, is a predecessor, not this company)."
  ],
  [
   "CLP Group",
   "founded 1901"
  ],
  [
-  "Trip.com",
-  "no named founder"
- ],
- [
   "Entegris",
-  "no named founder"
+  "Formed in 1999 by combining Fluoroware (operating since 1966) and EMPAK, later merged with Mykrolis; no founder named in infobox, lead, or history."
  ],
  [
   "China International Capital Corporation",
-  "no named founder"
+  "Partially state-owned enterprise, incorporated 1995 as a joint venture of China Construction Bank, Morgan Stanley, and others; no founding person."
  ],
  [
   "Coca-Cola FEMSA",
-  "no named founder"
+  "Subsidiary of FEMSA, begun as a joint venture with The Coca-Cola Company (1991/1993); no founding person."
  ],
  [
   "Nestlé India",
@@ -2793,23 +2881,23 @@
  ],
  [
   "Regions Financial",
-  "no named founder"
+  "Formed 1971 as First Alabama Bankshares by combining three Alabama banks (founded 1856, 1871, 1928); no founding person."
  ],
  [
   "ENEOS Holdings",
-  "no named founder"
+  "Holding company created 1 April 2010 by joint share transfer of Nippon Oil and Nippon Mining Holdings (merged again with TonenGeneral 2017); no founder."
  ],
  [
   "WuXi Biologics",
-  "no named founder"
+  "Spun off from parent WuXi AppTec (started 2010 as a division, infobox 2015); no founder named in infobox or lead."
  ],
  [
   "Hana Financial Group",
-  "no named founder"
+  "Established December 2005 as Hana Bank's transition to a holding company; no founder named."
  ],
  [
   "Bandai Namco",
-  "no named founder"
+  "Formed 29 September 2005 by the merger of Bandai and Namco; no founder named."
  ],
  [
   "Dollar Tree",
@@ -2817,7 +2905,7 @@
  ],
  [
   "Fortum",
-  "no named founder"
+  "State-owned (Government of Finland 53%); created 1998 by merging Imatran Voima and Neste; no founder."
  ],
  [
   "Principal Financial Group",
@@ -2828,8 +2916,16 @@
   "founded 1936"
  ],
  [
+  "Incyte",
+  "no named founder"
+ ],
+ [
   "New China Life Insurance",
   "founded 1949"
+ ],
+ [
+  "Victory Giant Technology",
+  "no named founder"
  ],
  [
   "Symbotic",
@@ -2840,20 +2936,12 @@
   "founded 1895"
  ],
  [
-  "Hyundai Mobis",
-  "no named founder"
- ],
- [
   "Moore Threads",
   "no named founder"
  ],
  [
   "Lasertec",
-  "no named founder"
- ],
- [
-  "Largan Precision",
-  "no named founder"
+  "Founded 1960 as Tokyo ITV Laboratory; no founder named in infobox, lead, or history."
  ],
  [
   "Next plc",
@@ -2861,7 +2949,7 @@
  ],
  [
   "Fresnillo",
-  "no named founder"
+  "A wholly owned division of Industrias Peñoles until a minority stake was floated in a May 2008 IPO; Peñoles remains parent; no founder."
  ],
  [
   "Arxis, Inc.",
@@ -2880,12 +2968,8 @@
   "founded 1942"
  ],
  [
-  "China Minsheng Bank",
-  "no named founder"
- ],
- [
   "Banco BPM",
-  "no named founder"
+  "Formed 1 January 2017 by the merger of Banco Popolare and Banca Popolare di Milano; no founder."
  ],
  [
   "International Flavors & Fragrances",
@@ -2897,7 +2981,7 @@
  ],
  [
   "Huatai Securities",
-  "no named founder"
+  "Established 9 April 1991 as Jiangsu Securities Company; no founder named in infobox, lead, or history."
  ],
  [
   "Hubbell",
@@ -2908,20 +2992,24 @@
   "founded 1845"
  ],
  [
+  "Shenzhen Inovance",
+  "no named founder"
+ ],
+ [
   "Roku",
   "founded None"
  ],
  [
   "Hydro One",
-  "no named founder"
+  "Successor to Ontario Hydro, created 1 April 1999 under the Energy Competition Act with the Government of Ontario as sole shareholder (partly privatised later); no founder."
  ],
  [
   "Hindustan Zinc",
-  "no named founder"
+  "Incorporated 10 January 1966 as a government public-sector undertaking from the Metal Corporation of India; privatised to Sterlite/Vedanta in 2002-03; no founder."
  ],
  [
   "Central Japan Railway",
-  "no named founder"
+  "Created 1 April 1987 by the privatisation of Japanese National Railways; no founder."
  ],
  [
   "Texas Pacific Land Corporation",
@@ -2929,7 +3017,7 @@
  ],
  [
   "Bank of Nanjing",
-  "no named founder"
+  "Founded 6 February 1996 as Nanjing City Commercial Bank through a merger of 40 urban credit cooperatives; no founding person."
  ],
  [
   "Industrivarden",
@@ -2937,7 +3025,7 @@
  ],
  [
   "Coca-Cola HBC",
-  "no named founder"
+  "No founder named in the infobox, lead or body: incorporated 1969 in Athens as Hellenic Bottling Company S.A. under a Coca-Cola bottling franchise; the only person named (Anastasios George Leventis) fo"
  ],
  [
   "Markel Group",
@@ -2945,7 +3033,7 @@
  ],
  [
   "NN Group",
-  "no named founder"
+  "Spin-off: NN Group was split off from ING Group in 2013 under the Dutch state support deal; its 1963 origin is the merger of De Nederlanden van 1845 and Nationale Levensverzekeringsbank; no founding p"
  ],
  [
   "PulteGroup",
@@ -2957,11 +3045,11 @@
  ],
  [
   "nVent Electric",
-  "no named founder"
+  "Spin-off: Pentair separated its electrical business on 1 May 2018 to create nVent; no founding person (infobox lists Pentair as predecessor, no founder field)."
  ],
  [
   "Aluminum Corporation of China",
-  "no named founder"
+  "State-owned enterprise: Chalco was set up in 2001 as the listed commercial arm of wholly state-owned Chinalco (SASAC), which holds 35.78%; no founding person."
  ],
  [
   "Edison International",
@@ -2969,7 +3057,7 @@
  ],
  [
   "EDP Group",
-  "no named founder"
+  "Privatised utility created by the state: Electricidade de Portugal was formed on 30 June 1976 by the Portuguese government (Decree-Law 502/76) merging 14 nationalised electricity companies, later priv"
  ],
  [
   "Loews Corporation",
@@ -2977,7 +3065,7 @@
  ],
  [
   "ATI Inc.",
-  "no named founder"
+  "Merger: Allegheny Technologies was formed in 1996 by the merger of Allegheny Ludlum (itself a 1939 merger) and Teledyne; no founding person in infobox, lead or body."
  ],
  [
   "PBBank (Public Bank Bhd)",
@@ -2993,7 +3081,7 @@
  ],
  [
   "KeyCorp (KeyBank)",
-  "no named founder"
+  "Merger of equals: KeyBank was formed on 1 March 1994 by the merger of Society Corporation (Cleveland) and KeyCorp (Albany), with roots to 1825; the article calls it a merger of equals and names no fou"
  ],
  [
   "Grupo Cibest (Bancolombia)",
@@ -3001,7 +3089,7 @@
  ],
  [
   "AXIA Energia SA",
-  "no named founder"
+  "Privatised state utility: Eletrobras was established in 1962 by the Brazilian government (Goulart presidency), controlled by the state until its 2022 privatisation, renamed Axia Energia in 2025; no fo"
  ],
  [
   "Tata Steel",
@@ -3013,11 +3101,11 @@
  ],
  [
   "Steris",
-  "no named founder"
+  "No founder named anywhere in the article: it says only that the company was founded in August 1985 in Ohio as Innovative Medical Technologies; the infobox has no founder field and the lead and body na"
  ],
  [
   "CK Infrastructure",
-  "no named founder"
+  "Subsidiary with no founding person: CKI is 75.67% owned by CK Hutchison Holdings; the infobox founder field is empty and the article names no founder (Li Ka-shing is described only as the businessman "
  ],
  [
   "T. Rowe Price",
@@ -3037,7 +3125,7 @@
  ],
  [
   "Global Payments",
-  "no named founder"
+  "Spin-off: formed as a National Data Corporation subsidiary (infobox 2000, body 1996) and spun off from it in 2001; no founding person."
  ],
  [
   "Terumo",
@@ -3045,11 +3133,11 @@
  ],
  [
   "Tapestry",
-  "no named founder"
+  "Rename of Coach, Inc.: the business traces back to Coach, founded in 1941 (before 1960) by Miles Cahn and Lillian Cahn; the infobox's 1 June 2000 date is only the incorporation of Coach, Inc. (renamed"
  ],
  [
   "US Foods",
-  "no named founder"
+  "No founding person: the article traces US Foods to John Sexton & Company (1883) and a chain of ownership changes and mergers (Beatrice Foods, Rykoff-Sexton 1983, JP Foodservice as a Sara Lee spin-off,"
  ],
  [
   "SK Group",
@@ -3057,7 +3145,7 @@
  ],
  [
   "Tower Semiconductor",
-  "no named founder"
+  "No founder named: the infobox founder field is empty and the article says only that the company was founded in 1993 and listed in 1994; no person is named in lead or body."
  ],
  [
   "Constellation Brands",
@@ -3065,7 +3153,7 @@
  ],
  [
   "MTN Group",
-  "no named founder"
+  "No founder in infobox or lead: founded in 1994 as M-Cell \"with assistance from the South African government\"; the only body mention is a 1995 CEO-change sentence calling Leena Jaitley \"founder\", cited"
  ],
  [
   "Amrize",
@@ -3081,11 +3169,11 @@
  ],
  [
   "Nippon Steel",
-  "no named founder"
+  "Merger with pre-1960 origin: New Japan Steel was formed on 31 March 1970 by re-merging Yawata Iron & Steel and Fuji Iron & Steel, the two halves of the 1934 state-created Japan Iron & Steel (Yawata wo"
  ],
  [
   "VAT Group",
-  "no named founder"
+  "No founder in the infobox or lead: only the History section says Siegfried Schertler founded the company in Flawil in 1965, and he has no English Wikipedia article."
  ],
  [
   "Zhejiang Sanhua Intelligent Controls Co.,Ltd",
@@ -3093,15 +3181,15 @@
  ],
  [
   "LY Corporation",
-  "no named founder"
+  "Merger and subsidiary: formed on 1 October 2023 by the merger of Z Holdings with LINE Corporation, Yahoo! Japan, Z Entertainment and Z Data; 62.3% owned by A Holdings (SoftBank/Naver joint venture); n"
  ],
  [
   "LyondellBasell",
-  "no named founder"
+  "Formed in December 2007 by Basell Polyolefins' acquisition of Lyondell Chemical (itself carved out of ARCO facilities in 1985), owned by Access Industries at formation; no founding person in infobox, "
  ],
  [
   "Tenet Healthcare",
-  "no named founder"
+  "No founder in the infobox (founder field empty) or lead (says only 'founded in 1969'); the History section names attorneys Richard Eamer, Leonard Cohen and John Bedrosian as 1969 incorporators of Nati"
  ],
  [
   "TVS Motor",
@@ -3109,11 +3197,11 @@
  ],
  [
   "Viatris",
-  "no named founder"
+  "Merger: formed on 16 November 2020 by the Reverse Morris Trust merger of Mylan and Pfizer's Upjohn division; no founder in infobox or lead (Mylan's 1961 founders are not named in the article)."
  ],
  [
   "Terna",
-  "no named founder"
+  "Spin-off of a state utility: set up on 31 May 1999 within the Enel Group under Legislative Decree 79/99 to hold the national grid, privatised by a 2004 IPO, now 29.9% owned by state-controlled CDP Ret"
  ],
  [
   "Hua Nan Financial Holdings",
@@ -3129,11 +3217,15 @@
  ],
  [
   "Nornickel",
-  "no named founder"
+  "Privatised Soviet state enterprise: the Norilsk Combine was set up by the state in 1935, turned into joint-stock RAO Norilsk Nickel in 1993 and sold to Interros in 1995; no founding person."
  ],
  [
   "First Quantum Minerals",
-  "no named founder"
+  "No founder named anywhere in the article: founded in 1983 as the shell Xenium Resources (renamed Zeal Capital 1989, First Quantum Ventures 1993, First Quantum Minerals 1996); infobox has no founder fi"
+ ],
+ [
+  "China Securities (CSC Financial)",
+  "Founded 2005 by two companies (CITIC Securities 60%, China Jianyin Investment 40%); no human founder."
  ],
  [
   "Sinopac Financial Holdings",
@@ -3141,15 +3233,15 @@
  ],
  [
   "Nomura Research Institute",
-  "no named founder"
+  "Corporate research arm of Nomura Securities (1965), current company formed by a 1988 merger with Nomura Computer Systems; no founding person."
  ],
  [
   "Erste Bank Polska",
-  "no named founder"
+  "2026 rebrand of Santander Bank Polska after Erste Group bought a 49% stake; the 2001 date is the Bank Zachodni/WBK merger; no founding person."
  ],
  [
   "LPL Financial",
-  "no named founder"
+  "Formed 1989 by the merger of Linsco (1968) and Private Ledger (1973); no founder named."
  ],
  [
   "PTC",
@@ -3161,7 +3253,7 @@
  ],
  [
   "Wolters Kluwer",
-  "no named founder"
+  "Product of mergers (Wolters + Noordhoff 1968; Kluwer + Wolters Samsom 1987); origins 1836; no founding person in window."
  ],
  [
   "Smurfit Westrock",
@@ -3197,11 +3289,11 @@
  ],
  [
   "Raiffeisen Bank International",
-  "no named founder"
+  "Established 2010 as a subsidiary of Raiffeisen Zentralbank by merging RZB operations into Raiffeisen International; merged back with RZB in 2017; no founding person."
  ],
  [
   "Abu Dhabi Islamic Bank (ADIB)",
-  "no named founder"
+  "Established 20 May 1997 by Amiri Decree No. 9 of 1997; no founding person."
  ],
  [
   "Shriram Transport Finance",
@@ -3213,7 +3305,7 @@
  ],
  [
   "GF Securities",
-  "no named founder"
+  "Began 1991 as the securities department of China Guangfa Bank, spun off in 1999; no founding person."
  ],
  [
   "Telefónica",
@@ -3229,7 +3321,7 @@
  ],
  [
   "Uniper",
-  "no named founder"
+  "2016 spin-off of E.ON's fossil-fuel assets; no founding person."
  ],
  [
   "F5",
@@ -3241,7 +3333,7 @@
  ],
  [
   "Unipol Assicurazioni",
-  "no named founder"
+  "Founded 1962/1963 in Bologna as a cooperative insurer; no founding person named anywhere in the article."
  ],
  [
   "ASICS Corporation",
@@ -3257,15 +3349,15 @@
  ],
  [
   "Skyworks Solutions",
-  "no named founder"
+  "Formed 2002 by the merger of Alpha Industries and Conexant's wireless communications division; no founding person."
  ],
  [
   "Royal Gold",
-  "no named founder"
+  "Founded 1981 as Royal Resources Corporation (oil and gas); no founder named; H. Stanley Dempsey only transformed it into a royalty company in 1986."
  ],
  [
   "TD Synnex",
-  "no named founder"
+  "Formed 1 Sep 2021 by the merger of Synnex and Tech Data; no founder field."
  ],
  [
   "Aeon",
@@ -3273,7 +3365,11 @@
  ],
  [
   "Amundi",
-  "no named founder"
+  "Created 1 Jan 2010 by merging Crédit Agricole Asset Management and Société Générale Asset Management; no founding person."
+ ],
+ [
+  "NRG Energy",
+  "Formed 1989 as a wholly owned subsidiary of Northern States Power; no founding person."
  ],
  [
   "Wipro",
@@ -3285,7 +3381,7 @@
  ],
  [
   "Xylem",
-  "no named founder"
+  "2011 spin-off of ITT Corporation's water businesses; no founding person."
  ],
  [
   "AVIC Shenyang Aircraft Company Limited",
@@ -3293,7 +3389,7 @@
  ],
  [
   "KGI Financial Holding",
-  "no named founder"
+  "Holding company set up Dec 2001 by stock swap over China Development Industrial Bank, whose origin is the 1959 China Development Corporation established by the Executive Yuan's Economic Stabilization "
  ],
  [
   "Beiersdorf",
@@ -3309,7 +3405,15 @@
  ],
  [
   "Bank of Shanghai",
-  "no named founder"
+  "Founded 30 Jan 1996 as Shanghai City Cooperative Bank by merging 98 city credit cooperatives; no founding person."
+ ],
+ [
+  "China Unicom",
+  "State-owned enterprise founded 1994 by the Ministry of Railways, Ministry of Electronics Industry and Ministry of Electric Power Industry; no human founder."
+ ],
+ [
+  "Waymo",
+  "Alphabet subsidiary that grew out of the Stanford Self-Driving Car Team (2004) and the Google Self-Driving Car Project (2009), renamed Waymo in 2016; a spin-off of a corporate research project, not a "
  ],
  [
   "Reliance Jio",
@@ -3358,9 +3462,5 @@
  [
   "Etched",
   "founded None"
- ],
- [
-  "Crypto.com",
-  "no named founder"
  ]
 ]

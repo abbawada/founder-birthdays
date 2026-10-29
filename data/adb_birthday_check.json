@@ -180,12 +180,5 @@
   "astro_databank": "1936-01-01",
   "rating": "X",
   "match": true
- },
- {
-  "name": "Alice Marriott",
-  "ours": "1907-10-19",
-  "astro_databank": "1907-10-19",
-  "rating": "AA",
-  "match": true
  }
 ]
