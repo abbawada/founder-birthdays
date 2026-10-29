@@ -3,3 +3,4 @@ cache/wd/
 __pycache__/
 .DS_Store
 cache/uitest/
+cache/img/

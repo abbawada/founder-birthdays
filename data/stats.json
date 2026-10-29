@@ -6178,6 +6178,323 @@
    ],
    "verdict": "The strongest lean is Leo founders in Health & biotech: 7 against 3.9 if signs and company types were unrelated. Shuffling company types between companies 10,000 times gave a lean at least this strong 96% of the time, so it is luck."
   },
+  "value": {
+   "label": "Company value by sign and by sign pair (exploratory)",
+   "sign_value": [
+    7598002954400.0,
+    16124271925189.0,
+    4685158889933.0,
+    8420325333895.0,
+    11434697999145.0,
+    5627509585545.0,
+    4308025373396.0,
+    7526497127953.0,
+    6821594056598.0,
+    7867963760934.0,
+    11065130122003.0,
+    8592953652823.0
+   ],
+   "sign_share": [
+    0.0759,
+    0.1611,
+    0.0468,
+    0.0841,
+    0.1143,
+    0.0562,
+    0.043,
+    0.0752,
+    0.0682,
+    0.0786,
+    0.1106,
+    0.0859
+   ],
+   "top_sign": "Taurus",
+   "top_share": 0.1611,
+   "p_top_share": 0.50875,
+   "expected_top_share": 0.165,
+   "top_companies": {
+    "Aries": [
+     "Alphabet (Google)",
+     "AMD",
+     "Walmart",
+     "ByteDance"
+    ],
+    "Taurus": [
+     "NVIDIA",
+     "Apple",
+     "Tesla",
+     "Meta Platforms (Facebook)"
+    ],
+    "Gemini": [
+     "Tesla",
+     "Meta Platforms (Facebook)",
+     "Sandisk",
+     "Recruit"
+    ],
+    "Cancer": [
+     "TSMC",
+     "SpaceX",
+     "Tesla",
+     "OpenAI"
+    ],
+    "Leo": [
+     "Apple",
+     "Alphabet (Google)",
+     "Oracle",
+     "SoftBank Group Corp."
+    ],
+    "Virgo": [
+     "Meta Platforms (Facebook)",
+     "AMD",
+     "Intel",
+     "Palantir"
+    ],
+    "Libra": [
+     "Palantir",
+     "Costco",
+     "Home Depot",
+     "CrowdStrike"
+    ],
+    "Scorpio": [
+     "Microsoft",
+     "OpenAI",
+     "Tether",
+     "Tencent"
+    ],
+    "Sagittarius": [
+     "Tesla",
+     "Meta Platforms (Facebook)",
+     "Walmart",
+     "OpenAI"
+    ],
+    "Capricorn": [
+     "Amazon",
+     "Anthropic",
+     "AMD",
+     "Intel"
+    ],
+    "Aquarius": [
+     "NVIDIA",
+     "Microsoft",
+     "Lam Research",
+     "SAP"
+    ],
+    "Pisces": [
+     "Apple",
+     "Meta Platforms (Facebook)",
+     "Dell",
+     "SAP"
+    ]
+   },
+   "matched_median": 85716606976.0,
+   "unmatched_median": 192691295744.0,
+   "n_matched": 92,
+   "n_unmatched": 92,
+   "p_median_diff": 0.027,
+   "cell_value": [
+    [
+     0.0,
+     0.0,
+     85028417536.0,
+     5700000000.0,
+     3985663094784.0,
+     977199044608.0,
+     277255248128.0,
+     0.0,
+     1025160560640.0,
+     980348190720.0,
+     195956537672.0,
+     180940777472.0
+    ],
+    [
+     0.0,
+     22000000000.0,
+     3223675824128.0,
+     2496772529664.0,
+     5049611020288.0,
+     1911035527168.0,
+     764948950016.0,
+     877915809792.0,
+     4461770256064.0,
+     330470257821.0,
+     5707072338944.0,
+     6921802170368.0
+    ],
+    [
+     0.0,
+     0.0,
+     31097239552.0,
+     1893148303360.0,
+     329564393472.0,
+     1594209206272.0,
+     36059365376.0,
+     0.0,
+     3325839611904.0,
+     126055243776.0,
+     139921555456.0,
+     1643178258432.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     141788295168.0,
+     0.0,
+     106372964047.0,
+     77032347904.0,
+     899332347904.0,
+     2583818045440.0,
+     85930860544.0,
+     0.0,
+     76595200000.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     66997121024.0,
+     343927715328.0,
+     389863329792.0,
+     0.0,
+     250195048448.0,
+     505170259968.0,
+     85502353408.0,
+     5247370319852.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     886978830336.0,
+     43607289856.0,
+     2184693178368.0,
+     1786364043264.0,
+     134753112064.0,
+     1701815031808.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     472945917952.0,
+     244020539392.0,
+     30834819072.0,
+     538532982784.0,
+     190000000000.0,
+     195382591488.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     877915809792.0,
+     904599654819.0,
+     513300791296.0,
+     4131167174656.0,
+     40410730496.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     852000000000.0,
+     778447224832.0,
+     424122509312.0,
+     1989692575744.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     461593542656.0,
+     294429720576.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     358967959552.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     94661890504.0
+    ]
+   ],
+   "teams_matched_median": 55179223040.0,
+   "teams_unmatched_median": 105065603072.0,
+   "n_teams_matched": 33,
+   "n_teams_unmatched": 40,
+   "p_teams": 0.0585,
+   "top_cells": [
+    [
+     1,
+     11,
+     6921802170368.0
+    ],
+    [
+     1,
+     10,
+     5707072338944.0
+    ],
+    [
+     4,
+     11,
+     5247370319852.0
+    ],
+    [
+     1,
+     4,
+     5049611020288.0
+    ],
+    [
+     1,
+     8,
+     4461770256064.0
+    ]
+   ],
+   "verdict": "Taurus founders are behind 16% of all the value in the list. Random birthdays put one sign that high 51% of the time, because a few giant companies swing it. Matched cofounder pairs built companies with a median value of $86B, unmatched pairs $193B; luck makes a gap that size 3% of the time."
+  },
   "moon": {
    "label": "Moon sign (exploratory, no birth times)",
    "n": 317,
@@ -6225,7 +6542,7 @@
     26.4
    ],
    "chi2": 10.43,
-   "p_mc": 0.4991,
+   "p_mc": 0.497,
    "tallest": "Taurus",
    "verdict": "Moon in Taurus leads with 34 founders against 26 expected; 146 of 317 founders could be one of two Moon signs and count half each. Chance produces a spread like this 50% of the time."
   }

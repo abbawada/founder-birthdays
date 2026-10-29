@@ -34,8 +34,14 @@ def get_json(prefix, url, params, sleep=0.1, headers=None):
     hdr = dict(UA)
     if headers:
         hdr.update(headers)
-    for attempt in range(4):
-        r = requests.get(url, params=params, headers=hdr, timeout=120)
+    r = None
+    for attempt in range(5):
+        try:
+            r = requests.get(url, params=params, headers=hdr, timeout=120)
+        except requests.RequestException as e:   # timeouts and dropped connections: wait and retry
+            print(f"  retry {attempt + 1} after {type(e).__name__}: {url}")
+            time.sleep(5 * (attempt + 1))
+            continue
         if r.status_code == 200:
             body = r.json()
             with open(path, "w") as fh:
@@ -46,7 +52,7 @@ def get_json(prefix, url, params, sleep=0.1, headers=None):
             time.sleep(10 * (attempt + 1))
         else:
             time.sleep(2)
-    raise RuntimeError(f"GET failed {r.status_code}: {url} {params}")
+    raise RuntimeError(f"GET failed {r.status_code if r is not None else 'no response'}: {url} {params}")
 
 
 def wp_search(query, limit=6):

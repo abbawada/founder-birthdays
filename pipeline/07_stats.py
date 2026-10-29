@@ -479,6 +479,86 @@ if SECT:
                                 f"Shuffling company types between companies 10,000 times gave a lean at least this strong {100*p_max:.0f}% of the time"
                                 + (", so it is luck." if p_max > 0.1 else ", borderline." if p_max > 0.01 else ", which is rare."))}
 
+# ---- company value: which signs and sign pairs built the most (exploratory) --
+# A founder's real question is "do matched cofounders build bigger companies?"
+# Value = market cap or last private valuation; collapsed companies at peak value.
+comp_members = defaultdict(list)
+for i, f in enumerate(F):
+    for c in f["companies"]:
+        if c in company_by_name:
+            comp_members[c].append(i)
+cn = sorted(comp_members)
+cval = np.array([float(company_by_name[c].get("value_usd") or 0) for c in cn])
+thr = np.array([company_by_name[c]["ring"] in ("giants", "big") for c in cn])
+Mtx = np.zeros((len(cn), N))
+for k, c in enumerate(cn):
+    Mtx[k, comp_members[c]] = 1
+pool = np.array(sorted({i for k, c in enumerate(cn) if thr[k] for i in comp_members[c]}))
+def sign_value(doys):
+    oh = np.zeros((N, 12)); oh[np.arange(N), DOY_SIGN[doys]] = 1
+    pres = (Mtx[thr] @ oh) > 0
+    return cval[thr] @ pres
+obs_sv = sign_value(OBS_DOY)
+sims_sv = []
+for _ in range(4000):
+    perm = OBS_DOY.copy(); perm[pool] = OBS_DOY[RNG.permutation(pool)]
+    sims_sv.append(sign_value(perm))
+sims_sv = np.array(sims_sv)
+share = obs_sv / obs_sv.sum(); sim_share_max = (sims_sv / sims_sv.sum(1, keepdims=True)).max(1)
+top = int(np.argmax(obs_sv))
+p_top = float((sim_share_max >= share[top]).mean())
+top_cos = {}
+for sgi in range(12):
+    cs = [(cval[k], cn[k]) for k in range(len(cn)) if thr[k] and any(DOY_SIGN[OBS_DOY[i]] == sgi for i in comp_members[cn[k]])]
+    top_cos[SIGNS[sgi]] = [n for v, n in sorted(cs, reverse=True)[:4]]
+# pairs: do matched cofounders build bigger companies?
+if all_pairs:
+    pv = np.array([float(company_by_name[c].get("value_usd") or 0) for a, b, c in all_pairs])
+    def matched(doys):
+        e = SIGN_ELEMENT[DOY_SIGN[doys]]
+        return np.array([(ELEMENTS[e[a]], ELEMENTS[e[b]]) in COMPATIBLE for a, b, c in all_pairs])
+    def diff(mk):
+        return float(np.median(pv[mk]) - np.median(pv[~mk])) if mk.any() and (~mk).any() else 0.0
+    mk0 = matched(OBS_DOY); d0 = diff(mk0)
+    sims_d = []
+    for _ in range(4000):
+        perm = OBS_DOY.copy(); perm[team_members_all] = OBS_DOY[RNG.permutation(team_members_all)]
+        sims_d.append(diff(matched(perm)))
+    sims_d = np.array(sims_d)
+    p_d = float(min(1.0, 2 * min((sims_d >= d0).mean(), (sims_d <= d0).mean())))
+    # one vote per company: teams that are mostly matched vs mostly unmatched
+    tnames = sorted({c for a, b, c in all_pairs})
+    tidx = {c: [k for k, (a, b, cc) in enumerate(all_pairs) if cc == c] for c in tnames}
+    tval = np.array([float(company_by_name[c].get("value_usd") or 0) for c in tnames])
+    def team_gap(mk):
+        sh = np.array([mk[tidx[c]].mean() for c in tnames])
+        hi, lo = tval[sh > 0.5], tval[sh < 0.5]
+        return (float(np.median(hi)) if len(hi) else 0.0, float(np.median(lo)) if len(lo) else 0.0, int(len(hi)), int(len(lo)))
+    tm0 = team_gap(mk0); tg0 = tm0[0] - tm0[1]
+    sims_t = []
+    for _ in range(4000):
+        perm = OBS_DOY.copy(); perm[team_members_all] = OBS_DOY[RNG.permutation(team_members_all)]
+        r = team_gap(matched(perm)); sims_t.append(r[0] - r[1])
+    sims_t = np.array(sims_t)
+    p_t = float(min(1.0, 2 * min((sims_t >= tg0).mean(), (sims_t <= tg0).mean())))
+    cellv = np.zeros((12, 12))
+    seen = set()
+    for (a, b, c) in all_pairs:
+        i, j = sorted((DOY_SIGN[OBS_DOY[a]], DOY_SIGN[OBS_DOY[b]]))
+        if (i, j, c) not in seen:
+            cellv[i, j] += company_by_name[c].get("value_usd") or 0; seen.add((i, j, c))
+    # the pair cells behind the most value
+    order = np.dstack(np.unravel_index(np.argsort(-cellv, axis=None), cellv.shape))[0][:5]
+    T["value"] = {"label": "Company value by sign and by sign pair (exploratory)",
+                  "sign_value": obs_sv.round(0).tolist(), "sign_share": share.round(4).tolist(), "top_sign": SIGNS[top], "top_share": round(float(share[top]), 4),
+                  "p_top_share": p_top, "expected_top_share": round(float(sim_share_max.mean()), 4), "top_companies": top_cos,
+                  "matched_median": float(np.median(pv[mk0])), "unmatched_median": float(np.median(pv[~mk0])), "n_matched": int(mk0.sum()), "n_unmatched": int((~mk0).sum()),
+                  "p_median_diff": p_d, "cell_value": cellv.round(0).tolist(),
+                  "teams_matched_median": tm0[0], "teams_unmatched_median": tm0[1], "n_teams_matched": tm0[2], "n_teams_unmatched": tm0[3], "p_teams": p_t,
+                  "top_cells": [[int(i), int(j), float(cellv[i, j])] for i, j in order],
+                  "verdict": (f"{SIGNS[top]} founders are behind {100*share[top]:.0f}% of all the value in the list. Random birthdays put one sign that high {100*p_top:.0f}% of the time, because a few giant companies swing it. "
+                              f"Matched cofounder pairs built companies with a median value of ${np.median(pv[mk0])/1e9:.0f}B, unmatched pairs ${np.median(pv[~mk0])/1e9:.0f}B; luck makes a gap that size {100*p_d:.0f}% of the time.")}
+
 # ---- Moon (exploratory) ----------------------------------------------------
 if moon:
     idx = [i for i, f in enumerate(F) if f["key"] in moon and ("giants" in f["rings"] or "big" in f["rings"])]
