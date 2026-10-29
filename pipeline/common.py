@@ -14,7 +14,7 @@ import requests
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "cache")
 DATA = os.path.join(ROOT, "data")
-UA = {"User-Agent": "founder-birthdays/0.1 (abbawada@usc.edu; research data story)"}
+UA = {"User-Agent": "founder-birthdays/0.2 (https://github.com/abbawada/founder-birthdays; research data story)"}
 WP_API = "https://en.wikipedia.org/w/api.php"
 WD_API = "https://www.wikidata.org/w/api.php"
 SPARQL = "https://query.wikidata.org/sparql"

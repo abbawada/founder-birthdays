@@ -127,39 +127,28 @@ def portrait(person):
     crop = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(6, 6)).apply(crop).astype(np.float32)   # lift faces in dark photos
     lo, hi = np.percentile(crop, 3), np.percentile(crop, 97)
     crop = np.clip((crop - lo) / max(1, hi - lo), 0, 1)
-    crop = 1 / (1 + np.exp(-(crop - 0.47) * 5.0))                            # S-curve: darker shadows, cleaner highlights
+    crop = 1 / (1 + np.exp(-(crop - 0.5) * 3.2))                             # gentle S-curve: keeps facial detail
     crop = (crop - crop.min()) / max(1e-6, crop.max() - crop.min())
     crop = cv2.GaussianBlur(crop, (3, 3), 0)
     yy, xx = np.mgrid[0:400, 0:320]
     oval = np.clip(1.35 - np.sqrt(((xx - 160) / 132.0) ** 2 + ((yy - 182) / 172.0) ** 2) * 1.35, 0, 1)   # cameo: fade to paper outside a soft oval
     oval = cv2.GaussianBlur(oval.astype(np.float32), (0, 0), 6)
     dark = (1 - crop) * oval
+    # ink-toned photo: the real face stays clear; a fine halftone grain and a faint red offset keep the print look
     out = np.zeros((400, 320, 4), np.float32)
-    PAD = 60
-
-    def halftone(cell, angle, gain, scale):
-        big = cv2.copyMakeBorder(dark, PAD, PAD, PAD, PAD, cv2.BORDER_CONSTANT, value=0)
-        hh, ww = big.shape
-        M = cv2.getRotationMatrix2D((ww / 2, hh / 2), angle, 1.0)
-        rot = cv2.warpAffine(big, M, (ww, hh), borderValue=0)
-        canvas = np.zeros((hh, ww), np.uint8)
-        for y0 in range(0, hh, cell):
-            for x0 in range(0, ww, cell):
-                v = float(rot[y0:y0 + cell, x0:x0 + cell].mean()) * gain
-                r = cell * scale * np.sqrt(min(1.0, v))
-                if v > 0.1 and r > 0.4:
-                    cv2.circle(canvas, (x0 + cell // 2, y0 + cell // 2), max(1, int(round(r))), 255, -1, lineType=cv2.LINE_AA)
-        Mi = cv2.getRotationMatrix2D((ww / 2, hh / 2), -angle, 1.0)
-        back = cv2.warpAffine(canvas, Mi, (ww, hh), borderValue=0)
-        return back[PAD:PAD + 400, PAD:PAD + 320].astype(np.float32) / 255.0
-
-    def lay(cov, bgr, dx=0, dy=0):
-        cov = np.roll(np.roll(cov, dy, 0), dx, 1)
-        for k in range(3):
-            out[..., k] = out[..., k] * (1 - cov) + bgr[k] * cov
-        out[..., 3] = np.maximum(out[..., 3], cov)
-    lay(halftone(5, 15, 0.95, 0.62), (62, 76, 220), dx=2, dy=2)           # red plate, offset like a misregistered print
-    lay(halftone(3, 45, 1.05, 0.7), (40, 27, 29))                        # ink plate
+    tone = np.clip(dark * 1.15, 0, 1) ** 0.85
+    yy2, xx2 = np.mgrid[0:400, 0:320]
+    screen = 0.5 + 0.5 * np.sin((xx2 + yy2) * 0.9) * np.sin((xx2 - yy2) * 0.9)     # 45-degree dot screen
+    grain = np.random.default_rng(len(person["name"])).random((400, 320)).astype(np.float32)
+    ink_a = np.clip(tone * (0.86 + 0.14 * screen) * (0.94 + 0.06 * grain), 0, 1)
+    red_a = np.roll(np.roll(np.clip((tone - 0.45) * 1.4, 0, 1) * 0.32, 2, 0), 3, 1)
+    for k, c in enumerate((62, 76, 220)):        # red plate (BGR) under the ink
+        out[..., k] = c
+    out[..., 3] = red_a
+    a_ = ink_a + red_a * (1 - ink_a)
+    for k, c in enumerate((40, 27, 29)):
+        out[..., k] = np.where(a_ > 0, (c * ink_a + out[..., k] * red_a * (1 - ink_a)) / np.maximum(a_, 1e-6), 0)
+    out[..., 3] = a_
     out = np.dstack([out[..., :3], out[..., 3] * 255]).clip(0, 255).astype(np.uint8)
     ok, buf = cv2.imencode(".webp", out, [cv2.IMWRITE_WEBP_QUALITY, 82])
     if not ok:
