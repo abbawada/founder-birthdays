@@ -688,5 +688,200 @@
  },
  "Ambani,_Dhirubhai": {
   "none": true
+ },
+ "Sinegal,_James": {
+  "born": "1 January 1936",
+  "place": "Pittsburgh, Pennsylvania, 40n26,  80w00 ",
+  "tz": "EST h5w (is standard time)",
+  "rr": "X"
+ },
+ "Jensen,_Huang": {
+  "none": true
+ },
+ "Chang,_Morris": {
+  "none": true
+ },
+ "Eduardo,_Saverin": {
+  "none": true
+ },
+ "Turney,_Edwin": {
+  "none": true
+ },
+ "Gifford,_Jack": {
+  "none": true
+ },
+ "Walton,_Bud": {
+  "none": true
+ },
+ "Grove,_Andrew": {
+  "none": true
+ },
+ "Cohen,_Stephen": {
+  "none": true
+ },
+ "Karp,_Alexander": {
+  "none": true
+ },
+ "Brotman,_Jeffrey": {
+  "none": true
+ },
+ "Lam,_David": {
+  "none": true
+ },
+ "Langone,_Kenneth": {
+  "none": true
+ },
+ "Hopp,_Dietmar": {
+  "none": true
+ },
+ "Plattner,_Hasso": {
+  "none": true
+ },
+ "Tschira,_Klaus": {
+  "none": true
+ },
+ "Wellenreuther,_Claus": {
+  "none": true
+ },
+ "Hector,_Hans-Werner": {
+  "none": true
+ },
+ "Saxby,_Robin": {
+  "none": true
+ },
+ "Tsai,_Joseph": {
+  "none": true
+ },
+ "Racamier,_Henry": {
+  "none": true
+ },
+ "Chevalier,_Alain": {
+  "none": true
+ },
+ "Marriott,_Alice": {
+  "born": "19 October 1907 at 15:30  (= 3:30 PM )",
+  "place": "Salt Lake City, Utah, 40n46,  111w53 ",
+  "tz": "MST h7w (is standard time)",
+  "rr": "AA"
+ },
+ "Weill,_Sanford": {
+  "none": true
+ },
+ "Jacobs,_Irwin": {
+  "none": true
+ },
+ "Kapito,_Rob": {
+  "none": true
+ },
+ "Ma,_Mingzhe": {
+  "none": true
+ },
+ "Geng,_Yuan": {
+  "none": true
+ },
+ "Peterson,_Peter": {
+  "none": true
+ },
+ "Whitacre,_Edward": {
+  "none": true
+ },
+ "Mittal,_Sunil": {
+  "none": true
+ },
+ "Dageville,_Benoît": {
+  "none": true
+ },
+ "Rupert,_Johann": {
+  "none": true
+ },
+ "Goldstein,_Stanley": {
+  "none": true
+ },
+ "Hoagland,_Ralph": {
+  "none": true
+ },
+ "Greehey,_William": {
+  "none": true
+ },
+ "Parekh,_Deepak": {
+  "none": true
+ },
+ "Marriott,_Willard": {
+  "none": true
+ },
+ "Frist,_Thomas_Sr.": {
+  "none": true
+ },
+ "Frist,_Thomas_Jr.": {
+  "none": true
+ },
+ "Massey,_Jack": {
+  "none": true
+ },
+ "Hearst,_William_Randolph_III": {
+  "born": "18 June 1949 at 21:00  (= 9:00 PM )",
+  "place": "Washington, District of Columbia, 38n54,  77w02 ",
+  "tz": "EDT h4w (is daylight saving time)",
+  "rr": "C"
+ },
+ "Thrun,_Sebastian": {
+  "none": true
+ },
+ "Levandowski,_Anthony": {
+  "none": true
+ },
+ "McKelvey,_Miguel": {
+  "none": true
+ },
+ "Burns,_Steve": {
+  "none": true
+ },
+ "Rubin,_Andy": {
+  "none": true
+ },
+ "Gokulnath,_Divya": {
+  "none": true
+ },
+ "Winnick,_Gary": {
+  "none": true
+ },
+ "Alvi,_Suroosh": {
+  "none": true
+ },
+ "McInnes,_Gavin": {
+  "none": true
+ },
+ "Parsa,_Ali": {
+  "none": true
+ },
+ "Sverdlov,_Denis": {
+  "none": true
+ },
+ "Chesterman,_Alex": {
+  "none": true
+ },
+ "Wagner,_Dan": {
+  "none": true
+ },
+ "Blackwell,_Trevor": {
+  "none": true
+ },
+ "Karpathy,_Andrej": {
+  "none": true
+ },
+ "Zaremba,_Wojciech": {
+  "none": true
+ },
+ "Konwinski,_Andrew": {
+  "none": true
+ },
+ "Gettings,_Nathan": {
+  "none": true
+ },
+ "Wang,_Gary": {
+  "none": true
+ },
+ "Balwani,_Ramesh": {
+  "none": true
  }
 }

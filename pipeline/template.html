@@ -21,7 +21,7 @@ html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body
 a{color:var(--amber2);text-decoration:none;border-bottom:1px solid rgba(255,210,122,.3)}
 a:hover{border-bottom-color:var(--amber2)}
 h1,h2,h3{font-family:var(--display);text-transform:uppercase;letter-spacing:.01em;line-height:.92;margin:0;font-weight:700}
-h1{font-size:clamp(46px,8.5vw,118px)}
+h1{font-size:clamp(40px,5.6vw,78px)}
 h2{font-size:clamp(30px,3.6vw,50px);margin:8px 0 14px}
 p{max-width:58ch;color:#cfd1d8}
 .mono{font-family:var(--mono);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
@@ -29,13 +29,13 @@ p{max-width:58ch;color:#cfd1d8}
 .chapter::after{content:"";height:1px;width:36px;background:var(--amber);opacity:.7}
 .wrap{max-width:1400px;margin:0 auto;padding:0 20px}
 /* ---------- hero text ---------- */
-header.top{padding:34px 0 10px;position:relative;z-index:2}
-.sub{font-size:18px;color:var(--muted);max-width:66ch;margin-top:14px}
-.hero-actions{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap;align-items:center}
+header.top{padding:22px 0 6px;position:relative;z-index:2}
+.sub{font-size:16px;color:var(--muted);max-width:70ch;margin-top:10px}
+.hero-actions{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap;align-items:center}
 /* ---------- scrolly ---------- */
 .scrolly{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:28px;align-items:start}
-.sticky{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;justify-content:center}
-.ringbox{position:relative;width:100%;aspect-ratio:1/1;max-height:92vh;margin:0 auto}
+.sticky{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;justify-content:flex-start;padding-top:1.5vh}
+.ringbox{position:relative;width:min(100%,94vh);aspect-ratio:1/1;margin:0 auto}
 canvas#ring{width:100%;height:100%;display:block;cursor:crosshair}
 .ov{position:absolute;pointer-events:none}
 .ov.tl{left:6px;top:6px;max-width:200px}
@@ -65,7 +65,7 @@ canvas#ring{width:100%;height:100%;display:block;cursor:crosshair}
 .pill.x{border-color:var(--red);color:var(--red)}
 .pill.g{border-color:var(--amber2);color:var(--amber2)}
 /* ---------- steps ---------- */
-.steps{padding-top:8vh}
+.steps{padding-top:2vh}
 .step{min-height:92vh;padding:12vh 0 8vh;display:flex;flex-direction:column;justify-content:center;opacity:.35;transition:opacity .5s}
 .step.on{opacity:1}
 .step .text{max-width:58ch}
@@ -95,16 +95,26 @@ input[type=date],select{background:var(--bg2);color:var(--text);border:1px solid
 footer{margin:60px 0 40px;color:var(--muted);font-size:13px}
 .kbd{font-family:var(--mono);font-size:10px;border:1px solid var(--line2);border-radius:4px;padding:1px 5px;color:var(--muted)}
 @media (max-width:900px){
+  html,body{overflow-x:hidden}
+  .wrap{padding:0 14px}
   .scrolly{grid-template-columns:1fr;gap:0}
-  .sticky{height:auto;position:sticky;top:0;background:linear-gradient(var(--bg) 85%,transparent);z-index:5;padding-bottom:6px}
-  .ringbox{max-height:none;width:min(100%,88vw);aspect-ratio:1/1}
-  .toolbar{bottom:-2px;transform:translateX(-50%) scale(.92)}
+  .sticky{height:auto;position:sticky;top:0;background:linear-gradient(var(--bg) 88%,transparent);z-index:5;padding:4px 0 8px}
+  .ringbox{max-height:none;width:min(100%,76vw);aspect-ratio:1/1}
+  .toolbar{position:static;transform:none;left:auto;bottom:auto;margin:6px auto 0;width:max-content;max-width:100%;flex-wrap:wrap;justify-content:center;white-space:normal;border-radius:14px}
+  .toolbar .seg button{padding:6px 8px;font-size:10px}
+  .toolbar .btn{font-size:14px;padding:7px 11px}
+  .drawer{bottom:auto;top:0;left:50%;transform:translateX(-50%);width:92vw;min-width:0}
   .ov.tl .lens{display:none}
   .ov .n{font-size:22px}
+  header .chapter{white-space:nowrap;overflow:hidden}
+  h1{font-size:clamp(36px,11vw,56px)}
+  .sub{font-size:15px}
   .step{min-height:auto;padding:40px 0 20px;opacity:1}
+  .step .text,.chart{max-width:100%}
   .grid2{grid-template-columns:1fr}
-  .drawer{min-width:280px}
-  header.top{padding-top:22px}
+  .chart{padding:10px;overflow-x:auto}
+  table.t{font-size:12px}
+  header.top{padding-top:18px}
 }
 </style>
 </head>
@@ -121,7 +131,7 @@ footer{margin:60px 0 40px;color:var(--muted);font-size:13px}
   <div class="sticky">
     <div class="ringbox" id="ringbox">
       <canvas id="ring"></canvas>
-      <div class="ov tl"><div class="mono" id="lensname">Zodiac</div><div class="lens" id="lenshint">Each dot is a founder, on the day they were born</div></div>
+      <div class="ov tl"><div class="mono" id="lensname">Zodiac</div><div class="lens" id="lenshint"></div></div>
       <div class="ov tr"><div class="n" id="count">0</div><div class="mono" id="countlabel">founders</div></div>
       <div class="card" id="card"></div>
       <div class="drawer" id="drawer">
@@ -196,7 +206,7 @@ function lensDef(){
   const c = state.cutoff, cd = doy(c.m,c.d);
   // cutoff = last qualifying birthday; born the day after it = oldest in class = bin 0
   const of = k => Math.min(11, Math.floor(((k - cd - 1 + 730) % 365) / 30.44));
-  const bins = []; for(let i=0;i<12;i++) bins.push({label: i===0?"Oldest in class":(i===11?"Youngest in class":""), name: i===0?"Oldest in class":(i===11?"Youngest in class":`${i} months after the cutoff`), glyph:"", start:(cd + 1 + Math.round(i*30.44))%365, sub:`+${i}`});
+  const bins = []; for(let i=0;i<12;i++) bins.push({label: i===0?"Oldest in class":(i===11?"Youngest in class":""), name: i===0?"Oldest in class":(i===11?"Youngest in class":`${i} month${i===1?"":"s"} after the cutoff`), glyph:"", start:(cd + 1 + Math.round(i*30.44))%365, sub:`+${i}`});
   return { bins, of };
 }
 function angleOf(k, L){ return ((k - L.bins[0].start + 365) % 365) / 365 * TAU - Math.PI/2; }
@@ -248,7 +258,7 @@ function draw(){
     const rLo=Rb+(Rb2-Rb)*MC.lo[b]/maxC, rHi=Rb+(Rb2-Rb)*MC.hi[b]/maxC;
     const tint = state.tint && L.bins[b].el ? ELCOL[L.bins[b].el] : null;
     ctx.beginPath(); ctx.arc(CX,CY,rHi,a0+gap,a0+span-gap); ctx.arc(CX,CY,rLo,a0+span-gap,a0+gap,true); ctx.closePath();
-    ctx.fillStyle = tint ? tint+".16)" : "rgba(143,203,255,.15)"; ctx.fill(); ctx.strokeStyle = tint ? tint+".35)" : "rgba(143,203,255,.32)"; ctx.lineWidth=1; ctx.stroke();
+    ctx.fillStyle = tint ? tint+".2)" : "rgba(143,203,255,.22)"; ctx.fill(); ctx.strokeStyle = tint ? tint+".5)" : "rgba(143,203,255,.5)"; ctx.lineWidth=1; ctx.stroke();
     const rObs=Rb+(Rb2-Rb)*obs[b]/maxC, bw=span*0.15, bm=a0+span/2;
     const outside = obs[b]>MC.hi[b] || obs[b]<MC.lo[b];
     const hot = state.highlight==="tallest" && b===tallest;
@@ -269,7 +279,7 @@ function draw(){
   const vis=new Set(list.map(f=>f.i));
   const drawLink=(i,j,color,alpha,width)=>{ const a=F[i],b=F[j]; const A=angleOf(a.cur,L),B=angleOf(b.cur,L); const ax=CX+Math.cos(A)*(R0+a.off),ay=CY+Math.sin(A)*(R0+a.off),bx=CX+Math.cos(B)*(R0+b.off),by=CY+Math.sin(B)*(R0+b.off); ctx.beginPath(); ctx.moveTo(ax,ay); ctx.quadraticCurveTo(CX+(ax+bx-2*CX)*0.12,CY+(ay+by-2*CY)*0.12,bx,by); ctx.strokeStyle=color+alpha+")"; ctx.lineWidth=width||1; ctx.stroke(); };
   const pairsOf = f => f.companies.flatMap(c => c.members.filter(j=>j!==f.i).map(j=>[f.i,j,c.ring]));
-  if(state.links){ list.forEach(f=>pairsOf(f).forEach(([i,j,r])=>{ if(i<j&&vis.has(j)) drawLink(i,j,r==="fallen"?"rgba(255,92,122,":"rgba(242,169,59,",0.16); })); }
+  if(state.links){ list.forEach(f=>pairsOf(f).forEach(([i,j,r])=>{ if(i<j&&vis.has(j)) drawLink(i,j,r==="fallen"?"rgba(255,92,122,":"rgba(242,169,59,",0.2); })); }
   if(state.highlight==="broke"){ list.forEach(f=>pairsOf(f).forEach(([i,j])=>{ if(i<j&&vis.has(j)){ const bk=isBroke(i,j); drawLink(i,j, bk?"rgba(255,92,122,":"rgba(160,170,190,", bk?0.9:0.08, bk?1.4:1); } })); }
   if(state.pairCell){ const [s1,s2]=state.pairCell; list.forEach(f=>pairsOf(f).forEach(([i,j])=>{ if(i<j&&vis.has(j)){ const a=SIGNS.indexOf(F[i].sign), b=SIGNS.indexOf(F[j].sign); if((a===s1&&b===s2)||(a===s2&&b===s1)) drawLink(i,j,"rgba(255,210,122,",0.85,1.3); } })); }
   if(state.hover && vis.has(state.hover.i)) pairsOf(state.hover).forEach(([i,j,r])=>{ if(vis.has(j)) drawLink(i,j,r==="fallen"?"rgba(255,92,122,":"rgba(255,210,122,",0.95,1.5); });
@@ -403,7 +413,8 @@ function applyStep(i){
   if(st.lens && st.lens!==state.lens) setLens(st.lens); else update();
   if(st.auto==="shuffle"){ let n=0; state.autoKick=setTimeout(doShuffle, 900); state.autoTimer=setInterval(()=>{ if(n++>=2){ clearInterval(state.autoTimer); state.autoTimer=null; doRestore(); return; } doShuffle(); }, 2600); }
 }
-const io=new IntersectionObserver(entries=>{ entries.forEach(e=>{ if(e.isIntersecting) applyStep(+e.target.dataset.i); }); },{threshold:0.5, rootMargin:"-10% 0px -10% 0px"});
+// a step becomes active when it crosses the middle band of the viewport (works for steps taller than the screen)
+const io=new IntersectionObserver(entries=>{ entries.forEach(e=>{ if(e.isIntersecting) applyStep(+e.target.dataset.i); }); },{threshold:0, rootMargin:"-42% 0px -42% 0px"});
 document.querySelectorAll(".step").forEach(s=>io.observe(s));
 document.addEventListener("keydown",e=>{ if(e.target.tagName==="INPUT"||e.target.tagName==="SELECT") return; if(e.key==="ArrowDown"||e.key==="ArrowRight"){ e.preventDefault(); goStep(Math.min(steps.length-1,Math.max(0,activeStep+1))); } if(e.key==="ArrowUp"||e.key==="ArrowLeft"){ e.preventDefault(); goStep(Math.max(0,activeStep-1)); } if(e.key===" "){ e.preventDefault(); doShuffle(); } });
 function goStep(i){ document.getElementById("step"+i).scrollIntoView({behavior:"smooth",block:"center"}); }
@@ -411,7 +422,7 @@ function goStep(i){ document.getElementById("step"+i).scrollIntoView({behavior:"
 let playTimer=null;
 document.getElementById("play").onclick=()=>{ const btn=document.getElementById("play"); if(playTimer){ clearInterval(playTimer); playTimer=null; btn.textContent="▶ Play the story"; return; } btn.textContent="■ Stop"; let i=0; goStep(0); playTimer=setInterval(()=>{ i++; if(i>=steps.length){ clearInterval(playTimer); playTimer=null; btn.textContent="▶ Play the story"; return; } goStep(i); }, 9000); };
 
-function update(){ layout(); draw(); youList(); document.getElementById("lensname").textContent = state.lens==="zodiac"?"Zodiac":(state.lens==="month"?"Month":"School year · cutoff "+state.cutoff.country); document.getElementById("lenshint").textContent = state.lens==="school"?"Oldest in class at the top, clockwise to the youngest":"Each dot is a founder, on the day they were born"; }
+function update(){ layout(); draw(); youList(); document.getElementById("lensname").textContent = state.lens==="zodiac"?"Zodiac":(state.lens==="month"?"Month":"School year · cutoff "+state.cutoff.country); document.getElementById("lenshint").textContent = ""; }
 resize(); update(); fadeIn();
 })();
 </script>
