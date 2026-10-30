@@ -126,6 +126,12 @@ for rec in out:
         rec.update({"birthday": o["birthday"], "birth_precision": "day", "birth_source": o.get("source", "verified"), "birth_source_url": o.get("source_url"), "birth_raw": (rec.get("birth_raw") or "") + " | verified"})
         n_bo += 1
 print(n_bo, "birthdays set from verified overrides")
+# names: Wikidata's English label, except where it was vandalised or carries a typo (pipeline/name_fixes.json: qid -> {name, reason, source_url})
+nf = load_json(os.path.join(ROOT, "pipeline", "name_fixes.json"), {})
+for rec in out:
+    if rec["qid"] in nf:
+        rec["name"] = nf[rec["qid"]]["name"]
+print(sum(1 for r in out if r["qid"] in nf), "names fixed by hand")
 save_json(os.path.join(DATA, "founders.json"), out)
 dated = [o for o in out if o["birthday"]]
 print(len(out), "people;", len(dated), "day-dated (", sum(o['birth_source'] == 'wikidata' for o in dated), "wikidata,", sum(o['birth_source'] == 'wikipedia infobox' for o in dated), "wikipedia );", len(out) - len(dated), "missing")

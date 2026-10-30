@@ -1,0 +1,17 @@
+{
+ "Q639725": {
+  "name": "Tony Ryan",
+  "reason": "Wikidata's English label for Q639725 was vandalised to 'rachdi mohamee' when we pulled it. Q639725 is Tony Ryan, cofounder of Ryanair (born 2 February 1936); the Ryanair roster and the Wikipedia article both name him.",
+  "source_url": "https://en.wikipedia.org/wiki/Tony_Ryan"
+ },
+ "Q105287298": {
+  "name": "Mike Cagney",
+  "reason": "Typo in the label ('MIke Cagney'); SoFi's cofounder is Mike Cagney.",
+  "source_url": "https://en.wikipedia.org/wiki/Mike_Cagney"
+ },
+ "Q16728421": {
+  "name": "Ray Davis",
+  "reason": "The name carried Wikipedia's disambiguation '(businessman)', which isn't part of his name; he cofounded Energy Transfer.",
+  "source_url": "https://en.wikipedia.org/wiki/Ray_Davis_(businessman)"
+ }
+}

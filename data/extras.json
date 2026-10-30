@@ -536,7 +536,17 @@
    "value": 5200780722176.0,
    "year": 1993,
    "size": 2,
-   "gap": 4
+   "gap": 4,
+   "ring": "giants",
+   "sector": "Chips & hardware",
+   "people": [
+    "Chris Malachowsky",
+    "Jensen Huang"
+   ],
+   "signs": [
+    "Taurus",
+    "Aquarius"
+   ]
   },
   {
    "company": "Apple",
@@ -544,7 +554,19 @@
    "value": 5017916932096.0,
    "year": 1976,
    "size": 3,
-   "gap": 21
+   "gap": 21,
+   "ring": "giants",
+   "sector": "Chips & hardware",
+   "people": [
+    "Ronald Wayne",
+    "Steve Jobs",
+    "Steve Wozniak"
+   ],
+   "signs": [
+    "Taurus",
+    "Pisces",
+    "Leo"
+   ]
   },
   {
    "company": "Microsoft",
@@ -552,7 +574,17 @@
    "value": 3943039238144.0,
    "year": 1975,
    "size": 2,
-   "gap": 2
+   "gap": 2,
+   "ring": "giants",
+   "sector": "Software & internet",
+   "people": [
+    "Bill Gates",
+    "Paul Allen"
+   ],
+   "signs": [
+    "Scorpio",
+    "Aquarius"
+   ]
   },
   {
    "company": "Alphabet (Google)",
@@ -560,7 +592,17 @@
    "value": 3936694042624.0,
    "year": 1998,
    "size": 2,
-   "gap": 0
+   "gap": 0,
+   "ring": "giants",
+   "sector": "Chips & hardware",
+   "people": [
+    "Larry Page",
+    "Sergey Brin"
+   ],
+   "signs": [
+    "Aries",
+    "Leo"
+   ]
   },
   {
    "company": "OpenAI",
@@ -568,7 +610,27 @@
    "value": 852000000000.0,
    "year": 2015,
    "size": 7,
-   "gap": 19
+   "gap": 19,
+   "ring": "giants",
+   "sector": "Software & internet",
+   "people": [
+    "Andrej Karpathy",
+    "Elon Musk",
+    "Greg Brockman",
+    "Ilya Sutskever",
+    "Sam Altman",
+    "Trevor Blackwell",
+    "Wojciech Zaremba"
+   ],
+   "signs": [
+    "Scorpio",
+    "Cancer",
+    "Sagittarius",
+    "Sagittarius",
+    "Taurus",
+    "Scorpio",
+    "Sagittarius"
+   ]
   },
   {
    "company": "PayPal",
@@ -576,7 +638,21 @@
    "value": 47332347904.0,
    "year": 2000,
    "size": 4,
-   "gap": 8
+   "gap": 8,
+   "ring": "big",
+   "sector": "Money & finance",
+   "people": [
+    "Elon Musk",
+    "Ken Howery",
+    "Max Levchin",
+    "Peter Thiel"
+   ],
+   "signs": [
+    "Cancer",
+    "Scorpio",
+    "Cancer",
+    "Libra"
+   ]
   },
   {
    "company": "Tesla",
@@ -584,7 +660,21 @@
    "value": 1597772529664.0,
    "year": 2003,
    "size": 4,
-   "gap": 11
+   "gap": 11,
+   "ring": "giants",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Elon Musk",
+    "J. B. Straubel",
+    "Marc Tarpenning",
+    "Martin Eberhard"
+   ],
+   "signs": [
+    "Cancer",
+    "Sagittarius",
+    "Gemini",
+    "Taurus"
+   ]
   },
   {
    "company": "Meta Platforms (Facebook)",
@@ -592,7 +682,23 @@
    "value": 1594209206272.0,
    "year": 2004,
    "size": 5,
-   "gap": 2
+   "gap": 2,
+   "ring": "giants",
+   "sector": "Chips & hardware",
+   "people": [
+    "Andrew McCollum",
+    "Chris Hughes",
+    "Dustin Moskovitz",
+    "Eduardo Saverin",
+    "Mark Zuckerberg"
+   ],
+   "signs": [
+    "Virgo",
+    "Sagittarius",
+    "Gemini",
+    "Pisces",
+    "Taurus"
+   ]
   },
   {
    "company": "AMD",
@@ -600,7 +706,19 @@
    "value": 944288825344.0,
    "year": 1969,
    "size": 3,
-   "gap": 12
+   "gap": 12,
+   "ring": "giants",
+   "sector": "Chips & hardware",
+   "people": [
+    "Edwin Turney",
+    "Jack Gifford",
+    "Jerry Sanders"
+   ],
+   "signs": [
+    "Aries",
+    "Capricorn",
+    "Virgo"
+   ]
   },
   {
    "company": "Walmart",
@@ -608,7 +726,17 @@
    "value": 942291025920.0,
    "year": 1962,
    "size": 2,
-   "gap": 3
+   "gap": 3,
+   "ring": "giants",
+   "sector": "Shops & consumer brands",
+   "people": [
+    "Bud Walton",
+    "Sam Walton"
+   ],
+   "signs": [
+    "Sagittarius",
+    "Aries"
+   ]
   },
   {
    "company": "Intel",
@@ -616,7 +744,19 @@
    "value": 504981618688.0,
    "year": 1968,
    "size": 3,
-   "gap": 9
+   "gap": 9,
+   "ring": "giants",
+   "sector": "Chips & hardware",
+   "people": [
+    "Andrew Grove",
+    "Gordon Moore",
+    "Robert Noyce"
+   ],
+   "signs": [
+    "Virgo",
+    "Capricorn",
+    "Sagittarius"
+   ]
   },
   {
    "company": "Palantir",
@@ -624,7 +764,21 @@
    "value": 472945917952.0,
    "year": 2003,
    "size": 4,
-   "gap": 15
+   "gap": 15,
+   "ring": "giants",
+   "sector": "Software & internet",
+   "people": [
+    "Alexander C. Karp",
+    "Joe Lonsdale",
+    "Peter Thiel",
+    "Stephen Cohen"
+   ],
+   "signs": [
+    "Libra",
+    "Virgo",
+    "Libra",
+    "Libra"
+   ]
   },
   {
    "company": "Oracle",
@@ -632,7 +786,17 @@
    "value": 438173138944.0,
    "year": 1977,
    "size": 2,
-   "gap": 3
+   "gap": 3,
+   "ring": "giants",
+   "sector": "Software & internet",
+   "people": [
+    "Bob Miner",
+    "Larry Ellison"
+   ],
+   "signs": [
+    "Capricorn",
+    "Leo"
+   ]
   },
   {
    "company": "Costco",
@@ -640,7 +804,17 @@
    "value": 435476496384.0,
    "year": 1983,
    "size": 2,
-   "gap": 6
+   "gap": 6,
+   "ring": "giants",
+   "sector": "Shops & consumer brands",
+   "people": [
+    "James Sinegal",
+    "Jeffrey Brotman"
+   ],
+   "signs": [
+    "Capricorn",
+    "Libra"
+   ]
   },
   {
    "company": "Home Depot",
@@ -648,7 +822,19 @@
    "value": 316826320896.0,
    "year": 1978,
    "size": 3,
-   "gap": 13
+   "gap": 13,
+   "ring": "giants",
+   "sector": "Shops & consumer brands",
+   "people": [
+    "Arthur Blank",
+    "Bernard Marcus",
+    "Kenneth Langone"
+   ],
+   "signs": [
+    "Libra",
+    "Taurus",
+    "Virgo"
+   ]
   },
   {
    "company": "SAP",
@@ -656,7 +842,23 @@
    "value": 273465606144.0,
    "year": 1972,
    "size": 5,
-   "gap": 9
+   "gap": 9,
+   "ring": "giants",
+   "sector": "Software & internet",
+   "people": [
+    "Claus Wellenreuther",
+    "Dietmar Hopp",
+    "Hans-Werner Hector",
+    "Hasso Plattner",
+    "Klaus Tschira"
+   ],
+   "signs": [
+    "Pisces",
+    "Taurus",
+    "Capricorn",
+    "Aquarius",
+    "Sagittarius"
+   ]
   },
   {
    "company": "Netflix",
@@ -664,7 +866,17 @@
    "value": 258122629120.0,
    "year": 1997,
    "size": 2,
-   "gap": 2
+   "gap": 2,
+   "ring": "giants",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Marc Randolph",
+    "Reed Hastings"
+   ],
+   "signs": [
+    "Taurus",
+    "Libra"
+   ]
   },
   {
    "company": "Alibaba",
@@ -672,7 +884,17 @@
    "value": 251162738688.0,
    "year": 1999,
    "size": 2,
-   "gap": 0
+   "gap": 0,
+   "ring": "giants",
+   "sector": "Software & internet",
+   "people": [
+    "Jack Ma",
+    "Joseph Tsai"
+   ],
+   "signs": [
+    "Virgo",
+    "Capricorn"
+   ]
   },
   {
    "company": "Arista Networks",
@@ -680,7 +902,17 @@
    "value": 235495882752.0,
    "year": 2004,
    "size": 2,
-   "gap": 4
+   "gap": 4,
+   "ring": "giants",
+   "sector": "Chips & hardware",
+   "people": [
+    "Andy Bechtolsheim",
+    "David Cheriton"
+   ],
+   "signs": [
+    "Libra",
+    "Aries"
+   ]
   },
   {
    "company": "Analog Devices",
@@ -688,7 +920,17 @@
    "value": 207524855808.0,
    "year": 1965,
    "size": 2,
-   "gap": 0
+   "gap": 0,
+   "ring": "giants",
+   "sector": "Chips & hardware",
+   "people": [
+    "Matthew Lorber",
+    "Ray Stata"
+   ],
+   "signs": [
+    "Capricorn",
+    "Scorpio"
+   ]
   },
   {
    "company": "Sandisk",
@@ -696,7 +938,17 @@
    "value": 203027988480.0,
    "year": 1988,
    "size": 2,
-   "gap": 13
+   "gap": 13,
+   "ring": "giants",
+   "sector": "Chips & hardware",
+   "people": [
+    "Eli Harari",
+    "Sanjay Mehrotra"
+   ],
+   "signs": [
+    "Gemini",
+    "Cancer"
+   ]
   },
   {
    "company": "Inditex",
@@ -704,7 +956,17 @@
    "value": 195956537672.0,
    "year": 1975,
    "size": 2,
-   "gap": 8
+   "gap": 8,
+   "ring": "giants",
+   "sector": "Shops & consumer brands",
+   "people": [
+    "Amancio Ortega",
+    "Rosalía Mera"
+   ],
+   "signs": [
+    "Aries",
+    "Aquarius"
+   ]
   },
   {
    "company": "QUALCOMM",
@@ -712,7 +974,17 @@
    "value": 195382591488.0,
    "year": 1985,
    "size": 2,
-   "gap": 2
+   "gap": 2,
+   "ring": "giants",
+   "sector": "Chips & hardware",
+   "people": [
+    "Andrew Viterbi",
+    "Irwin M. Jacobs"
+   ],
+   "signs": [
+    "Pisces",
+    "Libra"
+   ]
   },
   {
    "company": "BlackRock",
@@ -720,7 +992,19 @@
    "value": 188127936512.0,
    "year": 1988,
    "size": 3,
-   "gap": 9
+   "gap": 9,
+   "ring": "giants",
+   "sector": "Money & finance",
+   "people": [
+    "Larry Fink",
+    "Rob Kapito",
+    "Susan Wagner"
+   ],
+   "signs": [
+    "Scorpio",
+    "Aquarius",
+    "Capricorn"
+   ]
   },
   {
    "company": "Seagate Technology",
@@ -728,7 +1012,17 @@
    "value": 158713495552.0,
    "year": 1978,
    "size": 2,
-   "gap": 13
+   "gap": 13,
+   "ring": "giants",
+   "sector": "Chips & hardware",
+   "people": [
+    "Alan Shugart",
+    "Finis Conner"
+   ],
+   "signs": [
+    "Libra",
+    "Leo"
+   ]
   },
   {
    "company": "Ping An Insurance",
@@ -736,7 +1030,17 @@
    "value": 144322913984.0,
    "year": 1988,
    "size": 2,
-   "gap": 38
+   "gap": 38,
+   "ring": "giants",
+   "sector": "Money & finance",
+   "people": [
+    "Ma Mingzhe",
+    "Yuan Geng"
+   ],
+   "signs": [
+    "Sagittarius",
+    "Taurus"
+   ]
   },
   {
    "company": "Blackstone Group",
@@ -744,7 +1048,17 @@
    "value": 139921555456.0,
    "year": 1985,
    "size": 2,
-   "gap": 21
+   "gap": 21,
+   "ring": "giants",
+   "sector": "Money & finance",
+   "people": [
+    "Peter George Peterson",
+    "Stephen A. Schwarzman"
+   ],
+   "signs": [
+    "Gemini",
+    "Aquarius"
+   ]
   },
   {
    "company": "Uber",
@@ -752,7 +1066,17 @@
    "value": 133317894144.0,
    "year": 2009,
    "size": 2,
-   "gap": 2
+   "gap": 2,
+   "ring": "giants",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Garrett Camp",
+    "Travis Kalanick"
+   ],
+   "signs": [
+    "Libra",
+    "Leo"
+   ]
   },
   {
    "company": "Starbucks",
@@ -760,7 +1084,17 @@
    "value": 117647998976.0,
    "year": 1971,
    "size": 2,
-   "gap": 0
+   "gap": 0,
+   "ring": "giants",
+   "sector": "Shops & consumer brands",
+   "people": [
+    "Gordon Bowker",
+    "Zev Siegl"
+   ],
+   "signs": [
+    "Scorpio",
+    "Capricorn"
+   ]
   },
   {
    "company": "CVS Health",
@@ -768,7 +1102,17 @@
    "value": 115043377152.0,
    "year": 1963,
    "size": 2,
-   "gap": 1
+   "gap": 1,
+   "ring": "giants",
+   "sector": "Health & biotech",
+   "people": [
+    "Ralph P. Hoagland III",
+    "Stanley P. Goldstein"
+   ],
+   "signs": [
+    "Leo",
+    "Gemini"
+   ]
   },
   {
    "company": "Spotify",
@@ -776,7 +1120,17 @@
    "value": 110705844224.0,
    "year": 2006,
    "size": 2,
-   "gap": 14
+   "gap": 14,
+   "ring": "giants",
+   "sector": "Software & internet",
+   "people": [
+    "Daniel Ek",
+    "Martin Lorentzon"
+   ],
+   "signs": [
+    "Pisces",
+    "Aries"
+   ]
   },
   {
    "company": "HCA Healthcare",
@@ -784,7 +1138,19 @@
    "value": 102760636416.0,
    "year": 1968,
    "size": 3,
-   "gap": 34
+   "gap": 34,
+   "ring": "giants",
+   "sector": "Health & biotech",
+   "people": [
+    "Jack C. Massey",
+    "Thomas F. Frist, Jr.",
+    "Thomas F. Frist, Sr."
+   ],
+   "signs": [
+    "Gemini",
+    "Leo",
+    "Sagittarius"
+   ]
   },
   {
    "company": "Airbnb",
@@ -792,7 +1158,17 @@
    "value": 99425361920.0,
    "year": 2008,
    "size": 2,
-   "gap": 0
+   "gap": 0,
+   "ring": "big",
+   "sector": "Shops & consumer brands",
+   "people": [
+    "Brian Chesky",
+    "Joe Gebbia"
+   ],
+   "signs": [
+    "Virgo",
+    "Leo"
+   ]
   },
   {
    "company": "Adobe",
@@ -800,7 +1176,17 @@
    "value": 97206591488.0,
    "year": 1982,
    "size": 2,
-   "gap": 1
+   "gap": 1,
+   "ring": "big",
+   "sector": "Software & internet",
+   "people": [
+    "Charles Geschke",
+    "John Warnock"
+   ],
+   "signs": [
+    "Virgo",
+    "Libra"
+   ]
   },
   {
    "company": "Tata Consultancy Services",
@@ -808,7 +1194,17 @@
    "value": 94981982188.0,
    "year": 1968,
    "size": 2,
-   "gap": 20
+   "gap": 20,
+   "ring": "big",
+   "sector": "Software & internet",
+   "people": [
+    "F. C. Kohli",
+    "JRD Tata"
+   ],
+   "signs": [
+    "Pisces",
+    "Leo"
+   ]
   },
   {
    "company": "Cadence Design Systems",
@@ -816,7 +1212,17 @@
    "value": 94455947264.0,
    "year": 1983,
    "size": 2,
-   "gap": 4
+   "gap": 4,
+   "ring": "big",
+   "sector": "Software & internet",
+   "people": [
+    "A. Richard Newton",
+    "Alberto Sangiovanni-Vincentelli"
+   ],
+   "signs": [
+    "Cancer",
+    "Cancer"
+   ]
   },
   {
    "company": "Synopsys",
@@ -824,7 +1230,17 @@
    "value": 92347785216.0,
    "year": 1986,
    "size": 2,
-   "gap": 7
+   "gap": 7,
+   "ring": "big",
+   "sector": "Software & internet",
+   "people": [
+    "Aart de Geus",
+    "Alberto Sangiovanni-Vincentelli"
+   ],
+   "signs": [
+    "Gemini",
+    "Cancer"
+   ]
   },
   {
    "company": "Waste Management",
@@ -832,7 +1248,17 @@
    "value": 89995878400.0,
    "year": 1968,
    "size": 2,
-   "gap": 6
+   "gap": 6,
+   "ring": "big",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Dean Buntrock",
+    "Wayne Huizenga"
+   ],
+   "signs": [
+    "Gemini",
+    "Capricorn"
+   ]
   },
   {
    "company": "KKR & Co.",
@@ -840,7 +1266,19 @@
    "value": 85930860544.0,
    "year": 1976,
    "size": 3,
-   "gap": 19
+   "gap": 19,
+   "ring": "big",
+   "sector": "Money & finance",
+   "people": [
+    "George R. Roberts",
+    "Henry Kravis",
+    "Jerome Kohlberg, Jr."
+   ],
+   "signs": [
+    "Virgo",
+    "Capricorn",
+    "Cancer"
+   ]
   },
   {
    "company": "Moderna",
@@ -848,7 +1286,23 @@
    "value": 85502353408.0,
    "year": 2010,
    "size": 5,
-   "gap": 18
+   "gap": 18,
+   "ring": "big",
+   "sector": "Health & biotech",
+   "people": [
+    "Derrick Rossi",
+    "Kenneth R. Chien",
+    "Noubar Afeyan",
+    "Robert S. Langer, Jr.",
+    "Timothy A. Springer"
+   ],
+   "signs": [
+    "Aquarius",
+    "Sagittarius",
+    "Leo",
+    "Virgo",
+    "Pisces"
+   ]
   },
   {
    "company": "Glencore",
@@ -856,7 +1310,17 @@
    "value": 85073338368.0,
    "year": 1974,
    "size": 2,
-   "gap": 0
+   "gap": 0,
+   "ring": "big",
+   "sector": "Money & finance",
+   "people": [
+    "Marc Rich",
+    "Pincus Green"
+   ],
+   "signs": [
+    "Sagittarius",
+    "Cancer"
+   ]
   },
   {
    "company": "Xiaomi",
@@ -864,7 +1328,17 @@
    "value": 82869534720.0,
    "year": 2010,
    "size": 2,
-   "gap": 8
+   "gap": 8,
+   "ring": "big",
+   "sector": "Chips & hardware",
+   "people": [
+    "Lei Jun",
+    "Lin Bin"
+   ],
+   "signs": [
+    "Sagittarius",
+    "Aries"
+   ]
   },
   {
    "company": "Simon Property Group",
@@ -872,7 +1346,17 @@
    "value": 80191668224.0,
    "year": 1960,
    "size": 2,
-   "gap": 8
+   "gap": 8,
+   "ring": "big",
+   "sector": "Money & finance",
+   "people": [
+    "Herb Simon",
+    "Melvin Simon"
+   ],
+   "signs": [
+    "Scorpio",
+    "Libra"
+   ]
   },
   {
    "company": "Comcast",
@@ -880,7 +1364,17 @@
    "value": 76595200000.0,
    "year": 1963,
    "size": 2,
-   "gap": 13
+   "gap": 13,
+   "ring": "big",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Julian A. Brodsky",
+    "Ralph J. Roberts"
+   ],
+   "signs": [
+    "Cancer",
+    "Pisces"
+   ]
   },
   {
    "company": "Energy Transfer LP",
@@ -888,7 +1382,17 @@
    "value": 71310729216.0,
    "year": 1996,
    "size": 2,
-   "gap": 14
+   "gap": 14,
+   "ring": "big",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Kelcy Warren",
+    "Ray Davis"
+   ],
+   "signs": [
+    "Scorpio",
+    "Libra"
+   ]
   },
   {
    "company": "Apollo Global Management",
@@ -896,7 +1400,21 @@
    "value": 66997121024.0,
    "year": 1990,
    "size": 4,
-   "gap": 13
+   "gap": 13,
+   "ring": "big",
+   "sector": "Money & finance",
+   "people": [
+    "Antony Ressler",
+    "Josh Harris",
+    "Leon Black",
+    "Marc Rowan"
+   ],
+   "signs": [
+    "Libra",
+    "Capricorn",
+    "Leo",
+    "Leo"
+   ]
   },
   {
    "company": "Nike",
@@ -904,7 +1422,17 @@
    "value": 55179223040.0,
    "year": 1964,
    "size": 2,
-   "gap": 27
+   "gap": 27,
+   "ring": "big",
+   "sector": "Shops & consumer brands",
+   "people": [
+    "Bill Bowerman",
+    "Phil Knight"
+   ],
+   "signs": [
+    "Pisces",
+    "Pisces"
+   ]
   },
   {
    "company": "Cathay Financial Holding",
@@ -912,7 +1440,17 @@
    "value": 52599654819.0,
    "year": 1962,
    "size": 2,
-   "gap": 8
+   "gap": 8,
+   "ring": "big",
+   "sector": "Money & finance",
+   "people": [
+    "Tsai Wan-chun",
+    "Tsai Wan-lin"
+   ],
+   "signs": [
+    "Sagittarius",
+    "Scorpio"
+   ]
   },
   {
    "company": "Workday",
@@ -920,7 +1458,17 @@
    "value": 49250758656.0,
    "year": 2005,
    "size": 2,
-   "gap": 26
+   "gap": 26,
+   "ring": "big",
+   "sector": "Software & internet",
+   "people": [
+    "Aneel Bhusri",
+    "David Duffield"
+   ],
+   "signs": [
+    "Aquarius",
+    "Virgo"
+   ]
   },
   {
    "company": "Teradyne",
@@ -928,7 +1476,17 @@
    "value": 48972177408.0,
    "year": 1960,
    "size": 2,
-   "gap": 1
+   "gap": 1,
+   "ring": "big",
+   "sector": "Chips & hardware",
+   "people": [
+    "Alex d'Arbeloff",
+    "Nick DeWolf"
+   ],
+   "signs": [
+    "Sagittarius",
+    "Cancer"
+   ]
   },
   {
    "company": "Infosys",
@@ -936,7 +1494,21 @@
    "value": 48969052160.0,
    "year": 1981,
    "size": 4,
-   "gap": 9
+   "gap": 9,
+   "ring": "big",
+   "sector": "Software & internet",
+   "people": [
+    "Kris Gopalakrishnan",
+    "N. R. Narayana Murthy",
+    "Nandan Nilekani",
+    "S. D. Shibulal"
+   ],
+   "signs": [
+    "Aries",
+    "Leo",
+    "Gemini",
+    "Pisces"
+   ]
   },
   {
    "company": "Block",
@@ -944,7 +1516,17 @@
    "value": 45185794048.0,
    "year": 2009,
    "size": 2,
-   "gap": 11
+   "gap": 11,
+   "ring": "big",
+   "sector": "Money & finance",
+   "people": [
+    "Jack Dorsey",
+    "Jim McKelvey"
+   ],
+   "signs": [
+    "Scorpio",
+    "Libra"
+   ]
   },
   {
    "company": "Illumina",
@@ -952,7 +1534,17 @@
    "value": 43607289856.0,
    "year": 1998,
    "size": 2,
-   "gap": 2
+   "gap": 2,
+   "ring": "big",
+   "sector": "Health & biotech",
+   "people": [
+    "Anthony W. Czarnik",
+    "Larry Bock"
+   ],
+   "signs": [
+    "Scorpio",
+    "Virgo"
+   ]
   },
   {
    "company": "Coinbase",
@@ -960,7 +1552,17 @@
    "value": 42826010624.0,
    "year": 2012,
    "size": 2,
-   "gap": 5
+   "gap": 5,
+   "ring": "big",
+   "sector": "Money & finance",
+   "people": [
+    "Brian Armstrong",
+    "Fred Ehrsam"
+   ],
+   "signs": [
+    "Aquarius",
+    "Taurus"
+   ]
   },
   {
    "company": "Sysco",
@@ -968,7 +1570,17 @@
    "value": 40410730496.0,
    "year": 1969,
    "size": 2,
-   "gap": 1
+   "gap": 1,
+   "ring": "big",
+   "sector": "Shops & consumer brands",
+   "people": [
+    "Herbert Irving",
+    "John F. Baugh"
+   ],
+   "signs": [
+    "Scorpio",
+    "Pisces"
+   ]
   },
   {
    "company": "Sun Hung Kai Properties",
@@ -976,7 +1588,17 @@
    "value": 39482667464.0,
    "year": 1963,
    "size": 2,
-   "gap": 17
+   "gap": 17,
+   "ring": "big",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Kwok Tak-Seng",
+    "Lee Shau-kee"
+   ],
+   "signs": [
+    "Pisces",
+    "Pisces"
+   ]
   },
   {
    "company": "Roblox",
@@ -984,7 +1606,17 @@
    "value": 38061948928.0,
    "year": 2004,
    "size": 2,
-   "gap": 4
+   "gap": 4,
+   "ring": "big",
+   "sector": "Software & internet",
+   "people": [
+    "David Baszucki",
+    "Erik Cassel"
+   ],
+   "signs": [
+    "Aquarius",
+    "Sagittarius"
+   ]
   },
   {
    "company": "Take-Two Interactive",
@@ -992,7 +1624,17 @@
    "value": 36515409920.0,
    "year": 1993,
    "size": 2,
-   "gap": 6
+   "gap": 6,
+   "ring": "big",
+   "sector": "Software & internet",
+   "people": [
+    "Mark E. Seremet",
+    "Ryan Ashley Brant"
+   ],
+   "signs": [
+    "Pisces",
+    "Sagittarius"
+   ]
   },
   {
    "company": "Vodafone",
@@ -1000,7 +1642,17 @@
    "value": 36210425856.0,
    "year": 1984,
    "size": 2,
-   "gap": 1
+   "gap": 1,
+   "ring": "big",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Ernest Harrison",
+    "Gerry Whent"
+   ],
+   "signs": [
+    "Taurus",
+    "Pisces"
+   ]
   },
   {
    "company": "Biogen",
@@ -1008,7 +1660,21 @@
    "value": 36059365376.0,
    "year": 1978,
    "size": 4,
-   "gap": 14
+   "gap": 14,
+   "ring": "big",
+   "sector": "Health & biotech",
+   "people": [
+    "Charles Weissmann",
+    "Kenneth Murray",
+    "Phillip Sharp",
+    "Walter Gilbert"
+   ],
+   "signs": [
+    "Libra",
+    "Capricorn",
+    "Gemini",
+    "Aries"
+   ]
   },
   {
    "company": "Alnylam Pharmaceuticals",
@@ -1016,7 +1682,21 @@
    "value": 31097239552.0,
    "year": 2002,
    "size": 4,
-   "gap": 26
+   "gap": 26,
+   "ring": "big",
+   "sector": "Health & biotech",
+   "people": [
+    "Paul Schimmel",
+    "Phillip D. Zamore",
+    "Phillip Sharp",
+    "Thomas Tuschl"
+   ],
+   "signs": [
+    "Leo",
+    "Sagittarius",
+    "Gemini",
+    "Gemini"
+   ]
   },
   {
    "company": "Lenovo",
@@ -1024,7 +1704,17 @@
    "value": 35004651677.0,
    "year": 1984,
    "size": 2,
-   "gap": 13
+   "gap": 13,
+   "ring": "big",
+   "sector": "Chips & hardware",
+   "people": [
+    "Danny Lui",
+    "Liu Chuanzhi"
+   ],
+   "signs": [
+    "Capricorn",
+    "Taurus"
+   ]
   },
   {
    "company": "TKO Group Holdings",
@@ -1032,7 +1722,17 @@
    "value": 32910219264.0,
    "year": 2023,
    "size": 2,
-   "gap": 16
+   "gap": 16,
+   "ring": "big",
+   "sector": "Health & biotech",
+   "people": [
+    "Ari Emanuel",
+    "Vince McMahon"
+   ],
+   "signs": [
+    "Aries",
+    "Virgo"
+   ]
   },
   {
    "company": "MongoDB",
@@ -1040,7 +1740,19 @@
    "value": 31694088192.0,
    "year": 2007,
    "size": 3,
-   "gap": 13
+   "gap": 13,
+   "ring": "big",
+   "sector": "Software & internet",
+   "people": [
+    "Dwight Merriman",
+    "Eliot Horowitz",
+    "Kevin P. Ryan"
+   ],
+   "signs": [
+    "Leo",
+    "Taurus",
+    "Gemini"
+   ]
   },
   {
    "company": "Teledyne Technologies",
@@ -1048,7 +1760,19 @@
    "value": 30834819072.0,
    "year": 1960,
    "size": 3,
-   "gap": 10
+   "gap": 10,
+   "ring": "big",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Arthur Rock",
+    "George Kozmetsky",
+    "Henry Earl Singleton"
+   ],
+   "signs": [
+    "Leo",
+    "Libra",
+    "Sagittarius"
+   ]
   },
   {
    "company": "Ryanair",
@@ -1056,7 +1780,17 @@
    "value": 27092600832.0,
    "year": 1984,
    "size": 2,
-   "gap": 0
+   "gap": 0,
+   "ring": "big",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Christopher Ryan",
+    "Tony Ryan"
+   ],
+   "signs": [
+    "Sagittarius",
+    "Aquarius"
+   ]
   },
   {
    "company": "Reddit",
@@ -1064,7 +1798,19 @@
    "value": 25915809792.0,
    "year": 2005,
    "size": 3,
-   "gap": 3
+   "gap": 3,
+   "ring": "big",
+   "sector": "Software & internet",
+   "people": [
+    "Aaron Swartz",
+    "Alexis Ohanian",
+    "Steve Huffman"
+   ],
+   "signs": [
+    "Scorpio",
+    "Taurus",
+    "Scorpio"
+   ]
   },
   {
    "company": "BioNTech",
@@ -1072,7 +1818,17 @@
    "value": 22103472128.0,
    "year": 2008,
    "size": 2,
-   "gap": 2
+   "gap": 2,
+   "ring": "big",
+   "sector": "Health & biotech",
+   "people": [
+    "Uğur Şahin",
+    "Özlem Türeci"
+   ],
+   "signs": [
+    "Virgo",
+    "Pisces"
+   ]
   },
   {
    "company": "Southwest Airlines",
@@ -1080,7 +1836,17 @@
    "value": 21265881088.0,
    "year": 1967,
    "size": 2,
-   "gap": 0
+   "gap": 0,
+   "ring": "big",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Herb Kelleher",
+    "Rollin King"
+   ],
+   "signs": [
+    "Pisces",
+    "Aries"
+   ]
   },
   {
    "company": "J. B. Hunt",
@@ -1088,7 +1854,17 @@
    "value": 20964114432.0,
    "year": 1961,
    "size": 2,
-   "gap": 5
+   "gap": 5,
+   "ring": "big",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Johnelle Hunt",
+    "Johnnie Bryan Hunt"
+   ],
+   "signs": [
+    "Capricorn",
+    "Pisces"
+   ]
   },
   {
    "company": "Partners Group",
@@ -1096,7 +1872,17 @@
    "value": 20442103503.0,
    "year": 1996,
    "size": 2,
-   "gap": 4
+   "gap": 4,
+   "ring": "big",
+   "sector": "Money & finance",
+   "people": [
+    "Marcel Erni",
+    "Urs Wietlisbach"
+   ],
+   "signs": [
+    "Cancer",
+    "Virgo"
+   ]
   },
   {
    "company": "Databricks",
@@ -1104,7 +1890,19 @@
    "value": 190000000000.0,
    "year": 2013,
    "size": 3,
-   "gap": 20
+   "gap": 20,
+   "ring": "giants",
+   "sector": "Software & internet",
+   "people": [
+    "Andrew Konwinski",
+    "Ion Stoica",
+    "Matei Zaharia"
+   ],
+   "signs": [
+    "Libra",
+    "Aquarius",
+    "Taurus"
+   ]
   },
   {
    "company": "Stripe",
@@ -1112,7 +1910,17 @@
    "value": 159000000000.0,
    "year": 2009,
    "size": 2,
-   "gap": 2
+   "gap": 2,
+   "ring": "giants",
+   "sector": "Money & finance",
+   "people": [
+    "John Collison",
+    "Patrick Collison"
+   ],
+   "signs": [
+    "Leo",
+    "Virgo"
+   ]
   },
   {
    "company": "Mistral AI",
@@ -1120,7 +1928,17 @@
    "value": 24000000000.0,
    "year": 2023,
    "size": 2,
-   "gap": 2
+   "gap": 2,
+   "ring": "big",
+   "sector": "Software & internet",
+   "people": [
+    "Arthur Mensch",
+    "Guillaume Lample"
+   ],
+   "signs": [
+    "Cancer",
+    "Libra"
+   ]
   },
   {
    "company": "Kalshi",
@@ -1128,7 +1946,17 @@
    "value": 22000000000.0,
    "year": 2018,
    "size": 2,
-   "gap": 0
+   "gap": 0,
+   "ring": "big",
+   "sector": "Money & finance",
+   "people": [
+    "Luana Lara Lopes",
+    "Tarek Mansour"
+   ],
+   "signs": [
+    "Taurus",
+    "Taurus"
+   ]
   },
   {
    "company": "WeWork",
@@ -1136,7 +1964,17 @@
    "value": 47000000000.0,
    "year": 2010,
    "size": 2,
-   "gap": 5
+   "gap": 5,
+   "ring": "fallen",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Adam Neumann",
+    "Miguel McKelvey"
+   ],
+   "signs": [
+    "Taurus",
+    "Cancer"
+   ]
   },
   {
    "company": "Byju's",
@@ -1144,7 +1982,17 @@
    "value": 22000000000.0,
    "year": 2011,
    "size": 2,
-   "gap": 7
+   "gap": 7,
+   "ring": "fallen",
+   "sector": "Software & internet",
+   "people": [
+    "Byju Raveendran",
+    "Divya Gokulnath"
+   ],
+   "signs": [
+    "Capricorn",
+    "Taurus"
+   ]
   },
   {
    "company": "Vice Media",
@@ -1152,7 +2000,19 @@
    "value": 5700000000.0,
    "year": 1994,
    "size": 3,
-   "gap": 1
+   "gap": 1,
+   "ring": "fallen",
+   "sector": "Energy, cars & industry",
+   "people": [
+    "Gavin McInnes",
+    "Shane Smith",
+    "Suroosh Alvi"
+   ],
+   "signs": [
+    "Cancer",
+    "Libra",
+    "Aries"
+   ]
   }
  ],
  "twins": {

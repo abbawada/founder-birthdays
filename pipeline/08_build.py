@@ -74,6 +74,7 @@ def era(y):
     return "2010s+" if y >= 2010 else f"{(y // 10) * 10}s"
 
 
+DEATHS = load_json(os.path.join(DATA, "deaths.json"), {})   # qid -> year of death, for the team builder
 # companies -> members (indices into the dated founder list)
 dated = [f for f in founders if f.get("birthday")]
 key_of = lambda f: f["qid"] or ("name:" + f["name"])
@@ -107,7 +108,7 @@ for i, f in enumerate(dated):
                   "place": ", ".join(x for x in [f.get("birthplace"), country] if x) or None, "url": f["birth_source_url"] or f["wikipedia_url"] or f["wikidata_url"],
                   "src": f["birth_source"], "base": [round(x, 5) for x in monthly_for(country, y)], "moon": (moon.get(mk) or {}).get("moon"),
                   "rising": r.get("rising"), "rising_rating": r.get("rating"), "key": mk,
-                  "cut": (REL.get(mk) or {}).get("cut"), "cut_country": (REL.get(mk) or {}).get("country")})
+                  "cut": (REL.get(mk) or {}).get("cut"), "cut_country": (REL.get(mk) or {}).get("country"), "died": DEATHS.get(f["qid"] or "")})
 # cofounder links: indices into out_f (the list the page draws), never into the wider dated list
 _mem = defaultdict(list)
 for i, f in enumerate(out_f):
@@ -180,7 +181,8 @@ whatif = load_json(os.path.join(DATA, "whatif.json"), [])
 film = load_json(os.path.join(DATA, "film.json"), [])
 extras = load_json(os.path.join(DATA, "extras.json"), {})
 portraits = load_json(os.path.join(DATA, "portraits.json"), {})
-payload = {"extras": extras, "portraits": portraits, "film": film, "whatif": whatif, "founders": out_f, "companies": [{"name": c["name"], "ring": c["ring"], "value": c["value_usd"], "founded": c["founded_year"], "sector": sectors.get(c["name"], {}).get("sector")} for c in companies], "stats": stats, "meta": meta}
+faces = load_json(os.path.join(DATA, "faces.json"), {})
+payload = {"extras": extras, "portraits": portraits, "faces": faces, "film": film, "whatif": whatif, "founders": out_f, "companies": [{"name": c["name"], "ring": c["ring"], "value": c["value_usd"], "founded": c["founded_year"], "sector": sectors.get(c["name"], {}).get("sector")} for c in companies], "stats": stats, "meta": meta}
 
 tpl = open(os.path.join(ROOT, "pipeline", "template.html")).read()
 html = tpl.replace("/*DATA*/null/*DATA*/", json.dumps(payload, ensure_ascii=False, separators=(",", ":")))

@@ -81,7 +81,7 @@ X["earth"] = {"with": med(earth), "without": med(no_earth), "n_with": len(earth)
 g = np.array([r["gap"] for r in rows]); v = np.array([r["value"] for r in rows])
 X["gaps"] = {"median": med(g), "buckets": [{"label": l, "median": med(v[(g >= lo) & (g < hi)]), "n": int(((g >= lo) & (g < hi)).sum())} for l, lo, hi in [("0 to 2 years", 0, 3), ("3 to 7 years", 3, 8), ("8 to 14 years", 8, 15), ("15 years or more", 15, 999)]],
              "widest": sorted([{"company": r["company"], "gap": int(r["gap"]), "people": r["people"]} for r in rows], key=lambda d: -d["gap"])[:3]}
-X["teams"] = [{k: r[k] for k in ("company", "kind", "value", "year", "size", "gap")} for r in rows]
+X["teams"] = [{k: r[k] for k in ("company", "kind", "value", "year", "size", "gap", "ring", "sector", "people", "signs")} for r in rows]   # the team builder replays these
 
 # ---- birthday twins
 md = defaultdict(list)

@@ -19,6 +19,7 @@
   --grain:none; --circled:none; --underline:none;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth;background:var(--night)}
 body{margin:0;color:var(--chalk);font-family:var(--body);font-size:19px;line-height:1.55;-webkit-font-smoothing:antialiased;
   background:radial-gradient(ellipse 60% 40% at 15% 8%,#1b2550 0%,rgba(27,37,80,0) 70%),radial-gradient(ellipse 50% 50% at 90% 55%,#132c3e 0%,rgba(19,44,62,0) 70%),radial-gradient(ellipse 70% 40% at 30% 100%,#1a1838 0%,rgba(26,24,56,0) 70%),var(--night);background-attachment:fixed}
@@ -164,15 +165,63 @@ canvas#ring{width:100%;height:100%;display:block;touch-action:pan-y}
 .twin .tday{font-family:var(--display);font-style:italic;font-size:22px;color:var(--inkred)}
 .twin img{width:70px;float:right;margin:0 0 4px 6px}
 .twin ul{list-style:none;margin:2px 0 0;padding:0;font-size:14.5px;line-height:1.35} .twin li b{font-weight:600}
-.sim{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:8px 0 12px} .sim select{width:100%}
-.simout{background:var(--paper);color:var(--ink);padding:14px 16px;background-image:radial-gradient(rgba(29,27,40,.08) 1px,transparent 1.3px);background-size:5px 5px;font-size:16px;line-height:1.45}
-.simout .shead{font-family:var(--display);font-size:24px;line-height:1.1;margin-bottom:6px}
-.simout .shead i{color:var(--inkred)}
-.simout ul{margin:6px 0 0;padding-left:18px}
-.simidea{margin-top:10px;min-height:20px}
-.simidea .card2{background:var(--night2);border:1.5px dashed rgba(242,205,122,.6);border-radius:8px 14px 6px 12px;padding:12px 16px}
-.simidea .iname{font-family:var(--display);font-size:26px;color:var(--gold2)} .simidea .iyr{font-family:var(--hand);color:var(--chalk3)}
-.simidea .by{font-family:var(--hand);font-size:14px;color:var(--chalk3);margin-top:4px}
+/* build your own team */
+.team{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:start;margin:10px 0 8px}
+.amp{font-family:var(--display);font-size:46px;line-height:1;color:var(--gold2);margin-top:34px}
+.slot{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;min-width:0}
+.sface{width:104px;height:130px;display:flex;align-items:center;justify-content:center}
+.sface img.face{width:104px;height:130px;object-fit:contain;background:var(--paper);border-radius:50% 50% 46% 46%/42% 42% 58% 58%;padding:4px}
+.medal{display:inline-flex;align-items:center;justify-content:center;width:96px;height:96px;border-radius:50%;border:2px dashed rgba(242,205,122,.7);font-family:var(--display);font-size:50px;color:var(--gold2);background:radial-gradient(circle,rgba(224,174,74,.16),rgba(224,174,74,0) 70%)}
+.medal.me{border-style:solid;color:var(--chalk)}
+.medal.mini,img.face.mini{width:34px;height:34px;font-size:18px;flex:none;border-width:1.5px}
+img.face.mini{height:42px;object-fit:contain;background:var(--paper);border-radius:40%}
+.swho{min-height:62px;display:flex;flex-direction:column;align-items:center;line-height:1.2;min-width:0;max-width:100%}
+.swho b{font-family:var(--display);font-weight:400;font-size:22px;color:var(--chalk);overflow-wrap:anywhere}
+.swho span{font-family:var(--hand);font-size:15px;color:var(--chalk2);overflow-wrap:anywhere}
+.spick{display:flex;gap:6px;width:100%;max-width:260px}
+.sq{flex:1;min-width:0;font:inherit;font-family:var(--hand);font-size:16px;color:var(--chalk);background:rgba(241,235,221,.06);border:1.5px solid rgba(241,235,221,.4);border-radius:12px 4px 10px 6px/6px 10px 4px 12px;padding:6px 10px 5px}
+.sq::placeholder{color:var(--chalk3)}
+.sq:focus{border-color:var(--gold);outline:none;background:rgba(241,235,221,.1)}
+.die{flex:none;width:38px;border:1.5px solid rgba(241,235,221,.4);background:transparent;color:var(--chalk);cursor:pointer;border-radius:8px 12px 6px 10px;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s}
+.die:hover{transform:rotate(-12deg);color:var(--gold2);border-color:var(--gold)}
+.slist{position:absolute;z-index:40;top:100%;left:0;margin:4px 0 0;padding:4px;list-style:none;width:min(330px,calc(100vw - 32px));max-height:320px;overflow-y:auto;background:var(--night2);border:1.5px solid rgba(242,205,122,.6);border-radius:6px 12px 8px 10px;box-shadow:0 12px 30px rgba(0,0,0,.45);text-align:left}
+#slotB .slist{left:auto;right:0}
+.slist li{display:flex;gap:10px;align-items:center;padding:5px 8px;border-radius:6px;cursor:pointer}
+.slist li[aria-selected="true"],.slist li:hover{background:rgba(242,205,122,.14)}
+.slist li.none{cursor:default;font-family:var(--hand);font-size:15px;color:var(--chalk2)}
+.slist .ot{display:flex;flex-direction:column;min-width:0;line-height:1.2}
+.slist .onm{font-family:var(--display);font-size:17px;color:var(--chalk)} .slist .osub{font-family:var(--hand);font-size:13.5px;color:var(--chalk3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sme{display:flex;flex-direction:column;gap:6px;width:100%;max-width:260px;margin-top:4px;text-align:left}
+.sme label{display:flex;flex-direction:column;font-family:var(--hand);font-size:14.5px;color:var(--gold2);gap:2px}
+.sme input{font:inherit;font-size:16px;color:var(--chalk);background:rgba(241,235,221,.06);border:1.5px solid rgba(242,205,122,.6);border-radius:8px 4px 8px 4px;padding:5px 8px;min-width:0;color-scheme:dark}
+.simbar{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;margin:8px 0 14px}
+.simbar .tries{font-family:var(--hand);font-size:15.5px;color:var(--chalk3)}
+.qpicks{display:flex;flex-wrap:wrap;gap:6px}
+.qp{font-family:var(--hand);font-size:15.5px;color:var(--chalk);background:transparent;border:1.5px dashed rgba(241,235,221,.4);border-radius:14px 8px 12px 6px;padding:3px 10px 2px;cursor:pointer;white-space:nowrap}
+.qp:hover{border-color:var(--gold);color:var(--gold2)}
+.qp small{font-size:12.5px;color:var(--gold2);margin-left:5px;border:1px solid currentColor;border-radius:8px;padding:0 4px}
+.vrd{display:flex;gap:14px 18px;align-items:center;background:var(--paper);color:var(--ink);padding:14px 18px 10px;transform:rotate(-.4deg);background-image:radial-gradient(rgba(29,27,40,.08) 1px,transparent 1.3px);background-size:5px 5px}
+.vrd:empty{display:none}
+.vrd p{margin:0 0 6px;font-size:16.5px;line-height:1.42;max-width:none;color:var(--ink)} .vrd .twist{color:#4a4552} .vrd .real{color:var(--inkred)}
+.vstamp{flex:none;font-family:var(--display);font-size:26px;letter-spacing:.07em;text-transform:uppercase;color:var(--inkred);border:3px solid currentColor;border-radius:10px 16px 8px 14px;padding:8px 12px 4px;transform:rotate(-9deg);opacity:.9;white-space:nowrap}
+.vstamp.match{color:var(--inkgold)}
+.vstamp.go{animation:vstamp .5s cubic-bezier(.2,1.5,.4,1)}
+@keyframes vstamp{from{transform:rotate(-9deg) scale(2.4);opacity:0}to{transform:rotate(-9deg) scale(1);opacity:.9}}
+.replay{margin-top:18px}
+.rhead{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}
+.rhead h3{font-family:var(--display);font-weight:400;font-size:24px;margin:0;color:var(--chalk)} .rhead h3 i{color:var(--gold2)}
+#simJars{margin-top:4px} #simJars svg circle{cursor:help}
+#simSum{margin:6px 0 4px} #simSwap{margin:0 0 6px}
+.how summary{font-family:var(--hand);font-size:15.5px;color:var(--chalk3);cursor:pointer} .how p{font-size:15.5px;color:var(--chalk2);margin:6px 0 0}
+.simidea{margin-top:16px;min-height:20px}
+.corp{display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;align-items:start;background:var(--paper);color:var(--ink);padding:14px 18px 12px;transform:rotate(.4deg);background-image:radial-gradient(rgba(29,27,40,.08) 1px,transparent 1.3px);background-size:5px 5px;transition:opacity .2s}
+.simidea.busy .corp{opacity:.55}
+.corp .logo svg{width:96px;height:96px;display:block}
+.corp .ckick{font-family:var(--hand);font-size:14px;color:#5c5663}
+.corp .cname{font-family:var(--display);font-size:30px;line-height:1.05;overflow-wrap:anywhere}
+.corp .cyr{font-family:var(--hand);font-size:14.5px;color:#5c5663;margin-top:2px}
+.corp .cpitch{margin:6px 0 2px;font-size:17px;line-height:1.4;max-width:none;color:var(--ink)} .corp .croles{margin:0;font-size:15.5px;color:#4a4552;max-width:none}
+.corp .cby{font-family:var(--hand);font-size:14px;color:var(--inkgold);margin-top:4px}
 .wcard .idea{border-top:1px dashed rgba(29,27,40,.3);padding-top:6px;margin-top:4px}
 .wcard .idea .iname{font-family:var(--display);font-size:22px;color:var(--inkred)} .wcard .idea .iyr{font-family:var(--hand);font-size:14px;color:#5c5663}
 .wcard .idea p{font-size:15px;line-height:1.35;color:var(--ink);margin:2px 0 4px}
@@ -335,7 +384,9 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
 }
 @media (max-width:920px){
   body{font-size:18px}
-  .sim{grid-template-columns:1fr}
+  body.wheel-off .sticky{position:relative} body.wheel-off .sticky::after{display:none}
+  .sface,.sface img.face{width:76px;height:95px} .medal{width:72px;height:72px;font-size:38px} .amp{font-size:34px;margin-top:26px}
+  .swho b{font-size:18px} .vrd{flex-direction:column;align-items:flex-start} .corp{grid-template-columns:64px minmax(0,1fr)} .corp .logo svg{width:64px;height:64px} .corp .cname{font-size:25px}
   .rule .els{grid-template-columns:repeat(2,minmax(0,1fr))}
   .hero{grid-template-columns:1fr;gap:12px;padding-block:22px 16px}
   .scrolly{grid-template-columns:1fr;gap:0}
@@ -453,7 +504,9 @@ const COL = {giants:"#f2cd7a", big:"#9cc0dd", fallen:"#dc4c3e"};
 const FELL = '"IM Fell English", Georgia, serif', HAND = 'Kalam, "Bradley Hand", cursive', GARA = '"EB Garamond", Georgia, serif';
 const TAU = Math.PI*2, ease = t => t<.5 ? 4*t*t*t : 1-Math.pow(-2*t+2,3)/2;
 const REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-const short = n => { const p=n.split(" "); return p.length>1 ? p[p.length-1] : n; };
+const EAST = new Set(["Ma","Yuan","Wang","He","Lei","Lin","Ding","Jeong","Tsai","Kwok","Lee","Liu","Seo","Zhang","Liang","Chung","Jing","Khoo","Phạm"]);   // surname first
+const cleanName = n => String(n).replace(/\s*\(.*?\)\s*$/,"").replace(/,?\s+(Jr\.?|Sr\.?|II|III|IV)$/,"");
+const short = n => { const p=cleanName(n).split(" "); if(p.length<2) return p[0]; if(EAST.has(p[0])) return p[0]; let k=p.length-1; while(k>1&&/^(de|van|der|le|del|von|da|di)$/.test(p[k-1])) k--; return p.slice(k).join(" "); };
 
 F.forEach((f,i)=>{ f.i=i; f.cur=f.doy; f.alpha=1; f.ring = f.companies.some(c=>c.ring==="giants")?"giants":(f.companies.some(c=>c.ring==="big")?"big":"fallen"); f.sector=f.companies[0].sector; f.age=f.companies[0].founded?f.companies[0].founded-f.year:null; f.p=new Float32Array(365); for(let m=0;m<12;m++){ for(let k=CUM[m];k<CUM[m+1];k++) f.p[k]=f.base[m]/MDAYS[m]; } });
 const BYNAME = new Map(F.map(f=>[f.name,f]));
@@ -523,7 +576,7 @@ new ResizeObserver(drawRips).observe(document.getElementById("hero"));
 /* ======================================================================
    STATE + LENSES
    ====================================================================== */
-const state = { lens:"zodiac", show:"thriving", shuffled:false, you:doy(2,25), mode:null, pair:null, focus:null, pinned:false, colorBy:null, tint:false, links:false, duo:null };
+const state = { lens:"zodiac", show:"thriving", shuffled:false, you:doy(2,25), youYear:null, youSet:false, mode:null, pair:null, focus:null, pinned:false, colorBy:null, tint:false, links:false, duo:null };
 function lensDef(){
   if(state.lens==="month") return { key:"month", start:0, bins:MONTHS.map((m,i)=>({name:m, label:m, a:CUM[i], b:CUM[i+1]})), pos:(f,k)=>k, bin:p=>DOY_MONTH[Math.round(p)%365], ok:()=>true };
   if(state.lens==="school") return { key:"school", start:0, bins:Array.from({length:12},(_,i)=>({name: i===0?"Oldest in class":(i===11?"Youngest in class":`Month ${i+1} of the school year`), label: i===0?"oldest":(i===11?"youngest":String(i+1)), a:i*365/12, b:(i+1)*365/12})),
@@ -655,9 +708,9 @@ function draw(){
     hline(ctx,right?lx+3:lx-3,ly-5,f.x-Math.cos(a)*(f.r+2),f.y-Math.sin(a)*(f.r+2),f.i+11,{color:"rgba(241,235,221,.45)",w:0.8,passes:1,j:0.6});
   });
   // you: a chalk arrow
-  if(state.mode==="you"&&state.lens!=="school"){ const a=angleAt(state.you,L); const x1=CX+Math.cos(a)*G.R0*0.62, y1=CY+Math.sin(a)*G.R0*0.62, x2=CX+Math.cos(a)*(G.Rb2+4), y2=CY+Math.sin(a)*(G.Rb2+4);
+  if((state.mode==="you"||(state.mode==="wif"&&state.wif&&state.wif[2]&&[state.wif[2].a,state.wif[2].b].some(x=>x&&x.name==="You")&&state.youSet))&&state.lens!=="school"){ const a=angleAt(state.you,L); const x1=CX+Math.cos(a)*G.R0*0.62, y1=CY+Math.sin(a)*G.R0*0.62, x2=CX+Math.cos(a)*(G.Rb2+4), y2=CY+Math.sin(a)*(G.Rb2+4);
     hline(ctx,x1,y1,x2,y2,77,{color:"#ffffff",w:2,j:1.2}); [0.45,-0.45].forEach((d,k)=>hline(ctx,x2,y2,x2-Math.cos(a+d)*12*SC,y2-Math.sin(a+d)*12*SC,78+k,{color:"#ffffff",w:2,j:0.6}));
-    ctx.font=`700 ${Math.max(14,17*SC)}px ${HAND}`; ctx.fillStyle="#ffffff"; ctx.textAlign="center"; ctx.fillText("you",CX+Math.cos(a)*G.R0*0.5,CY+Math.sin(a)*G.R0*0.5+5); }
+    if(state.mode==="you"){ ctx.font=`700 ${Math.max(14,17*SC)}px ${HAND}`; ctx.fillStyle="#ffffff"; ctx.textAlign="center"; ctx.fillText("you",CX+Math.cos(a)*G.R0*0.5,CY+Math.sin(a)*G.R0*0.5+5); } }
   if(FX.centre) centre(L,obs,exp,lead,G);
   ctx.setTransform(DPR,0,0,DPR,0,0);
 }
@@ -860,18 +913,26 @@ if(WIF.length) steps.push({ id:"whatif", title:"ten what-ifs",
   html:`<h2 class="chalk">What if they'd <i>teamed up?</i></h2>
   <p>Ten pairs of famous founders who never started a company together, paired by what the data found. We ranked sign pairs by how much their real cofounders built, then picked the best-known founders of those signs. Then we imagined the company each pair might have started.</p>
   <div class="wif">${WIF.map(wifCard).join("")}</div>
-  <details class="credits"><summary>portrait credits</summary>${[...WIF.flatMap(w=>[w.a,w.b]),...Object.values(PORT)].map(p=>`${esc(p.name)}: photo by ${esc(p.credit||"unknown")}, ${esc(p.license||"see source")}, <a href="${esc(p.file_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>, toned for this page`).join("<br>")}</details>`,
+  <details class="credits"><summary>portrait credits</summary>${[...WIF.flatMap(w=>[w.a,w.b]),...Object.values(PORT),...Object.entries(DATA.faces||{}).filter(([n])=>!PICS[n]).map(([name,v])=>Object.assign({name},v))].map(p=>`${esc(p.name)}: photo by ${esc(p.credit||"unknown")}, ${esc(p.license||"see source")}, <a href="${esc(p.file_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>, toned for this page`).join("<br>")}</details>`,
   st:{show:"all"}, wire:()=>{ document.querySelectorAll(".wif .wcard").forEach((c,i)=>{ c.style.setProperty("--rot",((rng(i*17+3)()-.5)*3).toFixed(2)+"deg"); c.style.clipPath=torn(i*41+9,4); c.tabIndex=0; const go=()=>{ const w=WIF[i]; state.mode="wif"; state.wif=[BYNAME.get(w.a.name),BYNAME.get(w.b.name),w]; if(state.lens!=="zodiac") setLens("zodiac"); draw(); }; c.onmouseenter=go; c.onclick=go; c.onfocus=go; }); },
   enter:()=>{ if(WIF.length){ state.mode="wif"; const w=WIF[0]; state.wif=[BYNAME.get(w.a.name),BYNAME.get(w.b.name),w]; draw(); } } });
 
 steps.push({ id:"simulator", title:"build your own team",
   html:`<h2 class="chalk">Build your own <i>founding team</i></h2>
-  <p>Pick any two founders, or yourself and a founder. We'll show what astrology says, what real teams like yours built, and a company the two of you might start.</p>
-  <div class="sim"><div><label class="field" for="simA">first founder</label><select id="simA"></select></div><div><label class="field" for="simB">second founder</label><select id="simB"></select></div></div>
-  <div class="simout" id="simOut"></div>
-  <div class="inline-actions"><button class="btn gold" type="button" id="simAsk">invent their company with Claude</button><button class="linkbtn" type="button" id="simAgain">another idea</button></div>
-  <div class="simidea" id="simIdea"></div>`,
-  st:{show:"all"}, wire:wireSim, enter:()=>simRender() });
+  <p>Pick any two founders, or yourself and a founder. We'll tell you what astrology calls them, replay their company 100 times using real founding teams like theirs, and imagine what they'd build.</p>
+  <div class="team">${slotHTML("A")}<div class="amp" aria-hidden="true">+</div>${slotHTML("B")}</div>
+  <div class="simbar"><button class="btn gold small" type="button" id="simSpin">${dieSVG()} surprise me</button><span class="tries">or try</span><span class="qpicks" id="simChips"></span></div>
+  <div class="vrd" id="simVerdict" aria-live="polite"></div>
+  <div id="simRest">
+    <div class="replay"><div class="rhead"><h3>We replayed their company <i>100 times</i></h3><button class="linkbtn" type="button" id="simReplay">replay again</button></div>
+      <div class="sheet" id="simJars"></div>
+      <p id="simSum"></p><p class="small" id="simSwap"></p>
+      <details class="how"><summary>how the replay works</summary><p>Each replay borrows the fate of one real founding team like theirs. It only draws from teams astrology gives the same verdict, a clash or a match, and it favours teams from the same industry, with the same two elements, a similar age gap and a similar era. There are ${(XT.teams||[]).filter(t=>t.kind==="clash"||t.kind==="match").length} real founding teams to draw from, and every company here already made it big or collapsed, so read it as a game, not a forecast.</p></details></div>
+    <div class="simidea" id="simIdea"></div>
+    <div class="inline-actions"><button class="btn gold small" type="button" id="simAsk">invent it with Claude</button><button class="btn small" type="button" id="simAgain">another idea</button><button class="btn small" type="button" id="simMake">make a card of this team</button></div>
+    <div class="cardimg" id="simCardOut" hidden></div>
+  </div>`,
+  st:{show:"all",wheelOff:true}, wire:wireSim, enter:()=>simRender() });
 
 if(XT.lore) steps.push({ id:"lore", title:"astrology's job descriptions",
   html:`<h2 class="chalk">Astrology's <i>job descriptions</i>, checked</h2>
@@ -916,7 +977,7 @@ steps.push({ id:"you", title:"your turn",
   <div class="you-out" id="youOut"></div>
   <div class="inline-actions"><button class="btn gold" type="button" id="mkCard">make my card</button></div>
   <div class="cardimg" id="cardOut" hidden></div>`,
-  st:{mode:"you",show:"all"}, wire:()=>{ const i=document.getElementById("youDate"); i.onchange=()=>{ const [,m,d]=i.value.split("-").map(Number); if(m&&d){ state.you=doy(m,d); draw(); youOut(); simFill(); } }; document.getElementById("mkCard").onclick=makeCard; youOut(); } });
+  st:{mode:"you",show:"all"}, wire:()=>{ const i=document.getElementById("youDate"); i.onchange=()=>{ if(setYou(i.value)) simFill(); }; document.getElementById("mkCard").onclick=makeCard; youOut(); } });
 
 steps.push({ id:"how", title:"how we did it",
   html:`<h2 class="chalk">How we <i>did it</i></h2>
@@ -975,69 +1036,277 @@ function yourSign(s){ document.getElementById("ysName").textContent=s; const lis
   const top=list[0]; if(top){ state.pair=[SIGNS.indexOf(s),top.j]; state.mode=null; draw(); } }
 
 
-/* ---------- build your own team ---------- */
-const SIMLIST=F.filter(f=>f.ring!=="fallen").slice().sort((a,b)=>b.value-a.value);
-const BLEND={
- "Software & internet|Software & internet":["the operating system for everything you own","one app that replaces the other forty on your phone"],
- "Chips & hardware|Software & internet":["an AI computer that comes with its own cloud","a laptop that writes its own software"],
- "Money & finance|Software & internet":["a bank that lives inside the apps you already use","a stock market for small businesses"],
- "Health & biotech|Software & internet":["an app that runs a whole clinic","a doctor in your pocket that knows your history"],
- "Shops & consumer brands|Software & internet":["a store that restocks your home before you notice","a brand that designs products from what its customers type"],
- "Energy, cars & industry|Software & internet":["software that runs the power grid","a factory you can order from like a website"],
- "Chips & hardware|Chips & hardware":["a chip inside every object on Earth","a computer the size of a grain of rice"],
- "Chips & hardware|Money & finance":["a trading desk on a single chip","a payment card that is also a computer"],
- "Chips & hardware|Health & biotech":["a lab on a chip that reads a drop of blood","an implant that tracks your health for life"],
- "Chips & hardware|Shops & consumer brands":["a phone you can repair at the kitchen table","electronics sold like furniture, built to last decades"],
- "Chips & hardware|Energy, cars & industry":["batteries that think","a car built around its computer"],
- "Money & finance|Money & finance":["a bank for the next billion people","a fund that only invests in founders' first companies"],
- "Health & biotech|Money & finance":["insurance that pays you to stay well","a fund that bets on cures"],
- "Money & finance|Shops & consumer brands":["a store where every receipt is a share","a credit card that pays you in stock"],
- "Energy, cars & industry|Money & finance":["a fund that owns solar farms and pays out monthly","insurance for the climate"],
- "Health & biotech|Health & biotech":["a machine that searches for cures around the clock","a pharmacy that makes drugs to order"],
- "Health & biotech|Shops & consumer brands":["a pharmacy in every grocery store","vitamins designed from your DNA"],
- "Energy, cars & industry|Health & biotech":["clean air as a subscription","hospitals that run on their own power"],
- "Shops & consumer brands|Shops & consumer brands":["the everything store, again","a brand that never runs a sale"],
- "Energy, cars & industry|Shops & consumer brands":["an electric delivery fleet for every neighbourhood","a car you can buy at the supermarket"],
- "Energy, cars & industry|Energy, cars & industry":["a factory that builds factories","a railway that powers the towns it passes"],
-};
-let SIMV=0, SAMPLE=null;
+/* ---------- build your own team ----------
+   Pick two founders (or yourself and a founder). The page says what astrology calls them,
+   replays their company 100 times by borrowing the fates of real founding teams like theirs,
+   imagines the company they'd start, and makes a card to save. */
+const FACES=DATA.faces||{};
+const faceSrc=n=>(FACES[n]&&FACES[n].src)||PICS[n]||null;
+const SIMLIST=F.slice().sort((a,b)=>b.value-a.value);
+const REALCOS=new Set((DATA.companies||[]).map(c=>coName(c.name).toLowerCase()));
+const elKey=(a,b)=>[ELEMENT[a],ELEMENT[b]].sort().join("+");
+const jarOf=t=>t.ring==="fallen"?0:(t.value>=1e12?3:(t.value>=1e11?2:1));
+const JARS=[{l:"collapsed",s:"collapsed",c:"#dc4c3e"},{l:"$20B to $100B",s:"$20–100B",c:"#c3bcac"},{l:"$100B to $1T",s:"$100B–1T",c:"#e0ae4a"},{l:"$1T or more",s:"$1T+",c:"#f2cd7a"}];
+const RTEAMS=(XT.teams||[]).filter(t=>t.kind==="clash"||t.kind==="match").map(t=>{ const els=new Set(); for(let i=0;i<t.signs.length;i++) for(let j=i+1;j<t.signs.length;j++) els.add(elKey(t.signs[i],t.signs[j])); return Object.assign({},t,{els,jar:jarOf(t)}); });
+const ALLSL=(XT.clash&&XT.clash.slices&&XT.clash.slices[0])||{clash:0,match:0};
+const MEDAGE=(XT.ages&&XT.ages.median)||35, NOWY=2026;
+const SIM={a:null,b:null,v:0,run:0,req:0,ctl:null,timer:null,spin:null,skill:"",last:null,stats:null};
+let SAMPLE=null;
 const capFirst=t=>t.charAt(0).toUpperCase()+t.slice(1);
-function portmanteau(x,y){ const A=(x||"Nova").split(/\s/)[0].replace(/[^A-Za-z]/g,""), B=(y||"Labs").split(/\s/)[0].replace(/[^A-Za-z]/g,""); const head=t=>{ const m=t.match(/^[^aeiouy]*[aeiouy]+[^aeiouy]?/i); return m?m[0]:t.slice(0,3); }; const tail=t=>{ const m=t.match(/[aeiouy][^aeiouy]*[aeiouy]?[^aeiouy]*$/i); return m?m[0]:t.slice(-3); }; const n=(head(A)+tail(B)).toLowerCase(); return capFirst(n); }
-function simPerson(v){ if(v==="me"){ const s_=SIGNS[DOY_SIGN[state.you]]; return {me:true,name:"You",sign:s_,year:null,company:null,sector:null,f:null}; } const f=F[+v]; return {name:f.name,sign:f.sign,year:f.year,company:coName(f.companies[0].name),sector:f.sector,f}; }
-function templateIdea(a,b,v=0){ const sa=a.sector||b.sector||"Software & internet", sb=b.sector||a.sector||"Software & internet", opts=BLEND[[sa,sb].sort().join("|")]||["a company nobody has thought of yet"], what=opts[v%opts.length];
-  const yrs=[a.year,b.year].filter(Boolean), yr=yrs.length?Math.min(2026,Math.max(...yrs)+(XT.ages?XT.ages.median:35)):2026;
-  return {name:a.me?portmanteau(b.company,"You"):portmanteau(a.company,b.company), year:yr, pitch:`${capFirst(what)}. ${a.me?"You bring the fresh idea":`${short(a.name)} brings what built ${a.company}`}, and ${short(b.name)} brings what built ${b.company}.`}; }
-const ideaHTML=(d,by)=>`<div class="card2"><div><span class="iname">${esc(d.name)}</span> <span class="iyr">· founded ${esc(d.year)}, imagined</span></div><p style="margin:6px 0 0">${esc(d.pitch)}</p>${d.roles?`<p class="small" style="margin:4px 0 0">${esc(d.roles)}</p>`:""}<div class="by">${esc(by)}</div></div>`;
-function simFill(){ const A=document.getElementById("simA"), B=document.getElementById("simB"); if(!A) return; const ka=A.value, kb=B.value;
-  const opts=SIMLIST.map(f=>`<option value="${f.i}">${esc(f.name)} · ${GLYPH[f.sign]} ${f.sign} · ${esc(coName(f.companies[0].name))}</option>`).join("");
-  A.innerHTML=`<option value="me">You · ${GLYPH[SIGNS[DOY_SIGN[state.you]]]} ${SIGNS[DOY_SIGN[state.you]]} · born ${dayName(state.you)}</option>`+opts; B.innerHTML=opts;
-  A.value=ka||String((BYNAME.get("Steve Jobs")||SIMLIST[0]).i); B.value=kb||String((BYNAME.get("Jensen Huang")||SIMLIST[1]).i); }
-function simRender(){ const A=document.getElementById("simA"), B=document.getElementById("simB"); if(!A||!A.value) return; const a=simPerson(A.value), b=simPerson(B.value), out=document.getElementById("simOut");
-  if(!a.me && a.name===b.name){ out.innerHTML="Pick two different founders."; return; }
-  const m=compatible(a.sign,b.sign), pr=pairingOf(a.sign,b.sign), si=SIGNS.indexOf(a.sign), sj=SIGNS.indexOf(b.sign), real=(CELL[cellKey(si,sj)]||[]).slice().sort((x,y)=>Math.max(y.fa.value,y.fb.value)-Math.max(x.fa.value,x.fb.value));
-  const ex=[...new Set(real.map(p=>`${short(p.a)} and ${short(p.b)} (${coName(p.company)})`))].slice(0,2);
-  let ageLine=""; if(a.year&&b.year){ const gap=Math.abs(a.year-b.year), older=a.year<=b.year?a:b, younger=a.year<=b.year?b:a, yr=younger.year+XT.ages.median;
-    ageLine=`<li>${gap?`${esc(short(older.name))} is ${gap} years older.`:"They were born the same year."} ${yr<=2026?`Starting when ${esc(short(younger.name))} hit ${XT.ages.median}, the typical founding age, puts it in ${yr}, with ${esc(short(older.name))} at ${yr-older.year}.`:""}</li>`; }
-  out.innerHTML=`<div class="shead">${a.me?"You":esc(a.name)} ${GLYPH[a.sign]} + ${esc(b.name)} ${GLYPH[b.sign]}: <i>${m?"a match":"a clash"}</i></div><ul>
-    <li>${a.me?"You're":esc(short(a.name))+" is"} ${/^[AEIOU]/.test(a.sign)?"an":"a"} ${a.sign} (${ELEMENT[a.sign].toLowerCase()}), ${esc(short(b.name))} ${/^[AEIOU]/.test(b.sign)?"an":"a"} ${b.sign} (${ELEMENT[b.sign].toLowerCase()}), so astrology calls this ${m?"a match":"a clash"}.</li>
-    ${pr?`<li>Real ${pr.elements.map(e=>e.toLowerCase()).join(" + ")} founding teams built a typical <b>${money(pr.median)}</b> company: ${pr.n} companies, like ${pr.examples.slice(0,2).map(coName).map(esc).join(" and ")}.</li>`:""}
-    ${real.length?`<li>Real ${a.sign} + ${b.sign} cofounders built ${money(cellVal(si,sj))} in all, like ${ex.map(esc).join(" and ")}.</li>`:`<li>No real ${a.sign} + ${b.sign} cofounders in our list yet. You'd be the first.</li>`}
-    ${ageLine}</ul>`;
-  state.mode="wif"; state.wif=[a.f,b.f,{a:{sign:a.sign,name:a.me?"You":a.name},b:{sign:b.sign,name:b.name},match:m}]; if(state.lens!=="zodiac") setLens("zodiac"); draw();
-  SIMV=0; document.getElementById("simIdea").innerHTML=ideaHTML(templateIdea(a,b,0),"a quick idea from our idea machine, built from their industries"); }
-async function simAsk(){ const a=simPerson(document.getElementById("simA").value), b=simPerson(document.getElementById("simB").value), el=document.getElementById("simIdea"), btn=document.getElementById("simAsk");
-  if(!SAMPLE){ el.innerHTML=ideaHTML(templateIdea(a,b,++SIMV),"a quick idea from our idea machine"); return; }
-  const desc=p=>p.me?`the person reading this, born on ${dayName(state.you)} (a ${p.sign}), who has not founded anything famous yet`:`${p.name}, born ${p.year} (a ${p.sign}), best known for founding ${p.company} (${String(p.sector||"").toLowerCase()})`;
-  const prompt=`Invent one specific, believable company that these two people could have started together. Person A: ${desc(a)}. Person B: ${desc(b)}. Use what each one is known for. Make it fun but plausible. Give it an original name that is not a real company, a founding year when both were adults and alive (no later than 2026), a two-sentence pitch in plain everyday words, and one sentence on who does what. Reply with only JSON like {"name":"...","year":2007,"pitch":"...","roles":"..."}.`;
-  btn.disabled=true; el.innerHTML=`<div class="card2"><span class="iyr">Claude is dreaming up their company…</span></div>`;
-  try{ const r=await SAMPLE.json(prompt,{cache:false}); if(!r||!r.name) throw {code:"invalid_json"}; el.innerHTML=ideaHTML({name:String(r.name),year:String(r.year||""),pitch:String(r.pitch||""),roles:String(r.roles||"")},"invented by Claude, just for fun"); }
-  catch(e){ const off=e&&["not_granted","sampling_disabled","capability_disabled","not_declared","capability_removed"].includes(e.code); if(off) btn.hidden=true; el.innerHTML=ideaHTML(templateIdea(a,b,++SIMV), off?"Claude isn't switched on here, so here's our idea machine's take":"Claude couldn't answer just now, so here's our idea machine's take"); }
-  finally{ btn.disabled=false; } }
-function wireSim(){ simFill(); const A=document.getElementById("simA"), B=document.getElementById("simB"); A.onchange=simRender; B.onchange=simRender;
-  document.getElementById("simAsk").onclick=simAsk; document.getElementById("simAgain").onclick=()=>{ const a=simPerson(A.value), b=simPerson(B.value); document.getElementById("simIdea").innerHTML=ideaHTML(templateIdea(a,b,++SIMV),"a quick idea from our idea machine"); };
+const norm=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+const hashStr=s=>{ let h=2166136261; for(const ch of String(s)){ h^=ch.codePointAt(0); h=Math.imul(h,16777619); } return h>>>0; };
+const an=w=>/^[AEIOU]/i.test(w)?"an":"a";
+const times=n=>n===1?"once":(n===2?"twice":n+" times");
+const listOf=a=>a.length<2?a.join(""):a.slice(0,-1).join(", ")+" and "+a[a.length-1];
+const clip=(t,n)=>{ t=String(t==null?"":t).replace(/\s+/g," ").trim(); return t.length>n?t.slice(0,n-1).replace(/\s\S*$/,"")+"…":t; };
+function dieSVG(){ return `<svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><path d="M3.5,4 Q3,3 4.2,2.8 L15.6,3.2 Q17,3.3 16.9,4.6 L16.6,15.8 Q16.5,17 15.3,16.9 L4.3,16.6 Q3,16.5 3.1,15.2 Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7" cy="7" r="1.5" fill="currentColor"/><circle cx="10" cy="10.2" r="1.5" fill="currentColor"/><circle cx="13.1" cy="13.2" r="1.5" fill="currentColor"/></svg>`; }   // a function: the step markup is built before this block runs
+SIMLIST.forEach(f=>{ f.hay=norm([f.name,f.companies.map(c=>coName(c.name)).join(" "),f.sign].join(" ")); });
+
+function simPerson(k){
+  if(k==="me"){ const s=SIGNS[DOY_SIGN[state.you]]; return {me:true,key:"me",name:"You",nm:"You",sh:"you",sign:s,year:state.youYear||null,died:null,company:null,sector:null,value:0,f:null}; }
+  const f=k==null?null:F[+k]; if(!f) return null; const c=f.companies[0]||{};
+  return {key:String(f.i),name:f.name,nm:cleanName(f.name),sh:short(f.name),sign:f.sign,year:f.year,died:f.died||null,company:coName(c.name||""),sector:c.sector||null,value:c.value||0,founded:c.founded||null,fallen:c.ring==="fallen",f};
+}
+const medal=(sign,cls="")=>`<span class="medal ${cls}" aria-hidden="true">${GLYPH[sign]||"?"}</span>`;
+const faceHTML=(p,cls="")=>{ const src=p.me?null:faceSrc(p.name); return src?`<img class="face ${cls}" src="${src}" alt="">`:medal(p.sign,cls+(p.me?" me":"")); };
+function realCo(a,b){ if(!a.f||!b.f) return null; const mine=new Set(b.f.companies.map(c=>c.name)); return a.f.companies.filter(c=>mine.has(c.name)).sort((x,y)=>y.value-x.value)[0]||null; }
+
+/* the picker: two slots, each a search box with a list of founders */
+function simSearch(q,other){ q=norm(q).trim(); const words=q.split(/\s+/).filter(Boolean);
+  const meOK=other!=="me" && (!q || "you me myself".split(" ").some(w=>w.startsWith(q)));
+  const hits=(words.length?SIMLIST.map(f=>{ if(!words.every(w=>f.hay.includes(w))) return null; const nm=norm(f.name); let s=0; if(nm.startsWith(q)) s+=4; if(nm.split(" ").some(p=>p.startsWith(words[0]))) s+=2; if(norm(f.companies[0].name).startsWith(q)) s+=2; return {f,s}; }).filter(Boolean).sort((a,b)=>b.s-a.s||b.f.value-a.f.value).map(x=>x.f):SIMLIST).filter(f=>String(f.i)!==other).slice(0,40);
+  return (meOK?["me"]:[]).concat(hits.map(f=>String(f.i))); }
+function optHTML(k,i,side){ const p=simPerson(k); if(!p) return "";
+  const sub=p.me?(state.youSet?`${GLYPH[p.sign]} ${p.sign} · born ${dayName(state.you)}`:"add your own birthday"):`${GLYPH[p.sign]} ${p.sign} · ${esc(p.company)}${p.fallen?" (collapsed)":""}`;
+  return `<li role="option" id="simO${side}${i}" data-k="${p.key}" aria-selected="false">${faceHTML(p,"mini")}<span class="ot"><span class="onm">${esc(p.nm)}</span><span class="osub">${sub}</span></span></li>`; }
+function slotHTML(S){ const n=S==="A"?"first":"second";
+  return `<div class="slot" id="slot${S}"><div class="sface" id="simFace${S}"></div><div class="swho" id="simWho${S}"></div>
+  <div class="spick"><input id="simQ${S}" class="sq" type="text" role="combobox" aria-expanded="false" aria-controls="simL${S}" aria-autocomplete="list" autocomplete="off" spellcheck="false" placeholder="find a founder" aria-label="${n} founder: type a name, company or sign"><button class="die" type="button" id="simDie${S}" aria-label="pick a random ${n} founder" title="random founder">${dieSVG()}</button></div>
+  <ul class="slist" id="simL${S}" role="listbox" aria-label="${n} founder" hidden></ul>
+  <div class="sme" id="simMe${S}" hidden><label>your birthday<input type="date" id="simDate${S}" min="1920-01-01" max="2026-12-31"></label><label>what you're best at<input type="text" id="simSkill${S}" maxlength="40" placeholder="design, selling, code…"></label></div></div>`; }
+function slotPaint(S,p){ const fe=document.getElementById("simFace"+S), we=document.getElementById("simWho"+S), me=document.getElementById("simMe"+S); if(!fe) return;
+  if(!p){ fe.innerHTML=medal("Aries"); we.innerHTML=""; me.hidden=true; return; }
+  fe.innerHTML=faceHTML(p);
+  we.innerHTML=p.me?`<b>You</b><span>${state.youSet?`${GLYPH[p.sign]} ${p.sign} · born ${dayName(state.you)}${state.youYear?", "+state.youYear:""}`:"add your birthday below"}</span>`
+    :`<b>${esc(p.nm)}</b><span>${GLYPH[p.sign]} ${p.sign} · born ${p.year}</span><span>${esc(p.company)}${p.fallen?" (collapsed)":""}</span>`;
+  me.hidden=!p.me;
+  if(p.me){ const d=document.getElementById("simDate"+S), k=document.getElementById("simSkill"+S); if(state.youSet&&!d.value){ const m=DOY_MONTH[state.you]; d.value=`${state.youYear||2000}-${String(m+1).padStart(2,"0")}-${String(state.you-CUM[m]+1).padStart(2,"0")}`; } if(k.value!==SIM.skill) k.value=SIM.skill; } }
+function comboWire(S){ const q=document.getElementById("simQ"+S), L=document.getElementById("simL"+S); let act=-1, keys=[];
+  const other=()=>S==="A"?SIM.b:SIM.a;
+  const open=()=>{ keys=simSearch(q.value,other()); act=keys.length?0:-1; L.innerHTML=keys.length?keys.map((k,i)=>optHTML(k,i,S)).join(""):`<li class="none" role="presentation">No founder by that name. Try a company, like "Apple", or a sign.</li>`; L.hidden=false; q.setAttribute("aria-expanded","true"); mark(); };
+  const close=()=>{ L.hidden=true; q.setAttribute("aria-expanded","false"); q.removeAttribute("aria-activedescendant"); };
+  const mark=()=>{ [...L.querySelectorAll("[role=option]")].forEach((li,i)=>{ li.setAttribute("aria-selected",i===act?"true":"false"); if(i===act){ q.setAttribute("aria-activedescendant",li.id); li.scrollIntoView({block:"nearest"}); } }); };
+  const choose=k=>{ if(k==null) return; SIM[S==="A"?"a":"b"]=k; q.value=""; close(); simUpdate(); if(k==="me"&&!state.youSet){ const d=document.getElementById("simDate"+S); if(d) setTimeout(()=>d.focus(),30); } };
+  q.addEventListener("focus",open); q.addEventListener("input",open);
+  q.addEventListener("keydown",e=>{ if(e.key==="ArrowDown"){ e.preventDefault(); if(L.hidden) open(); else { act=Math.min(keys.length-1,act+1); mark(); } }
+    else if(e.key==="ArrowUp"){ e.preventDefault(); act=Math.max(0,act-1); mark(); }
+    else if(e.key==="Enter"){ if(!L.hidden&&act>=0){ e.preventDefault(); choose(keys[act]); } }
+    else if(e.key==="Escape"){ close(); } });
+  q.addEventListener("blur",()=>setTimeout(close,120));
+  L.addEventListener("pointerdown",e=>{ const li=e.target.closest("[role=option]"); if(li){ e.preventDefault(); choose(li.dataset.k); } });
+  document.getElementById("simDie"+S).onclick=()=>{ SIM[S==="A"?"a":"b"]=randomKey(other()); simUpdate(); };
+  const d=document.getElementById("simDate"+S), sk=document.getElementById("simSkill"+S);
+  d.addEventListener("change",()=>{ if(setYou(d.value)) simUpdate(); });
+  sk.addEventListener("input",()=>{ SIM.skill=clip(sk.value,40); clearTimeout(sk._t); sk._t=setTimeout(()=>{ SIM.v=0; simIdea(); },350); }); }
+function setYou(v){ const [y,m,d]=String(v||"").split("-").map(Number); if(!(m>=1&&m<=12&&d>=1&&d<=31)) return false;
+  state.you=doy(m,d); state.youYear=(y>=1900&&y<=NOWY)?y:null; state.youSet=true;
+  const yd=document.getElementById("youDate"); if(yd&&yd.value!==v) yd.value=v; try{ youOut(); }catch(e){}
+  draw(); return true; }
+const famousPool=()=>SIMLIST.filter(f=>FACES[f.name]);
+function randomKey(other,r=Math.random){ const pool=r()<0.75&&famousPool().length>12?famousPool():SIMLIST; let k; do { k=String(pool[Math.floor(r()*pool.length)].i); } while(k===other); return k; }
+
+/* what astrology says, in plain words */
+function elPhrase(a,b){ const x=ELEMENT[a].toLowerCase(), y=ELEMENT[b].toLowerCase(); if(x===y) return `Both are ${x} signs`;
+  return ({"air+fire":"Fire and air feed each other","earth+water":"Earth and water get along","fire+water":"Fire and water don't mix","earth+fire":"Fire and earth don't mix","air+water":"Air and water don't mix","air+earth":"Air and earth don't mix"})[[x,y].sort().join("+")]; }
+function verdictHTML(a,b,m,rc){ const who=p=>p.me?"You're":`<b>${esc(p.sh)}</b> is`, them=(a.me||b.me)?"you two":"them";
+  const s1=`${who(a)} ${an(a.sign)} ${a.sign}, ${an(ELEMENT[a.sign])} ${ELEMENT[a.sign].toLowerCase()} sign. ${who(b)} ${an(b.sign)} ${b.sign}, ${an(ELEMENT[b.sign])} ${ELEMENT[b.sign].toLowerCase()} sign. ${elPhrase(a.sign,b.sign)}, so astrology calls ${them} <b>${m?"a match":"a clash"}</b>.`;
+  const s2=m?`Astrology approves. The data doesn't: matched founding teams built a typical <b>${money(ALLSL.match)}</b> company, and clashing teams <b>${money(ALLSL.clash)}</b>.`
+           :`Good news: clashing founding teams built a typical <b>${money(ALLSL.clash)}</b> company. Matched teams built <b>${money(ALLSL.match)}</b>.`;
+  const s3=rc?`<p class="real">And they really did team up: <b>${esc(coName(rc.name))}</b>, founded in ${rc.founded}${rc.ring==="fallen"?", which later collapsed":`, worth ${money(rc.value)} today`}.</p>`:"";
+  return `<div class="vstamp ${m?"match":"clash"}" id="simStamp">${m?"a match":"a clash"}</div><div class="vtxt"><p>${s1}</p><p class="twist">${s2}</p>${s3}</div>`; }
+
+/* the replay: 100 futures, each borrowed from a real founding team like theirs */
+function simPool(kind,a,b,yr,skip){ const el=elKey(a.sign,b.sign), secs=new Set([a.sector,b.sector].filter(Boolean)), gap=(a.year&&b.year)?Math.abs(a.year-b.year):null;
+  return RTEAMS.filter(t=>t.kind===kind&&t.company!==skip).map(t=>{ let w=1; if(secs.has(t.sector)) w*=2.5; if(t.els.has(el)) w*=2; if(gap!=null) w*=Math.exp(-Math.abs(t.gap-gap)/10); if(yr) w*=Math.exp(-Math.abs(t.year-yr)/30); return {t,w}; }); }
+function simDraw(pool,n,seed){ const r=rng(seed), tot=pool.reduce((s,x)=>s+x.w,0), out=[]; if(!pool.length||!(tot>0)) return out;
+  for(let i=0;i<n;i++){ let u=r()*tot, k=0; for(;k<pool.length-1;k++){ u-=pool[k].w; if(u<=0) break; } out.push(pool[k].t); } return out; }
+function simStats(d){ const jars=[0,0,0,0], by={}; d.forEach(t=>{ jars[t.jar]++; by[t.company]=(by[t.company]||0)+1; }); const v=d.map(t=>t.jar===0?0:t.value).sort((x,y)=>x-y);
+  return {jars, median:v.length?(v[(v.length-1)>>1]+v[v.length>>1])/2:0, top:Object.entries(by).sort((x,y)=>y[1]-x[1]).slice(0,3).map(x=>coName(x[0]))}; }
+function jarLayout(){ const box=document.getElementById("simJars"), w=box?box.clientWidth:600;
+  return w&&w<480 ? {VW:360,JW:80,GAP:8,X0:4,COLS:7,SP:10.4,R:3.7,JY:46,JH:162,FS:15,short:true} : {VW:600,JW:124,GAP:24,X0:14,COLS:10,SP:11.2,R:4.4,JY:46,JH:146,FS:16,short:false}; }
+function jarPath(x,y,w,h,seed){ const r=rng(seed), P=(v,a)=>(v+(r()-.5)*a).toFixed(1);
+  return `M${P(x-7,2)},${P(y,2)} Q${P(x+1,1)},${P(y+3,1)} ${P(x,2)},${P(y+14,1)} L${P(x,2)},${P(y+h-18,1)} Q${P(x,1)},${P(y+h,1)} ${P(x+18,1)},${P(y+h,1.5)} L${P(x+w-18,1)},${P(y+h,1.5)} Q${P(x+w,1)},${P(y+h,1)} ${P(x+w,2)},${P(y+h-18,1)} L${P(x+w,2)},${P(y+14,1)} Q${P(x+w-1,1)},${P(y+3,1)} ${P(x+w+7,2)},${P(y,2)}`; }
+function dotXY(L,j,n){ const x=L.X0+j*(L.JW+L.GAP), col=n%L.COLS, row=Math.floor(n/L.COLS); return [x+(L.JW-(L.COLS-1)*L.SP)/2+col*L.SP, L.JY+L.JH-L.R-4-row*L.SP]; }
+function replayRun(a,b,rc,animate){ const box=document.getElementById("simJars"), sum=document.getElementById("simSum"), swp=document.getElementById("simSwap"); if(!box) return;
+  clearInterval(SIM.timer); const m=compatible(a.sign,b.sign), fy=foundYear(a,b), kind=m?"match":"clash", skip=rc?rc.name:null, seed=hashStr(a.key+"|"+b.key)+SIM.run*7919;
+  const draws=simDraw(simPool(kind,a,b,fy.y,skip),100,seed), st=simStats(draws), alt=simStats(simDraw(simPool(m?"clash":"match",a,b,fy.y,skip),100,seed));
+  SIM.stats=st; const L=jarLayout(), H=L.JY+L.JH+(rc?62:40);
+  let s=`<svg viewBox="0 0 ${L.VW} ${H}" role="img" aria-label="100 replays sorted into four jars by how big the company got"><g filter="url(#chalk)">`;
+  JARS.forEach((J,j)=>{ const x=L.X0+j*(L.JW+L.GAP); s+=`<path d="${jarPath(x,L.JY,L.JW,L.JH,31+j)}" fill="none" stroke="#f1ebdd" stroke-width="2" stroke-linecap="round"/><path d="${jarPath(x+1,L.JY+1,L.JW-2,L.JH-1,71+j)}" fill="none" stroke="#f1ebdd" stroke-width=".9" opacity=".45"/>`;
+    s+=`<text x="${x+L.JW/2}" y="${L.JY+L.JH+22}" text-anchor="middle" fill="${j===0?"#ff8a7c":(j===1?"#c3bcac":"#f2cd7a")}" font-size="${L.FS}" font-family="Kalam, cursive">${L.short?J.s:J.l}</text>`; });
+  s+=`</g>`; JARS.forEach((J,j)=>{ const x=L.X0+j*(L.JW+L.GAP); s+=`<text class="jn" id="simN${j}" x="${x+L.JW/2}" y="${L.JY-12}" text-anchor="middle" fill="#f1ebdd" font-size="26" font-family="'IM Fell English', Georgia, serif">0</text>`; });
+  if(rc){ const j=jarOf({ring:rc.ring,value:rc.value}), x=L.X0+j*(L.JW+L.GAP)+L.JW/2; s+=`<text x="${x}" y="${L.JY+L.JH+46}" text-anchor="middle" fill="#ff8a7c" font-size="${L.FS}" font-family="Kalam, cursive">↑ ${esc(coName(rc.name))} really landed here</text>`; }
+  s+=`<g id="simDots"></g></svg>`; box.innerHTML=s;
+  const g=box.querySelector("#simDots"), counts=[0,0,0,0], slots=draws.map(t=>{ const n=counts[t.jar]++; return dotXY(L,t.jar,n); }), shown=[0,0,0,0];
+  const ns=[0,1,2,3].map(j=>box.querySelector("#simN"+j));
+  const dot=(t,i,y)=>{ const [x]=slots[i], c=JARS[t.jar].c; const el=document.createElementNS("http://www.w3.org/2000/svg","circle"); el.setAttribute("cx",x.toFixed(1)); el.setAttribute("cy",y.toFixed(1)); el.setAttribute("r",L.R); el.setAttribute("fill",c); if(t.jar===3){ el.setAttribute("stroke","#fff6ea"); el.setAttribute("stroke-width","1"); } const ti=document.createElementNS("http://www.w3.org/2000/svg","title"); ti.textContent=`a replay borrowed from ${coName(t.company)}: ${t.ring==="fallen"?"collapsed":money(t.value)}`; el.appendChild(ti); g.appendChild(el); return el; };
+  const finish=()=>{ ns.forEach((n,j)=>n.textContent=st.jars[j]);
+    const who=(a.me||b.me)?"you":"they", tril=st.jars[3], col=st.jars[0];
+    sum.innerHTML=`In 100 replays, ${who} ${tril?`built a trillion-dollar company <b>${times(tril)}</b>`:"never built a trillion-dollar company"}${col?` and collapsed <b>${times(col)}</b>`:", and never collapsed"}. The typical replay: a <b>${money(st.median)}</b> company.${st.top.length?` Most replays borrowed from ${esc(listOf(st.top))}.`:""}`;
+    swp.innerHTML=`If astrology called ${(a.me||b.me)?"you two":"them"} ${m?"a clash":"a match"} instead, the typical replay would be <b>${money(alt.median)}</b>, with ${alt.jars[3]?`<b>${alt.jars[3]}</b> trillion-dollar ${alt.jars[3]===1?"company":"companies"}`:"no trillion-dollar companies"}.`; };
+  sum.textContent=""; swp.textContent="";
+  if(!animate||REDUCED){ draws.forEach((t,i)=>dot(t,i,slots[i][1])); finish(); return; }
+  const t0=performance.now(), EVERY=24, FALL=300, live=[]; let next=0;
+  SIM.timer=setInterval(()=>{ const now=performance.now()-t0;
+    while(next<draws.length&&next*EVERY<=now){ live.push({i:next,el:dot(draws[next],next,L.JY-20),t:next*EVERY}); next++; }
+    for(let k=live.length-1;k>=0;k--){ const d=live[k], p=Math.min(1,(now-d.t)/FALL), y0=L.JY-20, y1=slots[d.i][1]; d.el.setAttribute("cy",(y0+(y1-y0)*p*p).toFixed(1)); if(p>=1){ const j=draws[d.i].jar; ns[j].textContent=++shown[j]; live.splice(k,1); } }
+    if(next>=draws.length&&!live.length){ clearInterval(SIM.timer); finish(); } },16); }
+
+/* the imagined company */
+const BLEND={
+ "Software & internet|Software & internet":["the operating system for everything you own","one app that replaces the other forty on your phone","a search engine for the things you lose at home","a social network where you can only post once a day","an AI that writes, tests and ships its own apps"],
+ "Chips & hardware|Software & internet":["an AI computer that comes with its own cloud","a laptop that writes its own software","glasses that put subtitles on the world","a home robot that learns chores by watching you","a phone with no apps, just an assistant"],
+ "Money & finance|Software & internet":["a bank that lives inside the apps you already use","a stock market for small businesses","an app that does your taxes while you sleep","payroll for the whole internet's freelancers","a credit score built from how you actually live"],
+ "Health & biotech|Software & internet":["an app that runs a whole clinic","a doctor in your pocket that knows your history","a search engine for clinical trials","a fitness app your insurer pays you to use","medical records you actually own"],
+ "Shops & consumer brands|Software & internet":["a store that restocks your home before you notice","a brand that designs products from what its customers type","a marketplace for things your neighbours lend","a shop where the price drops as more people join","a wardrobe app that buys back your old clothes"],
+ "Energy, cars & industry|Software & internet":["software that runs the power grid","a factory you can order from like a website","an app that books freight like a taxi","a carbon meter for every company on Earth","self-driving trucks run from one control room"],
+ "Chips & hardware|Chips & hardware":["a chip inside every object on Earth","a computer the size of a grain of rice","a camera chip that sees in the dark","a supercomputer you can rent by the minute","a phone that lasts a week on one charge"],
+ "Chips & hardware|Money & finance":["a trading desk on a single chip","a payment card that is also a computer","a cash register that runs the whole shop","a vault for digital money, made of hardware","an ATM that fits in a shop's till"],
+ "Chips & hardware|Health & biotech":["a lab on a chip that reads a drop of blood","an implant that tracks your health for life","a hearing aid that translates languages","a smart pill that reports from inside you","a scanner that spots disease in a selfie"],
+ "Chips & hardware|Shops & consumer brands":["a phone you can repair at the kitchen table","electronics sold like furniture, built to last decades","a fridge that does the shopping","headphones designed by fashion houses","a game console sold in supermarkets"],
+ "Chips & hardware|Energy, cars & industry":["batteries that think","a car built around its computer","solar panels with a chip in every cell","robots that build robots","a home battery that sells power back to the grid"],
+ "Money & finance|Money & finance":["a bank for the next billion people","a fund that only invests in founders' first companies","a stock exchange that never closes","a pension fund run by its members","a credit card with no fees, ever"],
+ "Health & biotech|Money & finance":["insurance that pays you to stay well","a fund that bets on cures","a savings account for medical bills","a stock exchange for new medicines","a bank for hospitals"],
+ "Money & finance|Shops & consumer brands":["a store where every receipt is a share","a credit card that pays you in stock","layaway for the internet age","a loyalty card that works in every shop","a pawn shop with a trading app"],
+ "Energy, cars & industry|Money & finance":["a fund that owns solar farms and pays out monthly","insurance for the climate","car loans that shrink as you drive less","a bank that only lends to factories","an exchange for clean electricity"],
+ "Health & biotech|Health & biotech":["a machine that searches for cures around the clock","a pharmacy that makes drugs to order","a vaccine that ships by post","a lab that grows new organs","a blood test for a thousand diseases at once"],
+ "Health & biotech|Shops & consumer brands":["a pharmacy in every grocery store","vitamins designed from your DNA","a sports drink designed by doctors","glasses for a dollar, sold everywhere","a skincare brand built in a lab"],
+ "Energy, cars & industry|Health & biotech":["clean air as a subscription","hospitals that run on their own power","ambulance drones","a factory that makes medicine anywhere on Earth","a water filter for every home on Earth"],
+ "Shops & consumer brands|Shops & consumer brands":["the everything store, again","a brand that never runs a sale","a supermarket with no checkout","a sneaker you design yourself","a chain of shops that rents everything"],
+ "Energy, cars & industry|Shops & consumer brands":["an electric delivery fleet for every neighbourhood","a car you can buy at the supermarket","a charging station that's really a great café","furniture from a factory that runs on sunshine","a bike shop on every corner, all electric"],
+ "Energy, cars & industry|Energy, cars & industry":["a factory that builds factories","a railway that powers the towns it passes","a rocket that lands at the airport","an electric plane for short hops","a mine on the Moon"],
+};
+const ELWORD={"Fire+Fire":["Bonfire","Blaze","Wildfire"],"Earth+Fire":["Forge","Kiln","Magma"],"Air+Fire":["Bellows","Comet","Spark"],"Fire+Water":["Steam","Geyser","Hot Spring"],"Earth+Earth":["Bedrock","Granite","Keystone"],
+  "Air+Earth":["Summit","Mesa","Highland"],"Earth+Water":["Delta","Harbor","Riverbed"],"Air+Air":["Jetstream","Zephyr","Tailwind"],"Air+Water":["Monsoon","Mist","Tidewind"],"Water+Water":["Undertow","Deep Current","Riptide"]};
+const SUFFIX={"Software & internet":["Labs","Software",".ai"],"Chips & hardware":["Semiconductor","Devices","Computer"],"Money & finance":["Capital","Bank","Partners"],"Health & biotech":["Bio","Therapeutics","Health"],"Shops & consumer brands":["& Co.","Goods","Market"],"Energy, cars & industry":["Motors","Energy","Industries"]};
+const ROLE={"Software & internet":"the software","Chips & hardware":"the hardware","Money & finance":"the money","Health & biotech":"the science","Shops & consumer brands":"the brand and the stores","Energy, cars & industry":"the factories"};
+function portmanteau(x,y){ const A=(x||"Nova").split(/\s/)[0].replace(/[^A-Za-z]/g,"")||"Nova", B=(y||"Labs").split(/\s/)[0].replace(/[^A-Za-z]/g,"")||"Labs"; const head=t=>{ const m=t.match(/^[^aeiouy]*[aeiouy]+[^aeiouy]?/i); return m?m[0]:t.slice(0,3); }; const tail=t=>{ const m=t.match(/[aeiouy][^aeiouy]*[aeiouy]?[^aeiouy]*$/i); return m?m[0]:t.slice(-3); }; return capFirst((head(A)+tail(B)).toLowerCase()); }
+const joinName=(w,s)=>/^[.]/.test(s)?w.replace(/\s/g,"")+s:`${w} ${s}`;
+function simName(a,b,v,sec){ const words=ELWORD[elKey(a.sign,b.sign)]||["Northstar"], suf=SUFFIX[sec]||SUFFIX["Software & internet"], k=Math.floor(v/3);
+  const ini=p=>p.me?"Y":(p.sh.replace(/[^A-Za-z]/g,"")[0]||"N").toUpperCase(), o=a.me?b:a;
+  const c=[joinName(words[k%words.length],suf[k%suf.length]), (a.me||b.me)?`${o.sh} & You`:(a.company===b.company?joinName(words[(k+1)%words.length],suf[(k+2)%suf.length]):portmanteau(a.company,b.company)), `${ini(a)}&${ini(b)} ${suf[(k+1)%suf.length].replace(/^[.&]\S*\s*/,"")||"Works"}`];
+  return [c[v%3],...c,"Northstar Labs"].find(n=>n&&n.replace(/[^A-Za-z]/g,"").length>2&&!REALCOS.has(n.toLowerCase())); }
+function simRoles(a,b,v){ if(a.me||b.me){ const o=a.me?b:a; return `You bring ${SIM.skill||"the new idea"}. ${o.sh} brings what built ${o.company}.`; }
+  const ra=ROLE[a.sector], rb=ROLE[b.sector]; if(ra&&rb&&ra!==rb) return `${a.sh} runs ${ra}. ${b.sh} runs ${rb}.`;
+  const p=[["the product","the business"],["the vision","the details"],["the inventing","the selling"]][v%3]; return `${a.sh} runs ${p[0]}. ${b.sh} runs ${p[1]}.`; }
+function foundYear(a,b){
+  if(a.me||b.me){ const o=a.me?b:a, me=a.me?a:b, y=NOWY+1;
+    if(o.died) return {time:true,why:`${o.sh} died in ${o.died}`};
+    if(y-o.year>90) return {time:true,why:`${o.sh} would be ${y-o.year}`};
+    return {y,note:`next year, with ${o.sh} at ${y-o.year}${me.year?` and you at ${y-me.year}`:""}`}; }
+  const young=a.year>=b.year?a:b, old=young===a?b:a, end=Math.min(NOWY,a.died||9999,b.died||9999);
+  let y=Math.max(young.year+MEDAGE,old.year+22); if(y>end) y=Math.max(young.year+20,old.year+20);
+  if(y>end||y-old.year>75) return {time:true,why:old.died&&old.died<young.year+20?(old.died<=young.year?`${old.sh} died in ${old.died}, before ${young.sh} was born`:`${old.sh} died in ${old.died}, when ${young.sh} was ${old.died-young.year}`):`${old.sh} was born ${young.year-old.year} years before ${young.sh}`};
+  return {y,note:young.year===old.year?`when both were ${y-young.year}`:`when ${young.sh} was ${y-young.year} and ${old.sh} ${y-old.year}`}; }
+function ideaOf(a,b,v){ const sa=a.sector||b.sector||"Software & internet", sb=b.sector||a.sector||"Software & internet", opts=BLEND[[sa,sb].sort().join("|")]||BLEND["Software & internet|Software & internet"], fy=foundYear(a,b), sec=[sa,sb][v%2];
+  const rc=realCo(a,b);
+  return {real:rc?coName(rc.name):null, name:simName(a,b,v,sec), pitch:capFirst(opts[v%opts.length])+".", roles:simRoles(a,b,v), when:fy.time?`founded with a time machine · ${fy.why}`:`founded ${fy.y}, imagined · ${fy.note}`, sa:a.sign, sb:b.sign, by:"from our idea machine"}; }
+function logoPaths(name){ const h=hashStr(name), shape=h%4;
+  const R=th=>shape===0?36:shape===1?36*1.18/(Math.abs(Math.cos(th))+Math.abs(Math.sin(th))):shape===2?36*Math.cos(Math.PI/6)/Math.cos((((th%(Math.PI/3))+Math.PI/3)%(Math.PI/3))-Math.PI/6):33/Math.pow(Math.pow(Math.abs(Math.cos(th)),4)+Math.pow(Math.abs(Math.sin(th)),4),.25);
+  const ring=(sd,sc)=>{ const r=rng(sd); let d=""; for(let i=0;i<=48;i++){ const th=i/48*TAU-Math.PI/2, k=R(th)*sc+(r()-.5)*1.8; d+=(i?"L":"M")+(50+Math.cos(th)*k).toFixed(1)+","+(50+Math.sin(th)*k).toFixed(1); } return d; };
+  return {outer:ring(h+1,1), inner:ring(h+2,.86), letter:((String(name).match(/[A-Za-z0-9]/)||["N"])[0]).toUpperCase()}; }
+function logoSVG(name,sa,sb){ const L=logoPaths(name);
+  return `<svg viewBox="0 0 100 100" aria-hidden="true"><path d="${L.outer}" fill="none" stroke="#a7302a" stroke-width="2.6" stroke-linejoin="round"/><path d="${L.inner}" fill="none" stroke="#a7302a" stroke-width="1" opacity=".7"/><text x="50" y="64" text-anchor="middle" font-family="'IM Fell English', Georgia, serif" font-size="42" fill="#1d1b28">${esc(L.letter)}</text><text x="50" y="27" text-anchor="middle" font-size="11" fill="#8a6418">${GLYPH[sa]||""} ${GLYPH[sb]||""}</text></svg>`; }
+const corpHTML=d=>`<div class="corp"><div class="logo">${logoSVG(d.name,d.sa,d.sb)}</div><div class="cbody"><div class="ckick">${d.real?`their next company after ${esc(d.real)}, imagined`:"an imagined company"}</div><div class="cname">${esc(d.name)}</div><div class="cyr">${esc(d.when)}</div><p class="cpitch">${esc(d.pitch)}</p>${d.roles?`<p class="croles">${esc(d.roles)}</p>`:""}<div class="cby">${esc(d.by)}</div></div></div>`;
+function simIdea(note){ const a=simPerson(SIM.a), b=simPerson(SIM.b), el=document.getElementById("simIdea"); if(!a||!b||!el||a.key===b.key) return;
+  SIM.req++; if(SIM.ctl){ try{ SIM.ctl.abort(); }catch(e){} SIM.ctl=null; }
+  const d=ideaOf(a,b,SIM.v); if(note) d.by=note; SIM.last=Object.assign({a,b},d); el.innerHTML=corpHTML(d); el.classList.remove("busy");
+  const ask=document.getElementById("simAsk"); if(ask) ask.disabled=false; }
+const ASKING=["Claude is reading up on them…","Claude is naming the company…","Claude is sketching the pitch…","Claude is deciding who does what…"];
+async function simAsk(){ const a=simPerson(SIM.a), b=simPerson(SIM.b), el=document.getElementById("simIdea"), btn=document.getElementById("simAsk"); if(!a||!b||a.key===b.key) return;
+  if(!SAMPLE){ SIM.v++; simIdea(); return; }
+  if(SIM.ctl){ try{ SIM.ctl.abort(); }catch(e){} }
+  const my=++SIM.req, ctl=new AbortController(); SIM.ctl=ctl; const fy=foundYear(a,b), m=compatible(a.sign,b.sign);
+  const desc=p=>p.me?`the person reading this, ${an(p.sign)} ${p.sign}${p.year?` born in ${p.year}`:""}, who hasn't founded anything famous yet${SIM.skill?` and says they're best at ${SIM.skill}`:""}`:`${p.nm} (born ${p.year}${p.died?`, died ${p.died}`:""}, ${an(p.sign)} ${p.sign}), best known for founding ${p.company}${p.sector?` (${p.sector.toLowerCase()})`:""}`;
+  const rc=realCo(a,b), prompt=`Invent one specific, believable company that two people could have started together. Person A: ${desc(a)}. Person B: ${desc(b)}. Astrology calls them ${m?"a match":"a clash"}. ${rc?`They really did found ${coName(rc.name)} together in ${rc.founded}, so invent the next company they could start together, not that one. `:""}${fy.time?`They could never have worked together (${fy.why}), so make it a playful time-machine company.`:`It is founded in ${fy.y}${a.me||b.me?"":`, ${fy.note}`}.`} Use what each one is really known for. Make it fun but plausible, in plain everyday words. Give it an original name that is not a real company, at most three words; a pitch of one or two short sentences; and one sentence on who does what. Reply with only JSON like {"name":"...","pitch":"...","roles":"..."}.`;
+  btn.disabled=true; el.classList.add("busy"); let tick=0, timedOut=false, cool=false;
+  const quit2=setTimeout(()=>{ timedOut=true; ctl.abort(); },45000);
+  const ticker=setInterval(()=>{ const c=el.querySelector(".cby"); if(c) c.textContent=ASKING[++tick%ASKING.length]; },1400); const c0=el.querySelector(".cby"); if(c0) c0.textContent=ASKING[0];
+  try{ const r=await SAMPLE.json(prompt,{cache:false,signal:ctl.signal}); if(my!==SIM.req) return;
+    const name=clip(r&&r.name,42), pitch=clip(r&&r.pitch,320), roles=clip(r&&r.roles,240); if(!name||!pitch) throw {code:"invalid_json"};
+    const d=Object.assign(ideaOf(a,b,SIM.v),{name,pitch,roles,by:"invented by Claude, just for fun"}); SIM.last=Object.assign({a,b},d); el.innerHTML=corpHTML(d); }
+  catch(e){ if(my!==SIM.req) return; const code=e&&e.code;
+    if(["not_granted","sampling_disabled","not_declared","capability_disabled","capability_removed"].includes(code)){ SAMPLE=null; btn.hidden=true; SIM.v++; simIdea("Claude isn't switched on here, so this one is from our idea machine"); return; }
+    SIM.v++; simIdea(timedOut?"Claude took too long, so this one is from our idea machine":(code==="rate_limited"?"Claude needs a breather, so this one is from our idea machine. Try Claude again in a minute.":(code==="session_expired"?"Sign in to Claude again to use it here. This one is from our idea machine.":"Claude couldn't answer just now, so this one is from our idea machine")));
+    if(code==="rate_limited"){ cool=true; btn.disabled=true; setTimeout(()=>{ btn.disabled=false; },60000); } }
+  finally{ clearTimeout(quit2); clearInterval(ticker); if(my===SIM.req){ el.classList.remove("busy"); if(!cool) btn.disabled=false; SIM.ctl=null; } } }
+
+/* putting it together */
+function simUpdate(animate=true){ try{
+  const a=simPerson(SIM.a), b=simPerson(SIM.b); slotPaint("A",a); slotPaint("B",b);
+  const vd=document.getElementById("simVerdict"), rest=document.getElementById("simRest"); if(!vd||!a||!b) return;
+  if(SIM.ctl){ try{ SIM.ctl.abort(); }catch(e){} SIM.ctl=null; } SIM.req++; clearInterval(SIM.timer);
+  if(a.key===b.key){ vd.innerHTML=`<div class="vtxt"><p>That's the same person twice. Pick someone else to start a company with.</p></div>`; rest.hidden=true; return; }
+  if((a.me||b.me)&&!state.youSet){ vd.innerHTML=`<div class="vtxt"><p>Add your birthday above, and we'll team you up with ${esc((a.me?b:a).nm)}.</p></div>`; rest.hidden=true; return; }
+  rest.hidden=false; const m=compatible(a.sign,b.sign), rc=realCo(a,b);
+  vd.innerHTML=verdictHTML(a,b,m,rc); const st=document.getElementById("simStamp"); if(st&&animate&&!REDUCED){ st.classList.remove("go"); void st.offsetWidth; st.classList.add("go"); }
+  SIM.run=0; SIM.v=0; replayRun(a,b,rc,animate); simIdea(); document.getElementById("simCardOut").hidden=true;
+  simWheel();
+} catch(err){ console.error(err); const vd=document.getElementById("simVerdict"); if(vd) vd.innerHTML=`<div class="vtxt"><p>Something went wrong with that pair. Try another one.</p></div>`; } }
+function simWheel(){ const a=simPerson(SIM.a), b=simPerson(SIM.b); if(!a||!b||a.key===b.key) return;
+  state.mode="wif"; state.wif=[a.f,b.f,{a:{sign:a.sign,name:a.me?"You":a.name},b:{sign:b.sign,name:b.name},match:compatible(a.sign,b.sign)}]; if(state.lens!=="zodiac") setLens("zodiac"); draw(); }
+function simFill(){ if(document.getElementById("simVerdict")&&(SIM.a==="me"||SIM.b==="me")) simUpdate(false); }   // a new birthday only matters if you're on the team
+function simRender(){ simWheel(); if(!SIM.seen){ SIM.seen=true; const a=simPerson(SIM.a), b=simPerson(SIM.b); if(a&&b&&a.key!==b.key&&!((a.me||b.me)&&!state.youSet)) replayRun(a,b,realCo(a,b),true); } }   // entering again keeps the team, the idea and the card
+function simSpin(){ const btn=document.getElementById("simSpin"); clearInterval(SIM.spin); const fa=SIM.a==="me"?"me":randomKey(null), fb=randomKey(fa==="me"?null:fa);
+  const finalA=fa==="me"?"me":fa; if(REDUCED){ SIM.a=finalA; SIM.b=fb; simUpdate(); return; }
+  btn.disabled=true; let n=0; SIM.spin=setInterval(()=>{ slotPaint("A",simPerson(SIM.a==="me"?"me":randomKey(null))); slotPaint("B",simPerson(randomKey(null)));
+    if(++n>=14){ clearInterval(SIM.spin); SIM.a=finalA; SIM.b=fb; btn.disabled=false; simUpdate(); } },70); }
+const QUICK=[["Steve Jobs","Steve Wozniak"],["Bill Gates","Paul Allen"],["Larry Page","Sergey Brin"],["Elon Musk","Mark Zuckerberg"],["Jeff Bezos","Jack Ma"],["me","Steve Jobs"]];
+function simChips(){ return QUICK.map(([x,y])=>{ const fa=x==="me"?{i:"me"}:BYNAME.get(x), fb=BYNAME.get(y); if(!fa||!fb) return ""; const a=simPerson(String(fa.i)), b=simPerson(String(fb.i)), rc=realCo(a,b);
+  return `<button class="qp" type="button" data-a="${a.key}" data-b="${b.key}">${a.me?"you":esc(a.sh)} + ${esc(b.sh)}${rc?`<small>real</small>`:""}</button>`; }).join(""); }
+async function teamCard(){ const d=SIM.last, st=SIM.stats; if(!d) return; const a=d.a, b=d.b, m=compatible(a.sign,b.sign), out=document.getElementById("simCardOut");
+  const c=document.createElement("canvas"); c.width=1200; c.height=675; const g=c.getContext("2d"); try{ await document.fonts.ready; }catch(e){}
+  g.fillStyle="#efe4cc"; g.fillRect(0,0,1200,675); g.fillStyle="rgba(29,27,40,.07)"; for(let y=3;y<675;y+=6) for(let x=3;x<1200;x+=6){ g.beginPath(); g.arc(x,y,1,0,TAU); g.fill(); }
+  g.globalCompositeOperation="multiply"; g.globalAlpha=0.35; g.fillStyle=g.createPattern(GRAIN,"repeat"); g.fillRect(0,0,1200,675); g.globalCompositeOperation="source-over"; g.globalAlpha=1;
+  hline(g,28,28,1172,30,5,{color:"#a7302a",w:2.4,j:2}); hline(g,1172,30,1170,647,6,{color:"#a7302a",w:2.4,j:2}); hline(g,1170,647,30,645,7,{color:"#a7302a",w:2.4,j:2}); hline(g,30,645,28,28,8,{color:"#a7302a",w:2.4,j:2});
+  const load=src=>new Promise(res=>{ if(!src) return res(null); const im=new Image(); im.onload=()=>res(im); im.onerror=()=>res(null); im.src=src; });
+  const big=p=>p.me?null:(PICS[p.name]||faceSrc(p.name)), [ia,ib]=await Promise.all([load(big(a)),load(big(b))]);   // the larger what-if portrait when there is one
+  const face=(im,p,x,y)=>{ if(im){ g.drawImage(im,x,y,200,250); } else { harc(g,x+100,y+120,86,0,TAU,hashStr(p.nm)%97,{color:"#a7302a",w:2.6,j:2}); g.fillStyle="#1d1b28"; g.font="96px 'IM Fell English', Georgia, serif"; g.textAlign="center"; g.textBaseline="middle"; g.fillText(GLYPH[p.sign],x+100,y+124); }
+    const shrink=(t,font,z,min,w)=>{ do{ g.font=font(z); } while(g.measureText(t).width>w&&--z>min); return fitText(g,t,w); };
+    g.textAlign="center"; g.textBaseline="alphabetic"; g.fillStyle="#1d1b28"; g.fillText(shrink(p.me?"You":p.nm,z=>`${z}px 'IM Fell English', Georgia, serif`,34,22,250),x+100,y+292);
+    g.fillStyle="#5c5663"; g.fillText(shrink(`${GLYPH[p.sign]} ${p.sign}${p.me?(state.youSet?" · born "+dayName(state.you):""):" · "+p.company}`,z=>`${z}px Kalam, cursive`,21,15,250),x+100,y+322); };
+  face(ia,a,64,96); face(ib,b,330,96); g.fillStyle="#a7302a"; g.font="64px 'IM Fell English', Georgia, serif"; g.textAlign="center"; g.fillText("+",297,240);
+  g.save(); g.translate(300,505); g.rotate(-0.12); g.strokeStyle=m?"#8a6418":"#a7302a"; g.fillStyle=g.strokeStyle; g.lineWidth=4; const sw=300; g.strokeRect(-sw/2,-44,sw,80); g.font="54px 'IM Fell English', Georgia, serif"; g.textAlign="center"; g.textBaseline="middle"; g.fillText((m?"a match":"a clash").toUpperCase(),0,-2); g.restore();
+  g.textAlign="left"; g.textBaseline="alphabetic"; g.fillStyle="#1d1b28"; g.font="22px Kalam, cursive"; g.fillText(d.real?`founders by birthday · their next company after ${fitText(g,d.real,160)}`:"founders by birthday · a team that never was",620,92);
+  const lp=logoPaths(d.name); g.save(); g.translate(620,118); g.scale(1.2,1.2); g.strokeStyle="#a7302a"; g.lineWidth=2.6; g.stroke(new Path2D(lp.outer)); g.lineWidth=1; g.globalAlpha=.7; g.stroke(new Path2D(lp.inner)); g.globalAlpha=1; g.fillStyle="#1d1b28"; g.font="42px 'IM Fell English', Georgia, serif"; g.textAlign="center"; g.fillText(lp.letter,50,64); g.restore();
+  const fit=(t,font,sizes,maxW,maxH,lh)=>{ for(const z of sizes){ g.font=font(z); const L=wrapLines(g,t,maxW); if(L.length*z*lh<=maxH||z===sizes[sizes.length-1]) return {z,L}; } };
+  const put=(L,x,y,z,lh)=>{ L.forEach((ln,i)=>g.fillText(ln,x,y+i*z*lh)); return y+(L.length-1)*z*lh; };
+  g.textAlign="left"; g.fillStyle="#1d1b28"; let f=fit(d.name,z=>`${z}px 'IM Fell English', Georgia, serif`,[54,46,38,32],400,120,1.05); let y=put(f.L.slice(0,3),760,172,f.z,1.05);
+  g.fillStyle="#5c5663"; f=fit(d.when,z=>`${z}px Kalam, cursive`,[21,18,16],400,60,1.3); y=put(f.L.slice(0,2),760,y+34,f.z,1.3)+30;
+  y=Math.max(y,282); const room=508-y;
+  g.fillStyle="#1d1b28"; f=fit(d.pitch,z=>`${z}px 'EB Garamond', Georgia, serif`,[28,26,24,22,20,18],520,d.roles?room*0.62:room,1.28); y=put(f.L.slice(0,Math.floor((d.roles?room*0.62:room)/(f.z*1.28))||1),620,y+f.z,f.z,1.28)+12;
+  if(d.roles){ g.fillStyle="#4a4552"; const rz=Math.max(17,Math.round(f.z*0.84)); g.font=`${rz}px 'EB Garamond', Georgia, serif`; const RL=wrapLines(g,d.roles,520); y=put(RL.slice(0,Math.max(1,Math.floor((508-y)/(rz*1.28)))),620,y+rz,rz,1.28); }
+  if(st){ g.fillStyle="#a7302a"; g.font="25px Kalam, cursive"; const RL=wrapLines(g,`In 100 replays: ${st.jars[3]?`${st.jars[3]} trillion-dollar ${st.jars[3]===1?"company":"companies"}`:"no trillion-dollar company"}, ${st.jars[0]?`${st.jars[0]} ${st.jars[0]===1?"collapse":"collapses"}`:"no collapses"}. Typical: ${money(st.median)}.`,520); put(RL.slice(0,2),620,Math.min(556,Math.max(470,y+56)),25,1.3); }
+  g.fillStyle="#5c5663"; g.font="19px Kalam, cursive"; g.fillText(`clashing founding teams built a typical ${money(ALLSL.clash)} company; matched teams ${money(ALLSL.match)}`,64,618);
+  const url=c.toDataURL("image/png"); const blob=await new Promise(res=>c.toBlob(res,"image/png")); SIM.cardBlob=blob;
+  const post=`${a.me?"Me":a.nm} + ${b.nm}: astrology says ${m?"a match":"a clash"}. We'd start ${d.name}: ${d.pitch}${st?` In 100 replays, ${st.jars[3]?`${times(st.jars[3])} a trillion-dollar company`:"never a trillion-dollar company"}.`:""}`;
+  out.hidden=false; out.innerHTML=`<img src="${url}" alt="A card for ${esc(a.nm)} and ${esc(b.nm)}: ${esc(d.name)}"><div class="inline-actions"><button class="btn small gold" type="button" id="simSaveCard">save the card</button><button class="btn small" type="button" id="simCopy">copy the post text</button></div><p class="small hand" id="simCardMsg">or press and hold the card to save it</p>`;
+  document.getElementById("simSaveCard").onclick=()=>saveBlob(SIM.cardBlob,`${d.name.replace(/[^A-Za-z0-9]+/g,"-").replace(/^-|-$/g,"").toLowerCase()||"our-company"}.png`,document.getElementById("simCardMsg"));
+  document.getElementById("simCopy").onclick=async()=>{ const msg=document.getElementById("simCardMsg"); try{ await navigator.clipboard.writeText(post); msg.textContent="copied: "+post; }catch(e){ msg.textContent=post; } };
+  out.scrollIntoView({block:"nearest",behavior:REDUCED?"auto":"smooth"}); }
+function wrapLines(g,t,maxW){ const out=[]; let ln=""; String(t||"").split(/\s+/).filter(Boolean).forEach(w=>{ const test=ln?ln+" "+w:w; if(g.measureText(test).width>maxW&&ln){ out.push(ln); ln=w; } else ln=test; }); if(ln) out.push(ln); return out; }
+function fitText(g,t,maxW){ t=String(t||""); if(g.measureText(t).width<=maxW) return t; while(t.length>2&&g.measureText(t+"…").width>maxW) t=t.slice(0,-1); return t+"…"; }
+function wireSim(){ comboWire("A"); comboWire("B");
+  if(SIM.a==null) SIM.a=String((BYNAME.get("Steve Jobs")||SIMLIST[0]).i); if(SIM.b==null) SIM.b=String((BYNAME.get("Jensen Huang")||SIMLIST[1]).i);
+  document.getElementById("simChips").innerHTML=simChips();
+  document.getElementById("simChips").onclick=e=>{ const ch=e.target.closest(".qp"); if(!ch) return; SIM.a=ch.dataset.a; SIM.b=ch.dataset.b; simUpdate(); };
+  document.getElementById("simSpin").onclick=simSpin;
+  document.getElementById("simReplay").onclick=()=>{ const a=simPerson(SIM.a), b=simPerson(SIM.b); if(!a||!b||a.key===b.key) return; SIM.run++; replayRun(a,b,realCo(a,b),true); };
+  document.getElementById("simAgain").onclick=()=>{ SIM.v++; simIdea(); };
+  document.getElementById("simAsk").onclick=simAsk; document.getElementById("simMake").onclick=teamCard;
   const btn=document.getElementById("simAsk"); btn.hidden=true;
   (async()=>{ try{ SAMPLE=(window.claude&&window.claude.use)?await window.claude.use("sample"):null; }catch(e){ SAMPLE=null; } btn.hidden=!SAMPLE; })();
-  simRender(); }
+  simUpdate(false); }
 
 /* ---------- find yourself + the red card ---------- */
 const EXPSIGN=(()=>{ const e=new Array(12).fill(0); F.forEach(f=>{ for(let k=0;k<365;k++) e[DOY_SIGN[k]]+=f.p[k]; }); return e; })();
@@ -1080,20 +1349,21 @@ async function makeCard(){
   if(famous.length) lines.push(`Among them: ${famous.join(", ")}.`);
   if(bm) lines.push(`${s} founders team up most with: ${bm.t} ${GLYPH[bm.t]}`);
   let y=280; lines.forEach(t=>{ y=wrapText(g,t,64,y,600,40)+54; });
-  g.font="23px Kalam, cursive"; g.fillText("the stars don't pick founders. luck does. find your sign.", 64, 622);
+  g.font="23px Kalam, cursive"; g.fillText("every sign has founded a giant. find yours.", 64, 622);
   hline(g,64,634,560,634,99,{color:"#fff6ea",w:2,j:2});
   const url=c.toDataURL("image/png"); CARDBLOB=await new Promise(res=>c.toBlob(res,"image/png"));
-  const tweet=`I'm a ${s}${near?(near.doy===k?`, born the same day as ${near.name}`:`, born within days of ${near.name}`):""}. ${all.length} founders of the world's biggest companies share my sign${bm?`, and ${s} founders team up most with ${bm.t}s`:""}. Turns out luck explains all of it.`;
+  const tweet=`I'm a ${s}${near?(near.doy===k?`, born the same day as ${near.name}`:`, born within days of ${near.name}`):""}. ${all.length} founders of the world's biggest companies share my sign${bm?`, and ${s} founders team up most with ${bm.t}s`:""}. Every sign has its giants.`;
   const out=document.getElementById("cardOut"); out.hidden=false;
   out.innerHTML=`<img src="${url}" alt="Your founder birthday card: ${esc(s)}"><div class="inline-actions"><button class="btn small gold" type="button" id="saveCard">save the card</button><button class="btn small" type="button" id="copyTweet">copy the post text</button></div><p class="small hand" id="cardMsg">or press and hold the card to save it</p>`;
   document.getElementById("copyTweet").onclick=async()=>{ const m=document.getElementById("cardMsg"); try{ await navigator.clipboard.writeText(tweet); m.textContent="copied: "+tweet; }catch(e){ m.textContent=tweet; } };
   document.getElementById("saveCard").onclick=saveCard;
 }
 function wrapText(g,t,x,y,maxW,lh){ const words=t.split(" "); let ln=""; words.forEach(w=>{ const test=ln?ln+" "+w:w; if(g.measureText(test).width>maxW&&ln){ g.fillText(ln,x,y); ln=w; y+=lh; } else ln=test; }); g.fillText(ln,x,y); return y; }
-async function saveCard(){ const m=document.getElementById("cardMsg"); if(!CARDBLOB) return;
+function saveCard(){ return saveBlob(CARDBLOB,"my-founder-sign.png",document.getElementById("cardMsg")); }
+async function saveBlob(blob,filename,m){ if(!blob||!m) return;
   const dl = window.claude&&window.claude.use ? await window.claude.use("downloads").catch(()=>null) : null;
-  if(dl){ try{ await dl.save({filename:"my-founder-sign.png", data:CARDBLOB}); m.textContent="saved."; }catch(e){ m.textContent = e&&e.code==="declined" ? "not saved." : "saving isn't available here. press and hold the card to save it."; } return; }
-  if(!window.claude){ const a=document.createElement("a"); a.href=URL.createObjectURL(CARDBLOB); a.download="my-founder-sign.png"; document.body.appendChild(a); a.click(); a.remove(); m.textContent="saved to your downloads."; return; }
+  if(dl){ try{ await dl.save({filename, data:blob}); m.textContent="saved."; }catch(e){ m.textContent = e&&e.code==="declined" ? "not saved." : (e&&e.code==="rate_limited" ? "one moment, then try again." : "saving isn't available here. press and hold the card to save it."); } return; }
+  if(!window.claude){ const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=filename; document.body.appendChild(a); a.click(); a.remove(); m.textContent="saved to your downloads."; return; }
   m.textContent="saving isn't available here. press and hold the card to save it."; }
 
 /* ======================================================================
@@ -1105,6 +1375,7 @@ function applyStep(i,force){ if(i===active&&!force) return; active=i; const b=st
   state.mode=st.mode||null; state.pair=null; state.duo=null; state.colorBy=st.colorBy||null; state.tint=!!st.tint; state.links=!!st.links; state.show=st.show||"thriving";
   if(!state.pinned){ state.focus=null; card.hidden=true; }
   document.getElementById("legend").style.visibility = ["ring","libra","elements"].includes(b.id) ? "visible" : "hidden";
+  document.body.classList.toggle("wheel-off", !!st.wheelOff);   // phones: this chapter needs the whole screen, so the wheel scrolls away
   setLens(st.lens||"zodiac"); layout(); draw();
   b.enter&&b.enter();
 }
@@ -1260,7 +1531,7 @@ document.getElementById("fSound").onclick=()=>{ FILM.sound=!FILM.sound; document
 document.getElementById("fCC").onclick=()=>{ FILM.cc=!FILM.cc; document.getElementById("fCC").textContent=FILM.cc?"subtitles on":"subtitles off"; fSub.hidden=!FILM.cc; };
 document.addEventListener("keydown",e=>{ if(!FILM.on) return; if(e.key===" "){ e.preventDefault(); document.getElementById("fPause").click(); } if(e.key==="ArrowRight") document.getElementById("fNext").click(); if(e.key==="ArrowLeft") document.getElementById("fPrev").click(); });
 
-window.__founders={CAM,FX,state,FILM};   // for debugging in the console
+window.__founders={CAM,FX,state,FILM,sim:{F,SIM,simPerson,realCo,verdictHTML,foundYear,ideaOf,simPool,simDraw,simStats,compatible,rng,REALCOS,simUpdate}};   // for debugging in the console and the team-builder sweep
 /* ---------- start ---------- */
 steps.forEach(b=>b.wire&&b.wire());
 tearAll();

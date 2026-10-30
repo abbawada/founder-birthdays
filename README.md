@@ -34,10 +34,14 @@ $P -P pipeline/08_build.py         # inline everything                          
 $P -P pipeline/15_extras.py        # founding ages, age gaps, birthday twins, the clash finding sliced, sign traits -> data/extras.json
 $P -P pipeline/13_whatif.py        # ten what-if cofounders, imagined companies (pipeline/whatif_ideas.json), portraits -> data/whatif.json, data/portraits.json
 PYTHONPATH=pipeline ~/.venvs/tts/bin/python -P pipeline/14_film.py   # film narration, voiced with Kokoro -> data/film.json, VIDEO_SCRIPT.md
+$P -P pipeline/16_faces.py         # faces for the team builder, death years (Wikidata P570) -> data/faces.json, data/deaths.json
 $P -P pipeline/08_build.py         # build again so the page carries the film and portraits
+$P -P tests/team_builder_check.py  # every founder pair, the live Claude button (faked), coming back to the chapter
 ```
 
-`pipeline/overrides.json` (optional) fixes an article pick, a founding year, or a founder list for a named company, or excludes it with a reason. Tesla lists all five people its 2009 settlement lets call themselves cofounders, with the Wikipedia sentence quoted in the note.
+The portrait steps share `pipeline/portraits.py`. The small faces are found with OpenCV's YuNet face detector (downloaded once from the official opencv_zoo to `~/.cache/opencv/`), because the older Haar detector took a shirt, an ear or a blur for a face on a few photos. The check in `tests/` needs Playwright (`pip install playwright`, then `python -m playwright install chromium`).
+
+`pipeline/name_fixes.json` corrects three names Wikidata got wrong when we pulled it (one vandalised label, one typo, one disambiguation tag), each with its reason and source. `pipeline/overrides.json` (optional) fixes an article pick, a founding year, or a founder list for a named company, or excludes it with a reason. Tesla lists all five people its 2009 settlement lets call themselves cofounders, with the Wikipedia sentence quoted in the note.
 
 ## Changes after the first build (29 October 2026)
 
@@ -49,6 +53,7 @@ $P -P pipeline/08_build.py         # build again so the page carries the film an
 - Ten what-if cofounders (`13_whatif.py`), ranked by that value data, with portraits from Wikimedia Commons.
 - A narrated film (`14_film.py`) replaced the old Play the story.
 - Founder-first rewrite: "fair share" instead of "born like everyone else", the coin-flip framing for matches, the clash finding sliced by era, industry, team size and without OpenAI (`15_extras.py`), the money map as the default chart, a team simulator (with a live "invent their company" button that asks Claude when the page runs as a claude.ai artifact), astrology's sign traits checked against the data, founding ages, and birthday twins. Null results moved to one paragraph under How we did it.
+- The team builder, rebuilt: faces and search instead of two long dropdowns, a "surprise me" spin, real teams marked (Jobs + Wozniak shows Apple), a stamp with astrology's verdict in plain words, and a replay of the team's company 100 times. Each replay borrows the fate of one real founding team with the same verdict, weighted toward the same industry, elements, age gap and era, then sorts the 100 futures into jars from "collapsed" to "$1T or more" and shows what flipping the verdict would do. The imagined company gets a drawn logo, a founding year when both founders were adults and alive (or a time machine when they never overlapped), a "what you're best at" box when you're on the team, and a card to save. Asking Claude is guarded against stale answers, rate limits and Claude being switched off.
 
 ## Sources
 
@@ -67,5 +72,5 @@ $P -P pipeline/08_build.py         # build again so the page carries the film an
 - Birth seasonality: Our World in Data's mirror of the Human Fertility Database, CC BY 4.0.
 - Market values: companiesmarketcap.com and the Crunchbase Unicorn Board, with the source on every row of companies.csv.
 - Birth times: Astro-Databank (astro.com), facts only (date, time, place, Rodden rating).
-- Founder portraits in data/whatif.json are redrawn from photos on Wikimedia Commons. Each keeps its own licence (CC BY, CC BY-SA or public domain); the photographer, licence and file page are listed beside each portrait and on the page under "portrait credits".
+- Founder portraits in data/whatif.json, data/portraits.json and data/faces.json are redrawn from photos on Wikimedia Commons. Each keeps its own licence (CC BY, CC BY-SA or public domain); the photographer, licence and file page are listed beside each portrait and on the page under "portrait credits".
 - Narration audio is generated with Kokoro-82M (Apache 2.0).

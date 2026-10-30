@@ -7,17 +7,11 @@ Wikipedia language editions with an article, from Wikidata sitelinks). Portraits
 with author and licence kept for the credits, redrawn as a two-colour halftone
 print (ink over red) to match the page. Output: data/whatif.json.
 """
-import base64
 import calendar
-import html
 import os
-import re
 
-import cv2
-import numpy as np
-import requests
-
-from common import DATA, ROOT, UA, load_json, save_json, sparql, chunks, get_json
+from common import DATA, ROOT, load_json, save_json, sparql, chunks
+from portraits import portrait
 
 SIGNS = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
 STARTS = [(3, 21), (4, 20), (5, 21), (6, 21), (7, 23), (8, 23), (9, 23), (10, 23), (11, 22), (12, 22), (1, 20), (2, 19)]
@@ -92,71 +86,6 @@ for val, i, j in cells:
                   "match": compatible(SIGNS[i], SIGNS[j])})
     if len(picks) == 10:
         break
-
-# portraits
-IMG = os.path.join(ROOT, "cache", "img")
-os.makedirs(IMG, exist_ok=True)
-face = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
-strip = lambda t: re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", t or ""))).strip()
-
-
-def portrait(person):
-    fname = requests.utils.unquote(person["img"].split("/Special:FilePath/")[-1])
-    body = get_json("commons", "https://commons.wikimedia.org/w/api.php", {"action": "query", "titles": "File:" + fname, "prop": "imageinfo",
-                    "iiprop": "url|extmetadata|mime", "iiurlwidth": 480, "format": "json"})
-    ii = next(iter(body["query"]["pages"].values()))["imageinfo"][0]
-    meta = ii.get("extmetadata", {})
-    path = os.path.join(IMG, person["qid"] + "_480.img")
-    if not os.path.exists(path):
-        r = requests.get(ii["thumburl"], headers=UA, timeout=60)
-        r.raise_for_status()
-        open(path, "wb").write(r.content)
-    im = cv2.imread(path)
-    if im is None:
-        raise RuntimeError(f"could not read {path}")
-    g = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
-    H0, W0 = g.shape
-    fs = face.detectMultiScale(g, 1.1, 5, minSize=(40, 40))
-    if len(fs):
-        x, y, w, h = max(fs, key=lambda r: r[2] * r[3])
-        ch = int(h * 2.5); cw = int(ch * 0.8); cx = x + w // 2; top = max(0, y - int(h * 0.55))
-    else:
-        cw = min(W0, int(H0 * 0.8)); ch = int(cw / 0.8); cx = W0 // 2; top = 0
-    x0 = max(0, min(W0 - cw, cx - cw // 2)); crop = g[top:top + ch, x0:x0 + cw]
-    crop = cv2.resize(crop, (320, 400), interpolation=cv2.INTER_AREA)
-    crop = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(6, 6)).apply(crop).astype(np.float32)   # lift faces in dark photos
-    lo, hi = np.percentile(crop, 3), np.percentile(crop, 97)
-    crop = np.clip((crop - lo) / max(1, hi - lo), 0, 1)
-    crop = 1 / (1 + np.exp(-(crop - 0.5) * 3.2))                             # gentle S-curve: keeps facial detail
-    crop = (crop - crop.min()) / max(1e-6, crop.max() - crop.min())
-    crop = cv2.GaussianBlur(crop, (3, 3), 0)
-    yy, xx = np.mgrid[0:400, 0:320]
-    oval = np.clip(1.35 - np.sqrt(((xx - 160) / 132.0) ** 2 + ((yy - 182) / 172.0) ** 2) * 1.35, 0, 1)   # cameo: fade to paper outside a soft oval
-    oval = cv2.GaussianBlur(oval.astype(np.float32), (0, 0), 6)
-    dark = (1 - crop) * oval
-    # ink-toned photo: the real face stays clear; a fine halftone grain and a faint red offset keep the print look
-    out = np.zeros((400, 320, 4), np.float32)
-    tone = np.clip(dark * 1.15, 0, 1) ** 0.85
-    yy2, xx2 = np.mgrid[0:400, 0:320]
-    screen = 0.5 + 0.5 * np.sin((xx2 + yy2) * 0.9) * np.sin((xx2 - yy2) * 0.9)     # 45-degree dot screen
-    grain = np.random.default_rng(len(person["name"])).random((400, 320)).astype(np.float32)
-    ink_a = np.clip(tone * (0.86 + 0.14 * screen) * (0.94 + 0.06 * grain), 0, 1)
-    red_a = np.roll(np.roll(np.clip((tone - 0.45) * 1.4, 0, 1) * 0.32, 2, 0), 3, 1)
-    for k, c in enumerate((62, 76, 220)):        # red plate (BGR) under the ink
-        out[..., k] = c
-    out[..., 3] = red_a
-    a_ = ink_a + red_a * (1 - ink_a)
-    for k, c in enumerate((40, 27, 29)):
-        out[..., k] = np.where(a_ > 0, (c * ink_a + out[..., k] * red_a * (1 - ink_a)) / np.maximum(a_, 1e-6), 0)
-    out[..., 3] = a_
-    out = np.dstack([out[..., :3], out[..., 3] * 255]).clip(0, 255).astype(np.uint8)
-    ok, buf = cv2.imencode(".webp", out, [cv2.IMWRITE_WEBP_QUALITY, 82])
-    if not ok:
-        raise RuntimeError("webp encode failed")
-    lic = strip(meta.get("LicenseShortName", {}).get("value"))
-    return {"src": "data:image/webp;base64," + base64.b64encode(buf.tobytes()).decode(), "credit": strip(meta.get("Artist", {}).get("value"))[:120],
-            "license": lic, "file_url": ii.get("descriptionurl"), "face_found": bool(len(fs))}
-
 
 IDEAS = load_json(os.path.join(ROOT, "pipeline", "whatif_ideas.json"), {})   # imagined companies, written by hand, just for fun
 EXTRA = ["Phil Knight", "Ted Arison", "Masayoshi Son", "Frederick W. Smith", "John Collison"]   # birthday twins and the youngest giant founder
