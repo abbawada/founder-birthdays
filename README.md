@@ -37,7 +37,10 @@ PYTHONPATH=pipeline ~/.venvs/tts/bin/python -P pipeline/14_film.py   # film narr
 $P -P pipeline/16_faces.py         # faces for the team builder, death years (Wikidata P570) -> data/faces.json, data/deaths.json
 $P -P pipeline/08_build.py         # build again so the page carries the film and portraits
 $P -P tests/team_builder_check.py  # every founder pair, the live Claude button (faked), coming back to the chapter
+$P -P tools/record_film.py          # the narrated film as an MP4 for social media -> video/founders-by-birthday.mp4
 ```
+
+`tools/record_film.py` plays the film on a fake clock and screenshots every frame (1920x1080, 30 fps), so the video is smooth on any machine, then lays each narration line in at the moment the page starts it. Subtitles stay burned in and larger than on the page, for phones; the player controls are hidden. `--from 6 --seconds 8` renders a short test clip. The `video/` folder is not committed.
 
 The portrait steps share `pipeline/portraits.py`. The small faces are found with OpenCV's YuNet face detector (downloaded once from the official opencv_zoo to `~/.cache/opencv/`), because the older Haar detector took a shirt, an ear or a blur for a face on a few photos. The check in `tests/` needs Playwright (`pip install playwright`, then `python -m playwright install chromium`).
 
