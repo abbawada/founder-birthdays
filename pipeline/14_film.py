@@ -53,7 +53,7 @@ LINES = [
     ("zoom", "Each founder becomes a star, on the day they were born. Here's Steve Jobs."),
     ("reveal", "And here's everyone."),
     ("bars", f"Count the founders under each sign, and {lead} comes out on top, with {leadN}."),
-    ("fair", f"Its fair share would be about {leadE}. But with twelve signs, one always ends up ahead."),
+    ("fair", f"Split {sg['n']} founders evenly across twelve signs, and each gets about {leadE}. {lead} has {leadN - leadE} extra. But some sign always pulls ahead by about that much."),
     ("every", "What matters more: every sign has founded a giant. Whatever your sign, you're in good company."),
     ("who", "Now the question founders really ask. Who should you start a company with?"),
     ("rule1", "Astrology has a rule for this. Every sign belongs to an element: fire, earth, air or water."),

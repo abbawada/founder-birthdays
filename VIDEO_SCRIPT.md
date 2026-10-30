@@ -4,7 +4,7 @@
 
 **Post text:** I put 338 founders of the world's biggest companies on the day they were born. Astrology's cofounder rule turned out backwards: the teams it says should clash built companies twice as big, including five of the six trillion-dollar ones.
 
-The film on the page plays this narration (voice: Kokoro af_heart), about 3 min 47 s. Record the screen while it plays, or read these lines over it yourself.
+The film on the page plays this narration (voice: Kokoro af_heart), about 3 min 53 s. Record the screen while it plays, or read these lines over it yourself.
 
 1. Steve Jobs was born on February 24th. A Pisces.
 2. Bill Gates is a Scorpio. Elon Musk is a Cancer.
@@ -13,7 +13,7 @@ The film on the page plays this narration (voice: Kokoro af_heart), about 3 min 
 5. Each founder becomes a star, on the day they were born. Here's Steve Jobs.
 6. And here's everyone.
 7. Count the founders under each sign, and Libra comes out on top, with 36.
-8. Its fair share would be about 26. But with twelve signs, one always ends up ahead.
+8. Split 317 founders evenly across twelve signs, and each gets about 26. Libra has 10 extra. But some sign always pulls ahead by about that much.
 9. What matters more: every sign has founded a giant. Whatever your sign, you're in good company.
 10. Now the question founders really ask. Who should you start a company with?
 11. Astrology has a rule for this. Every sign belongs to an element: fire, earth, air or water.

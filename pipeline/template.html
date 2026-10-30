@@ -436,7 +436,7 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
     <div>
       <p class="lede" id="lede"></p>
       <div class="actions"><button class="btn gold" id="play" type="button">▶ watch the film · 4 min</button><button class="linkbtn" id="gotoStart" type="button">or scroll down and explore ↓</button></div>
-      <p class="aside">spoiler: every sign gets its fair share. the stories are the fun part, and one result surprised us.</p>
+      <p class="aside">spoiler: no sign wins by much. the stories are the fun part, and one result surprised us.</p>
     </div>
   </header>
 
@@ -451,7 +451,7 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
         <button class="btn small" id="shuffle" type="button"><svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true" style="vertical-align:-3px"><path d="M3.5,4 Q3,3 4.2,2.8 L15.6,3.2 Q17,3.3 16.9,4.6 L16.6,15.8 Q16.5,17 15.3,16.9 L4.3,16.6 Q3,16.5 3.1,15.2 Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7" cy="7" r="1.5" fill="currentColor"/><circle cx="10" cy="10.2" r="1.5" fill="currentColor"/><circle cx="13.1" cy="13.2" r="1.5" fill="currentColor"/></svg> show a random crowd</button>
         <button class="linkbtn" id="restore" type="button" disabled>back to the founders</button>
       </div>
-      <div class="legend" id="legend"><span><b style="color:var(--gold2)">✦</b> $100B+ company</span><span><b style="color:var(--blue)">●</b> $20–100B</span><span><b style="color:var(--red)">●</b> collapsed</span><span><b style="color:var(--chalk)">▬</b> if founders were born like everyone else</span></div>
+      <div class="legend" id="legend"><span><b style="color:var(--gold2)">✦</b> $100B+ company</span><span><b style="color:var(--blue)">●</b> $20–100B</span><span><b style="color:var(--red)">●</b> collapsed</span><span><b style="color:var(--chalk)">▬</b> <span id="legendEven">an even split across the 12 signs</span></span></div>
     </div>
     <div class="steps" id="steps"></div>
   </main>
@@ -719,13 +719,13 @@ function centre(L,obs,exp,lead,G){
   const plate=ctx.createRadialGradient(CX,CY,0,CX,CY,R0*0.64); plate.addColorStop(0,"rgba(18,48,47,.96)"); plate.addColorStop(0.8,"rgba(18,48,47,.85)"); plate.addColorStop(1,"rgba(18,48,47,0)");
   ctx.fillStyle=plate; ctx.beginPath(); ctx.arc(CX,CY,R0*0.64,0,TAU); ctx.fill();
   let a="",b="",c="",d="";
-  if(state.mode==="you"&&state.lens==="zodiac"){ const s=DOY_SIGN[state.you]; a="you're a"; b=SIGNS[s]; c=`${obs[s]} founders share it`; d=`everyone else: ${Math.round(exp[s])}`; }
+  if(state.mode==="you"&&state.lens==="zodiac"){ const s=DOY_SIGN[state.you]; a="you're a"; b=SIGNS[s]; c=`${obs[s]} founders share it`; d=`even split: ${Math.round(exp[s])}`; }
   else if(state.mode==="teams"){ a="clashing teams built"; b=money(VAL.teams_unmatched_median); c=`matched teams: ${money(VAL.teams_matched_median)}`; d="typical company · white lines: clashes"; }
   else if(state.mode==="wif"&&state.wif){ const [fa,fb,w]=state.wif; a="what if"; b=`${GLYPH[w.a.sign]} + ${GLYPH[w.b.sign]}`; c=`${short(w.a.name)} + ${short(w.b.name)}`; d=`astrology: ${w.match?"a match":"a clash"}`; }
   else if(state.mode==="duo"&&state.duo){ const p=state.duo[0]; a=`${short(p.a)} + ${short(p.b)}`; b=`${GLYPH[p.sa]} + ${GLYPH[p.sb]}`; c=compatible(p.sa,p.sb)?"a match, says astrology":"a clash, says astrology"; d=outcome(p)||coName(p.company); }
   else if(state.pair){ const [i,j]=state.pair; a="cofounders"; b=`${GLYPH[SIGNS[i]]} + ${GLYPH[SIGNS[j]]}`; c=`${cnt(i,j)} pair${cnt(i,j)===1?"":"s"}`; d=`if paired at random: ${expd(i,j).toFixed(1)}`; }
-  else if(state.lens==="school"){ const n=LAST.list.length, old=obs.slice(0,4).reduce((x,y)=>x+y,0), eo=exp.slice(0,4).reduce((x,y)=>x+y,0); a="oldest third of the class"; b=pct(old/n); c=`everyone else: ${pct(eo/n)}`; d="clockwise: oldest to youngest"; }
-  else { a=state.shuffled?`a random crowd of ${LAST.list.length}`:"most founders"; b=L.bins[lead].name; c=state.shuffled?`${obs[lead]} people`:`${obs[lead]} founders`; d=`everyone else: ${Math.round(exp[lead])}`; }
+  else if(state.lens==="school"){ const n=LAST.list.length, old=obs.slice(0,4).reduce((x,y)=>x+y,0), eo=exp.slice(0,4).reduce((x,y)=>x+y,0); a="oldest third of the class"; b=pct(old/n); c=`even split: ${pct(eo/n)}`; d="clockwise: oldest to youngest"; }
+  else { a=state.shuffled?`a random crowd of ${LAST.list.length}`:"most founders"; b=L.bins[lead].name; c=state.shuffled?`${obs[lead]} people`:`${obs[lead]} founders`; d=`even split: ${Math.round(exp[lead])}`; }
   ctx.textAlign="center"; ctx.textBaseline="alphabetic";
   ctx.fillStyle="#c3bcac"; ctx.font=`${fs(16)}px ${HAND}`; ctx.fillText(a,CX,CY-R0*0.30);
   const big=b.length>9?40:56; ctx.fillStyle="#f2cd7a"; ctx.font=`italic ${fs(big)}px ${FELL}`; ctx.fillText(b,CX,CY+R0*0.07);
@@ -816,11 +816,12 @@ const ruleHTML=()=>`<div class="rule"><h3>How astrology decides a match</h3>
   </div>`;
 const scrap=(n,l,cls="")=>`<div class="scrap ${cls}"><span class="n">${n}</span><span class="l">${l}</span></div>`;
 
-document.getElementById("lede").innerHTML=`We placed ${N} founders of the world's most valuable companies on the day they were born. Then we checked what astrology says about them, from signs to cofounder matches, against everyone else.`;
+document.getElementById("lede").innerHTML=`We placed ${N} founders of the world's most valuable companies on the day they were born. Then we checked what astrology says about them, from signs to cofounder matches.`;
 
 const XT=DATA.extras||{}, PORT=DATA.portraits||{};
 const PICS={}; (DATA.whatif||[]).forEach(w=>{ PICS[w.a.name]=w.a.src; PICS[w.b.name]=w.b.src; }); Object.values(PORT).forEach(p=>{ PICS[p.name]=p.src; });
 const nThr=F.filter(f=>f.ring!=="fallen").length, fairShare=Math.round(nThr/12);
+document.getElementById("legendEven").textContent=`an even split: about ${fairShare} founders per sign`;
 const bestBySign=SIGNS.map(s=>{ const fs=F.filter(f=>f.sign===s&&f.ring!=="fallen").sort((a,b)=>b.value-a.value); return {s,f:fs[0]}; });
 const kindTag=k=>k==="clash"?`<span class="ktag clash">clash</span>`:(k==="match"?`<span class="ktag match">match</span>`:`<span class="ktag">even</span>`);
 const pairingOf=(a,b)=>{ const k=[ELEMENT[a],ELEMENT[b]].sort(); return (XT.pairings||[]).find(x=>x.elements[0]===k[0]&&x.elements[1]===k[1]); };
@@ -845,13 +846,13 @@ const steps=[];
 steps.push({ id:"ring", title:"every founder, on their birthday",
   html:`<h2 class="chalk">Every founder, <i>on their birthday</i></h2>
   <p>Each star is a founder of one of the world's most valuable companies, placed on the day they were born. Gold stars built companies worth $100 billion or more. Blue dots, $20 to $100 billion. Red dots built a billion-dollar company that later collapsed.</p>
-  <p>The gold bars count founders per sign. The white chalk mark is each sign's <b>fair share</b>: if signs didn't matter, ${nThr} founders split over twelve signs is about ${fairShare} each, a little more for the longer signs.</p>
+  <p>The gold bars count founders per sign. The white chalk mark is <b>an even split</b>: ${nThr} founders divided by 12 signs is about ${fairShare} per sign, a touch more for the longer signs. A bar past its mark has more founders than an even split would give it.</p>
   <div class="hint">↖ hover a star to meet the founder, click to keep the note open</div>`, st:{show:"all"} });
 
 steps.push({ id:"signs", title:"every sign",
   html:`<h2 class="chalk">${sg.tallest} has the most founders. <i>Every sign has plenty.</i></h2>
-  <div class="big">${scrap(leadN,`${sg.tallest} founders`,"gold")}${scrap(Math.round(leadE),`${sg.tallest}'s fair share`)}</div>
-  <p>Ten over its fair share sounds like a lot. But with twelve signs, one is always out in front, and ${sg.tallest}'s lead is about what you'd see in any crowd of ${nThr} people. Want to see? <button class="linkbtn" type="button" data-act="shuffle">show a random crowd</button> <button class="linkbtn" type="button" data-act="restore">back to the founders</button></p>
+  <div class="big">${scrap(leadN,`${sg.tallest} founders`,"gold")}${scrap(Math.round(leadE),`an even split: ${nThr}\u00a0founders ÷ 12\u00a0signs`)}</div>
+  <p>So ${sg.tallest} has ${leadN-Math.round(leadE)} more founders than an even split. Is that a lot? Not really. With twelve signs, one always ends up ahead: give ${nThr} random people random birthdays, and the top sign lands this far ahead about ${Math.round(sg.p_max_dev*10)} times in 10. Want to see? <button class="linkbtn" type="button" data-act="shuffle">show a random crowd</button> <button class="linkbtn" type="button" data-act="restore">back to the founders</button></p>
   <p>What matters more: every single sign has founded a giant.</p>
   <ul class="giants">${bestBySign.map(x=>x.f?`<li><span class="g">${GLYPH[x.s]}</span> <b>${x.s}</b> ${esc(x.f.name)}, ${esc(coName(x.f.companies[0].name))} <span class="v">${money(x.f.value)}</span></li>`:"").join("")}</ul>
   <div class="verdict">Whatever your sign, you're in good company.</div>`, st:{} });
@@ -981,7 +982,7 @@ steps.push({ id:"you", title:"your turn",
 
 steps.push({ id:"how", title:"how we did it",
   html:`<h2 class="chalk">How we <i>did it</i></h2>
-  <p>A few more things we checked, quickly: fire, earth, air and water signs each got their fair share. No birth month stands out. The ${fv.n_fallen} founders whose companies collapsed have the same mix of signs as everyone else. No sign leans toward an industry. Moon signs, worked out for ${mo.n} founders, show nothing either, and only ${nRising} founders have a recorded birth time, too few for rising signs.</p>
+  <p>A few more things we checked, quickly: fire, earth, air and water signs each got about an even split. No birth month stands out. The ${fv.n_fallen} founders whose companies collapsed have the same mix of signs as the other founders. No sign leans toward an industry. Moon signs, worked out for ${mo.n} founders, show nothing either, and only ${nRising} founders have a recorded birth time, too few for rising signs.</p>
   ${META.methods_table}`, st:{} });
 
 const stepsEl=document.getElementById("steps");
@@ -1321,7 +1322,7 @@ const EXPSIGN=(()=>{ const e=new Array(12).fill(0); F.forEach(f=>{ for(let k=0;k
 const bestMatch=s=>partners(s)[0]||null;
 const nearOf=k=>F.filter(f=>{ let d=Math.abs(f.doy-k); d=Math.min(d,365-d); return d<=3; }).sort((a,b)=>Math.min(Math.abs(a.doy-k),365-Math.abs(a.doy-k))-Math.min(Math.abs(b.doy-k),365-Math.abs(b.doy-k))||b.value-a.value);
 function youOut(){ const k=state.you, s=SIGNS[DOY_SIGN[k]], all=F.filter(f=>f.sign===s), near=nearOf(k), bm=bestMatch(s), famous=all.slice().sort((a,b)=>b.value-a.value).slice(0,5);
-  document.getElementById("youOut").innerHTML=`<div class="line">You're a <em>${s}</em> ${GLYPH[s]}. ${all.length} founders in this list share your sign. If founders were born like everyone else, there'd be about ${Math.round(EXPSIGN[DOY_SIGN[k]])}.</div>`+
+  document.getElementById("youOut").innerHTML=`<div class="line">You're a <em>${s}</em> ${GLYPH[s]}. ${all.length} founders in this list share your sign. If founders were split evenly over the twelve signs, there'd be about ${Math.round(EXPSIGN[DOY_SIGN[k]])}.</div>`+
    (famous.length?`<div class="line">The biggest ${s} founders: ${famous.map(f=>`${esc(f.name)} <span style="color:var(--chalk3);font-style:italic">${esc(coName(f.companies[0].name))}</span>`).join(", ")}.</div>`:"")+
    (()=>{ const same=F.filter(f=>f.doy===k).sort((a,b)=>b.value-a.value); return same.length?`<div class="line">Your founder twins, born on your exact day: ${same.slice(0,6).map(f=>`<b>${esc(f.name)}</b> <span style="color:var(--chalk3)">(${esc(coName(f.companies[0].name))})</span>`).join(", ")}.</div>`:""; })()+
    (near.length?`<div class="line">Born within three days of you: ${near.slice(0,5).map(f=>`${esc(f.name)} <span style="color:var(--chalk3)">(${dayName(f.doy)})</span>`).join(", ")}.</div>`:"")+
@@ -1466,7 +1467,7 @@ const SCENE={
   zoom:{lay:"center",label:L_("02","the wheel"),fx:{bars:0,marks:0,centre:0},wheel:{show:"all"},cam:true,enter:()=>{ draw(); const [x,y]=jobsNear(); camTo(x,y,3.4,2000); }},
   reveal:{lay:"center",fx:{bars:0,marks:0,centre:0},wheel:{show:"all"},cam:true,enter:()=>{ if(CAM.z===1){ const [x,y]=jobsNear(); CAM.fx=x; CAM.fy=y; CAM.z=3.4; } camTo(CX,CY,1,2400); }},
   bars:{lay:"center",fx:{bars:0,marks:0},wheel:{},enter:()=>tweenFX("bars",1,2000)},
-  fair:{lay:"left",wheel:{},enter:()=>panel(bigs(scrap(leadN,`${sg.tallest} founders`,"gold"),scrap(Math.round(leadE),`${sg.tallest}'s fair share`)))},
+  fair:{lay:"left",wheel:{},enter:()=>panel(bigs(scrap(leadN,`${sg.tallest} founders`,"gold"),scrap(Math.round(leadE),`an even split: ${nThr}\u00a0founders ÷ 12\u00a0signs`)))},
   every:{lay:"full",enter:()=>panel(signTiles())},
   who:{lay:"title",label:L_("03","the cofounder question"),title:`Who should you <i>start a company with?</i>`},
   rule1:{lay:"full",enter:()=>panel(ruleHTML())},
@@ -1505,7 +1506,7 @@ const FTOTAL=FILMDATA.reduce((t,b)=>t+b.dur+0.45,0);
 function fplay(i){ if(i<0||i>=FILMDATA.length) return; const tok=++FILM.tok; FILM.i=i; const b=FILMDATA[i], sc=SCENE[b.id]||{};
   if(FILM.cur){ FILM.cur.pause(); }
   filmEl.className="film "+(sc.lay||"center");
-  if(sc.label!==undefined) fLabel.innerHTML=sc.label;
+  { let k=i; while(k>0&&(SCENE[FILMDATA[k].id]||{}).label===undefined) k--; const lb=(SCENE[FILMDATA[k].id]||{}).label; fLabel.innerHTML=lb===undefined?"":lb; }   // stepping back shows that scene's chapter, not the last one seen
   if(sc.title!==undefined) fTitle.innerHTML=sc.title;
   fSub.textContent=b.say; fSub.hidden=!FILM.cc;
   // the wheel: every scene states what it needs, so skipping around stays correct
