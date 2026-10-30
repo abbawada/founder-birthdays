@@ -1,6 +1,6 @@
 <title>Founders by Birthday</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="338 founders of the world's most valuable companies, placed on the day they were born. Does any sign, cofounder match or school birthday beat luck?">
+<meta name="description" content="338 founders of the world's most valuable companies, placed on the day they were born. Does any sign, cofounder match or school birthday make a difference?">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=Kalam:wght@300;400;700&display=swap">
@@ -436,7 +436,7 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
     <div>
       <p class="lede" id="lede"></p>
       <div class="actions"><button class="btn gold" id="play" type="button">▶ watch the film · 4 min</button><button class="linkbtn" id="gotoStart" type="button">or scroll down and explore ↓</button></div>
-      <p class="aside">spoiler: it's mostly luck. the stories are the fun part, and one result surprised us.</p>
+      <p class="aside">spoiler: every sign gets its fair share. the stories are the fun part, and one result surprised us.</p>
     </div>
   </header>
 
@@ -1223,17 +1223,25 @@ function simIdea(note){ const a=simPerson(SIM.a), b=simPerson(SIM.b), el=documen
   const d=ideaOf(a,b,SIM.v); if(note) d.by=note; SIM.last=Object.assign({a,b},d); el.innerHTML=corpHTML(d); el.classList.remove("busy");
   const ask=document.getElementById("simAsk"); if(ask) ask.disabled=false; }
 const ASKING=["Claude is reading up on them…","Claude is naming the company…","Claude is sketching the pitch…","Claude is deciding who does what…"];
-async function simAsk(){ const a=simPerson(SIM.a), b=simPerson(SIM.b), el=document.getElementById("simIdea"), btn=document.getElementById("simAsk"); if(!a||!b||a.key===b.key) return;
+async function simAsk(){ const el=document.getElementById("simIdea"), btn=document.getElementById("simAsk");
+  if(!SAMPLE){ SIM.v++; simIdea(); return; }
+  // ask for Claude first, so the time someone spends on Claude's permission box doesn't count against the answer's 45 seconds
+  let perms=null; try{ perms=(window.claude&&window.claude.use)?await window.claude.use("permissions"):null; }catch(e){ perms=null; }
+  if(perms){ let st=null; try{ st=await perms.state("sample"); }catch(e){}
+    if(st==="prompt"){ btn.disabled=true; const c=el.querySelector(".cby"); if(c) c.textContent="Claude is asking your permission in a box on this page. Allow it, and Claude starts inventing."; let r=null; try{ r=await perms.request(["sample"]); }catch(e){} st=r?r.sample:null; btn.disabled=false; }
+    if(st==="denied"||st==="unavailable"){ SAMPLE=null; btn.hidden=true; SIM.v++; simIdea(st==="denied"?"Claude wasn't allowed, so this one is from our idea machine":"Claude isn't switched on here, so this one is from our idea machine"); return; } }
+  return simAskNow(); }
+async function simAskNow(){ const a=simPerson(SIM.a), b=simPerson(SIM.b), el=document.getElementById("simIdea"), btn=document.getElementById("simAsk"); if(!a||!b||a.key===b.key) return;
   if(!SAMPLE){ SIM.v++; simIdea(); return; }
   if(SIM.ctl){ try{ SIM.ctl.abort(); }catch(e){} }
   const my=++SIM.req, ctl=new AbortController(); SIM.ctl=ctl; const fy=foundYear(a,b), m=compatible(a.sign,b.sign);
   const desc=p=>p.me?`the person reading this, ${an(p.sign)} ${p.sign}${p.year?` born in ${p.year}`:""}, who hasn't founded anything famous yet${SIM.skill?` and says they're best at ${SIM.skill}`:""}`:`${p.nm} (born ${p.year}${p.died?`, died ${p.died}`:""}, ${an(p.sign)} ${p.sign}), best known for founding ${p.company}${p.sector?` (${p.sector.toLowerCase()})`:""}`;
-  const rc=realCo(a,b), prompt=`Invent one specific, believable company that two people could have started together. Person A: ${desc(a)}. Person B: ${desc(b)}. Astrology calls them ${m?"a match":"a clash"}. ${rc?`They really did found ${coName(rc.name)} together in ${rc.founded}, so invent the next company they could start together, not that one. `:""}${fy.time?`They could never have worked together (${fy.why}), so make it a playful time-machine company.`:`It is founded in ${fy.y}${a.me||b.me?"":`, ${fy.note}`}.`} Use what each one is really known for. Make it fun but plausible, in plain everyday words. Give it an original name that is not a real company, at most three words; a pitch of one or two short sentences; and one sentence on who does what. Reply with only JSON like {"name":"...","pitch":"...","roles":"..."}.`;
+  const rc=realCo(a,b), prompt=`Invent one specific, believable company that two people could have started together. Person A: ${desc(a)}. Person B: ${desc(b)}. Astrology calls them ${m?"a match":"a clash"}. ${rc?`They really did found ${coName(rc.name)} together in ${rc.founded}, so invent the next company they could start together, not that one. `:""}${fy.time?`They could never have worked together (${fy.why}), so make it a playful time-machine company.`:`It is founded in ${fy.y}${a.me||b.me?"":`, ${fy.note}`}.`} Use what each one is really known for. Make it fun but plausible, in plain everyday words. Give it an original name that is not a real company, at most three words; a pitch of one punchy sentence, under 20 words; and who does what, in one sentence under 20 words. Reply with only JSON like {"name":"...","pitch":"...","roles":"..."}.`;
   btn.disabled=true; el.classList.add("busy"); let tick=0, timedOut=false, cool=false;
   const quit2=setTimeout(()=>{ timedOut=true; ctl.abort(); },45000);
   const ticker=setInterval(()=>{ const c=el.querySelector(".cby"); if(c) c.textContent=ASKING[++tick%ASKING.length]; },1400); const c0=el.querySelector(".cby"); if(c0) c0.textContent=ASKING[0];
   try{ const r=await SAMPLE.json(prompt,{cache:false,signal:ctl.signal}); if(my!==SIM.req) return;
-    const name=clip(r&&r.name,42), pitch=clip(r&&r.pitch,320), roles=clip(r&&r.roles,240); if(!name||!pitch) throw {code:"invalid_json"};
+    const name=clip(r&&r.name,42), pitch=clip(r&&r.pitch,220), roles=clip(r&&r.roles,180); if(!name||!pitch) throw {code:"invalid_json"};
     const d=Object.assign(ideaOf(a,b,SIM.v),{name,pitch,roles,by:"invented by Claude, just for fun"}); SIM.last=Object.assign({a,b},d); el.innerHTML=corpHTML(d); }
   catch(e){ if(my!==SIM.req) return; const code=e&&e.code;
     if(["not_granted","sampling_disabled","not_declared","capability_disabled","capability_removed"].includes(code)){ SAMPLE=null; btn.hidden=true; SIM.v++; simIdea("Claude isn't switched on here, so this one is from our idea machine"); return; }

@@ -5,7 +5,9 @@
    imagined names never equal to a real company, and every replay sums to 100.
 2. The live "invent it with Claude" button against a fake claude.ai runtime:
    an answer, a bad answer, a rate limit, switching teams mid-answer (the old
-   answer must not land), and Claude switched off (the button hides).
+   answer must not land), Claude switched off (the button hides), a slow first
+   permission box (the answer still arrives, the wait is not timed) and a
+   refused permission (the button hides).
 3. Leaving the chapter and coming back keeps the team, the idea and the card.
 
 Run after `pipeline/08_build.py`:
@@ -21,7 +23,7 @@ from playwright.async_api import async_playwright
 
 PAGE = os.environ.get("PAGE") or "file://" + os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist", "index.html"))
 FAKE_CLAUDE = r"""
-window.__mock = {mode: "ok", delay: 400};
+window.__mock = {mode: "ok", delay: 400, perm: "granted", permAnswer: "granted", permDelay: 0};
 window.claude = {use: async (name) => {
   if (name === "sample") { const f = async () => { throw {code: "invalid_request"}; };
     f.json = (prompt, opts) => new Promise((res, rej) => { const m = window.__mock.mode;
@@ -29,6 +31,8 @@ window.claude = {use: async (name) => {
       opts && opts.signal && opts.signal.addEventListener("abort", () => { clearTimeout(t); rej({code: "cancelled"}); }); });
     return f; }
   if (name === "downloads") return {save: async () => ({status: "saved"})};
+  if (name === "permissions") return {state: async () => window.__mock.perm,
+    request: async () => { await new Promise(r => setTimeout(r, window.__mock.permDelay)); window.__mock.perm = window.__mock.permAnswer; return {sample: window.__mock.perm}; }};
   return null; }};
 """
 SWEEP = r"""
@@ -77,8 +81,16 @@ async def main():
         for sel in ["#lore", "#whatif", "#simulator"]:
             await pg.evaluate(f"document.querySelector('{sel}').scrollIntoView({{block:'center'}})"); await pg.wait_for_timeout(700)
         if "Test Works" not in await idea() or await pg.eval_on_selector("#simCardOut", "e=>e.hidden"): fails.append("coming back to the chapter lost the idea or the card")
+        await pg.evaluate("window.__mock.mode='ok'; window.__mock.perm='prompt'; window.__mock.permDelay=1500"); await pg.click("#simAsk"); await pg.wait_for_timeout(400)
+        if "permission" not in await pg.eval_on_selector("#simIdea .cby", "e=>e.innerText"): fails.append("no word on the page while Claude's permission box was open")
+        await pg.wait_for_timeout(1800)
+        if "Test Works" not in await idea(): fails.append("after a slow permission, Claude's answer did not show")
         await pg.evaluate("window.__mock.mode='not_granted'"); await pg.click("#simAsk"); await pg.wait_for_timeout(700)
         if not await pg.eval_on_selector("#simAsk", "e=>e.hidden"): fails.append("the Claude button stayed when Claude was switched off")
+        await pg.reload(); await pg.wait_for_timeout(2500)
+        await pg.evaluate("window.__mock.perm='prompt'; window.__mock.permAnswer='denied'; document.getElementById('simulator').scrollIntoView({block:'center'})"); await pg.wait_for_timeout(500)
+        await pg.click("#simAsk"); await pg.wait_for_timeout(600)
+        if not await pg.eval_on_selector("#simAsk", "e=>e.hidden") or "wasn't allowed" not in await idea(): fails.append("a refused permission did not hide the button and explain")
         await b.close()
     print("\n".join(fails) if fails else "team builder: all checks passed")
     sys.exit(1 if fails else 0)
