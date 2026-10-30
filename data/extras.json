@@ -1,0 +1,1467 @@
+{
+ "ages": {
+  "n": 355,
+  "median": 35.0,
+  "under25": 0.093,
+  "over40": 0.338,
+  "giants_median": 34.0,
+  "big_median": 36.0,
+  "by_era": [
+   {
+    "era": "1960s and 70s",
+    "median": 34.0,
+    "n": 99
+   },
+   {
+    "era": "1980s and early 90s",
+    "median": 34.5,
+    "n": 88
+   },
+   {
+    "era": "late 90s and early 2000s",
+    "median": 36.0,
+    "n": 72
+   },
+   {
+    "era": "2005 to 2015",
+    "median": 37.0,
+    "n": 67
+   },
+   {
+    "era": "since 2015",
+    "median": 36.0,
+    "n": 29
+   }
+  ],
+  "hist": [
+   3,
+   30,
+   69,
+   68,
+   65,
+   43,
+   31,
+   20,
+   13,
+   6,
+   7
+  ],
+  "hist_edges": [
+   15,
+   20,
+   25,
+   30,
+   35,
+   40,
+   45,
+   50,
+   55,
+   60,
+   65,
+   70
+  ],
+  "youngest_giants": [
+   {
+    "name": "John Collison",
+    "company": "Stripe",
+    "age": 19,
+    "ring": "giants",
+    "value": 159000000000.0,
+    "year": 2009
+   },
+   {
+    "name": "Bill Gates",
+    "company": "Microsoft",
+    "age": 20,
+    "ring": "giants",
+    "value": 3943039238144.0,
+    "year": 1975
+   },
+   {
+    "name": "Mark Zuckerberg",
+    "company": "Meta Platforms (Facebook)",
+    "age": 20,
+    "ring": "giants",
+    "value": 1594209206272.0,
+    "year": 2004
+   },
+   {
+    "name": "Dustin Moskovitz",
+    "company": "Meta Platforms (Facebook)",
+    "age": 20,
+    "ring": "giants",
+    "value": 1594209206272.0,
+    "year": 2004
+   },
+   {
+    "name": "Steve Jobs",
+    "company": "Apple",
+    "age": 21,
+    "ring": "giants",
+    "value": 5017916932096.0,
+    "year": 1976
+   },
+   {
+    "name": "Andrew McCollum",
+    "company": "Meta Platforms (Facebook)",
+    "age": 21,
+    "ring": "giants",
+    "value": 1594209206272.0,
+    "year": 2004
+   },
+   {
+    "name": "Chris Hughes",
+    "company": "Meta Platforms (Facebook)",
+    "age": 21,
+    "ring": "giants",
+    "value": 1594209206272.0,
+    "year": 2004
+   },
+   {
+    "name": "Stephen Cohen",
+    "company": "Palantir",
+    "age": 21,
+    "ring": "giants",
+    "value": 472945917952.0,
+    "year": 2003
+   }
+  ],
+  "oldest_giants": [
+   {
+    "name": "Yuan Geng",
+    "company": "Ping An Insurance",
+    "age": 71,
+    "ring": "giants",
+    "value": 144322913984.0,
+    "year": 1988
+   },
+   {
+    "name": "Jack C. Massey",
+    "company": "HCA Healthcare",
+    "age": 64,
+    "ring": "giants",
+    "value": 102760636416.0,
+    "year": 1968
+   },
+   {
+    "name": "Peter George Peterson",
+    "company": "Blackstone Group",
+    "age": 59,
+    "ring": "giants",
+    "value": 139921555456.0,
+    "year": 1985
+   },
+   {
+    "name": "Thomas F. Frist, Sr.",
+    "company": "HCA Healthcare",
+    "age": 58,
+    "ring": "giants",
+    "value": 102760636416.0,
+    "year": 1968
+   },
+   {
+    "name": "Morris Chang",
+    "company": "TSMC",
+    "age": 56,
+    "ring": "giants",
+    "value": 2279507230720.0,
+    "year": 1987
+   }
+  ],
+  "rho_value": -0.104,
+  "p_value": 0.051
+ },
+ "clash": {
+  "slices": [
+   {
+    "label": "All teams",
+    "clash": 105065603072.0,
+    "match": 55179223040.0,
+    "n_clash": 40,
+    "n_match": 33
+   },
+   {
+    "label": "Without OpenAI",
+    "clash": 99425361920.0,
+    "match": 55179223040.0,
+    "n_clash": 39,
+    "n_match": 33
+   },
+   {
+    "label": "Founded before 2000",
+    "clash": 166225425248.0,
+    "match": 85930860544.0,
+    "n_clash": 26,
+    "n_match": 23
+   },
+   {
+    "label": "Founded 2000 or later",
+    "clash": 92463857664.0,
+    "match": 34579594240.0,
+    "n_clash": 14,
+    "n_match": 10
+   },
+   {
+    "label": "Software and internet",
+    "clash": 97206591488.0,
+    "match": 38061948928.0,
+    "n_clash": 13,
+    "n_match": 5
+   },
+   {
+    "label": "Every other industry",
+    "clash": 144322913984.0,
+    "match": 65887211520.0,
+    "n_clash": 27,
+    "n_match": 28
+   },
+   {
+    "label": "Two-founder teams",
+    "clash": 92347785216.0,
+    "match": 65887211520.0,
+    "n_clash": 27,
+    "n_match": 28
+   },
+   {
+    "label": "Three or more founders",
+    "clash": 316826320896.0,
+    "match": 31097239552.0,
+    "n_clash": 13,
+    "n_match": 5
+   }
+  ],
+  "trillion": [
+   {
+    "company": "NVIDIA",
+    "kind": "clash",
+    "value": 5200780722176.0,
+    "people": [
+     "Chris Malachowsky",
+     "Jensen Huang"
+    ],
+    "signs": [
+     "Taurus",
+     "Aquarius"
+    ]
+   },
+   {
+    "company": "Apple",
+    "kind": "clash",
+    "value": 5017916932096.0,
+    "people": [
+     "Ronald Wayne",
+     "Steve Jobs",
+     "Steve Wozniak"
+    ],
+    "signs": [
+     "Taurus",
+     "Pisces",
+     "Leo"
+    ]
+   },
+   {
+    "company": "Microsoft",
+    "kind": "clash",
+    "value": 3943039238144.0,
+    "people": [
+     "Bill Gates",
+     "Paul Allen"
+    ],
+    "signs": [
+     "Scorpio",
+     "Aquarius"
+    ]
+   },
+   {
+    "company": "Alphabet (Google)",
+    "kind": "match",
+    "value": 3936694042624.0,
+    "people": [
+     "Larry Page",
+     "Sergey Brin"
+    ],
+    "signs": [
+     "Aries",
+     "Leo"
+    ]
+   },
+   {
+    "company": "Tesla",
+    "kind": "clash",
+    "value": 1597772529664.0,
+    "people": [
+     "Elon Musk",
+     "J. B. Straubel",
+     "Marc Tarpenning",
+     "Martin Eberhard"
+    ],
+    "signs": [
+     "Cancer",
+     "Sagittarius",
+     "Gemini",
+     "Taurus"
+    ]
+   },
+   {
+    "company": "Meta Platforms (Facebook)",
+    "kind": "clash",
+    "value": 1594209206272.0,
+    "people": [
+     "Andrew McCollum",
+     "Chris Hughes",
+     "Dustin Moskovitz",
+     "Eduardo Saverin"
+    ],
+    "signs": [
+     "Virgo",
+     "Sagittarius",
+     "Gemini",
+     "Pisces"
+    ]
+   }
+  ],
+  "collapsed": {
+   "clash": 0.025,
+   "match": 0.061
+  },
+  "giants_share": {
+   "clash": 0.5,
+   "match": 0.364
+  }
+ },
+ "pairings": [
+  {
+   "elements": [
+    "Earth",
+    "Earth"
+   ],
+   "kind": "match",
+   "n": 10,
+   "median": 262314172416.0,
+   "examples": [
+    "Meta Platforms (Facebook)",
+    "AMD",
+    "Intel"
+   ]
+  },
+  {
+   "elements": [
+    "Earth",
+    "Fire"
+   ],
+   "kind": "clash",
+   "n": 16,
+   "median": 216232803072.0,
+   "examples": [
+    "Apple",
+    "Tesla",
+    "Meta Platforms (Facebook)"
+   ]
+  },
+  {
+   "elements": [
+    "Air",
+    "Earth"
+   ],
+   "kind": "clash",
+   "n": 18,
+   "median": 189063968256.0,
+   "examples": [
+    "NVIDIA",
+    "Tesla",
+    "Meta Platforms (Facebook)"
+   ]
+  },
+  {
+   "elements": [
+    "Air",
+    "Air"
+   ],
+   "kind": "match",
+   "n": 5,
+   "median": 139921555456.0,
+   "examples": [
+    "Palantir",
+    "Databricks",
+    "Blackstone Group"
+   ]
+  },
+  {
+   "elements": [
+    "Air",
+    "Water"
+   ],
+   "kind": "clash",
+   "n": 16,
+   "median": 88925069312.0,
+   "examples": [
+    "Microsoft",
+    "Tesla",
+    "Meta Platforms (Facebook)"
+   ]
+  },
+  {
+   "elements": [
+    "Earth",
+    "Water"
+   ],
+   "kind": "match",
+   "n": 17,
+   "median": 85930860544.0,
+   "examples": [
+    "Apple",
+    "Tesla",
+    "Meta Platforms (Facebook)"
+   ]
+  },
+  {
+   "elements": [
+    "Fire",
+    "Water"
+   ],
+   "kind": "clash",
+   "n": 15,
+   "median": 85502353408.0,
+   "examples": [
+    "Apple",
+    "Tesla",
+    "Meta Platforms (Facebook)"
+   ]
+  },
+  {
+   "elements": [
+    "Air",
+    "Fire"
+   ],
+   "kind": "match",
+   "n": 19,
+   "median": 85502353408.0,
+   "examples": [
+    "Tesla",
+    "Meta Platforms (Facebook)",
+    "SAP"
+   ]
+  },
+  {
+   "elements": [
+    "Fire",
+    "Fire"
+   ],
+   "kind": "match",
+   "n": 10,
+   "median": 84185944064.0,
+   "examples": [
+    "Alphabet (Google)",
+    "Walmart",
+    "OpenAI"
+   ]
+  },
+  {
+   "elements": [
+    "Water",
+    "Water"
+   ],
+   "kind": "match",
+   "n": 8,
+   "median": 51255785472.0,
+   "examples": [
+    "OpenAI",
+    "Cadence Design Systems",
+    "Comcast"
+   ]
+  }
+ ],
+ "earth": {
+  "with": 99425361920.0,
+  "without": 80191668224.0,
+  "n_with": 41,
+  "n_without": 37
+ },
+ "gaps": {
+  "median": 7.0,
+  "buckets": [
+   {
+    "label": "0 to 2 years",
+    "median": 98315976704.0,
+    "n": 24
+   },
+   {
+    "label": "3 to 7 years",
+    "median": 68497939200.0,
+    "n": 16
+   },
+   {
+    "label": "8 to 14 years",
+    "median": 80191668224.0,
+    "n": 23
+   },
+   {
+    "label": "15 years or more",
+    "median": 94981982188.0,
+    "n": 15
+   }
+  ],
+  "widest": [
+   {
+    "company": "Ping An Insurance",
+    "gap": 38,
+    "people": [
+     "Ma Mingzhe",
+     "Yuan Geng"
+    ]
+   },
+   {
+    "company": "HCA Healthcare",
+    "gap": 34,
+    "people": [
+     "Jack C. Massey",
+     "Thomas F. Frist, Jr.",
+     "Thomas F. Frist, Sr."
+    ]
+   },
+   {
+    "company": "Nike",
+    "gap": 27,
+    "people": [
+     "Bill Bowerman",
+     "Phil Knight"
+    ]
+   }
+  ]
+ },
+ "teams": [
+  {
+   "company": "NVIDIA",
+   "kind": "clash",
+   "value": 5200780722176.0,
+   "year": 1993,
+   "size": 2,
+   "gap": 4
+  },
+  {
+   "company": "Apple",
+   "kind": "clash",
+   "value": 5017916932096.0,
+   "year": 1976,
+   "size": 3,
+   "gap": 21
+  },
+  {
+   "company": "Microsoft",
+   "kind": "clash",
+   "value": 3943039238144.0,
+   "year": 1975,
+   "size": 2,
+   "gap": 2
+  },
+  {
+   "company": "Alphabet (Google)",
+   "kind": "match",
+   "value": 3936694042624.0,
+   "year": 1998,
+   "size": 2,
+   "gap": 0
+  },
+  {
+   "company": "OpenAI",
+   "kind": "clash",
+   "value": 852000000000.0,
+   "year": 2015,
+   "size": 7,
+   "gap": 19
+  },
+  {
+   "company": "PayPal",
+   "kind": "even",
+   "value": 47332347904.0,
+   "year": 2000,
+   "size": 4,
+   "gap": 8
+  },
+  {
+   "company": "Tesla",
+   "kind": "clash",
+   "value": 1597772529664.0,
+   "year": 2003,
+   "size": 4,
+   "gap": 11
+  },
+  {
+   "company": "Meta Platforms (Facebook)",
+   "kind": "clash",
+   "value": 1594209206272.0,
+   "year": 2004,
+   "size": 5,
+   "gap": 2
+  },
+  {
+   "company": "AMD",
+   "kind": "clash",
+   "value": 944288825344.0,
+   "year": 1969,
+   "size": 3,
+   "gap": 12
+  },
+  {
+   "company": "Walmart",
+   "kind": "match",
+   "value": 942291025920.0,
+   "year": 1962,
+   "size": 2,
+   "gap": 3
+  },
+  {
+   "company": "Intel",
+   "kind": "clash",
+   "value": 504981618688.0,
+   "year": 1968,
+   "size": 3,
+   "gap": 9
+  },
+  {
+   "company": "Palantir",
+   "kind": "even",
+   "value": 472945917952.0,
+   "year": 2003,
+   "size": 4,
+   "gap": 15
+  },
+  {
+   "company": "Oracle",
+   "kind": "clash",
+   "value": 438173138944.0,
+   "year": 1977,
+   "size": 2,
+   "gap": 3
+  },
+  {
+   "company": "Costco",
+   "kind": "clash",
+   "value": 435476496384.0,
+   "year": 1983,
+   "size": 2,
+   "gap": 6
+  },
+  {
+   "company": "Home Depot",
+   "kind": "clash",
+   "value": 316826320896.0,
+   "year": 1978,
+   "size": 3,
+   "gap": 13
+  },
+  {
+   "company": "SAP",
+   "kind": "clash",
+   "value": 273465606144.0,
+   "year": 1972,
+   "size": 5,
+   "gap": 9
+  },
+  {
+   "company": "Netflix",
+   "kind": "clash",
+   "value": 258122629120.0,
+   "year": 1997,
+   "size": 2,
+   "gap": 2
+  },
+  {
+   "company": "Alibaba",
+   "kind": "match",
+   "value": 251162738688.0,
+   "year": 1999,
+   "size": 2,
+   "gap": 0
+  },
+  {
+   "company": "Arista Networks",
+   "kind": "match",
+   "value": 235495882752.0,
+   "year": 2004,
+   "size": 2,
+   "gap": 4
+  },
+  {
+   "company": "Analog Devices",
+   "kind": "match",
+   "value": 207524855808.0,
+   "year": 1965,
+   "size": 2,
+   "gap": 0
+  },
+  {
+   "company": "Sandisk",
+   "kind": "clash",
+   "value": 203027988480.0,
+   "year": 1988,
+   "size": 2,
+   "gap": 13
+  },
+  {
+   "company": "Inditex",
+   "kind": "match",
+   "value": 195956537672.0,
+   "year": 1975,
+   "size": 2,
+   "gap": 8
+  },
+  {
+   "company": "QUALCOMM",
+   "kind": "clash",
+   "value": 195382591488.0,
+   "year": 1985,
+   "size": 2,
+   "gap": 2
+  },
+  {
+   "company": "BlackRock",
+   "kind": "clash",
+   "value": 188127936512.0,
+   "year": 1988,
+   "size": 3,
+   "gap": 9
+  },
+  {
+   "company": "Seagate Technology",
+   "kind": "match",
+   "value": 158713495552.0,
+   "year": 1978,
+   "size": 2,
+   "gap": 13
+  },
+  {
+   "company": "Ping An Insurance",
+   "kind": "clash",
+   "value": 144322913984.0,
+   "year": 1988,
+   "size": 2,
+   "gap": 38
+  },
+  {
+   "company": "Blackstone Group",
+   "kind": "match",
+   "value": 139921555456.0,
+   "year": 1985,
+   "size": 2,
+   "gap": 21
+  },
+  {
+   "company": "Uber",
+   "kind": "match",
+   "value": 133317894144.0,
+   "year": 2009,
+   "size": 2,
+   "gap": 2
+  },
+  {
+   "company": "Starbucks",
+   "kind": "match",
+   "value": 117647998976.0,
+   "year": 1971,
+   "size": 2,
+   "gap": 0
+  },
+  {
+   "company": "CVS Health",
+   "kind": "match",
+   "value": 115043377152.0,
+   "year": 1963,
+   "size": 2,
+   "gap": 1
+  },
+  {
+   "company": "Spotify",
+   "kind": "clash",
+   "value": 110705844224.0,
+   "year": 2006,
+   "size": 2,
+   "gap": 14
+  },
+  {
+   "company": "HCA Healthcare",
+   "kind": "match",
+   "value": 102760636416.0,
+   "year": 1968,
+   "size": 3,
+   "gap": 34
+  },
+  {
+   "company": "Airbnb",
+   "kind": "clash",
+   "value": 99425361920.0,
+   "year": 2008,
+   "size": 2,
+   "gap": 0
+  },
+  {
+   "company": "Adobe",
+   "kind": "clash",
+   "value": 97206591488.0,
+   "year": 1982,
+   "size": 2,
+   "gap": 1
+  },
+  {
+   "company": "Tata Consultancy Services",
+   "kind": "clash",
+   "value": 94981982188.0,
+   "year": 1968,
+   "size": 2,
+   "gap": 20
+  },
+  {
+   "company": "Cadence Design Systems",
+   "kind": "match",
+   "value": 94455947264.0,
+   "year": 1983,
+   "size": 2,
+   "gap": 4
+  },
+  {
+   "company": "Synopsys",
+   "kind": "clash",
+   "value": 92347785216.0,
+   "year": 1986,
+   "size": 2,
+   "gap": 7
+  },
+  {
+   "company": "Waste Management",
+   "kind": "clash",
+   "value": 89995878400.0,
+   "year": 1968,
+   "size": 2,
+   "gap": 6
+  },
+  {
+   "company": "KKR & Co.",
+   "kind": "match",
+   "value": 85930860544.0,
+   "year": 1976,
+   "size": 3,
+   "gap": 19
+  },
+  {
+   "company": "Moderna",
+   "kind": "clash",
+   "value": 85502353408.0,
+   "year": 2010,
+   "size": 5,
+   "gap": 18
+  },
+  {
+   "company": "Glencore",
+   "kind": "clash",
+   "value": 85073338368.0,
+   "year": 1974,
+   "size": 2,
+   "gap": 0
+  },
+  {
+   "company": "Xiaomi",
+   "kind": "match",
+   "value": 82869534720.0,
+   "year": 2010,
+   "size": 2,
+   "gap": 8
+  },
+  {
+   "company": "Simon Property Group",
+   "kind": "clash",
+   "value": 80191668224.0,
+   "year": 1960,
+   "size": 2,
+   "gap": 8
+  },
+  {
+   "company": "Comcast",
+   "kind": "match",
+   "value": 76595200000.0,
+   "year": 1963,
+   "size": 2,
+   "gap": 13
+  },
+  {
+   "company": "Energy Transfer LP",
+   "kind": "clash",
+   "value": 71310729216.0,
+   "year": 1996,
+   "size": 2,
+   "gap": 14
+  },
+  {
+   "company": "Apollo Global Management",
+   "kind": "even",
+   "value": 66997121024.0,
+   "year": 1990,
+   "size": 4,
+   "gap": 13
+  },
+  {
+   "company": "Nike",
+   "kind": "match",
+   "value": 55179223040.0,
+   "year": 1964,
+   "size": 2,
+   "gap": 27
+  },
+  {
+   "company": "Cathay Financial Holding",
+   "kind": "clash",
+   "value": 52599654819.0,
+   "year": 1962,
+   "size": 2,
+   "gap": 8
+  },
+  {
+   "company": "Workday",
+   "kind": "clash",
+   "value": 49250758656.0,
+   "year": 2005,
+   "size": 2,
+   "gap": 26
+  },
+  {
+   "company": "Teradyne",
+   "kind": "clash",
+   "value": 48972177408.0,
+   "year": 1960,
+   "size": 2,
+   "gap": 1
+  },
+  {
+   "company": "Infosys",
+   "kind": "even",
+   "value": 48969052160.0,
+   "year": 1981,
+   "size": 4,
+   "gap": 9
+  },
+  {
+   "company": "Block",
+   "kind": "clash",
+   "value": 45185794048.0,
+   "year": 2009,
+   "size": 2,
+   "gap": 11
+  },
+  {
+   "company": "Illumina",
+   "kind": "match",
+   "value": 43607289856.0,
+   "year": 1998,
+   "size": 2,
+   "gap": 2
+  },
+  {
+   "company": "Coinbase",
+   "kind": "clash",
+   "value": 42826010624.0,
+   "year": 2012,
+   "size": 2,
+   "gap": 5
+  },
+  {
+   "company": "Sysco",
+   "kind": "match",
+   "value": 40410730496.0,
+   "year": 1969,
+   "size": 2,
+   "gap": 1
+  },
+  {
+   "company": "Sun Hung Kai Properties",
+   "kind": "match",
+   "value": 39482667464.0,
+   "year": 1963,
+   "size": 2,
+   "gap": 17
+  },
+  {
+   "company": "Roblox",
+   "kind": "match",
+   "value": 38061948928.0,
+   "year": 2004,
+   "size": 2,
+   "gap": 4
+  },
+  {
+   "company": "Take-Two Interactive",
+   "kind": "clash",
+   "value": 36515409920.0,
+   "year": 1993,
+   "size": 2,
+   "gap": 6
+  },
+  {
+   "company": "Vodafone",
+   "kind": "match",
+   "value": 36210425856.0,
+   "year": 1984,
+   "size": 2,
+   "gap": 1
+  },
+  {
+   "company": "Biogen",
+   "kind": "even",
+   "value": 36059365376.0,
+   "year": 1978,
+   "size": 4,
+   "gap": 14
+  },
+  {
+   "company": "Alnylam Pharmaceuticals",
+   "kind": "match",
+   "value": 31097239552.0,
+   "year": 2002,
+   "size": 4,
+   "gap": 26
+  },
+  {
+   "company": "Lenovo",
+   "kind": "match",
+   "value": 35004651677.0,
+   "year": 1984,
+   "size": 2,
+   "gap": 13
+  },
+  {
+   "company": "TKO Group Holdings",
+   "kind": "clash",
+   "value": 32910219264.0,
+   "year": 2023,
+   "size": 2,
+   "gap": 16
+  },
+  {
+   "company": "MongoDB",
+   "kind": "clash",
+   "value": 31694088192.0,
+   "year": 2007,
+   "size": 3,
+   "gap": 13
+  },
+  {
+   "company": "Teledyne Technologies",
+   "kind": "match",
+   "value": 30834819072.0,
+   "year": 1960,
+   "size": 3,
+   "gap": 10
+  },
+  {
+   "company": "Ryanair",
+   "kind": "match",
+   "value": 27092600832.0,
+   "year": 1984,
+   "size": 2,
+   "gap": 0
+  },
+  {
+   "company": "Reddit",
+   "kind": "match",
+   "value": 25915809792.0,
+   "year": 2005,
+   "size": 3,
+   "gap": 3
+  },
+  {
+   "company": "BioNTech",
+   "kind": "match",
+   "value": 22103472128.0,
+   "year": 2008,
+   "size": 2,
+   "gap": 2
+  },
+  {
+   "company": "Southwest Airlines",
+   "kind": "clash",
+   "value": 21265881088.0,
+   "year": 1967,
+   "size": 2,
+   "gap": 0
+  },
+  {
+   "company": "J. B. Hunt",
+   "kind": "match",
+   "value": 20964114432.0,
+   "year": 1961,
+   "size": 2,
+   "gap": 5
+  },
+  {
+   "company": "Partners Group",
+   "kind": "match",
+   "value": 20442103503.0,
+   "year": 1996,
+   "size": 2,
+   "gap": 4
+  },
+  {
+   "company": "Databricks",
+   "kind": "clash",
+   "value": 190000000000.0,
+   "year": 2013,
+   "size": 3,
+   "gap": 20
+  },
+  {
+   "company": "Stripe",
+   "kind": "clash",
+   "value": 159000000000.0,
+   "year": 2009,
+   "size": 2,
+   "gap": 2
+  },
+  {
+   "company": "Mistral AI",
+   "kind": "clash",
+   "value": 24000000000.0,
+   "year": 2023,
+   "size": 2,
+   "gap": 2
+  },
+  {
+   "company": "Kalshi",
+   "kind": "match",
+   "value": 22000000000.0,
+   "year": 2018,
+   "size": 2,
+   "gap": 0
+  },
+  {
+   "company": "WeWork",
+   "kind": "match",
+   "value": 47000000000.0,
+   "year": 2010,
+   "size": 2,
+   "gap": 5
+  },
+  {
+   "company": "Byju's",
+   "kind": "match",
+   "value": 22000000000.0,
+   "year": 2011,
+   "size": 2,
+   "gap": 7
+  },
+  {
+   "company": "Vice Media",
+   "kind": "clash",
+   "value": 5700000000.0,
+   "year": 1994,
+   "size": 3,
+   "gap": 1
+  }
+ ],
+ "twins": {
+  "n_people": 338,
+  "pairs": 176,
+  "expected_pairs": 156.0,
+  "days": 90,
+  "top": [
+   {
+    "day": "08-11",
+    "people": [
+     {
+      "name": "Steve Wozniak",
+      "company": "Apple"
+     },
+     {
+      "name": "Masayoshi Son",
+      "company": "SoftBank Corp."
+     },
+     {
+      "name": "Frederick W. Smith",
+      "company": "FedEx"
+     },
+     {
+      "name": "Leonid Mikhelson",
+      "company": "Novatek"
+     }
+    ],
+    "value": 5305123425285.0
+   },
+   {
+    "day": "05-02",
+    "people": [
+     {
+      "name": "Chris Malachowsky",
+      "company": "NVIDIA"
+     },
+     {
+      "name": "Mark Rein",
+      "company": "Epic Games"
+     }
+    ],
+    "value": 5225780722176.0
+   },
+   {
+    "day": "02-24",
+    "people": [
+     {
+      "name": "Steve Jobs",
+      "company": "Apple"
+     },
+     {
+      "name": "Phil Knight",
+      "company": "Nike"
+     },
+     {
+      "name": "Robert Tsao",
+      "company": "United Microelectronics"
+     },
+     {
+      "name": "Ted Arison",
+      "company": "Carnival Corporation"
+     }
+    ],
+    "value": 5158024753152.0
+   },
+   {
+    "day": "05-17",
+    "people": [
+     {
+      "name": "Ronald Wayne",
+      "company": "Apple"
+     },
+     {
+      "name": "Eliot Horowitz",
+      "company": "MongoDB"
+     }
+    ],
+    "value": 5049611020288.0
+   },
+   {
+    "day": "03-26",
+    "people": [
+     {
+      "name": "Larry Page",
+      "company": "Alphabet (Google)"
+     },
+     {
+      "name": "Edwin Turney",
+      "company": "AMD"
+     },
+     {
+      "name": "Suroosh Alvi",
+      "company": "Vice Media"
+     }
+    ],
+    "value": 4886682867968.0
+   },
+   {
+    "day": "01-21",
+    "people": [
+     {
+      "name": "Paul Allen",
+      "company": "Microsoft"
+     },
+     {
+      "name": "Hasso Plattner",
+      "company": "SAP"
+     }
+    ],
+    "value": 4216504844288.0
+   },
+   {
+    "day": "10-28",
+    "people": [
+     {
+      "name": "Bill Gates",
+      "company": "Microsoft"
+     },
+     {
+      "name": "Gordon Bowker",
+      "company": "Starbucks"
+     },
+     {
+      "name": "Bernie Ecclestone",
+      "company": "Formula One Group"
+     }
+    ],
+    "value": 4083466610688.0
+   },
+   {
+    "day": "08-21",
+    "people": [
+     {
+      "name": "Sergey Brin",
+      "company": "Alphabet (Google)"
+     },
+     {
+      "name": "Joe Gebbia",
+      "company": "Airbnb"
+     },
+     {
+      "name": "François Pinault",
+      "company": "Kering"
+     }
+    ],
+    "value": 4060670573576.0
+   },
+   {
+    "day": "12-20",
+    "people": [
+     {
+      "name": "J. B. Straubel",
+      "company": "Tesla"
+     },
+     {
+      "name": "Bud Walton",
+      "company": "Walmart"
+     },
+     {
+      "name": "Tsai Wan-chun",
+      "company": "Cathay Financial Holding"
+     }
+    ],
+    "value": 2592663210403.0
+   },
+   {
+    "day": "07-10",
+    "people": [
+     {
+      "name": "Morris Chang",
+      "company": "TSMC"
+     },
+     {
+      "name": "Jerome Kohlberg, Jr.",
+      "company": "KKR & Co."
+     }
+    ],
+    "value": 2365438091264.0
+   }
+  ]
+ },
+ "school": {
+  "oldest_third": 88,
+  "youngest_third": 91,
+  "n": 274,
+  "oldest_third_expected": 91.1,
+  "youngest_third_expected": 91.1
+ },
+ "lore": [
+  {
+   "sign": "Libra",
+   "says": "the sign of partnership",
+   "question": "Do Libras start companies with a cofounder more often?",
+   "value": 0.6666666666666666,
+   "all": 0.6863905325443787,
+   "fmt": "pct",
+   "unit": "have a cofounder",
+   "n": 39,
+   "p": 0.854,
+   "verdict": "no difference"
+  },
+  {
+   "sign": "Leo",
+   "says": "the born leader",
+   "question": "Do Leos go it alone more often?",
+   "value": 0.4193548387096774,
+   "all": 0.31360946745562135,
+   "fmt": "pct",
+   "unit": "founded solo",
+   "n": 31,
+   "p": 0.222,
+   "verdict": "as the stars say"
+  },
+  {
+   "sign": "Aries",
+   "says": "the pioneer who starts young",
+   "question": "Do Aries start younger?",
+   "value": 36.5,
+   "all": 35.0,
+   "fmt": "age",
+   "unit": "typical age at founding",
+   "n": 22,
+   "p": 0.667,
+   "verdict": "the opposite"
+  },
+  {
+   "sign": "Capricorn",
+   "says": "the patient climber",
+   "question": "Do Capricorns start later?",
+   "value": 32.0,
+   "all": 35.0,
+   "fmt": "age",
+   "unit": "typical age at founding",
+   "n": 27,
+   "p": 0.344,
+   "verdict": "the opposite"
+  },
+  {
+   "sign": "Sagittarius",
+   "says": "the risk-taker",
+   "question": "Do Sagittarians crash more often?",
+   "value": 0.0,
+   "all": 0.0621301775147929,
+   "fmt": "pct",
+   "unit": "founded a company that collapsed",
+   "n": 24,
+   "p": 0.384,
+   "verdict": "the opposite"
+  },
+  {
+   "sign": "Taurus",
+   "says": "the sign of money",
+   "question": "Do Taurus founders build more valuable companies?",
+   "value": 47000000000.0,
+   "all": 61334241280.0,
+   "fmt": "money",
+   "unit": "typical company value",
+   "n": 29,
+   "p": 0.416,
+   "verdict": "the opposite"
+  },
+  {
+   "sign": "Gemini",
+   "says": "the communicator",
+   "question": "Do Geminis build more software and internet companies?",
+   "value": 0.3181818181818182,
+   "all": 0.26627218934911245,
+   "fmt": "pct",
+   "unit": "in software and internet",
+   "n": 22,
+   "p": 0.62,
+   "verdict": "as the stars say"
+  },
+  {
+   "sign": "Aquarius",
+   "says": "the inventor",
+   "question": "Do Aquarians build more tech?",
+   "value": 0.4090909090909091,
+   "all": 0.41124260355029585,
+   "fmt": "pct",
+   "unit": "in software or chips",
+   "n": 22,
+   "p": 1.0,
+   "verdict": "no difference"
+  },
+  {
+   "sign": "Scorpio",
+   "says": "the sign of power and other people's money",
+   "question": "Do Scorpios build more banks and funds?",
+   "value": 0.22580645161290322,
+   "all": 0.17455621301775148,
+   "fmt": "pct",
+   "unit": "in money and finance",
+   "n": 31,
+   "p": 0.45,
+   "verdict": "as the stars say"
+  },
+  {
+   "sign": "Virgo",
+   "says": "the healer with an eye for detail",
+   "question": "Do Virgos build more health companies?",
+   "value": 0.14285714285714285,
+   "all": 0.1242603550295858,
+   "fmt": "pct",
+   "unit": "in health and biotech",
+   "n": 28,
+   "p": 0.77,
+   "verdict": "no difference"
+  }
+ ]
+}

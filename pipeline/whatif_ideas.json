@@ -1,0 +1,12 @@
+{
+ "Mark Zuckerberg|Steve Jobs": {"year": 2007, "name": "Hearth", "pitch": "A phone with only your people on it. Jobs designs one beautiful device, Zuckerberg builds the network inside it. No ads, a monthly fee, and every photo you share stays on the glass."},
+ "Sam Altman|Paul Allen": {"year": 2016, "name": "Long Context", "pitch": "An AI lab trained on every brain scan and science paper ever published, rented to research labs by the hour. Allen funds the moonshot, Altman raises the next ten billion."},
+ "Steve Wozniak|Michael Dell": {"year": 1987, "name": "Open Case", "pitch": "Computers built to order and shipped in five days, with boards anyone can repair. Woz designs them, Dell sells them by phone, and the warranty lasts for life if you fix it yourself."},
+ "Ronald Wayne|Sergey Brin": {"year": 1998, "name": "The 800 Club", "pitch": "A fund that buys tiny stakes in garage startups and is banned from selling for forty years. Wayne knows what selling early costs, after letting his Apple stake go for $800. Brin brings the garage."},
+ "Dietmar Hopp|Robert Noyce": {"year": 1975, "name": "Integrated Ledger", "pitch": "A chip that keeps a company's books. Noyce puts the accounting on silicon, Hopp sells it to every factory in Europe, and real-time accounting arrives a decade early."},
+ "Bill Gates|Jensen Huang": {"year": 1995, "name": "Parallel", "pitch": "An operating system built for graphics chips first. Huang sells the silicon to every PC maker, Gates licenses the software to all of them, and the AI boom starts twenty years early."},
+ "Larry Page|Larry Ellison": {"year": 1999, "name": "Index", "pitch": "One database for the whole web. Page ranks it, Ellison sells it to every company on Earth on a ten-year contract."},
+ "Dustin Moskovitz|Ilya Sutskever": {"year": 2015, "name": "Nudge", "pitch": "AI that runs a team's to-do list. Asana's map of who does what, plus a model that spots the task about to slip and quietly hands it to someone free."},
+ "Martin Eberhard|Peter George Peterson": {"year": 2003, "name": "Charge Partners", "pitch": "A buyout firm that buys tired car makers and turns their factories electric. Peterson finds the deals, Eberhard rebuilds the cars."},
+ "Elon Musk|Chris Hughes": {"year": 2010, "name": "Dividend", "pitch": "A rocket company owned by its passengers. Every launch pays a dividend to everyone who ever bought a ticket: Hughes's guaranteed-income idea strapped to Musk's rockets."}
+}

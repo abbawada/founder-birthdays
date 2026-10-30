@@ -31,7 +31,8 @@ $P -P pipeline/09_rising.py        # Rising sign where Astro-Databank has a time
 $P -P pipeline/12_sectors.py       # company type from the Wikipedia industry line  -> data/sectors.json
 $P -P pipeline/07_stats.py         # the pre-registered tests and labelled extras   -> data/stats.json
 $P -P pipeline/08_build.py         # inline everything                              -> dist/index.html, dist/artifact.html
-$P -P pipeline/13_whatif.py        # ten what-if cofounders + halftone portraits    -> data/whatif.json
+$P -P pipeline/15_extras.py        # founding ages, age gaps, birthday twins, the clash finding sliced, sign traits -> data/extras.json
+$P -P pipeline/13_whatif.py        # ten what-if cofounders, imagined companies (pipeline/whatif_ideas.json), portraits -> data/whatif.json, data/portraits.json
 PYTHONPATH=pipeline ~/.venvs/tts/bin/python -P pipeline/14_film.py   # film narration, voiced with Kokoro -> data/film.json, VIDEO_SCRIPT.md
 $P -P pipeline/08_build.py         # build again so the page carries the film and portraits
 ```
@@ -47,6 +48,7 @@ $P -P pipeline/08_build.py         # build again so the page carries the film an
 - New founder-value analysis (`T["value"]`): which signs and sign pairs built the most, and whether matched teams built bigger companies (one vote per company, team-shuffle null). Clashing teams came out ahead ($105B vs $55B median, about 1 in 17 by chance), reported as a lead, not a finding.
 - Ten what-if cofounders (`13_whatif.py`), ranked by that value data, with portraits from Wikimedia Commons.
 - A narrated film (`14_film.py`) replaced the old Play the story.
+- Founder-first rewrite: "fair share" instead of "born like everyone else", the coin-flip framing for matches, the clash finding sliced by era, industry, team size and without OpenAI (`15_extras.py`), the money map as the default chart, a team simulator (with a live "invent their company" button that asks Claude when the page runs as a claude.ai artifact), astrology's sign traits checked against the data, founding ages, and birthday twins. Null results moved to one paragraph under How we did it.
 
 ## Sources
 

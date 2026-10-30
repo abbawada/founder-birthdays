@@ -52,6 +52,11 @@
    "license": "CC BY-SA 3.0",
    "file_url": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP2.jpg",
    "face_found": true
+  },
+  "idea": {
+   "year": 2007,
+   "name": "Hearth",
+   "pitch": "A phone with only your people on it. Jobs designs one beautiful device, Zuckerberg builds the network inside it. No ads, a monthly fee, and every photo you share stays on the glass."
   }
  },
  {
@@ -107,6 +112,11 @@
    "license": "CC BY-SA 3.0",
    "file_url": "https://commons.wikimedia.org/wiki/File:Paul_G._Allen_(cropped).jpg",
    "face_found": true
+  },
+  "idea": {
+   "year": 2016,
+   "name": "Long Context",
+   "pitch": "An AI lab trained on every brain scan and science paper ever published, rented to research labs by the hour. Allen funds the moonshot, Altman raises the next ten billion."
   }
  },
  {
@@ -162,6 +172,11 @@
    "license": "CC BY 2.0",
    "file_url": "https://commons.wikimedia.org/wiki/File:Michael_Dell_2010.jpg",
    "face_found": true
+  },
+  "idea": {
+   "year": 1987,
+   "name": "Open Case",
+   "pitch": "Computers built to order and shipped in five days, with boards anyone can repair. Woz designs them, Dell sells them by phone, and the warranty lasts for life if you fix it yourself."
   }
  },
  {
@@ -212,6 +227,11 @@
    "license": "CC BY 2.0",
    "file_url": "https://commons.wikimedia.org/wiki/File:Sergey_Brin_Ted_2010_(cropped).jpg",
    "face_found": true
+  },
+  "idea": {
+   "year": 1998,
+   "name": "The 800 Club",
+   "pitch": "A fund that buys tiny stakes in garage startups and is banned from selling for forty years. Wayne knows what selling early costs, after letting his Apple stake go for $800. Brin brings the garage."
   }
  },
  {
@@ -267,6 +287,11 @@
    "license": "CC BY-SA 2.0",
    "file_url": "https://commons.wikimedia.org/wiki/File:Robert_Noyce_with_Motherboard_1959.png",
    "face_found": true
+  },
+  "idea": {
+   "year": 1975,
+   "name": "Integrated Ledger",
+   "pitch": "A chip that keeps a company's books. Noyce puts the accounting on silicon, Hopp sells it to every factory in Europe, and real-time accounting arrives a decade early."
   }
  },
  {
@@ -317,6 +342,11 @@
    "license": "Public domain",
    "file_url": "https://commons.wikimedia.org/wiki/File:Jen-Hsun_Huang_2025.jpg",
    "face_found": true
+  },
+  "idea": {
+   "year": 1995,
+   "name": "Parallel",
+   "pitch": "An operating system built for graphics chips first. Huang sells the silicon to every PC maker, Gates licenses the software to all of them, and the AI boom starts twenty years early."
   }
  },
  {
@@ -367,6 +397,11 @@
    "license": "CC BY 2.0",
    "file_url": "https://commons.wikimedia.org/wiki/File:Larry_Ellison_picture.png",
    "face_found": true
+  },
+  "idea": {
+   "year": 1999,
+   "name": "Index",
+   "pitch": "One database for the whole web. Page ranks it, Ellison sells it to every company on Earth on a ten-year contract."
   }
  },
  {
@@ -422,6 +457,11 @@
    "license": "CC BY-SA 4.0",
    "file_url": "https://commons.wikimedia.org/wiki/File:Ilya_Sutskever_and_Sam_Altman_in_TAU_(cropped).jpg",
    "face_found": true
+  },
+  "idea": {
+   "year": 2015,
+   "name": "Nudge",
+   "pitch": "AI that runs a team's to-do list. Asana's map of who does what, plus a model that spots the task about to slip and quietly hands it to someone free."
   }
  },
  {
@@ -477,6 +517,11 @@
    "license": "Public domain",
    "file_url": "https://commons.wikimedia.org/wiki/File:PeterGeorgePeterson.jpg",
    "face_found": true
+  },
+  "idea": {
+   "year": 2003,
+   "name": "Charge Partners",
+   "pitch": "A buyout firm that buys tired car makers and turns their factories electric. Peterson finds the deals, Eberhard rebuilds the cars."
   }
  },
  {
@@ -532,6 +577,11 @@
    "license": "CC BY 2.0",
    "file_url": "https://commons.wikimedia.org/wiki/File:Chris_Hughes_(cropped).jpg",
    "face_found": true
+  },
+  "idea": {
+   "year": 2010,
+   "name": "Dividend",
+   "pitch": "A rocket company owned by its passengers. Every launch pays a dividend to everyone who ever bought a ticket: Hughes's guaranteed-income idea strapped to Musk's rockets."
   }
  }
 ]

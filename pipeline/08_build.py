@@ -178,7 +178,9 @@ meta = {"pulled": "2026-10-29", "regions": REGIONS, "eras": ERAS, "methods_table
 stats["tests"].get("relative_age", {}).pop("per_founder", None)   # already folded into each founder
 whatif = load_json(os.path.join(DATA, "whatif.json"), [])
 film = load_json(os.path.join(DATA, "film.json"), [])
-payload = {"film": film, "whatif": whatif, "founders": out_f, "companies": [{"name": c["name"], "ring": c["ring"], "value": c["value_usd"], "founded": c["founded_year"], "sector": sectors.get(c["name"], {}).get("sector")} for c in companies], "stats": stats, "meta": meta}
+extras = load_json(os.path.join(DATA, "extras.json"), {})
+portraits = load_json(os.path.join(DATA, "portraits.json"), {})
+payload = {"extras": extras, "portraits": portraits, "film": film, "whatif": whatif, "founders": out_f, "companies": [{"name": c["name"], "ring": c["ring"], "value": c["value_usd"], "founded": c["founded_year"], "sector": sectors.get(c["name"], {}).get("sector")} for c in companies], "stats": stats, "meta": meta}
 
 tpl = open(os.path.join(ROOT, "pipeline", "template.html")).read()
 html = tpl.replace("/*DATA*/null/*DATA*/", json.dumps(payload, ensure_ascii=False, separators=(",", ":")))

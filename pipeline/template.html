@@ -137,6 +137,45 @@ canvas#ring{width:100%;height:100%;display:block;touch-action:pan-y}
 .wcard .astro{font-family:var(--hand);font-size:14.5px;margin-top:4px;color:#5c5663}
 .credits{font-size:13.5px;color:var(--chalk3);margin-top:10px;line-height:1.45}
 .credits a{color:var(--chalk2)}
+/* new founder chapters */
+.giants{list-style:none;margin:6px 0 14px;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:4px 18px;font-size:16px}
+.giants li{border-bottom:1px dashed rgba(241,235,221,.15);padding:4px 0}
+.giants .g{font-family:var(--display);color:var(--gold2)} .giants .v{font-family:var(--hand);color:var(--chalk3);font-size:14px}
+.ktag{font-family:var(--hand);font-size:14px;padding:0 8px;border:1.5px solid currentColor;border-radius:10px 14px 8px 12px;color:var(--chalk2)}
+.ktag.clash{color:#ff8a7c} .ktag.match{color:var(--gold2)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:8px 0 16px}
+.tile{background:var(--night2);border:1.5px solid rgba(241,235,221,.25);border-radius:6px 12px 5px 10px/10px 5px 12px 6px;padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+.tile.clash{border-color:rgba(255,138,124,.6)} .tile.match{border-color:rgba(242,205,122,.7)}
+.tile .tco{font-family:var(--display);font-size:20px;line-height:1.1}
+.tile .tval{font-family:var(--hand);font-size:22px;color:var(--gold2)}
+.tile .tppl{font-size:14px;color:var(--chalk2);line-height:1.3}
+.tile .ktag{align-self:flex-start;margin-top:4px}
+.facts{margin:12px 0 14px;padding-left:20px} .facts li{margin-bottom:6px;max-width:60ch}
+.lore{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-top:8px}
+.lcard{background:var(--paper);color:var(--ink);padding:12px 14px 10px;background-image:radial-gradient(rgba(29,27,40,.08) 1px,transparent 1.3px);background-size:5px 5px;transform:rotate(var(--rot,0deg))}
+.lcard .lsg{font-family:var(--display);font-size:18px;line-height:1.2} .lcard .lsg i{color:#6b5a2a}
+.lcard .lq{font-size:15px;color:#4a4552;margin:4px 0}
+.lcard .lnum{font-family:var(--hand);font-size:16px} .lcard .lnum b{font-family:var(--display);font-size:30px;font-weight:400;margin-right:6px}
+.lcard .lnum span{display:block;font-size:14px;color:#5c5663}
+.lcard .lv{font-family:var(--hand);font-weight:700;font-size:16px;margin-top:4px;display:inline-block;padding:0 10px;border:2px solid currentColor;border-radius:12px 18px 10px 16px;transform:rotate(-3deg)}
+.lcard .lv.yes{color:var(--inkgold)} .lcard .lv.opp{color:var(--inkred)} .lcard .lv.none{color:#5c5663}
+.twins{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin-top:6px}
+.twin{background:var(--paper);color:var(--ink);padding:10px 12px;background-image:radial-gradient(rgba(29,27,40,.08) 1px,transparent 1.3px);background-size:5px 5px;transform:rotate(var(--rot,0deg))}
+.twin .tday{font-family:var(--display);font-style:italic;font-size:22px;color:var(--inkred)}
+.twin img{width:70px;float:right;margin:0 0 4px 6px}
+.twin ul{list-style:none;margin:2px 0 0;padding:0;font-size:14.5px;line-height:1.35} .twin li b{font-weight:600}
+.sim{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:8px 0 12px} .sim select{width:100%}
+.simout{background:var(--paper);color:var(--ink);padding:14px 16px;background-image:radial-gradient(rgba(29,27,40,.08) 1px,transparent 1.3px);background-size:5px 5px;font-size:16px;line-height:1.45}
+.simout .shead{font-family:var(--display);font-size:24px;line-height:1.1;margin-bottom:6px}
+.simout .shead i{color:var(--inkred)}
+.simout ul{margin:6px 0 0;padding-left:18px}
+.simidea{margin-top:10px;min-height:20px}
+.simidea .card2{background:var(--night2);border:1.5px dashed rgba(242,205,122,.6);border-radius:8px 14px 6px 12px;padding:12px 16px}
+.simidea .iname{font-family:var(--display);font-size:26px;color:var(--gold2)} .simidea .iyr{font-family:var(--hand);color:var(--chalk3)}
+.simidea .by{font-family:var(--hand);font-size:14px;color:var(--chalk3);margin-top:4px}
+.wcard .idea{border-top:1px dashed rgba(29,27,40,.3);padding-top:6px;margin-top:4px}
+.wcard .idea .iname{font-family:var(--display);font-size:22px;color:var(--inkred)} .wcard .idea .iyr{font-family:var(--hand);font-size:14px;color:#5c5663}
+.wcard .idea p{font-size:15px;line-height:1.35;color:var(--ink);margin:2px 0 4px}
 /* match chart */
 .mx-wrap{overflow-x:auto;margin-top:10px;padding:4px}
 .mx{display:grid;grid-template-columns:86px repeat(12,minmax(0,1fr));gap:4px;min-width:360px}
@@ -212,16 +251,16 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
 .film{position:fixed;inset:0;z-index:100;overflow:hidden;color:var(--chalk);background:radial-gradient(ellipse 60% 50% at 30% 20%,#1b2550 0%,rgba(27,37,80,0) 70%),radial-gradient(ellipse 50% 60% at 80% 70%,#132c3e 0%,rgba(19,44,62,0) 70%),var(--night)}
 .film[hidden]{display:none}
 .film::after{content:"";position:absolute;inset:0;background-image:var(--grain);opacity:.5;mix-blend-mode:overlay;pointer-events:none}
-.f-stage{position:absolute;left:50%;top:47%;width:min(84vh,66vw);aspect-ratio:1/1;transform:translate(-50%,-50%);transition:left 1s cubic-bezier(.6,0,.3,1),width 1s cubic-bezier(.6,0,.3,1),opacity .7s,filter .7s}
+.f-stage{position:absolute;left:50%;top:calc(50% - 50px);width:min(calc(100vh - 240px),66vw);aspect-ratio:1/1;transform:translate(-50%,-50%);transition:left 1s cubic-bezier(.6,0,.3,1),width 1s cubic-bezier(.6,0,.3,1),opacity .7s,filter .7s}
 .f-stage .ringbox{width:100%;max-width:100%}
 .f-stage{-webkit-mask-image:radial-gradient(closest-side,#000 95%,transparent 100%);mask-image:radial-gradient(closest-side,#000 95%,transparent 100%)}
-.film.left .f-stage{left:31%;width:min(80vh,54vw)}
+.film.left .f-stage{left:31%;width:min(calc(100vh - 240px),52vw)}
 .film.title .f-stage{opacity:.22;filter:blur(3px)}
 .film.full .f-stage{opacity:0}
-.f-panel{position:absolute;right:5vw;top:47%;transform:translateY(-50%);width:min(40vw,560px);opacity:0;transition:opacity .6s;display:flex;flex-direction:column;gap:18px;align-items:flex-start}
+.f-panel{position:absolute;right:5vw;top:calc(50% - 50px);transform:translateY(-50%);max-height:calc(100vh - 230px);width:min(40vw,560px);opacity:0;transition:opacity .6s;display:flex;flex-direction:column;gap:18px;align-items:flex-start}
 .film.left .f-panel{opacity:1}
 .film.full .f-panel{opacity:1;right:auto;left:50%;transform:translate(-50%,-50%);width:min(90vw,980px);align-items:center}
-.f-title{position:absolute;left:6vw;right:6vw;top:44%;transform:translateY(-50%);text-align:center;font-family:var(--display);font-size:clamp(44px,6.6vw,104px);line-height:1;opacity:0;transition:opacity .6s;text-wrap:balance}
+.f-title{position:absolute;left:6vw;right:6vw;top:calc(50% - 70px);transform:translateY(-50%);text-align:center;font-family:var(--display);font-size:clamp(44px,6.6vw,104px);line-height:1;opacity:0;transition:opacity .6s;text-wrap:balance}
 .f-title i{color:var(--gold2)}
 .film.title .f-title{opacity:1}
 .f-label{position:absolute;top:calc(18px + env(safe-area-inset-top,0px));left:max(24px,env(safe-area-inset-left,0px));font-family:var(--hand);font-size:17px;color:var(--gold2)}
@@ -233,10 +272,12 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
 .f-bar .txt{border-radius:14px 20px 12px 18px/18px 12px 20px 14px;font-size:15px;white-space:nowrap}
 .f-prog{flex:1;height:4px;background:rgba(241,235,221,.18);border-radius:2px;overflow:hidden}
 .f-prog i{display:block;height:100%;width:0;background:var(--gold)}
-.fcards{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
+.fcards{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;align-items:flex-start}
+.fcard:not(:has(img)){padding-top:18px;padding-bottom:16px}
+.fcard:not(:has(img)) .nm{font-size:28px}
 .fcard{background:var(--paper);color:var(--ink);padding:12px 16px 10px;text-align:center;width:200px;transform:rotate(var(--rot,0deg));background-image:radial-gradient(rgba(29,27,40,.08) 1px,transparent 1.3px);background-size:5px 5px;opacity:0;animation:fin .6s forwards}
 .fcard.big{width:320px}
-.film.full .fcard{width:240px}
+.film.full .fcard{width:215px}
 .film.full .fcard.big{width:330px}
 .fcard img{width:100%;height:auto;display:block}
 .fcard .nm{font-family:var(--display);font-size:22px;line-height:1.1}
@@ -252,8 +293,9 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
 .fbig .scrap .n{font-size:clamp(56px,6vw,96px)}
 .fbig .scrap .l{font-size:18px;max-width:18ch}
 .fnote{font-family:var(--hand);font-size:clamp(18px,1.7vw,24px);color:var(--chalk);max-width:30ch}
-.fgrid{display:grid;grid-template-columns:28px repeat(12,minmax(0,1fr));gap:4px;width:min(62vh,80vw)}
+.fgrid{display:grid;grid-template-columns:28px repeat(12,minmax(0,1fr));gap:4px;width:min(calc(100vh - 300px),80vw)}
 .fgrid div{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-size:clamp(11px,1.4vw,18px);color:var(--chalk2);border-radius:3px 6px 4px 7px}
+.fgrid .c{font-family:var(--hand);font-size:clamp(9px,1vw,14px);color:#fff;text-shadow:0 0 3px var(--night),0 0 6px var(--night);letter-spacing:-.03em}
 .fgrid .c{border:1.5px solid rgba(241,235,221,.2)}
 .fgrid .c.top{border:2.5px solid #fff}
 .f-wifs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;width:min(94vw,1100px)}
@@ -261,7 +303,17 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
 .f-wifs .wmini .fx{display:flex}
 .f-wifs .wmini img{width:50%;height:auto}
 .f-wifs .wmini div.n{font-family:var(--display);font-size:14px;line-height:1.15}
-.film .wcard{width:min(440px,86vw);opacity:0;animation:fin .6s forwards}
+.film .wcard{width:min(460px,86vw);opacity:0;animation:fin .6s forwards}
+.f-signs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;width:min(980px,90vw)}
+.f-signs .fs{background:var(--paper);color:var(--ink);padding:8px 12px;font-size:15px;line-height:1.3;opacity:0;animation:fin .5s forwards;background-image:radial-gradient(rgba(29,27,40,.08) 1px,transparent 1.3px);background-size:5px 5px}
+.f-signs .fs .g{font-family:var(--display);font-size:20px;color:var(--inkred);margin-right:6px}
+.f-signs .fs b{font-family:var(--display);font-weight:400;font-size:18px}
+.f-signs .fs span:last-child{display:block}
+.f-tiles{width:min(900px,90vw);grid-template-columns:repeat(3,minmax(0,1fr))}
+.f-tiles .tile{opacity:0;animation:fin .5s forwards}
+.f-tiles .tile .tco{font-size:26px}.f-tiles .tile .tval{font-size:26px}
+.f-lore{width:min(980px,92vw);grid-template-columns:repeat(3,minmax(0,1fr))}
+.film .sheet{width:min(820px,90vw)}
 .film .wcard .faces img{max-width:180px}
 .f-end{display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center}
 .f-end h2{font-size:clamp(46px,6vw,92px);line-height:.95}
@@ -274,6 +326,8 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
   .f-sub{bottom:calc(64px + env(safe-area-inset-bottom,0px));font-size:16px}
   .f-title{top:38%}
   .fcard{width:140px} .fcard.big{width:180px}
+  .f-signs{grid-template-columns:repeat(2,minmax(0,1fr))} .f-signs .fs:nth-child(n+9){display:none}
+  .f-tiles{grid-template-columns:repeat(2,minmax(0,1fr))} .f-lore{grid-template-columns:1fr}
   .f-wifs{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
   .f-wifs .wmini:nth-child(n+7){display:none}
   .f-bar .txt{display:none}
@@ -281,6 +335,7 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
 }
 @media (max-width:920px){
   body{font-size:18px}
+  .sim{grid-template-columns:1fr}
   .rule .els{grid-template-columns:repeat(2,minmax(0,1fr))}
   .hero{grid-template-columns:1fr;gap:12px;padding-block:22px 16px}
   .scrolly{grid-template-columns:1fr;gap:0}
@@ -400,7 +455,7 @@ const TAU = Math.PI*2, ease = t => t<.5 ? 4*t*t*t : 1-Math.pow(-2*t+2,3)/2;
 const REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const short = n => { const p=n.split(" "); return p.length>1 ? p[p.length-1] : n; };
 
-F.forEach((f,i)=>{ f.i=i; f.cur=f.doy; f.alpha=1; f.ring = f.companies.some(c=>c.ring==="giants")?"giants":(f.companies.some(c=>c.ring==="big")?"big":"fallen"); f.sector=f.companies[0].sector; f.p=new Float32Array(365); for(let m=0;m<12;m++){ for(let k=CUM[m];k<CUM[m+1];k++) f.p[k]=f.base[m]/MDAYS[m]; } });
+F.forEach((f,i)=>{ f.i=i; f.cur=f.doy; f.alpha=1; f.ring = f.companies.some(c=>c.ring==="giants")?"giants":(f.companies.some(c=>c.ring==="big")?"big":"fallen"); f.sector=f.companies[0].sector; f.age=f.companies[0].founded?f.companies[0].founded-f.year:null; f.p=new Float32Array(365); for(let m=0;m<12;m++){ for(let k=CUM[m];k<CUM[m+1];k++) f.p[k]=f.base[m]/MDAYS[m]; } });
 const BYNAME = new Map(F.map(f=>[f.name,f]));
 const M = T.pair_matrix;
 const PAIRS = (M.pairs||[]).map(p=>({...p, fa:BYNAME.get(p.a), fb:BYNAME.get(p.b), ia:SIGNS.indexOf(p.sa), ib:SIGNS.indexOf(p.sb)})).filter(p=>p.fa&&p.fb);
@@ -526,9 +581,12 @@ function focusSet(){
   if(state.mode==="rising") return new Set(F.filter(f=>f.rising).map(f=>f.i));
   if(state.mode==="duo" && state.duo) return new Set(state.duo.flatMap(p=>[p.fa.i,p.fb.i]));
   if(state.mode==="wif" && state.wif) return new Set(state.wif.slice(0,2).filter(Boolean).map(f=>f.i));
+  if(state.mode==="twins"){ const t=TWINSET(); return new Set(F.filter(f=>t.has(f.name)).map(f=>f.i)); }
   return null;
 }
 function link(fa,fb,color,w,seed){ if(fa.x==null||fb.x==null) return; const mx=(fa.x+fb.x)/2, my=(fa.y+fb.y)/2; hcurve(ctx,fa.x,fa.y,CX+(mx-CX)*0.4,CY+(my-CY)*0.4,fb.x,fb.y,seed,{color,w,j:1.4}); }
+const ageCol=a=>a==null?"#6c7d9a":(a<25?"#fff1c4":(a<30?"#f2cd7a":(a<35?"#e0ae4a":(a<45?"#9cc0dd":"#6c7d9a"))));
+const TWINSET=()=>new Set(((DATA.extras||{}).twins?.top||[]).slice(0,8).flatMap(g=>g.people.map(p=>p.name)));
 const FAMOUS=["Steve Jobs","Bill Gates","Elon Musk","Jeff Bezos","Mark Zuckerberg","Larry Page","Jensen Huang","Larry Ellison","Phil Knight","Sam Altman","Michael Dell","Sam Bankman-Fried","Elizabeth Holmes"];
 
 function draw(){
@@ -569,19 +627,21 @@ function draw(){
   if(foc&&vis.has(foc.i)) foc.companies.forEach(c=>c.members.forEach((j,k)=>{ if(j!==foc.i&&vis.has(j)){ const p=splitOf(foc,F[j]); link(foc,F[j],p&&isSplit(p)?"#ff7a6a":"#f2cd7a",1.6,8000+j); } }));
   list.forEach(f=>{
     let al=f.alpha; if(keep&&!keep.has(f.i)) al*=0.15; if(foc&&!keep&&f.i!==foc.i&&!foc.companies.some(c=>c.members.includes(f.i))) al*=0.35;
-    const col = state.shuffled ? "#b9b2a3" : (state.colorBy==="sector" ? (SECOL[f.sector]||"#c3bcac") : COL[f.ring]);
+    const col = state.shuffled ? "#b9b2a3" : (state.colorBy==="age" ? ageCol(f.age) : (state.colorBy==="sector" ? (SECOL[f.sector]||"#c3bcac") : COL[f.ring]));
     if(f.ring==="giants"&&state.colorBy!=="sector"&&!state.shuffled){ ctx.globalAlpha=al*0.5; const gl=ctx.createRadialGradient(f.x,f.y,0,f.x,f.y,f.r*3); gl.addColorStop(0,"rgba(242,205,122,.55)"); gl.addColorStop(1,"rgba(242,205,122,0)"); ctx.fillStyle=gl; ctx.beginPath(); ctx.arc(f.x,f.y,f.r*3,0,TAU); ctx.fill(); twinkle(ctx,f.x,f.y,f.r*0.75,col,al); }
     else { ctx.globalAlpha=al; ctx.fillStyle=col; ctx.beginPath(); ctx.arc(f.x,f.y,f.r*0.85,0,TAU); ctx.fill(); }
     ctx.globalAlpha=1;
   });
+  if(state.mode==="twins"){ const t=TWINSET(); F.filter(f=>t.has(f.name)&&vis.has(f.i)).forEach(f=>harc(ctx,f.x,f.y,f.r+5,0,TAU,f.i+3,{color:"#ffffff",w:1.2,passes:1,j:0.5})); }
   if(state.mode==="rising") F.filter(f=>f.rising&&vis.has(f.i)).forEach(f=>harc(ctx,f.x,f.y,f.r+5,0,TAU,f.i,{color:"#a9e0b4",w:1.2,passes:1,j:0.6}));
   if(foc&&vis.has(foc.i)) harc(ctx,foc.x,foc.y,foc.r+6,0,TAU,foc.i,{color:"#ffffff",w:1.6,j:0.8});
   // handwritten names
   LABELS=[];
-  const named=new Set(state.shuffled?[]:(G.small?["Steve Jobs"]:FAMOUS));
+  const named=new Set(state.shuffled||state.mode==="teams"?[]:(G.small?["Steve Jobs"]:FAMOUS));
   if(state.pair) (CELL[cellKey(...state.pair)]||[]).forEach(p=>{ named.add(p.a); named.add(p.b); });
   if(state.mode==="duo"&&state.duo) state.duo.forEach(p=>{ named.add(p.a); named.add(p.b); });
   if(state.mode==="wif"&&state.wif) state.wif.slice(0,2).forEach(f=>f&&named.add(f.name));
+  if(state.mode==="twins") ((DATA.extras||{}).twins?.top||[]).slice(0,4).forEach(g=>g.people.slice(0,2).forEach(p=>named.add(p.name)));
   if(foc) foc.companies.forEach(c=>c.members.forEach(j=>named.add(F[j].name)));
   const order=[...named].sort((a,b)=>(a==="Steve Jobs"?-1:0)-(b==="Steve Jobs"?-1:0));
   ctx.font=`${Math.max(12,14*SC)}px ${HAND}`; ctx.lineJoin="round";
@@ -705,141 +765,150 @@ const scrap=(n,l,cls="")=>`<div class="scrap ${cls}"><span class="n">${n}</span>
 
 document.getElementById("lede").innerHTML=`We placed ${N} founders of the world's most valuable companies on the day they were born. Then we checked what astrology says about them, from signs to cofounder matches, against everyone else.`;
 
+const XT=DATA.extras||{}, PORT=DATA.portraits||{};
+const PICS={}; (DATA.whatif||[]).forEach(w=>{ PICS[w.a.name]=w.a.src; PICS[w.b.name]=w.b.src; }); Object.values(PORT).forEach(p=>{ PICS[p.name]=p.src; });
+const nThr=F.filter(f=>f.ring!=="fallen").length, fairShare=Math.round(nThr/12);
+const bestBySign=SIGNS.map(s=>{ const fs=F.filter(f=>f.sign===s&&f.ring!=="fallen").sort((a,b)=>b.value-a.value); return {s,f:fs[0]}; });
+const kindTag=k=>k==="clash"?`<span class="ktag clash">clash</span>`:(k==="match"?`<span class="ktag match">match</span>`:`<span class="ktag">even</span>`);
+const pairingOf=(a,b)=>{ const k=[ELEMENT[a],ELEMENT[b]].sort(); return (XT.pairings||[]).find(x=>x.elements[0]===k[0]&&x.elements[1]===k[1]); };
+const DAYNAME=d=>{ const [m,dd]=d.split("-").map(Number); return MONTHS[m-1]+" "+dd; };
+const loreVal=(l,v)=>l.fmt==="pct"?pct(v):(l.fmt==="age"?String(Math.round(v)):money(v));
+const loreScore=(XT.lore||[]).reduce((o,l)=>{ o[l.verdict]=(o[l.verdict]||0)+1; return o; },{});
+function sliceBars(){ const sl=XT.clash.slices, Wd=640, row=44, Hd=sl.length*row+16, x0=210, x1=Wd-80, mx=Math.max(...sl.flatMap(x=>[x.clash||0,x.match||0])), X=v=>x0+(x1-x0)*(v||0)/mx;
+  let s=`<svg viewBox="0 0 ${Wd} ${Hd}" role="img" aria-label="Typical company value of clashing teams against matched teams, in each slice">`;
+  sl.forEach((x,i)=>{ const y=8+i*row;
+    s+=`<text x="0" y="${y+21}" fill="#f1ebdd" font-size="16" font-family="Kalam, cursive">${esc(x.label)}</text>`;
+    s+=`<rect x="${x0}" y="${y+2}" width="${Math.max(2,X(x.clash)-x0)}" height="15" fill="url(#h-gold)"/><path d="${wrect(x0,y+2,Math.max(2,X(x.clash)-x0),15,500+i)}" stroke="#e0ae4a" stroke-width="1.3" fill="none"/><text x="${X(x.clash)+7}" y="${y+15}" fill="#f2cd7a" font-size="14" font-family="Kalam, cursive">${money(x.clash)}</text>`;
+    s+=`<rect x="${x0}" y="${y+21}" width="${Math.max(2,X(x.match)-x0)}" height="15" fill="url(#h-chalk)"/><path d="${wrect(x0,y+21,Math.max(2,X(x.match)-x0),15,600+i)}" stroke="#c3bcac" stroke-width="1.2" fill="none"/><text x="${X(x.match)+7}" y="${y+34}" fill="#c3bcac" font-size="14" font-family="Kalam, cursive">${money(x.match)}</text>`; });
+  return s+"</svg>"; }
+const WIF=DATA.whatif||[];
+const wifCard=w=>{ const sa=w.a.sign, sb=w.b.sign, pr=pairingOf(sa,sb), id=w.idea||{}, ex=w.real_examples.slice(0,2).map(e=>`${esc(short(e.a))} and ${esc(short(e.b))} (${esc(coName(e.company))})`).join(", ");
+  return `<div class="wcard"><span class="rk">${w.rank}</span><div class="faces"><img src="${w.a.src}" alt="${esc(w.a.name)}"><span class="plus">+</span><img src="${w.b.src}" alt="${esc(w.b.name)}"></div>
+  <div class="nm">${esc(w.a.name)} + ${esc(w.b.name)}</div><div class="sg">${GLYPH[sa]} ${sa} + ${GLYPH[sb]} ${sb} · astrology says ${w.match?"a match":"a clash"}</div>
+  ${id.name?`<div class="idea"><div><span class="iname">${esc(id.name)}</span> <span class="iyr">· founded ${id.year}, imagined</span></div><p>${esc(id.pitch)}</p></div>`:""}
+  <div class="why">${pr?`Real ${ELEMENT[sa].toLowerCase()} + ${ELEMENT[sb].toLowerCase()} teams built a typical ${money(pr.median)} company. `:""}${sa} + ${sb} cofounders built ${money(w.cell_value)} in all${ex?`, like ${ex}`:""}.</div></div>`; };
+
 const steps=[];
-steps.push({ id:"ring", eb:"I", title:"every founder, on their birthday",
+steps.push({ id:"ring", title:"every founder, on their birthday",
   html:`<h2 class="chalk">Every founder, <i>on their birthday</i></h2>
   <p>Each star is a founder of one of the world's most valuable companies, placed on the day they were born. Gold stars built companies worth $100 billion or more. Blue dots, $20 to $100 billion. Red dots built a billion-dollar company that later collapsed.</p>
-  <p>The gold bars count founders per sign. The white chalk mark shows where each bar would sit if founders were born like everyone else. If a bar pokes far past its mark, that sign is unusually common among founders.</p>
-  <p class="small">The marks aren't all equal, because births aren't spread evenly over the year. We used birth records from each founder's own country and birth year.</p>
-  <div class="hint">↖ hover a star to meet the founder, click to keep the note open</div>`,
-  st:{show:"all"}, play:{dur:9000, caption:"Every star is a founder, placed on the day they were born.", run:async()=>{ await wait(2600); openCard(BYNAME.get("Steve Jobs"),true); await wait(3600); closeCard(); }} });
+  <p>The gold bars count founders per sign. The white chalk mark is each sign's <b>fair share</b>: if signs didn't matter, ${nThr} founders split over twelve signs is about ${fairShare} each, a little more for the longer signs.</p>
+  <div class="hint">↖ hover a star to meet the founder, click to keep the note open</div>`, st:{show:"all"} });
 
-steps.push({ id:"libra", eb:"II", title:`${sg.tallest.toLowerCase()} leads`,
-  html:`<h2 class="chalk">${sg.tallest} has the most founders. <i>Is that special?</i></h2>
-  <div class="big">${scrap(leadN,`${sg.tallest} founders`,"gold")}${scrap(Math.round(leadE),"if founders were born like everyone else")}</div>
-  <p>${leadN-Math.round(leadE)} extra sounds like a lot. Here's the catch: every crowd has a top sign. Line up ${F.filter(f=>f.ring!=="fallen").length} ordinary people who never founded anything, and their top sign usually beats the norm by just as much.</p>
-  <p>We built 10,000 random crowds of ordinary people, with the same mix of birth countries and years as these founders. In ${pct(sg.p_max_dev)} of them, some sign stood out at least as much as ${sg.tallest} does here.</p>
-  <p>See one for yourself. The dots turn into ordinary people, and a different sign comes out on top.</p>
-  <div class="inline-actions"><button class="btn small gold" type="button" data-act="shuffle"><svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true" style="vertical-align:-3px"><path d="M3.5,4 Q3,3 4.2,2.8 L15.6,3.2 Q17,3.3 16.9,4.6 L16.6,15.8 Q16.5,17 15.3,16.9 L4.3,16.6 Q3,16.5 3.1,15.2 Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7" cy="7" r="1.5" fill="currentColor"/><circle cx="10" cy="10.2" r="1.5" fill="currentColor"/><circle cx="13.1" cy="13.2" r="1.5" fill="currentColor"/></svg> show a random crowd</button><button class="linkbtn" type="button" data-act="restore">back to the founders</button></div>
-  <div class="verdict">${sg.tallest}'s lead is the kind any crowd has.</div>
-  <p class="small">From here on, the wheel shows the ${F.filter(f=>f.ring!=="fallen").length} founders of companies still worth $20 billion or more.</p>`,
-  st:{}, play:{dur:12500, caption:`${sg.tallest} has the most founders. But every crowd has a top sign.`, run:async()=>{ await wait(2600); for(let k=0;k<3;k++){ shuffle(); caption(k===0?"Here's a random crowd of ordinary people. A different sign leads.":(k===1?"Another crowd, another winner.":"Every crowd has one.")); await wait(2500); } restore(); caption(`Back to the founders. ${sg.tallest}'s lead is ordinary.`); }} });
+steps.push({ id:"signs", title:"every sign",
+  html:`<h2 class="chalk">${sg.tallest} has the most founders. <i>Every sign has plenty.</i></h2>
+  <div class="big">${scrap(leadN,`${sg.tallest} founders`,"gold")}${scrap(Math.round(leadE),`${sg.tallest}'s fair share`)}</div>
+  <p>Ten over its fair share sounds like a lot. But with twelve signs, one is always out in front, and ${sg.tallest}'s lead is about what you'd see in any crowd of ${nThr} people. Want to see? <button class="linkbtn" type="button" data-act="shuffle">show a random crowd</button> <button class="linkbtn" type="button" data-act="restore">back to the founders</button></p>
+  <p>What matters more: every single sign has founded a giant.</p>
+  <ul class="giants">${bestBySign.map(x=>x.f?`<li><span class="g">${GLYPH[x.s]}</span> <b>${x.s}</b> ${esc(x.f.name)}, ${esc(coName(x.f.companies[0].name))} <span class="v">${money(x.f.value)}</span></li>`:"").join("")}</ul>
+  <div class="verdict">Whatever your sign, you're in good company.</div>`, st:{} });
 
-steps.push({ id:"elements", eb:"III", title:"fire, earth, air, water",
-  html:`<h2 class="chalk">Fire, earth, air, water: <i>no winner</i></h2>
-  <p>Astrology groups the signs into four elements. Fire signs are Aries, Leo and Sagittarius. Earth signs are Taurus, Virgo and Capricorn. Air signs are Gemini, Libra and Aquarius. Water signs are Cancer, Scorpio and Pisces.</p>
-  <p>Bigger groups make a real pattern easier to spot. ${ELW[el.tallest][0].toUpperCase()+ELW[el.tallest].slice(1)} lead with ${el.observed[iEl]} founders, where everyone else would give ${Math.round(el.expected[iEl])}. A random crowd does at least that well ${pct(el.p_max_dev)} of the time.</p>
-  <div class="sheet">${barsSVG(el.bins.map(b=>ELW[b]),el.observed,el.expected,el.bins,{aria:"Founders by element against everyone else",seed:3})}<div class="hint">bars: founders · white mark: if founders were born like everyone else</div></div>`,
-  st:{tint:true}, play:{dur:8000, caption:"Grouped by element, the signs come out even."} });
-
-steps.push({ id:"compat", eb:"IV", title:"the big question",
+steps.push({ id:"compat", title:"the big question",
   html:`<h2 class="chalk">Who should you <i>start a company with?</i></h2>
-  <p>This is the question astrology fans ask most. Astrology has a rule for it, and it's the only rule we use for "a match" on this page.</p>
+  <p>This is the question astrology fans ask most, and astrology has a rule for it.</p>
   ${ruleHTML()}
-  <div class="big">${scrap(pct(comp.observed),"of real cofounder pairs are a match","gold")}${scrap(pct(comp.null_mean),"if the same founders were paired at random")}</div>
-  <p>To get that second number, we broke up all ${T.pairs.n_teams} founding teams and paired the same founders at random, 10,000 times. Real cofounders were no better matched than strangers thrown together.</p>
+  <div class="big">${scrap(pct(comp.observed),"of real cofounder pairs are a match","gold")}${scrap("50%","of all possible sign pairs are a match")}</div>
+  <p>Astrology's rule calls exactly half of all sign pairs a match, so picking a partner by coin flip would give you 50%. Real cofounders land right on 50%. Signs don't decide who teams up.</p>
   <p class="small">Some famous pairs. Tap one to see it on the wheel.</p>
   <div class="duos" id="duos">${DUOS.map((p,k)=>{ const m=compatible(p.sa,p.sb), o=outcome(p); return `<button type="button" class="duo" data-k="${k}"><span class="who">${GLYPH[p.sa]} ${esc(short(p.a))} + ${GLYPH[p.sb]} ${esc(short(p.b))}</span><span class="what">${esc(coName(p.company))} · ${p.sa} and ${p.sb}</span><span class="tg ${o?"red":(m?"m":"")}">${m?"a match":"a clash"}${o?" · "+o:""}</span></button>`; }).join("")}</div>`,
-  st:{links:true,show:"all"}, wire:()=>{ document.querySelectorAll("#duos .duo").forEach(b=>b.onclick=()=>pickDuo(+b.dataset.k)); },
-  play:{dur:14000, caption:"Astrology says some signs make better partners. Do they?", run:async()=>{ await wait(2400); for(const k of [0,1,4]){ pickDuo(k); const p=DUOS[k]; caption(`${short(p.a)} is a ${p.sa}, ${short(p.b)} a ${p.sb}: ${compatible(p.sa,p.sb)?"a match, says astrology":"a clash, says astrology"}${outcome(p)?". They "+outcome(p):""}.`); await wait(3400); } }} });
+  st:{links:true,show:"all"}, wire:()=>{ document.querySelectorAll("#duos .duo").forEach(b=>b.onclick=()=>pickDuo(+b.dataset.k)); } });
 
-steps.push({ id:"bigger", eb:"V", title:"the surprise",
-  html:`<h2 class="chalk">Did matched cofounders build <i>bigger companies?</i></h2>
-  <p>This is what a founder actually wants to know. We took every founding team in the list and counted each company once. A team counts as matched if most of its cofounder pairs are a match by astrology's rule above, and as clashing if most are a clash.</p>
-  <div class="big">${scrap(money(VAL.teams_unmatched_median),"typical company of a team astrology says should clash","gold")}${scrap(money(VAL.teams_matched_median),"typical company of a team astrology calls a match")}</div>
-  <p>Astrology has it backwards here. The teams that "clash" built companies worth about twice as much. The biggest clashing teams: ${clashTeams.map(teamLine).join("; ")}. The biggest matched teams: ${matchTeams.map(teamLine).join("; ")}.</p>
-  <p>Is it real? Probably not. Even if signs meant nothing, a gap this big would show up about one time in ${Math.round(1/VAL.p_teams)}. And this page asks about 15 questions. Ask that many and one surprise like this is normal. It's still the closest thing to a pattern we found.</p>
-  <div class="verdict">Don't pick a cofounder by sign. And if you do, don't fear a clash.</div>
-  <div class="hint">on the wheel: gold lines join cofounders astrology calls a match, white lines join the clashes</div>`,
-  st:{mode:"teams",show:"all"}, play:{dur:12000, caption:"Did matched cofounders build bigger companies? It's the reverse."} });
+steps.push({ id:"surprise", title:"the surprise",
+  html:`<h2 class="chalk">But the clashes built <i>bigger companies</i></h2>
+  <p>We sorted every founding team by whether most of its cofounder pairs are a match or a clash, and looked at what each team built, counting each company once.</p>
+  <div class="big">${scrap(money(VAL.teams_unmatched_median),"typical company of a clashing team","gold")}${scrap(money(VAL.teams_matched_median),"typical company of a matched team")}</div>
+  <p>Look at the very top. ${XT.clash.trillion.filter(t=>t.kind==="clash").length} of the ${XT.clash.trillion.length} trillion-dollar companies with a founding team were started by signs astrology says should clash.</p>
+  <div class="tiles">${XT.clash.trillion.map(t=>`<div class="tile ${t.kind}"><div class="tco">${esc(coName(t.company))}</div><div class="tval">${money(t.value)}</div><div class="tppl">${t.people.map((n,i)=>`${GLYPH[t.signs[i]]} ${esc(short(n))}`).join(" + ")}</div>${kindTag(t.kind)}</div>`).join("")}</div>
+  <p>Could it be chance? If signs meant nothing, a gap this big would turn up about once in every ${Math.round(1/VAL.p_teams)} tries. Rare enough to be interesting, not rare enough to be a law.</p>`,
+  st:{mode:"teams",show:"all"} });
 
-steps.push({ id:"chart", eb:"V", title:"the match chart",
-  html:`<h2 class="chalk">The match chart. <i>Find your sign, read across.</i></h2>
-  <p>Each square is a pair of signs. The number is how many cofounder pairs in our list have that combination. Squares with a dashed gold edge are the pairs astrology calls a match. Click any square to see who they are.</p>
-  <div class="seg" id="mxmode" role="group" aria-label="Show in each square"><span class="lab">show</span><button type="button" data-m="count" class="on">how many pairs</button><button type="button" data-m="ratio">compared with random pairing</button><button type="button" data-m="value">how big they got</button><button type="button" data-m="ended">how it ended</button></div>
+steps.push({ id:"holds", title:"does it hold up?",
+  html:`<h2 class="chalk">Does it <i>hold up?</i></h2>
+  <p>We cut the teams every way we could think of. In every slice, the clashing teams' typical company was bigger.</p>
+  <div class="sheet">${sliceBars()}<div class="hint"><span style="color:var(--gold2)">gold</span>: clashing teams · <span style="color:var(--chalk2)">white</span>: matched teams · typical company value</div></div>
+  <ul class="facts">
+    <li>Clashing teams collapsed less often: ${pct(XT.clash.collapsed.clash)} of them, against ${pct(XT.clash.collapsed.match)} of matched teams.</li>
+    <li>Half of the clashing teams built a $100 billion company (${pct(XT.clash.giants_share.clash)}), against ${pct(XT.clash.giants_share.match)} of matched teams.</li>
+    <li>When cofounders fell out, it was more often a matched pair: ${Math.round(bw.compatible_broke*bw.n_broke)} of the ${bw.n_broke} splits.</li>
+    <li>Teams with an earth sign (Taurus, Virgo, Capricorn) did best of all: a typical ${money(XT.earth.with)}, against ${money(XT.earth.without)} without one.</li>
+  </ul>
+  <p>The pairings that built the biggest companies:</p>
+  <table class="t"><tr><th>pairing</th><th>astrology says</th><th>typical company</th><th>for example</th></tr>${XT.pairings.slice(0,5).map(x=>`<tr><td>${x.elements.join(" + ")}</td><td>${x.kind==="clash"?"a clash":"a match"}</td><td class="num">${money(x.median)}</td><td>${x.examples.slice(0,2).map(coName).map(esc).join(", ")}</td></tr>`).join("")}</table>
+  <div class="verdict">The most interesting pattern in the whole data set.</div>`,
+  st:{mode:"teams",show:"all"} });
+
+steps.push({ id:"money", title:"the money map",
+  html:`<h2 class="chalk">Which sign pairs <i>built the most?</i></h2>
+  <p>Each square is a pair of signs. The number is the value of every company those cofounders built together. Find your sign on the left and read across. Click any square to meet the cofounders.</p>
+  <div class="seg" id="mxmode" role="group" aria-label="Show in each square"><span class="lab">show</span><button type="button" data-m="value" class="on">money built</button><button type="button" data-m="count">number of pairs</button><button type="button" data-m="ended">how it ended</button></div>
   <div class="hint" id="mxcap"></div>
   <div class="mx-wrap"><div class="mx" id="mx"></div></div>
   <div class="mxkey"><span><span class="sw"></span>astrology calls it a match: same element, fire with air, or earth with water</span></div>
   <div class="chips" id="mxtop"></div>
-  <div class="detail" id="mxdetail"></div>
-  <p class="small">Most squares hold one to four pairs, so read them as stories, not rules.</p>`,
-  st:{show:"all"}, wire:wireMatrix, enter:()=>{ if(MX.sel) selectCell(...MX.sel,true); },
-  play:{dur:15000, caption:"Every square is a pair of signs. Click one to meet the cofounders.", run:async()=>{ await wait(2200); selectCell(SIGNS.indexOf("Pisces"),SIGNS.indexOf("Leo"),true); caption("Pisces and Leo: Steve Jobs and Steve Wozniak."); await wait(3800); setMode("value"); caption("How big they got: the brighter the square, the more those cofounders built."); await wait(3600); const t=topCells("value")[0]; if(t){ selectCell(t.i,t.j,true); caption(`${SIGNS[t.i]} and ${SIGNS[t.j]}: ${t.n} pairs.`); } await wait(3600); setMode("count"); }} });
+  <div class="detail" id="mxdetail"></div>`,
+  st:{show:"all"}, wire:wireMatrix, enter:()=>{ if(MX.sel) selectCell(...MX.sel,true); } });
 
-steps.push({ id:"yoursign", eb:"VI", title:"your sign's cofounders",
-  html:`<h2 class="chalk">If you're a <i id="ysName">Pisces</i>, who did founders like you team up with?</h2>
-  <p>Pick a sign. These are the signs its founders most often started a company with, and who they were.</p>
+steps.push({ id:"yoursign", title:"your sign's best partners",
+  html:`<h2 class="chalk">If you're a <i id="ysName">Pisces</i>, who should you build with?</h2>
+  <p>Pick a sign. Here are the signs its founders built the most with, ranked by the value of their companies.</p>
   <label class="field" for="ysSel">your sign</label>
   <select id="ysSel">${SIGNS.map(s=>`<option value="${s}" ${s==="Pisces"?"selected":""}>${GLYPH[s]} ${s}</option>`).join("")}</select>
-  <ul class="rank" id="ysOut"></ul>
-  <p class="small">Counts are cofounder pairs in this list. With so few per sign, treat them as company, not advice.</p>`,
-  st:{show:"all"}, wire:()=>{ const s=document.getElementById("ysSel"); s.onchange=()=>yourSign(s.value); yourSign("Pisces"); }, enter:()=>yourSign(document.getElementById("ysSel").value),
-  play:{dur:10000, caption:"Pick your sign and see who founders like you built with.", run:async()=>{ await wait(4000); const s=document.getElementById("ysSel"); s.value="Sagittarius"; yourSign("Sagittarius"); caption("A Sagittarius? Here are your people."); await wait(4000); s.value="Pisces"; yourSign("Pisces"); }} });
+  <ul class="rank" id="ysOut"></ul>`,
+  st:{show:"all"}, wire:()=>{ const s=document.getElementById("ysSel"); s.onchange=()=>yourSign(s.value); yourSign("Pisces"); }, enter:()=>yourSign(document.getElementById("ysSel").value) });
 
-const WIF=DATA.whatif||[];
-const wifCard=(w,k)=>{ const sa=w.a.sign, sb=w.b.sign, ex=w.real_examples.slice(0,2).map(e=>`${esc(short(e.a))} and ${esc(short(e.b))} (${esc(coName(e.company))})`).join(", ");
-  return `<div class="wcard"><span class="rk">${w.rank}</span><div class="faces"><img src="${w.a.src}" alt="${esc(w.a.name)}"><span class="plus">+</span><img src="${w.b.src}" alt="${esc(w.b.name)}"></div>
-  <div class="nm">${esc(w.a.name)} + ${esc(w.b.name)}</div><div class="sg">${GLYPH[sa]} ${sa} and ${GLYPH[sb]} ${sb} · ${esc(coName(w.a.company))} meets ${esc(coName(w.b.company))}</div>
-  <div class="why">Real ${sa} and ${sb} cofounders built ${money(w.cell_value)} of companies${ex?`, like ${ex}`:""}.</div><div class="astro">astrology's verdict: ${w.match?"a match":"a clash"}</div></div>`; };
-if(WIF.length) steps.push({ id:"whatif", eb:"", title:"ten what-ifs",
+if(WIF.length) steps.push({ id:"whatif", title:"ten what-ifs",
   html:`<h2 class="chalk">What if they'd <i>teamed up?</i></h2>
-  <p>Ten pairs of famous founders who never started a company together. They're paired by what our data found, not by astrology. First we ranked sign pairs by how much value their real cofounders built. Then we filled each pair with the best-known founders of those two signs, people behind $100 billion companies.</p>
-  <p class="small">${WIF.filter(w=>!w.match).length} of the ten are pairs astrology calls a clash, which fits the surprise above. It's for fun. Signs don't predict who succeeds.</p>
+  <p>Ten pairs of famous founders who never started a company together, paired by what the data found. We ranked sign pairs by how much their real cofounders built, then picked the best-known founders of those signs. Then we imagined the company each pair might have started.</p>
   <div class="wif">${WIF.map(wifCard).join("")}</div>
-  <details class="credits"><summary>portrait credits</summary>${WIF.flatMap(w=>[w.a,w.b]).map(p=>`${esc(p.name)}: photo by ${esc(p.credit||"unknown")}, ${esc(p.license||"see source")}, <a href="${esc(p.file_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>, redrawn as a halftone`).join("<br>")}</details>`,
-  st:{show:"all"}, wire:()=>{ document.querySelectorAll(".wcard").forEach((c,i)=>{ c.style.setProperty("--rot",((rng(i*17+3)()-.5)*3).toFixed(2)+"deg"); c.style.clipPath=torn(i*41+9,4); c.tabIndex=0; const go=()=>{ const w=WIF[i]; state.mode="wif"; state.wif=[BYNAME.get(w.a.name),BYNAME.get(w.b.name),w]; if(state.lens!=="zodiac") setLens("zodiac"); draw(); }; c.onmouseenter=go; c.onclick=go; c.onfocus=go; }); }, enter:()=>{ if(WIF.length){ state.mode="wif"; const w=WIF[0]; state.wif=[BYNAME.get(w.a.name),BYNAME.get(w.b.name),w]; draw(); } },
-  play:{dur:12000, caption:`What if they'd teamed up? ${WIF[0].a.name} and ${WIF[0].b.name} top the list.`} });
+  <details class="credits"><summary>portrait credits</summary>${[...WIF.flatMap(w=>[w.a,w.b]),...Object.values(PORT)].map(p=>`${esc(p.name)}: photo by ${esc(p.credit||"unknown")}, ${esc(p.license||"see source")}, <a href="${esc(p.file_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>, toned for this page`).join("<br>")}</details>`,
+  st:{show:"all"}, wire:()=>{ document.querySelectorAll(".wif .wcard").forEach((c,i)=>{ c.style.setProperty("--rot",((rng(i*17+3)()-.5)*3).toFixed(2)+"deg"); c.style.clipPath=torn(i*41+9,4); c.tabIndex=0; const go=()=>{ const w=WIF[i]; state.mode="wif"; state.wif=[BYNAME.get(w.a.name),BYNAME.get(w.b.name),w]; if(state.lens!=="zodiac") setLens("zodiac"); draw(); }; c.onmouseenter=go; c.onclick=go; c.onfocus=go; }); },
+  enter:()=>{ if(WIF.length){ state.mode="wif"; const w=WIF[0]; state.wif=[BYNAME.get(w.a.name),BYNAME.get(w.b.name),w]; draw(); } } });
 
-steps.push({ id:"splits", eb:"VII", title:"the breakups",
-  html:`<h2 class="chalk">Do mismatched signs <i>split up?</i></h2>
-  <p>Some of the most famous partnerships ended badly. In our list, ${bw.n_broke} cofounder pairs split: they fell out, sued each other, or one was pushed out.</p>
-  <div class="big">${scrap(pct(bw.compatible_broke),"of the pairs that split were a match","red")}${scrap(pct(bw.compatible_intact),"of the pairs that stayed")}</div>
-  <p>If anything, the pairs that split were more often a match. But ${bw.n_broke} splits is too few to tell: even if signs meant nothing, a gap this size would show up ${pct(bw.p_two_sided)} of the time. Counting only open fallings-out, as we planned before looking, it's ${pct(bk.compatible_broke)} against ${pct(bk.compatible_intact)}.</p>
-  ${muskSplits.length?`<p>Elon Musk, a Cancer, appears in ${muskSplits.length} of the splits: ${muskSplits.join(", ").replace(/, ([^,]*)$/," and $1")}.</p>`:""}
-  <ul class="splitlist">${splitsAll.map(p=>`<li><span class="pair">${GLYPH[p.sa]} ${esc(p.a)} + ${GLYPH[p.sb]} ${esc(p.b)}</span><span class="m ${compatible(p.sa,p.sb)?"y":"n"}">${compatible(p.sa,p.sb)?"a match":"a clash"}</span><div class="what">${esc(coName(p.company))}: ${esc(p.what||outcome(p))}${p.src?` <a href="${esc(p.src)}" target="_blank" rel="noopener">source</a>`:""}</div></li>`).join("")}</ul>
-  <p class="small" style="margin-top:14px">Why so few? Many famous splits, at Twitter, Snap, Tinder and Yahoo, happened at companies that were sold or are worth under $20 billion today, so they aren't in this list. Others are missing a cofounder's birthday.</p>`,
-  st:{mode:"splits",show:"all"}, play:{dur:10000, caption:"Red lines: cofounders who split. Astrology didn't see it coming."} });
+steps.push({ id:"simulator", title:"build your own team",
+  html:`<h2 class="chalk">Build your own <i>founding team</i></h2>
+  <p>Pick any two founders, or yourself and a founder. We'll show what astrology says, what real teams like yours built, and a company the two of you might start.</p>
+  <div class="sim"><div><label class="field" for="simA">first founder</label><select id="simA"></select></div><div><label class="field" for="simB">second founder</label><select id="simB"></select></div></div>
+  <div class="simout" id="simOut"></div>
+  <div class="inline-actions"><button class="btn gold" type="button" id="simAsk">invent their company with Claude</button><button class="linkbtn" type="button" id="simAgain">another idea</button></div>
+  <div class="simidea" id="simIdea"></div>`,
+  st:{show:"all"}, wire:wireSim, enter:()=>simRender() });
 
-steps.push({ id:"fallen", eb:"VIII", title:"the fallen",
-  html:`<h2 class="chalk">Does failure <i>have a sign?</i></h2>
-  <p>${fv.n_fallen} founders built billion-dollar companies that later collapsed. If the stars shaped founders, their signs should look different from the founders who made it.</p>
-  <div class="sheet">${dumbbell()}<div class="hint">○ successful founders &nbsp; <span style="color:var(--red)">●</span> founders of collapsed companies</div></div>
-  <p style="margin-top:14px">They don't. The biggest difference: ${pct(gapSign.f)} of the ${fv.n_fallen} are ${SIGNS[gapSign.k]}s, against ${pct(gapSign.t)} of successful founders. Among only ${fv.n_fallen} people, a gap like that would show up ${pct(fv.p_perm)} of the time even if signs meant nothing.</p>
-  <details><summary>the ${fallenF.length} founders of collapsed companies</summary><ul class="plist" style="margin-top:8px">${fallenF.map(f=>`<li><span>${GLYPH[f.sign]} ${esc(f.name)} <span class="co">${esc(coName(f.companies[0].name))}</span></span><span class="st red">${esc(f.sign)}</span></li>`).join("")}</ul></details>`,
-  st:{mode:"fallen",show:"all"}, play:{dur:8500, caption:"Red: founders whose companies collapsed. Their signs look like everyone else's."} });
+if(XT.lore) steps.push({ id:"lore", title:"astrology's job descriptions",
+  html:`<h2 class="chalk">Astrology's <i>job descriptions</i>, checked</h2>
+  <p>Every sign comes with a personality. We turned each one into a question the data can answer.</p>
+  <div class="lore">${XT.lore.map(l=>`<div class="lcard"><div class="lsg">${GLYPH[l.sign]} ${l.sign}, <i>${esc(l.says)}</i></div><div class="lq">${esc(l.question)}</div><div class="lnum"><b>${loreVal(l,l.value)}</b> ${esc(l.unit)}<span>all founders: ${loreVal(l,l.all)}</span></div><div class="lv ${l.verdict==="as the stars say"?"yes":(l.verdict==="the opposite"?"opp":"none")}">${l.verdict}</div></div>`).join("")}</div>
+  <p style="margin-top:14px">The scorecard: ${loreScore["as the stars say"]||0} as the stars say, ${loreScore["the opposite"]||0} the opposite, ${loreScore["no difference"]||0} no difference. Each sign has 20 to 40 founders here, so treat these as fun, not fate.</p>
+  <div class="verdict">The risk-takers never crashed. The partnership sign doesn't partner more.</div>`, st:{} });
 
-steps.push({ id:"school", eb:"IX", title:"the school year",
+steps.push({ id:"ages", title:"how old were they?",
+  html:`<h2 class="chalk">How old were they <i>when they started?</i></h2>
+  <p>Birthdays tell us one thing for certain: age. We know when each company was founded, so we know how old every founder was on day one.</p>
+  <div class="big">${scrap(XT.ages.median,"typical age at founding","gold")}${scrap(pct(XT.ages.under25),"started before turning 25")}${scrap(pct(XT.ages.over40),"were 40 or older")}</div>
+  <div class="sheet">${barsSVG(XT.ages.hist_edges.slice(0,-1).map(e=>e===65?"65+":`${e}s`.replace(/^(\d)(\d)s$/,"$1$2")),XT.ages.hist,null,null,{aria:"Founders by age at founding",seed:21})}<div class="hint">founders by age when their company was founded, in five-year steps · on the wheel, brighter gold means younger</div></div>
+  <ul class="facts">
+    <li>Founders of $100 billion companies started a little younger: typically at ${XT.ages.giants_median}, against ${XT.ages.big_median} for $20 to $100 billion companies.</li>
+    <li>Founders are getting older. In the ${XT.ages.by_era[0].era} they started at about ${XT.ages.by_era[0].median}; from ${XT.ages.by_era[3].era}, at about ${XT.ages.by_era[3].median}.</li>
+    <li>The youngest founders of $100 billion companies: ${XT.ages.youngest_giants.slice(0,5).map(x=>`${esc(x.name)} at ${x.age} (${esc(coName(x.company))})`).join(", ")}.</li>
+  </ul>
+  <div class="verdict">The 20-year-old dropout is the exception. Thirty-five is the rule.</div>`,
+  st:{colorBy:"age",show:"all"} });
+
+steps.push({ id:"twins", title:"birthday twins",
+  html:`<h2 class="chalk">Founders who share <i>a birthday</i></h2>
+  <div class="twins">${XT.twins.top.slice(0,8).map(g=>`<div class="twin"><div class="tday">${DAYNAME(g.day)}</div>${PICS[g.people[0].name]?`<img src="${PICS[g.people[0].name]}" alt="">`:""}<ul>${g.people.slice(0,4).map(p=>`<li><b>${esc(p.name)}</b> ${esc(coName(p.company))}</li>`).join("")}</ul></div>`).join("")}</div>
+  <p style="margin-top:14px">${XT.twins.pairs} pairs of founders share a birthday. It feels like fate, but it's the birthday paradox: in any room of 23 people, odds are two share a birthday. With ${XT.twins.n_people} founders, you'd expect about ${Math.round(XT.twins.expected_pairs)} pairs.</p>
+  <div class="hint">find your own founder twins in the last chapter</div>`,
+  st:{mode:"twins",show:"all"} });
+
+steps.push({ id:"school", title:"the school year",
   html:`<h2 class="chalk">The one birthday effect <i>science takes seriously</i></h2>
-  <p>In youth sports, kids born just after the school cutoff are the oldest in their class. They're bigger, get picked first, and the edge snowballs. One study found S&amp;P 500 CEOs lean the same way (Du, Gao and Levi, 2012). A larger one found nothing (Covington, Swidler and Yost, 2022).</p>
-  <p>So we put ${ra.n} founders in their own school year, using their country's cutoff date. On the wheel, the oldest kids in class sit at the top, running clockwise to the youngest.</p>
-  <div class="big">${scrap(pct(ra.share_oldest_third),"in the oldest third of their class","gold")}${scrap(pct(ra.null_oldest_third),"of everyone else")}</div>
-  <div class="sheet">${barsSVG(["oldest","2","3","4","5","6","7","8","9","10","11","youngest"],[...ra.hist].reverse(),[...ra.expected_hist].reverse(),null,{aria:"Founders by month of the school year",seed:9})}<div class="hint">founders by month of the school year · white mark: everyone else</div></div>
-  <div class="verdict">Birth month doesn't make founders. Have your kid whenever you like.</div>`,
-  st:{lens:"school"}, play:{dur:11000, caption:"Kids born just after the school cutoff are the oldest in class. Does that make founders?", run:async()=>{ await wait(5000); caption("Oldest third of the class: "+pct(ra.share_oldest_third)+" of founders. Everyone else: "+pct(ra.null_oldest_third)+"."); }} });
+  <p>In youth sports, kids born just after the school cutoff are the oldest in their class. They're bigger, get picked first, and the edge snowballs. Does the same thing make founders? We placed ${XT.school.n} founders in their own school year, using their country's cutoff date.</p>
+  <div class="big">${scrap(XT.school.oldest_third,"were among the oldest third of their class","gold")}${scrap(XT.school.youngest_third,"were among the youngest third")}</div>
+  <p>If being the oldest in class helped, the first pile would be much bigger. It's the same size. On the wheel, the oldest kids sit at the top, running clockwise to the youngest.</p>
+  <div class="verdict">Being the oldest in class doesn't make founders. Have your kid whenever you like.</div>`,
+  st:{lens:"school"} });
 
-steps.push({ id:"types", eb:"X", title:"industries",
-  html:`<h2 class="chalk">Do signs <i>pick industries?</i></h2>
-  <p>We sorted every company into six types using its Wikipedia page. The wheel's dots are now colored by type. For each type, here's the sign with the most founders above normal.</p>
-  <div class="sheet" style="overflow-x:auto"><table class="t"><tr><th>type</th><th>founders</th><th>most above normal</th></tr>${se.tops.map(t=>`<tr><td><span class="dot" style="background:${SECOL[t.sector]}"></span>${esc(t.sector)}</td><td class="num">${t.n}</td><td>${GLYPH[t.top_sign]} ${t.top_sign}: ${t.top_obs} <span style="color:var(--chalk3)">(normal: ${t.top_exp})</span></td></tr>`).join("")}</table></div>
-  <p style="margin-top:14px">${(()=>{ const z=t=>(t.top_obs-t.top_exp)/Math.sqrt(t.top_exp), best=se.tops.reduce((a,b)=>(z(b)>z(a)?b:a)); return `The strongest lean: ${best.top_sign} founders in ${best.sector.toLowerCase()}, ${best.top_obs} where ${best.top_exp} would be normal. Even if signs meant nothing, a lean that strong would show up ${pct(se.p_max_cell)} of the time.`; })()}</p>
-  <div class="verdict">Signs don't pick industries.</div>`,
-  st:{colorBy:"sector"}, play:{dur:8000, caption:"Colored by industry. No sign owns one."} });
-
-steps.push({ id:"value", eb:"XI", title:"the most valuable sign",
-  html:`<h2 class="chalk">Which sign built <i>the most?</i></h2>
-  <p>Add up every company each sign helped found. ${signValueOrder[0].s} founders had a hand in $${trillions(signValueOrder[0].v)} trillion of companies, including ${VAL.top_companies[signValueOrder[0].s].slice(0,3).map(coName).join(", ")}. ${signValueOrder[1].s} comes next with $${trillions(signValueOrder[1].v)} trillion.</p>
-  <div class="sheet">${barsSVG(signValueOrder.map(x=>GLYPH[x.s]),signValueOrder.map(x=>x.v/1e12),null,null,{aria:"Company value by founders' sign, in trillions of dollars",seed:13,fmt:v=>v.toFixed(1)})}<div class="hint">trillions of dollars of companies, by the signs of their founders</div></div>
-  <p style="margin-top:14px">But one or two giant companies decide this ranking. Whichever sign cofounded Nvidia or Apple wins. Even if signs meant nothing, some sign would grab this big a share ${pct(VAL.p_top_share)} of the time.</p>
-  <div class="verdict">The top sign is whoever cofounded the biggest company.</div>`,
-  st:{}, play:{dur:9000, caption:`${signValueOrder[0].s} founders had a hand in the most value. One giant company decides it.`} });
-
-steps.push({ id:"moon", eb:"XI", title:"moon and rising",
-  html:`<h2 class="chalk">What about the <i>Moon and rising signs?</i></h2>
-  <p>Your Moon sign comes from your birth date and, on some days, the hour. Your rising sign needs the exact minute, which almost no founder has published.</p>
-  <p>We worked out Moon signs for ${mo.n} founders. Moon in ${mo.tallest} leads with ${Math.round(mo.observed[mo.bins.indexOf(mo.tallest)])} where ${Math.round(mo.expected[0])} would be normal. Even if signs meant nothing, you'd see a spread like this ${pct(mo.p_mc)} of the time. Only ${nRising} founders, circled in green, have a recorded birth time. That's too few to say anything about rising signs.</p>`,
-  st:{mode:"rising"}, play:{dur:7000, caption:"Moon signs: no pattern. Rising signs: almost no founder has a birth time on record."} });
-
-steps.push({ id:"you", eb:"XII", title:"your turn",
+steps.push({ id:"you", title:"your turn",
   html:`<h2 class="chalk">Where do <i>you</i> land?</h2>
   <p>Enter your birthday. The year doesn't matter.</p>
   <label class="field" for="youDate">your birthday</label>
@@ -847,10 +916,12 @@ steps.push({ id:"you", eb:"XII", title:"your turn",
   <div class="you-out" id="youOut"></div>
   <div class="inline-actions"><button class="btn gold" type="button" id="mkCard">make my card</button></div>
   <div class="cardimg" id="cardOut" hidden></div>`,
-  st:{mode:"you",show:"all"}, wire:()=>{ const i=document.getElementById("youDate"); i.onchange=()=>{ const [,m,d]=i.value.split("-").map(Number); if(m&&d){ state.you=doy(m,d); draw(); youOut(); } }; document.getElementById("mkCard").onclick=makeCard; youOut(); },
-  play:{dur:11000, caption:"Now find yourself.", run:async()=>{ await wait(3500); makeCard(); caption("Make a card and post your sign."); }} });
+  st:{mode:"you",show:"all"}, wire:()=>{ const i=document.getElementById("youDate"); i.onchange=()=>{ const [,m,d]=i.value.split("-").map(Number); if(m&&d){ state.you=doy(m,d); draw(); youOut(); simFill(); } }; document.getElementById("mkCard").onclick=makeCard; youOut(); } });
 
-steps.push({ id:"how", eb:"XIII", title:"how we did it", html:`<h2 class="chalk">How we <i>did it</i></h2>${META.methods_table}`, st:{} });
+steps.push({ id:"how", title:"how we did it",
+  html:`<h2 class="chalk">How we <i>did it</i></h2>
+  <p>A few more things we checked, quickly: fire, earth, air and water signs each got their fair share. No birth month stands out. The ${fv.n_fallen} founders whose companies collapsed have the same mix of signs as everyone else. No sign leans toward an industry. Moon signs, worked out for ${mo.n} founders, show nothing either, and only ${nRising} founders have a recorded birth time, too few for rising signs.</p>
+  ${META.methods_table}`, st:{} });
 
 const stepsEl=document.getElementById("steps");
 const ROMAN=["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII","XIV","XV","XVI","XVII","XVIII"];
@@ -861,8 +932,8 @@ stepsEl.addEventListener("click",e=>{ const a=e.target.closest("[data-act]"); if
 function pickDuo(k){ const p=DUOS[k]; state.mode="duo"; state.duo=[p]; state.pair=null; document.querySelectorAll("#duos .duo").forEach(b=>b.classList.toggle("on",+b.dataset.k===k)); if(state.lens!=="zodiac") setLens("zodiac"); draw(); }
 
 /* ---------- match chart ---------- */
-const MX={mode:"count", sel:null};
-const MXCAP={count:"each number is how many cofounder pairs have that combination", ratio:"1.5× means 1.5 times as many pairs as you'd get pairing the same founders at random · blank: fewer than 3 pairs", value:"total value of the companies each sign pair founded, in billions of dollars", ended:"pairs that split up or whose company collapsed, out of all pairs in the square"};
+const MX={mode:"value", sel:null};
+const MXCAP={count:"each number is how many cofounder pairs have that combination", ratio:"1.5× means 1.5 times as many pairs as you'd get pairing the same founders at random · blank: fewer than 3 pairs", value:"the value of every company each pair of signs built together (T = trillion, B = billion)", ended:"pairs that split up or whose company collapsed, out of all pairs in the square"};
 function wireMatrix(){
   const mx=document.getElementById("mx"); let h=`<div></div>`+SIGNS.map((s,j)=>`<div class="hd" data-j="${j}" title="${s}">${GLYPH[s]}</div>`).join("");
   SIGNS.forEach((s,i)=>{ h+=`<div class="rh" data-i="${i}"><span class="g">${GLYPH[s]}</span><span class="nm">${s}</span></div>`; SIGNS.forEach((t,j)=>{ const r=rng(i*12+j+1), q=()=>Math.round(2+r()*7); h+=`<button type="button" class="c ${compatible(s,t)?"compat":""}" data-i="${i}" data-j="${j}" aria-label="${s} and ${t}" style="border-radius:${q()}px ${q()}px ${q()}px ${q()}px / ${q()}px ${q()}px ${q()}px ${q()}px"></button>`; }); });
@@ -870,9 +941,9 @@ function wireMatrix(){
   mx.querySelectorAll(".c").forEach(c=>{ const i=+c.dataset.i,j=+c.dataset.j; c.onmouseenter=()=>{ detail(i,j); cross(i,j); state.pair=[i,j]; state.mode=null; draw(); }; c.onclick=()=>{ if(MX.sel&&MX.sel[0]===i&&MX.sel[1]===j){ MX.sel=null; paintSel(); } else selectCell(i,j,true); }; });
   mx.onmouseleave=()=>{ if(MX.sel) selectCell(...MX.sel,true); else { state.pair=null; cross(-1,-1); draw(); defaultDetail(); } };
   document.querySelectorAll("#mxmode button").forEach(b=>b.onclick=()=>setMode(b.dataset.m));
-  const tops=topCells("count").slice(0,4); document.getElementById("mxtop").innerHTML=`<span class="lab">most common:</span>`+tops.map(t=>`<button class="chip" type="button" data-i="${t.i}" data-j="${t.j}">${GLYPH[SIGNS[t.i]]} ${SIGNS[t.i]} + ${GLYPH[SIGNS[t.j]]} ${SIGNS[t.j]} · ${t.n}</button>`).join("");
+  const tops=topCells("value").slice(0,4); document.getElementById("mxtop").innerHTML=`<span class="lab">built the most:</span>`+tops.map(t=>`<button class="chip" type="button" data-i="${t.i}" data-j="${t.j}">${GLYPH[SIGNS[t.i]]} ${SIGNS[t.i]} + ${GLYPH[SIGNS[t.j]]} ${SIGNS[t.j]} · ${money(cellVal(t.i,t.j))}</button>`).join("");
   document.querySelectorAll("#mxtop .chip").forEach(b=>b.onclick=()=>selectCell(+b.dataset.i,+b.dataset.j,true));
-  document.getElementById("mxcap").textContent=MXCAP.count; defaultDetail();
+  document.getElementById("mxcap").textContent=MXCAP[MX.mode]; defaultDetail();
 }
 function topCells(kind){ const out=[]; for(let i=0;i<12;i++) for(let j=i;j<12;j++){ const n=cnt(i,j), e=expd(i,j); if(n>0) out.push({i,j,n,e}); } if(kind==="value") return out.sort((a,b)=>cellVal(b.i,b.j)-cellVal(a.i,a.j)); return kind==="ratio" ? out.filter(t=>t.n>=3).sort((a,b)=>b.n/b.e-a.n/a.e) : out.sort((a,b)=>b.n-a.n||b.n/b.e-a.n/a.e); }
 function setMode(m){ MX.mode=m; document.querySelectorAll("#mxmode button").forEach(b=>b.classList.toggle("on",b.dataset.m===m)); document.getElementById("mxcap").textContent=MXCAP[m]; paint(); }
@@ -894,14 +965,79 @@ function detail(i,j){ const n=cnt(i,j), e=expd(i,j), ps=CELL[cellKey(i,j)]||[], 
   const vs = n===0 ? `No cofounder pairs in our list. Pairing the same founders at random would give about ${e.toFixed(1)}.` : `${n} cofounder pair${n===1?"":"s"}, whose companies are worth ${money(cellVal(i,j))} together. Pairing the same founders at random would give about ${e.toFixed(1)} pairs.`;
   document.getElementById("mxdetail").innerHTML=`<h3 class="chalk">${name}</h3><div class="sub">${m?"Astrology calls this a match.":"Astrology says this pair clashes."} ${vs}</div><ul class="plist">${ps.slice().sort((a,b)=>Math.max(b.fa.value,b.fb.value)-Math.max(a.fa.value,a.fb.value)).map(pairRow).join("")}</ul>`;
   document.querySelectorAll("#mxdetail [data-f]").forEach(b=>b.onclick=()=>openCard(F[+b.dataset.f],true)); }
-function defaultDetail(){ const t=topCells("count")[0]; if(t) detail(t.i,t.j); }
+function defaultDetail(){ const t=topCells("value")[0]; if(t) detail(t.i,t.j); }
 
 /* ---------- your sign ---------- */
-function partners(s){ const i=SIGNS.indexOf(s); return SIGNS.map((t,j)=>({t,j,n:cnt(i,j),e:expd(i,j),ps:CELL[cellKey(i,j)]||[]})).filter(x=>x.n>0).sort((a,b)=>b.n-a.n||b.n/b.e-a.n/a.e); }
-function yourSign(s){ document.getElementById("ysName").textContent=s; const list=partners(s), mx=list.length?list[0].n:1;
+function partners(s){ const i=SIGNS.indexOf(s); return SIGNS.map((t,j)=>({t,j,n:cnt(i,j),e:expd(i,j),v:cellVal(i,j),ps:CELL[cellKey(i,j)]||[]})).filter(x=>x.n>0).sort((a,b)=>b.v-a.v||b.n-a.n); }
+function yourSign(s){ document.getElementById("ysName").textContent=s; const list=partners(s), mx=list.length?list[0].v:1;
   document.getElementById("ysOut").innerHTML=list.slice(0,6).map(x=>{ const ex=x.ps.slice().sort((a,b)=>Math.max(b.fa.value,b.fb.value)-Math.max(a.fa.value,a.fb.value)).slice(0,3).map(p=>`${esc(short(p.a))} + ${esc(short(p.b))} <span style="color:var(--chalk3);font-style:italic">${esc(coName(p.company))}</span>${isSplit(p)?' <span class="split">split</span>':""}`).join("; ");
-    return `<li><div class="s">${GLYPH[x.t]} ${x.t}<small>${x.n} pair${x.n===1?"":"s"} · ${money(cellVal(SIGNS.indexOf(s),x.j))}${compatible(s,x.t)?" · a match":""}</small><div class="hbar" style="width:${Math.round(100*x.n/mx)}%"></div></div><div class="ex">${ex}</div></li>`; }).join("") || `<li><div class="ex">No cofounder pairs with a ${s} in this list.</div></li>`;
+    return `<li><div class="s">${GLYPH[x.t]} ${x.t}<small>${x.n} pair${x.n===1?"":"s"} · ${money(cellVal(SIGNS.indexOf(s),x.j))}${compatible(s,x.t)?" · a match":""}</small><div class="hbar" style="width:${Math.max(3,Math.round(100*x.v/mx))}%"></div></div><div class="ex">${ex}</div></li>`; }).join("") || `<li><div class="ex">No cofounder pairs with a ${s} in this list.</div></li>`;
   const top=list[0]; if(top){ state.pair=[SIGNS.indexOf(s),top.j]; state.mode=null; draw(); } }
+
+
+/* ---------- build your own team ---------- */
+const SIMLIST=F.filter(f=>f.ring!=="fallen").slice().sort((a,b)=>b.value-a.value);
+const BLEND={
+ "Software & internet|Software & internet":["the operating system for everything you own","one app that replaces the other forty on your phone"],
+ "Chips & hardware|Software & internet":["an AI computer that comes with its own cloud","a laptop that writes its own software"],
+ "Money & finance|Software & internet":["a bank that lives inside the apps you already use","a stock market for small businesses"],
+ "Health & biotech|Software & internet":["an app that runs a whole clinic","a doctor in your pocket that knows your history"],
+ "Shops & consumer brands|Software & internet":["a store that restocks your home before you notice","a brand that designs products from what its customers type"],
+ "Energy, cars & industry|Software & internet":["software that runs the power grid","a factory you can order from like a website"],
+ "Chips & hardware|Chips & hardware":["a chip inside every object on Earth","a computer the size of a grain of rice"],
+ "Chips & hardware|Money & finance":["a trading desk on a single chip","a payment card that is also a computer"],
+ "Chips & hardware|Health & biotech":["a lab on a chip that reads a drop of blood","an implant that tracks your health for life"],
+ "Chips & hardware|Shops & consumer brands":["a phone you can repair at the kitchen table","electronics sold like furniture, built to last decades"],
+ "Chips & hardware|Energy, cars & industry":["batteries that think","a car built around its computer"],
+ "Money & finance|Money & finance":["a bank for the next billion people","a fund that only invests in founders' first companies"],
+ "Health & biotech|Money & finance":["insurance that pays you to stay well","a fund that bets on cures"],
+ "Money & finance|Shops & consumer brands":["a store where every receipt is a share","a credit card that pays you in stock"],
+ "Energy, cars & industry|Money & finance":["a fund that owns solar farms and pays out monthly","insurance for the climate"],
+ "Health & biotech|Health & biotech":["a machine that searches for cures around the clock","a pharmacy that makes drugs to order"],
+ "Health & biotech|Shops & consumer brands":["a pharmacy in every grocery store","vitamins designed from your DNA"],
+ "Energy, cars & industry|Health & biotech":["clean air as a subscription","hospitals that run on their own power"],
+ "Shops & consumer brands|Shops & consumer brands":["the everything store, again","a brand that never runs a sale"],
+ "Energy, cars & industry|Shops & consumer brands":["an electric delivery fleet for every neighbourhood","a car you can buy at the supermarket"],
+ "Energy, cars & industry|Energy, cars & industry":["a factory that builds factories","a railway that powers the towns it passes"],
+};
+let SIMV=0, SAMPLE=null;
+const capFirst=t=>t.charAt(0).toUpperCase()+t.slice(1);
+function portmanteau(x,y){ const A=(x||"Nova").split(/\s/)[0].replace(/[^A-Za-z]/g,""), B=(y||"Labs").split(/\s/)[0].replace(/[^A-Za-z]/g,""); const head=t=>{ const m=t.match(/^[^aeiouy]*[aeiouy]+[^aeiouy]?/i); return m?m[0]:t.slice(0,3); }; const tail=t=>{ const m=t.match(/[aeiouy][^aeiouy]*[aeiouy]?[^aeiouy]*$/i); return m?m[0]:t.slice(-3); }; const n=(head(A)+tail(B)).toLowerCase(); return capFirst(n); }
+function simPerson(v){ if(v==="me"){ const s_=SIGNS[DOY_SIGN[state.you]]; return {me:true,name:"You",sign:s_,year:null,company:null,sector:null,f:null}; } const f=F[+v]; return {name:f.name,sign:f.sign,year:f.year,company:coName(f.companies[0].name),sector:f.sector,f}; }
+function templateIdea(a,b,v=0){ const sa=a.sector||b.sector||"Software & internet", sb=b.sector||a.sector||"Software & internet", opts=BLEND[[sa,sb].sort().join("|")]||["a company nobody has thought of yet"], what=opts[v%opts.length];
+  const yrs=[a.year,b.year].filter(Boolean), yr=yrs.length?Math.min(2026,Math.max(...yrs)+(XT.ages?XT.ages.median:35)):2026;
+  return {name:a.me?portmanteau(b.company,"You"):portmanteau(a.company,b.company), year:yr, pitch:`${capFirst(what)}. ${a.me?"You bring the fresh idea":`${short(a.name)} brings what built ${a.company}`}, and ${short(b.name)} brings what built ${b.company}.`}; }
+const ideaHTML=(d,by)=>`<div class="card2"><div><span class="iname">${esc(d.name)}</span> <span class="iyr">· founded ${esc(d.year)}, imagined</span></div><p style="margin:6px 0 0">${esc(d.pitch)}</p>${d.roles?`<p class="small" style="margin:4px 0 0">${esc(d.roles)}</p>`:""}<div class="by">${esc(by)}</div></div>`;
+function simFill(){ const A=document.getElementById("simA"), B=document.getElementById("simB"); if(!A) return; const ka=A.value, kb=B.value;
+  const opts=SIMLIST.map(f=>`<option value="${f.i}">${esc(f.name)} · ${GLYPH[f.sign]} ${f.sign} · ${esc(coName(f.companies[0].name))}</option>`).join("");
+  A.innerHTML=`<option value="me">You · ${GLYPH[SIGNS[DOY_SIGN[state.you]]]} ${SIGNS[DOY_SIGN[state.you]]} · born ${dayName(state.you)}</option>`+opts; B.innerHTML=opts;
+  A.value=ka||String((BYNAME.get("Steve Jobs")||SIMLIST[0]).i); B.value=kb||String((BYNAME.get("Jensen Huang")||SIMLIST[1]).i); }
+function simRender(){ const A=document.getElementById("simA"), B=document.getElementById("simB"); if(!A||!A.value) return; const a=simPerson(A.value), b=simPerson(B.value), out=document.getElementById("simOut");
+  if(!a.me && a.name===b.name){ out.innerHTML="Pick two different founders."; return; }
+  const m=compatible(a.sign,b.sign), pr=pairingOf(a.sign,b.sign), si=SIGNS.indexOf(a.sign), sj=SIGNS.indexOf(b.sign), real=(CELL[cellKey(si,sj)]||[]).slice().sort((x,y)=>Math.max(y.fa.value,y.fb.value)-Math.max(x.fa.value,x.fb.value));
+  const ex=[...new Set(real.map(p=>`${short(p.a)} and ${short(p.b)} (${coName(p.company)})`))].slice(0,2);
+  let ageLine=""; if(a.year&&b.year){ const gap=Math.abs(a.year-b.year), older=a.year<=b.year?a:b, younger=a.year<=b.year?b:a, yr=younger.year+XT.ages.median;
+    ageLine=`<li>${gap?`${esc(short(older.name))} is ${gap} years older.`:"They were born the same year."} ${yr<=2026?`Starting when ${esc(short(younger.name))} hit ${XT.ages.median}, the typical founding age, puts it in ${yr}, with ${esc(short(older.name))} at ${yr-older.year}.`:""}</li>`; }
+  out.innerHTML=`<div class="shead">${a.me?"You":esc(a.name)} ${GLYPH[a.sign]} + ${esc(b.name)} ${GLYPH[b.sign]}: <i>${m?"a match":"a clash"}</i></div><ul>
+    <li>${a.me?"You're":esc(short(a.name))+" is"} ${/^[AEIOU]/.test(a.sign)?"an":"a"} ${a.sign} (${ELEMENT[a.sign].toLowerCase()}), ${esc(short(b.name))} ${/^[AEIOU]/.test(b.sign)?"an":"a"} ${b.sign} (${ELEMENT[b.sign].toLowerCase()}), so astrology calls this ${m?"a match":"a clash"}.</li>
+    ${pr?`<li>Real ${pr.elements.map(e=>e.toLowerCase()).join(" + ")} founding teams built a typical <b>${money(pr.median)}</b> company: ${pr.n} companies, like ${pr.examples.slice(0,2).map(coName).map(esc).join(" and ")}.</li>`:""}
+    ${real.length?`<li>Real ${a.sign} + ${b.sign} cofounders built ${money(cellVal(si,sj))} in all, like ${ex.map(esc).join(" and ")}.</li>`:`<li>No real ${a.sign} + ${b.sign} cofounders in our list yet. You'd be the first.</li>`}
+    ${ageLine}</ul>`;
+  state.mode="wif"; state.wif=[a.f,b.f,{a:{sign:a.sign,name:a.me?"You":a.name},b:{sign:b.sign,name:b.name},match:m}]; if(state.lens!=="zodiac") setLens("zodiac"); draw();
+  SIMV=0; document.getElementById("simIdea").innerHTML=ideaHTML(templateIdea(a,b,0),"a quick idea from our idea machine, built from their industries"); }
+async function simAsk(){ const a=simPerson(document.getElementById("simA").value), b=simPerson(document.getElementById("simB").value), el=document.getElementById("simIdea"), btn=document.getElementById("simAsk");
+  if(!SAMPLE){ el.innerHTML=ideaHTML(templateIdea(a,b,++SIMV),"a quick idea from our idea machine"); return; }
+  const desc=p=>p.me?`the person reading this, born on ${dayName(state.you)} (a ${p.sign}), who has not founded anything famous yet`:`${p.name}, born ${p.year} (a ${p.sign}), best known for founding ${p.company} (${String(p.sector||"").toLowerCase()})`;
+  const prompt=`Invent one specific, believable company that these two people could have started together. Person A: ${desc(a)}. Person B: ${desc(b)}. Use what each one is known for. Make it fun but plausible. Give it an original name that is not a real company, a founding year when both were adults and alive (no later than 2026), a two-sentence pitch in plain everyday words, and one sentence on who does what. Reply with only JSON like {"name":"...","year":2007,"pitch":"...","roles":"..."}.`;
+  btn.disabled=true; el.innerHTML=`<div class="card2"><span class="iyr">Claude is dreaming up their company…</span></div>`;
+  try{ const r=await SAMPLE.json(prompt,{cache:false}); if(!r||!r.name) throw {code:"invalid_json"}; el.innerHTML=ideaHTML({name:String(r.name),year:String(r.year||""),pitch:String(r.pitch||""),roles:String(r.roles||"")},"invented by Claude, just for fun"); }
+  catch(e){ const off=e&&["not_granted","sampling_disabled","capability_disabled","not_declared","capability_removed"].includes(e.code); if(off) btn.hidden=true; el.innerHTML=ideaHTML(templateIdea(a,b,++SIMV), off?"Claude isn't switched on here, so here's our idea machine's take":"Claude couldn't answer just now, so here's our idea machine's take"); }
+  finally{ btn.disabled=false; } }
+function wireSim(){ simFill(); const A=document.getElementById("simA"), B=document.getElementById("simB"); A.onchange=simRender; B.onchange=simRender;
+  document.getElementById("simAsk").onclick=simAsk; document.getElementById("simAgain").onclick=()=>{ const a=simPerson(A.value), b=simPerson(B.value); document.getElementById("simIdea").innerHTML=ideaHTML(templateIdea(a,b,++SIMV),"a quick idea from our idea machine"); };
+  const btn=document.getElementById("simAsk"); btn.hidden=true;
+  (async()=>{ try{ SAMPLE=(window.claude&&window.claude.use)?await window.claude.use("sample"):null; }catch(e){ SAMPLE=null; } btn.hidden=!SAMPLE; })();
+  simRender(); }
 
 /* ---------- find yourself + the red card ---------- */
 const EXPSIGN=(()=>{ const e=new Array(12).fill(0); F.forEach(f=>{ for(let k=0;k<365;k++) e[DOY_SIGN[k]]+=f.p[k]; }); return e; })();
@@ -910,6 +1046,7 @@ const nearOf=k=>F.filter(f=>{ let d=Math.abs(f.doy-k); d=Math.min(d,365-d); retu
 function youOut(){ const k=state.you, s=SIGNS[DOY_SIGN[k]], all=F.filter(f=>f.sign===s), near=nearOf(k), bm=bestMatch(s), famous=all.slice().sort((a,b)=>b.value-a.value).slice(0,5);
   document.getElementById("youOut").innerHTML=`<div class="line">You're a <em>${s}</em> ${GLYPH[s]}. ${all.length} founders in this list share your sign. If founders were born like everyone else, there'd be about ${Math.round(EXPSIGN[DOY_SIGN[k]])}.</div>`+
    (famous.length?`<div class="line">The biggest ${s} founders: ${famous.map(f=>`${esc(f.name)} <span style="color:var(--chalk3);font-style:italic">${esc(coName(f.companies[0].name))}</span>`).join(", ")}.</div>`:"")+
+   (()=>{ const same=F.filter(f=>f.doy===k).sort((a,b)=>b.value-a.value); return same.length?`<div class="line">Your founder twins, born on your exact day: ${same.slice(0,6).map(f=>`<b>${esc(f.name)}</b> <span style="color:var(--chalk3)">(${esc(coName(f.companies[0].name))})</span>`).join(", ")}.</div>`:""; })()+
    (near.length?`<div class="line">Born within three days of you: ${near.slice(0,5).map(f=>`${esc(f.name)} <span style="color:var(--chalk3)">(${dayName(f.doy)})</span>`).join(", ")}.</div>`:"")+
    (bm?`<div class="line">The sign ${s} founders most often teamed up with: <em>${bm.t}</em> ${GLYPH[bm.t]}, ${bm.n} pair${bm.n===1?"":"s"}${bm.ps[0]?`, like ${esc(bm.ps[0].a)} and ${esc(bm.ps[0].b)}`:""}.</div>`:""); }
 let CARDBLOB=null;
@@ -1010,7 +1147,7 @@ document.addEventListener("keydown",e=>{ if(["INPUT","SELECT","TEXTAREA"].includ
 const FILMDATA=DATA.film||[];
 const FILM={on:false,i:0,paused:false,tok:0,sound:true,cc:true,aud:null,cur:null,home:null,next:null};
 const filmEl=document.getElementById("film"), fStage=document.getElementById("fStage"), fPanel=document.getElementById("fPanel"), fTitle=document.getElementById("fTitle"), fLabel=document.getElementById("fLabel"), fSub=document.getElementById("fSub"), fProg=document.getElementById("fProg");
-const PORTRAIT={}; (DATA.whatif||[]).forEach(w=>{ PORTRAIT[w.a.name]=w.a.src; PORTRAIT[w.b.name]=w.b.src; });
+const PORTRAIT=PICS;
 const fcard=(name,line,big)=>`<div class="fcard ${big?"big":""}" style="--rot:${((rng(name.length*7+3)()-.5)*6).toFixed(1)}deg">${PORTRAIT[name]?`<img src="${PORTRAIT[name]}" alt="">`:""}<div class="nm">${esc(name)}</div><div class="sg">${line}</div></div>`;
 const bigs=(...xs)=>`<div class="fbig">${xs.join("")}</div>`;
 const stampHTML=(word,kind,pos)=>`<div class="stamp ${kind}" style="${pos}">${word}</div>`;
@@ -1035,60 +1172,54 @@ const wifWith=n=>WIF.find(w=>w.a.name===n||w.b.name===n);
 function gridHTML(){ const mv=Math.max(...VAL.cell_value.flat()), top=topCells("value")[0];
   let h=`<div class="fgrid"><div></div>${SIGNS.map(s=>`<div>${GLYPH[s]}</div>`).join("")}`;
   SIGNS.forEach((s,i)=>{ h+=`<div>${GLYPH[s]}</div>`; SIGNS.forEach((t,j)=>{ const v=cellVal(i,j), tt=Math.sqrt(v/mv), isTop=top&&((top.i===i&&top.j===j)||(top.i===j&&top.j===i));
-    h+=`<div class="c ${isTop?"top":""}" style="background:${v?hatchBG("224,174,74",0.25+0.75*tt,tt>0.6?3.2:4.4,1.2+tt*1.8):"transparent"};opacity:0;animation:fin .4s ${((i+j)*0.035).toFixed(2)}s forwards"></div>`; }); });
+    h+=`<div class="c ${isTop?"top":""}" style="background:${v?hatchBG("224,174,74",0.25+0.75*tt,tt>0.6?3.2:4.4,1.2+tt*1.8):"transparent"};opacity:0;animation:fin .4s ${((i+j)*0.035).toFixed(2)}s forwards">${v?(v>=1e12?(v/1e12).toFixed(1)+"T":Math.round(v/1e9)+"B"):""}</div>`; }); });
   return h+`</div><div class="fnote">the brightest square: ${SIGNS[top.i]} + ${SIGNS[top.j]}, ${money(cellVal(top.i,top.j))} of companies</div>`; }
 const jobsNear=()=>{ const j=BYNAME.get("Steve Jobs"); return [j.x,j.y]; };
 // one scene per spoken line: layout (center, left, title, full), chapter label, title, wheel state, effects, timed moves
+const signTiles=()=>`<div class="f-signs">${bestBySign.map((x,k)=>x.f?`<div class="fs" style="animation-delay:${(k*0.08).toFixed(2)}s"><span class="g">${GLYPH[x.s]}</span><b>${x.s}</b><span>${esc(x.f.name)} · ${esc(coName(x.f.companies[0].name))}</span></div>`:"").join("")}</div>`;
+const trillionTiles=()=>`<div class="tiles f-tiles">${XT.clash.trillion.map((t,k)=>`<div class="tile ${t.kind}" style="animation-delay:${(k*0.25).toFixed(2)}s"><div class="tco">${esc(coName(t.company))}</div><div class="tval">${money(t.value)}</div><div class="tppl">${t.people.map((n,i)=>`${GLYPH[t.signs[i]]} ${esc(short(n))}`).join(" + ")}</div>${kindTag(t.kind)}</div>`).join("")}</div>`;
+const loreCards=sg_=>`<div class="lore f-lore">${XT.lore.filter(l=>sg_.includes(l.sign)).map(l=>`<div class="lcard"><div class="lsg">${GLYPH[l.sign]} ${l.sign}, <i>${esc(l.says)}</i></div><div class="lq">${esc(l.question)}</div><div class="lnum"><b>${loreVal(l,l.value)}</b> ${esc(l.unit)}<span>all founders: ${loreVal(l,l.all)}</span></div><div class="lv ${l.verdict==="as the stars say"?"yes":(l.verdict==="the opposite"?"opp":"none")}">${l.verdict}</div></div>`).join("")}</div>`;
 const SCENE={
   jobs:{lay:"full",label:L_("01","the question"),enter:()=>panel(`<div class="fcards">${fcard("Steve Jobs",`${GLYPH.Pisces} Pisces · born February 24`,true)}</div>`)},
   others:{lay:"full",enter:()=>panel(`<div class="fcards">${fcard("Steve Jobs",`${GLYPH.Pisces} Pisces`)}${fcard("Bill Gates",`${GLYPH.Scorpio} Scorpio`)}${fcard("Elon Musk",`${GLYPH.Cancer} Cancer`)}</div>`)},
-  ask:{lay:"full"},
   title:{lay:"title",title:`Do the <i>stars</i> pick founders?`},
-  apple:{lay:"title",title:`Do the <i>stars</i> pick founders?`},
-  checked:{lay:"title",title:"So we checked."},
-  count:{lay:"full",enter:()=>{ panel(bigs(scrap('<span id="fCount">0</span>',"founders of the world's most valuable companies, each with an exact birthday","gold"))); countUp(document.getElementById("fCount"),N,2400); }},
+  checked:{lay:"full",enter:()=>{ panel(bigs(scrap('<span id="fCount">0</span>',"founders of the world's most valuable companies, each with an exact birthday","gold"))); countUp(document.getElementById("fCount"),N,2400); }},
   zoom:{lay:"center",label:L_("02","the wheel"),fx:{bars:0,marks:0,centre:0},wheel:{show:"all"},cam:true,enter:()=>{ draw(); const [x,y]=jobsNear(); camTo(x,y,3.4,2000); }},
-  reveal:{lay:"center",fx:{bars:0,marks:0,centre:0},wheel:{show:"all"},cam:true,enter:()=>{ if(CAM.z===1){ const [x,y]=jobsNear(); CAM.fx=x; CAM.fy=y; CAM.z=3.4; } camTo(CX,CY,1,2600); }},
-  colors:{lay:"center",fx:{bars:0,marks:0,centre:0},wheel:{show:"all"}},
-  bars:{lay:"center",fx:{bars:0,marks:0,centre:0},wheel:{},enter:()=>tweenFX("bars",1,2000)},
-  lead:{lay:"center",fx:{marks:0},wheel:{}},
-  marks:{lay:"center",wheel:{},fx:{marks:0},at:[[1200,()=>tweenFX("marks",1,10)]]},
-  norm:{lay:"left",wheel:{},enter:()=>panel(bigs(scrap(leadN,`${sg.tallest} founders`,"gold"),scrap(Math.round(leadE),"if founders were born like everyone else")))},
-  special:{lay:"left",wheel:{}},
-  crowd:{lay:"center",label:L_("03","the crowd"),wheel:{},crowd:true,at:[[2200,shuffle]]},
-  crowd2:{lay:"center",wheel:{},crowd:true,enter:()=>shuffle(),at:[[2400,shuffle]]},
-  tenk:{lay:"left",wheel:{},crowd:true,enter:()=>{ restore(); panel(bigs(scrap(in10(sg.p_max_dev),`of 10,000 random crowds had a sign stand out as much as ${sg.tallest}`,"gold"))); }},
-  ordinary:{lay:"center",wheel:{tint:true}},
-  pivot:{lay:"title",title:""},
-  who:{lay:"title",label:L_("04","the cofounder question"),title:`Who should you <i>start a company with?</i>`},
+  reveal:{lay:"center",fx:{bars:0,marks:0,centre:0},wheel:{show:"all"},cam:true,enter:()=>{ if(CAM.z===1){ const [x,y]=jobsNear(); CAM.fx=x; CAM.fy=y; CAM.z=3.4; } camTo(CX,CY,1,2400); }},
+  bars:{lay:"center",fx:{bars:0,marks:0},wheel:{},enter:()=>tweenFX("bars",1,2000)},
+  fair:{lay:"left",wheel:{},enter:()=>panel(bigs(scrap(leadN,`${sg.tallest} founders`,"gold"),scrap(Math.round(leadE),`${sg.tallest}'s fair share`)))},
+  every:{lay:"full",enter:()=>panel(signTiles())},
+  who:{lay:"title",label:L_("03","the cofounder question"),title:`Who should you <i>start a company with?</i>`},
   rule1:{lay:"full",enter:()=>panel(ruleHTML())},
   rule2:{lay:"full"},
   page:{lay:"left",wheel:{mode:"duo",duo:[duoOf("Larry Page","Sergey Brin")],show:"all"},enter:()=>panel(`<div class="fpanel-wrap"><div class="fcards">${fcard("Larry Page",`${GLYPH.Aries} Aries · fire`)}${fcard("Sergey Brin",`${GLYPH.Leo} Leo · fire`)}</div>${stampHTML("a match","match","top:38%;left:50%;margin-left:-110px")}</div>`)},
   woz:{lay:"left",wheel:{mode:"duo",duo:[duoOf("Steve Jobs","Steve Wozniak")],show:"all"},enter:()=>panel(`<div class="fpanel-wrap"><div class="fcards">${fcard("Steve Jobs",`${GLYPH.Pisces} Pisces · water`)}${fcard("Steve Wozniak",`${GLYPH.Leo} Leo · fire`)}</div>${stampHTML("a clash","clash","top:38%;left:50%;margin-left:-110px")}</div>`)},
-  test:{lay:"center",wheel:{mode:"teams",show:"all"}},
-  fifty:{lay:"left",wheel:{mode:"teams",show:"all"},enter:()=>panel(bigs(scrap(pct(comp.observed),"of real cofounder pairs are a match","gold"),scrap(pct(comp.null_mean),"if the same founders were paired at random")))},
-  care:{lay:"title",label:L_("05","the surprise"),title:`Did matched teams build <i>bigger companies?</i>`},
-  backwards:{lay:"title",title:`Astrology has it <i>backwards.</i>`},
-  money:{lay:"left",wheel:{mode:"teams",show:"all"},enter:()=>panel(bigs(scrap(money(VAL.teams_unmatched_median),"typical company of a team astrology says should clash","gold"),scrap(money(VAL.teams_matched_median),"typical company of a team astrology calls a match")))},
-  examples:{lay:"left",wheel:{mode:"teams",show:"all"},enter:()=>panel(`<div class="fbig" style="flex-direction:column">${clashTeams.map(t=>`<div class="scrap"><span class="n" style="font-size:44px">${esc(coName(t.name))}</span><span class="l" style="max-width:none">${[...new Set(t.pairs.flatMap(p=>[p.fa,p.fb]))].slice(0,3).map(f=>GLYPH[f.sign]+" "+esc(short(f.name))).join(" + ")} · a clash</span></div>`).join("")}</div>`)},
-  caveat:{lay:"left",wheel:{mode:"teams",show:"all"},enter:()=>panel(bigs(scrap("1 in "+Math.round(1/VAL.p_teams),"how often a gap this big shows up with no real effect"),scrap("15","questions this project asked","dim")))},
-  closest:{lay:"left",wheel:{mode:"teams",show:"all"}},
-  grid:{lay:"full",label:L_("06","every pairing"),enter:()=>panel(gridHTML())},
-  game:{lay:"title",label:L_("07","what if"),title:`What <i>if?</i>`},
-  wif1:{lay:"full",enter:()=>panel(wifCard(WIF[0]))},
-  wif2:{lay:"full",enter:()=>panel(wifCard(wifWith("Bill Gates")))},
-  wif3:{lay:"full",enter:()=>panel(wifCard(wifWith("Sam Altman")))},
-  wifhow:{lay:"full",enter:()=>panel(`<div class="f-wifs">${WIF.map((w,k)=>`<div class="wmini" style="animation-delay:${(k*0.12).toFixed(2)}s"><div class="fx"><img src="${w.a.src}" alt=""><img src="${w.b.src}" alt=""></div><div class="n">${esc(short(w.a.name))} + ${esc(short(w.b.name))}</div></div>`).join("")}</div>`)},
-  splits:{lay:"center",label:L_("08","the breakups"),wheel:{mode:"splits",show:"all"}},
-  splitsno:{lay:"left",wheel:{mode:"splits",show:"all"},enter:()=>panel(bigs(scrap(pct(bw.compatible_broke),"of the pairs that split were a match","red"),scrap(pct(bw.compatible_intact),"of the pairs that stayed together")))},
-  fallen:{lay:"center",label:L_("09","the fallen"),wheel:{mode:"fallen",show:"all"}},
-  science:{lay:"title",label:L_("10","the school year"),title:`The one birthday effect <i>science takes seriously</i>`},
-  school:{lay:"center",wheel:{lens:"school"}},
-  schoolno:{lay:"left",wheel:{lens:"school"},enter:()=>panel(bigs(scrap(pct(ra.share_oldest_third),"of founders were in the oldest third of their class","gold"),scrap(pct(ra.null_oldest_third),"of everyone else")))},
+  coin:{lay:"left",wheel:{links:true,show:"all"},enter:()=>panel(bigs(scrap(pct(comp.observed),"of real cofounder pairs are a match","gold"),scrap("50%","of all possible sign pairs are a match")))},
+  built:{lay:"title",label:L_("04","the surprise"),title:`What did each team <i>build?</i>`},
+  money:{lay:"left",wheel:{mode:"teams",show:"all"},enter:()=>panel(bigs(scrap(money(VAL.teams_unmatched_median),"typical company of a clashing team","gold"),scrap(money(VAL.teams_matched_median),"typical company of a matched team")))},
+  trillion:{lay:"full",enter:()=>panel(trillionTiles())},
+  names:{lay:"full"},
+  holds:{lay:"full",enter:()=>panel(`<div class="sheet">${sliceBars()}<div class="hint"><span style="color:var(--gold2)">gold</span>: clashing teams · <span style="color:var(--chalk2)">white</span>: matched teams · typical company value</div></div>`)},
+  also:{lay:"left",wheel:{mode:"splits",show:"all"},enter:()=>panel(bigs(scrap(pct(XT.clash.collapsed.clash),"of clashing teams collapsed","gold"),scrap(pct(XT.clash.collapsed.match),"of matched teams collapsed"),scrap(`${Math.round(bw.compatible_broke*bw.n_broke)} of ${bw.n_broke}`,"cofounder splits were matched pairs","dim")))},
+  odds:{lay:"left",wheel:{mode:"teams",show:"all"},enter:()=>panel(bigs(scrap("1 in "+Math.round(1/VAL.p_teams),"how often a gap this big shows up if signs mean nothing","gold")))},
+  grid:{lay:"full",label:L_("05","the money map"),enter:()=>panel(gridHTML())},
+  game:{lay:"title",label:L_("06","what if"),title:`What <i>if?</i>`},
+  wif1:{lay:"full",enter:()=>panel(wifCard(wifWith("Mark Zuckerberg")))},
+  wif2:{lay:"full",enter:()=>panel(wifCard(wifWith("Jensen Huang")))},
+  wif3:{lay:"full",enter:()=>panel(wifCard(wifWith("Elon Musk")))},
+  wifhow:{lay:"full",enter:()=>panel(`<div class="f-wifs">${WIF.map((w,k)=>`<div class="wmini" style="animation-delay:${(k*0.12).toFixed(2)}s"><div class="fx"><img src="${w.a.src}" alt=""><img src="${w.b.src}" alt=""></div><div class="n">${esc(short(w.a.name))} + ${esc(short(w.b.name))}${w.idea?`<br><i>${esc(w.idea.name)}</i>`:""}</div></div>`).join("")}</div>`)},
+  lore:{lay:"title",label:L_("07","job descriptions"),title:`Astrology's <i>job descriptions</i>, checked`},
+  lore2:{lay:"full",enter:()=>panel(loreCards(["Leo","Sagittarius","Libra"]))},
+  agetitle:{lay:"title",label:L_("08","how old were they?"),title:`How old <i>were they?</i>`},
+  ages:{lay:"full",enter:()=>panel(`<div class="fpanel-wrap">${bigs(scrap(XT.ages.median,"typical age at founding","gold"),scrap("1 in "+Math.round(1/XT.ages.under25),"started before turning 25"))}<div class="fcards">${fcard("Bill Gates","started Microsoft at 20")}${fcard("Mark Zuckerberg","started Facebook at 20")}</div></div>`)},
+  older:{lay:"left",wheel:{colorBy:"age",show:"all"},enter:()=>panel(bigs(scrap(XT.ages.by_era[0].median,`typical starting age in the ${XT.ages.by_era[0].era}`),scrap(XT.ages.by_era[3].median,`from ${XT.ages.by_era[3].era}`,"gold")))},
+  twins:{lay:"full",label:L_("09","birthday twins"),enter:()=>panel(`<div class="fcards">${fcard("Steve Jobs","February 24")}${fcard("Phil Knight","February 24 · Nike")}${fcard("Steve Wozniak","August 11")}${fcard("Masayoshi Son","August 11 · SoftBank")}</div>`)},
+  paradox:{lay:"full",enter:()=>panel(bigs(scrap("23","people in a room, and two probably share a birthday","gold"),scrap(XT.twins.pairs,`pairs of our ${XT.twins.n_people} founders share one`)))},
+  school1:{lay:"center",label:L_("10","the school year"),wheel:{lens:"school"}},
+  school2:{lay:"left",wheel:{lens:"school"},enter:()=>panel(bigs(scrap(XT.school.oldest_third,"were among the oldest in their class","gold"),scrap(XT.school.youngest_third,"were among the youngest")))},
   kid:{lay:"title",wheel:{lens:"school"},title:`When should you have your kid? <i>Whenever you like.</i>`},
-  answer:{lay:"title",label:L_("11","the answer"),title:`Do the <i>stars</i> pick founders?`,at:[[3300,()=>{ fTitle.innerHTML=`<i>No.</i>`; }]]},
-  luck:{lay:"title",title:`Luck does a very good <i>impression of a pattern.</i>`},
-  end:{lay:"full",hold:true,enter:()=>{ panel(`<div class="f-end"><h2 class="chalk">Founders by <i>Birthday</i></h2><p class="fnote">${N} founders, every claim tested against everyone else, and one surprise.</p><div class="actions"><button class="btn gold" type="button" id="fExplore">explore the wheel</button><button class="btn" type="button" id="fFind">find your sign</button><button class="linkbtn" type="button" id="fAgain">watch again</button></div></div>`);
+  answer:{lay:"title",label:L_("11","the answer"),title:`Do the <i>stars</i> pick founders?`,at:[[3600,()=>{ fTitle.innerHTML=`Not your sign. <i>But don't fear a clash.</i>`; }]]},
+  end:{lay:"full",hold:true,enter:()=>{ panel(`<div class="f-end"><h2 class="chalk">Founders by <i>Birthday</i></h2><p class="fnote">Find your sign, your birthday twins, and your dream cofounder.</p><div class="actions"><button class="btn gold" type="button" id="fExplore">explore the wheel</button><button class="btn" type="button" id="fFind">find your sign</button><button class="linkbtn" type="button" id="fAgain">watch again</button></div></div>`);
     document.getElementById("fExplore").onclick=()=>{ closeFilm(); goStep(0); }; document.getElementById("fFind").onclick=()=>{ closeFilm(); goStep(steps.findIndex(s=>s.id==="you")); }; document.getElementById("fAgain").onclick=()=>fplay(0); }},
 };
 const FTOTAL=FILMDATA.reduce((t,b)=>t+b.dur+0.45,0);

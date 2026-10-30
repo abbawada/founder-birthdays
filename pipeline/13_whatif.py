@@ -158,6 +158,8 @@ def portrait(person):
             "license": lic, "file_url": ii.get("descriptionurl"), "face_found": bool(len(fs))}
 
 
+IDEAS = load_json(os.path.join(ROOT, "pipeline", "whatif_ideas.json"), {})   # imagined companies, written by hand, just for fun
+EXTRA = ["Phil Knight", "Ted Arison", "Masayoshi Son", "Frederick W. Smith", "John Collison"]   # birthday twins and the youngest giant founder
 out = []
 for w in picks:
     row = {k: w[k] for k in ("rank", "cell", "cell_value", "n_real_pairs", "real_examples", "match")}
@@ -165,8 +167,22 @@ for w in picks:
         p = w[side]
         row[side] = {k: p[k] for k in ("name", "qid", "sign", "bday", "company", "value", "sl")}
         row[side].update(portrait(p))
+    row["idea"] = IDEAS.get(f'{row["a"]["name"]}|{row["b"]["name"]}') or IDEAS.get(f'{row["b"]["name"]}|{row["a"]["name"]}')
     out.append(row)
 save_json(os.path.join(DATA, "whatif.json"), out)
+extra = {}
+for name in EXTRA:
+    p = next((q for q in people if q["name"] == name and q.get("img")), None)
+    if p:
+        pr = portrait(p)
+        if not pr["face_found"]:   # profile shots and distant figures don't read as a face: show a name card instead
+            print("  no clear face for", name); continue
+        extra[name] = {k: p[k] for k in ("name", "qid", "sign", "bday", "company")}
+        extra[name].update(pr)
+    else:
+        print("  no portrait for", name)
+save_json(os.path.join(DATA, "portraits.json"), extra)
+print("ideas attached:", sum(1 for r in out if r.get("idea")), "of", len(out), "| extra portraits:", list(extra))
 for r in out:
     print(r["rank"], f'{r["a"]["name"]} ({r["a"]["sign"]}) + {r["b"]["name"]} ({r["b"]["sign"]})', f'cell ${r["cell_value"]/1e12:.1f}T', "match" if r["match"] else "clash",
           "| faces:", r["a"]["face_found"], r["b"]["face_found"], "|", r["a"]["license"], "/", r["b"]["license"])
