@@ -72,6 +72,7 @@ canvas#ring{width:100%;height:100%;display:block;touch-action:pan-y}
 .seg button.on{color:var(--gold2);background:var(--circled) center/100% 100% no-repeat}
 .linkbtn{border:0;background:transparent;font-family:var(--hand);font-size:17px;color:var(--chalk2);text-decoration:underline;text-decoration-style:wavy;text-underline-offset:4px;cursor:pointer;padding:4px}
 .linkbtn[disabled]{opacity:.3;cursor:default}
+.ringcap,.ringtap,.ringclose{display:none}
 .legend{font-family:var(--hand);font-size:15.5px;color:var(--chalk2);display:flex;gap:4px 16px;flex-wrap:wrap;justify-content:center}
 .legend b{font-weight:400}
 /* founder card: a scrap of paper */
@@ -306,13 +307,14 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
 .film[hidden]{display:none}
 .film::after{content:"";position:absolute;inset:0;background-image:var(--grain);opacity:.5;mix-blend-mode:overlay;pointer-events:none}
 .f-stage{position:absolute;left:50%;top:calc(50% - 50px);width:min(calc(100vh - 240px),66vw);aspect-ratio:1/1;transform:translate(-50%,-50%);transition:left 1s cubic-bezier(.6,0,.3,1),width 1s cubic-bezier(.6,0,.3,1),opacity .7s,filter .7s}
-.f-stage .ringbox{width:100%;max-width:100%}
+.f-stage .ringbox{width:100%;max-width:100%} .f-stage .ringtap{display:none!important}
 .f-stage{-webkit-mask-image:radial-gradient(closest-side,#000 95%,transparent 100%);mask-image:radial-gradient(closest-side,#000 95%,transparent 100%)}
 .film.left .f-stage{left:31%;width:min(calc(100vh - 240px),52vw)}
 .film.title .f-stage{opacity:.22;filter:blur(3px)}
 .film.full .f-stage{opacity:0}
 .f-panel{position:absolute;right:5vw;top:calc(50% - 50px);transform:translateY(-50%);max-height:calc(100vh - 230px);width:min(40vw,560px);opacity:0;transition:opacity .6s;display:flex;flex-direction:column;gap:18px;align-items:flex-start}
 .film.left .f-panel{opacity:1}
+.fpz{display:flex;flex-direction:column;gap:inherit;align-items:inherit;width:100%}
 .film.full .f-panel{opacity:1;right:auto;left:50%;transform:translate(-50%,-50%);width:min(90vw,980px);align-items:center}
 .f-title{position:absolute;left:6vw;right:6vw;top:calc(50% - 70px);transform:translateY(-50%);text-align:center;font-family:var(--display);font-size:clamp(44px,6.6vw,104px);line-height:1;opacity:0;transition:opacity .6s;text-wrap:balance}
 .f-title i{color:var(--gold2)}
@@ -380,11 +382,14 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
   .f-sub{bottom:calc(64px + env(safe-area-inset-bottom,0px));font-size:16px}
   .f-title{top:38%}
   .fcard{width:140px} .fcard.big{width:180px}
+  .film.full .fcard{width:min(41vw,160px)} .film.full .fcard.big{width:min(62vw,calc((100vh - 350px) * .8))}   /* phones: the cards fit above the subtitles */
   .f-signs{grid-template-columns:repeat(2,minmax(0,1fr))} .f-signs .fs:nth-child(n+9){display:none}
   .f-tiles{grid-template-columns:repeat(2,minmax(0,1fr))} .f-lore{grid-template-columns:1fr}
   .f-wifs{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
   .f-wifs .wmini:nth-child(n+7){display:none}
-  .f-bar .txt{display:none}
+  /* phones: every control stays (there is no Escape key); the progress line sits under the buttons */
+  .f-bar{gap:6px;width:calc(100vw - 20px)} .f-bar button{min-width:34px;height:34px} .f-bar .txt{font-size:13px;padding:0 9px} .f-bar .txt .wide{display:none}
+  .f-prog{position:absolute;left:0;right:0;bottom:-9px;flex:none;height:3px}
   .stamp{font-size:34px;border-width:3px;padding:0 12px}
 }
 @media (max-width:920px){
@@ -397,12 +402,23 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
   .scrolly{grid-template-columns:1fr;gap:0}
   .sticky{height:auto;z-index:6;background:var(--night);padding-block:6px 8px;justify-content:flex-start}
   .sticky::after{content:"";position:absolute;left:0;right:0;bottom:-22px;height:22px;background:linear-gradient(var(--night),rgba(12,17,36,0));pointer-events:none}
-  .ringbox{width:min(100%,42vh)}
-  .legend{display:none}
+  /* phones: a small wheel with its words beside it; tap it to open it full screen */
+  .sticky{flex-direction:row;align-items:center;justify-content:flex-start;gap:14px;padding-block:6px}
+  .ringbox{width:clamp(104px,19vh,148px);flex:none;margin:0}
+  .controls,.legend{display:none}
+  .ringtap{display:block;position:absolute;inset:0;z-index:9;border:0;border-radius:50%;background:transparent;cursor:zoom-in}
+  .ringcap{display:flex;flex-direction:column;min-width:0;font-family:var(--hand);line-height:1.18}
+  .ringcap .ca,.ringcap .cd{font-size:14.5px;color:var(--chalk2)} .ringcap b{font-family:var(--display);font-style:italic;font-weight:400;font-size:27px;color:var(--gold2);line-height:1.1} .ringcap .cc{font-size:16.5px;color:var(--chalk)} .ringcap .ct{font-size:13px;color:var(--chalk3);margin-top:5px}
+  body.wheel-big .sticky{position:fixed;inset:0;z-index:70;height:100%;flex-direction:column;justify-content:center;align-items:stretch;gap:10px;overflow-y:auto;padding:max(52px,calc(env(safe-area-inset-top,0px) + 44px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+  body.wheel-big .sticky::after{display:none}
+  body.wheel-big .ringbox{width:min(100%,60vh);margin:0 auto}
+  body.wheel-big .controls,body.wheel-big .legend{display:flex}
+  body.wheel-big .ringcap,body.wheel-big .ringtap{display:none}
+  body.wheel-big .ringclose{display:inline-flex;position:absolute;top:max(10px,env(safe-area-inset-top,0px));right:max(12px,env(safe-area-inset-right,0px));font-family:var(--hand);font-size:17px;color:var(--chalk);background:rgba(20,28,56,.9);border:1.5px solid rgba(241,235,221,.55);border-radius:14px 8px 12px 6px;padding:6px 12px 4px;cursor:pointer}
   .seg button{padding:5px 8px;font-size:16px}
   .seg .lab{display:none}
   .steps{padding-block:10px 30vh}
-  .step{min-height:auto;padding-block:38px 26px;scroll-margin-top:calc(42vh + 70px)}
+  .step{min-height:auto;padding-block:38px 26px;scroll-margin-top:calc(clamp(104px,19vh,148px) + 34px)}
   .player .ttl{display:none}
   .rank li{grid-template-columns:110px minmax(0,1fr)}
   .mx{grid-template-columns:30px repeat(12,minmax(0,1fr));gap:3px}
@@ -452,7 +468,10 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
       <div class="ringbox" id="ringbox">
         <canvas id="ring" aria-label="Founders placed around a zodiac wheel by birthday"></canvas>
         <div class="card" id="card" hidden></div>
+        <button class="ringtap" id="ringtap" type="button" aria-label="Open the wheel full screen"></button>
       </div>
+      <div class="ringcap" id="ringcap" aria-live="polite"></div>
+      <button class="ringclose" id="ringclose" type="button">✕ back to reading</button>
       <div class="controls">
         <div class="seg" id="lens" role="group" aria-label="Arrange the wheel by"><span class="lab">arrange by</span><button type="button" data-lens="zodiac" class="on">signs</button><button type="button" data-lens="month">months</button><button type="button" data-lens="school">school year</button></div>
         <button class="btn small" id="shuffle" type="button"><svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true" style="vertical-align:-3px"><path d="M3.5,4 Q3,3 4.2,2.8 L15.6,3.2 Q17,3.3 16.9,4.6 L16.6,15.8 Q16.5,17 15.3,16.9 L4.3,16.6 Q3,16.5 3.1,15.2 Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7" cy="7" r="1.5" fill="currentColor"/><circle cx="10" cy="10.2" r="1.5" fill="currentColor"/><circle cx="13.1" cy="13.2" r="1.5" fill="currentColor"/></svg> show a random crowd</button>
@@ -460,6 +479,7 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
       </div>
       <div class="legend" id="legend"><span><b style="color:var(--gold2)">✦</b> $100B+ company</span><span><b style="color:var(--blue)">●</b> $20–100B</span><span><b style="color:var(--red)">●</b> collapsed</span><span><b style="color:var(--chalk)">▬</b> <span id="legendEven">an even split across the 12 signs</span></span></div>
     </div>
+    <div class="stickyspace" id="stickyspace" hidden></div>
     <div class="steps" id="steps"></div>
   </main>
 
@@ -478,7 +498,7 @@ footer{padding-block:40px 60px;color:var(--chalk2);font-size:16px}
   <div class="f-title chalk" id="fTitle"></div>
   <div class="f-label" id="fLabel"></div>
   <div class="f-sub" id="fSub"></div>
-  <div class="f-bar"><button type="button" id="fPrev" aria-label="Previous line">◀</button><button type="button" id="fPause" aria-label="Pause">❚❚</button><button type="button" id="fNext" aria-label="Next line">▶</button><div class="f-prog"><i id="fProg"></i></div><button type="button" class="txt" id="fSound">sound on</button><button type="button" class="txt" id="fCC">subtitles on</button><button type="button" class="txt" id="fClose">close ✕</button></div>
+  <div class="f-bar"><button type="button" id="fPrev" aria-label="Previous line">◀</button><button type="button" id="fPause" aria-label="Pause">❚❚</button><button type="button" id="fNext" aria-label="Next line">▶</button><div class="f-prog"><i id="fProg"></i></div><button type="button" class="txt" id="fSound">sound on</button><button type="button" class="txt" id="fCC">subtitles on</button><button type="button" class="txt" id="fClose" aria-label="Close the film"><span class="wide">close </span>✕</button></div>
 </div>
 
 <script>
@@ -601,18 +621,19 @@ let W=0,H=0,CX=0,CY=0,R=0,SC=1,DPR=1, LAST={L:null,list:[],obs:[],exp:[]}, LABEL
 const BG=document.createElement("canvas"), bgx=BG.getContext("2d"); let BGKEY="";
 function resize(){ const r=box.getBoundingClientRect(); DPR=Math.min(2,window.devicePixelRatio||1); W=r.width; H=r.height; cv.width=Math.round(W*DPR); cv.height=Math.round(H*DPR); ctx.setTransform(DPR,0,0,DPR,0,0); CX=W/2; CY=H/2; R=Math.min(W,H)/2; SC=R/350; BGKEY=""; layout(); draw(); }
 new ResizeObserver(resize).observe(box);
-const geom = () => ({ small:W<520, R0:R*0.40, Rsky:R*0.585, Rb:R*0.605, Rb2:R*0.80, Ri:R*0.83, Ro:R*0.985 });
+const geom = () => ({ small:W<520, mini:W<240, R0:R*0.40, Rsky:R*0.585, Rb:R*0.605, Rb2:R*0.80, Ri:R*0.83, Ro:R*0.985 });
 
+const counted = list => state.show==="fallen" ? list : list.filter(f=>f.ring!=="fallen");   // the bars count founders of companies still standing, the same 317 as every sign number in the story; the red dots still show
 function expected(list,L){ const e=new Array(12).fill(0); list.forEach(f=>{ for(let k=0;k<365;k++) e[L.bin(L.pos(f,k))]+=f.p[k]; }); return e; }
 function layout(){
   const L=lensDef(); const list=F.filter(f=>visible(f)&&L.ok(f));
   const per=new Map(); list.forEach(f=>{ const p=Math.round(L.pos(f,f.cur))%365; (per.get(p)||per.set(p,[]).get(p)).push(f); });
   per.forEach(ds=>{ ds.sort((a,b)=>b.value-a.value); let off=0; ds.forEach(f=>{ f.r=(f.ring==="giants" ? 2.4+1.6*Math.log10(Math.max(1,f.value/1e11)) : 1.9)*SC; f.off=off+f.r; off+=f.r*2+1.3*SC; }); });
-  const obs=new Array(12).fill(0); list.forEach(f=>obs[L.bin(L.pos(f,f.cur))]++);
-  const key=state.lens+"|"+state.show; if(LAST.key!==key) LAST.exp=expected(list,L);
+  const cl=counted(list), obs=new Array(12).fill(0); cl.forEach(f=>obs[L.bin(L.pos(f,f.cur))]++);
+  const key=state.lens+"|"+state.show; if(LAST.key!==key) LAST.exp=expected(cl,L);
   LAST={L,list,obs,exp:LAST.exp,key};
 }
-function recount(){ const {L,list}=LAST; const obs=new Array(12).fill(0); list.forEach(f=>obs[L.bin(L.pos(f,f.cur))]++); LAST.obs=obs; }
+function recount(){ const {L,list}=LAST; const obs=new Array(12).fill(0); counted(list).forEach(f=>obs[L.bin(L.pos(f,f.cur))]++); LAST.obs=obs; }
 const CAM={fx:null,fy:null,z:1}, FX={bars:1,marks:1,centre:1};
 let lensTween=null;
 function dotAngle(f,L){ const target=angleAt(L.pos(f,f.cur),L); if(!lensTween||f.a0==null) return target; const t=Math.min(1,(performance.now()-lensTween.t0)/lensTween.dur); let d=target-f.a0; d=((d+Math.PI)%TAU+TAU)%TAU-Math.PI; return f.a0+d*ease(t); }
@@ -673,7 +694,7 @@ function draw(){
     // the panel's words, written along the band
     const fs=Math.max(11,(G.small?13.5:17)*SC);
     const txt = G.small ? `${b.glyph?b.glyph+" ":b.label.slice(0,3)+" "}${obs[i]}` : `${b.glyph?b.glyph+"  ":""}${b.label}  ·  ${obs[i]}`;
-    arcText(ctx,txt,CX,CY,(G.Ri+G.Ro)/2,am,`${hot?"italic ":""}${fs}px ${FELL}`,hot?"#f2cd7a":"#f1ebdd");
+    if(!G.mini) arcText(ctx,txt,CX,CY,(G.Ri+G.Ro)/2,am,`${hot?"italic ":""}${fs}px ${FELL}`,hot?"#f2cd7a":"#f1ebdd");
   });
   // founders as stars in the sky
   const keep=focusSet(), vis=new Set(list.map(f=>f.i)), foc=state.focus!=null?F[state.focus]:null;
@@ -703,7 +724,7 @@ function draw(){
   if(state.mode==="wif"&&state.wif) state.wif.slice(0,2).forEach(f=>f&&named.add(f.name));
   if(state.mode==="twins") ((DATA.extras||{}).twins?.top||[]).slice(0,4).forEach(g=>g.people.slice(0,2).forEach(p=>named.add(p.name)));
   if(foc) foc.companies.forEach(c=>c.members.forEach(j=>named.add(F[j].name)));
-  const order=[...named].sort((a,b)=>(a==="Steve Jobs"?-1:0)-(b==="Steve Jobs"?-1:0));
+  const order=G.mini?[]:[...named].sort((a,b)=>(a==="Steve Jobs"?-1:0)-(b==="Steve Jobs"?-1:0));
   ctx.font=`${Math.max(12,14*SC)}px ${HAND}`; ctx.lineJoin="round";
   order.forEach(n=>{ const f=BYNAME.get(n); if(!f||!vis.has(f.i)||f.x==null) return; if(keep&&!keep.has(f.i)&&!(foc&&f===foc)) return;
     const a=Math.atan2(f.y-CY,f.x-CX), right=Math.cos(a)>=0, lab=short(n);
@@ -721,6 +742,9 @@ function draw(){
   if(FX.centre) centre(L,obs,exp,lead,G);
   ctx.setTransform(DPR,0,0,DPR,0,0);
 }
+let CAPKEY="";
+function ringCaption(a,b,c,d){ const el=document.getElementById("ringcap"), k=[a,b,c,d].join("|"); if(!el||k===CAPKEY) return; CAPKEY=k;
+  el.innerHTML=`<span class="ca">${esc(a)}</span><b>${esc(b)}</b><span class="cc">${esc(c)}</span><span class="cd">${esc(d)}</span><span class="ct">tap the wheel to open it</span>`; }
 function centre(L,obs,exp,lead,G){
   const R0=G.R0, fs=k=>Math.max(11,k*SC);
   const plate=ctx.createRadialGradient(CX,CY,0,CX,CY,R0*0.64); plate.addColorStop(0,"rgba(18,48,47,.96)"); plate.addColorStop(0.8,"rgba(18,48,47,.85)"); plate.addColorStop(1,"rgba(18,48,47,0)");
@@ -731,8 +755,10 @@ function centre(L,obs,exp,lead,G){
   else if(state.mode==="wif"&&state.wif){ const [fa,fb,w]=state.wif; a="what if"; b=`${GLYPH[w.a.sign]} + ${GLYPH[w.b.sign]}`; c=`${short(w.a.name)} + ${short(w.b.name)}`; d=`astrology: ${w.match?"a match":"a clash"}`; }
   else if(state.mode==="duo"&&state.duo){ const p=state.duo[0]; a=`${short(p.a)} + ${short(p.b)}`; b=`${GLYPH[p.sa]} + ${GLYPH[p.sb]}`; c=compatible(p.sa,p.sb)?"a match, says astrology":"a clash, says astrology"; d=outcome(p)||coName(p.company); }
   else if(state.pair){ const [i,j]=state.pair; a="cofounders"; b=`${GLYPH[SIGNS[i]]} + ${GLYPH[SIGNS[j]]}`; c=`${cnt(i,j)} pair${cnt(i,j)===1?"":"s"}`; d=`if paired at random: ${expd(i,j).toFixed(1)}`; }
-  else if(state.lens==="school"){ const n=LAST.list.length, old=obs.slice(0,4).reduce((x,y)=>x+y,0), eo=exp.slice(0,4).reduce((x,y)=>x+y,0); a="oldest third of the class"; b=pct(old/n); c=`even split: ${pct(eo/n)}`; d="clockwise: oldest to youngest"; }
-  else { a=state.shuffled?`a random crowd of ${LAST.list.length}`:"most founders"; b=L.bins[lead].name; c=state.shuffled?`${obs[lead]} people`:`${obs[lead]} founders`; d=`even split: ${Math.round(exp[lead])}`; }
+  else if(state.lens==="school"){ const n=counted(LAST.list).length, old=obs.slice(0,4).reduce((x,y)=>x+y,0), eo=exp.slice(0,4).reduce((x,y)=>x+y,0); a="oldest third of the class"; b=pct(old/n); c=`even split: ${pct(eo/n)}`; d="clockwise: oldest to youngest"; }
+  else { a=state.shuffled?`a random crowd of ${counted(LAST.list).length}`:"most founders"; b=L.bins[lead].name; c=state.shuffled?`${obs[lead]} people`:`${obs[lead]} founders`; d=`even split: ${Math.round(exp[lead])}`; }
+  ringCaption(a,b,c,d);
+  if(G.mini) return;   // on a phone the words sit beside the small wheel instead
   ctx.textAlign="center"; ctx.textBaseline="alphabetic";
   ctx.fillStyle="#c3bcac"; ctx.font=`${fs(16)}px ${HAND}`; ctx.fillText(a,CX,CY-R0*0.30);
   const big=b.length>9?40:56; ctx.fillStyle="#f2cd7a"; ctx.font=`italic ${fs(big)}px ${FELL}`; ctx.fillText(b,CX,CY+R0*0.07);
@@ -853,7 +879,7 @@ const steps=[];
 steps.push({ id:"ring", title:"every founder, on their birthday",
   html:`<h2 class="chalk">Every founder, <i>on their birthday</i></h2>
   <p>Each star is a founder of one of the world's most valuable companies, placed on the day they were born. Gold stars built companies worth $100 billion or more. Blue dots, $20 to $100 billion. Red dots built a billion-dollar company that later collapsed.</p>
-  <p>The gold bars count founders per sign. The white chalk mark is <b>an even split</b>: ${nThr} founders divided by 12 signs is about ${fairShare} per sign, a touch more for the longer signs. A bar past its mark has more founders than an even split would give it.</p>
+  <p>The gold bars count the founders per sign whose companies still stand: the gold and blue stars. The white chalk mark is <b>an even split</b>: ${nThr} founders divided by 12 signs is about ${fairShare} per sign, a touch more for the longer signs. A bar past its mark has more founders than an even split would give it.</p>
   <div class="hint">↖ hover a star to meet the founder, click to keep the note open</div>`, st:{show:"all"} });
 
 steps.push({ id:"signs", title:"every sign",
@@ -1325,10 +1351,10 @@ function wireSim(){ comboWire("A"); comboWire("B");
   simUpdate(false); }
 
 /* ---------- find yourself + the red card ---------- */
-const EXPSIGN=(()=>{ const e=new Array(12).fill(0); F.forEach(f=>{ for(let k=0;k<365;k++) e[DOY_SIGN[k]]+=f.p[k]; }); return e; })();
+const EXPSIGN=(()=>{ const e=new Array(12).fill(0); F.filter(f=>f.ring!=="fallen").forEach(f=>{ for(let k=0;k<365;k++) e[DOY_SIGN[k]]+=f.p[k]; }); return e; })();
 const bestMatch=s=>partners(s)[0]||null;
 const nearOf=k=>F.filter(f=>{ let d=Math.abs(f.doy-k); d=Math.min(d,365-d); return d<=3; }).sort((a,b)=>Math.min(Math.abs(a.doy-k),365-Math.abs(a.doy-k))-Math.min(Math.abs(b.doy-k),365-Math.abs(b.doy-k))||b.value-a.value);
-function youOut(){ const k=state.you, s=SIGNS[DOY_SIGN[k]], all=F.filter(f=>f.sign===s), near=nearOf(k), bm=bestMatch(s), famous=all.slice().sort((a,b)=>b.value-a.value).slice(0,5);
+function youOut(){ const k=state.you, s=SIGNS[DOY_SIGN[k]], all=F.filter(f=>f.sign===s&&f.ring!=="fallen"), near=nearOf(k), bm=bestMatch(s), famous=all.slice().sort((a,b)=>b.value-a.value).slice(0,5);
   document.getElementById("youOut").innerHTML=`<div class="line">You're a <em>${s}</em> ${GLYPH[s]}. ${all.length} founders in this list share your sign. If founders were split evenly over the twelve signs, there'd be about ${Math.round(EXPSIGN[DOY_SIGN[k]])}.</div>`+
    (famous.length?`<div class="line">The biggest ${s} founders: ${famous.map(f=>`${esc(f.name)} <span style="color:var(--chalk3);font-style:italic">${esc(coName(f.companies[0].name))}</span>`).join(", ")}.</div>`:"")+
    (()=>{ const same=F.filter(f=>f.doy===k).sort((a,b)=>b.value-a.value); return same.length?`<div class="line">Your founder twins, born on your exact day: ${same.slice(0,6).map(f=>`<b>${esc(f.name)}</b> <span style="color:var(--chalk3)">(${esc(coName(f.companies[0].name))})</span>`).join(", ")}.</div>`:""; })()+
@@ -1336,7 +1362,7 @@ function youOut(){ const k=state.you, s=SIGNS[DOY_SIGN[k]], all=F.filter(f=>f.si
    (bm?`<div class="line">The sign ${s} founders most often teamed up with: <em>${bm.t}</em> ${GLYPH[bm.t]}, ${bm.n} pair${bm.n===1?"":"s"}${bm.ps[0]?`, like ${esc(bm.ps[0].a)} and ${esc(bm.ps[0].b)}`:""}.</div>`:""); }
 let CARDBLOB=null;
 async function makeCard(){
-  const k=state.you, s=SIGNS[DOY_SIGN[k]], all=F.filter(f=>f.sign===s), bm=bestMatch(s), near=nearOf(k)[0], famous=all.slice().sort((a,b)=>b.value-a.value).slice(0,3).map(f=>f.name);
+  const k=state.you, s=SIGNS[DOY_SIGN[k]], all=F.filter(f=>f.sign===s&&f.ring!=="fallen"), bm=bestMatch(s), near=nearOf(k)[0], famous=all.slice().sort((a,b)=>b.value-a.value).slice(0,3).map(f=>f.name);
   const c=document.createElement("canvas"); c.width=1200; c.height=675; const g=c.getContext("2d"); try{ await document.fonts.ready; }catch(e){}
   const r=rng(k+101);
   // red poster paper: mottled red, halftone, grain
@@ -1440,7 +1466,16 @@ const bigs=(...xs)=>`<div class="fbig">${xs.join("")}</div>`;
 const stampHTML=(word,kind,pos)=>`<div class="stamp ${kind}" style="${pos}">${word}</div>`;
 const in10=p=>["almost never","1 in 10","2 in 10","3 in 10","4 in 10","half","6 in 10","7 in 10","8 in 10","9 in 10","nearly all"][Math.round(p*10)];
 const L_=(n,t)=>`<b>${n}</b>${t}`;
-function panel(html){ fPanel.innerHTML=html; fPanel.querySelectorAll(".fcard,.scrap,.wcard,.wmini").forEach((el,k)=>{ el.style.clipPath=torn(k*13+FILM.i*7+1,4); }); }
+function panel(html){ fPanel.innerHTML=`<div class="fpz">${html}</div>`; fPanel.querySelectorAll(".fcard,.scrap,.wcard,.wmini").forEach((el,k)=>{ el.style.clipPath=torn(k*13+FILM.i*7+1,4); });
+  fitPanel(); fPanel.querySelectorAll("img").forEach(im=>{ if(!im.complete) im.addEventListener("load",fitPanel,{once:true}); }); }
+// phones: shrink a scene's graphics just enough to sit between the chapter label and the subtitles (captions never cover graphics)
+function fitPanel(){ const z=fPanel.querySelector(".fpz"); if(!z) return; z.style.transform=""; if(innerWidth>920||!FILM.on) return;
+  const r=z.getBoundingClientRect(); if(!r.height) return;
+  const subOn=!fSub.hidden&&fSub.textContent, bottom=(subOn?fSub.getBoundingClientRect().top:document.querySelector(".f-bar").getBoundingClientRect().top)-10, top=Math.max(52,fLabel.getBoundingClientRect().bottom+8);
+  const k=Math.min(1,(bottom-top)/r.height,(innerWidth-16)/r.width), h=r.height*k; let dy=0;
+  if(r.top<top) dy=top-r.top; if(r.top+dy+h>bottom) dy=bottom-h-r.top;
+  if(k<1||dy){ z.style.transformOrigin="50% 0"; z.style.transform=`translateY(${dy.toFixed(1)}px) scale(${k.toFixed(3)})`; } }
+window.addEventListener("resize",()=>{ if(FILM.on) fitPanel(); });
 // tweens run on timers, not animation frames, so they always land on their end state (background tabs, screen recorders)
 let camRaf=null;
 function camTo(fx,fy,z,dur){ const s0={fx:CAM.fx??CX,fy:CAM.fy??CY,z:CAM.z}, t0=performance.now(), D=REDUCED?1:dur; clearInterval(camRaf);
@@ -1531,7 +1566,7 @@ function fplay(i){ if(i<0||i>=FILMDATA.length) return; const tok=++FILM.tok; FIL
     fProg.style.width=Math.min(100,(before*1000+Math.min(el,dur))/(FTOTAL*1000)*100)+"%";
     if(el>=dur && !sc.hold){ clearInterval(iv); fplay(i+1); } },50);
 }
-function openFilm(start=0,paused=false){ if(!FILMDATA.length) return; FILM.on=true; FILM.paused=paused; document.getElementById("fPause").textContent="❚❚"; if(state.pinned) closeCard();
+function openFilm(start=0,paused=false){ if(!FILMDATA.length) return; closeBig(); FILM.on=true; FILM.paused=paused; document.getElementById("fPause").textContent="❚❚"; if(state.pinned) closeCard();
   if(!FILM.aud) FILM.aud=FILMDATA.map(b=>{ const a=new Audio(b.audio); a.preload="auto"; return a; });
   FILM.home=box.parentElement; FILM.next=box.nextSibling; fStage.appendChild(box); filmEl.hidden=false; document.body.style.overflow="hidden";
   resize(); fplay(start); }
@@ -1544,9 +1579,16 @@ document.getElementById("fNext").onclick=()=>fplay(Math.min(FILMDATA.length-1,FI
 document.getElementById("fPrev").onclick=()=>fplay(Math.max(0,FILM.i-1));
 document.getElementById("fPause").onclick=()=>{ FILM.paused=!FILM.paused; document.getElementById("fPause").textContent=FILM.paused?"▶":"❚❚"; if(FILM.cur){ if(FILM.paused) FILM.cur.pause(); else FILM.cur.play().catch(()=>{}); } };
 document.getElementById("fSound").onclick=()=>{ FILM.sound=!FILM.sound; document.getElementById("fSound").textContent=FILM.sound?"sound on":"sound off"; if(FILM.cur) FILM.cur.muted=!FILM.sound; };
-document.getElementById("fCC").onclick=()=>{ FILM.cc=!FILM.cc; document.getElementById("fCC").textContent=FILM.cc?"subtitles on":"subtitles off"; fSub.hidden=!FILM.cc; };
+document.getElementById("fCC").onclick=()=>{ FILM.cc=!FILM.cc; document.getElementById("fCC").textContent=FILM.cc?"subtitles on":"subtitles off"; fSub.hidden=!FILM.cc; fitPanel(); };
 document.addEventListener("keydown",e=>{ if(!FILM.on) return; if(e.key===" "){ e.preventDefault(); document.getElementById("fPause").click(); } if(e.key==="ArrowRight") document.getElementById("fNext").click(); if(e.key==="ArrowLeft") document.getElementById("fPrev").click(); });
 
+/* phones: open the small wheel full screen, and back */
+function openBig(){ const b=document.body, st=document.querySelector(".sticky"), sp=document.getElementById("stickyspace"); if(b.classList.contains("wheel-big")||!st||FILM.on) return;
+  sp.style.height=st.offsetHeight+"px"; sp.hidden=false; b.classList.add("wheel-big"); b.style.overflow="hidden"; document.getElementById("ringclose").focus({preventScroll:true}); }
+function closeBig(){ const b=document.body; if(!b.classList.contains("wheel-big")) return; if(state.pinned) closeCard(); card.hidden=true;
+  b.classList.remove("wheel-big"); b.style.overflow=""; document.getElementById("stickyspace").hidden=true; }
+document.getElementById("ringtap").onclick=openBig; document.getElementById("ringclose").onclick=closeBig;
+document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeBig(); });
 window.__founders={CAM,FX,state,FILM,sim:{F,SIM,simPerson,realCo,verdictHTML,foundYear,ideaOf,simPool,simDraw,simStats,compatible,rng,REALCOS,simUpdate}};   // for debugging in the console and the team-builder sweep
 /* ---------- start ---------- */
 steps.forEach(b=>b.wire&&b.wire());
